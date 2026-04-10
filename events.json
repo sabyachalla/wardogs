@@ -1,0 +1,362 @@
+{
+  "lastUpdated": "2026-04-09T12:00:00Z",
+  "scanSources": ["Yahoo Finance", "Reuters", "Google News", "Bloomberg"],
+  "events": [
+    {
+      "id": 1,
+      "rank": "HIGH",
+      "rankColor": "short",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Hormuz Naval Standoff",
+      "summary": "Iran's IRGC conducting aggressive intercepts of commercial tankers in the Strait of Hormuz. 20% of global oil transit at risk.",
+      "fresh": true,
+      "freshTs": "2h ago",
+      "risk": "HIGH",
+      "window": "Active now — 4–8 week horizon",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "Energy Select SPDR ETF (XLE)"},
+        {"label": "BUY", "cls": "buy", "target": "United States Oil Fund (USO)"},
+        {"label": "SHORT", "cls": "short", "target": "U.S. Global Jets ETF (JETS)"}
+      ],
+      "reasoning": "Strait closure or sustained harassment spikes Brent crude. XLE tracks major US energy producers who profit from elevated oil prices. USO gives direct crude exposure. JETS suffers because airline fuel costs surge. Search ticker XLE, USO, or JETS on any brokerage including Vanguard or Fidelity.",
+      "timeFrame": {
+        "enter": "Now through escalation peak",
+        "viable": "4–8 weeks",
+        "note": "Exit if ceasefire mediated by Oman or Qatar"
+      },
+      "exitStrategy": "Close XLE and USO if Brent drops back below $78. Cover JETS short if de-escalation signals emerge.",
+      "gains": {
+        "conservative": "+6–9%",
+        "conservativeNote": "Partial de-escalation within 3 weeks",
+        "base": "+14–18%",
+        "baseNote": "Standoff persists 6–8 weeks",
+        "extended": "+25–35%",
+        "extendedNote": "Kinetic incident closes strait temporarily",
+        "stopLoss": "-8% on XLE or USO"
+      },
+      "adjacentMarkets": ["Gold (safe haven bid)", "USD/JPY (risk-off yen strength)", "Shipping ETFs (BOAT)"],
+      "otherFactors": ["Saudi Aramco production decisions", "US 5th Fleet posture in Bahrain", "Israel-Hezbollah cross-border activity"]
+    },
+    {
+      "id": 2,
+      "rank": "HIGH",
+      "rankColor": "short",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Taiwan Strait PLA Incursions",
+      "summary": "PLA conducting daily median-line crossings and live-fire drills near Taiwan's ADIZ. TSMC supply chain risk rising.",
+      "fresh": true,
+      "freshTs": "6h ago",
+      "risk": "HIGH",
+      "window": "Active — 3–12 month horizon",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "iShares U.S. Aerospace & Defense ETF (ITA)"},
+        {"label": "SHORT", "cls": "short", "target": "iShares MSCI Taiwan ETF (EWT)"}
+      ],
+      "reasoning": "Escalating PLA activity raises probability of blockade scenario. Defense contractors surge on supplemental appropriations. Taiwan-listed equities carry direct invasion premium. ITA holds Lockheed, RTX, Northrop — all benefit from Indo-Pacific defense spending. EWT is roughly 60% TSMC. Search ITA or EWT on Vanguard, Fidelity, or Schwab.",
+      "timeFrame": {
+        "enter": "Now — drills escalating",
+        "viable": "3–12 months",
+        "note": "Watch for PLA naval blockade exercises as escalation signal"
+      },
+      "exitStrategy": "Close ITA if US-China diplomatic talks resume at secretary level. Cover EWT short if PLA stands down or TSMC announces US fab acceleration.",
+      "gains": {
+        "conservative": "+8–12%",
+        "conservativeNote": "Elevated tension without kinetic action",
+        "base": "+20–30%",
+        "baseNote": "Blockade or quarantine imposed",
+        "extended": "+45%+",
+        "extendedNote": "Kinetic conflict begins",
+        "stopLoss": "-10% on ITA"
+      },
+      "adjacentMarkets": ["SOXX (semiconductor supply chain)", "Japan defense stocks", "UST 10yr (flight to safety)"],
+      "otherFactors": ["US carrier group positioning", "TSMC Arizona fab progress", "Philippine basing agreements"]
+    },
+    {
+      "id": 3,
+      "rank": "HIGH",
+      "rankColor": "short",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Iran Nuclear Breakout Timeline",
+      "summary": "IAEA confirms Iran enriching at 84% purity. Breakout window now estimated at 1–2 weeks. Israel strike authorization debate ongoing in cabinet.",
+      "fresh": false,
+      "freshTs": "1d ago",
+      "risk": "HIGH",
+      "window": "2–6 week decision window",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "SPDR S&P Oil & Gas Exploration ETF (XOP)"},
+        {"label": "BUY", "cls": "buy", "target": "iShares Gold Trust (IAU)"},
+        {"label": "BUY", "cls": "buy", "target": "iShares U.S. Aerospace & Defense ETF (ITA)"}
+      ],
+      "reasoning": "Israeli strike on Natanz triggers regional war premium across energy and safe havens. XOP captures upstream producers who benefit from $100+ oil. IAU is the most liquid gold ETF — gold historically gains 8–15% in Middle East war scares. ITA benefits from accelerated US arms transfers to Israel. Search XOP, IAU, ITA on any brokerage.",
+      "timeFrame": {
+        "enter": "Now — window closing fast",
+        "viable": "2–6 weeks",
+        "note": "Diplomatic reset via Swiss back-channel would invalidate"
+      },
+      "exitStrategy": "Exit all three if Iran agrees to IAEA snap inspections or US-Iran back-channel confirmed.",
+      "gains": {
+        "conservative": "+5–8%",
+        "conservativeNote": "Strike threat without execution",
+        "base": "+18–25%",
+        "baseNote": "Limited Israeli airstrike on enrichment facilities",
+        "extended": "+40%+",
+        "extendedNote": "Full regional war involving US assets",
+        "stopLoss": "-7% on XOP"
+      },
+      "adjacentMarkets": ["Shipping (Suez closure risk)", "Israeli shekel", "Defense primes"],
+      "otherFactors": ["US carrier group in Red Sea", "Jordan airspace access", "Hezbollah second front"]
+    },
+    {
+      "id": 4,
+      "rank": "HIGH",
+      "rankColor": "short",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Russia-Ukraine Ceasefire Talks",
+      "summary": "US-brokered ceasefire framework under negotiation. Potential 90-day halt in hostilities being discussed. European reconstruction spending could reach $1T.",
+      "fresh": true,
+      "freshTs": "3h ago",
+      "risk": "MED",
+      "window": "Decision point 2–4 weeks",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "Vanguard FTSE Europe ETF (VGK)"},
+        {"label": "BUY", "cls": "buy", "target": "iShares Global Infrastructure ETF (IGF)"},
+        {"label": "SHORT", "cls": "short", "target": "United States Natural Gas Fund (UNG)"}
+      ],
+      "reasoning": "Ceasefire unlocks massive European reconstruction trade. VGK captures the broad European equity rally (German industrials, French banks, Polish infrastructure). IGF holds global infrastructure builders who win reconstruction contracts. UNG shorts the natural gas premium baked in since the pipeline cuts — ceasefire normalizes European gas supply. Search VGK, IGF, UNG on Vanguard, Fidelity, or E*TRADE.",
+      "timeFrame": {
+        "enter": "On ceasefire confirmation",
+        "viable": "6–18 months",
+        "note": "Stage entry: partial on announcement, full on implementation"
+      },
+      "exitStrategy": "Hold VGK and IGF through reconstruction boom. Exit UNG short if Russia re-escalates or pipeline attacks resume.",
+      "gains": {
+        "conservative": "+10–15%",
+        "conservativeNote": "Ceasefire without peace deal, European relief rally",
+        "base": "+25–40%",
+        "baseNote": "Full reconstruction phase begins",
+        "extended": "+60%+",
+        "extendedNote": "Marshall Plan-scale EU spending unlocked",
+        "stopLoss": "-8% on VGK if talks collapse"
+      },
+      "adjacentMarkets": ["EUR/USD (euro strength)", "German Bunds", "Steel and cement producers"],
+      "otherFactors": ["NATO Article 5 guarantees for Ukraine", "Crimea status", "Russian sanctions rollback timeline"]
+    },
+    {
+      "id": 5,
+      "rank": "MED",
+      "rankColor": "rotate",
+      "category": "policy",
+      "catLabel": "Policy Change",
+      "title": "CHIPS Act 2.0 Vote Imminent",
+      "summary": "Senate vote on $52B CHIPS Act 2.0 scheduled. Includes domestic fab subsidies and Chinese semiconductor import restrictions.",
+      "fresh": false,
+      "freshTs": "2d ago",
+      "risk": "MED",
+      "window": "Vote within 2 weeks",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "iShares Semiconductor ETF (SOXX)"},
+        {"label": "SHORT", "cls": "short", "target": "iShares MSCI China Tech ETF (CQQQ)"}
+      ],
+      "reasoning": "CHIPS 2.0 directly subsidizes Intel, TSMC Arizona, Samsung Texas, and Micron. SOXX captures all domestic beneficiaries. CQQQ holds Chinese fabs that lose market access — SMIC, Hua Hong, Will Semiconductor all face new export controls. Search SOXX and CQQQ on Vanguard, TD Ameritrade, or Schwab.",
+      "timeFrame": {
+        "enter": "Before vote announcement",
+        "viable": "2–4 weeks",
+        "note": "Strongest move happens day of Senate vote"
+      },
+      "exitStrategy": "Take 50% profit on SOXX post-vote. Hold remainder through subsidy deployment. Cover CQQQ short if bill stalls in committee.",
+      "gains": {
+        "conservative": "+5–8%",
+        "conservativeNote": "Bill passes with amendments",
+        "base": "+12–18%",
+        "baseNote": "Clean passage with full subsidy package",
+        "extended": "+25%+",
+        "extendedNote": "Includes advanced packaging provisions and ally-extension",
+        "stopLoss": "-6% on SOXX"
+      },
+      "adjacentMarkets": ["AMAT, LRCX (equipment makers)", "Real estate near fab sites", "TSMC ADR (TSM)"],
+      "otherFactors": ["Bipartisan support level", "WTO challenge from EU", "TSMC Arizona yield ramp"]
+    },
+    {
+      "id": 6,
+      "rank": "MED",
+      "rankColor": "rotate",
+      "category": "policy",
+      "catLabel": "Policy Change",
+      "title": "China ¥10T Stimulus Package",
+      "summary": "PBOC and NDRC jointly announcing ¥10 trillion infrastructure and consumer stimulus. Largest package since 2008.",
+      "fresh": true,
+      "freshTs": "5h ago",
+      "risk": "MED",
+      "window": "3–9 month deployment",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "iShares MSCI China ETF (MCHI)"},
+        {"label": "BUY", "cls": "buy", "target": "SPDR S&P Metals & Mining ETF (XME)"},
+        {"label": "BUY", "cls": "buy", "target": "Vanguard FTSE Emerging Markets ETF (VWO)"}
+      ],
+      "reasoning": "Chinese infrastructure stimulus creates a commodity supercycle impulse. MCHI directly captures Chinese equities — consumer, property, and tech all benefit from liquidity injection. XME captures US-listed metals companies (copper, steel, aluminum) that supply Chinese construction. VWO gives broad EM exposure as dollar weakens from risk-on flows. Search MCHI, XME, VWO on Vanguard or Fidelity.",
+      "timeFrame": {
+        "enter": "Now — pre-deployment positioning",
+        "viable": "3–9 months",
+        "note": "Largest gains front-loaded in first 60 days"
+      },
+      "exitStrategy": "Trim MCHI at +20%. Hold XME through full construction cycle. Exit VWO if USD strengthens on Fed hawkishness.",
+      "gains": {
+        "conservative": "+8–12%",
+        "conservativeNote": "Stimulus deployed but property sector drag persists",
+        "base": "+20–30%",
+        "baseNote": "Full multiplier effect across construction and consumer",
+        "extended": "+45%+",
+        "extendedNote": "2008-style global commodity supercycle",
+        "stopLoss": "-10% on MCHI"
+      },
+      "adjacentMarkets": ["Copper futures (HG)", "Australian dollar", "Iron ore (CLF)"],
+      "otherFactors": ["Property developer debt restructuring", "Local government bond issuance", "Yuan depreciation risk"]
+    },
+    {
+      "id": 7,
+      "rank": "MED",
+      "rankColor": "rotate",
+      "category": "policy",
+      "catLabel": "Policy Change",
+      "title": "Fed Confirms 3 Rate Cuts This Year",
+      "summary": "Fed Chair signals three 25bp cuts in dot plot. Inflation cooling to 2.3%. Bond markets pricing in first cut in June.",
+      "fresh": false,
+      "freshTs": "3d ago",
+      "risk": "LOW",
+      "window": "6–12 month rate cycle",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "iShares 20+ Year Treasury Bond ETF (TLT)"},
+        {"label": "BUY", "cls": "buy", "target": "Vanguard Real Estate ETF (VNQ)"},
+        {"label": "ROTATE", "cls": "rotate", "target": "Vanguard Dividend Appreciation ETF (VIG)"}
+      ],
+      "reasoning": "Rate cuts are rocket fuel for long-duration bonds and rate-sensitive equities. TLT gains roughly 8–10% per 100bp of cuts — three cuts equals ~6–7% TLT upside minimum. VNQ (REITs) are the highest-beta beneficiary of falling rates — cap rates compress, property values rise. Rotate out of growth into VIG (dividend growers) which outperform in late-cycle easing. Search TLT, VNQ, VIG on Vanguard directly.",
+      "timeFrame": {
+        "enter": "Now — pre-cut positioning is the trade",
+        "viable": "6–12 months",
+        "note": "Maximum TLT upside is BEFORE each cut is priced in"
+      },
+      "exitStrategy": "Trim TLT after each 25bp cut as it reprices. Hold VNQ through full cutting cycle. Exit VIG if inflation re-accelerates above 3%.",
+      "gains": {
+        "conservative": "+5–8%",
+        "conservativeNote": "One cut only, Fed pauses",
+        "base": "+12–18%",
+        "baseNote": "Three cuts delivered as signaled",
+        "extended": "+25%+",
+        "extendedNote": "Emergency cuts added on recession signal",
+        "stopLoss": "-6% on TLT if inflation re-accelerates"
+      },
+      "adjacentMarkets": ["Homebuilders (XHB)", "Utilities (XLU)", "Investment-grade credit (LQD)"],
+      "otherFactors": ["PCE inflation readings", "Unemployment rate trajectory", "10yr-2yr yield curve normalization"]
+    },
+    {
+      "id": 8,
+      "rank": "MED",
+      "rankColor": "rotate",
+      "category": "techai",
+      "catLabel": "Tech & AI",
+      "title": "AI Inference Costs Collapse",
+      "summary": "Groq, Cerebras, and AWS Inferentia2 cutting inference costs 80% YoY. GPT-4 class models now $0.50/1M tokens. Enterprise AI adoption inflecting.",
+      "fresh": false,
+      "freshTs": "4d ago",
+      "risk": "MED",
+      "window": "12–24 month structural shift",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "Vanguard Information Technology ETF (VGT)"},
+        {"label": "ROTATE", "cls": "rotate", "target": "VanEck Semiconductor ETF (SMH)"}
+      ],
+      "reasoning": "Falling inference costs democratize AI — the enterprise software layer becomes the value capture, not chips. VGT is heavily weighted to Microsoft, Apple, and Salesforce — all deploying AI at the application layer. Rotate out of SMH (chip-heavy) partially into VGT as the margin accrual shifts from hardware to software. This is a 12–24 month structural reweighting, not a short-term trade. Search VGT and SMH on Vanguard.",
+      "timeFrame": {
+        "enter": "Now — early innings of application layer boom",
+        "viable": "12–24 months",
+        "note": "Not time-sensitive — this is a slow structural rotation"
+      },
+      "exitStrategy": "Hold VGT until enterprise AI revenue clearly plateaus. Re-enter SMH if next-gen chip architecture creates new hardware bottleneck.",
+      "gains": {
+        "conservative": "+10–15%",
+        "conservativeNote": "Gradual enterprise adoption",
+        "base": "+25–40%",
+        "baseNote": "AI becomes standard enterprise infrastructure",
+        "extended": "+60%+",
+        "extendedNote": "AGI-proximate breakthrough unlocks new demand curve",
+        "stopLoss": "-10% on VGT"
+      },
+      "adjacentMarkets": ["Cloud providers (CLOU ETF)", "Cybersecurity (CIBR)", "Power infrastructure (GRID)"],
+      "otherFactors": ["OpenAI / Anthropic pricing wars", "Hyperscaler capex trajectory", "Sovereign AI initiatives"]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "rankColor": "rotate",
+      "category": "policy",
+      "catLabel": "Policy Change",
+      "title": "US Debt Ceiling X-Date Approaching",
+      "summary": "Treasury extraordinary measures exhausted by July. Congress in stalemate. Default risk premium building in short-term T-bills.",
+      "fresh": false,
+      "freshTs": "5d ago",
+      "risk": "HIGH",
+      "window": "6–10 week crisis window",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "SPDR Gold Shares (GLD)"},
+        {"label": "BUY", "cls": "buy", "target": "iShares Short Treasury Bond ETF (SHV)"}
+      ],
+      "reasoning": "Debt ceiling standoffs create acute safe-haven demand. GLD is the classic hedge — gained 4–8% in both 2011 and 2023 debt limit crises. SHV holds T-bills maturing BEFORE the X-date, so you capture yield without default exposure — it's where institutional money parks during the uncertainty. Avoid individual T-bills maturing near the X-date. Search GLD and SHV on Vanguard or any brokerage.",
+      "timeFrame": {
+        "enter": "Now — 6 weeks before X-date",
+        "viable": "6–10 weeks",
+        "note": "Exit rapidly on deal announcement — move is fast and reverses"
+      },
+      "exitStrategy": "Sell GLD within 24 hours of debt deal announcement — gold drops immediately on resolution. Roll SHV into longer-duration treasuries after deal.",
+      "gains": {
+        "conservative": "+3–5%",
+        "conservativeNote": "Deal reached before X-date",
+        "base": "+8–12%",
+        "baseNote": "Brinksmanship goes to last-minute deal",
+        "extended": "+20%+",
+        "extendedNote": "Technical default on non-critical payments",
+        "stopLoss": "-4% on GLD if deal announced early"
+      },
+      "adjacentMarkets": ["VIX (volatility spike)", "JPY safe haven", "BTC (alternative store of value)"],
+      "otherFactors": ["Speaker McCarthy / Johnson negotiating posture", "Treasury cash balance", "Fitch / Moody's watch status"]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "rankColor": "buy",
+      "category": "policy",
+      "catLabel": "Policy Change",
+      "title": "Clean Energy Tax Credits Expansion",
+      "summary": "IRA clean energy credits being extended and expanded in budget reconciliation. Solar, wind, battery storage all qualify for enhanced PTCs.",
+      "fresh": false,
+      "freshTs": "1w ago",
+      "risk": "LOW",
+      "window": "12–36 month buildout cycle",
+      "actions": [
+        {"label": "BUY", "cls": "buy", "target": "iShares Global Clean Energy ETF (ICLN)"},
+        {"label": "BUY", "cls": "buy", "target": "Vanguard Utilities ETF (VPU)"},
+        {"label": "WATCH", "cls": "rotate", "target": "NextEra Energy (NEE)"}
+      ],
+      "reasoning": "Extended tax credits make utility-scale solar and wind projects cash-flow positive years earlier. ICLN holds First Solar, Vestas, Enphase — all direct beneficiaries of production tax credits. VPU captures regulated utilities pivoting to renewables with guaranteed returns. NEE is the single best-in-class clean energy utility — watch for entry below $60. Search ICLN, VPU on Vanguard. NEE is available on all brokerages.",
+      "timeFrame": {
+        "enter": "Anytime in next 90 days",
+        "viable": "12–36 months",
+        "note": "Long-duration trade — not sensitive to week-by-week news"
+      },
+      "exitStrategy": "Hold through full IRA deployment cycle (2026–2030). Exit if Congress passes IRA rollback.",
+      "gains": {
+        "conservative": "+8–12%",
+        "conservativeNote": "Steady buildout pace",
+        "base": "+20–30%",
+        "baseNote": "Accelerated permitting + credit extension",
+        "extended": "+50%+",
+        "extendedNote": "Clean energy supercycle with grid modernization",
+        "stopLoss": "-8% on ICLN"
+      },
+      "adjacentMarkets": ["Lithium (LIT ETF)", "Copper demand", "Grid storage (BATT ETF)"],
+      "otherFactors": ["FERC permitting reform", "Offshore wind lease auctions", "Battery cost curve ($/kWh)"]
+    }
+  ]
+}

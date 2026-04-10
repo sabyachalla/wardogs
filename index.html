@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>War Dogs — Investment Signals</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#080D17;--bg2:#060A12;--card:#0E1A2E;--card2:#0B1424;
+  --border:#162034;--border2:#1E2D45;
+  --teal:#00D4AA;--policy:#3B82F6;--milgeo:#F59E0B;--techai:#A78BFA;
+  --buy:#22C55E;--short:#EF4444;--rotate:#F59E0B;--watch:#94A3B8;
+  --gold:#F59E0B;
+  --hi:#E6EDF3;--mid:#94A3B8;--dim:#3D526A;--white:#FFFFFF;
+  --radius:8px;--radius-sm:5px;
+}
+html{font-size:16px;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--hi);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;min-height:100vh;-webkit-font-smoothing:antialiased}
+
+/* ── HEADER ── */
+#app-header{position:sticky;top:0;z-index:100;background:var(--bg2);border-bottom:1px solid var(--border);backdrop-filter:blur(12px)}
+.header-inner{max-width:980px;margin:0 auto;padding:0 20px;height:52px;display:flex;align-items:center;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;cursor:pointer;flex-shrink:0}
+.logo-bar{display:block;width:3px;height:22px;background:var(--short);border-radius:2px}
+.logo-text{font-size:16px;font-weight:700;color:var(--white);letter-spacing:-0.3px}
+.logo-text span{color:var(--short)}
+
+/* Nav tabs */
+.nav-tabs{display:flex;align-items:center;gap:2px}
+.nav-tab{background:none;border:none;padding:6px 14px;font-size:12px;font-weight:600;color:var(--mid);cursor:pointer;border-radius:6px;transition:all 0.15s;white-space:nowrap}
+.nav-tab:hover:not(.active){color:var(--hi);background:rgba(255,255,255,.05)}
+.nav-tab.active{color:var(--white);background:rgba(239,68,68,.15);color:var(--short)}
+.nav-tab[data-view="wallet"].active{background:rgba(245,158,11,.15);color:var(--gold)}
+.nav-tab[data-view="ledger"].active{background:rgba(59,130,246,.15);color:var(--policy)}
+
+.header-right{margin-left:auto;display:flex;align-items:center;gap:12px}
+.scan-dot{width:6px;height:6px;border-radius:50%;background:var(--buy);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.disclaimer{font-size:10px;color:var(--dim);letter-spacing:0.2px}
+
+/* ── VIEWS ── */
+.view{display:none}.view.active{display:block}
+.page-wrap{max-width:860px;margin:0 auto;padding:0 20px 60px}
+
+/* ── FEED ── */
+.feed-header{padding:28px 0 0}
+.feed-title-row{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:18px}
+.feed-title-row h1{font-size:26px;font-weight:700;color:var(--white);letter-spacing:-0.4px}
+.sort-badge{font-size:11px;color:var(--short);font-weight:600;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.25);padding:4px 10px;border-radius:20px;letter-spacing:0.3px}
+
+.scan-bar{display:flex;align-items:center;gap:8px;padding:8px 14px;background:rgba(34,197,94,.05);border:1px solid rgba(34,197,94,.12);border-radius:var(--radius);margin-bottom:12px;font-size:10.5px;color:var(--dim)}
+.scan-bar strong{color:var(--buy);font-weight:600}
+.scan-sources{display:flex;gap:6px;margin-left:4px}
+.scan-source{font-size:9.5px;font-weight:700;letter-spacing:.5px;padding:1px 5px;border-radius:3px;background:rgba(148,163,184,.08);border:1px solid rgba(148,163,184,.15);color:var(--dim)}
+.scan-bar .ml-auto{margin-left:auto;font-style:italic}
+
+.filter-bar{display:flex;align-items:center;gap:8px;padding:12px 14px;background:var(--card2);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:16px;flex-wrap:wrap}
+.filter-label{font-size:11px;color:var(--dim);margin-right:2px}
+.filter-btn{background:none;border:1px solid var(--border2);border-radius:20px;padding:4px 12px;font-size:11.5px;font-weight:600;color:var(--mid);cursor:pointer;transition:all 0.15s;letter-spacing:0.2px}
+.filter-btn:hover{border-color:var(--mid);color:var(--hi)}
+.filter-btn.active{background:var(--short);border-color:var(--short);color:#fff}
+.filter-btn[data-filter="policy"].active{background:var(--policy);border-color:var(--policy);color:#fff}
+.filter-btn[data-filter="milgeo"].active{background:var(--milgeo);border-color:var(--milgeo);color:#000}
+.filter-btn[data-filter="techai"].active{background:var(--techai);border-color:var(--techai);color:#fff}
+.filter-note{margin-left:auto;font-size:10px;color:var(--dim);font-style:italic}
+
+/* ── EVENT CARD ── */
+.event-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px 14px;margin-bottom:10px;cursor:pointer;transition:border-color 0.15s,transform 0.12s,box-shadow 0.15s;display:flex;gap:14px;align-items:flex-start;position:relative;overflow:hidden}
+.event-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:3px 0 0 3px}
+.event-card[data-cat="milgeo"]::before{background:var(--milgeo)}
+.event-card[data-cat="policy"]::before{background:var(--policy)}
+.event-card[data-cat="techai"]::before{background:var(--techai)}
+.event-card:hover{border-color:var(--border2);transform:translateY(-1px);box-shadow:0 4px 20px rgba(0,0,0,.35)}
+.rank-badge{flex-shrink:0;width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800;margin-top:2px}
+.card-main{flex:1;min-width:0}
+.card-top-row{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.cat-badge{font-size:9.5px;font-weight:700;letter-spacing:1.2px;padding:2px 7px;border-radius:3px;text-transform:uppercase}
+.cat-badge.milgeo{color:var(--milgeo);background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.25)}
+.cat-badge.policy{color:var(--policy);background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.25)}
+.cat-badge.techai{color:var(--techai);background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.25)}
+.fresh-time{margin-left:auto;font-size:10px;color:var(--dim)}
+.card-title{font-size:15.5px;font-weight:700;color:var(--white);margin-bottom:5px;line-height:1.3;letter-spacing:-0.2px}
+.card-summary{font-size:12px;color:var(--mid);line-height:1.5;margin-bottom:11px}
+.card-bottom-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.action-pill{font-size:10px;font-weight:800;padding:3px 9px;border-radius:3px;letter-spacing:0.5px;text-transform:uppercase}
+.action-pill.buy{background:var(--buy);color:#000}
+.action-pill.short{background:var(--short);color:#fff}
+.action-pill.rotate{background:var(--rotate);color:#000}
+.action-pill.watch{background:transparent;border:1px solid var(--watch);color:var(--watch)}
+.pill-target{font-size:10.5px;color:var(--mid);margin-right:4px}
+.card-meta{margin-left:auto;display:flex;align-items:center;gap:10px}
+.risk-chip{display:flex;align-items:center;gap:5px;font-size:10.5px;font-weight:700}
+.risk-dot{width:7px;height:7px;border-radius:50%}
+.risk-chip.high .risk-dot{background:var(--short)}.risk-chip.high{color:var(--short)}
+.risk-chip.med .risk-dot{background:var(--rotate)}.risk-chip.med{color:var(--rotate)}
+.risk-chip.low .risk-dot{background:var(--buy)}.risk-chip.low{color:var(--buy)}
+.window-text{font-size:10.5px;color:var(--dim)}
+.card-arrow{flex-shrink:0;width:24px;height:24px;border-radius:4px;background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.2);display:flex;align-items:center;justify-content:center;font-size:14px;color:var(--short);margin-top:4px;transition:background 0.15s}
+.event-card:hover .card-arrow{background:rgba(239,68,68,.2)}
+
+/* ── DETAIL VIEW ── */
+#detail-view{animation:fadeSlideIn 0.22s ease}
+@keyframes fadeSlideIn{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:translateX(0)}}
+.back-row{padding:20px 0 0;margin-bottom:20px}
+#back-btn{background:none;border:1px solid var(--border2);border-radius:20px;padding:6px 14px;font-size:12px;font-weight:600;color:var(--mid);cursor:pointer;transition:all 0.15s}
+#back-btn:hover{border-color:var(--short);color:var(--short)}
+.detail-header{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px 18px;margin-bottom:14px;position:relative;overflow:hidden}
+.detail-header::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
+.detail-header.milgeo::before{background:var(--milgeo)}
+.detail-header.policy::before{background:var(--policy)}
+.detail-header.techai::before{background:var(--techai)}
+.detail-header-top{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.detail-title{font-size:22px;font-weight:800;color:var(--white);letter-spacing:-0.4px;line-height:1.25;margin-bottom:8px}
+.detail-summary{font-size:13.5px;color:var(--mid);line-height:1.55;margin-bottom:16px}
+.detail-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.detail-action-item{display:flex;align-items:center;gap:7px}
+.detail-action-label{font-size:10.5px;color:var(--dim)}
+.action-pill-lg{font-size:11.5px;font-weight:800;padding:5px 14px;border-radius:4px;letter-spacing:0.6px;text-transform:uppercase}
+.action-pill-lg.buy{background:var(--buy);color:#000}
+.action-pill-lg.short{background:var(--short);color:#fff}
+.action-pill-lg.rotate{background:var(--rotate);color:#000}
+.action-pill-lg.watch{background:transparent;border:1px solid var(--watch);color:var(--watch)}
+.detail-meta-row{display:flex;align-items:center;gap:16px;margin-top:14px;padding-top:14px;border-top:1px solid var(--border);flex-wrap:wrap}
+.detail-meta-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--dim)}
+.detail-meta-item strong{color:var(--mid)}
+.breakdown-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.breakdown-grid.full{grid-template-columns:1fr}
+.breakdown-card{background:var(--card2);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;position:relative;overflow:hidden}
+.breakdown-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px}
+.bc-teal::before{background:var(--teal)}.bc-policy::before{background:var(--policy)}
+.bc-buy::before{background:var(--buy)}.bc-short::before{background:var(--short)}
+.bc-milgeo::before{background:var(--milgeo)}.bc-techai::before{background:var(--techai)}
+.bc-label{font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:8px}
+.bc-teal .bc-label{color:var(--teal)}.bc-policy .bc-label{color:var(--policy)}
+.bc-buy .bc-label{color:var(--buy)}.bc-milgeo .bc-label{color:var(--milgeo)}
+.bc-techai .bc-label{color:var(--techai)}
+.bc-title{font-size:15px;font-weight:700;color:var(--hi);margin-bottom:10px;letter-spacing:-0.2px}
+.bc-body{font-size:13px;color:var(--mid);line-height:1.65}
+.gains-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+.gain-scenario{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:10px 12px;text-align:center}
+.gain-scenario-label{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin-bottom:5px}
+.gain-value{font-size:19px;font-weight:800;letter-spacing:-0.5px}
+.gain-value.cons{color:var(--watch)}.gain-value.base{color:var(--buy)}.gain-value.extend{color:var(--teal)}
+.gain-sublabel{font-size:9.5px;color:var(--dim);margin-top:3px}
+.stop-loss-note{margin-top:12px;padding:9px 12px;background:rgba(239,68,68,.07);border:1px solid rgba(239,68,68,.18);border-radius:6px;font-size:11.5px;color:var(--short)}
+.adjacent-list{margin-top:8px}
+.adjacent-item{display:flex;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}
+.adjacent-item:last-child{border-bottom:none;padding-bottom:0}
+.adj-dir{flex-shrink:0;font-size:10px;font-weight:800;padding:2px 7px;border-radius:3px;margin-top:2px;letter-spacing:0.5px}
+.adj-dir.up{background:rgba(34,197,94,.15);color:var(--buy);border:1px solid rgba(34,197,94,.25)}
+.adj-dir.down{background:rgba(239,68,68,.12);color:var(--short);border:1px solid rgba(239,68,68,.22)}
+.adj-dir.watch{background:rgba(148,163,184,.1);color:var(--watch);border:1px solid rgba(148,163,184,.2)}
+.adj-market-name{font-size:12.5px;font-weight:600;color:var(--hi);margin-bottom:2px}
+.adj-reason{font-size:11.5px;color:var(--mid);line-height:1.5}
+.factors-list{margin-top:8px}
+.factor-item{padding:10px 0;border-bottom:1px solid var(--border)}
+.factor-item:last-child{border-bottom:none;padding-bottom:0}
+.factor-name{font-size:12.5px;font-weight:600;color:var(--hi);margin-bottom:3px}
+.factor-text{font-size:11.5px;color:var(--mid);line-height:1.55}
+.tf-row{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.tf-item{display:flex;align-items:flex-start;gap:10px}
+.tf-key{flex-shrink:0;font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--dim);padding-top:2px;width:56px}
+.tf-val{font-size:12.5px;color:var(--mid);line-height:1.55}
+.tf-val strong{color:var(--hi)}
+.detail-disclaimer{margin-top:28px;padding:14px 18px;background:var(--card2);border:1px solid var(--border);border-radius:var(--radius);font-size:11px;color:var(--dim);line-height:1.6;font-style:italic}
+
+/* ── WALLET VIEW ── */
+.section-header{padding:28px 0 20px}
+.section-header h1{font-size:24px;font-weight:800;color:var(--white);letter-spacing:-0.4px;margin-bottom:6px}
+.section-header p{font-size:13px;color:var(--mid)}
+
+.wallet-hero{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:24px 26px;margin-bottom:16px;position:relative;overflow:hidden}
+.wallet-hero::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),var(--teal))}
+.wallet-label{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+.wallet-value{font-size:38px;font-weight:800;color:var(--white);letter-spacing:-1px;line-height:1}
+.wallet-return{font-size:16px;font-weight:700;color:var(--buy);margin-top:6px;margin-bottom:18px}
+.wallet-return span{font-size:12px;color:var(--dim);font-weight:400;margin-left:6px}
+
+.wallet-stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.wstat{text-align:center;background:var(--card2);border:1px solid var(--border);border-radius:6px;padding:12px 8px}
+.wstat-val{font-size:20px;font-weight:800;letter-spacing:-0.5px;margin-bottom:3px}
+.wstat-val.green{color:var(--buy)}.wstat-val.gold{color:var(--gold)}.wstat-val.blue{color:var(--policy)}.wstat-val.red{color:var(--short)}
+.wstat-label{font-size:9px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--dim)}
+
+.wallet-section-title{font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--mid);margin:20px 0 10px;display:flex;align-items:center;justify-content:space-between}
+.wallet-section-title a{font-size:10.5px;color:var(--policy);font-weight:600;letter-spacing:.3px;text-transform:none;cursor:pointer;text-decoration:none}
+.wallet-section-title a:hover{color:var(--hi)}
+
+.position-row{display:flex;align-items:center;gap:12px;padding:11px 14px;background:var(--card);border:1px solid var(--border);border-radius:6px;margin-bottom:7px;cursor:pointer;transition:border-color .15s}
+.position-row:hover{border-color:var(--border2)}
+.pos-ticker{font-size:13px;font-weight:800;color:var(--white);width:52px;flex-shrink:0}
+.pos-event{font-size:11.5px;color:var(--mid);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pos-notional{font-size:12px;color:var(--dim);width:52px;text-align:right;flex-shrink:0}
+.pos-pnl{font-size:13px;font-weight:700;width:68px;text-align:right;flex-shrink:0}
+.pos-pnl.pos{color:var(--buy)}.pos-pnl.neg{color:var(--short)}
+.pos-pct{font-size:10.5px;font-weight:600;padding:2px 7px;border-radius:3px;flex-shrink:0}
+.pos-pct.pos{background:rgba(34,197,94,.12);color:var(--buy)}.pos-pct.neg{background:rgba(239,68,68,.1);color:var(--short)}
+
+.wallet-total-row{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:rgba(0,212,170,.05);border:1px solid rgba(0,212,170,.15);border-radius:6px;margin-top:4px}
+.wallet-total-label{font-size:11px;font-weight:700;color:var(--teal);letter-spacing:.5px}
+.wallet-total-val{font-size:14px;font-weight:800;color:var(--teal)}
+
+.wallet-note{margin-top:14px;padding:12px 16px;background:var(--card2);border:1px solid var(--border);border-radius:6px;font-size:11px;color:var(--dim);line-height:1.6;font-style:italic}
+
+/* ── LEDGER VIEW ── */
+.accuracy-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+.acc-stat{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px}
+.acc-stat-val{font-size:24px;font-weight:800;letter-spacing:-0.5px;margin-bottom:4px}
+.acc-stat-val.green{color:var(--buy)}.acc-stat-val.gold{color:var(--gold)}.acc-stat-val.blue{color:var(--policy)}.acc-stat-val.red{color:var(--short)}
+.acc-stat-label{font-size:9.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--dim)}
+
+.ledger-filter-bar{display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.lf-btn{background:none;border:1px solid var(--border2);border-radius:20px;padding:4px 12px;font-size:11px;font-weight:600;color:var(--mid);cursor:pointer;transition:all .15s}
+.lf-btn:hover{border-color:var(--mid);color:var(--hi)}
+.lf-btn.active{background:var(--teal);border-color:var(--teal);color:var(--bg)}
+.lf-btn[data-lf="WIN"].active{background:var(--buy);border-color:var(--buy);color:#000}
+.lf-btn[data-lf="MIXED"].active{background:var(--gold);border-color:var(--gold);color:#000}
+.lf-btn[data-lf="LOSS"].active{background:var(--short);border-color:var(--short);color:#fff}
+
+.ledger-row{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:9px;position:relative;overflow:hidden}
+.ledger-row::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
+.ledger-row.WIN::before{background:var(--buy)}
+.ledger-row.MIXED::before{background:var(--gold)}
+.ledger-row.LOSS::before{background:var(--short)}
+.ledger-top{display:flex;align-items:flex-start;gap:10px;margin-bottom:8px}
+.outcome-badge{flex-shrink:0;font-size:9px;font-weight:800;letter-spacing:1px;padding:3px 8px;border-radius:3px}
+.outcome-badge.WIN{background:rgba(34,197,94,.15);color:var(--buy);border:1px solid rgba(34,197,94,.25)}
+.outcome-badge.MIXED{background:rgba(245,158,11,.12);color:var(--gold);border:1px solid rgba(245,158,11,.25)}
+.outcome-badge.LOSS{background:rgba(239,68,68,.1);color:var(--short);border:1px solid rgba(239,68,68,.2)}
+.ledger-title{font-size:14px;font-weight:700;color:var(--white);flex:1;line-height:1.3}
+.ledger-actual{font-size:18px;font-weight:800;letter-spacing:-0.5px}
+.ledger-actual.pos{color:var(--buy)}.ledger-actual.neg{color:var(--short)}.ledger-actual.mix{color:var(--gold)}
+.ledger-meta{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.lm-item{font-size:10.5px;color:var(--dim);display:flex;align-items:center;gap:4px}
+.lm-item strong{color:var(--mid);font-weight:600}
+.lm-actions{display:flex;gap:6px;flex-wrap:wrap}
+.lm-action-chip{font-size:9.5px;font-weight:700;padding:1px 7px;border-radius:3px;background:var(--card2);border:1px solid var(--border2);color:var(--mid)}
+.ledger-notes{margin-top:8px;font-size:11px;color:var(--dim);line-height:1.55;border-top:1px solid var(--border);padding-top:8px;font-style:italic}
+
+/* ── LOADING ── */
+.loading-state{padding:60px 0;text-align:center;color:var(--dim)}
+.loading-state .spin{display:inline-block;width:20px;height:20px;border:2px solid var(--border2);border-top-color:var(--short);border-radius:50%;animation:spin 0.8s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* ── RESPONSIVE ── */
+@media(max-width:660px){
+  .breakdown-grid{grid-template-columns:1fr}
+  .gains-grid{grid-template-columns:1fr}
+  .filter-note{display:none}
+  .feed-title-row h1{font-size:21px}
+  .wallet-stats-row{grid-template-columns:repeat(2,1fr)}
+  .accuracy-bar{grid-template-columns:repeat(2,1fr)}
+  .nav-tab{padding:5px 10px;font-size:11px}
+  .wallet-value{font-size:30px}
+}
+</style>
+</head>
+<body>
+
+<header id="app-header">
+  <div class="header-inner">
+    <div class="logo" onclick="showFeed()">
+      <span class="logo-bar"></span>
+      <span class="logo-text">War<span>Dogs</span></span>
+    </div>
+    <nav class="nav-tabs">
+      <button class="nav-tab active" data-view="feed">📡 Feed</button>
+      <button class="nav-tab" data-view="wallet">💰 Wallet</button>
+      <button class="nav-tab" data-view="ledger">📋 Ledger</button>
+    </nav>
+    <div class="header-right">
+      <span class="scan-dot"></span>
+      <span class="disclaimer">Not financial advice</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ FEED VIEW ══════════════════════════════════════════════════════════ -->
+<div id="feed-view" class="view active">
+  <div class="page-wrap">
+    <div class="feed-header">
+      <div class="feed-title-row">
+        <h1>Profit from what's happening.</h1>
+        <span class="sort-badge" id="sort-badge">↓ sorted by impact</span>
+      </div>
+      <div class="scan-bar">
+        <span class="scan-dot" style="flex-shrink:0"></span>
+        <strong>Live monitoring</strong>
+        <div class="scan-sources">
+          <span class="scan-source">Reuters</span>
+          <span class="scan-source">Yahoo Finance</span>
+          <span class="scan-source">Google News</span>
+          <span class="scan-source">Bloomberg</span>
+        </div>
+        <span class="ml-auto" id="last-scan-text">Loading...</span>
+      </div>
+      <div class="filter-bar">
+        <span class="filter-label">View:</span>
+        <button class="filter-btn active" data-filter="all">All events</button>
+        <button class="filter-btn" data-filter="policy">Policy only</button>
+        <button class="filter-btn" data-filter="milgeo">Mil / Geo only</button>
+        <button class="filter-btn" data-filter="techai">Tech &amp; AI only</button>
+        <span class="filter-note">category filters → sorted by recency</span>
+      </div>
+    </div>
+    <div id="events-list">
+      <div class="loading-state"><div class="spin"></div><br>Loading signals...</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ WALLET VIEW ════════════════════════════════════════════════════════ -->
+<div id="wallet-view" class="view">
+  <div class="page-wrap">
+    <div class="section-header">
+      <h1>War Dog Wallet</h1>
+      <p>Hypothetical portfolio — every signal taken, every recommendation followed. $500 deployed per event.</p>
+    </div>
+    <div class="wallet-hero">
+      <div class="wallet-label">Portfolio Value</div>
+      <div class="wallet-value" id="wallet-total-value">—</div>
+      <div class="wallet-return" id="wallet-total-return">—</div>
+      <div class="wallet-stats-row">
+        <div class="wstat"><div class="wstat-val green" id="w-winrate">—</div><div class="wstat-label">Win Rate</div></div>
+        <div class="wstat"><div class="wstat-val gold" id="w-avgwin">—</div><div class="wstat-label">Avg Win</div></div>
+        <div class="wstat"><div class="wstat-val blue" id="w-trades">—</div><div class="wstat-label">Closed Trades</div></div>
+        <div class="wstat"><div class="wstat-val red" id="w-losses">—</div><div class="wstat-label">Full Losses</div></div>
+      </div>
+    </div>
+
+    <div class="wallet-section-title">
+      Open Positions
+      <span style="font-size:10px;color:var(--dim);font-weight:400;text-transform:none" id="wallet-open-label">—</span>
+    </div>
+    <div id="open-positions-list"></div>
+    <div class="wallet-total-row">
+      <span class="wallet-total-label">OPEN P&amp;L</span>
+      <span class="wallet-total-val" id="open-pnl-total">—</span>
+    </div>
+
+    <div class="wallet-section-title">
+      Closed Trades
+      <a onclick="showLedger()">View full ledger →</a>
+    </div>
+    <div id="wallet-closed-preview"></div>
+
+    <div class="wallet-note">
+      ⚠ War Dog Wallet is a hypothetical back-test. All positions assume equal $500 allocation at signal publication time. Past performance does not guarantee future results. No actual trades are being executed. This is for research and education only.
+    </div>
+  </div>
+</div>
+
+<!-- ═══ LEDGER VIEW ════════════════════════════════════════════════════════ -->
+<div id="ledger-view" class="view">
+  <div class="page-wrap">
+    <div class="section-header">
+      <h1>Signal Ledger</h1>
+      <p>Historical record of every closed War Dogs signal. Full transparency on what we called — and what actually happened.</p>
+    </div>
+    <div class="accuracy-bar">
+      <div class="acc-stat"><div class="acc-stat-val green" id="l-winrate">—</div><div class="acc-stat-label">Win Rate</div></div>
+      <div class="acc-stat"><div class="acc-stat-val gold" id="l-avgreturn">—</div><div class="acc-stat-label">Avg Return</div></div>
+      <div class="acc-stat"><div class="acc-stat-val blue" id="l-total">—</div><div class="acc-stat-label">Total Signals</div></div>
+      <div class="acc-stat"><div class="acc-stat-val" id="l-best" style="color:var(--short)">—</div><div class="acc-stat-label">Best Call</div></div>
+    </div>
+    <div class="ledger-filter-bar">
+      <span style="font-size:11px;color:var(--dim);margin-right:4px">Filter:</span>
+      <button class="lf-btn active" data-lf="ALL">All</button>
+      <button class="lf-btn" data-lf="WIN">Win</button>
+      <button class="lf-btn" data-lf="MIXED">Mixed</button>
+      <button class="lf-btn" data-lf="LOSS">Loss</button>
+    </div>
+    <div id="ledger-list"></div>
+  </div>
+</div>
+
+<!-- ═══ DETAIL VIEW ════════════════════════════════════════════════════════ -->
+<div id="detail-view" class="view">
+  <div class="page-wrap">
+    <div class="back-row">
+      <button id="back-btn" onclick="goBack()">← Back</button>
+    </div>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════════════
+// GLOBAL DATA (loaded from JSON)
+// ═══════════════════════════════════════════════════════════════════════════
+let EVENTS = [];
+let LEDGER = [];
+let WALLET_POSITIONS = [];
+let WALLET_META = {};
+let lastUpdated = null;
+
+// ═══════════════════════════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════════════════════════
+let currentFilter = 'all';
+let currentLedgerFilter = 'ALL';
+let previousView = 'feed';
+
+// ═══════════════════════════════════════════════════════════════════════════
+// DATA LOADING
+// ═══════════════════════════════════════════════════════════════════════════
+const RANK_COLORS = {HIGH:'#EF4444', MED:'#F59E0B', LOW:'#22C55E'};
+
+function normalizeEvent(ev, idx) {
+  return {
+    ...ev,
+    // rank badge number = ev.id or index+1
+    rank: ev.id || (idx + 1),
+    // hex color for inline styles
+    rankColor: RANK_COLORS[ev.rank] || '#94A3B8',
+    // numeric timestamp for sort: spread events 2hr apart based on id
+    freshTs: Date.now() - ((ev.id || idx) - 1) * 7200000,
+    // display string
+    fresh: ev.freshLabel || ev.freshTs || 'recent',
+  };
+}
+
+async function loadData() {
+  try {
+    const [evRes, ledRes, walRes] = await Promise.all([
+      fetch('events.json?v=' + Date.now()),
+      fetch('ledger.json?v=' + Date.now()),
+      fetch('wallet.json?v=' + Date.now()),
+    ]);
+    if (!evRes.ok || !ledRes.ok || !walRes.ok) throw new Error('Fetch failed');
+
+    const evData  = await evRes.json();
+    const ledData = await ledRes.json();
+    const walData = await walRes.json();
+
+    EVENTS           = (evData.events  || []).map(normalizeEvent);
+    LEDGER           = ledData.ledger  || [];
+    WALLET_POSITIONS = walData.positions || [];
+    WALLET_META      = { startingCapital: walData.startingCapital || 10000, startDate: walData.startDate || 'Feb 2022' };
+    lastUpdated      = evData.lastUpdated || null;
+    return true;
+  } catch(e) {
+    console.error('loadData failed:', e);
+    return false;
+  }
+}
+
+function timeAgoStr(isoStr) {
+  if (!isoStr) return null;
+  const diff = Math.round((Date.now() - new Date(isoStr).getTime()) / 60000);
+  if (diff < 2)  return 'just now';
+  if (diff < 60) return diff + ' min ago';
+  if (diff < 1440) return Math.floor(diff / 60) + 'h ago';
+  return Math.floor(diff / 1440) + 'd ago';
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RENDER: FEED
+// ═══════════════════════════════════════════════════════════════════════════
+function getFilteredEvents() {
+  let evts = [...EVENTS];
+  if (currentFilter !== 'all') {
+    evts = evts.filter(e => e.category === currentFilter);
+    evts.sort((a, b) => b.freshTs - a.freshTs);
+  }
+  return evts;
+}
+
+function renderFeed() {
+  const list  = document.getElementById('events-list');
+  const badge = document.getElementById('sort-badge');
+  const evts  = getFilteredEvents();
+  badge.textContent = currentFilter === 'all' ? '↓ sorted by impact' : '↓ sorted by recency';
+  if (evts.length === 0) {
+    list.innerHTML = '<div style="color:var(--dim);padding:40px 0;text-align:center;font-size:14px;">No events in this category right now.</div>';
+    return;
+  }
+  list.innerHTML = evts.map(ev => {
+    const riskCls  = ev.risk.toLowerCase();
+    const pillsHtml = ev.actions.map(a =>
+      `<span class="action-pill ${a.cls}">${a.label}</span><span class="pill-target">${a.target}</span>`
+    ).join('');
+    return `<div class="event-card" data-cat="${ev.category}" onclick="showDetail(${ev.id})">
+      <div class="rank-badge" style="background:${ev.rankColor}22;border:1.5px solid ${ev.rankColor}44;color:${ev.rankColor}">#${ev.rank}</div>
+      <div class="card-main">
+        <div class="card-top-row"><span class="cat-badge ${ev.category}">${ev.catLabel}</span><span class="fresh-time">${ev.fresh}</span></div>
+        <div class="card-title">${ev.title}</div>
+        <div class="card-summary">${ev.summary}</div>
+        <div class="card-bottom-row">${pillsHtml}
+          <div class="card-meta">
+            <span class="risk-chip ${riskCls}"><span class="risk-dot"></span>${ev.risk}</span>
+            <span class="window-text">· ${ev.window}</span>
+          </div>
+        </div>
+      </div>
+      <div class="card-arrow">›</div>
+    </div>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RENDER: DETAIL
+// ═══════════════════════════════════════════════════════════════════════════
+function renderDetail(ev) {
+  const riskCls = ev.risk.toLowerCase();
+  const actionsHtml = ev.actions.map(a =>
+    `<div class="detail-action-item"><span class="action-pill-lg ${a.cls}">${a.label}</span><span class="detail-action-label">${a.target}</span></div>`
+  ).join('');
+
+  // Handle adjacentMarkets as either string[] or object[]
+  const adjacentHtml = (ev.adjacentMarkets || []).map(m => {
+    if (typeof m === 'string') {
+      return `<div class="adjacent-item"><div style="flex:1"><div class="adj-market-name">${m}</div></div></div>`;
+    }
+    return `<div class="adjacent-item"><span class="adj-dir ${m.dir}">${m.dir.toUpperCase()}</span><div><div class="adj-market-name">${m.market}</div><div class="adj-reason">${m.reason}</div></div></div>`;
+  }).join('');
+
+  // Handle otherFactors as either string[] or object[]
+  const factorsHtml = (ev.otherFactors || []).map(f => {
+    if (typeof f === 'string') {
+      return `<div class="factor-item"><div class="factor-name">${f}</div></div>`;
+    }
+    return `<div class="factor-item"><div class="factor-name">${f.name}</div><div class="factor-text">${f.text}</div></div>`;
+  }).join('');
+
+  const fmt = txt => (txt || '').split('\n\n').map(p => `<p style="margin-bottom:10px">${p.trim()}</p>`).join('');
+  const tf  = ev.timeFrame || {};
+  const g   = ev.gains || {};
+
+  document.getElementById('detail-content').innerHTML = `
+    <div class="detail-header ${ev.category}">
+      <div class="detail-header-top"><span class="cat-badge ${ev.category}">${ev.catLabel}</span><span style="font-size:11px;color:var(--dim)">${ev.fresh}</span></div>
+      <div class="detail-title">${ev.title}</div>
+      <div class="detail-summary">${ev.summary}</div>
+      <div class="detail-actions">${actionsHtml}</div>
+      <div class="detail-meta-row">
+        <div class="detail-meta-item"><span class="risk-chip ${riskCls}" style="font-size:12px"><span class="risk-dot"></span><strong>${ev.risk} RISK</strong></span></div>
+        <div class="detail-meta-item">⏱ <strong>Viable window:</strong>&nbsp;${ev.window}</div>
+      </div>
+    </div>
+    <div class="breakdown-grid full"><div class="breakdown-card bc-teal">
+      <div class="bc-label">① Reasoning</div><div class="bc-title">Why this event leads to the action</div>
+      <div class="bc-body">${fmt(ev.reasoning)}</div>
+    </div></div>
+    <div class="breakdown-grid">
+      <div class="breakdown-card bc-policy">
+        <div class="bc-label">② Time Frame</div><div class="bc-title">When to act — how long it lasts</div>
+        <div class="tf-row" style="margin-top:10px">
+          <div class="tf-item"><span class="tf-key">Enter</span><span class="tf-val"><strong>${tf.enter || '—'}</strong></span></div>
+          <div class="tf-item"><span class="tf-key">Viable</span><span class="tf-val">${tf.viable || '—'}</span></div>
+          <div class="tf-item"><span class="tf-key">Note</span><span class="tf-val">${tf.note || '—'}</span></div>
+        </div>
+      </div>
+      <div class="breakdown-card bc-buy">
+        <div class="bc-label">③ Exit Strategy</div><div class="bc-title">When to pull out</div>
+        <div class="bc-body" style="margin-top:8px">${fmt(ev.exitStrategy)}</div>
+      </div>
+    </div>
+    <div class="breakdown-grid full"><div class="breakdown-card bc-teal">
+      <div class="bc-label">④ Expected Gains — Scenario Analysis</div><div class="bc-title">Realistic return ranges across three scenarios</div>
+      <div class="gains-grid">
+        <div class="gain-scenario"><div class="gain-scenario-label">Conservative</div><div class="gain-value cons">${g.conservative||'—'}</div><div class="gain-sublabel">${g.conservativeNote||''}</div></div>
+        <div class="gain-scenario"><div class="gain-scenario-label">Base Case</div><div class="gain-value base">${g.base||'—'}</div><div class="gain-sublabel">${g.baseNote||''}</div></div>
+        <div class="gain-scenario"><div class="gain-scenario-label">Full Thesis</div><div class="gain-value extend">${g.extended||'—'}</div><div class="gain-sublabel">${g.extendedNote||''}</div></div>
+      </div>
+      <div class="stop-loss-note"><strong>⚠ ${g.stopLoss||'Set your stop loss before entering.'}</strong></div>
+    </div></div>
+    <div class="breakdown-grid full"><div class="breakdown-card bc-milgeo">
+      <div class="bc-label">⑤ Adjacent Markets Affected</div><div class="bc-title">Other markets moved by the same event</div>
+      <div class="adjacent-list">${adjacentHtml}</div>
+    </div></div>
+    <div class="breakdown-grid full"><div class="breakdown-card bc-techai">
+      <div class="bc-label">⑥ Other Factors at Play</div><div class="bc-title">What else influences this space right now</div>
+      <div class="factors-list">${factorsHtml}</div>
+    </div></div>
+    <div class="detail-disclaimer">War Dogs is for research and educational purposes only. It does not constitute financial advice, a solicitation to buy or sell securities, or a guarantee of any investment outcome. Expected gains are illustrative scenario analyses — not predictions. All investments carry risk of loss, including total loss of principal. Consult a licensed financial advisor before making any investment decision.</div>`;
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RENDER: WALLET
+// ═══════════════════════════════════════════════════════════════════════════
+function computeLedgerStats() {
+  if (!LEDGER.length) return {winRate:'—',avgWin:'—',trades:0,losses:0,best:'—'};
+  const wins   = LEDGER.filter(l => l.outcome === 'WIN');
+  const losses = LEDGER.filter(l => l.outcome === 'LOSS');
+  const winRate = ((wins.length / LEDGER.length) * 100).toFixed(1) + '%';
+
+  // Parse actual returns like "+14.2%" → 14.2
+  const parseReturn = s => parseFloat((s || '0').replace(/[^0-9.-]/g, '')) || 0;
+  const avgWin = wins.length
+    ? '+' + (wins.reduce((s, l) => s + parseReturn(l.actual), 0) / wins.length).toFixed(1) + '%'
+    : '—';
+  const best = LEDGER.reduce((b, l) => parseReturn(l.actual) > parseReturn(b.actual) ? l : b, LEDGER[0]);
+
+  return { winRate, avgWin, trades: LEDGER.length, losses: losses.length, best: best.actual };
+}
+
+function renderWallet() {
+  const stats = computeLedgerStats();
+  document.getElementById('w-winrate').textContent  = stats.winRate;
+  document.getElementById('w-avgwin').textContent   = stats.avgWin;
+  document.getElementById('w-trades').textContent   = stats.trades;
+  document.getElementById('w-losses').textContent   = stats.losses;
+
+  // Open positions P&L
+  const totalOpenPnl = WALLET_POSITIONS.reduce((s, p) => s + (p.notional * p.pct / 100), 0);
+  const totalDeployed = WALLET_POSITIONS.reduce((s, p) => s + p.notional, 0);
+  const totalOpenPct  = totalDeployed ? (totalOpenPnl / totalDeployed * 100) : 0;
+  document.getElementById('open-pnl-total').textContent =
+    `${totalOpenPnl >= 0 ? '+' : ''}$${totalOpenPnl.toFixed(0)} (${totalOpenPct >= 0 ? '+' : ''}${totalOpenPct.toFixed(1)}%)`;
+
+  // Portfolio total (starting capital + closed gains + open pnl)
+  const closedGains = LEDGER.reduce((s, l) => {
+    const pct = parseFloat((l.actual || '0').replace(/[^0-9.-]/g, '')) || 0;
+    return s + ((WALLET_META.startingCapital / Math.max(LEDGER.length, 1)) * pct / 100);
+  }, 0);
+  const portfolioVal = WALLET_META.startingCapital + closedGains + totalOpenPnl;
+  const totalReturn  = portfolioVal - WALLET_META.startingCapital;
+  document.getElementById('wallet-total-value').textContent  = '$' + portfolioVal.toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  document.getElementById('wallet-total-return').innerHTML   =
+    `${totalReturn >= 0 ? '+' : ''}$${Math.abs(totalReturn).toFixed(0)} total return <span>since ${WALLET_META.startDate} · starting capital $${WALLET_META.startingCapital.toLocaleString()}</span>`;
+  document.getElementById('wallet-open-label').textContent =
+    `${WALLET_POSITIONS.length} Active Signals · $${totalDeployed.toLocaleString()} deployed`;
+
+  document.getElementById('open-positions-list').innerHTML = WALLET_POSITIONS.map(p => {
+    const pnl    = p.notional * p.pct / 100;
+    const posNeg = p.pct >= 0 ? 'pos' : 'neg';
+    return `<div class="position-row" onclick="showDetail(${p.eventId})">
+      <span class="pos-ticker">${p.ticker}</span>
+      <span class="pos-event">${p.eventTitle}</span>
+      <span class="pos-notional">$${p.notional}</span>
+      <span class="pos-pnl ${posNeg}">${pnl >= 0 ? '+' : ''}$${pnl.toFixed(0)}</span>
+      <span class="pos-pct ${posNeg}">${p.pct >= 0 ? '+' : ''}${p.pct}%</span>
+    </div>`;
+  }).join('');
+
+  document.getElementById('wallet-closed-preview').innerHTML = LEDGER.slice(0, 3).map(l => `
+    <div class="position-row" style="cursor:default">
+      <span class="pos-ticker" style="width:64px;font-size:11px;font-weight:600;color:var(--mid)">${l.closedDate.split(',')[0]}</span>
+      <span class="pos-event">${l.title}</span>
+      <span class="pos-pct ${l.outcome === 'LOSS' ? 'neg' : 'pos'}">${l.actual}</span>
+      <span class="outcome-badge ${l.outcome}" style="margin-left:6px">${l.outcome}</span>
+    </div>`).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// RENDER: LEDGER
+// ═══════════════════════════════════════════════════════════════════════════
+function renderLedger() {
+  const stats = computeLedgerStats();
+  document.getElementById('l-winrate').textContent   = stats.winRate;
+  document.getElementById('l-avgreturn').textContent = stats.avgWin;
+  document.getElementById('l-total').textContent     = stats.trades;
+  document.getElementById('l-best').textContent      = stats.best;
+
+  const filtered = currentLedgerFilter === 'ALL'
+    ? LEDGER : LEDGER.filter(l => l.outcome === currentLedgerFilter);
+  document.getElementById('ledger-list').innerHTML = filtered.map(l => {
+    const isPos  = l.outcome !== 'LOSS';
+    const actCls = isPos ? (l.outcome === 'MIXED' ? 'mix' : 'pos') : 'neg';
+    return `<div class="ledger-row ${l.outcome}">
+      <div class="ledger-top">
+        <span class="outcome-badge ${l.outcome}">${l.outcome}</span>
+        <span class="ledger-title">${l.title}</span>
+        <span class="ledger-actual ${actCls}">${l.actual}</span>
+      </div>
+      <div class="ledger-meta">
+        <span class="lm-item"><strong>${l.openedDate}</strong> → <strong>${l.closedDate}</strong></span>
+        <span class="lm-item">${l.daysHeld} days held</span>
+        <span class="lm-item">predicted: <strong>${l.predicted}</strong></span>
+        <div class="lm-actions">${(l.actions || []).map(a => `<span class="lm-action-chip">${a}</span>`).join('')}</div>
+      </div>
+      <div class="ledger-notes">${l.notes}</div>
+    </div>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════════════════════════════════════════
+function setActiveTab(view) {
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  const tab = document.querySelector(`.nav-tab[data-view="${view}"]`);
+  if (tab) tab.classList.add('active');
+}
+function hideAllViews() {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+}
+function showFeed() {
+  hideAllViews();
+  document.getElementById('feed-view').classList.add('active');
+  setActiveTab('feed');
+  previousView = 'feed';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function showWallet() {
+  hideAllViews();
+  renderWallet();
+  document.getElementById('wallet-view').classList.add('active');
+  setActiveTab('wallet');
+  previousView = 'wallet';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function showLedger() {
+  hideAllViews();
+  renderLedger();
+  document.getElementById('ledger-view').classList.add('active');
+  setActiveTab('ledger');
+  previousView = 'ledger';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function showDetail(id) {
+  const ev = EVENTS.find(e => e.id === id);
+  if (!ev) return;
+  renderDetail(ev);
+  hideAllViews();
+  document.getElementById('detail-view').classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+function goBack() {
+  if (previousView === 'wallet')      showWallet();
+  else if (previousView === 'ledger') showLedger();
+  else                                showFeed();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// EVENT LISTENERS
+// ═══════════════════════════════════════════════════════════════════════════
+document.querySelectorAll('.nav-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    const v = tab.dataset.view;
+    if (v === 'feed')   showFeed();
+    else if (v === 'wallet')  showWallet();
+    else if (v === 'ledger')  showLedger();
+  });
+});
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    renderFeed();
+  });
+});
+document.querySelectorAll('.lf-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.lf-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentLedgerFilter = btn.dataset.lf;
+    renderLedger();
+  });
+});
+
+// ═══════════════════════════════════════════════════════════════════════════
+// INIT — load data then render
+// ═══════════════════════════════════════════════════════════════════════════
+async function init() {
+  const ok = await loadData();
+  if (!ok) {
+    document.getElementById('events-list').innerHTML =
+      '<div style="color:var(--short);padding:40px 0;text-align:center;font-size:14px;">Failed to load signals. Please refresh.</div>';
+    return;
+  }
+  const ago = timeAgoStr(lastUpdated);
+  document.getElementById('last-scan-text').textContent = ago
+    ? `Signals refresh every hour · Last updated ${ago}`
+    : 'Signals refresh every hour';
+  renderFeed();
+}
+
+init();
+</script>
+</body>
+</html>
