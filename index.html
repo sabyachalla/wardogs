@@ -757,9 +757,11 @@ document.querySelectorAll('.lf-btn').forEach(btn => {
 // ═══════════════════════════════════════════════════════════════════════════
 async function init() {
   const ok = await loadData();
-  if (!ok) {
-    document.getElementById('events-list').innerHTML =
-      '<div style="color:var(--short);padding:40px 0;text-align:center;font-size:14px;">Failed to load signals. Please refresh.</div>';
+ if (!ok) {
+    const isLocal = window.location.protocol === 'file:';
+    document.getElementById('events-list').innerHTML = isLocal
+      ? '<div style="color:#94a3b8;padding:40px;text-align:center;font-size:15px;line-height:2.4">To preview locally, run a server in your terminal:<br><br><code style="background:#0f172a;color:#22c55e;padding:5px 12px;border-radius:6px;font-size:13px;">python3 -m http.server 8080</code><br><br>Then open <a href="http://localhost:8080" style="color:#22c55e;">http://localhost:8080</a></div>'
+      : '<div style="color:var(--short);padding:40px 0;text-align:center;font-size:14px;">Failed to load signals. Please refresh.</div>';
     return;
   }
   const ago = timeAgoStr(lastUpdated);
