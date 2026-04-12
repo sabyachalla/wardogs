@@ -26,7 +26,7 @@ jobs:
       - name: Run refresh script
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/refresh.py
+        run: python refresh.py
 
       - name: Commit updated events.json
         run: |
