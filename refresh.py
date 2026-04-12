@@ -150,7 +150,7 @@ Return ONLY valid JSON, no explanation, no markdown. Schema:
 def call_gemini(prompt: str) -> str:
     """Call Gemini Flash (free tier) and return raw text."""
     genai.configure(api_key=GEMINI_API_KEY)
-    model    = genai.GenerativeModel("gemini-1.5-flash")
+    model    = genai.GenerativeModel("gemini-2.0-flash")
     response = model.generate_content(
         prompt,
         generation_config=genai.types.GenerationConfig(
@@ -218,7 +218,7 @@ def main():
         raw = call_gemini(prompt)
     except Exception as e:
         print(f"[ERROR] Gemini API call failed: {e}")
-        return
+        raise SystemExit(1)
 
     print("[INFO] Extracting JSON from response...")
     data = extract_json(raw)
