@@ -11,6 +11,7 @@ import datetime
 import re
 import requests
 import feedparser
+import time
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 
@@ -141,9 +142,16 @@ def call_gemini(prompt):
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.4, "maxOutputTokens": 8192},
     }
-    resp = requests.post(url, json=payload, timeout=90)
-    resp.raise_for_status()
-    return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+    for attempt in range(3):
+        resp = requests.post(url, json=payload, timeout=90)
+        if resp.status_code == 429:
+            wait = 30 * (attempt + 1)
+            print(f"[WARN] Rate limited. Waiting {wait}s (attempt {attempt+1}/3)...")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
+    raise Exception("Rate limit exceeded after 3 retries.")
 
 
 def extract_json(raw):
