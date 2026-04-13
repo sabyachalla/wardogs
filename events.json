@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T01:34:46Z",
+  "lastUpdated": "2026-04-13T01:47:42Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran has significant implications for global markets, particularly in the energy sector. The US and its allies have launched strikes against Iranian targets, leading to a surge in oil prices. This has sparked concerns about inflation and the potential impact on the global economy.",
+      "summary": "The ongoing conflict between the US and Iran is escalating, with both sides suffering losses. The war is affecting global oil prices and inflation. The US is considering a rate hike to combat inflation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,46 +22,46 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The conflict in Iran is likely to lead to higher oil prices, which will benefit oil and gas exploration and production companies. However, the resulting inflation and potential economic slowdown will negatively impact bond markets, making them a short candidate.",
+      "reasoning": "The war is likely to continue, driving up oil prices and inflation. The US may raise interest rates to combat inflation, which could affect the bond market. The S&P 500 is expected to rally despite the economic uncertainty.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil price movements and adjust positions accordingly"
+        "note": "Watch for a ceasefire or a significant escalation"
       },
-      "exitStrategy": "Close positions if oil prices drop below $60 per barrel",
+      "exitStrategy": "Exit when the war ends or when the US raises interest rates",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If oil prices stabilize at $70 per barrel",
-        "base": "+15-20%",
-        "baseNote": "If oil prices reach $80 per barrel",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the war ends soon",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates and oil prices surge above $100 per barrel",
-        "stopLoss": "-10% on XOP"
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
         "Gold (safe haven bid)",
-        "US Dollar Index (DXY)"
+        "Oil (price increase)"
       ],
       "otherFactors": [
-        "OPEC production levels",
-        "US-Iran diplomatic efforts"
+        "Interest rate decision",
+        "Inflation rate"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has decided to keep interest rates unchanged, citing concerns about inflation and the impact of the Iran conflict on the economy. This decision has significant implications for the bond market and the overall economy.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing economic uncertainty and inflation concerns. The decision is expected to affect the bond and stock markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -70,80 +70,506 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "Vanguard Total Bond Market Index Fund (VBTLX)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From iShares Core S&P 500 ETF (IVV) to iShares Core US Aggregate Bond ETF (AGG)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady will lead to a decrease in bond yields, making long-term Treasury bonds more attractive. Additionally, rotating from stocks to bonds will help investors reduce their exposure to the potential economic downturn.",
+      "reasoning": "The Fed's decision to hold interest rates steady is expected to drive up bond prices and affect the credit market. The Vanguard Total Bond Market Index Fund is a good buy, while the iShares 1-3 Year Credit Bond ETF is a good short.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data and adjust positions accordingly"
+        "note": "Watch for the next interest rate decision"
       },
-      "exitStrategy": "Close positions if inflation data shows a significant decrease",
+      "exitStrategy": "Exit when the Fed raises interest rates",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If bond yields decrease by 10 basis points",
-        "base": "+8-12%",
-        "baseNote": "If bond yields decrease by 20 basis points",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the economy improves",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the economy enters a recession",
-        "stopLoss": "-5% on TLT"
+        "extendedNote": "If the Fed cuts interest rates",
+        "stopLoss": "-5% on VBTLX"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)",
-        "Gold (safe haven bid)"
+        "Stock market (S&P 500)"
       ],
       "otherFactors": [
-        "Inflation data",
-        "Economic growth indicators"
+        "Inflation rate",
+        "Economic growth"
       ]
     },
     {
       "id": 3,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "tech",
-      "catLabel": "Technology",
+      "catLabel": "Tech",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia has announced a new AI-driven semiconductor engineering innovation, which is expected to boost the company's stock price. Additionally, the company has partnered with Lattice Semiconductor to join the Halos AI Systems Inspection Lab Ecosystem.",
+      "summary": "Nvidia's AI stock is expected to rise due to increasing demand for AI technology. The company is a leader in the field and is expected to benefit from the growing trend.",
       "fresh": true,
-      "freshLabel": "just now",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's new AI-driven innovation and partnership with Lattice Semiconductor will likely lead to an increase in the company's stock price. This is a low-risk investment opportunity with potential for short-term gains.",
+      "reasoning": "Nvidia is a leader in the AI field and is expected to benefit from the growing trend. The company's stock is expected to rise due to increasing demand for AI technology.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor Nvidia's stock price and adjust positions accordingly"
+        "viable": "4-8 weeks",
+        "note": "Watch for earnings reports and industry trends"
       },
-      "exitStrategy": "Close positions if Nvidia's stock price reaches $500",
+      "exitStrategy": "Exit when the AI trend slows down",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If Nvidia's stock price increases by 5%",
-        "base": "+8-12%",
-        "baseNote": "If Nvidia's stock price increases by 10%",
-        "extended": "+15%+",
-        "extendedNote": "If Nvidia's stock price surges above $600",
-        "stopLoss": "-5% on NVDA"
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If the trend continues",
+        "base": "+15\u201320%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the trend accelerates",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)",
-        "Semiconductor sector (SMH)"
+        "Tech sector (XLK)"
       ],
       "otherFactors": [
-        "AI adoption rates",
-        "Competitor activity"
+        "AI trend",
+        "Industry competition"
+      ]
+    },
+    {
+      "id": 4,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "US-China Trade Relations",
+      "summary": "The US and China are working on a new trade deal, which is expected to affect the global economy. The deal is expected to reduce tariffs and increase trade between the two countries.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        }
+      ],
+      "reasoning": "The new trade deal is expected to reduce tariffs and increase trade between the US and China. The iShares China Large-Cap ETF is a good buy, while the Invesco DB US Dollar Index Bullish Fund is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for the trade deal announcement"
+      },
+      "exitStrategy": "Exit when the trade deal is announced",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the deal is announced soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the deal is successful",
+        "stopLoss": "-5% on FXI"
+      },
+      "adjacentMarkets": [
+        "Emerging markets (EEM)"
+      ],
+      "otherFactors": [
+        "Trade deal announcement",
+        "Global economy"
+      ]
+    },
+    {
+      "id": 5,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "Gold Price",
+      "summary": "The gold price is expected to rise due to economic uncertainty and inflation concerns. The metal is a safe haven asset and is expected to benefit from the current market conditions.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Silver Trust (SLV)"
+        }
+      ],
+      "reasoning": "The gold price is expected to rise due to economic uncertainty and inflation concerns. The SPDR Gold Shares ETF is a good buy, while the iShares Silver Trust is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for economic data and inflation reports"
+      },
+      "exitStrategy": "Exit when the economy improves",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the economy improves soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the economy worsens",
+        "stopLoss": "-5% on GLD"
+      },
+      "adjacentMarkets": [
+        "Silver (SI=F)"
+      ],
+      "otherFactors": [
+        "Economic data",
+        "Inflation reports"
+      ]
+    },
+    {
+      "id": 6,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "Oil Price",
+      "summary": "The oil price is expected to rise due to the ongoing conflict between the US and Iran. The price is also affected by global demand and supply.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "United States Oil Fund LP (USO)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Global Clean Energy ETF (ICLN)"
+        }
+      ],
+      "reasoning": "The oil price is expected to rise due to the ongoing conflict between the US and Iran. The United States Oil Fund LP is a good buy, while the iShares Global Clean Energy ETF is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for the conflict resolution"
+      },
+      "exitStrategy": "Exit when the conflict ends",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict ends soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-5% on USO"
+      },
+      "adjacentMarkets": [
+        "Natural gas (NG=F)"
+      ],
+      "otherFactors": [
+        "Conflict resolution",
+        "Global demand and supply"
+      ]
+    },
+    {
+      "id": 7,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "S&P 500",
+      "summary": "The S&P 500 is expected to rally despite the economic uncertainty. The index is affected by the ongoing conflict between the US and Iran, as well as the Fed's interest rate decision.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
+        }
+      ],
+      "reasoning": "The S&P 500 is expected to rally despite the economic uncertainty. The SPDR S&P 500 ETF Trust is a good buy, while the iShares Russell 2000 ETF is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for the conflict resolution and the Fed's interest rate decision"
+      },
+      "exitStrategy": "Exit when the conflict ends or the Fed raises interest rates",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict ends soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "Dow Jones Industrial Average (DIA)"
+      ],
+      "otherFactors": [
+        "Conflict resolution",
+        "Fed's interest rate decision"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "US Dollar",
+      "summary": "The US dollar is expected to rise due to the ongoing conflict between the US and Iran. The currency is also affected by the Fed's interest rate decision and economic data.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI EAFE ETF (EFA)"
+        }
+      ],
+      "reasoning": "The US dollar is expected to rise due to the ongoing conflict between the US and Iran. The Invesco DB US Dollar Index Bullish Fund is a good buy, while the iShares MSCI EAFE ETF is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for the conflict resolution and the Fed's interest rate decision"
+      },
+      "exitStrategy": "Exit when the conflict ends or the Fed raises interest rates",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict ends soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-5% on UUP"
+      },
+      "adjacentMarkets": [
+        "Euro (EUR/USD)"
+      ],
+      "otherFactors": [
+        "Conflict resolution",
+        "Fed's interest rate decision"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "Treasury Yields",
+      "summary": "Treasury yields are expected to rise due to the ongoing conflict between the US and Iran. The yields are also affected by the Fed's interest rate decision and economic data.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "Treasury yields are expected to rise due to the ongoing conflict between the US and Iran. The iShares 20+ Year Treasury Bond ETF is a good buy, while the iShares 1-3 Year Credit Bond ETF is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for the conflict resolution and the Fed's interest rate decision"
+      },
+      "exitStrategy": "Exit when the conflict ends or the Fed raises interest rates",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict ends soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-5% on TLT"
+      },
+      "adjacentMarkets": [
+        "Mortgage rates"
+      ],
+      "otherFactors": [
+        "Conflict resolution",
+        "Fed's interest rate decision"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "Earnings Season",
+      "summary": "Earnings season is expected to be strong, with many companies reporting positive earnings. The season is affected by the ongoing conflict between the US and Iran, as well as the Fed's interest rate decision.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
+        }
+      ],
+      "reasoning": "Earnings season is expected to be strong, with many companies reporting positive earnings. The SPDR S&P 500 ETF Trust is a good buy, while the iShares Russell 2000 ETF is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for earnings reports and the conflict resolution"
+      },
+      "exitStrategy": "Exit when the earnings season ends",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the earnings season is strong",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the earnings season is very strong",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "Dow Jones Industrial Average (DIA)"
+      ],
+      "otherFactors": [
+        "Earnings reports",
+        "Conflict resolution"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "Inflation Rate",
+      "summary": "The inflation rate is expected to rise due to the ongoing conflict between the US and Iran. The rate is also affected by the Fed's interest rate decision and economic data.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares TIPS Bond ETF (TIP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+        }
+      ],
+      "reasoning": "The inflation rate is expected to rise due to the ongoing conflict between the US and Iran. The iShares TIPS Bond ETF is a good buy, while the iShares Core US Aggregate Bond ETF is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for the conflict resolution and the Fed's interest rate decision"
+      },
+      "exitStrategy": "Exit when the conflict ends or the Fed raises interest rates",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict ends soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-5% on TIP"
+      },
+      "adjacentMarkets": [
+        "Commodities (DBC)"
+      ],
+      "otherFactors": [
+        "Conflict resolution",
+        "Fed's interest rate decision"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "ecnfin",
+      "catLabel": "Econ-Fin",
+      "title": "Economic Growth",
+      "summary": "Economic growth is expected to slow down due to the ongoing conflict between the US and Iran. The growth is also affected by the Fed's interest rate decision and economic data.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares US Dividend Aristocrats ETF (NOBL)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
+        }
+      ],
+      "reasoning": "Economic growth is expected to slow down due to the ongoing conflict between the US and Iran. The iShares US Dividend Aristocrats ETF is a good buy, while the iShares Russell 2000 ETF is a good short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for the conflict resolution and the Fed's interest rate decision"
+      },
+      "exitStrategy": "Exit when the conflict ends or the Fed raises interest rates",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict ends soon",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-5% on NOBL"
+      },
+      "adjacentMarkets": [
+        "S&P 500 (SPY)"
+      ],
+      "otherFactors": [
+        "Conflict resolution",
+        "Fed's interest rate decision"
       ]
     }
   ]
