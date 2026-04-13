@@ -80,14 +80,15 @@ CURRENT NEWS HEADLINES (last hour):
 CURRENTLY ACTIVE SIGNALS (do not duplicate unless materially updated):
 {existing_block}
 
-Your task: produce a JSON array of up to 10 investment signals based on today's most impactful global events.
+Your task: produce EXACTLY 9 to 13 investment signals based on today's most impactful global events.
 
 Rules:
-1. ONLY include events that have clear, near-term market implications.
-2. Every recommendation MUST name the full ETF/stock and ticker.
-3. Be explicit: BUY, SHORT, or ROTATE. Never vague.
-4. Rank by impact: HIGH first, then MED, then LOW.
-5. freshLabel = human-readable time like "2h ago", "just now"
+1. You MUST return a minimum of 9 events. Never fewer. If current news is thin, include the most relevant ongoing macro events (Fed policy, active conflicts, commodity trends, earnings cycles).
+2. Order events strictly by expected price volatility — the trade most likely to move the most goes first, regardless of category.
+3. Every recommendation MUST name the full ETF/stock and ticker.
+4. Be explicit: BUY, SHORT, or ROTATE. Never vague.
+5. Rank field: HIGH = >15% move potential, MED = 5–15%, LOW = <5%.
+6. freshLabel = human-readable time like "2h ago", "just now", "1d ago".
 
 Return ONLY valid JSON, no explanation, no markdown:
 
