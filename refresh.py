@@ -134,24 +134,20 @@ Return ONLY valid JSON, no explanation, no markdown:
 
 
 def call_gemini(prompt):
-    url = (
-        "https://generativelanguage.googleapis.com/v1beta/models/"
-        f"gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
-    )
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.4, "maxOutputTokens": 8192},
+    url = "https://api.groq.com/openai/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {GEMINI_API_KEY}",
+        "Content-Type": "application/json",
     }
-    for attempt in range(3):
-        resp = requests.post(url, json=payload, timeout=90)
-        if resp.status_code == 429:
-            wait = 30 * (attempt + 1)
-            print(f"[WARN] Rate limited. Waiting {wait}s (attempt {attempt+1}/3)...")
-            time.sleep(wait)
-            continue
-        resp.raise_for_status()
-        return resp.json()["candidates"][0]["content"]["parts"][0]["text"]
-    raise Exception("Rate limit exceeded after 3 retries.")
+    payload = {
+        "model": "llama-3.3-70b-versatile",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.4,
+        "max_tokens": 8192,
+    }
+    resp = requests.post(url, headers=headers, json=payload, timeout=90)
+    resp.raise_for_status()
+    return resp.json()["choices"][0]["message"]["content"]
 
 
 def extract_json(raw):
