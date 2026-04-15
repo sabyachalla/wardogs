@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T14:58:35Z",
+  "lastUpdated": "2026-04-15T18:54:11Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war is escalating, and the US is showing its military strength, but also its waning geopolitical power. The conflict is affecting oil prices and inflation.",
+      "summary": "The ongoing conflict between the US and Iran has led to increased tensions and volatility in the global markets. Oil prices have surged, and the US dollar has strengthened. The situation remains fluid, with potential for further escalation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -30,28 +30,29 @@
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Iran war is causing uncertainty and volatility in the markets. The US is showing its military strength, but the conflict is also affecting oil prices and inflation, which could lead to a rate hike.",
+      "reasoning": "The Iran war escalation has led to a surge in oil prices, which could lead to higher inflation and interest rates. This could negatively impact the bond market, making TLT a potential short target. On the other hand, the S&P 500 has shown resilience in the face of geopolitical tensions, making SPY a potential buy target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and inflation"
+        "note": "Monitor oil prices and US-Iran tensions"
       },
-      "exitStrategy": "Exit when oil prices stabilize or inflation concerns ease",
+      "exitStrategy": "Exit when oil prices stabilize or US-Iran tensions ease",
       "gains": {
         "conservative": "+5\u20138%",
         "conservativeNote": "If oil prices stabilize",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If inflation concerns escalate",
+        "extendedNote": "If US-Iran tensions escalate further",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil prices"
       ],
       "otherFactors": [
-        "Oil prices",
-        "Inflation"
+        "US dollar index",
+        "Treasury yields"
       ]
     },
     {
@@ -60,7 +61,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has held interest rates steady, citing inflation concerns and uncertainty in the markets.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing concerns over inflation and economic growth. This decision has led to a mixed reaction in the markets, with some sectors benefiting from the news and others being negatively impacted.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -69,36 +70,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "Vanguard Financials ETF (VFISX)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady is a sign that they are monitoring the situation closely. This could lead to a rate hike in the future, which would affect bond prices.",
+      "reasoning": "The Fed's decision to hold interest rates steady has led to a decrease in bond yields, which could negatively impact the financial sector. However, the news has also led to an increase in stock prices, making VFISX a potential buy target. On the other hand, the Russell 2000 index has been negatively impacted by the news, making IWM a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation and economic data"
+        "note": "Monitor inflation and economic growth"
       },
-      "exitStrategy": "Exit when the Fed announces a rate hike or inflation concerns ease",
+      "exitStrategy": "Exit when inflation or economic growth concerns ease",
       "gains": {
         "conservative": "+3\u20135%",
         "conservativeNote": "If inflation concerns ease",
         "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If a rate hike is announced",
-        "stopLoss": "-5% on VTI"
+        "extendedNote": "If economic growth accelerates",
+        "stopLoss": "-5% on VFISX"
       },
       "adjacentMarkets": [
-        "Treasury yields"
+        "Treasury yields",
+        "US dollar index"
       ],
       "otherFactors": [
-        "Inflation",
-        "Economic data"
+        "Inflation expectations",
+        "Economic growth forecasts"
       ]
     },
     {
@@ -107,7 +109,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia is dominating the AI data center market and is looking to expand into consumer PCs.",
+      "summary": "Nvidia's AI-focused stocks have been surging in recent weeks, driven by strong demand for AI-related products and services. The company's dominance in the AI market has led to increased investor interest and speculation.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -124,37 +126,38 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's dominance in the AI data center market and its expansion into consumer PCs make it a strong buy candidate. AMD is a competitor that could be affected by Nvidia's growth.",
+      "reasoning": "Nvidia's AI-focused stocks have been surging in recent weeks, driven by strong demand for AI-related products and services. The company's dominance in the AI market has led to increased investor interest and speculation, making NVDA a potential buy target. On the other hand, AMD has been negatively impacted by Nvidia's dominance, making AMD a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor Nvidia's earnings and product announcements"
+        "note": "Monitor AI-related news and trends"
       },
-      "exitStrategy": "Exit when Nvidia's growth slows or AMD's competitive position improves",
+      "exitStrategy": "Exit when AI-related trends slow down",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If Nvidia's earnings meet expectations",
+        "conservativeNote": "If AI-related trends slow down",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If Nvidia's expansion into consumer PCs is successful",
+        "extendedNote": "If Nvidia's dominance in AI continues",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI and machine learning"
+        "AI-related stocks",
+        "Semiconductor industry"
       ],
       "otherFactors": [
-        "Competitor performance",
-        "Product announcements"
+        "AI-related trends",
+        "Nvidia's competitive advantage"
       ]
     },
     {
       "id": 4,
       "rank": "LOW",
-      "category": "trade",
-      "catLabel": "Trade",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are still negotiating a trade deal, but the situation is uncertain.",
+      "summary": "The US and China have been engaged in trade talks, with both countries seeking to resolve their trade differences. The outcome of these talks remains uncertain, with potential implications for the global economy.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -171,41 +174,42 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US and China are still negotiating a trade deal, which could lead to a positive outcome for Chinese stocks. The US market is uncertain and could be affected by a trade deal.",
+      "reasoning": "The US and China have been engaged in trade talks, with both countries seeking to resolve their trade differences. A positive outcome could lead to an increase in Chinese stocks, making FXI a potential buy target. On the other hand, a negative outcome could lead to a decrease in US stocks, making SPY a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations"
+        "note": "Monitor US-China trade talks"
       },
-      "exitStrategy": "Exit when a trade deal is announced or negotiations break down",
+      "exitStrategy": "Exit when US-China trade talks conclude",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If a trade deal is announced",
+        "conservativeNote": "If US-China trade talks conclude positively",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the trade deal is favorable to China",
+        "extendedNote": "If US-China trade relations improve significantly",
         "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "US stocks",
+        "Chinese stocks"
       ],
       "otherFactors": [
-        "Trade negotiations",
-        "Economic data"
+        "US-China trade talks",
+        "Global economic trends"
       ]
     },
     {
       "id": 5,
       "rank": "MED",
-      "category": "energy",
-      "catLabel": "Energy",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
       "title": "Iran War Impact on Oil Prices",
-      "summary": "The Iran war is affecting oil prices and inflation.",
+      "summary": "The ongoing conflict between the US and Iran has led to increased tensions and volatility in the global oil market. Oil prices have surged, with potential implications for the global economy.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -215,91 +219,93 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "iShares Global Clean Energy ETF (ICLN)"
         }
       ],
-      "reasoning": "The Iran war is causing uncertainty and volatility in the oil market, which could lead to higher oil prices. This could affect the US stock market.",
+      "reasoning": "The Iran war has led to a surge in oil prices, making USO a potential buy target. On the other hand, the increase in oil prices could negatively impact the clean energy sector, making ICLN a potential short target.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor oil prices and inflation"
+        "viable": "4-8 weeks",
+        "note": "Monitor oil prices and US-Iran tensions"
       },
-      "exitStrategy": "Exit when oil prices stabilize or inflation concerns ease",
+      "exitStrategy": "Exit when oil prices stabilize or US-Iran tensions ease",
       "gains": {
-        "conservative": "+3\u20135%",
+        "conservative": "+5\u20138%",
         "conservativeNote": "If oil prices stabilize",
-        "base": "+8\u201312%",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If oil prices continue to rise",
-        "stopLoss": "-5% on USO"
+        "extended": "+25%+",
+        "extendedNote": "If US-Iran tensions escalate further",
+        "stopLoss": "-8% on USO"
       },
       "adjacentMarkets": [
-        "Natural gas"
+        "Oil prices",
+        "Energy sector"
       ],
       "otherFactors": [
-        "Inflation",
-        "Economic data"
+        "US-Iran tensions",
+        "Global economic trends"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "metals",
-      "catLabel": "Metals",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "Gold Price",
-      "summary": "Gold prices are rising due to safe haven demand.",
+      "summary": "The price of gold has been increasing in recent weeks, driven by safe-haven demand and concerns over global economic growth. The price of gold remains volatile, with potential implications for the global economy.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "Gold prices are rising due to safe haven demand, which could continue if the Iran war escalates.",
+      "reasoning": "The price of gold has been increasing in recent weeks, driven by safe-haven demand and concerns over global economic growth. The price of gold remains volatile, making GLD a potential buy target. On the other hand, the price of silver has been negatively impacted by the increase in gold prices, making SLV a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor gold prices and safe haven demand"
+        "note": "Monitor gold prices and global economic trends"
       },
-      "exitStrategy": "Exit when gold prices stabilize or safe haven demand decreases",
+      "exitStrategy": "Exit when gold prices stabilize or global economic trends improve",
       "gains": {
         "conservative": "+2\u20133%",
         "conservativeNote": "If gold prices stabilize",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If safe haven demand continues to rise",
+        "extendedNote": "If global economic trends worsen",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Silver"
+        "Silver prices",
+        "Precious metals"
       ],
       "otherFactors": [
-        "Safe haven demand",
-        "Inflation"
+        "Global economic trends",
+        "Safe-haven demand"
       ]
     },
     {
       "id": 7,
       "rank": "MED",
-      "category": "fx",
-      "catLabel": "Forex",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "US Dollar Index",
-      "summary": "The US dollar index is rising due to safe haven demand.",
+      "summary": "The US dollar index has been increasing in recent weeks, driven by safe-haven demand and concerns over global economic growth. The US dollar index remains volatile, with potential implications for the global economy.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -309,42 +315,43 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The US dollar index is rising due to safe haven demand, which could continue if the Iran war escalates.",
+      "reasoning": "The US dollar index has been increasing in recent weeks, driven by safe-haven demand and concerns over global economic growth. The US dollar index remains volatile, making UUP a potential buy target. On the other hand, the increase in the US dollar index could negatively impact emerging markets, making EEM a potential short target.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor US dollar index and safe haven demand"
+        "viable": "4-8 weeks",
+        "note": "Monitor US dollar index and global economic trends"
       },
-      "exitStrategy": "Exit when the US dollar index stabilizes or safe haven demand decreases",
+      "exitStrategy": "Exit when US dollar index stabilizes or global economic trends improve",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the US dollar index stabilizes",
-        "base": "+8\u201312%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If US dollar index stabilizes",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If safe haven demand continues to rise",
-        "stopLoss": "-5% on UUP"
+        "extended": "+25%+",
+        "extendedNote": "If global economic trends worsen",
+        "stopLoss": "-8% on UUP"
       },
       "adjacentMarkets": [
-        "Euro"
+        "Emerging markets",
+        "Currency markets"
       ],
       "otherFactors": [
-        "Safe haven demand",
-        "Inflation"
+        "Global economic trends",
+        "Safe-haven demand"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "rates",
-      "catLabel": "Interest Rates",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "Treasury Yields",
-      "summary": "Treasury yields are rising due to inflation concerns.",
+      "summary": "Treasury yields have been decreasing in recent weeks, driven by concerns over global economic growth and safe-haven demand. The decrease in Treasury yields remains volatile, with potential implications for the global economy.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -356,44 +363,45 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "Treasury yields are rising due to inflation concerns, which could continue if the Iran war escalates.",
+      "reasoning": "Treasury yields have been decreasing in recent weeks, driven by concerns over global economic growth and safe-haven demand. The decrease in Treasury yields remains volatile, making TLT a potential buy target. On the other hand, the decrease in Treasury yields could negatively impact short-term credit bonds, making CSJ a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor Treasury yields and inflation"
+        "note": "Monitor Treasury yields and global economic trends"
       },
-      "exitStrategy": "Exit when Treasury yields stabilize or inflation concerns ease",
+      "exitStrategy": "Exit when Treasury yields stabilize or global economic trends improve",
       "gains": {
         "conservative": "+2\u20133%",
         "conservativeNote": "If Treasury yields stabilize",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If inflation concerns continue to rise",
+        "extendedNote": "If global economic trends worsen",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Mortgage rates"
+        "Short-term credit bonds",
+        "Long-term government bonds"
       ],
       "otherFactors": [
-        "Inflation",
-        "Economic data"
+        "Global economic trends",
+        "Safe-haven demand"
       ]
     },
     {
       "id": 9,
       "rank": "MED",
-      "category": "earnings",
-      "catLabel": "Earnings",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "Earnings Season",
-      "summary": "Earnings season is underway, and companies are reporting mixed results.",
+      "summary": "The current earnings season has been marked by mixed results, with some companies beating expectations and others missing. The earnings season remains volatile, with potential implications for the global economy.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -403,31 +411,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "Earnings season is underway, and companies are reporting mixed results. This could lead to volatility in the market.",
+      "reasoning": "The current earnings season has been marked by mixed results, with some companies beating expectations and others missing. The earnings season remains volatile, making SPY a potential buy target. On the other hand, the mixed results could negatively impact small-cap stocks, making IWM a potential short target.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor earnings reports"
+        "viable": "4-8 weeks",
+        "note": "Monitor earnings season and global economic trends"
       },
-      "exitStrategy": "Exit when earnings season ends or the market stabilizes",
+      "exitStrategy": "Exit when earnings season concludes or global economic trends improve",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If earnings reports meet expectations",
-        "base": "+8\u201312%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If earnings season concludes positively",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If earnings reports exceed expectations",
-        "stopLoss": "-5% on SPY"
+        "extended": "+25%+",
+        "extendedNote": "If global economic trends improve",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Options market"
+        "Small-cap stocks",
+        "Large-cap stocks"
       ],
       "otherFactors": [
-        "Earnings reports",
-        "Guidance"
+        "Earnings season",
+        "Global economic trends"
       ]
     },
     {
@@ -436,9 +445,9 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Google's New A.I. Chip",
-      "summary": "Google has announced a new A.I. chip, which could lead to advancements in artificial intelligence.",
+      "summary": "Google has announced a new AI chip, which is expected to improve the company's AI capabilities. The announcement has led to increased investor interest in AI-related stocks.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -453,122 +462,125 @@
           "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "Google's new A.I. chip could lead to advancements in artificial intelligence, which could benefit the company.",
+      "reasoning": "Google's new AI chip is expected to improve the company's AI capabilities, making GOOGL a potential buy target. On the other hand, the announcement could negatively impact Microsoft's AI-related efforts, making MSFT a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor Google's A.I. developments"
+        "note": "Monitor AI-related news and trends"
       },
-      "exitStrategy": "Exit when Google's A.I. developments slow or competitors catch up",
+      "exitStrategy": "Exit when AI-related trends slow down",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If Google's A.I. developments meet expectations",
+        "conservativeNote": "If AI-related trends slow down",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If Google's A.I. developments exceed expectations",
+        "extendedNote": "If Google's AI capabilities improve significantly",
         "stopLoss": "-5% on GOOGL"
       },
       "adjacentMarkets": [
-        "Cloud computing"
+        "AI-related stocks",
+        "Technology sector"
       ],
       "otherFactors": [
-        "Competitor performance",
-        "Product announcements"
+        "AI-related trends",
+        "Google's competitive advantage"
       ]
     },
     {
       "id": 11,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Russia-Ukraine Conflict",
-      "summary": "The Russia-Ukraine conflict is ongoing, and the situation is uncertain.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "OPEC Meeting",
+      "summary": "The OPEC meeting has led to a decrease in oil production, which could lead to higher oil prices. The decrease in oil production remains volatile, with potential implications for the global economy.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI Russia ETF (ERUS)"
+          "target": "United States Oil Fund, LP (USO)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Ukraine ETF (URU)"
+          "target": "iShares Global Clean Energy ETF (ICLN)"
         }
       ],
-      "reasoning": "The Russia-Ukraine conflict is ongoing, and the situation is uncertain. This could lead to volatility in the market.",
+      "reasoning": "The OPEC meeting has led to a decrease in oil production, which could lead to higher oil prices. The decrease in oil production remains volatile, making USO a potential buy target. On the other hand, the increase in oil prices could negatively impact the clean energy sector, making ICLN a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the conflict"
+        "note": "Monitor oil prices and OPEC meetings"
       },
-      "exitStrategy": "Exit when the conflict ends or the market stabilizes",
+      "exitStrategy": "Exit when oil prices stabilize or OPEC meetings conclude",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict ends",
+        "conservativeNote": "If oil prices stabilize",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-8% on ERUS"
+        "extendedNote": "If OPEC meetings lead to further oil production cuts",
+        "stopLoss": "-8% on USO"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "Oil prices",
+        "Energy sector"
       ],
       "otherFactors": [
-        "Conflict escalation",
-        "Economic data"
+        "OPEC meetings",
+        "Global economic trends"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
-      "category": "trade",
-      "catLabel": "Trade",
-      "title": "US-China Trade Deal",
-      "summary": "The US and China are negotiating a trade deal, which could lead to a positive outcome for the market.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Stock Market",
+      "summary": "The US stock market has been volatile in recent weeks, driven by concerns over global economic growth and earnings season. The US stock market remains volatile, with potential implications for the global economy.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The US and China are negotiating a trade deal, which could lead to a positive outcome for the market.",
+      "reasoning": "The US stock market has been volatile in recent weeks, driven by concerns over global economic growth and earnings season. The US stock market remains volatile, making SPY a potential buy target. On the other hand, the volatility could negatively impact small-cap stocks, making IWM a potential short target.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations"
+        "note": "Monitor US stock market and global economic trends"
       },
-      "exitStrategy": "Exit when a trade deal is announced or negotiations break down",
+      "exitStrategy": "Exit when US stock market stabilizes or global economic trends improve",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If a trade deal is announced",
+        "conservativeNote": "If US stock market stabilizes",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the trade deal is favorable to China",
-        "stopLoss": "-5% on FXI"
+        "extendedNote": "If global economic trends improve",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "Small-cap stocks",
+        "Large-cap stocks"
       ],
       "otherFactors": [
-        "Trade negotiations",
-        "Economic data"
+        "US stock market",
+        "Global economic trends"
       ]
     }
   ]
