@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T20:09:44Z",
+  "lastUpdated": "2026-04-17T23:10:29Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,46 +13,45 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict between the US and Iran continues to escalate, with both sides suffering losses. The war has significant implications for global oil prices and geopolitical stability. The US has shown military strength, but its waning geopolitical power is a concern.",
+      "summary": "The ongoing conflict between the US and Iran is escalating, with both sides suffering losses. The war is affecting global oil prices and geopolitical stability. The US is considering further military action, while Iran is seeking support from other nations.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
           "label": "SHORT",
           "cls": "short",
           "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The escalation of the war will likely lead to increased oil prices, which will have a significant impact on the global economy. The US stock market may experience volatility, but the SPDR S&P 500 ETF Trust (SPY) is a relatively safe bet. On the other hand, the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) may suffer due to decreased oil demand.",
+      "reasoning": "The escalation of the Iran war is likely to lead to higher oil prices and increased volatility in the market. Shorting the oil and gas exploration ETF could be a profitable move, while buying gold as a safe-haven asset could provide a hedge against market uncertainty.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil price movements and adjust accordingly"
+        "note": "Monitor oil prices and geopolitical developments"
       },
-      "exitStrategy": "Exit when oil prices stabilize or the conflict de-escalates",
+      "exitStrategy": "Close positions if oil prices drop below $60/barrel or if a ceasefire is announced",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If oil prices rise by 10%",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-10% on IEO"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)",
-        "Treasury Yields"
+        "US Treasury yields",
+        "USD Index"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Fed policy"
+        "OPEC production cuts"
       ]
     },
     {
@@ -61,7 +60,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, citing concerns about inflation and the impact of the Iran war on the economy. This decision has significant implications for the US stock market and bond yields.",
+      "summary": "The Federal Reserve has decided to keep interest rates unchanged, citing concerns about inflation and economic growth. The decision has been met with mixed reactions from investors and economists.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -70,37 +69,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady will likely lead to increased bond prices and decreased stock prices. The iShares 20+ Year Treasury Bond ETF (TLT) is a good bet, while the SPDR S&P 500 ETF Trust (SPY) may suffer due to decreased investor confidence.",
+      "reasoning": "The Fed's decision to hold interest rates steady is likely to lead to a short-term boost in the stock market, making it a good time to buy into the total stock market ETF. Rotating out of long-term bonds and into shorter-term credit bonds could also be a good strategy, given the potential for higher interest rates in the future.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data and adjust accordingly"
+        "note": "Monitor economic data and Fed statements"
       },
-      "exitStrategy": "Exit when inflation data improves or the Fed changes its stance",
+      "exitStrategy": "Close positions if interest rates rise or if the economy shows signs of slowing down",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If inflation remains stable",
-        "base": "+8\u201312%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the market reacts positively to the Fed's decision",
+        "base": "+6-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If inflation increases",
-        "stopLoss": "-5% on TLT"
+        "extended": "+10%+",
+        "extendedNote": "If the economy continues to grow",
+        "stopLoss": "-5% on VTI"
       },
       "adjacentMarkets": [
-        "Gold",
-        "Oil"
+        "US Treasury yields",
+        "USD Index"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Iran war impact on oil prices"
+        "Inflation expectations"
       ]
     },
     {
@@ -109,7 +107,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia's AI technology is gaining traction, with the company partnering with several major players in the industry. This has significant implications for the stock price and the broader tech sector.",
+      "summary": "Nvidia's AI-focused stock has been gaining traction, with the company announcing new partnerships and products in the field of artificial intelligence.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -126,29 +124,27 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's AI technology is a game-changer, and the company's partnerships will likely lead to increased demand and revenue. The stock price will likely increase, while AMD may suffer due to decreased market share.",
+      "reasoning": "Nvidia's focus on AI is likely to drive growth in the company's stock, making it a good buy. Shorting AMD, a competitor in the semiconductor space, could also be a profitable move, given Nvidia's strong position in the market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor partnership announcements and adjust accordingly"
+        "note": "Monitor Nvidia's AI-related announcements and partnerships"
       },
-      "exitStrategy": "Exit when Nvidia's AI technology is fully integrated into the market",
+      "exitStrategy": "Close positions if Nvidia's AI-focused products fail to gain traction or if AMD announces a major breakthrough",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If partnerships are successful",
-        "base": "+15\u201320%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If Nvidia's AI products gain traction",
+        "base": "+12-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If Nvidia's AI technology becomes industry standard",
+        "extended": "+20%+",
+        "extendedNote": "If Nvidia becomes a leader in the AI space",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech sector",
-        "AI-related stocks"
+        "Semiconductor ETF (SMH)"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global economic trends"
+        "AI adoption rates"
       ]
     },
     {
@@ -157,7 +153,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in ongoing trade negotiations, with significant implications for the global economy. The current state of relations is tense, but a deal is possible.",
+      "summary": "The US and China are continuing to negotiate a trade deal, with both sides making concessions and progress being made.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -169,34 +165,33 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares US Aerospace & Defense ETF (ITA)"
         }
       ],
-      "reasoning": "A trade deal between the US and China would likely lead to increased investor confidence and a boost to the Chinese economy. The iShares China Large-Cap ETF (FXI) is a good bet, while the SPDR S&P 500 ETF Trust (SPY) may suffer due to decreased US exports.",
+      "reasoning": "The ongoing trade negotiations between the US and China are likely to lead to a positive outcome, making it a good time to buy into the Chinese large-cap ETF. Rotating out of the US aerospace and defense ETF could also be a good strategy, given the potential for reduced tensions between the two nations.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations and adjust accordingly"
+        "note": "Monitor trade negotiations and announcements"
       },
-      "exitStrategy": "Exit when a trade deal is announced or negotiations break down",
+      "exitStrategy": "Close positions if trade tensions escalate or if the negotiations fail",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If a deal is reached",
-        "base": "+8\u201312%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If trade negotiations are successful",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the deal is comprehensive",
+        "extended": "+8%+",
+        "extendedNote": "If the trade deal is signed",
         "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging markets",
-        "Commodities"
+        "US Treasury yields",
+        "USD Index"
       ],
       "otherFactors": [
-        "Global economic trends",
-        "Iran war impact on oil prices"
+        "Trade balance"
       ]
     },
     {
@@ -205,7 +200,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Impact on Oil Prices",
-      "summary": "The ongoing conflict between the US and Iran is having a significant impact on global oil prices, with prices increasing due to decreased supply and increased demand.",
+      "summary": "The ongoing conflict between the US and Iran is affecting global oil prices, with prices rising due to supply concerns.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "MED",
@@ -214,37 +209,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund, LP (USO)"
+          "target": "United States Oil Fund LP (USO)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "Renewable Energy ETF (ICLN)"
         }
       ],
-      "reasoning": "The conflict will likely lead to increased oil prices, making the United States Oil Fund, LP (USO) a good bet. On the other hand, the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) may suffer due to decreased oil demand.",
+      "reasoning": "The Iran war is likely to drive up oil prices, making it a good time to buy into the US oil fund. Shorting the renewable energy ETF could also be a profitable move, given the potential for reduced demand for renewable energy sources.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor oil price movements and adjust accordingly"
+        "note": "Monitor oil prices and supply concerns"
       },
-      "exitStrategy": "Exit when oil prices stabilize or the conflict de-escalates",
+      "exitStrategy": "Close positions if oil prices drop below $50/barrel or if the conflict is resolved",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If oil prices rise by 10%",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
+        "extended": "+15%+",
         "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on USO"
+        "stopLoss": "-10% on USO"
       },
       "adjacentMarkets": [
-        "Gold",
-        "Treasury Yields"
+        "US Treasury yields",
+        "USD Index"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Fed policy"
+        "OPEC production cuts"
       ]
     },
     {
@@ -253,9 +247,9 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Earnings Season",
-      "summary": "The current earnings season is underway, with several major companies reporting strong earnings. This has significant implications for the US stock market and investor confidence.",
+      "summary": "The current earnings season is underway, with many companies reporting strong results and beating expectations.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -265,34 +259,33 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Small-Cap ETF (VB)"
         }
       ],
-      "reasoning": "Strong earnings reports will likely lead to increased investor confidence and a boost to the US stock market. The SPDR S&P 500 ETF Trust (SPY) is a good bet, while the iShares Russell 2000 ETF (IWM) may suffer due to decreased small-cap demand.",
+      "reasoning": "The strong earnings reports are likely to drive up the stock market, making it a good time to buy into the S&P 500 ETF. Rotating out of the small-cap ETF could also be a good strategy, given the potential for reduced volatility in the market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "note": "Monitor earnings reports and market reactions"
       },
-      "exitStrategy": "Exit when earnings season ends or investor confidence decreases",
+      "exitStrategy": "Close positions if earnings reports disappoint or if the market becomes overly bullish",
       "gains": {
-        "conservative": "+3\u20135%",
+        "conservative": "+2-4%",
         "conservativeNote": "If earnings reports are strong",
-        "base": "+8\u201312%",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If earnings reports exceed expectations",
+        "extended": "+8%+",
+        "extendedNote": "If the market continues to rally",
         "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Tech sector",
-        "Financials"
+        "US Treasury yields",
+        "USD Index"
       ],
       "otherFactors": [
-        "Global economic trends",
-        "Iran war impact on oil prices"
+        "Economic growth"
       ]
     },
     {
@@ -301,9 +294,9 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Google's New A.I. Chip",
-      "summary": "Google has announced a new AI chip, which has significant implications for the tech sector and AI-related stocks.",
+      "summary": "Google has announced a new AI-focused chip, which is expected to drive growth in the company's cloud computing business.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
@@ -315,43 +308,41 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "Google's new AI chip will likely lead to increased demand and revenue for the company, making Alphabet Inc. (GOOGL) a good bet. On the other hand, NVIDIA Corporation (NVDA) may suffer due to decreased market share.",
+      "reasoning": "Google's new AI chip is likely to drive growth in the company's cloud computing business, making it a good time to buy into the stock. Shorting Microsoft, a competitor in the cloud space, could also be a profitable move, given Google's strong position in the market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI-related announcements and adjust accordingly"
+        "note": "Monitor Google's AI-related announcements and partnerships"
       },
-      "exitStrategy": "Exit when Google's AI chip is fully integrated into the market",
+      "exitStrategy": "Close positions if Google's AI-focused products fail to gain traction or if Microsoft announces a major breakthrough",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the AI chip is successful",
-        "base": "+15\u201320%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If Google's AI products gain traction",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the AI chip becomes industry standard",
+        "extended": "+15%+",
+        "extendedNote": "If Google becomes a leader in the AI space",
         "stopLoss": "-10% on GOOGL"
       },
       "adjacentMarkets": [
-        "Tech sector",
-        "AI-related stocks"
+        "Cloud Computing ETF (SKYY)"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global economic trends"
+        "AI adoption rates"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "commod",
+      "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The current gold price is stable, with some fluctuations due to global economic trends and geopolitical events.",
+      "summary": "The price of gold has been rising due to safe-haven demand and concerns about inflation.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1h ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -361,45 +352,44 @@
           "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "The gold price will likely remain stable, making the SPDR Gold Shares ETF (GLD) a good bet. On the other hand, the iShares Silver Trust (SLV) may suffer due to decreased demand.",
+      "reasoning": "The rising price of gold is likely to continue, making it a good time to buy into the gold ETF. Rotating out of the silver ETF could also be a good strategy, given the potential for reduced demand for silver.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor gold price movements and adjust accordingly"
+        "note": "Monitor gold prices and safe-haven demand"
       },
-      "exitStrategy": "Exit when gold price stabilizes or decreases",
+      "exitStrategy": "Close positions if gold prices drop below $1,500/oz or if inflation concerns ease",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If gold price remains stable",
-        "base": "+8\u201312%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If gold prices rise by 5%",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If gold price increases",
+        "extended": "+8%+",
+        "extendedNote": "If gold prices rise by 10%",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Commodities",
-        "Currencies"
+        "US Treasury yields",
+        "USD Index"
       ],
       "otherFactors": [
-        "Global economic trends",
-        "Iran war impact on oil prices"
+        "Inflation expectations"
       ]
     },
     {
       "id": 9,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "US Dollar Index",
-      "summary": "The US dollar index is stable, with some fluctuations due to global economic trends and geopolitical events.",
+      "summary": "The US dollar index has been rising due to safe-haven demand and concerns about global economic growth.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -411,43 +401,41 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Invesco DB US Dollar Index Bearish Fund (UDN)"
+          "target": "Euro ETF (FXE)"
         }
       ],
-      "reasoning": "The US dollar index will likely remain stable, making the Invesco DB US Dollar Index Bullish Fund (UUP) a good bet. On the other hand, the Invesco DB US Dollar Index Bearish Fund (UDN) may suffer due to decreased demand.",
+      "reasoning": "The rising US dollar index is likely to continue, making it a good time to buy into the US dollar index fund. Shorting the euro ETF could also be a profitable move, given the potential for reduced demand for the euro.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US dollar index movements and adjust accordingly"
+        "note": "Monitor US dollar index and safe-haven demand"
       },
-      "exitStrategy": "Exit when US dollar index stabilizes or decreases",
+      "exitStrategy": "Close positions if the US dollar index drops below 95 or if global economic growth concerns ease",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If US dollar index remains stable",
-        "base": "+12\u201318%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the US dollar index rises by 2%",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If US dollar index increases",
-        "stopLoss": "-8% on UUP"
+        "extended": "+8%+",
+        "extendedNote": "If the US dollar index rises by 5%",
+        "stopLoss": "-5% on UUP"
       },
       "adjacentMarkets": [
-        "Currencies",
-        "Commodities"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Global economic trends",
-        "Iran war impact on oil prices"
+        "Global economic growth"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "commod",
+      "catLabel": "Commodities",
       "title": "Treasury Yields",
-      "summary": "The current Treasury yields are stable, with some fluctuations due to global economic trends and geopolitical events.",
+      "summary": "US Treasury yields have been rising due to concerns about inflation and economic growth.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1h ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -457,34 +445,32 @@
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 1-3 Year Treasury Bond ETF (SHY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The Treasury yields will likely remain stable, making the iShares 20+ Year Treasury Bond ETF (TLT) a good bet. On the other hand, the iShares 1-3 Year Treasury Bond ETF (SHY) may suffer due to decreased demand.",
+      "reasoning": "The rising Treasury yields are likely to continue, making it a good time to buy into the long-term Treasury bond ETF. Rotating out of the short-term credit bond ETF could also be a good strategy, given the potential for reduced demand for short-term bonds.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor Treasury yields and adjust accordingly"
+        "note": "Monitor Treasury yields and inflation concerns"
       },
-      "exitStrategy": "Exit when Treasury yields stabilize or decrease",
+      "exitStrategy": "Close positions if Treasury yields drop below 2% or if inflation concerns ease",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If Treasury yields remain stable",
-        "base": "+8\u201312%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If Treasury yields rise by 10bps",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If Treasury yields increase",
+        "extended": "+6%+",
+        "extendedNote": "If Treasury yields rise by 20bps",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Bonds",
-        "Currencies"
+        "US dollar index"
       ],
       "otherFactors": [
-        "Global economic trends",
-        "Iran war impact on oil prices"
+        "Inflation expectations"
       ]
     }
   ]
