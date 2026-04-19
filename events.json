@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T06:18:49Z",
+  "lastUpdated": "2026-04-19T09:35:05Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict between the US and Iran has led to increased tensions in the Middle East, with potential implications for global oil prices and stock markets. The situation remains volatile, with multiple scenarios possible. The US has imposed sanctions on Iran, while Iran has retaliated with attacks on US targets.",
+      "summary": "The conflict between the US and Iran continues to escalate, with potential implications for global oil prices and geopolitical stability. The situation remains volatile, with multiple scenarios possible. The war has already affected oil prices, and further escalation could lead to higher prices.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,33 +22,32 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
         }
       ],
-      "reasoning": "The conflict has led to increased uncertainty, which could lead to a decline in stock prices. However, a potential ceasefire or de-escalation could lead to a rally in the markets. The SPDR S&P 500 ETF Trust (SPY) is a good proxy for the overall market, while the iShares Core U.S. Aggregate Bond ETF (AGG) could be affected by changes in interest rates.",
+      "reasoning": "The ongoing conflict between the US and Iran has the potential to disrupt global oil supplies, leading to higher prices. This could benefit oil services companies, while also increasing the attractiveness of safe-haven assets like US Treasury bonds.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for updates on the conflict"
+        "note": "Monitor oil price movements and geopolitical developments"
       },
-      "exitStrategy": "Exit if a ceasefire is announced or if the conflict escalates further",
+      "exitStrategy": "Exit if oil prices drop below $60/bbl or if a ceasefire is announced",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+8-12%",
+        "conservativeNote": "If oil prices rise to $70/bbl",
+        "base": "+15-20%",
+        "baseNote": "If oil prices rise to $80/bbl",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If oil prices rise above $100/bbl",
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)",
-        "Oil prices"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
         "US-China trade relations"
@@ -60,44 +59,39 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia's AI-related stocks have been performing well, with the company announcing new partnerships and products. The company's CEO has also made bullish comments about the future of AI.",
+      "summary": "Nvidia's AI-focused strategy continues to drive growth, with the company investing heavily in AI research and development. Recent partnerships and product announcements have further solidified Nvidia's position in the AI market.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's AI-related stocks have been performing well, and the company's new partnerships and products could lead to further growth. The company's CEO has also made bullish comments about the future of AI.",
+      "reasoning": "Nvidia's commitment to AI research and development, combined with its recent partnerships and product announcements, position the company for continued growth in the AI market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on Nvidia's AI products"
+        "viable": "12 weeks",
+        "note": "Monitor Nvidia's AI-related announcements and partnerships"
       },
-      "exitStrategy": "Exit if Nvidia's stock price reaches $500",
+      "exitStrategy": "Exit if Nvidia's AI-focused strategy shows signs of slowing",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If Nvidia's AI products perform well",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If Nvidia's AI products exceed expectations",
+        "conservative": "+5-8%",
+        "conservativeNote": "If Nvidia's AI revenue grows 10% YoY",
+        "base": "+12-15%",
+        "baseNote": "If Nvidia's AI revenue grows 20% YoY",
+        "extended": "+20%+",
+        "extendedNote": "If Nvidia's AI revenue grows 30% YoY",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI-focused ETFs"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Competition from other AI-focused companies"
       ]
     },
     {
@@ -106,42 +100,41 @@
       "category": "econ",
       "catLabel": "Economics",
       "title": "US-China Trade Relations",
-      "summary": "The US and China have been engaged in a trade war, with both countries imposing tariffs on each other's goods. The situation remains uncertain, with potential implications for global trade and economic growth.",
+      "summary": "The US-China trade relationship remains a key factor in global economic stability, with ongoing tensions and negotiations affecting trade flows and investment decisions. Recent developments suggest a potential shift in the trade relationship, with implications for global markets.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Invesco PowerShares DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The trade war between the US and China has led to increased uncertainty, which could lead to a decline in stock prices. However, a potential trade deal or de-escalation could lead to a rally in the markets. The iShares MSCI China ETF (MCHI) is a good proxy for the Chinese market, while the SPDR S&P 500 ETF Trust (SPY) could be affected by changes in US trade policy.",
+      "reasoning": "The US-China trade relationship has the potential to impact global markets, with a potential shift in the trade relationship affecting trade flows and investment decisions. A more positive trade relationship could benefit Chinese stocks, while a more negative relationship could strengthen the US dollar.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor news for updates on US-China trade relations"
+        "viable": "12 weeks",
+        "note": "Monitor US-China trade negotiations and developments"
       },
-      "exitStrategy": "Exit if a trade deal is announced or if the trade war escalates further",
+      "exitStrategy": "Exit if the US-China trade relationship shows signs of significant deterioration",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If a trade deal is announced",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the trade war escalates further",
-        "stopLoss": "-8% on MCHI"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the US-China trade relationship shows signs of improvement",
+        "base": "+10-12%",
+        "baseNote": "If the US-China trade relationship shows significant improvement",
+        "extended": "+15%+",
+        "extendedNote": "If the US-China trade relationship shows major breakthroughs",
+        "stopLoss": "-8% on FXI"
       },
       "adjacentMarkets": [
-        "US stocks",
-        "Chinese stocks"
+        "Emerging market ETFs"
       ],
       "otherFactors": [
         "Global economic growth"
@@ -153,41 +146,41 @@
       "category": "fin",
       "catLabel": "Finance",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has held interest rates steady, citing a strong labor market and low inflation. The decision has led to a rally in the stock market, with investors expecting further growth.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing a balanced outlook for the US economy. The decision has implications for monetary policy and the broader financial markets.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "target": "ProShares UltraPro Short 20+ Year Treasury ETF (TTT)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady has led to a rally in the stock market, with investors expecting further growth. The Vanguard Total Stock Market ETF (VTI) is a good proxy for the overall market, while the iShares 1-3 Year Credit Bond ETF (CSJ) could be affected by changes in interest rates.",
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady has implications for monetary policy and the broader financial markets. The decision could lead to a decrease in long-term interest rates, benefiting credit bond ETFs, while also potentially weakening the US dollar.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on interest rates"
+        "viable": "8 weeks",
+        "note": "Monitor Federal Reserve announcements and economic data"
       },
-      "exitStrategy": "Exit if interest rates are changed",
+      "exitStrategy": "Exit if the Federal Reserve shows signs of tightening monetary policy",
       "gains": {
-        "conservative": "+2\u20135%",
+        "conservative": "+2-4%",
         "conservativeNote": "If interest rates remain steady",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If interest rates are cut",
-        "stopLoss": "-5% on VTI"
+        "base": "+4-6%",
+        "baseNote": "If interest rates decrease",
+        "extended": "+8%+",
+        "extendedNote": "If interest rates decrease significantly",
+        "stopLoss": "-4% on CSJ"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Mortgage-backed securities"
       ],
       "otherFactors": [
         "Inflation expectations"
@@ -199,57 +192,52 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Google's New A.I. Chip",
-      "summary": "Google has announced a new AI chip, which could lead to significant advancements in the field of artificial intelligence. The company has also announced new partnerships and products related to AI.",
+      "summary": "Google has announced a new AI-focused chip, with potential implications for the company's AI capabilities and the broader tech industry. The chip could enable Google to improve its AI services and compete more effectively with other AI-focused companies.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "Alphabet Inc. (GOOGL)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "Google's new AI chip could lead to significant advancements in the field of artificial intelligence, which could lead to growth in the company's stock price. The company's new partnerships and products related to AI could also lead to further growth.",
+      "reasoning": "Google's new AI-focused chip has the potential to improve the company's AI capabilities and enable it to compete more effectively with other AI-focused companies. The chip could also have broader implications for the tech industry, potentially leading to increased adoption of AI technologies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on Google's AI products"
+        "viable": "12 weeks",
+        "note": "Monitor Google's AI-related announcements and developments"
       },
-      "exitStrategy": "Exit if Google's stock price reaches $1,500",
+      "exitStrategy": "Exit if Google's AI-focused strategy shows signs of slowing",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If Google's AI products perform well",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If Google's AI products exceed expectations",
+        "conservative": "+5-8%",
+        "conservativeNote": "If Google's AI revenue grows 10% YoY",
+        "base": "+10-12%",
+        "baseNote": "If Google's AI revenue grows 20% YoY",
+        "extended": "+15%+",
+        "extendedNote": "If Google's AI revenue grows 30% YoY",
         "stopLoss": "-8% on GOOGL"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI-focused ETFs"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Competition from other AI-focused companies"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "commodities",
+      "category": "comm",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The price of gold has been rising, driven by increased demand for safe-haven assets. The ongoing conflict in the Middle East and the trade war between the US and China have led to increased uncertainty, which has driven up the price of gold.",
+      "summary": "The price of gold has been affected by recent geopolitical developments, with potential implications for the broader commodities market. The price of gold could continue to be volatile, influenced by factors such as central bank buying and investor demand.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -259,43 +247,43 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Silver Trust (SLV)"
+          "target": "ProShares UltraShort Gold ETF (GLL)"
         }
       ],
-      "reasoning": "The price of gold has been rising, driven by increased demand for safe-haven assets. The ongoing conflict in the Middle East and the trade war between the US and China have led to increased uncertainty, which has driven up the price of gold. The SPDR Gold Shares ETF (GLD) is a good proxy for the price of gold, while the iShares Silver Trust (SLV) could be affected by changes in the price of silver.",
+      "reasoning": "The price of gold has been affected by recent geopolitical developments, with potential implications for the broader commodities market. The price of gold could continue to be volatile, influenced by factors such as central bank buying and investor demand.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on gold prices"
+        "viable": "8 weeks",
+        "note": "Monitor gold price movements and geopolitical developments"
       },
-      "exitStrategy": "Exit if the price of gold reaches $1,500",
+      "exitStrategy": "Exit if the gold price shows signs of significant decline",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the price of gold remains steady",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the price of gold exceeds $1,500",
-        "stopLoss": "-5% on GLD"
+        "conservative": "+2-4%",
+        "conservativeNote": "If the gold price remains steady",
+        "base": "+4-6%",
+        "baseNote": "If the gold price increases",
+        "extended": "+8%+",
+        "extendedNote": "If the gold price increases significantly",
+        "stopLoss": "-4% on GLD"
       },
       "adjacentMarkets": [
-        "Silver market"
+        "Silver"
       ],
       "otherFactors": [
-        "US dollar index"
+        "Central bank buying"
       ]
     },
     {
       "id": 7,
       "rank": "MED",
-      "category": "energy",
-      "catLabel": "Energy",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
       "title": "Iran War Impact on Oil Prices",
-      "summary": "The ongoing conflict in the Middle East has led to increased uncertainty, which has driven up the price of oil. The conflict has disrupted oil supplies, leading to a shortage in the global market.",
+      "summary": "The ongoing conflict between the US and Iran has the potential to disrupt global oil supplies, leading to higher prices. The situation remains volatile, with multiple scenarios possible.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -305,43 +293,43 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Global Clean Energy ETF (ICLN)"
+          "target": "Invesco DB Oil Fund (DBO)"
         }
       ],
-      "reasoning": "The ongoing conflict in the Middle East has led to increased uncertainty, which has driven up the price of oil. The conflict has disrupted oil supplies, leading to a shortage in the global market. The United States Oil Fund LP (USO) is a good proxy for the price of oil, while the iShares Global Clean Energy ETF (ICLN) could be affected by changes in the price of clean energy.",
+      "reasoning": "The ongoing conflict between the US and Iran has the potential to disrupt global oil supplies, leading to higher prices. This could benefit oil ETFs, while also increasing the attractiveness of safe-haven assets like US Treasury bonds.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on oil prices"
+        "viable": "4-8 weeks",
+        "note": "Monitor oil price movements and geopolitical developments"
       },
-      "exitStrategy": "Exit if the price of oil reaches $70",
+      "exitStrategy": "Exit if oil prices drop below $60/bbl or if a ceasefire is announced",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the price of oil remains steady",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the price of oil exceeds $70",
-        "stopLoss": "-8% on USO"
+        "conservative": "+5-8%",
+        "conservativeNote": "If oil prices rise to $70/bbl",
+        "base": "+10-12%",
+        "baseNote": "If oil prices rise to $80/bbl",
+        "extended": "+15%+",
+        "extendedNote": "If oil prices rise above $100/bbl",
+        "stopLoss": "-10% on USO"
       },
       "adjacentMarkets": [
-        "Natural gas market"
+        "Natural gas"
       ],
       "otherFactors": [
-        "US dollar index"
+        "US-China trade relations"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "forex",
-      "catLabel": "Forex",
+      "category": "fin",
+      "catLabel": "Finance",
       "title": "US Dollar Index",
-      "summary": "The US dollar index has been rising, driven by increased demand for safe-haven assets. The ongoing conflict in the Middle East and the trade war between the US and China have led to increased uncertainty, which has driven up the value of the US dollar.",
+      "summary": "The US Dollar Index has been affected by recent geopolitical developments, with potential implications for the broader foreign exchange market. The index could continue to be volatile, influenced by factors such as interest rates and trade flows.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -351,27 +339,27 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Invesco DB US Dollar Index Bearish Fund (UDN)"
+          "target": "ProShares UltraShort US Dollar ETF (UDN)"
         }
       ],
-      "reasoning": "The US dollar index has been rising, driven by increased demand for safe-haven assets. The ongoing conflict in the Middle East and the trade war between the US and China have led to increased uncertainty, which has driven up the value of the US dollar. The Invesco DB US Dollar Index Bullish Fund (UUP) is a good proxy for the US dollar index, while the Invesco DB US Dollar Index Bearish Fund (UDN) could be affected by changes in the value of the US dollar.",
+      "reasoning": "The US Dollar Index has been affected by recent geopolitical developments, with potential implications for the broader foreign exchange market. The index could continue to be volatile, influenced by factors such as interest rates and trade flows.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on the US dollar index"
+        "viable": "8 weeks",
+        "note": "Monitor US Dollar Index movements and geopolitical developments"
       },
-      "exitStrategy": "Exit if the US dollar index reaches 100",
+      "exitStrategy": "Exit if the US Dollar Index shows signs of significant decline",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the US dollar index remains steady",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the US dollar index exceeds 100",
-        "stopLoss": "-5% on UUP"
+        "conservative": "+2-4%",
+        "conservativeNote": "If the US Dollar Index remains steady",
+        "base": "+4-6%",
+        "baseNote": "If the US Dollar Index increases",
+        "extended": "+8%+",
+        "extendedNote": "If the US Dollar Index increases significantly",
+        "stopLoss": "-4% on UUP"
       },
       "adjacentMarkets": [
-        "Euro market"
+        "Euro"
       ],
       "otherFactors": [
         "Interest rates"
@@ -380,60 +368,60 @@
     {
       "id": 9,
       "rank": "MED",
-      "category": "earnings",
-      "catLabel": "Earnings",
+      "category": "econ",
+      "catLabel": "Economics",
       "title": "Earnings Season",
-      "summary": "The earnings season is underway, with many companies reporting their quarterly earnings. The season has been mixed, with some companies beating expectations and others missing.",
+      "summary": "The current earnings season has the potential to impact the broader stock market, with companies reporting their quarterly results. The season could be volatile, with potential implications for investor sentiment and market trends.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "target": "ProShares Short S&P 500 ETF (SH)"
         }
       ],
-      "reasoning": "The earnings season is underway, with many companies reporting their quarterly earnings. The season has been mixed, with some companies beating expectations and others missing. The Vanguard Total Stock Market ETF (VTI) is a good proxy for the overall market, while the iShares Russell 2000 ETF (IWM) could be affected by changes in the earnings of small-cap companies.",
+      "reasoning": "The current earnings season has the potential to impact the broader stock market, with companies reporting their quarterly results. The season could be volatile, with potential implications for investor sentiment and market trends.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on earnings"
+        "viable": "12 weeks",
+        "note": "Monitor earnings reports and market trends"
       },
-      "exitStrategy": "Exit if the earnings season is over",
+      "exitStrategy": "Exit if the earnings season shows signs of significant decline",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the earnings season is mixed",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the earnings season is strong",
-        "stopLoss": "-8% on VTI"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the earnings season is neutral",
+        "base": "+10-12%",
+        "baseNote": "If the earnings season is positive",
+        "extended": "+15%+",
+        "extendedNote": "If the earnings season is very positive",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Dow Jones Industrial Average"
       ],
       "otherFactors": [
-        "Interest rates"
+        "Global economic growth"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "bonds",
-      "catLabel": "Bonds",
+      "category": "fin",
+      "catLabel": "Finance",
       "title": "Treasury Yields",
-      "summary": "Treasury yields have been rising, driven by increased demand for safe-haven assets. The ongoing conflict in the Middle East and the trade war between the US and China have led to increased uncertainty, which has driven up the value of Treasury bonds.",
+      "summary": "Treasury yields have been affected by recent geopolitical developments, with potential implications for the broader bond market. Yields could continue to be volatile, influenced by factors such as interest rates and inflation expectations.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -443,27 +431,27 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 1-3 Year Treasury Bond ETF (SHY)"
+          "target": "ProShares UltraShort 20+ Year Treasury ETF (TBT)"
         }
       ],
-      "reasoning": "Treasury yields have been rising, driven by increased demand for safe-haven assets. The ongoing conflict in the Middle East and the trade war between the US and China have led to increased uncertainty, which has driven up the value of Treasury bonds. The iShares 20+ Year Treasury Bond ETF (TLT) is a good proxy for long-term Treasury bonds, while the iShares 1-3 Year Treasury Bond ETF (SHY) could be affected by changes in short-term Treasury bonds.",
+      "reasoning": "Treasury yields have been affected by recent geopolitical developments, with potential implications for the broader bond market. Yields could continue to be volatile, influenced by factors such as interest rates and inflation expectations.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor news for updates on Treasury yields"
+        "viable": "8 weeks",
+        "note": "Monitor Treasury yield movements and geopolitical developments"
       },
-      "exitStrategy": "Exit if Treasury yields reach 2%",
+      "exitStrategy": "Exit if Treasury yields show signs of significant increase",
       "gains": {
-        "conservative": "+2\u20135%",
+        "conservative": "+2-4%",
         "conservativeNote": "If Treasury yields remain steady",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If Treasury yields exceed 2%",
-        "stopLoss": "-5% on TLT"
+        "base": "+4-6%",
+        "baseNote": "If Treasury yields decrease",
+        "extended": "+8%+",
+        "extendedNote": "If Treasury yields decrease significantly",
+        "stopLoss": "-4% on TLT"
       },
       "adjacentMarkets": [
-        "Mortgage market"
+        "Mortgage-backed securities"
       ],
       "otherFactors": [
         "Inflation expectations"
