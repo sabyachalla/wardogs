@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T23:28:50Z",
+  "lastUpdated": "2026-04-21T06:24:36Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -12,8 +12,8 @@
       "rank": "HIGH",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "Iran War Impact on Oil Prices",
-      "summary": "The ongoing conflict in Iran has led to a significant increase in oil prices, with potential for further escalation. This has resulted in a surge in energy stocks and a decrease in stocks sensitive to higher energy costs. The US-China trade relationship and the Fed's next move are also being closely watched.",
+      "title": "Iran War Impact on Global Markets",
+      "summary": "The ongoing conflict in Iran is expected to have significant implications for global markets, particularly in the energy and defense sectors. The US and its allies are likely to experience increased military spending, while the global economy may face disruptions due to trade and energy supply chain disruptions.",
       "fresh": true,
       "freshLabel": "just now",
       "risk": "HIGH",
@@ -22,36 +22,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Energy Select Sector SPDR Fund (XLE)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Consumer Discretionary Select Sector SPDR Fund (XLY)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran has disrupted global oil supplies, leading to higher prices. This has resulted in increased demand for energy stocks, while stocks sensitive to higher energy costs have decreased. The US-China trade relationship and the Fed's next move will also impact the market.",
+      "reasoning": "The conflict in Iran is likely to lead to increased volatility in global markets, with potential disruptions to energy supplies and trade. The US and its allies may experience increased military spending, which could boost defense stocks. However, emerging markets may be negatively impacted due to trade disruptions and potential economic instability.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and adjust accordingly"
+        "note": "Monitor for escalation or de-escalation of conflict"
       },
-      "exitStrategy": "Exit when oil prices stabilize or the conflict is resolved",
+      "exitStrategy": "Exit positions if conflict escalates or de-escalates significantly",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+15-20%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict remains contained",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-10% on XLE"
+        "extendedNote": "If conflict escalates significantly",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil (energy supply disruptions)"
       ],
       "otherFactors": [
-        "US-China trade relationship",
-        "Fed's next move"
+        "US-China trade relations",
+        "Fed interest rate decisions"
       ]
     },
     {
@@ -60,39 +61,46 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia's AI technology has been gaining traction, with potential applications in various industries. The company's stock has been increasing in value, with potential for further growth.",
+      "summary": "Nvidia's AI-focused stocks are expected to experience significant growth due to increasing demand for AI-powered technologies. The company's recent partnerships and innovations are likely to drive growth in the sector.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12-16 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's AI technology has significant potential for growth, with applications in industries such as gaming, healthcare, and finance. The company's stock has been increasing in value, with potential for further growth.",
+      "reasoning": "Nvidia's focus on AI-powered technologies is likely to drive growth in the sector, with increasing demand for AI-powered solutions. The company's recent partnerships and innovations are expected to drive growth, but investors should be aware of potential competition from other tech companies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "viable": "12-16 weeks",
+        "note": "Monitor for earnings reports and industry trends"
       },
-      "exitStrategy": "Exit when the stock reaches a resistance level or the company's growth slows",
+      "exitStrategy": "Exit positions if Nvidia's growth slows or competition increases",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the company's growth slows",
-        "base": "+10-15%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company's AI technology gains significant traction",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If Nvidia experiences significant growth",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "AI-focused ETFs",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "Competition from other AI companies"
+        "US-China trade relations",
+        "Global demand for AI-powered technologies"
       ]
     },
     {
@@ -101,40 +109,46 @@
       "category": "econ",
       "catLabel": "Economics",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relationship is a significant factor in the global economy, with potential implications for trade and economic growth. The ongoing trade tensions have resulted in a decrease in trade between the two countries.",
+      "summary": "The ongoing trade tensions between the US and China are expected to have significant implications for global markets, particularly in the trade and manufacturing sectors. The recent tariffs and trade agreements are likely to impact the global economy.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12-16 week horizon",
       "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Invesco QQQ Trust (QQQ)"
+        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "iShares MSCI China ETF (MCHI)"
         }
       ],
-      "reasoning": "The US-China trade relationship is a significant factor in the global economy, with potential implications for trade and economic growth. The ongoing trade tensions have resulted in a decrease in trade between the two countries, with potential for further decline.",
+      "reasoning": "The ongoing trade tensions between the US and China are likely to have significant implications for global markets, particularly in the trade and manufacturing sectors. The recent tariffs and trade agreements are expected to impact the global economy, with potential disruptions to supply chains and trade flows.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor trade negotiations and adjust accordingly"
+        "viable": "12-16 weeks",
+        "note": "Monitor for trade agreement developments and economic indicators"
       },
-      "exitStrategy": "Exit when trade tensions ease or a trade deal is reached",
+      "exitStrategy": "Exit positions if trade tensions escalate or de-escalate significantly",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If trade tensions ease",
-        "base": "+10-15%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If trade tensions remain steady",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
         "extended": "+20%+",
-        "extendedNote": "If trade tensions escalate",
-        "stopLoss": "-8% on FXI"
+        "extendedNote": "If trade tensions escalate significantly",
+        "stopLoss": "-10% on QQQ"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "Trade-focused ETFs",
+        "Manufacturing stocks"
       ],
       "otherFactors": [
         "Global economic growth",
-        "Commodity prices"
+        "Fed interest rate decisions"
       ]
     },
     {
@@ -143,40 +157,46 @@
       "category": "fin",
       "catLabel": "Finance",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has held interest rates steady, with potential implications for the economy and financial markets. The decision has resulted in a decrease in bond yields and an increase in stock prices.",
+      "summary": "The Federal Reserve's decision to hold interest rates steady is expected to have significant implications for the US economy, particularly in the financial and banking sectors. The recent decision is likely to impact borrowing costs and economic growth.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "3d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 8-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "SPDR S&P Bank ETF (KBE)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Financials ETF (VFISX)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady has resulted in a decrease in bond yields and an increase in stock prices. The decision has potential implications for the economy and financial markets, with potential for further growth.",
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady is likely to impact borrowing costs and economic growth, with potential implications for the financial and banking sectors. The recent decision is expected to support economic growth, but investors should be aware of potential risks and uncertainties.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor economic data and adjust accordingly"
+        "viable": "8-12 weeks",
+        "note": "Monitor for economic indicators and Fed decisions"
       },
-      "exitStrategy": "Exit when interest rates change or the economy slows",
+      "exitStrategy": "Exit positions if interest rates change or economic growth slows",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the economy slows",
-        "base": "+5-8%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If economic growth remains steady",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the economy grows significantly",
-        "stopLoss": "-5% on SPY"
+        "extendedNote": "If economic growth accelerates",
+        "stopLoss": "-5% on KBE"
       },
       "adjacentMarkets": [
-        "Bond market (TLT)"
+        "Financial stocks",
+        "Banking ETFs"
       ],
       "otherFactors": [
-        "Inflation expectations",
-        "Economic growth"
+        "US economic growth",
+        "Global interest rates"
       ]
     },
     {
@@ -185,39 +205,46 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Google's New A.I. Chip",
-      "summary": "Google's new AI chip has significant potential for growth, with applications in various industries. The company's stock has been increasing in value, with potential for further growth.",
+      "summary": "Google's new AI-focused chip is expected to drive growth in the tech sector, particularly in the AI and cloud computing spaces. The recent innovation is likely to impact the global tech industry.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12-16 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "Alphabet Inc. (GOOGL)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "Google's new AI chip has significant potential for growth, with applications in industries such as healthcare, finance, and education. The company's stock has been increasing in value, with potential for further growth.",
+      "reasoning": "Google's new AI-focused chip is likely to drive growth in the tech sector, particularly in the AI and cloud computing spaces. The recent innovation is expected to impact the global tech industry, with potential implications for competitors and partners.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "viable": "12-16 weeks",
+        "note": "Monitor for earnings reports and industry trends"
       },
-      "exitStrategy": "Exit when the stock reaches a resistance level or the company's growth slows",
+      "exitStrategy": "Exit positions if Google's growth slows or competition increases",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the company's growth slows",
-        "base": "+10-15%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company's AI technology gains significant traction",
-        "stopLoss": "-8% on GOOGL"
+        "extended": "+25%+",
+        "extendedNote": "If Google experiences significant growth",
+        "stopLoss": "-10% on GOOGL"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "AI-focused ETFs",
+        "Cloud computing stocks"
       ],
       "otherFactors": [
-        "Competition from other AI companies"
+        "US-China trade relations",
+        "Global demand for AI-powered technologies"
       ]
     },
     {
@@ -226,40 +253,46 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The price of gold has been increasing, with potential implications for the economy and financial markets. The increase has resulted in a surge in gold-related stocks and a decrease in stocks sensitive to higher gold prices.",
+      "summary": "The current gold price is expected to be impacted by global economic trends, particularly in the safe haven and inflation spaces. The recent price movements are likely to be driven by investor demand and economic uncertainty.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 8-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR Gold Shares (GLD)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "The price of gold has been increasing, with potential implications for the economy and financial markets. The increase has resulted in a surge in gold-related stocks and a decrease in stocks sensitive to higher gold prices.",
+      "reasoning": "The current gold price is likely to be impacted by global economic trends, particularly in the safe haven and inflation spaces. The recent price movements are expected to be driven by investor demand and economic uncertainty, with potential implications for other precious metals.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor economic data and adjust accordingly"
+        "viable": "8-12 weeks",
+        "note": "Monitor for economic indicators and investor sentiment"
       },
-      "exitStrategy": "Exit when the price of gold decreases or the economy grows significantly",
+      "exitStrategy": "Exit positions if gold price changes or economic uncertainty decreases",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the economy grows",
-        "base": "+5-8%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If gold price remains steady",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the price of gold increases significantly",
+        "extendedNote": "If gold price increases significantly",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "Precious metals",
+        "Safe haven assets"
       ],
       "otherFactors": [
-        "Inflation expectations",
-        "Economic growth"
+        "Global economic growth",
+        "Inflation expectations"
       ]
     },
     {
@@ -268,40 +301,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Impact on Oil Prices",
-      "summary": "The ongoing conflict in Iran has disrupted global oil supplies, leading to higher prices. This has resulted in a surge in energy stocks and a decrease in stocks sensitive to higher energy costs.",
+      "summary": "The ongoing conflict in Iran is expected to have significant implications for global oil prices, particularly in the energy sector. The recent disruptions to oil supplies are likely to impact the global economy.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "just now",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "United States Oil Fund (USO)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran has disrupted global oil supplies, leading to higher prices. This has resulted in a surge in energy stocks and a decrease in stocks sensitive to higher energy costs.",
+      "reasoning": "The ongoing conflict in Iran is likely to have significant implications for global oil prices, particularly in the energy sector. The recent disruptions to oil supplies are expected to impact the global economy, with potential implications for oil-producing countries and companies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and adjust accordingly"
+        "note": "Monitor for conflict developments and oil price movements"
       },
-      "exitStrategy": "Exit when oil prices stabilize or the conflict is resolved",
+      "exitStrategy": "Exit positions if conflict escalates or de-escalates significantly",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+10-15%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If oil price remains steady",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
         "extended": "+20%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-10% on OIH"
+        "extendedNote": "If oil price increases significantly",
+        "stopLoss": "-10% on USO"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Energy stocks",
+        "Oil-producing countries"
       ],
       "otherFactors": [
-        "US-China trade relationship",
-        "Fed's next move"
+        "US-China trade relations",
+        "Global economic growth"
       ]
     },
     {
@@ -310,81 +349,93 @@
       "category": "fin",
       "catLabel": "Finance",
       "title": "US Dollar Index",
-      "summary": "The US Dollar Index has been increasing, with potential implications for the economy and financial markets. The increase has resulted in a surge in dollar-related stocks and a decrease in stocks sensitive to a stronger dollar.",
+      "summary": "The current US Dollar Index is expected to be impacted by global economic trends, particularly in the currency and trade spaces. The recent movements are likely to be driven by investor demand and economic uncertainty.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 8-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Invesco DB US Dollar Index Bearish Fund (UDN)"
         }
       ],
-      "reasoning": "The US Dollar Index has been increasing, with potential implications for the economy and financial markets. The increase has resulted in a surge in dollar-related stocks and a decrease in stocks sensitive to a stronger dollar.",
+      "reasoning": "The current US Dollar Index is likely to be impacted by global economic trends, particularly in the currency and trade spaces. The recent movements are expected to be driven by investor demand and economic uncertainty, with potential implications for other currencies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor economic data and adjust accordingly"
+        "viable": "8-12 weeks",
+        "note": "Monitor for economic indicators and investor sentiment"
       },
-      "exitStrategy": "Exit when the US Dollar Index decreases or the economy grows significantly",
+      "exitStrategy": "Exit positions if US Dollar Index changes or economic uncertainty decreases",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the economy grows",
-        "base": "+5-8%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If US Dollar Index remains steady",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the US Dollar Index increases significantly",
+        "extendedNote": "If US Dollar Index increases significantly",
         "stopLoss": "-5% on UUP"
       },
       "adjacentMarkets": [
-        "Euro (EUR/USD)"
+        "Currencies",
+        "Trade-focused ETFs"
       ],
       "otherFactors": [
-        "Inflation expectations",
-        "Economic growth"
+        "Global economic growth",
+        "Inflation expectations"
       ]
     },
     {
       "id": 9,
       "rank": "MED",
-      "category": "earn",
-      "catLabel": "Earnings",
+      "category": "econ",
+      "catLabel": "Economics",
       "title": "Earnings Season",
-      "summary": "The earnings season has begun, with potential implications for the stock market. The season has resulted in a surge in stocks with strong earnings reports and a decrease in stocks with weak earnings reports.",
+      "summary": "The current earnings season is expected to be impacted by global economic trends, particularly in the corporate earnings and revenue spaces. The recent reports are likely to be driven by company performance and economic uncertainty.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The earnings season has begun, with potential implications for the stock market. The season has resulted in a surge in stocks with strong earnings reports and a decrease in stocks with weak earnings reports.",
+      "reasoning": "The current earnings season is likely to be impacted by global economic trends, particularly in the corporate earnings and revenue spaces. The recent reports are expected to be driven by company performance and economic uncertainty, with potential implications for the broader market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "note": "Monitor for earnings reports and economic indicators"
       },
-      "exitStrategy": "Exit when the earnings season ends or the market becomes overbought",
+      "exitStrategy": "Exit positions if earnings season ends or economic uncertainty decreases",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the earnings season is weak",
-        "base": "+10-15%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If earnings season remains steady",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
         "extended": "+20%+",
-        "extendedNote": "If the earnings season is strong",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If earnings season exceeds expectations",
+        "stopLoss": "-10% on SPY"
       },
       "adjacentMarkets": [
-        "Dow Jones Industrial Average (DIA)"
+        "Stocks",
+        "Corporate bonds"
       ],
       "otherFactors": [
-        "Economic growth",
+        "Global economic growth",
         "Inflation expectations"
       ]
     },
@@ -394,40 +445,46 @@
       "category": "fin",
       "catLabel": "Finance",
       "title": "Treasury Yields",
-      "summary": "Treasury yields have been decreasing, with potential implications for the economy and financial markets. The decrease has resulted in a surge in bond-related stocks and a decrease in stocks sensitive to lower yields.",
+      "summary": "The current Treasury yields are expected to be impacted by global economic trends, particularly in the interest rate and bond spaces. The recent movements are likely to be driven by investor demand and economic uncertainty.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 8-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares 1-3 Year Treasury Bond ETF (SHY)"
         }
       ],
-      "reasoning": "Treasury yields have been decreasing, with potential implications for the economy and financial markets. The decrease has resulted in a surge in bond-related stocks and a decrease in stocks sensitive to lower yields.",
+      "reasoning": "The current Treasury yields are likely to be impacted by global economic trends, particularly in the interest rate and bond spaces. The recent movements are expected to be driven by investor demand and economic uncertainty, with potential implications for other bonds.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor economic data and adjust accordingly"
+        "viable": "8-12 weeks",
+        "note": "Monitor for economic indicators and investor sentiment"
       },
-      "exitStrategy": "Exit when Treasury yields increase or the economy grows significantly",
+      "exitStrategy": "Exit positions if Treasury yields change or economic uncertainty decreases",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the economy grows",
-        "base": "+5-8%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If Treasury yields remain steady",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If Treasury yields decrease significantly",
+        "extendedNote": "If Treasury yields increase significantly",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Mortgage-backed securities (MBB)"
+        "Bonds",
+        "Interest rate-focused ETFs"
       ],
       "otherFactors": [
-        "Inflation expectations",
-        "Economic growth"
+        "Global economic growth",
+        "Inflation expectations"
       ]
     },
     {
@@ -435,82 +492,95 @@
       "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
-      "title": "Nvidia Dominant in AI Data Centers",
-      "summary": "Nvidia's dominance in AI data centers has resulted in a surge in the company's stock price. The company's AI technology has significant potential for growth, with applications in various industries.",
+      "title": "AI Stock Growth",
+      "summary": "The current AI-focused stocks are expected to experience significant growth due to increasing demand for AI-powered technologies. The recent innovations and partnerships are likely to drive growth in the sector.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12-16 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Alphabet Inc. (GOOGL)"
         }
       ],
-      "reasoning": "Nvidia's dominance in AI data centers has resulted in a surge in the company's stock price. The company's AI technology has significant potential for growth, with applications in industries such as healthcare, finance, and education.",
+      "reasoning": "The current AI-focused stocks are likely to experience significant growth due to increasing demand for AI-powered technologies. The recent innovations and partnerships are expected to drive growth in the sector, with potential implications for competitors and partners.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "viable": "12-16 weeks",
+        "note": "Monitor for earnings reports and industry trends"
       },
-      "exitStrategy": "Exit when the stock reaches a resistance level or the company's growth slows",
+      "exitStrategy": "Exit positions if AI stock growth slows or competition increases",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the company's growth slows",
-        "base": "+10-15%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company's AI technology gains significant traction",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If AI stock growth accelerates",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "AI-focused ETFs",
+        "Cloud computing stocks"
       ],
       "otherFactors": [
-        "Competition from other AI companies"
+        "US-China trade relations",
+        "Global demand for AI-powered technologies"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
-      "category": "commod",
-      "catLabel": "Commodities",
-      "title": "Oil Price Increase",
-      "summary": "The price of oil has been increasing, with potential implications for the economy and financial markets. The increase has resulted in a surge in energy stocks and a decrease in stocks sensitive to higher energy costs.",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "Global Economic Growth",
+      "summary": "The current global economic growth is expected to be impacted by various factors, including trade tensions, interest rates, and inflation. The recent trends are likely to be driven by economic indicators and investor sentiment.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 8-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Energy Select Sector SPDR Fund (XLE)"
+          "target": "Vanguard Total World Stock ETF (VT)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares MSCI ACWI ETF (ACWI)"
         }
       ],
-      "reasoning": "The price of oil has been increasing, with potential implications for the economy and financial markets. The increase has resulted in a surge in energy stocks and a decrease in stocks sensitive to higher energy costs.",
+      "reasoning": "The current global economic growth is likely to be impacted by various factors, including trade tensions, interest rates, and inflation. The recent trends are expected to be driven by economic indicators and investor sentiment, with potential implications for the broader market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor oil prices and adjust accordingly"
+        "viable": "8-12 weeks",
+        "note": "Monitor for economic indicators and investor sentiment"
       },
-      "exitStrategy": "Exit when oil prices stabilize or the economy grows significantly",
+      "exitStrategy": "Exit positions if global economic growth changes or economic uncertainty decreases",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the economy grows",
-        "base": "+5-8%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If global economic growth remains steady",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the price of oil increases significantly",
-        "stopLoss": "-5% on XLE"
+        "extendedNote": "If global economic growth accelerates",
+        "stopLoss": "-5% on VT"
       },
       "adjacentMarkets": [
-        "Natural gas (UNG)"
+        "Stocks",
+        "Bonds"
       ],
       "otherFactors": [
-        "Inflation expectations",
-        "Economic growth"
+        "Trade tensions",
+        "Inflation expectations"
       ]
     }
   ]
