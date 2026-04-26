@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T17:24:52Z",
+  "lastUpdated": "2026-04-26T20:01:12Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,42 +13,42 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war is escalating, with the US and Iran engaging in military conflicts. This has led to a significant increase in oil prices and a decrease in stock markets. The situation is expected to continue, with potential for further escalation.",
+      "summary": "The Iran war is escalating, with the US and Iran engaging in military conflicts. The war has significant implications for global geopolitics and the economy. The US has shown its military strength, but its geopolitical power is waning.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
-        },
-        {
           "label": "SHORT",
           "cls": "short",
+          "target": "iShares MSCI Iran ETF (IRAN)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The escalation of the Iran war is expected to lead to a decrease in stock markets and an increase in safe-haven assets such as gold. The SPDR Gold Shares (GLD) is a good option to buy, while the SPDR S&P 500 ETF Trust (SPY) is a good option to short.",
+      "reasoning": "The escalating war in Iran will lead to increased volatility in the global markets. The US's waning geopolitical power and the war's impact on the global economy make it a high-risk event. Shorting the iShares MSCI Iran ETF (IRAN) and buying the SPDR S&P 500 ETF Trust (SPY) can help investors navigate this volatility.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and stock markets for potential exit triggers"
+        "note": "Monitor the war's progression and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when oil prices decrease by 10% or stock markets increase by 5%",
+      "exitStrategy": "Exit the position when the war de-escalates or when the US's geopolitical power stabilizes",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the war does not escalate further",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the war de-escalates quickly",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the war escalates significantly",
-        "stopLoss": "-8% on GLD"
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-10% on SPY"
       },
       "adjacentMarkets": [
-        "Oil prices (WTI)",
-        "US Dollar Index (DXY)"
+        "Oil prices",
+        "Gold prices"
       ],
       "otherFactors": [
         "US-China trade relations"
@@ -60,123 +60,142 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia's AI stock is expected to increase due to the growing demand for AI technology. The company has recently announced new AI-powered products and has partnered with several major companies.",
+      "summary": "Nvidia's AI stock is gaining traction, with the company's AI-focused products and services driving growth. The stock's price has been volatile, but it has the potential for significant gains.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's AI stock is expected to increase due to the growing demand for AI technology. The company has recently announced new AI-powered products and has partnered with several major companies.",
+      "reasoning": "Nvidia's AI-focused products and services are driving growth, making it a attractive investment opportunity. Buying Nvidia Corporation (NVDA) and shorting Advanced Micro Devices, Inc. (AMD) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and product announcements for potential exit triggers"
+        "viable": "2-4 weeks",
+        "note": "Monitor the stock's price and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the stock price increases by 15% or decreases by 10%",
+      "exitStrategy": "Exit the position when the stock's price reaches a resistance level or when the company's growth slows down",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the demand for AI technology does not increase significantly",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the stock's price stabilizes",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the demand for AI technology increases significantly",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+15%+",
+        "extendedNote": "If the company's growth accelerates",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Semiconductor stocks (SMH)"
+        "Semiconductor stocks",
+        "AI-focused ETFs"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Global demand for AI products"
       ]
     },
     {
       "id": 3,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, citing a strong economy and low unemployment. This decision is expected to lead to an increase in stock markets and a decrease in bond yields.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing a strong economy and low inflation. The decision has implications for the US stock market and the global economy.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady is expected to lead to an increase in stock markets. The SPDR S&P 500 ETF Trust (SPY) is a good option to buy.",
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady is a positive sign for the US stock market. Buying the SPDR S&P 500 ETF Trust (SPY) and shorting the iShares 20+ Year Treasury Bond ETF (TLT) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor inflation reports and employment data for potential exit triggers"
+        "viable": "2-4 weeks",
+        "note": "Monitor the stock market's reaction to the Fed's decision"
       },
-      "exitStrategy": "Exit when the stock price increases by 10% or decreases by 5%",
+      "exitStrategy": "Exit the position when the Fed changes its interest rate policy or when the stock market becomes overvalued",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the economy does not continue to grow",
-        "base": "+12\u201318%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If the stock market stabilizes",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the economy grows significantly",
-        "stopLoss": "-8% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If the economy continues to grow",
+        "stopLoss": "-3% on SPY"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)",
-        "Bond yields (TLT)"
+        "US Treasury bonds",
+        "Global stock markets"
       ],
       "otherFactors": [
-        "Inflation reports"
+        "Inflation rates",
+        "Global economic growth"
       ]
     },
     {
       "id": 4,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price is expected to increase due to the escalation of the Iran war and the decrease in stock markets. The gold price is also expected to be affected by the Federal Reserve's decision to hold interest rates steady.",
+      "summary": "The price of gold has been increasing due to geopolitical tensions and a weakening US dollar. The precious metal is seen as a safe-haven asset, and its price is expected to continue rising.",
       "fresh": true,
       "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "SPDR Gold Shares ETF (GLD)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "US Dollar Index (DXY)"
         }
       ],
-      "reasoning": "The gold price is expected to increase due to the escalation of the Iran war and the decrease in stock markets. The SPDR Gold Shares (GLD) is a good option to buy.",
+      "reasoning": "The increasing price of gold is a sign of a weakening US dollar and geopolitical tensions. Buying the SPDR Gold Shares ETF (GLD) and shorting the US Dollar Index (DXY) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and stock markets for potential exit triggers"
+        "note": "Monitor the price of gold and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the gold price increases by 10% or decreases by 5%",
+      "exitStrategy": "Exit the position when the price of gold reaches a resistance level or when the US dollar strengthens",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the war does not escalate further",
-        "base": "+5\u201310%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the price of gold stabilizes",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the war escalates significantly",
+        "extended": "+20%+",
+        "extendedNote": "If the US dollar continues to weaken",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Oil prices (WTI)",
-        "US Dollar Index (DXY)"
+        "Silver prices",
+        "Other precious metals"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Geopolitical tensions",
+        "US economic growth"
       ]
     },
     {
@@ -185,80 +204,94 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks are expected to increase due to the growing demand for AI technology and the partnership between Nvidia and several major companies.",
+      "summary": "Semiconductor stocks have been gaining traction due to the increasing demand for AI-focused products and services. The sector is expected to continue growing, driven by the adoption of emerging technologies.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "Semiconductor stocks are expected to increase due to the growing demand for AI technology and the partnership between Nvidia and several major companies. The VanEck Vectors Semiconductor ETF (SMH) is a good option to buy.",
+      "reasoning": "The growing demand for AI-focused products and services is driving the growth of semiconductor stocks. Buying the VanEck Vectors Semiconductor ETF (SMH) and shorting the iShares PHLX Semiconductor ETF (SOXX) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and product announcements for potential exit triggers"
+        "viable": "2-4 weeks",
+        "note": "Monitor the sector's growth and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the stock price increases by 15% or decreases by 10%",
+      "exitStrategy": "Exit the position when the sector's growth slows down or when the stocks become overvalued",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the demand for AI technology does not increase significantly",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the sector's growth stabilizes",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the demand for AI technology increases significantly",
-        "stopLoss": "-8% on SMH"
+        "extended": "+20%+",
+        "extendedNote": "If the adoption of emerging technologies accelerates",
+        "stopLoss": "-5% on SMH"
       },
       "adjacentMarkets": [
-        "Nvidia Corporation (NVDA)"
+        "AI-focused ETFs",
+        "Technology stocks"
       ],
       "otherFactors": [
+        "Global demand for AI products",
         "US-China trade relations"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "forex",
-      "catLabel": "Forex",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "US Dollar Index",
-      "summary": "The US Dollar Index is expected to decrease due to the Federal Reserve's decision to hold interest rates steady and the escalation of the Iran war.",
+      "summary": "The US Dollar Index has been weakening due to geopolitical tensions and a slowing US economy. The index is expected to continue declining, driven by a weakening US dollar.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+          "target": "US Dollar Index (DXY)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Euro Currency ETF (FXE)"
         }
       ],
-      "reasoning": "The US Dollar Index is expected to decrease due to the Federal Reserve's decision to hold interest rates steady and the escalation of the Iran war. The Invesco DB US Dollar Index Bullish Fund (UUP) is a good option to short.",
+      "reasoning": "The weakening US Dollar Index is a sign of a slowing US economy and geopolitical tensions. Shorting the US Dollar Index (DXY) and buying the Euro Currency ETF (FXE) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor inflation reports and employment data for potential exit triggers"
+        "viable": "2-4 weeks",
+        "note": "Monitor the index's decline and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the US Dollar Index decreases by 5% or increases by 2%",
+      "exitStrategy": "Exit the position when the US dollar strengthens or when the index reaches a support level",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the economy does not continue to grow",
-        "base": "+5\u201310%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If the index stabilizes",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows significantly",
-        "stopLoss": "-5% on UUP"
+        "extended": "+10%+",
+        "extendedNote": "If the US dollar continues to weaken",
+        "stopLoss": "-3% on DXY"
       },
       "adjacentMarkets": [
-        "Bond yields (TLT)"
+        "Other currencies",
+        "Global stock markets"
       ],
       "otherFactors": [
-        "Inflation reports"
+        "Geopolitical tensions",
+        "US economic growth"
       ]
     },
     {
@@ -267,244 +300,190 @@
       "category": "earn",
       "catLabel": "Earnings",
       "title": "Earnings Season",
-      "summary": "Earnings season is expected to be strong, with many companies reporting increased profits. This is expected to lead to an increase in stock markets.",
+      "summary": "The earnings season has been strong, with many companies beating their earnings expectations. The season is expected to continue, driven by a growing US economy.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "Earnings season is expected to be strong, with many companies reporting increased profits. This is expected to lead to an increase in stock markets. The SPDR S&P 500 ETF Trust (SPY) is a good option to buy.",
+      "reasoning": "The strong earnings season is a sign of a growing US economy. Buying the SPDR S&P 500 ETF Trust (SPY) and shorting the iShares Russell 2000 ETF (IWM) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports for potential exit triggers"
+        "viable": "2-4 weeks",
+        "note": "Monitor the earnings season and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the stock price increases by 10% or decreases by 5%",
+      "exitStrategy": "Exit the position when the earnings season ends or when the US economy slows down",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the earnings season is not as strong as expected",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the earnings season stabilizes",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the earnings season is stronger than expected",
-        "stopLoss": "-8% on SPY"
+        "extended": "+20%+",
+        "extendedNote": "If the US economy continues to grow",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US Treasury bonds",
+        "Global stock markets"
       ],
       "otherFactors": [
-        "Inflation reports"
+        "US economic growth",
+        "Inflation rates"
       ]
     },
     {
       "id": 8,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "US-China trade relations are expected to continue to be tense, with the US imposing tariffs on Chinese goods. This is expected to lead to a decrease in stock markets.",
+      "summary": "The US-China trade relations have been tense, with both countries imposing tariffs on each other's goods. The tensions are expected to continue, driven by a trade war.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "US-China trade relations are expected to continue to be tense, with the US imposing tariffs on Chinese goods. This is expected to lead to a decrease in stock markets. The iShares China Large-Cap ETF (FXI) is a good option to short.",
+      "reasoning": "The tense US-China trade relations are a sign of a trade war. Buying the iShares China Large-Cap ETF (FXI) and shorting the SPDR S&P 500 ETF Trust (SPY) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor trade negotiations for potential exit triggers"
+        "note": "Monitor the trade tensions and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the stock price decreases by 10% or increases by 5%",
+      "exitStrategy": "Exit the position when the trade tensions ease or when the US and China reach a trade agreement",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the trade relations do not worsen",
-        "base": "+5\u201310%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the trade tensions stabilize",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the trade relations worsen significantly",
+        "extended": "+20%+",
+        "extendedNote": "If the trade war escalates",
         "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "Other emerging markets",
+        "Global stock markets"
       ],
       "otherFactors": [
-        "Inflation reports"
+        "Global economic growth",
+        "US economic growth"
       ]
     },
     {
       "id": 9,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "stock",
       "catLabel": "Stock Market",
       "title": "US Stock Market",
-      "summary": "The US stock market is expected to increase due to the strong earnings season and the Federal Reserve's decision to hold interest rates steady.",
+      "summary": "The US stock market has been strong, driven by a growing US economy and low interest rates. The market is expected to continue growing, driven by a strong earnings season.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The US stock market is expected to increase due to the strong earnings season and the Federal Reserve's decision to hold interest rates steady. The SPDR S&P 500 ETF Trust (SPY) is a good option to buy.",
+      "reasoning": "The strong US stock market is a sign of a growing US economy. Buying the SPDR S&P 500 ETF Trust (SPY) and shorting the iShares Russell 2000 ETF (IWM) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and inflation data for potential exit triggers"
+        "viable": "2-4 weeks",
+        "note": "Monitor the stock market and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the stock price increases by 10% or decreases by 5%",
+      "exitStrategy": "Exit the position when the stock market becomes overvalued or when the US economy slows down",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the earnings season is not as strong as expected",
-        "base": "+12\u201318%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If the stock market stabilizes",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the earnings season is stronger than expected",
-        "stopLoss": "-8% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If the US economy continues to grow",
+        "stopLoss": "-3% on SPY"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US Treasury bonds",
+        "Global stock markets"
       ],
       "otherFactors": [
-        "Inflation reports"
+        "US economic growth",
+        "Inflation rates"
       ]
     },
     {
       "id": 10,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Oil Prices",
-      "summary": "Oil prices are expected to increase due to the escalation of the Iran war and the decrease in stock markets.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "United States Oil Fund (USO)"
-        }
-      ],
-      "reasoning": "Oil prices are expected to increase due to the escalation of the Iran war and the decrease in stock markets. The United States Oil Fund (USO) is a good option to buy.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor oil prices and stock markets for potential exit triggers"
-      },
-      "exitStrategy": "Exit when the oil price increases by 10% or decreases by 5%",
-      "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the war does not escalate further",
-        "base": "+5\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the war escalates significantly",
-        "stopLoss": "-5% on USO"
-      },
-      "adjacentMarkets": [
-        "Gold prices (GLD)"
-      ],
-      "otherFactors": [
-        "US-China trade relations"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Artificial Intelligence Stocks",
-      "summary": "Artificial intelligence stocks are expected to increase due to the growing demand for AI technology and the partnership between Nvidia and several major companies.",
+      "summary": "Oil prices have been increasing due to geopolitical tensions and a growing global economy. The prices are expected to continue rising, driven by a growing demand for oil.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
-        }
-      ],
-      "reasoning": "Artificial intelligence stocks are expected to increase due to the growing demand for AI technology and the partnership between Nvidia and several major companies. The Global X Robotics & Artificial Intelligence ETF (BOTZ) is a good option to buy.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and product announcements for potential exit triggers"
-      },
-      "exitStrategy": "Exit when the stock price increases by 15% or decreases by 10%",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the demand for AI technology does not increase significantly",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the demand for AI technology increases significantly",
-        "stopLoss": "-8% on BOTZ"
-      },
-      "adjacentMarkets": [
-        "Nvidia Corporation (NVDA)"
-      ],
-      "otherFactors": [
-        "US-China trade relations"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "LOW",
-      "category": "forex",
-      "catLabel": "Forex",
-      "title": "Euro Currency",
-      "summary": "The Euro currency is expected to increase due to the decrease in the US Dollar Index and the escalation of the Iran war.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
+        },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Invesco CurrencyShares Euro Trust (FXE)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "US Dollar Index (DXY)"
         }
       ],
-      "reasoning": "The Euro currency is expected to increase due to the decrease in the US Dollar Index and the escalation of the Iran war. The Invesco CurrencyShares Euro Trust (FXE) is a good option to buy.",
+      "reasoning": "The increasing oil prices are a sign of a growing global economy and geopolitical tensions. Buying the SPDR S&P Oil & Gas Exploration & Production ETF (XOP) and shorting the US Dollar Index (DXY) can help investors capitalize on this trend.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor US Dollar Index and oil prices for potential exit triggers"
+        "note": "Monitor the oil prices and adjust the portfolio accordingly"
       },
-      "exitStrategy": "Exit when the Euro currency increases by 5% or decreases by 2%",
+      "exitStrategy": "Exit the position when the oil prices reach a resistance level or when the US dollar strengthens",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the US Dollar Index does not decrease further",
-        "base": "+5\u201310%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the oil prices stabilize",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the US Dollar Index decreases significantly",
-        "stopLoss": "-5% on FXE"
+        "extended": "+20%+",
+        "extendedNote": "If the global economy continues to grow",
+        "stopLoss": "-5% on XOP"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "Natural gas prices",
+        "Other energy commodities"
       ],
       "otherFactors": [
-        "Inflation reports"
+        "Geopolitical tensions",
+        "Global economic growth"
       ]
     }
   ]
