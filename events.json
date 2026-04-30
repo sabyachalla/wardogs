@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T00:09:21Z",
+  "lastUpdated": "2026-04-30T09:25:26Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,57 +13,11 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "US-Iran Conflict Escalation",
-      "summary": "The US military buildup in the Middle East signals a rising risk of a wider war, which could lead to increased oil prices and market volatility. The conflict has already affected oil prices, with a 6% surge in recent days. The situation remains uncertain, with multiple scenarios possible.",
+      "summary": "The US military buildup in the Middle East signals a rising risk of a wider war, which could lead to increased crude oil prices and market volatility. The conflict has already shown the military strength of the US, but also its waning geopolitical power. The situation is being closely monitored by other nations, including China and the UK.",
       "fresh": true,
-      "freshLabel": "just now",
+      "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
-        }
-      ],
-      "reasoning": "The conflict escalation could lead to higher oil prices, benefiting oil services companies. On the other hand, the uncertainty and potential for wider war could lead to a flight to safety, negatively affecting Treasury bonds.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor oil price movements and conflict developments"
-      },
-      "exitStrategy": "Exit when oil prices stabilize or the conflict de-escalates",
-      "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If oil prices rise moderately",
-        "base": "+15-20%",
-        "baseNote": "If oil prices surge",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates significantly",
-        "stopLoss": "-10% on OIH"
-      },
-      "adjacentMarkets": [
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "OPEC oil production levels"
-      ]
-    },
-    {
-      "id": 2,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Fed Interest Rate Decision",
-      "summary": "The Federal Reserve has held interest rates steady for the third straight meeting, citing inflation concerns. The decision has led to a mixed market reaction, with some expecting a rate cut in late 2026.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -73,30 +27,77 @@
         {
           "label": "SHORT",
           "cls": "short",
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+        }
+      ],
+      "reasoning": "The escalating conflict in the Middle East could lead to increased market volatility, making it a good opportunity to buy into the SPDR S&P 500 ETF Trust (SPY) and short the iShares Core US Aggregate Bond ETF (AGG). The US military buildup and the potential for a wider war could lead to increased crude oil prices, which could negatively impact the bond market.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the situation closely and adjust the position as needed"
+      },
+      "exitStrategy": "Exit the position if the conflict escalates further and the market becomes too volatile",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12-18%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on SPY"
+      },
+      "adjacentMarkets": [
+        "Gold (safe haven bid)",
+        "Crude Oil (increased prices)"
+      ],
+      "otherFactors": [
+        "Monitor the situation in the Middle East closely"
+      ]
+    },
+    {
+      "id": 2,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Interest Rate Decision",
+      "summary": "The Federal Reserve has held interest rates steady, but the decision was not unanimous. The Fed has also indicated that it will keep a close eye on inflation, which could lead to future rate hikes. The decision has been seen as a positive for the stock market, but the bond market has been negatively impacted.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Fed's decision to hold rates steady could lead to a moderate market rally, benefiting the S&P 500. On the other hand, the potential for a rate cut in late 2026 could lead to a decline in Treasury bond prices.",
+      "reasoning": "The Fed's decision to hold interest rates steady could lead to increased economic growth, making it a good opportunity to buy into the Vanguard Total Stock Market ETF (VTI). The bond market has been negatively impacted by the decision, making it a good opportunity to short the iShares 20+ Year Treasury Bond ETF (TLT).",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data and Fed statements"
+        "note": "Monitor the economic data closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when the Fed announces a rate cut or inflation data surprises",
+      "exitStrategy": "Exit the position if the economic data indicates a slowdown",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If the market reacts positively to the Fed decision",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the economy grows slowly",
         "base": "+8-12%",
-        "baseNote": "If the market rallies moderately",
+        "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the market surges",
-        "stopLoss": "-6% on SPY"
+        "extendedNote": "If the economy grows rapidly",
+        "stopLoss": "-5% on VTI"
       },
       "adjacentMarkets": [
-        "US Treasury bonds"
+        "Bond Market (negatively impacted)"
       ],
       "otherFactors": [
-        "Inflation data"
+        "Monitor the economic data closely"
       ]
     },
     {
@@ -105,7 +106,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia's dominance in AI data centers and its growing presence in consumer PCs could lead to significant growth. The company's recent deals and partnerships also contribute to its positive outlook.",
+      "summary": "Nvidia's AI stock has been surging due to increased demand for AI chips. The company has been investing heavily in AI research and development, and its products are being used in a variety of applications, including data centers and autonomous vehicles.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -117,27 +118,27 @@
           "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "Nvidia's strong position in the AI market and its growing presence in consumer PCs make it an attractive investment opportunity.",
+      "reasoning": "Nvidia's AI stock has been surging due to increased demand for AI chips, making it a good opportunity to buy into the company. The company's products are being used in a variety of applications, and its investment in AI research and development is expected to pay off in the long term.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor Nvidia's earnings and AI market developments"
+        "note": "Monitor the company's progress closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when Nvidia's earnings disappoint or the AI market slows down",
+      "exitStrategy": "Exit the position if the company's progress slows down",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If Nvidia's earnings meet expectations",
-        "base": "+15-20%",
-        "baseNote": "If Nvidia's earnings surprise positively",
-        "extended": "+25%+",
-        "extendedNote": "If the AI market surges",
+        "conservative": "+10-15%",
+        "conservativeNote": "If the company's progress is slow",
+        "base": "+20-25%",
+        "baseNote": "Most likely scenario",
+        "extended": "+30%+",
+        "extendedNote": "If the company's progress is rapid",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI Market (increased demand)"
       ],
       "otherFactors": [
-        "AI market trends"
+        "Monitor the company's progress closely"
       ]
     },
     {
@@ -146,39 +147,39 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is expected to grow moderately, with corporate profits hitting a 17-year high. However, the Iran war and trade tensions could affect growth prospects.",
+      "summary": "The US economy has been growing steadily, but the pace of growth has been slowing down. The Federal Reserve has been keeping a close eye on the economy, and has indicated that it will keep interest rates low to support growth.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "SPDR Dow Jones Industrial Average ETF Trust (DIA)"
         }
       ],
-      "reasoning": "The US economy's moderate growth and high corporate profits make it an attractive investment opportunity, despite potential risks from the Iran war and trade tensions.",
+      "reasoning": "The US economy has been growing steadily, making it a good opportunity to buy into the SPDR Dow Jones Industrial Average ETF Trust (DIA). The Federal Reserve's decision to keep interest rates low is expected to support economic growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor US economic data and trade developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor the economic data closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when the US economy shows signs of slowing down or trade tensions escalate",
+      "exitStrategy": "Exit the position if the economic data indicates a slowdown",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If the US economy grows moderately",
-        "base": "+8-12%",
-        "baseNote": "If the US economy grows strongly",
-        "extended": "+15%+",
-        "extendedNote": "If the US economy surges",
-        "stopLoss": "-6% on VTI"
+        "conservative": "+2-3%",
+        "conservativeNote": "If the economy grows slowly",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the economy grows rapidly",
+        "stopLoss": "-3% on DIA"
       },
       "adjacentMarkets": [
-        "US Treasury bonds"
+        "Bond Market (supported by low interest rates)"
       ],
       "otherFactors": [
-        "Trade tensions"
+        "Monitor the economic data closely"
       ]
     },
     {
@@ -187,7 +188,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "The semiconductor industry is experiencing growth, driven by demand for AI and 5G technologies. Companies like Nvidia and Taiwan Semiconductor are well-positioned to benefit from this trend.",
+      "summary": "Semiconductor stocks have been surging due to increased demand for AI chips and other semiconductor products. The industry has been experiencing a shortage of certain components, which has driven up prices and increased demand.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -199,27 +200,27 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         }
       ],
-      "reasoning": "The growth of the semiconductor industry, driven by AI and 5G demand, makes it an attractive investment opportunity.",
+      "reasoning": "Semiconductor stocks have been surging due to increased demand for AI chips and other semiconductor products, making it a good opportunity to buy into the VanEck Vectors Semiconductor ETF (SMH). The industry's shortage of certain components has driven up prices and increased demand.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor semiconductor industry trends and earnings"
+        "note": "Monitor the industry's progress closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when the semiconductor industry shows signs of slowing down or AI and 5G demand decreases",
+      "exitStrategy": "Exit the position if the industry's progress slows down",
       "gains": {
-        "conservative": "+6-8%",
-        "conservativeNote": "If the semiconductor industry grows moderately",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the industry's progress is slow",
         "base": "+10-15%",
-        "baseNote": "If the semiconductor industry grows strongly",
+        "baseNote": "Most likely scenario",
         "extended": "+20%+",
-        "extendedNote": "If the semiconductor industry surges",
-        "stopLoss": "-8% on SMH"
+        "extendedNote": "If the industry's progress is rapid",
+        "stopLoss": "-5% on SMH"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI Market (increased demand)"
       ],
       "otherFactors": [
-        "AI and 5G demand"
+        "Monitor the industry's progress closely"
       ]
     },
     {
@@ -228,11 +229,11 @@
       "category": "geo",
       "catLabel": "Geopolitics",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relationship remains complex, with ongoing tensions and competition. However, some signs of cooperation and potential trade deals could lead to improved relations.",
+      "summary": "The US and China have been experiencing a trade war, which has had a negative impact on both economies. However, recent talks have indicated that a trade deal may be reached soon, which could improve relations between the two countries.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -240,27 +241,27 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         }
       ],
-      "reasoning": "The potential for improved US-China trade relations and cooperation could lead to growth in the Chinese economy and stock market.",
+      "reasoning": "The potential for a trade deal between the US and China could improve relations between the two countries and boost the Chinese economy, making it a good opportunity to buy into the iShares China Large-Cap ETF (FXI).",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor US-China trade developments and Chinese economic data"
+        "viable": "2-4 weeks",
+        "note": "Monitor the trade talks closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when US-China trade tensions escalate or the Chinese economy shows signs of slowing down",
+      "exitStrategy": "Exit the position if the trade talks break down",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If US-China trade relations improve moderately",
-        "base": "+8-12%",
-        "baseNote": "If US-China trade relations improve significantly",
-        "extended": "+15%+",
-        "extendedNote": "If US-China trade relations surge",
-        "stopLoss": "-6% on FXI"
+        "conservative": "+2-3%",
+        "conservativeNote": "If the trade talks are slow",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the trade talks are successful",
+        "stopLoss": "-3% on FXI"
       },
       "adjacentMarkets": [
-        "US stocks"
+        "US Market (potential for improved relations)"
       ],
       "otherFactors": [
-        "US-China trade tensions"
+        "Monitor the trade talks closely"
       ]
     },
     {
@@ -269,7 +270,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks",
-      "summary": "The AI market is growing rapidly, with companies like Nvidia, Alphabet, and Microsoft well-positioned to benefit from this trend. The recent surge in AI-related stocks is expected to continue.",
+      "summary": "AI stocks have been surging due to increased demand for AI products and services. The industry has been experiencing rapid growth, and many companies are investing heavily in AI research and development.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -281,27 +282,27 @@
           "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
         }
       ],
-      "reasoning": "The growth of the AI market and the strong position of companies like Nvidia, Alphabet, and Microsoft make AI-related stocks an attractive investment opportunity.",
+      "reasoning": "AI stocks have been surging due to increased demand for AI products and services, making it a good opportunity to buy into the Global X Robotics & Artificial Intelligence ETF (BOTZ). The industry's rapid growth and investment in AI research and development are expected to continue.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI market trends and earnings"
+        "note": "Monitor the industry's progress closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when the AI market shows signs of slowing down or AI-related stocks become overvalued",
+      "exitStrategy": "Exit the position if the industry's progress slows down",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the AI market grows moderately",
-        "base": "+15-20%",
-        "baseNote": "If the AI market grows strongly",
-        "extended": "+25%+",
-        "extendedNote": "If the AI market surges",
-        "stopLoss": "-10% on BOTZ"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the industry's progress is slow",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If the industry's progress is rapid",
+        "stopLoss": "-5% on BOTZ"
       },
       "adjacentMarkets": [
-        "Semiconductor stocks"
+        "Tech Market (increased demand)"
       ],
       "otherFactors": [
-        "AI market trends"
+        "Monitor the industry's progress closely"
       ]
     },
     {
@@ -310,48 +311,48 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price has been affected by the US-Iran conflict and trade tensions, leading to a safe-haven bid. However, the potential for improved US-China trade relations and a stronger US economy could lead to a decline in gold prices.",
+      "summary": "The gold price has been increasing due to increased demand for safe-haven assets. The US-Iran conflict and other geopolitical tensions have driven up demand for gold, and the price is expected to continue to rise.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "BUY",
+          "cls": "buy",
           "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The potential for improved US-China trade relations and a stronger US economy could lead to a decline in gold prices, making it a good short opportunity.",
+      "reasoning": "The gold price has been increasing due to increased demand for safe-haven assets, making it a good opportunity to buy into the SPDR Gold Shares ETF (GLD). The US-Iran conflict and other geopolitical tensions are expected to continue to drive up demand for gold.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor gold price movements and US-China trade developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor the gold price closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when gold prices stabilize or the US-Iran conflict escalates",
+      "exitStrategy": "Exit the position if the gold price drops",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If gold prices decline moderately",
-        "base": "+8-12%",
-        "baseNote": "If gold prices decline significantly",
-        "extended": "+15%+",
-        "extendedNote": "If gold prices plummet",
-        "stopLoss": "-6% on GLD"
+        "conservative": "+2-3%",
+        "conservativeNote": "If the gold price is stable",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the gold price rises rapidly",
+        "stopLoss": "-3% on GLD"
       },
       "adjacentMarkets": [
-        "US Treasury bonds"
+        "Safe-Haven Market (increased demand)"
       ],
       "otherFactors": [
-        "US-Iran conflict"
+        "Monitor the gold price closely"
       ]
     },
     {
       "id": 9,
       "rank": "MED",
-      "category": "commod",
-      "catLabel": "Commodities",
+      "category": "ener",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC's oil production levels have been affected by the US-Iran conflict, leading to increased oil prices. The potential for a wider conflict could lead to further oil price increases.",
+      "summary": "OPEC has been reducing oil production to stabilize the market and increase prices. The reduction in production has been successful, and oil prices have been increasing.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -360,30 +361,30 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "Energy Select Sector SPDR Fund (XLE)"
         }
       ],
-      "reasoning": "The potential for a wider US-Iran conflict and increased oil prices makes oil a good investment opportunity.",
+      "reasoning": "OPEC's reduction in oil production has been successful, and oil prices have been increasing, making it a good opportunity to buy into the Energy Select Sector SPDR Fund (XLE). The reduction in production is expected to continue, and oil prices are expected to rise further.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor OPEC oil production levels and US-Iran conflict developments"
+        "note": "Monitor the oil market closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when oil prices stabilize or the US-Iran conflict de-escalates",
+      "exitStrategy": "Exit the position if the oil market becomes too volatile",
       "gains": {
-        "conservative": "+6-8%",
-        "conservativeNote": "If oil prices increase moderately",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the oil market is stable",
         "base": "+10-15%",
-        "baseNote": "If oil prices increase significantly",
+        "baseNote": "Most likely scenario",
         "extended": "+20%+",
-        "extendedNote": "If oil prices surge",
-        "stopLoss": "-8% on USO"
+        "extendedNote": "If the oil market rises rapidly",
+        "stopLoss": "-5% on XLE"
       },
       "adjacentMarkets": [
-        "US stocks"
+        "Oil Market (increased prices)"
       ],
       "otherFactors": [
-        "US-Iran conflict"
+        "Monitor the oil market closely"
       ]
     },
     {
@@ -392,11 +393,11 @@
       "category": "earn",
       "catLabel": "Earnings",
       "title": "Earnings Season",
-      "summary": "The current earnings season has seen mixed results, with some companies beating expectations and others missing. The potential for a stronger US economy and improved corporate profits could lead to a positive earnings season.",
+      "summary": "Earnings season is underway, and many companies are reporting strong earnings. The strong earnings have been driving up the stock market, and the trend is expected to continue.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -404,36 +405,36 @@
           "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The potential for a stronger US economy and improved corporate profits makes the current earnings season an attractive investment opportunity.",
+      "reasoning": "Earnings season is underway, and many companies are reporting strong earnings, making it a good opportunity to buy into the Vanguard Total Stock Market ETF (VTI). The strong earnings have been driving up the stock market, and the trend is expected to continue.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and US economic data"
+        "viable": "2-4 weeks",
+        "note": "Monitor the earnings season closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when the earnings season ends or the US economy shows signs of slowing down",
+      "exitStrategy": "Exit the position if the earnings season slows down",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If the earnings season is moderate",
-        "base": "+8-12%",
-        "baseNote": "If the earnings season is strong",
-        "extended": "+15%+",
-        "extendedNote": "If the earnings season surges",
-        "stopLoss": "-6% on VTI"
+        "conservative": "+2-3%",
+        "conservativeNote": "If the earnings season is slow",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the earnings season is strong",
+        "stopLoss": "-3% on VTI"
       },
       "adjacentMarkets": [
-        "US stocks"
+        "Stock Market (driven up by strong earnings)"
       ],
       "otherFactors": [
-        "US economic growth"
+        "Monitor the earnings season closely"
       ]
     },
     {
       "id": 11,
       "rank": "MED",
-      "category": "geo",
-      "catLabel": "Geopolitics",
-      "title": "China's Economic Growth",
-      "summary": "China's economy has hit its economic growth target despite the Iran war disruption. The country's growing presence in the global economy and its increasing trade relationships could lead to further growth.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI Demand Is Surging",
+      "summary": "AI demand is surging, and many companies are investing heavily in AI research and development. The surge in demand is expected to continue, and many AI-related stocks are expected to rise.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -442,71 +443,112 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "China's growing presence in the global economy and its increasing trade relationships make it an attractive investment opportunity.",
+      "reasoning": "AI demand is surging, and many companies are investing heavily in AI research and development, making it a good opportunity to buy into NVIDIA Corporation (NVDA). The surge in demand is expected to continue, and many AI-related stocks are expected to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor Chinese economic data and trade developments"
+        "note": "Monitor the AI market closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when the Chinese economy shows signs of slowing down or trade tensions escalate",
+      "exitStrategy": "Exit the position if the AI market becomes too volatile",
       "gains": {
-        "conservative": "+6-8%",
-        "conservativeNote": "If the Chinese economy grows moderately",
-        "base": "+10-15%",
-        "baseNote": "If the Chinese economy grows strongly",
-        "extended": "+20%+",
-        "extendedNote": "If the Chinese economy surges",
-        "stopLoss": "-8% on FXI"
+        "conservative": "+10-15%",
+        "conservativeNote": "If the AI market is stable",
+        "base": "+20-25%",
+        "baseNote": "Most likely scenario",
+        "extended": "+30%+",
+        "extendedNote": "If the AI market rises rapidly",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "US stocks"
+        "AI Market (surging demand)"
       ],
       "otherFactors": [
-        "Trade tensions"
+        "Monitor the AI market closely"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI Chip Market",
-      "summary": "The AI chip market is growing rapidly, with companies like Nvidia and Cambricon competing for market share. The increasing demand for AI chips could lead to significant growth in this market.",
+      "category": "geo",
+      "catLabel": "Geopolitics",
+      "title": "China to Scrap Tariffs on 53 African Nations",
+      "summary": "China has announced that it will scrap tariffs on 53 African nations, which is expected to boost trade between China and Africa. The move is seen as a strategic move by China to increase its influence in Africa and to counter the US's influence in the region.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         }
       ],
-      "reasoning": "The growth of the AI chip market and the strong position of companies like Nvidia and Cambricon make this market an attractive investment opportunity.",
+      "reasoning": "China's decision to scrap tariffs on 53 African nations is expected to boost trade between China and Africa, making it a good opportunity to buy into the iShares China Large-Cap ETF (FXI). The move is seen as a strategic move by China to increase its influence in Africa and to counter the US's influence in the region.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the trade between China and Africa closely and adjust the position as needed"
+      },
+      "exitStrategy": "Exit the position if the trade between China and Africa slows down",
+      "gains": {
+        "conservative": "+2-3%",
+        "conservativeNote": "If the trade between China and Africa is slow",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the trade between China and Africa rises rapidly",
+        "stopLoss": "-3% on FXI"
+      },
+      "adjacentMarkets": [
+        "African Market (boosted trade)"
+      ],
+      "otherFactors": [
+        "Monitor the trade between China and Africa closely"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia Rival Seeks Funding",
+      "summary": "A Nvidia rival is seeking at least $100 million in funding to compete with Nvidia in the AI chip market. The company's products are seen as a potential threat to Nvidia's dominance in the market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "NVIDIA Corporation (NVDA)"
+        }
+      ],
+      "reasoning": "A Nvidia rival is seeking funding to compete with Nvidia in the AI chip market, which could potentially threaten Nvidia's dominance in the market, making it a good opportunity to short NVIDIA Corporation (NVDA).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI chip market trends and earnings"
+        "note": "Monitor the AI chip market closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when the AI chip market shows signs of slowing down or AI-related stocks become overvalued",
+      "exitStrategy": "Exit the position if the AI chip market becomes too volatile",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If the AI chip market grows moderately",
-        "base": "+8-12%",
-        "baseNote": "If the AI chip market grows strongly",
-        "extended": "+15%+",
-        "extendedNote": "If the AI chip market surges",
-        "stopLoss": "-6% on SMH"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the AI chip market is stable",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If the AI chip market rises rapidly",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI Chip Market (increased competition)"
       ],
       "otherFactors": [
-        "AI chip market trends"
+        "Monitor the AI chip market closely"
       ]
     }
   ]
