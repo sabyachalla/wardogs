@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T20:04:14Z",
+  "lastUpdated": "2026-05-02T23:28:14Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,11 +13,104 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran has significant implications for global geopolitics and oil prices. The US and its allies are involved, and the situation is volatile. Oil prices are surging, and the stock market is reacting.",
+      "summary": "The Iran war is escalating, with four scenarios for geopolitics after the war. The US is showing military strength, but also its waning geopolitical power. The war is revealing the limits of US power and the new geopolitical reality.",
       "fresh": true,
-      "freshLabel": "just now",
+      "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
+        }
+      ],
+      "reasoning": "The Iran war is escalating, and the US is showing its military strength, but also its waning geopolitical power. This will lead to a decrease in emerging markets and an increase in gold prices.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Watch for a ceasefire or a significant escalation"
+      },
+      "exitStrategy": "Exit when the war ends or when gold prices reach $2000",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If the war ends soon",
+        "base": "+12-18%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-8% on EEM"
+      },
+      "adjacentMarkets": [
+        "Oil prices",
+        "US Treasury yields"
+      ],
+      "otherFactors": [
+        "US-China trade relations"
+      ]
+    },
+    {
+      "id": 2,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia AI Stock",
+      "summary": "Nvidia is surging due to high demand for AI chips. The company is controlling the supply, and its stock is expected to rise.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "Nvidia is surging due to high demand for AI chips, and its stock is expected to rise. AMD is a competitor, and its stock may decrease.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for earnings reports"
+      },
+      "exitStrategy": "Exit when Nvidia's stock reaches $1000",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If demand slows down",
+        "base": "+8-12%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If demand surges further",
+        "stopLoss": "-5% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Semiconductor stocks"
+      ],
+      "otherFactors": [
+        "US-China trade relations"
+      ]
+    },
+    {
+      "id": 3,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Economic Growth",
+      "summary": "The US economy is expected to grow 6% in 2026, according to Goldman Sachs. The S&P 500 is at a new high, and the stock market is expected to rise.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -27,112 +120,30 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Iran war escalation is a high-risk event with significant potential for oil price volatility and stock market impact. Buying the SPDR S&P 500 ETF Trust (SPY) could provide a hedge against the uncertainty, while shorting the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) could profit from potential oil price declines.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor oil price movements and adjust accordingly"
-      },
-      "exitStrategy": "Exit when oil prices stabilize or the conflict de-escalates",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
-      },
-      "adjacentMarkets": [
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "OPEC oil production decisions"
-      ]
-    },
-    {
-      "id": 2,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Nvidia AI Stock",
-      "summary": "Nvidia's AI-focused stocks are surging due to increasing demand for AI chips. The company is dominating the AI data center market and expanding into consumer PCs.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        }
-      ],
-      "reasoning": "Nvidia's AI-focused stocks are well-positioned for growth due to increasing demand for AI chips. Buying NVIDIA Corporation (NVDA) could provide exposure to this trend.",
+      "reasoning": "The US economy is expected to grow, and the stock market is expected to rise. Treasury bonds may decrease in value.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "note": "Watch for economic indicators"
       },
-      "exitStrategy": "Exit when the stock reaches a resistance level or the company's earnings disappoint",
+      "exitStrategy": "Exit when the S&P 500 reaches 5000",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the company's earnings meet expectations",
-        "base": "+12\u201318%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If growth slows down",
+        "base": "+6-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the company's earnings exceed expectations",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+10%+",
+        "extendedNote": "If growth surges further",
+        "stopLoss": "-4% on SPY"
       },
       "adjacentMarkets": [
-        "Taiwan Semiconductor Manufacturing Company (TSM)"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Competition from Intel and AMD"
-      ]
-    },
-    {
-      "id": 3,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Economic Growth",
-      "summary": "The US economy is expected to grow 6% in 2026, driven by a strong labor market and increasing consumer spending. The Fed has held interest rates steady, and the stock market is reacting positively.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
-        }
-      ],
-      "reasoning": "The US economy is expected to grow, driven by a strong labor market and increasing consumer spending. Buying the Vanguard Total Stock Market ETF (VTI) could provide broad exposure to the US stock market.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor economic indicators and adjust accordingly"
-      },
-      "exitStrategy": "Exit when the economy shows signs of slowing or the Fed changes its interest rate policy",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the economy grows as expected",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the economy grows faster than expected",
-        "stopLoss": "-8% on VTI"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds"
-      ],
-      "otherFactors": [
-        "Fed interest rate decisions"
+        "Fed interest rate decision"
       ]
     },
     {
@@ -141,9 +152,9 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "Gold prices are rising due to safe haven demand amid the Iran conflict and global economic uncertainty. The metal is a traditional hedge against inflation and geopolitical risk.",
+      "summary": "Gold prices are expected to rise due to the Iran war and US-China trade tensions.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -151,29 +162,34 @@
           "label": "BUY",
           "cls": "buy",
           "target": "SPDR Gold Shares ETF (GLD)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "Gold prices are rising due to safe haven demand. Buying the SPDR Gold Shares ETF (GLD) could provide a hedge against inflation and geopolitical risk.",
+      "reasoning": "Gold prices are expected to rise due to the Iran war and US-China trade tensions. Silver prices may decrease.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor gold price movements and adjust accordingly"
+        "note": "Watch for gold prices"
       },
-      "exitStrategy": "Exit when gold prices stabilize or the conflict de-escalates",
+      "exitStrategy": "Exit when gold prices reach $2000",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If gold prices stabilize",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If tensions ease",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If gold prices surge",
-        "stopLoss": "-5% on GLD"
+        "extended": "+8%+",
+        "extendedNote": "If tensions escalate further",
+        "stopLoss": "-3% on GLD"
       },
       "adjacentMarkets": [
-        "Silver (SI=F)"
+        "Oil prices"
       ],
       "otherFactors": [
-        "Central bank gold reserve decisions"
+        "US-China trade relations"
       ]
     },
     {
@@ -182,48 +198,7 @@
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in a trade dispute, with tariffs and trade restrictions imposed on both sides. The situation is volatile, and the stock market is reacting.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
-        }
-      ],
-      "reasoning": "The US-China trade dispute is volatile, and the stock market is reacting. Shorting the iShares China Large-Cap ETF (FXI) could profit from potential declines in Chinese stocks.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor trade developments and adjust accordingly"
-      },
-      "exitStrategy": "Exit when the trade dispute is resolved or the stock market stabilizes",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the trade dispute is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the trade dispute escalates",
-        "stopLoss": "-8% on FXI"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds"
-      ],
-      "otherFactors": [
-        "Tariff decisions"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI Stocks",
-      "summary": "AI-focused stocks are surging due to increasing demand for AI chips and technology. Nvidia is dominating the AI data center market, and other companies are expanding into AI.",
+      "summary": "The US-China trade relationship is complex, with tariffs and trade tensions. China is scrapping tariffs for African nations.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -232,39 +207,44 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares US Aerospace & Defense ETF (ITA)"
         }
       ],
-      "reasoning": "AI-focused stocks are well-positioned for growth due to increasing demand for AI chips and technology. Buying the Global X Robotics & Artificial Intelligence ETF (BOTZ) could provide broad exposure to the AI sector.",
+      "reasoning": "The US-China trade relationship is complex, and China is scrapping tariffs for African nations. This may lead to an increase in Chinese stocks and a decrease in US defense stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "note": "Watch for trade negotiations"
       },
-      "exitStrategy": "Exit when the stock reaches a resistance level or the company's earnings disappoint",
+      "exitStrategy": "Exit when trade tensions ease",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the company's earnings meet expectations",
-        "base": "+12\u201318%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If trade tensions ease",
+        "base": "+6-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the company's earnings exceed expectations",
-        "stopLoss": "-8% on BOTZ"
+        "extended": "+10%+",
+        "extendedNote": "If trade tensions escalate further",
+        "stopLoss": "-4% on FXI"
       },
       "adjacentMarkets": [
-        "NVIDIA Corporation (NVDA)"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Competition from Intel and AMD"
+        "Fed interest rate decision"
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Fed Interest Rate Decision",
-      "summary": "The Fed has held interest rates steady, and the stock market is reacting positively. The decision is expected to support economic growth and stabilize the financial markets.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI Stocks",
+      "summary": "AI demand is surging, and Taiwan Semiconductor is controlling the supply. Nvidia is a major player in the AI market.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "LOW",
@@ -273,39 +253,44 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady is expected to support economic growth and stabilize the financial markets. Buying the iShares 1-3 Year Credit Bond ETF (CSJ) could provide a low-risk investment opportunity.",
+      "reasoning": "AI demand is surging, and Nvidia is a major player in the AI market. AMD is a competitor, and its stock may decrease.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic indicators and adjust accordingly"
+        "note": "Watch for earnings reports"
       },
-      "exitStrategy": "Exit when the economy shows signs of slowing or the Fed changes its interest rate policy",
+      "exitStrategy": "Exit when Nvidia's stock reaches $1000",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the economy grows as expected",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If demand slows down",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows faster than expected",
-        "stopLoss": "-5% on CSJ"
+        "extended": "+8%+",
+        "extendedNote": "If demand surges further",
+        "stopLoss": "-3% on NVDA"
       },
       "adjacentMarkets": [
-        "US Treasury bonds"
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "Fed interest rate decisions"
+        "US-China trade relations"
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "rank": "MED",
-      "category": "energy",
-      "catLabel": "Energy",
-      "title": "OPEC Oil Production",
-      "summary": "OPEC has decided to maintain its current oil production levels, despite the Iran conflict and rising oil prices. The decision is expected to support oil prices and stabilize the energy markets.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Interest Rate Decision",
+      "summary": "The Fed has held interest rates steady, with a high level of dissent. The decision is expected to impact the economy.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -314,30 +299,81 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "OPEC's decision to maintain its current oil production levels is expected to support oil prices and stabilize the energy markets. Buying the United States Oil Fund LP (USO) could provide exposure to the oil market.",
+      "reasoning": "The Fed has held interest rates steady, and the decision is expected to impact the economy. The stock market may rise, and Treasury bonds may decrease in value.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor oil price movements and adjust accordingly"
+        "note": "Watch for economic indicators"
       },
-      "exitStrategy": "Exit when oil prices stabilize or OPEC changes its production levels",
+      "exitStrategy": "Exit when the S&P 500 reaches 5000",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+12\u201318%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If growth slows down",
+        "base": "+6-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If oil prices surge",
-        "stopLoss": "-8% on USO"
+        "extended": "+10%+",
+        "extendedNote": "If growth surges further",
+        "stopLoss": "-4% on SPY"
       },
       "adjacentMarkets": [
-        "Natural Gas (NG=F)"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "US shale oil production"
+        "US-China trade relations"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "energy",
+      "catLabel": "Energy",
+      "title": "OPEC Oil Production",
+      "summary": "OPEC oil production is expected to impact the global energy market. The Iran war is also affecting oil prices.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Energy ETF (IYE)"
+        }
+      ],
+      "reasoning": "OPEC oil production is expected to impact the global energy market, and the Iran war is also affecting oil prices. Energy stocks may rise or fall depending on the situation.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for OPEC meetings"
+      },
+      "exitStrategy": "Exit when oil prices reach $100",
+      "gains": {
+        "conservative": "+1-3%",
+        "conservativeNote": "If production increases",
+        "base": "+4-6%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If production decreases",
+        "stopLoss": "-3% on XOP"
+      },
+      "adjacentMarkets": [
+        "Natural gas prices"
+      ],
+      "otherFactors": [
+        "US-China trade relations"
       ]
     },
     {
@@ -346,9 +382,9 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks are surging due to increasing demand for AI chips and technology. Nvidia is dominating the AI data center market, and other companies are expanding into AI.",
+      "summary": "Semiconductor stocks are expected to rise due to high demand for AI chips. Taiwan Semiconductor is controlling the supply.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -356,29 +392,34 @@
           "label": "BUY",
           "cls": "buy",
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "Semiconductor stocks are well-positioned for growth due to increasing demand for AI chips and technology. Buying the VanEck Vectors Semiconductor ETF (SMH) could provide broad exposure to the semiconductor sector.",
+      "reasoning": "Semiconductor stocks are expected to rise due to high demand for AI chips, and Taiwan Semiconductor is controlling the supply. Competitor stocks may decrease.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "note": "Watch for earnings reports"
       },
-      "exitStrategy": "Exit when the stock reaches a resistance level or the company's earnings disappoint",
+      "exitStrategy": "Exit when semiconductor stocks reach a new high",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the company's earnings meet expectations",
-        "base": "+12\u201318%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If demand slows down",
+        "base": "+6-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the company's earnings exceed expectations",
-        "stopLoss": "-8% on SMH"
+        "extended": "+10%+",
+        "extendedNote": "If demand surges further",
+        "stopLoss": "-4% on SMH"
       },
       "adjacentMarkets": [
-        "NVIDIA Corporation (NVDA)"
+        "AI stocks"
       ],
       "otherFactors": [
-        "Competition from Intel and AMD"
+        "US-China trade relations"
       ]
     },
     {
@@ -387,9 +428,9 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Earnings Season",
-      "summary": "Earnings season is underway, with many companies reporting strong earnings and revenue growth. The stock market is reacting positively to the news.",
+      "summary": "Earnings season is underway, with major companies reporting their quarterly earnings. The reports are expected to impact the stock market.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -397,152 +438,34 @@
           "label": "BUY",
           "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "Earnings season is underway, with many companies reporting strong earnings and revenue growth. Buying the SPDR S&P 500 ETF Trust (SPY) could provide broad exposure to the US stock market.",
+      "reasoning": "Earnings season is underway, and the reports are expected to impact the stock market. The S&P 500 may rise, and small-cap stocks may decrease.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
+        "note": "Watch for earnings reports"
       },
-      "exitStrategy": "Exit when the earnings season ends or the stock market stabilizes",
+      "exitStrategy": "Exit when the S&P 500 reaches 5000",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the earnings season is average",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If earnings are disappointing",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the earnings season is strong",
-        "stopLoss": "-5% on SPY"
+        "extended": "+8%+",
+        "extendedNote": "If earnings are better than expected",
+        "stopLoss": "-3% on SPY"
       },
       "adjacentMarkets": [
-        "Dow Jones Industrial Average"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Economic indicators"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "China's Absence in the Iran Conflict",
-      "summary": "China's absence in the Iran conflict has significant implications for global geopolitics and oil prices. The country's decision not to get involved has allowed the US to take a more prominent role in the region.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
-        }
-      ],
-      "reasoning": "China's absence in the Iran conflict has significant implications for global geopolitics and oil prices. Buying the iShares MSCI China ETF (MCHI) could provide exposure to the Chinese market and potential benefits from the country's decision not to get involved in the conflict.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor geopolitical developments and adjust accordingly"
-      },
-      "exitStrategy": "Exit when the conflict is resolved or China's role in the region changes",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-8% on MCHI"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds"
-      ],
-      "otherFactors": [
-        "China's foreign policy decisions"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Stocks Forecast to Rise 6% in 2026",
-      "summary": "US stocks are forecast to rise 6% in 2026, driven by a strong labor market and increasing consumer spending. The forecast is based on economic indicators and market trends.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
-        }
-      ],
-      "reasoning": "US stocks are forecast to rise 6% in 2026, driven by a strong labor market and increasing consumer spending. Buying the Vanguard Total Stock Market ETF (VTI) could provide broad exposure to the US stock market.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor economic indicators and adjust accordingly"
-      },
-      "exitStrategy": "Exit when the economy shows signs of slowing or the stock market stabilizes",
-      "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the economy grows as expected",
-        "base": "+5\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows faster than expected",
-        "stopLoss": "-5% on VTI"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds"
-      ],
-      "otherFactors": [
-        "Economic indicators"
-      ]
-    },
-    {
-      "id": 13,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Taiwan Semiconductor's AI Chip Dominance",
-      "summary": "Taiwan Semiconductor is dominating the AI chip market, with its supplier Nvidia benefiting from the trend. The company's CEO has stated that it is winning the AI chip war.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Taiwan Semiconductor Manufacturing Company (TSM)"
-        }
-      ],
-      "reasoning": "Taiwan Semiconductor is dominating the AI chip market, with its supplier Nvidia benefiting from the trend. Buying Taiwan Semiconductor Manufacturing Company (TSM) could provide exposure to the AI chip market and potential benefits from the company's dominance.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor earnings reports and adjust accordingly"
-      },
-      "exitStrategy": "Exit when the stock reaches a resistance level or the company's earnings disappoint",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the company's earnings meet expectations",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the company's earnings exceed expectations",
-        "stopLoss": "-8% on TSM"
-      },
-      "adjacentMarkets": [
-        "NVIDIA Corporation (NVDA)"
-      ],
-      "otherFactors": [
-        "Competition from Intel and AMD"
+        "US-China trade relations"
       ]
     }
   ]
