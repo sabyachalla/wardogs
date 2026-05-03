@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T20:05:47Z",
+  "lastUpdated": "2026-05-03T23:29:35Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran is expected to have significant implications for global markets. The US military strength has been demonstrated, but the war also highlights the waning geopolitical power of the US. The situation is volatile and could lead to further escalation.",
+      "summary": "The Iran war has escalated, with the US showing military strength but also its waning geopolitical power. This has led to a new geopolitical reality, with the US facing challenges in containing great powers. The war has also revealed the limits of US power and the importance of energy geopolitics.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,7 +22,7 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
@@ -30,29 +30,27 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran is likely to lead to increased volatility in global markets, with potential for a safe-haven bid in gold. Emerging markets may be negatively impacted by the escalation of the conflict.",
+      "reasoning": "The escalation of the Iran war will lead to increased volatility in the markets, with the US facing challenges in containing great powers. This will lead to a surge in demand for safe-haven assets, such as gold, and a decline in emerging markets.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for further escalation or de-escalation"
+        "note": "Watch for a potential ceasefire or de-escalation"
       },
-      "exitStrategy": "Exit on signs of de-escalation or if gold price reaches $2,000/oz",
+      "exitStrategy": "Exit when a ceasefire or de-escalation is announced",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict stabilizes",
+        "conservativeNote": "If the war is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If conflict escalates further",
-        "stopLoss": "-8% on GLD"
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Treasury Bonds (TLT)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "OPEC production cuts",
-        "US-China trade relations"
+        "Oil prices"
       ]
     },
     {
@@ -61,7 +59,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Stock",
-      "summary": "Nvidia's AI chip sales are surging, with the company poised to dominate the market. The stock has been volatile, but the trend is positive.",
+      "summary": "Nvidia's AI stock has been surging, with the company emerging as a top contender in the AI-semiconductor market. However, Huawei is also gaining ground, with its AI chip sales surging in China.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -71,156 +69,172 @@
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Huawei Technologies Co. Ltd. (none)"
         }
       ],
-      "reasoning": "Nvidia's AI chip sales are driving growth, and the stock is likely to continue its upward trend. The company's dominance in the AI market is a key factor in its success.",
+      "reasoning": "Nvidia's AI stock has been surging, but Huawei is gaining ground in China. This will lead to increased competition in the AI-semiconductor market, with Nvidia facing challenges in maintaining its market share.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for earnings report"
+        "note": "Watch for Nvidia's earnings report"
       },
-      "exitStrategy": "Exit on signs of slowing growth or if stock reaches $1,000",
+      "exitStrategy": "Exit when Nvidia's earnings report is released",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If growth slows",
-        "base": "+12\u201318%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If Nvidia's earnings report is positive",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI market grows faster than expected",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+15%+",
+        "extendedNote": "If Nvidia's earnings report is very positive",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Semiconductor Stocks (SMH)"
+        "AI Stocks"
       ],
       "otherFactors": [
-        "Competition from Huawei",
-        "Regulatory environment"
+        "Competition from Huawei"
       ]
     },
     {
       "id": 3,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is expected to continue growing, with the Fed holding interest rates steady. The labor market is strong, and consumer spending is driving growth.",
+      "summary": "The US economy has been growing, with the S&P 500 hitting new highs. However, the Iran war has led to increased inflation fears, with the Fed holding interest rates steady.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "The US economy is likely to continue growing, driven by consumer spending and a strong labor market. The Fed's decision to hold interest rates steady is supportive of the economy.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Monitor for GDP report"
-      },
-      "exitStrategy": "Exit on signs of slowing growth or if stock market reaches new highs",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If growth slows",
-        "base": "+10\u201315%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If economy grows faster than expected",
-        "stopLoss": "-8% on SPY"
-      },
-      "adjacentMarkets": [
-        "US Treasury Bonds (TLT)"
-      ],
-      "otherFactors": [
-        "Inflation rate",
-        "Trade policy"
-      ]
-    },
-    {
-      "id": 4,
-      "rank": "LOW",
-      "category": "commod",
-      "catLabel": "Commodities",
-      "title": "Gold Price",
-      "summary": "The gold price is range-bound, with the Fed holding interest rates steady. The metal is likely to remain volatile, driven by safe-haven demand.",
-      "fresh": true,
-      "freshLabel": "2h ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "Vanguard Total Stock Market Index Fund (VTI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The gold price is likely to remain volatile, driven by safe-haven demand. The Fed's decision to hold interest rates steady is supportive of the metal.",
+      "reasoning": "The US economy has been growing, but the Iran war has led to increased inflation fears. This will lead to a decline in bond yields and an increase in stock prices.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for inflation report"
+        "note": "Watch for the next Fed meeting"
       },
-      "exitStrategy": "Exit on signs of decreasing safe-haven demand or if gold price reaches $2,000/oz",
+      "exitStrategy": "Exit when the next Fed meeting is held",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If demand decreases",
-        "base": "+5\u201310%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the economy continues to grow",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the economy grows strongly",
+        "stopLoss": "-3% on VTI"
+      },
+      "adjacentMarkets": [
+        "Bond Yields"
+      ],
+      "otherFactors": [
+        "Inflation fears"
+      ]
+    },
+    {
+      "id": 4,
+      "rank": "MED",
+      "category": "commod",
+      "catLabel": "Commodities",
+      "title": "Gold Price",
+      "summary": "The gold price has been rangebound, with the Fed holding interest rates steady. However, the Iran war has led to increased demand for safe-haven assets.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares (GLD)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Silver Trust (SLV)"
+        }
+      ],
+      "reasoning": "The gold price has been rangebound, but the Iran war has led to increased demand for safe-haven assets. This will lead to an increase in gold prices.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Watch for a potential ceasefire or de-escalation"
+      },
+      "exitStrategy": "Exit when a ceasefire or de-escalation is announced",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the war is contained",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If safe-haven demand increases",
+        "extendedNote": "If the war escalates further",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Silver (SLV)"
+        "Silver"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "US dollar strength"
+        "Safe-haven demand"
       ]
     },
     {
       "id": 5,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relationship is complex, with tariffs and trade agreements impacting markets. The situation is volatile, with potential for further escalation.",
+      "summary": "The US-China trade relations have been improving, with China scrapping tariffs for all but one African nation. However, the Trump administration is pushing forward with tariffs based on forced labor laws.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares US Aerospace & Defense ETF (ITA)"
         }
       ],
-      "reasoning": "The US-China trade relationship is likely to remain volatile, with potential for further escalation. Emerging markets may be negatively impacted by the trade tensions.",
+      "reasoning": "The US-China trade relations have been improving, but the Trump administration is pushing forward with tariffs based on forced labor laws. This will lead to increased tensions between the two countries.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Monitor for trade negotiations"
+        "viable": "2-4 weeks",
+        "note": "Watch for the next trade talks"
       },
-      "exitStrategy": "Exit on signs of de-escalation or if trade agreement is reached",
+      "exitStrategy": "Exit when the next trade talks are held",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If trade tensions decrease",
-        "base": "+10\u201315%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If trade relations improve",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If trade war escalates",
-        "stopLoss": "-10% on EEM"
+        "extended": "+10%+",
+        "extendedNote": "If trade relations improve significantly",
+        "stopLoss": "-3% on FXI"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)"
+        "Aerospace & Defense"
       ],
       "otherFactors": [
-        "Tariff rates",
-        "Trade policy"
+        "Tariffs"
       ]
     },
     {
@@ -229,7 +243,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks",
-      "summary": "AI stocks are surging, driven by growth in the AI market. Nvidia is a key player, but other companies are also benefiting from the trend.",
+      "summary": "AI stocks have been surging, with Nvidia emerging as a top contender in the AI-semiconductor market. However, Huawei is also gaining ground, with its AI chip sales surging in China.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -238,31 +252,35 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
+          "target": "Global X Artificial Intelligence & Robotics ETF (BOTZ)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares North American Tech ETF (IGM)"
         }
       ],
-      "reasoning": "AI stocks are likely to continue growing, driven by the increasing adoption of AI technology. Nvidia is a key player, but other companies are also benefiting from the trend.",
+      "reasoning": "AI stocks have been surging, but Huawei is gaining ground in China. This will lead to increased competition in the AI-semiconductor market, with Nvidia facing challenges in maintaining its market share.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for earnings reports"
+        "note": "Watch for Nvidia's earnings report"
       },
-      "exitStrategy": "Exit on signs of slowing growth or if AI market reaches saturation",
+      "exitStrategy": "Exit when Nvidia's earnings report is released",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If growth slows",
-        "base": "+10\u201315%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If Nvidia's earnings report is positive",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If AI market grows faster than expected",
-        "stopLoss": "-10% on BOTZ"
+        "extended": "+15%+",
+        "extendedNote": "If Nvidia's earnings report is very positive",
+        "stopLoss": "-5% on BOTZ"
       },
       "adjacentMarkets": [
-        "Semiconductor Stocks (SMH)"
+        "Semiconductor Stocks"
       ],
       "otherFactors": [
-        "Competition from Huawei",
-        "Regulatory environment"
+        "Competition from Huawei"
       ]
     },
     {
@@ -271,7 +289,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Interest Rate Decision",
-      "summary": "The Fed has held interest rates steady, citing inflation concerns. The decision is supportive of the economy, but may lead to increased volatility in markets.",
+      "summary": "The Fed has held interest rates steady, citing inflation concerns. However, the Iran war has led to increased inflation fears, with the Fed facing challenges in maintaining its monetary policy.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
@@ -281,30 +299,34 @@
           "label": "BUY",
           "cls": "buy",
           "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady is supportive of the economy, but may lead to increased volatility in markets. Short-term credit bonds are likely to benefit from the decision.",
+      "reasoning": "The Fed has held interest rates steady, but the Iran war has led to increased inflation fears. This will lead to a decline in bond yields and an increase in short-term credit bonds.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for inflation report"
+        "note": "Watch for the next Fed meeting"
       },
-      "exitStrategy": "Exit on signs of decreasing volatility or if interest rates change",
+      "exitStrategy": "Exit when the next Fed meeting is held",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If volatility decreases",
-        "base": "+5\u201310%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the economy continues to grow",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If interest rates remain steady",
-        "stopLoss": "-5% on CSJ"
+        "extended": "+10%+",
+        "extendedNote": "If the economy grows strongly",
+        "stopLoss": "-3% on CSJ"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)"
+        "Bond Yields"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "Economic growth"
+        "Inflation fears"
       ]
     },
     {
@@ -313,208 +335,136 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "OPEC Oil Production",
-      "summary": "OPEC oil production is expected to remain steady, with the cartel aiming to support prices. The situation is volatile, with potential for further changes in production.",
+      "summary": "OPEC oil production has been increasing, with the Iran war leading to increased tensions in the Middle East. This has led to a surge in oil prices, with the US facing challenges in maintaining its energy security.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "United States Oil Fund (USO)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Global Energy ETF (IXC)"
         }
       ],
-      "reasoning": "OPEC oil production is likely to remain steady, with the cartel aiming to support prices. The situation is volatile, with potential for further changes in production.",
+      "reasoning": "OPEC oil production has been increasing, but the Iran war has led to increased tensions in the Middle East. This will lead to a surge in oil prices, with the US facing challenges in maintaining its energy security.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Monitor for OPEC meetings"
+        "viable": "2-4 weeks",
+        "note": "Watch for a potential ceasefire or de-escalation"
       },
-      "exitStrategy": "Exit on signs of decreasing production or if oil prices reach $100/bbl",
+      "exitStrategy": "Exit when a ceasefire or de-escalation is announced",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If production decreases",
-        "base": "+10\u201315%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the war is contained",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If oil prices surge",
-        "stopLoss": "-10% on USO"
+        "extended": "+15%+",
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-5% on USO"
       },
       "adjacentMarkets": [
-        "Natural Gas (UNG)"
+        "Energy Stocks"
       ],
       "otherFactors": [
-        "Global demand",
-        "US shale production"
+        "Tensions in the Middle East"
       ]
     },
     {
       "id": 9,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks are surging, driven by growth in the tech industry. Nvidia is a key player, but other companies are also benefiting from the trend.",
+      "summary": "Semiconductor stocks have been surging, with Nvidia emerging as a top contender in the AI-semiconductor market. However, Huawei is also gaining ground, with its AI chip sales surging in China.",
       "fresh": true,
       "freshLabel": "2h ago",
-      "risk": "MED",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "Semiconductor stocks are likely to continue growing, driven by the increasing demand for tech products. Nvidia is a key player, but other companies are also benefiting from the trend.",
+      "reasoning": "Semiconductor stocks have been surging, but Huawei is gaining ground in China. This will lead to increased competition in the AI-semiconductor market, with Nvidia facing challenges in maintaining its market share.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for earnings reports"
+        "note": "Watch for Nvidia's earnings report"
       },
-      "exitStrategy": "Exit on signs of slowing growth or if tech market reaches saturation",
+      "exitStrategy": "Exit when Nvidia's earnings report is released",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If growth slows",
-        "base": "+10\u201315%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If Nvidia's earnings report is positive",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If tech market grows faster than expected",
-        "stopLoss": "-10% on SMH"
+        "extended": "+10%+",
+        "extendedNote": "If Nvidia's earnings report is very positive",
+        "stopLoss": "-3% on SMH"
       },
       "adjacentMarkets": [
-        "AI Stocks (BOTZ)"
+        "AI Stocks"
       ],
       "otherFactors": [
-        "Competition from Huawei",
-        "Regulatory environment"
+        "Competition from Huawei"
       ]
     },
     {
       "id": 10,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
       "title": "Earnings Season",
-      "summary": "Earnings season is underway, with many companies reporting strong results. The trend is likely to continue, with the economy supporting growth.",
+      "summary": "Earnings season has been strong, with the S&P 500 hitting new highs. However, the Iran war has led to increased uncertainty, with companies facing challenges in maintaining their growth.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "Earnings season is likely to continue supporting the economy, with many companies reporting strong results. The trend is likely to continue, with the economy supporting growth.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor for earnings reports"
-      },
-      "exitStrategy": "Exit on signs of slowing growth or if earnings season ends",
-      "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If growth slows",
-        "base": "+5\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If earnings season exceeds expectations",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "US Treasury Bonds (TLT)"
-      ],
-      "otherFactors": [
-        "Inflation rate",
-        "Economic growth"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Huawei AI Chip Sales",
-      "summary": "Huawei's AI chip sales are surging, driven by growth in the AI market. The company is poised to challenge Nvidia's dominance.",
-      "fresh": true,
-      "freshLabel": "2h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco China Technology ETF (CQQQ)"
-        }
-      ],
-      "reasoning": "Huawei's AI chip sales are likely to continue growing, driven by the increasing adoption of AI technology. The company is poised to challenge Nvidia's dominance.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor for earnings reports"
-      },
-      "exitStrategy": "Exit on signs of slowing growth or if Huawei's market share decreases",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If growth slows",
-        "base": "+10\u201315%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If Huawei's market share increases",
-        "stopLoss": "-10% on CQQQ"
-      },
-      "adjacentMarkets": [
-        "Nvidia (NVDA)"
-      ],
-      "otherFactors": [
-        "Competition from Nvidia",
-        "Regulatory environment"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Economic Data",
-      "summary": "US economic data is strong, with the labor market and consumer spending driving growth. The trend is likely to continue, with the economy supporting growth.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
+          "target": "Vanguard Total Stock Market Index Fund (VTI)"
+        },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "US economic data is likely to continue supporting the economy, with the labor market and consumer spending driving growth. The trend is likely to continue, with the economy supporting growth.",
+      "reasoning": "Earnings season has been strong, but the Iran war has led to increased uncertainty. This will lead to a decline in small-cap stocks and an increase in large-cap stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for economic reports"
+        "note": "Watch for the next earnings reports"
       },
-      "exitStrategy": "Exit on signs of slowing growth or if economic data worsens",
+      "exitStrategy": "Exit when the next earnings reports are released",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If growth slows",
-        "base": "+5\u201310%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If earnings reports are positive",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If economic data exceeds expectations",
-        "stopLoss": "-5% on AGG"
+        "extendedNote": "If earnings reports are very positive",
+        "stopLoss": "-5% on VTI"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)"
+        "Small-Cap Stocks"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "Economic growth"
+        "Uncertainty"
       ]
     }
   ]
