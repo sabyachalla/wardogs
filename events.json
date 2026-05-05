@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T08:36:54Z",
+  "lastUpdated": "2026-05-05T12:15:22Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,45 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war has shown the military strength of the US, but also its waning geopolitical power. The conflict has revealed the limits of US power and the importance of energy geopolitics. The UK's geopolitical standing and military readiness have also been called into question.",
+      "summary": "The Iran war shows the military strength of the US but also its waning geopolitical power. The conflict has significant implications for global energy markets and geopolitical stability. The US, UK, and other nations are involved, making it a complex situation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares North American Natural Resources ETF (IGE)"
-        },
-        {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The Iran war has led to increased tensions in the Middle East, which could disrupt oil supplies and drive up prices. This could negatively impact the energy sector, making IGE a short target. On the other hand, gold is often seen as a safe haven asset during times of geopolitical uncertainty, making GLD a buy target.",
+      "reasoning": "The Iran war escalation could lead to increased volatility in energy markets, affecting oil prices and the broader economy. The US and its allies may impose sanctions, which could impact global trade and economic growth. Buying the SPDR S&P 500 ETF Trust (SPY) could provide a hedge against potential market downturns, while shorting the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) could profit from potential declines in oil prices.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and geopolitical developments"
+        "note": "Monitor US-Iran relations and oil price movements"
       },
-      "exitStrategy": "Close positions if oil prices drop below $60/bbl or if a ceasefire is announced",
+      "exitStrategy": "Exit when the conflict de-escalates or oil prices stabilize",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If oil prices rise by 10%",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates and oil prices surge",
-        "stopLoss": "-8% on IGE"
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil prices",
-        "US Treasury yields"
+        "Gold (safe haven bid)",
+        "US Treasury bonds (safe haven bid)"
       ],
       "otherFactors": [
-        "OPEC production levels"
+        "US interest rates",
+        "OPEC oil production"
       ]
     },
     {
@@ -60,7 +61,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Interest Rates",
-      "summary": "The Federal Reserve has kept interest rates steady amid inflation uncertainty and the Iran war. The Fed's decision has been influenced by the war's impact on inflation and the economy.",
+      "summary": "The Federal Reserve has kept interest rates steady, but inflation uncertainty rises. The Fed may hike rates again to combat inflation, which could impact the economy and markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -77,27 +78,28 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The Fed's decision to keep interest rates steady could lead to a decrease in long-term Treasury yields, making TLT a buy target. On the other hand, the uncertainty surrounding the Iran war and its impact on the economy could lead to a decrease in stock prices, making SPY a short target.",
+      "reasoning": "If the Fed hikes interest rates, it could lead to a stronger US dollar, higher bond yields, and lower stock prices. Buying the iShares 20+ Year Treasury Bond ETF (TLT) could provide a hedge against potential market downturns, while shorting the SPDR S&P 500 ETF Trust (SPY) could profit from potential declines in stock prices.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data and Fed statements"
+        "note": "Monitor Fed statements and inflation data"
       },
-      "exitStrategy": "Close positions if the Fed raises interest rates or if the economy shows signs of strengthening",
+      "exitStrategy": "Exit when the Fed pauses rate hikes or inflation declines",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If Treasury yields drop by 10bps",
-        "base": "+6\u201310%",
+        "conservativeNote": "If the Fed hikes rates moderately",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the economy enters a recession",
+        "extendedNote": "If the Fed hikes rates aggressively",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US dollar index",
-        "Commodity prices"
+        "US dollar (USD)",
+        "Commodities (inflation hedge)"
       ],
       "otherFactors": [
+        "US economic growth",
         "Inflation expectations"
       ]
     },
@@ -107,11 +109,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor market is expected to grow significantly in the next year, with several companies emerging as top contenders. Huawei's AI chip sales have surged, while Nvidia's sales have stalled in China.",
+      "summary": "The AI semiconductor market is growing rapidly, with companies like Nvidia and Marvell emerging as top contenders. The US-China trade tensions could impact the industry, but the long-term outlook remains positive.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 6-12 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -119,33 +121,34 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Marvell Technology Group Ltd. (MRVL)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Micron Technology, Inc. (MU)"
         }
       ],
-      "reasoning": "The growth of the AI semiconductor market and the emergence of new contenders make NVDA and MRVL attractive buy targets. Nvidia's dominance in the market and Marvell's emerging position as a top contender make them well-positioned for growth.",
+      "reasoning": "The AI semiconductor market is expected to grow significantly, driven by increasing demand for AI-powered devices and applications. Buying NVIDIA Corporation (NVDA) could provide exposure to this growth, while shorting Micron Technology, Inc. (MU) could profit from potential declines in the stock price due to US-China trade tensions.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "6-12 weeks",
-        "note": "Monitor earnings reports and industry trends"
+        "viable": "4-8 weeks",
+        "note": "Monitor US-China trade relations and AI industry developments"
       },
-      "exitStrategy": "Close positions if the AI semiconductor market shows signs of slowing down or if competition increases",
+      "exitStrategy": "Exit when the US-China trade tensions ease or the AI semiconductor market growth slows",
       "gains": {
         "conservative": "+8\u201312%",
-        "conservativeNote": "If the AI semiconductor market grows by 10%",
+        "conservativeNote": "If the AI semiconductor market grows moderately",
         "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If the market grows by 20% or more",
+        "extended": "+25%+",
+        "extendedNote": "If the AI semiconductor market grows rapidly",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Cloud computing",
-        "Cybersecurity"
+        "Technology sector (XLK)",
+        "Semiconductor industry (SOXX)"
       ],
       "otherFactors": [
-        "Regulatory environment"
+        "US-China trade relations",
+        "AI industry developments"
       ]
     },
     {
@@ -154,45 +157,46 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is expected to continue growing, with the S&P 500 earnings showing signs of strength. The economy has been supported by a strong labor market and low interest rates.",
+      "summary": "The US economy is expected to grow moderately, driven by consumer spending and business investment. However, the Iran war escalation and US-China trade tensions could impact the economy and markets.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 3-6 month horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The US economy's continued growth and the strength of the S&P 500 earnings make VTI an attractive buy target. The low interest rate environment also makes AGG a good rotation target for bond investors.",
+      "reasoning": "The US economy is expected to grow moderately, driven by consumer spending and business investment. Buying the SPDR S&P 500 ETF Trust (SPY) could provide exposure to this growth, while shorting the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) could profit from potential declines in oil prices due to the Iran war escalation.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "3-6 months",
-        "note": "Monitor economic indicators and interest rates"
+        "viable": "2-4 weeks",
+        "note": "Monitor US economic data and Iran war developments"
       },
-      "exitStrategy": "Close positions if the economy shows signs of slowing down or if interest rates rise",
+      "exitStrategy": "Exit when the US economy slows or the Iran war escalates further",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If the economy grows by 2%",
-        "base": "+6\u201310%",
+        "conservativeNote": "If the US economy grows moderately",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the economy grows by 3% or more",
-        "stopLoss": "-5% on VTI"
+        "extended": "+10%+",
+        "extendedNote": "If the US economy grows rapidly",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US dollar index",
-        "Commodity prices"
+        "US Treasury bonds (safe haven bid)",
+        "Commodities (inflation hedge)"
       ],
       "otherFactors": [
-        "Fiscal policy"
+        "US interest rates",
+        "Inflation expectations"
       ]
     },
     {
@@ -201,58 +205,59 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "UK Geopolitical Standing",
-      "summary": "The conflict in Iran has revealed the UK's geopolitical standing and military readiness. The UK's ability to respond to the conflict has been called into question.",
+      "summary": "The UK's geopolitical standing is being tested by the Iran war escalation and Brexit uncertainty. The UK's military readiness and diplomatic efforts will be crucial in navigating these challenges.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI United Kingdom ETF (EWU)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "iShares MSCI United Kingdom ETF (EWU)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The UK's geopolitical standing and military readiness have been called into question, making EWU a short target. The uncertainty surrounding the UK's ability to respond to the conflict also makes GLD a buy target as a safe haven asset.",
+      "reasoning": "The UK's geopolitical standing is being tested by the Iran war escalation and Brexit uncertainty. Buying the iShares MSCI United Kingdom ETF (EWU) could provide exposure to the UK's economic growth, while shorting the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) could profit from potential declines in oil prices due to the Iran war escalation.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor geopolitical developments"
+        "viable": "4-8 weeks",
+        "note": "Monitor UK geopolitical developments and Iran war escalation"
       },
-      "exitStrategy": "Close positions if the UK's geopolitical standing improves or if the conflict is resolved",
+      "exitStrategy": "Exit when the UK's geopolitical standing improves or the Iran war de-escalates",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the UK's geopolitical standing deteriorates",
+        "conservativeNote": "If the UK's geopolitical standing improves moderately",
         "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
         "extended": "+20%+",
-        "extendedNote": "If the conflict escalates",
+        "extendedNote": "If the UK's geopolitical standing improves significantly",
         "stopLoss": "-8% on EWU"
       },
       "adjacentMarkets": [
-        "Pound sterling",
-        "European stocks"
+        "UK pound (GBP)",
+        "European stocks (EZU)"
       ],
       "otherFactors": [
-        "Brexit negotiations"
+        "Brexit uncertainty",
+        "UK military readiness"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "commod",
+      "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price has been supported by the uncertainty surrounding the Iran conflict and the US-China trade tensions. The gold price is expected to continue rising as a safe haven asset.",
+      "summary": "Gold prices are expected to rise due to the Iran war escalation and US-China trade tensions. The safe haven bid could drive gold prices higher, but the US dollar's strength could limit gains.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 3-6 month horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -260,32 +265,33 @@
           "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Silver Trust (SLV)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "US Dollar Index (UUP)"
         }
       ],
-      "reasoning": "The uncertainty surrounding the Iran conflict and the US-China trade tensions make GLD an attractive buy target as a safe haven asset. The rotation to SLV also provides a diversification benefit.",
+      "reasoning": "Gold prices are expected to rise due to the Iran war escalation and US-China trade tensions. Buying the SPDR Gold Shares ETF (GLD) could provide exposure to this growth, while shorting the US Dollar Index (UUP) could profit from potential declines in the US dollar due to the safe haven bid.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "3-6 months",
-        "note": "Monitor geopolitical developments and economic indicators"
+        "viable": "2-4 weeks",
+        "note": "Monitor gold prices and US dollar movements"
       },
-      "exitStrategy": "Close positions if the uncertainty surrounding the Iran conflict and the US-China trade tensions decreases",
+      "exitStrategy": "Exit when the Iran war de-escalates or the US dollar strengthens",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the gold price rises by 5%",
-        "base": "+6\u201310%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If gold prices rise moderately",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the gold price rises by 10% or more",
+        "extended": "+10%+",
+        "extendedNote": "If gold prices rise significantly",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "US dollar index",
-        "Commodity prices"
+        "Silver (SLV)",
+        "Platinum (PPLT)"
       ],
       "otherFactors": [
+        "US interest rates",
         "Inflation expectations"
       ]
     },
@@ -295,104 +301,106 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks",
-      "summary": "The AI market is expected to grow significantly in the next year, with several companies emerging as top contenders. The top AI stocks to buy now include Nvidia, AMD, and Broadcom.",
+      "summary": "The AI market is growing rapidly, with companies like Nvidia and Alphabet emerging as top contenders. The US-China trade tensions could impact the industry, but the long-term outlook remains positive.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 6-12 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "Alphabet Inc. (GOOGL)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Advanced Micro Devices Inc. (AMD)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Micron Technology, Inc. (MU)"
         }
       ],
-      "reasoning": "The growth of the AI market and the emergence of new contenders make NVDA and AMD attractive buy targets. Nvidia's dominance in the market and AMD's emerging position as a top contender make them well-positioned for growth.",
+      "reasoning": "The AI market is expected to grow significantly, driven by increasing demand for AI-powered devices and applications. Buying Alphabet Inc. (GOOGL) could provide exposure to this growth, while shorting Micron Technology, Inc. (MU) could profit from potential declines in the stock price due to US-China trade tensions.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "6-12 weeks",
-        "note": "Monitor earnings reports and industry trends"
+        "viable": "4-8 weeks",
+        "note": "Monitor US-China trade relations and AI industry developments"
       },
-      "exitStrategy": "Close positions if the AI market shows signs of slowing down or if competition increases",
+      "exitStrategy": "Exit when the US-China trade tensions ease or the AI market growth slows",
       "gains": {
         "conservative": "+8\u201312%",
-        "conservativeNote": "If the AI market grows by 10%",
+        "conservativeNote": "If the AI market grows moderately",
         "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If the market grows by 20% or more",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If the AI market grows rapidly",
+        "stopLoss": "-10% on GOOGL"
       },
       "adjacentMarkets": [
-        "Cloud computing",
-        "Cybersecurity"
+        "Technology sector (XLK)",
+        "Semiconductor industry (SOXX)"
       ],
       "otherFactors": [
-        "Regulatory environment"
+        "US-China trade relations",
+        "AI industry developments"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "trade",
+      "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade tensions have been ongoing, with the US imposing tariffs on Chinese goods. The trade tensions have had a significant impact on the global economy.",
+      "summary": "The US-China trade tensions are ongoing, with both countries imposing tariffs on each other's goods. The trade war could impact global trade and economic growth, but a potential trade deal could ease tensions.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 3-6 month horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The ongoing US-China trade tensions make FXI a short target due to the potential negative impact on the Chinese economy. The rotation to SPY provides a diversification benefit and a potential hedge against the trade tensions.",
+      "reasoning": "The US-China trade tensions could impact global trade and economic growth, but a potential trade deal could ease tensions. Buying the iShares China Large-Cap ETF (FXI) could provide exposure to China's economic growth, while shorting the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) could profit from potential declines in oil prices due to the trade war.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "3-6 months",
-        "note": "Monitor trade negotiations and economic indicators"
+        "viable": "2-4 weeks",
+        "note": "Monitor US-China trade relations and trade war developments"
       },
-      "exitStrategy": "Close positions if the trade tensions decrease or if a trade deal is reached",
+      "exitStrategy": "Exit when the US-China trade tensions ease or a trade deal is reached",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If the trade tensions decrease",
-        "base": "+6\u201310%",
+        "conservativeNote": "If the trade war is contained",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the trade tensions escalate",
+        "extended": "+10%+",
+        "extendedNote": "If a trade deal is reached",
         "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "US dollar index",
-        "Commodity prices"
+        "US dollar (USD)",
+        "Commodities (inflation hedge)"
       ],
       "otherFactors": [
-        "Fiscal policy"
+        "US interest rates",
+        "Inflation expectations"
       ]
     },
     {
       "id": 9,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
+      "rank": "LOW",
+      "category": "energy",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC has been trying to stabilize the oil market by adjusting production levels. The Iran conflict has disrupted oil supplies, leading to increased prices.",
+      "summary": "OPEC oil production is expected to remain steady, despite the Iran war escalation and US-China trade tensions. The oil market is expected to remain volatile, with potential price swings due to geopolitical events.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
@@ -403,78 +411,80 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Global Energy ETF (IXC)"
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The disruption to oil supplies due to the Iran conflict makes USO an attractive buy target. The potential decrease in oil prices due to OPEC's production adjustments makes IXC a short target.",
+      "reasoning": "OPEC oil production is expected to remain steady, despite the Iran war escalation and US-China trade tensions. Buying the United States Oil Fund LP (USO) could provide exposure to potential price increases, while shorting the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) could profit from potential declines in oil prices due to the trade war.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor oil prices and OPEC production levels"
+        "note": "Monitor OPEC oil production and oil price movements"
       },
-      "exitStrategy": "Close positions if oil prices drop below $60/bbl or if OPEC increases production",
+      "exitStrategy": "Exit when the oil market stabilizes or OPEC changes its production levels",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If oil prices rise by 10%",
-        "base": "+10\u201315%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If oil prices rise moderately",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the conflict escalates and oil prices surge",
-        "stopLoss": "-8% on USO"
+        "extended": "+10%+",
+        "extendedNote": "If oil prices rise significantly",
+        "stopLoss": "-5% on USO"
       },
       "adjacentMarkets": [
-        "US dollar index",
-        "Commodity prices"
+        "Natural gas (UNG)",
+        "Coal (KOL)"
       ],
       "otherFactors": [
-        "Geopolitical developments"
+        "US interest rates",
+        "Inflation expectations"
       ]
     },
     {
       "id": 10,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "The semiconductor market has been impacted by the US-China trade tensions and the Iran conflict. The market is expected to continue growing despite the challenges.",
+      "summary": "The semiconductor market is growing rapidly, driven by increasing demand for AI-powered devices and applications. The US-China trade tensions could impact the industry, but the long-term outlook remains positive.",
       "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 3-6 month horizon",
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Micron Technology, Inc. (MU)"
         }
       ],
-      "reasoning": "The growth of the semiconductor market despite the challenges makes SMH an attractive buy target. The rotation to SOXX provides a diversification benefit and a potential hedge against the trade tensions.",
+      "reasoning": "The semiconductor market is expected to grow significantly, driven by increasing demand for AI-powered devices and applications. Buying NVIDIA Corporation (NVDA) could provide exposure to this growth, while shorting Micron Technology, Inc. (MU) could profit from potential declines in the stock price due to US-China trade tensions.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "3-6 months",
-        "note": "Monitor trade negotiations and industry trends"
+        "viable": "4-8 weeks",
+        "note": "Monitor US-China trade relations and semiconductor industry developments"
       },
-      "exitStrategy": "Close positions if the trade tensions decrease or if the semiconductor market shows signs of slowing down",
+      "exitStrategy": "Exit when the US-China trade tensions ease or the semiconductor market growth slows",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the semiconductor market grows by 5%",
-        "base": "+6\u201310%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If the semiconductor market grows moderately",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the market grows by 10% or more",
-        "stopLoss": "-5% on SMH"
+        "extended": "+25%+",
+        "extendedNote": "If the semiconductor market grows rapidly",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Cloud computing",
-        "Cybersecurity"
+        "Technology sector (XLK)",
+        "AI industry (AI)"
       ],
       "otherFactors": [
-        "Regulatory environment"
+        "US-China trade relations",
+        "Semiconductor industry developments"
       ]
     }
   ]
