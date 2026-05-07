@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T23:37:14Z",
+  "lastUpdated": "2026-05-07T09:45:29Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,44 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict between the US and Iran is escalating, with potential implications for global oil prices and geopolitical stability. The US has shown military strength, but also faces challenges in its geopolitical influence. The situation is being closely monitored by investors and policymakers.",
+      "summary": "The Iran war shows the military strength of the US, but also its waning geopolitical power. The conflict has significant implications for global markets and economies. The US and its allies are navigating a complex web of diplomatic and military actions.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The escalation of the Iran war could lead to increased oil prices, which would negatively impact oil-dependent stocks. However, the overall market may benefit from the perceived strength of the US military. Investors should be prepared for potential volatility and adjust their portfolios accordingly.",
+      "reasoning": "The Iran war has the potential to disrupt global oil supplies, leading to increased prices and market volatility. This could negatively impact emerging markets, making a short position on EEM a viable option. On the other hand, gold is often seen as a safe-haven asset during times of geopolitical uncertainty, making a long position on GLD a potential hedge.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and geopolitical developments"
+        "note": "Monitor diplomatic efforts and military actions"
       },
-      "exitStrategy": "Exit if oil prices stabilize or the conflict de-escalates",
+      "exitStrategy": "Exit positions if a ceasefire is announced or oil prices stabilize",
       "gains": {
         "conservative": "+5\u20138%",
         "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-8% on EEM"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Oil prices (WTI)",
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "OPEC oil production levels"
+        "Diplomatic efforts",
+        "Military actions"
       ]
     },
     {
@@ -59,7 +61,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Interest Rates",
-      "summary": "The Federal Reserve has kept interest rates steady, citing inflation uncertainty. The decision has implications for the overall economy and stock market.",
+      "summary": "The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising. The decision has significant implications for the US economy and markets. The Fed is navigating a complex environment of rising supply chain risks and sticky inflation.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -68,35 +70,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The decision to keep interest rates steady may lead to increased borrowing and spending, which could boost the economy. However, the uncertainty surrounding inflation may also lead to increased market volatility.",
+      "reasoning": "The Fed's decision to keep interest rates steady has led to a decrease in Treasury yields, making a long position on TLT a viable option. On the other hand, the rising inflation uncertainty could negatively impact the US stock market, making a short position on SPY a potential hedge.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
         "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Exit if interest rates change or inflation expectations shift",
+      "exitStrategy": "Exit positions if the Fed announces a rate hike or inflation data improves",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If the economy grows steadily",
+        "conservativeNote": "If inflation remains stable",
         "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the economy experiences a significant boost",
-        "stopLoss": "-5% on CSJ"
+        "extendedNote": "If inflation rises significantly",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US dollar index"
+        "US dollar index (DXY)",
+        "Commodity prices"
       ],
       "otherFactors": [
-        "Job market data"
+        "Inflation data",
+        "Fed statements"
       ]
     },
     {
@@ -105,7 +109,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor market is experiencing significant growth, with companies like Nvidia and AMD leading the charge. The trend is expected to continue, driven by increasing demand for AI-powered devices and applications.",
+      "summary": "Nvidia's stock is up, and the company is expected to continue to lead the AI semiconductor market. The AI-led rally has significant implications for the tech industry and markets. Nvidia's competitors are seeking funding to challenge its dominance.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -119,30 +123,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Intel Corporation (INTC)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The growth of the AI semiconductor market is expected to continue, driven by increasing demand for AI-powered devices and applications. Investors should consider investing in companies that are well-positioned to benefit from this trend.",
+      "reasoning": "Nvidia's leadership in the AI semiconductor market makes a long position on NVDA a viable option. On the other hand, AMD's competitors are seeking funding to challenge Nvidia's dominance, making a short position on AMD a potential hedge.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor industry trends and company earnings"
+        "note": "Monitor Nvidia's competitors and market trends"
       },
-      "exitStrategy": "Exit if the trend reverses or competition increases",
+      "exitStrategy": "Exit positions if Nvidia's competitors gain significant market share",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15\u201320%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Nvidia maintains its market share",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-10% on NVDA"
+        "extendedNote": "If Nvidia's competitors fail to gain traction",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Cloud computing stocks"
+        "AI stocks",
+        "Tech sector"
       ],
       "otherFactors": [
-        "Competition from Chinese companies"
+        "Nvidia's competitors",
+        "Market trends"
       ]
     },
     {
@@ -151,11 +157,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is experiencing steady growth, driven by a strong job market and increased consumer spending. The trend is expected to continue, with some potential risks from inflation and trade tensions.",
+      "summary": "The US economy is expected to rise 6% in 2026, according to Goldman Sachs. The forecast has significant implications for the US stock market and economy. The growth is driven by a strong labor market and consumer spending.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 6-12 month horizon",
       "actions": [
         {
           "label": "BUY",
@@ -163,32 +169,34 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The US economy is expected to continue growing, driven by a strong job market and increased consumer spending. However, investors should be aware of potential risks from inflation and trade tensions.",
+      "reasoning": "The expected growth in the US economy makes a long position on SPY a viable option. On the other hand, rotating into small-cap stocks through IWM could provide a potential hedge against a slowing economy.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor economic data and trade developments"
+        "viable": "6-12 months",
+        "note": "Monitor economic data and market trends"
       },
-      "exitStrategy": "Exit if the economy slows down or trade tensions escalate",
+      "exitStrategy": "Exit positions if the economy slows down or the stock market declines",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If the economy grows steadily",
-        "base": "+5\u20138%",
+        "conservativeNote": "If the economy grows as expected",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the economy experiences a significant boost",
+        "extended": "+15%+",
+        "extendedNote": "If the economy grows faster than expected",
         "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US dollar index"
+        "US Treasury yields",
+        "Commodity prices"
       ],
       "otherFactors": [
-        "Federal Reserve policy"
+        "Economic data",
+        "Market trends"
       ]
     },
     {
@@ -197,44 +205,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "UK Geopolitical Standing",
-      "summary": "The UK's geopolitical standing is being impacted by the ongoing conflict in Iran and the country's military readiness. The situation is being closely monitored by investors and policymakers.",
+      "summary": "The conflict in Iran has revealed the UK's geopolitical standing and military readiness. The implications are significant for the UK's economy and markets. The UK is navigating a complex web of diplomatic and military actions.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "SHORT",
+          "cls": "short",
           "target": "iShares MSCI United Kingdom ETF (EWU)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares U.S. Aerospace & Defense ETF (ITA)"
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The UK's geopolitical standing is expected to be impacted by the ongoing conflict in Iran and the country's military readiness. Investors should consider the potential implications for the UK economy and stock market.",
+      "reasoning": "The UK's geopolitical standing and military readiness make a short position on EWU a viable option. On the other hand, gold is often seen as a safe-haven asset during times of geopolitical uncertainty, making a long position on GLD a potential hedge.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor geopolitical developments and UK economic data"
+        "note": "Monitor diplomatic efforts and military actions"
       },
-      "exitStrategy": "Exit if the conflict de-escalates or the UK's geopolitical standing improves",
+      "exitStrategy": "Exit positions if a ceasefire is announced or the UK's geopolitical standing improves",
       "gains": {
-        "conservative": "+5\u20138%",
+        "conservative": "+3\u20135%",
         "conservativeNote": "If the conflict is contained",
-        "base": "+10\u201315%",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on EWU"
+        "extended": "+15%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-5% on EWU"
       },
       "adjacentMarkets": [
-        "European stocks"
+        "Oil prices (WTI)",
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Brexit developments"
+        "Diplomatic efforts",
+        "Military actions"
       ]
     },
     {
@@ -243,11 +253,11 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The price of gold is being impacted by the ongoing conflict in Iran and the resulting safe-haven bid. The trend is expected to continue, with some potential risks from inflation and interest rates.",
+      "summary": "The gold price is expected to rise due to geopolitical uncertainty and inflation concerns. The implications are significant for the gold market and economy. The gold price is often seen as a safe-haven asset during times of uncertainty.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 6-12 month horizon",
       "actions": [
         {
           "label": "BUY",
@@ -255,32 +265,34 @@
           "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "The price of gold is expected to continue to be impacted by the ongoing conflict in Iran and the resulting safe-haven bid. However, investors should be aware of potential risks from inflation and interest rates.",
+      "reasoning": "The expected rise in the gold price makes a long position on GLD a viable option. On the other hand, rotating into silver through SLV could provide a potential hedge against a decline in the gold price.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor gold prices and geopolitical developments"
+        "viable": "6-12 months",
+        "note": "Monitor gold price and market trends"
       },
-      "exitStrategy": "Exit if the conflict de-escalates or inflation expectations shift",
+      "exitStrategy": "Exit positions if the gold price declines or the economy improves",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+5\u20138%",
+        "conservativeNote": "If the gold price rises as expected",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the conflict escalates further",
+        "extended": "+15%+",
+        "extendedNote": "If the gold price rises faster than expected",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "US dollar index"
+        "US Treasury yields",
+        "Commodity prices"
       ],
       "otherFactors": [
-        "Inflation expectations"
+        "Gold price",
+        "Market trends"
       ]
     },
     {
@@ -289,7 +301,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks",
-      "summary": "The AI market is experiencing significant growth, driven by increasing demand for AI-powered devices and applications. The trend is expected to continue, with some potential risks from competition and regulation.",
+      "summary": "The AI-led rally has significant implications for the tech industry and markets. Nvidia's competitors are seeking funding to challenge its dominance. The AI market is expected to continue growing in the coming years.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -298,48 +310,50 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Microsoft Corporation (MSFT)"
+          "target": "NVIDIA Corporation (NVDA)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Alphabet Inc. (GOOGL)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The AI market is expected to continue to grow, driven by increasing demand for AI-powered devices and applications. However, investors should be aware of potential risks from competition and regulation.",
+      "reasoning": "The AI-led rally makes a long position on NVDA a viable option. On the other hand, AMD's competitors are seeking funding to challenge Nvidia's dominance, making a short position on AMD a potential hedge.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor industry trends and company earnings"
+        "note": "Monitor Nvidia's competitors and market trends"
       },
-      "exitStrategy": "Exit if the trend reverses or competition increases",
+      "exitStrategy": "Exit positions if Nvidia's competitors gain significant market share",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15\u201320%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Nvidia maintains its market share",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-10% on MSFT"
+        "extendedNote": "If Nvidia's competitors fail to gain traction",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Cloud computing stocks"
+        "AI semiconductor stocks",
+        "Tech sector"
       ],
       "otherFactors": [
-        "Competition from Chinese companies"
+        "Nvidia's competitors",
+        "Market trends"
       ]
     },
     {
       "id": 8,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relationship is being impacted by the ongoing conflict in Iran and the resulting geopolitical tensions. The situation is being closely monitored by investors and policymakers.",
+      "summary": "The US-China trade relations are complex and have significant implications for the global economy. The trade wars have led to a decline in trade between the two countries. China is expanding its zero-tariff policy to 53 African countries.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 6-12 month horizon",
       "actions": [
         {
           "label": "BUY",
@@ -347,45 +361,47 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares U.S. Aerospace & Defense ETF (ITA)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The US-China trade relationship is expected to be impacted by the ongoing conflict in Iran and the resulting geopolitical tensions. Investors should consider the potential implications for the global economy and stock market.",
+      "reasoning": "The expanding zero-tariff policy makes a long position on FXI a viable option. On the other hand, rotating into emerging markets through EEM could provide a potential hedge against a decline in the Chinese economy.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor trade developments and geopolitical tensions"
+        "viable": "6-12 months",
+        "note": "Monitor US-China trade relations and market trends"
       },
-      "exitStrategy": "Exit if the conflict de-escalates or trade tensions ease",
+      "exitStrategy": "Exit positions if the US-China trade relations improve or the Chinese economy declines",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+10\u201315%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the US-China trade relations improve",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on FXI"
+        "extended": "+15%+",
+        "extendedNote": "If the US-China trade relations deteriorate",
+        "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging market stocks"
+        "US Treasury yields",
+        "Commodity prices"
       ],
       "otherFactors": [
-        "Tariff developments"
+        "US-China trade relations",
+        "Market trends"
       ]
     },
     {
       "id": 9,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "commod",
       "catLabel": "Commodities",
       "title": "OPEC Oil Production",
-      "summary": "OPEC oil production is being impacted by the ongoing conflict in Iran and the resulting geopolitical tensions. The trend is expected to continue, with some potential risks from inflation and interest rates.",
+      "summary": "The OPEC oil production has significant implications for the global oil market. The production cuts have led to a rise in oil prices. The Iran war has disrupted oil supplies, leading to increased prices and market volatility.",
       "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -395,39 +411,185 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Energy ETF (IYE)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "OPEC oil production is expected to continue to be impacted by the ongoing conflict in Iran and the resulting geopolitical tensions. However, investors should be aware of potential risks from inflation and interest rates.",
+      "reasoning": "The rise in oil prices makes a long position on USO a viable option. On the other hand, the emerging markets are negatively impacted by the rise in oil prices, making a short position on EEM a potential hedge.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor oil prices and geopolitical developments"
+        "viable": "4-8 weeks",
+        "note": "Monitor OPEC production cuts and market trends"
       },
-      "exitStrategy": "Exit if the conflict de-escalates or inflation expectations shift",
+      "exitStrategy": "Exit positions if the oil prices decline or the emerging markets improve",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+5\u20138%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the oil prices rise as expected",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-5% on USO"
+        "extended": "+25%+",
+        "extendedNote": "If the oil prices rise faster than expected",
+        "stopLoss": "-8% on USO"
       },
       "adjacentMarkets": [
-        "US dollar index"
+        "US Treasury yields",
+        "Commodity prices"
       ],
       "otherFactors": [
-        "Inflation expectations"
+        "OPEC production cuts",
+        "Market trends"
       ]
     },
     {
       "id": 10,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "The semiconductor market is experiencing significant growth, driven by increasing demand for AI-powered devices and applications. The trend is expected to continue, with some potential risks from competition and regulation.",
+      "summary": "The semiconductor stocks have significant implications for the tech industry and markets. Nvidia's competitors are seeking funding to challenge its dominance. The semiconductor market is expected to continue growing in the coming years.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 6-12 month horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+        }
+      ],
+      "reasoning": "The growing semiconductor market makes a long position on SMH a viable option. On the other hand, rotating into the PHLX semiconductor ETF through SOXX could provide a potential hedge against a decline in the semiconductor market.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "6-12 months",
+        "note": "Monitor semiconductor market trends"
+      },
+      "exitStrategy": "Exit positions if the semiconductor market declines or the tech industry improves",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the semiconductor market grows as expected",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If the semiconductor market grows faster than expected",
+        "stopLoss": "-5% on SMH"
+      },
+      "adjacentMarkets": [
+        "AI semiconductor stocks",
+        "Tech sector"
+      ],
+      "otherFactors": [
+        "Semiconductor market trends",
+        "Tech industry"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Iran War",
+      "summary": "The Iran war has significant implications for the global oil market and economy. The conflict has disrupted oil supplies, leading to increased prices and market volatility. The US and its allies are navigating a complex web of diplomatic and military actions.",
+      "fresh": true,
+      "freshLabel": "1h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The Iran war makes a long position on GLD a viable option as a safe-haven asset. On the other hand, the emerging markets are negatively impacted by the conflict, making a short position on EEM a potential hedge.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor diplomatic efforts and military actions"
+      },
+      "exitStrategy": "Exit positions if a ceasefire is announced or the conflict is contained",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-8% on GLD"
+      },
+      "adjacentMarkets": [
+        "Oil prices (WTI)",
+        "US Treasury yields"
+      ],
+      "otherFactors": [
+        "Diplomatic efforts",
+        "Military actions"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Policy",
+      "summary": "The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising. The decision has significant implications for the US economy and markets. The Fed is navigating a complex environment of rising supply chain risks and sticky inflation.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 6-12 month horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+        }
+      ],
+      "reasoning": "The Fed's decision to keep interest rates steady makes a long position on TLT a viable option. On the other hand, rotating into the aggregate bond ETF through AGG could provide a potential hedge against a decline in the Treasury market.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "6-12 months",
+        "note": "Monitor inflation data and Fed statements"
+      },
+      "exitStrategy": "Exit positions if the Fed announces a rate hike or inflation data improves",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If inflation remains stable",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If inflation rises significantly",
+        "stopLoss": "-5% on TLT"
+      },
+      "adjacentMarkets": [
+        "US dollar index (DXY)",
+        "Commodity prices"
+      ],
+      "otherFactors": [
+        "Inflation data",
+        "Fed statements"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI-Led Rally",
+      "summary": "The AI-led rally has significant implications for the tech industry and markets. Nvidia's competitors are seeking funding to challenge its dominance. The AI market is expected to continue growing in the coming years.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -441,30 +603,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Intel Corporation (INTC)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The semiconductor market is expected to continue to grow, driven by increasing demand for AI-powered devices and applications. However, investors should be aware of potential risks from competition and regulation.",
+      "reasoning": "The AI-led rally makes a long position on NVDA a viable option. On the other hand, AMD's competitors are seeking funding to challenge Nvidia's dominance, making a short position on AMD a potential hedge.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor industry trends and company earnings"
+        "note": "Monitor Nvidia's competitors and market trends"
       },
-      "exitStrategy": "Exit if the trend reverses or competition increases",
+      "exitStrategy": "Exit positions if Nvidia's competitors gain significant market share",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15\u201320%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Nvidia maintains its market share",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-10% on NVDA"
+        "extendedNote": "If Nvidia's competitors fail to gain traction",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Cloud computing stocks"
+        "AI semiconductor stocks",
+        "Tech sector"
       ],
       "otherFactors": [
-        "Competition from Chinese companies"
+        "Nvidia's competitors",
+        "Market trends"
       ]
     }
   ]
