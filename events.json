@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T00:08:15Z",
+  "lastUpdated": "2026-05-08T07:05:30Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,44 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict between the US and Iran is showing signs of escalation, with both sides suffering significant losses. The war is having a profound impact on global geopolitics, with many countries taking sides. The US is facing challenges in maintaining its geopolitical power, while Iran is gaining support from other nations.",
+      "summary": "The ongoing conflict between the US and Iran is escalating, with both sides suffering significant losses. The war is having a major impact on global oil prices and is also affecting the stock market. The US has shown significant military strength, but its geopolitical power is waning.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares North American Tech ETF (IGM)"
-        },
-        {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The escalation of the war is likely to lead to increased volatility in the markets, with tech stocks being particularly affected. The safe-haven bid for gold is expected to rise, making it a good buy opportunity.",
+      "reasoning": "The escalation of the war between the US and Iran is likely to lead to increased volatility in the stock market and oil prices. The US has shown significant military strength, but its geopolitical power is waning, which could lead to a decline in the value of the US dollar and an increase in the price of gold.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position accordingly"
+        "note": "Monitor the situation closely and be prepared to exit if the conflict escalates further"
       },
-      "exitStrategy": "Close the position if the conflict de-escalates or if the gold price drops below $1500",
+      "exitStrategy": "Exit if the conflict escalates further or if the US dollar strengthens",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict stabilizes",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
         "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on IGM"
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (WTI)"
+        "Gold (safe haven bid)",
+        "Oil prices"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US dollar strength",
+        "Global economic growth"
       ]
     },
     {
@@ -59,11 +61,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "Nvidia is investing up to $3.2 billion in Corning as part of a massive optical fiber deal with 3 new factories focused on AI. This investment is expected to boost the demand for AI semiconductor stocks.",
+      "summary": "Nvidia is investing up to $3.2 billion in Corning as part of a massive optical fiber deal with 3 new factories focused on AI. This investment is expected to drive growth in the AI semiconductor market.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -71,32 +73,34 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Nvidia Corporation (NVDA)"
         }
       ],
-      "reasoning": "The investment by Nvidia is expected to drive the growth of AI semiconductor stocks, making them a good buy opportunity.",
+      "reasoning": "The investment by Nvidia in Corning is expected to drive growth in the AI semiconductor market. This is a positive development for the sector and could lead to increased demand for AI semiconductor stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the progress of the investment and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the sector experiences a downturn"
       },
-      "exitStrategy": "Close the position if the investment does not yield the expected results",
+      "exitStrategy": "Exit if the sector experiences a downturn or if Nvidia's investment does not yield the expected results",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the investment yields moderate results",
-        "base": "+8\u201312%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If the sector experiences moderate growth",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the investment yields exceptional results",
-        "stopLoss": "-5% on SMH"
+        "extended": "+25%+",
+        "extendedNote": "If the sector experiences high growth",
+        "stopLoss": "-10% on SMH"
       },
       "adjacentMarkets": [
-        "Tech stocks"
+        "Technology sector",
+        "AI stocks"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Global demand for AI semiconductor stocks",
+        "Competition in the sector"
       ]
     },
     {
@@ -105,11 +109,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is showing signs of growth, with the Fed keeping interest rates steady. The economy is expected to continue growing, driven by consumer spending and business investment.",
+      "summary": "The US economy is experiencing strong growth, with stunning profit strength igniting stocks' charge to record peaks. This growth is expected to continue, driven by a strong labor market and increased consumer spending.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -117,32 +121,35 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The US economy is expected to continue growing, making it a good opportunity to invest in the stock market.",
+      "reasoning": "The strong growth in the US economy is expected to continue, driven by a strong labor market and increased consumer spending. This is a positive development for the stock market and could lead to increased demand for US stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the economic indicators and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the economy experiences a downturn"
       },
-      "exitStrategy": "Close the position if the economy shows signs of slowing down",
+      "exitStrategy": "Exit if the economy experiences a downturn or if the stock market becomes overvalued",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the economy grows at a moderate pace",
-        "base": "+8\u201312%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If the economy experiences moderate growth",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the economy grows at a rapid pace",
-        "stopLoss": "-5% on SPY"
+        "extended": "+25%+",
+        "extendedNote": "If the economy experiences high growth",
+        "stopLoss": "-10% on SPY"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US stock market",
+        "Global economy"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Labor market",
+        "Consumer spending",
+        "Inflation"
       ]
     },
     {
@@ -151,44 +158,46 @@
       "category": "geo",
       "catLabel": "Geopolitics",
       "title": "UK Geopolitical Standing",
-      "summary": "The UK is facing challenges in maintaining its geopolitical standing, with the ongoing conflict in Iran and the rise of other global powers.",
+      "summary": "The UK's geopolitical standing is being affected by the ongoing conflict between the US and Iran. The UK's relationship with the US is being tested, and the country's position on the global stage is being reevaluated.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI United Kingdom ETF (EWU)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Euro STOXX 50 ETF (FEZ)"
+          "target": "iShares MSCI United Kingdom ETF (EWU)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Invesco FTSE 100 ETF (F100)"
         }
       ],
-      "reasoning": "The UK is facing challenges in maintaining its geopolitical standing, making it a good opportunity to short the UK market and buy the European market.",
+      "reasoning": "The UK's geopolitical standing is being affected by the ongoing conflict between the US and Iran. However, the country's relationship with the US is strong, and the UK's position on the global stage is being reevaluated.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the geopolitical situation and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the UK's geopolitical standing deteriorates"
       },
-      "exitStrategy": "Close the position if the UK's geopolitical standing improves",
+      "exitStrategy": "Exit if the UK's geopolitical standing deteriorates or if the country's relationship with the US becomes strained",
       "gains": {
-        "conservative": "+2\u20133%",
+        "conservative": "+5\u20138%",
         "conservativeNote": "If the UK's geopolitical standing remains stable",
-        "base": "+5\u20138%",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the UK's geopolitical standing deteriorates",
-        "stopLoss": "-3% on EWU"
+        "extended": "+20%+",
+        "extendedNote": "If the UK's geopolitical standing improves",
+        "stopLoss": "-8% on EWU"
       },
       "adjacentMarkets": [
-        "European stocks"
+        "UK stock market",
+        "European economy"
       ],
       "otherFactors": [
-        "US interest rates"
+        "UK-US relationship",
+        "Global geopolitics"
       ]
     },
     {
@@ -197,44 +206,46 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks",
-      "summary": "AI stocks are expected to continue growing, driven by the increasing demand for AI technology. Nvidia is one of the leading companies in the AI space, with a strong track record of innovation.",
+      "summary": "AI stocks are experiencing strong growth, driven by increased demand for AI technology. This growth is expected to continue, driven by a strong labor market and increased consumer spending.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Alphabet Inc (GOOGL)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Nvidia Corporation (NVDA)"
         }
       ],
-      "reasoning": "AI stocks are expected to continue growing, making them a good buy opportunity.",
+      "reasoning": "AI stocks are experiencing strong growth, driven by increased demand for AI technology. This is a positive development for the sector and could lead to increased demand for AI stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the progress of AI technology and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the sector experiences a downturn"
       },
-      "exitStrategy": "Close the position if the growth of AI stocks slows down",
+      "exitStrategy": "Exit if the sector experiences a downturn or if AI stocks become overvalued",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the growth of AI stocks is moderate",
-        "base": "+8\u201312%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If the sector experiences moderate growth",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the growth of AI stocks is rapid",
-        "stopLoss": "-5% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If the sector experiences high growth",
+        "stopLoss": "-10% on BOTZ"
       },
       "adjacentMarkets": [
-        "Tech stocks"
+        "Technology sector",
+        "AI stocks"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Global demand for AI technology",
+        "Competition in the sector"
       ]
     },
     {
@@ -243,11 +254,11 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price is expected to remain stable, with the ongoing conflict in Iran and the rise of other global powers.",
+      "summary": "The price of gold is being driven by the ongoing conflict between the US and Iran. The metal is being seen as a safe haven asset, and its price is expected to continue to rise.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -255,45 +266,47 @@
           "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "VanEck Vectors Gold Miners ETF (GDX)"
         }
       ],
-      "reasoning": "The gold price is expected to remain stable, making it a good buy opportunity.",
+      "reasoning": "The price of gold is being driven by the ongoing conflict between the US and Iran. The metal is being seen as a safe haven asset, and its price is expected to continue to rise.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the gold price and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the price of gold becomes overvalued"
       },
-      "exitStrategy": "Close the position if the gold price drops below $1500",
+      "exitStrategy": "Exit if the price of gold becomes overvalued or if the conflict between the US and Iran is resolved",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the gold price remains stable",
-        "base": "+5\u20138%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the price of gold remains stable",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the gold price rises",
-        "stopLoss": "-3% on GLD"
+        "extended": "+20%+",
+        "extendedNote": "If the price of gold rises significantly",
+        "stopLoss": "-8% on GLD"
       },
       "adjacentMarkets": [
-        "Silver"
+        "Commodities market",
+        "US dollar"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US-Iran conflict",
+        "Global economic growth"
       ]
     },
     {
       "id": 7,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "fin",
+      "catLabel": "Finance",
       "title": "US Interest Rates",
-      "summary": "The US interest rates are expected to remain steady, with the Fed keeping interest rates steady. The economy is expected to continue growing, driven by consumer spending and business investment.",
+      "summary": "The US Federal Reserve is keeping interest rates steady, despite elevated inflation. This decision is expected to have a significant impact on the US economy and the stock market.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -301,91 +314,95 @@
           "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "Vanguard Short-Term Bond ETF (BSV)"
         }
       ],
-      "reasoning": "The US interest rates are expected to remain steady, making it a good opportunity to invest in short-term bonds.",
+      "reasoning": "The US Federal Reserve's decision to keep interest rates steady is expected to have a significant impact on the US economy and the stock market. This is a positive development for the bond market and could lead to increased demand for US bonds.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the interest rates and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the US economy experiences a downturn"
       },
-      "exitStrategy": "Close the position if the interest rates rise",
+      "exitStrategy": "Exit if the US economy experiences a downturn or if interest rates rise",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the interest rates remain steady",
-        "base": "+5\u20138%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the US economy remains stable",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the interest rates drop",
-        "stopLoss": "-3% on CSJ"
+        "extended": "+20%+",
+        "extendedNote": "If the US economy experiences high growth",
+        "stopLoss": "-8% on CSJ"
       },
       "adjacentMarkets": [
-        "Long-term bonds"
+        "US bond market",
+        "US stock market"
       ],
       "otherFactors": [
-        "US economy"
+        "US economic growth",
+        "Inflation"
       ]
     },
     {
       "id": 8,
       "rank": "MED",
-      "category": "trade",
-      "catLabel": "Trade",
+      "category": "geo",
+      "catLabel": "Geopolitics",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are expected to remain tense, with the ongoing trade war between the two countries. The trade war is expected to have a significant impact on the global economy.",
+      "summary": "The trade relationship between the US and China is being affected by the ongoing conflict between the US and Iran. The US is imposing tariffs on Chinese goods, and China is retaliating with its own tariffs.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Invesco FTSE RAFI Emerging Markets ETF (PXH)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares China Large-Cap ETF (FXI)"
         }
       ],
-      "reasoning": "The US-China trade relations are expected to remain tense, making it a good opportunity to short the Chinese market and buy the US market.",
+      "reasoning": "The trade relationship between the US and China is being affected by the ongoing conflict between the US and Iran. However, the US and China are still engaged in trade talks, and a deal could be reached in the near future.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the trade relations and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the trade relationship between the US and China deteriorates"
       },
-      "exitStrategy": "Close the position if the trade relations improve",
+      "exitStrategy": "Exit if the trade relationship between the US and China deteriorates or if a trade deal is reached",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the trade relations remain tense",
-        "base": "+8\u201312%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the trade relationship between the US and China remains stable",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the trade relations deteriorate",
-        "stopLoss": "-5% on FXI"
+        "extended": "+20%+",
+        "extendedNote": "If a trade deal is reached",
+        "stopLoss": "-8% on PXH"
       },
       "adjacentMarkets": [
-        "European stocks"
+        "Emerging markets",
+        "US stock market"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US-China trade talks",
+        "Global economic growth"
       ]
     },
     {
       "id": 9,
       "rank": "LOW",
-      "category": "energy",
+      "category": "ener",
       "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "The OPEC oil production is expected to remain stable, with the ongoing conflict in Iran and the rise of other global powers.",
+      "summary": "OPEC is reducing oil production to stabilize the global oil market. This decision is expected to have a significant impact on the price of oil and the energy sector.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -393,32 +410,34 @@
           "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The OPEC oil production is expected to remain stable, making it a good opportunity to invest in oil stocks.",
+      "reasoning": "OPEC's decision to reduce oil production is expected to stabilize the global oil market and lead to increased demand for oil stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the oil price and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the price of oil becomes overvalued"
       },
-      "exitStrategy": "Close the position if the oil price drops below $50",
+      "exitStrategy": "Exit if the price of oil becomes overvalued or if OPEC's production cuts are reversed",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the oil price remains stable",
-        "base": "+5\u20138%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the price of oil remains stable",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the oil price rises",
-        "stopLoss": "-3% on XOP"
+        "extended": "+20%+",
+        "extendedNote": "If the price of oil rises significantly",
+        "stopLoss": "-8% on XOP"
       },
       "adjacentMarkets": [
-        "Natural gas"
+        "Energy sector",
+        "Commodities market"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Global oil demand",
+        "OPEC production cuts"
       ]
     },
     {
@@ -427,11 +446,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks are expected to continue growing, driven by the increasing demand for semiconductor technology. Nvidia is one of the leading companies in the semiconductor space, with a strong track record of innovation.",
+      "summary": "Semiconductor stocks are experiencing strong growth, driven by increased demand for semiconductor technology. This growth is expected to continue, driven by a strong labor market and increased consumer spending.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -439,170 +458,130 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Nvidia Corporation (NVDA)"
         }
       ],
-      "reasoning": "Semiconductor stocks are expected to continue growing, making them a good buy opportunity.",
+      "reasoning": "Semiconductor stocks are experiencing strong growth, driven by increased demand for semiconductor technology. This is a positive development for the sector and could lead to increased demand for semiconductor stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the progress of semiconductor technology and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the sector experiences a downturn"
       },
-      "exitStrategy": "Close the position if the growth of semiconductor stocks slows down",
+      "exitStrategy": "Exit if the sector experiences a downturn or if semiconductor stocks become overvalued",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the growth of semiconductor stocks is moderate",
-        "base": "+8\u201312%",
+        "conservative": "+8\u201312%",
+        "conservativeNote": "If the sector experiences moderate growth",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the growth of semiconductor stocks is rapid",
-        "stopLoss": "-5% on SMH"
+        "extended": "+25%+",
+        "extendedNote": "If the sector experiences high growth",
+        "stopLoss": "-10% on SMH"
       },
       "adjacentMarkets": [
-        "Tech stocks"
+        "Technology sector",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Global demand for semiconductor technology",
+        "Competition in the sector"
       ]
     },
     {
       "id": 11,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Economic Growth",
-      "summary": "The US economy is showing signs of growth, with the Fed keeping interest rates steady. The economy is expected to continue growing, driven by consumer spending and business investment.",
+      "category": "fin",
+      "catLabel": "Finance",
+      "title": "Federal Reserve Policy",
+      "summary": "The Federal Reserve is keeping interest rates steady, despite elevated inflation. This decision is expected to have a significant impact on the US economy and the stock market.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Short-Term Bond ETF (BSV)"
         }
       ],
-      "reasoning": "The US economy is expected to continue growing, making it a good opportunity to invest in the stock market.",
+      "reasoning": "The Federal Reserve's decision to keep interest rates steady is expected to have a significant impact on the US economy and the stock market. This is a positive development for the bond market and could lead to increased demand for US bonds.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the economic indicators and adjust the position accordingly"
+        "viable": "12 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the US economy experiences a downturn"
       },
-      "exitStrategy": "Close the position if the economy shows signs of slowing down",
+      "exitStrategy": "Exit if the US economy experiences a downturn or if interest rates rise",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the economy grows at a moderate pace",
-        "base": "+5\u20138%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the US economy remains stable",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the economy grows at a rapid pace",
-        "stopLoss": "-3% on VTI"
+        "extended": "+20%+",
+        "extendedNote": "If the US economy experiences high growth",
+        "stopLoss": "-8% on CSJ"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US bond market",
+        "US stock market"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US economic growth",
+        "Inflation"
       ]
     },
     {
       "id": 12,
       "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI Stocks",
-      "summary": "AI stocks are expected to continue growing, driven by the increasing demand for AI technology. Alphabet is one of the leading companies in the AI space, with a strong track record of innovation.",
+      "category": "geo",
+      "catLabel": "Geopolitics",
+      "title": "US-Iran Conflict",
+      "summary": "The conflict between the US and Iran is escalating, with both sides suffering significant losses. The conflict is having a major impact on global oil prices and is also affecting the stock market.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Alphabet Inc (GOOGL)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Microsoft Corporation (MSFT)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "AI stocks are expected to continue growing, making them a good buy opportunity.",
+      "reasoning": "The escalation of the conflict between the US and Iran is likely to lead to increased volatility in the stock market and oil prices. The US has shown significant military strength, but its geopolitical power is waning, which could lead to a decline in the value of the US dollar and an increase in the price of gold.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the progress of AI technology and adjust the position accordingly"
+        "viable": "4-8 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the conflict escalates further"
       },
-      "exitStrategy": "Close the position if the growth of AI stocks slows down",
+      "exitStrategy": "Exit if the conflict escalates further or if the US dollar strengthens",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the growth of AI stocks is moderate",
-        "base": "+8\u201312%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the growth of AI stocks is rapid",
-        "stopLoss": "-5% on GOOGL"
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Tech stocks"
+        "US stock market",
+        "Oil prices"
       ],
       "otherFactors": [
-        "US interest rates"
-      ]
-    },
-    {
-      "id": 13,
-      "rank": "LOW",
-      "category": "commod",
-      "catLabel": "Commodities",
-      "title": "Gold Price",
-      "summary": "The gold price is expected to remain stable, with the ongoing conflict in Iran and the rise of other global powers.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Gold Miners ETF (GDX)"
-        },
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
-        }
-      ],
-      "reasoning": "The gold price is expected to remain stable, making it a good buy opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the gold price and adjust the position accordingly"
-      },
-      "exitStrategy": "Close the position if the gold price drops below $1500",
-      "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the gold price remains stable",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the gold price rises",
-        "stopLoss": "-3% on GDX"
-      },
-      "adjacentMarkets": [
-        "Silver"
-      ],
-      "otherFactors": [
-        "US interest rates"
+        "US-Iran conflict",
+        "Global economic growth"
       ]
     }
   ]
