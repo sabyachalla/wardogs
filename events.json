@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T07:43:58Z",
+  "lastUpdated": "2026-05-11T11:25:33Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,45 +13,51 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict between the US and Iran is escalating, with potential implications for global oil prices and geopolitical stability. The situation is being closely monitored by investors and policymakers. The US has shown significant military strength, but its waning geopolitical power is also being revealed.",
+      "summary": "The ongoing conflict between the US and Iran is escalating, with both sides suffering losses. The situation is highly volatile, and a further escalation could have significant implications for global markets. The US has shown its military strength, but its geopolitical power is waning.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Oil & Gas Exploration & Production ETF (IEO)"
-        },
-        {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "Invesco DB Oil Fund (DBO)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Iran ETF (IRAN)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "SPDR S&P 500 ETF Trust (SPY) to Invesco QQQ ETF (QQQ)"
         }
       ],
-      "reasoning": "The escalation of the Iran war is likely to lead to increased volatility in oil prices, making it a good opportunity to short oil-related ETFs. On the other hand, gold is often seen as a safe-haven asset during times of geopolitical uncertainty, making it a good buy.",
+      "reasoning": "The conflict is likely to disrupt oil supplies, driving up prices. The Invesco DB Oil Fund (DBO) is a good way to gain exposure to oil prices. On the other hand, the iShares MSCI Iran ETF (IRAN) is likely to suffer due to the conflict. Rotating out of the SPDR S&P 500 ETF Trust (SPY) and into the Invesco QQQ ETF (QQQ) could be a good strategy, as the QQQ has a higher weighting of tech stocks that are less exposed to the conflict.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil price movements and adjust accordingly"
+        "note": "Monitor the situation closely and be prepared to exit if the conflict escalates further"
       },
-      "exitStrategy": "Close positions if oil prices stabilize or if gold prices drop significantly",
+      "exitStrategy": "Exit if the conflict de-escalates or if oil prices drop significantly",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+8-12%",
+        "conservativeNote": "If the conflict stabilizes",
+        "base": "+15-20%",
+        "baseNote": "If the conflict escalates further",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on IEO"
+        "extendedNote": "If the conflict spreads to other regions",
+        "stopLoss": "-10% on DBO"
       },
       "adjacentMarkets": [
-        "Oil prices",
-        "Gold prices"
+        "Gold (safe haven bid)",
+        "US Treasury bonds (safe haven bid)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Federal Reserve interest rate decisions"
       ]
     },
     {
@@ -60,9 +66,9 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia's AI Chip Dominance",
-      "summary": "Nvidia's dominance in the AI chip market is being challenged by new competitors. The company is investing heavily in new technologies, including optical fiber deals with Corning.",
+      "summary": "Nvidia's dominance in the AI chip market is being challenged by new competitors. The company's recent investment in Corning and its partnership with SK Group are positive developments, but the stock's valuation is still high.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -77,27 +83,29 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's investments in new technologies and its strong position in the AI chip market make it a good buy. On the other hand, AMD is a competitor that may struggle to keep up with Nvidia's advancements.",
+      "reasoning": "Nvidia's recent developments are positive, but the stock's valuation is still high. The company's dominance in the AI chip market is being challenged, and the stock may be due for a correction. Buying Nvidia and shorting AMD could be a good strategy, as AMD is a competitor to Nvidia in the AI chip market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor Nvidia's earnings report"
+        "note": "Monitor the company's earnings report and guidance"
       },
-      "exitStrategy": "Close positions if Nvidia's stock price drops significantly or if AMD's stock price rises",
+      "exitStrategy": "Exit if the company's earnings report is disappointing or if the stock's valuation becomes too high",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If Nvidia's earnings report is neutral",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If Nvidia's new technologies gain significant traction",
-        "stopLoss": "-5% on NVDA"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the company's earnings report is in line with expectations",
+        "base": "+10-15%",
+        "baseNote": "If the company's earnings report is better than expected",
+        "extended": "+20%+",
+        "extendedNote": "If the company's earnings report is significantly better than expected",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "Semiconductor stocks",
+        "Technology stocks"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Federal Reserve interest rate decisions"
       ]
     },
     {
@@ -106,11 +114,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is expected to continue growing, with the S&P 500 index reaching new highs. However, the Iran war and US-China trade relations are potential risks to the economy.",
+      "summary": "The US economy is growing, but at a slower pace than expected. The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -118,46 +126,47 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG) to iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
         }
       ],
-      "reasoning": "The US economy is expected to continue growing, making the S&P 500 index a good buy. On the other hand, long-term Treasury bonds may be negatively affected by the growing economy and potential inflation.",
+      "reasoning": "The US economy is growing, but at a slower pace than expected. The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising. Buying the SPDR S&P 500 ETF Trust (SPY) could be a good strategy, as the stock market is likely to continue growing. Rotating out of the iShares Core U.S. Aggregate Bond ETF (AGG) and into the iShares Core S&P Total U.S. Stock Market ETF (ITOT) could also be a good strategy, as the stock market is likely to outperform the bond market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor US economic data releases"
+        "viable": "4-8 weeks",
+        "note": "Monitor the Federal Reserve's interest rate decisions and inflation data"
       },
-      "exitStrategy": "Close positions if the US economy shows signs of slowing down or if interest rates rise significantly",
+      "exitStrategy": "Exit if the economy slows down further or if inflation rises significantly",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If US economic data is neutral",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the US economy continues to grow strongly",
-        "stopLoss": "-5% on SPY"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the economy grows at a steady pace",
+        "base": "+10-15%",
+        "baseNote": "If the economy grows at a faster pace than expected",
+        "extended": "+20%+",
+        "extendedNote": "If the economy grows at a significantly faster pace than expected",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "US Treasury bonds"
+        "US Treasury bonds",
+        "Gold"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Iran war"
+        "Federal Reserve interest rate decisions",
+        "Inflation data"
       ]
     },
     {
       "id": 4,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks",
-      "summary": "AI-related stocks are expected to continue growing, with Nvidia and other companies leading the charge.",
+      "summary": "AI stocks are surging, driven by strong earnings and growing demand for AI technology. The sector is expected to continue growing, but valuations are high.",
       "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -170,39 +179,41 @@
           "target": "ARK Innovation ETF (ARKK)"
         }
       ],
-      "reasoning": "AI-related stocks are expected to continue growing, making the Global X Robotics & Artificial Intelligence ETF a good buy. On the other hand, the ARK Innovation ETF may be overvalued and due for a correction.",
+      "reasoning": "AI stocks are surging, driven by strong earnings and growing demand for AI technology. The sector is expected to continue growing, but valuations are high. Buying the Global X Robotics & Artificial Intelligence ETF (BOTZ) could be a good strategy, as the ETF has a diversified portfolio of AI stocks. Shorting the ARK Innovation ETF (ARKK) could also be a good strategy, as the ETF has a high valuation and is heavily weighted towards a few stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor AI-related news and earnings reports"
+        "viable": "2-4 weeks",
+        "note": "Monitor the earnings reports of AI companies"
       },
-      "exitStrategy": "Close positions if AI-related stocks drop significantly or if the ARK Innovation ETF rises",
+      "exitStrategy": "Exit if the sector's valuation becomes too high or if earnings reports are disappointing",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If AI-related news is neutral",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If AI-related stocks continue to grow strongly",
-        "stopLoss": "-3% on BOTZ"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the sector grows at a steady pace",
+        "base": "+10-15%",
+        "baseNote": "If the sector grows at a faster pace than expected",
+        "extended": "+20%+",
+        "extendedNote": "If the sector grows at a significantly faster pace than expected",
+        "stopLoss": "-8% on BOTZ"
       },
       "adjacentMarkets": [
-        "Tech stocks"
+        "Technology stocks",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Federal Reserve interest rate decisions"
       ]
     },
     {
       "id": 5,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
+      "rank": "LOW",
+      "category": "geo",
+      "catLabel": "Geopolitics",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are set to meet to discuss trade relations, with potential implications for global trade and economic growth.",
+      "summary": "The US and China are set to meet to discuss trade relations. The outcome is uncertain, but a positive development could boost markets.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
@@ -211,32 +222,33 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Invesco China Technology ETF (CQQQ)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "SPDR S&P 500 ETF Trust (SPY) to iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "A positive outcome from the US-China trade talks could lead to increased investment in Chinese stocks, making the iShares China Large-Cap ETF a good buy. On the other hand, the Invesco China Technology ETF may be negatively affected by potential tariffs and trade restrictions.",
+      "reasoning": "The US and China are set to meet to discuss trade relations. The outcome is uncertain, but a positive development could boost markets. Buying the iShares China Large-Cap ETF (FXI) could be a good strategy, as the ETF has a diversified portfolio of Chinese stocks. Rotating out of the SPDR S&P 500 ETF Trust (SPY) and into the iShares MSCI Emerging Markets ETF (EEM) could also be a good strategy, as the EEM has a higher weighting of emerging market stocks that could benefit from a positive development in US-China trade relations.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US-China trade news"
+        "note": "Monitor the outcome of the US-China trade talks"
       },
-      "exitStrategy": "Close positions if the US-China trade talks fail or if Chinese stocks drop significantly",
+      "exitStrategy": "Exit if the trade talks fail or if the outcome is negative",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If US-China trade news is neutral",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the US-China trade talks are successful",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the trade talks have a positive outcome",
+        "base": "+5-8%",
+        "baseNote": "If the trade talks have a significantly positive outcome",
+        "extended": "+10%+",
+        "extendedNote": "If the trade talks have a very positive outcome",
         "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "Emerging market stocks",
+        "Commodities"
       ],
       "otherFactors": [
-        "Iran war",
+        "Federal Reserve interest rate decisions",
         "US economic growth"
       ]
     },
@@ -246,57 +258,58 @@
       "category": "fin",
       "catLabel": "Finance",
       "title": "Fed Interest Rates",
-      "summary": "The Federal Reserve is expected to keep interest rates steady, with potential implications for the US economy and financial markets.",
+      "summary": "The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising. The Fed is likely to keep interest rates steady in the near term, but may raise rates if inflation rises significantly.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to keep interest rates steady could lead to increased investment in short-term credit bonds, making the iShares 1-3 Year Credit Bond ETF a good buy. On the other hand, long-term Treasury bonds may be negatively affected by the decision.",
+      "reasoning": "The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising. The Fed is likely to keep interest rates steady in the near term, but may raise rates if inflation rises significantly. Buying the iShares 20+ Year Treasury Bond ETF (TLT) could be a good strategy, as the ETF has a diversified portfolio of long-term Treasury bonds that could benefit from a rise in interest rates. Shorting the iShares 1-3 Year Credit Bond ETF (CSJ) could also be a good strategy, as the ETF has a high weighting of short-term credit bonds that could be negatively affected by a rise in interest rates.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor Federal Reserve news"
+        "viable": "4-8 weeks",
+        "note": "Monitor the Federal Reserve's interest rate decisions and inflation data"
       },
-      "exitStrategy": "Close positions if interest rates rise significantly or if the iShares 1-3 Year Credit Bond ETF drops",
+      "exitStrategy": "Exit if the Fed raises interest rates or if inflation rises significantly",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If Federal Reserve news is neutral",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the Fed keeps interest rates steady",
+        "base": "+5-8%",
+        "baseNote": "If the Fed raises interest rates",
         "extended": "+10%+",
-        "extendedNote": "If the Federal Reserve's decision has a positive impact on the economy",
-        "stopLoss": "-3% on CSJ"
+        "extendedNote": "If the Fed raises interest rates significantly",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US Treasury bonds"
+        "US Treasury bonds",
+        "Gold"
       ],
       "otherFactors": [
         "US economic growth",
-        "Inflation"
+        "Inflation data"
       ]
     },
     {
       "id": 7,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks are expected to continue growing, with Nvidia and other companies leading the charge.",
+      "summary": "Semiconductor stocks are surging, driven by strong demand for AI and 5G technology. The sector is expected to continue growing, but valuations are high.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
+      "freshLabel": "2h ago",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
@@ -307,43 +320,45 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P Semiconductor ETF (XSD)"
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "Semiconductor stocks are expected to continue growing, making the VanEck Vectors Semiconductor ETF a good buy. On the other hand, the SPDR S&P Semiconductor ETF may be overvalued and due for a correction.",
+      "reasoning": "Semiconductor stocks are surging, driven by strong demand for AI and 5G technology. The sector is expected to continue growing, but valuations are high. Buying the VanEck Vectors Semiconductor ETF (SMH) could be a good strategy, as the ETF has a diversified portfolio of semiconductor stocks. Shorting the iShares PHLX Semiconductor ETF (SOXX) could also be a good strategy, as the ETF has a high valuation and is heavily weighted towards a few stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor semiconductor-related news and earnings reports"
+        "note": "Monitor the earnings reports of semiconductor companies"
       },
-      "exitStrategy": "Close positions if semiconductor stocks drop significantly or if the SPDR S&P Semiconductor ETF rises",
+      "exitStrategy": "Exit if the sector's valuation becomes too high or if earnings reports are disappointing",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If semiconductor-related news is neutral",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If semiconductor stocks continue to grow strongly",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the sector grows at a steady pace",
+        "base": "+5-8%",
+        "baseNote": "If the sector grows at a faster pace than expected",
+        "extended": "+10%+",
+        "extendedNote": "If the sector grows at a significantly faster pace than expected",
         "stopLoss": "-5% on SMH"
       },
       "adjacentMarkets": [
-        "Tech stocks"
+        "Technology stocks",
+        "AI stocks"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Federal Reserve interest rate decisions"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "commod",
+      "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The price of gold is expected to remain steady, with potential implications for investors seeking safe-haven assets.",
+      "summary": "The gold price is rising, driven by safe haven demand and inflation uncertainty. The price is expected to continue rising, but the pace of the rise is uncertain.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -356,46 +371,47 @@
           "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "The price of gold is expected to remain steady, making the SPDR Gold Shares ETF a good buy. On the other hand, the iShares Silver Trust may be negatively affected by the steady gold price.",
+      "reasoning": "The gold price is rising, driven by safe haven demand and inflation uncertainty. The price is expected to continue rising, but the pace of the rise is uncertain. Buying the SPDR Gold Shares ETF (GLD) could be a good strategy, as the ETF has a diversified portfolio of gold assets that could benefit from a rise in the gold price. Shorting the iShares Silver Trust (SLV) could also be a good strategy, as the silver price is highly correlated with the gold price and may not rise as much.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor gold price movements"
+        "viable": "4-8 weeks",
+        "note": "Monitor the gold price and inflation data"
       },
-      "exitStrategy": "Close positions if the gold price drops significantly or if the iShares Silver Trust rises",
+      "exitStrategy": "Exit if the gold price rises significantly or if inflation rises",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If gold price movements are neutral",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the gold price rises at a steady pace",
+        "base": "+5-8%",
+        "baseNote": "If the gold price rises at a faster pace than expected",
         "extended": "+10%+",
         "extendedNote": "If the gold price rises significantly",
-        "stopLoss": "-3% on GLD"
+        "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Silver price"
+        "US Treasury bonds",
+        "Safe haven assets"
       ],
       "otherFactors": [
         "US economic growth",
-        "Inflation"
+        "Inflation data"
       ]
     },
     {
       "id": 9,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
+      "rank": "LOW",
+      "category": "ener",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC oil production is expected to remain steady, with potential implications for global oil prices and economic growth.",
+      "summary": "OPEC oil production is expected to rise, driven by growing demand and geopolitical tensions. The price of oil is expected to continue rising, but the pace of the rise is uncertain.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "United States Oil Fund (USO)"
         },
         {
           "label": "SHORT",
@@ -403,41 +419,42 @@
           "target": "iShares Global Energy ETF (IXC)"
         }
       ],
-      "reasoning": "OPEC oil production is expected to remain steady, making the United States Oil Fund LP a good buy. On the other hand, the iShares Global Energy ETF may be negatively affected by the steady oil production.",
+      "reasoning": "OPEC oil production is expected to rise, driven by growing demand and geopolitical tensions. The price of oil is expected to continue rising, but the pace of the rise is uncertain. Buying the United States Oil Fund (USO) could be a good strategy, as the ETF has a diversified portfolio of oil assets that could benefit from a rise in the oil price. Shorting the iShares Global Energy ETF (IXC) could also be a good strategy, as the ETF has a high weighting of energy stocks that may not rise as much.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor OPEC oil production news"
+        "viable": "4-8 weeks",
+        "note": "Monitor the oil price and OPEC production data"
       },
-      "exitStrategy": "Close positions if oil prices drop significantly or if the iShares Global Energy ETF rises",
+      "exitStrategy": "Exit if the oil price rises significantly or if OPEC production rises",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If OPEC oil production news is neutral",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If oil prices rise significantly",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the oil price rises at a steady pace",
+        "base": "+5-8%",
+        "baseNote": "If the oil price rises at a faster pace than expected",
+        "extended": "+10%+",
+        "extendedNote": "If the oil price rises significantly",
         "stopLoss": "-5% on USO"
       },
       "adjacentMarkets": [
-        "Energy stocks"
+        "Energy stocks",
+        "Commodities"
       ],
       "otherFactors": [
-        "US economic growth",
-        "Inflation"
+        "Geopolitical tensions",
+        "US economic growth"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "fin",
-      "catLabel": "Finance",
+      "category": "stock",
+      "catLabel": "Stocks",
       "title": "US Stocks",
-      "summary": "US stocks are expected to continue growing, with potential implications for investors seeking to invest in the US market.",
+      "summary": "US stocks are rising, driven by strong earnings and growing demand for stocks. The market is expected to continue rising, but the pace of the rise is uncertain.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -450,168 +467,173 @@
           "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "US stocks are expected to continue growing, making the Vanguard Total Stock Market ETF a good buy. On the other hand, the iShares Russell 2000 ETF may be overvalued and due for a correction.",
+      "reasoning": "US stocks are rising, driven by strong earnings and growing demand for stocks. The market is expected to continue rising, but the pace of the rise is uncertain. Buying the Vanguard Total Stock Market ETF (VTI) could be a good strategy, as the ETF has a diversified portfolio of US stocks that could benefit from a rise in the market. Shorting the iShares Russell 2000 ETF (IWM) could also be a good strategy, as the ETF has a high weighting of small-cap stocks that may not rise as much.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor US stock market news"
+        "viable": "4-8 weeks",
+        "note": "Monitor the stock market and earnings reports"
       },
-      "exitStrategy": "Close positions if US stocks drop significantly or if the iShares Russell 2000 ETF rises",
+      "exitStrategy": "Exit if the stock market rises significantly or if earnings reports are disappointing",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If US stock market news is neutral",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the stock market rises at a steady pace",
+        "base": "+5-8%",
+        "baseNote": "If the stock market rises at a faster pace than expected",
         "extended": "+10%+",
-        "extendedNote": "If US stocks continue to grow strongly",
-        "stopLoss": "-3% on VTI"
+        "extendedNote": "If the stock market rises significantly",
+        "stopLoss": "-5% on VTI"
       },
       "adjacentMarkets": [
-        "International stocks"
+        "US Treasury bonds",
+        "Commodities"
       ],
       "otherFactors": [
         "US economic growth",
-        "Inflation"
+        "Federal Reserve interest rate decisions"
       ]
     },
     {
       "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks are expected to continue growing, with Nvidia and other companies leading the charge.",
+      "rank": "LOW",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Iran War",
+      "summary": "The Iran war is escalating, with both sides suffering losses. The situation is highly volatile, and a further escalation could have significant implications for global markets.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "freshLabel": "1h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco Dynamic Semiconductors ETF (PSI)"
+          "target": "Invesco DB Oil Fund (DBO)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "First Trust Indxx Innovative Transaction & Process ETF (LEGR)"
+          "target": "iShares MSCI Iran ETF (IRAN)"
         }
       ],
-      "reasoning": "Semiconductor stocks are expected to continue growing, making the Invesco Dynamic Semiconductors ETF a good buy. On the other hand, the First Trust Indxx Innovative Transaction & Process ETF may be overvalued and due for a correction.",
+      "reasoning": "The Iran war is escalating, with both sides suffering losses. The situation is highly volatile, and a further escalation could have significant implications for global markets. Buying the Invesco DB Oil Fund (DBO) could be a good strategy, as the ETF has a diversified portfolio of oil assets that could benefit from a rise in the oil price. Shorting the iShares MSCI Iran ETF (IRAN) could also be a good strategy, as the ETF has a high weighting of Iranian stocks that may suffer due to the war.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor semiconductor-related news and earnings reports"
+        "viable": "4-8 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the conflict escalates further"
       },
-      "exitStrategy": "Close positions if semiconductor stocks drop significantly or if the First Trust Indxx Innovative Transaction & Process ETF rises",
+      "exitStrategy": "Exit if the conflict de-escalates or if the oil price drops significantly",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If semiconductor-related news is neutral",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If semiconductor stocks continue to grow strongly",
-        "stopLoss": "-5% on PSI"
+        "conservative": "+3-5%",
+        "conservativeNote": "If the conflict stabilizes",
+        "base": "+5-8%",
+        "baseNote": "If the conflict escalates further",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict spreads to other regions",
+        "stopLoss": "-5% on DBO"
       },
       "adjacentMarkets": [
-        "Tech stocks"
+        "Gold (safe haven bid)",
+        "US Treasury bonds (safe haven bid)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Federal Reserve interest rate decisions"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
-      "category": "fin",
-      "catLabel": "Finance",
-      "title": "Gold Price",
-      "summary": "The price of gold is expected to remain steady, with potential implications for investors seeking safe-haven assets.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia's AI Chip Dominance Challenged",
+      "summary": "Nvidia's dominance in the AI chip market is being challenged by new competitors. The company's recent investment in Corning and its partnership with SK Group are positive developments, but the stock's valuation is still high.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "2h ago",
       "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Aberdeen Standard Physical Gold Shares ETF (SGOL)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Invesco DB Gold Fund (DGL)"
-        }
-      ],
-      "reasoning": "The price of gold is expected to remain steady, making the Aberdeen Standard Physical Gold Shares ETF a good buy. On the other hand, the Invesco DB Gold Fund may be negatively affected by the steady gold price.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor gold price movements"
-      },
-      "exitStrategy": "Close positions if the gold price drops significantly or if the Invesco DB Gold Fund rises",
-      "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If gold price movements are neutral",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the gold price rises significantly",
-        "stopLoss": "-3% on SGOL"
-      },
-      "adjacentMarkets": [
-        "Silver price"
-      ],
-      "otherFactors": [
-        "US economic growth",
-        "Inflation"
-      ]
-    },
-    {
-      "id": 13,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Economic Growth",
-      "summary": "The US economy is expected to continue growing, with potential implications for investors seeking to invest in the US market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "NVIDIA Corporation (NVDA)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Vanguard Extended Market ETF (VXF)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The US economy is expected to continue growing, making the iShares Core S&P Total U.S. Stock Market ETF a good buy. On the other hand, the Vanguard Extended Market ETF may be overvalued and due for a correction.",
+      "reasoning": "Nvidia's dominance in the AI chip market is being challenged by new competitors. The company's recent developments are positive, but the stock's valuation is still high. Buying Nvidia and shorting AMD could be a good strategy, as AMD is a competitor to Nvidia in the AI chip market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US economic data releases"
+        "note": "Monitor the company's earnings report and guidance"
       },
-      "exitStrategy": "Close positions if the US economy shows signs of slowing down or if the Vanguard Extended Market ETF rises",
+      "exitStrategy": "Exit if the company's earnings report is disappointing or if the stock's valuation becomes too high",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If US economic data is neutral",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the US economy continues to grow strongly",
-        "stopLoss": "-5% on ITOT"
+        "conservative": "+3-5%",
+        "conservativeNote": "If the company's earnings report is in line with expectations",
+        "base": "+5-8%",
+        "baseNote": "If the company's earnings report is better than expected",
+        "extended": "+10%+",
+        "extendedNote": "If the company's earnings report is significantly better than expected",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "International stocks"
+        "Semiconductor stocks",
+        "Technology stocks"
       ],
       "otherFactors": [
         "US-China trade relations",
-        "Inflation"
+        "Federal Reserve interest rate decisions"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Economic Growth Slows",
+      "summary": "The US economy is growing, but at a slower pace than expected. The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG) to iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+        }
+      ],
+      "reasoning": "The US economy is growing, but at a slower pace than expected. The Federal Reserve has kept interest rates steady, but inflation uncertainty is rising. Buying the SPDR S&P 500 ETF Trust (SPY) could be a good strategy, as the stock market is likely to continue growing. Rotating out of the iShares Core U.S. Aggregate Bond ETF (AGG) and into the iShares Core S&P Total U.S. Stock Market ETF (ITOT) could also be a good strategy, as the stock market is likely to outperform the bond market.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the Federal Reserve's interest rate decisions and inflation data"
+      },
+      "exitStrategy": "Exit if the economy slows down further or if inflation rises significantly",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If the economy grows at a steady pace",
+        "base": "+5-8%",
+        "baseNote": "If the economy grows at a faster pace than expected",
+        "extended": "+10%+",
+        "extendedNote": "If the economy grows at a significantly faster pace than expected",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds",
+        "Gold"
+      ],
+      "otherFactors": [
+        "Federal Reserve interest rate decisions",
+        "Inflation data"
       ]
     }
   ]
