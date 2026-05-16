@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T16:04:03Z",
+  "lastUpdated": "2026-05-16T19:11:43Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,44 +13,45 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war has escalated, with the US and Iran engaging in military conflicts. The situation is volatile, and the outcome is uncertain. The conflict has significant implications for global oil prices and the stock market.",
+      "summary": "The conflict between the US and Iran is escalating, with potential for further military action. This could lead to increased volatility in the oil market and beyond. The situation is being closely watched by investors and policymakers.",
       "fresh": true,
       "freshLabel": "just now",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "BUY",
+          "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Invesco DB Oil Fund (DBO)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The escalation of the Iran war has increased the risk of a global economic downturn, which could negatively impact the stock market. However, the conflict has also led to an increase in oil prices, making oil-related investments more attractive.",
+      "reasoning": "The escalation of the Iran war could lead to a flight to safety, causing bond yields to fall and Treasury bond prices to rise. However, if the conflict spreads and oil prices surge, it could lead to a recession, causing the stock market to decline.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor oil prices and military action"
       },
-      "exitStrategy": "Close the position if the conflict is resolved or if the oil prices stabilize",
+      "exitStrategy": "Exit if oil prices fall below $50/bbl or if a ceasefire is announced",
       "gains": {
-        "conservative": "+5-8%",
+        "conservative": "+5\u20138%",
         "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
+        "extendedNote": "If the conflict spreads and oil prices surge",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
+        "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "OPEC oil production"
+        "OPEC production cuts"
       ]
     },
     {
@@ -59,44 +60,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Interest Rate Hike",
-      "summary": "The Federal Reserve is considering an interest rate hike, which could impact the stock market and the economy. The decision is expected to be made soon, and the outcome is uncertain.",
+      "summary": "The Federal Reserve is considering raising interest rates to combat inflation. This could lead to a stronger US dollar and higher borrowing costs.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Short-Term Bond ETF (BSV)"
+          "target": "Invesco PowerShares US Dollar Index ETF (UUP)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "An interest rate hike could lead to a decrease in bond prices, making short-term bonds more attractive. However, the impact on the stock market is uncertain and depends on various factors, including the state of the economy.",
+      "reasoning": "A rate hike could lead to a stronger US dollar, causing the dollar index to rise. However, it could also lead to higher borrowing costs, causing bond prices to fall.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the Fed's decision and adjust the position as needed"
+        "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Close the position if the interest rate hike is announced or if the bond prices stabilize",
+      "exitStrategy": "Exit if the Fed pauses rate hikes or if inflation falls below 2%",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the interest rate hike is small",
-        "base": "+6-10%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the rate hike is modest",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the interest rate hike is large",
-        "stopLoss": "-4% on BSV"
+        "extendedNote": "If the rate hike is aggressive",
+        "stopLoss": "-5% on UUP"
       },
       "adjacentMarkets": [
-        "Stock market"
+        "Euro (EUR/USD)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation data"
       ]
     },
     {
@@ -105,11 +106,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks Retreat",
-      "summary": "AI stocks have retreated due to concerns about the US-China trade war and the impact of AI on the job market. The situation is uncertain, and the outcome is dependent on various factors, including government policies and technological advancements.",
+      "summary": "AI stocks have been under pressure due to regulatory concerns and competition. However, some companies are still innovating and growing.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -122,27 +123,27 @@
           "target": "Alphabet Inc. (GOOGL)"
         }
       ],
-      "reasoning": "The retreat of AI stocks presents a buying opportunity for investors who believe in the long-term potential of AI. However, the situation is uncertain, and the outcome depends on various factors, including government policies and technological advancements.",
+      "reasoning": "NVIDIA is a leader in AI hardware and software, and its stock has been under pressure due to regulatory concerns. However, the company is still innovating and growing, and its stock could rebound.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor regulatory developments and earnings reports"
       },
-      "exitStrategy": "Close the position if the AI stocks recover or if the trade war is resolved",
+      "exitStrategy": "Exit if regulatory concerns escalate or if earnings disappoint",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trade war is contained",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If regulatory concerns ease",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the AI stocks recover strongly",
-        "stopLoss": "-8% on NVDA"
+        "extendedNote": "If the company innovates and grows",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Semiconductor stocks"
+        "Semiconductors"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Regulatory developments"
       ]
     },
     {
@@ -151,44 +152,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is growing, but the pace of growth is slowing down. The situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "summary": "The US economy is growing, but at a slower pace. This could lead to a decline in interest rates and a weaker US dollar.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Core S&P Total US Stock Market ETF (ITOT)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco PowerShares US Dollar Index ETF (UUP)"
         }
       ],
-      "reasoning": "The slowing down of the US economy presents a buying opportunity for investors who believe in the long-term potential of the US stock market. However, the situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "reasoning": "The US economy is growing, but at a slower pace. This could lead to a decline in interest rates and a weaker US dollar, causing the stock market to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor economic data and interest rates"
       },
-      "exitStrategy": "Close the position if the economy recovers or if the stock market declines",
+      "exitStrategy": "Exit if the economy accelerates or if interest rates rise",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the economy grows slowly",
-        "base": "+6-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the economy grows at a slow pace",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows strongly",
-        "stopLoss": "-4% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If the economy accelerates",
+        "stopLoss": "-5% on ITOT"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Bonds"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Interest rates"
       ]
     },
     {
@@ -197,44 +198,44 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks have been impacted by the US-China trade war and the global economic slowdown. The situation is uncertain, and the outcome depends on various factors, including government policies and technological advancements.",
+      "summary": "Semiconductor stocks have been under pressure due to trade tensions and competition. However, some companies are still innovating and growing.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Micron Technology, Inc. (MU)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Micron Technology, Inc. (MU)"
+          "target": "Texas Instruments Incorporated (TXN)"
         }
       ],
-      "reasoning": "The impact of the US-China trade war and the global economic slowdown on semiconductor stocks presents a buying opportunity for investors who believe in the long-term potential of the semiconductor industry. However, the situation is uncertain, and the outcome depends on various factors, including government policies and technological advancements.",
+      "reasoning": "Micron Technology is a leader in semiconductor manufacturing, and its stock has been under pressure due to trade tensions. However, the company is still innovating and growing, and its stock could rebound.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor trade developments and earnings reports"
       },
-      "exitStrategy": "Close the position if the semiconductor stocks recover or if the trade war is resolved",
+      "exitStrategy": "Exit if trade tensions escalate or if earnings disappoint",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trade war is contained",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If trade tensions ease",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the semiconductor stocks recover strongly",
-        "stopLoss": "-8% on SMH"
+        "extendedNote": "If the company innovates and grows",
+        "stopLoss": "-10% on MU"
       },
       "adjacentMarkets": [
-        "AI stocks"
+        "AI"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Trade tensions"
       ]
     },
     {
@@ -243,44 +244,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC has announced a reduction in oil production, which could impact the global oil market. The situation is uncertain, and the outcome depends on various factors, including global demand and non-OPEC production.",
+      "summary": "OPEC is considering cutting oil production to support prices. This could lead to higher oil prices and a stronger US dollar.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB Oil Fund (DBO)"
+          "target": "United States Oil Fund, LP (USO)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "United States Oil Fund (USO)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB Oil Fund (DBO)"
         }
       ],
-      "reasoning": "The reduction in OPEC oil production presents a buying opportunity for investors who believe in the long-term potential of the oil market. However, the situation is uncertain, and the outcome depends on various factors, including global demand and non-OPEC production.",
+      "reasoning": "OPEC is considering cutting oil production to support prices. This could lead to higher oil prices and a stronger US dollar, causing the oil fund to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor OPEC meetings and oil prices"
       },
-      "exitStrategy": "Close the position if the oil market stabilizes or if the OPEC production cut is reversed",
+      "exitStrategy": "Exit if OPEC fails to cut production or if oil prices fall",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the oil market is stable",
-        "base": "+6-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If OPEC cuts production modestly",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the oil market rallies",
-        "stopLoss": "-4% on DBO"
+        "extended": "+10%+",
+        "extendedNote": "If OPEC cuts production aggressively",
+        "stopLoss": "-5% on USO"
       },
       "adjacentMarkets": [
-        "Natural gas market"
+        "Natural Gas"
       ],
       "otherFactors": [
-        "Global demand"
+        "OPEC meetings"
       ]
     },
     {
@@ -289,11 +290,11 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade war has been ongoing, with both countries imposing tariffs on each other's goods. The situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "summary": "The US and China are negotiating a trade deal, but progress is slow. This could lead to higher tariffs and a weaker US dollar.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -303,76 +304,76 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Invesco PowerShares US Dollar Index ETF (UUP)"
         }
       ],
-      "reasoning": "The US-China trade war presents a buying opportunity for investors who believe in the long-term potential of the Chinese economy. However, the situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "reasoning": "The US and China are negotiating a trade deal, but progress is slow. This could lead to higher tariffs and a weaker US dollar, causing the Chinese stock market to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor trade talks and tariffs"
       },
-      "exitStrategy": "Close the position if the trade war is resolved or if the Chinese economy recovers",
+      "exitStrategy": "Exit if a trade deal is reached or if tariffs are imposed",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trade war is contained",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If a trade deal is reached",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the Chinese economy recovers strongly",
-        "stopLoss": "-8% on FXI"
+        "extendedNote": "If tariffs are imposed",
+        "stopLoss": "-10% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "Emerging Markets"
       ],
       "otherFactors": [
-        "Global economic trends"
+        "Trade talks"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "commod",
+      "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price has been impacted by the US-China trade war and the global economic slowdown. The situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "summary": "The gold price is rising due to safe-haven demand. This could lead to higher gold prices and a weaker US dollar.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Gold Trust (IAU)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco PowerShares US Dollar Index ETF (UUP)"
         }
       ],
-      "reasoning": "The impact of the US-China trade war and the global economic slowdown on the gold price presents a buying opportunity for investors who believe in the long-term potential of gold. However, the situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "reasoning": "The gold price is rising due to safe-haven demand. This could lead to higher gold prices and a weaker US dollar, causing the gold ETF to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor gold prices and safe-haven demand"
       },
-      "exitStrategy": "Close the position if the gold price stabilizes or if the trade war is resolved",
+      "exitStrategy": "Exit if gold prices fall or if safe-haven demand declines",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the gold price is stable",
-        "base": "+6-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If gold prices rise modestly",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the gold price rallies",
-        "stopLoss": "-4% on GLD"
+        "extended": "+10%+",
+        "extendedNote": "If gold prices surge",
+        "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Silver market"
+        "Silver"
       ],
       "otherFactors": [
-        "Global economic trends"
+        "Safe-haven demand"
       ]
     },
     {
@@ -381,11 +382,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "AI semiconductor stocks have been impacted by the US-China trade war and the global economic slowdown. The situation is uncertain, and the outcome depends on various factors, including government policies and technological advancements.",
+      "summary": "AI semiconductor stocks are rising due to growing demand. This could lead to higher stock prices and a stronger US dollar.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -398,27 +399,27 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The impact of the US-China trade war and the global economic slowdown on AI semiconductor stocks presents a buying opportunity for investors who believe in the long-term potential of the AI semiconductor industry. However, the situation is uncertain, and the outcome depends on various factors, including government policies and technological advancements.",
+      "reasoning": "AI semiconductor stocks are rising due to growing demand. This could lead to higher stock prices and a stronger US dollar, causing the AI semiconductor ETF to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor AI demand and semiconductor sales"
       },
-      "exitStrategy": "Close the position if the AI semiconductor stocks recover or if the trade war is resolved",
+      "exitStrategy": "Exit if AI demand declines or if semiconductor sales disappoint",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trade war is contained",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If AI demand grows modestly",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the AI semiconductor stocks recover strongly",
-        "stopLoss": "-8% on NVDA"
+        "extendedNote": "If AI demand surges",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Semiconductor stocks"
+        "Cloud Computing"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "AI demand"
       ]
     },
     {
@@ -427,44 +428,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Stocks",
-      "summary": "The US stock market has been impacted by the US-China trade war and the global economic slowdown. The situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "summary": "The US stock market is rising due to economic growth. This could lead to higher stock prices and a stronger US dollar.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco PowerShares US Dollar Index ETF (UUP)"
         }
       ],
-      "reasoning": "The impact of the US-China trade war and the global economic slowdown on the US stock market presents a buying opportunity for investors who believe in the long-term potential of the US economy. However, the situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "reasoning": "The US stock market is rising due to economic growth. This could lead to higher stock prices and a stronger US dollar, causing the US stock ETF to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor economic data and earnings reports"
       },
-      "exitStrategy": "Close the position if the US stock market stabilizes or if the trade war is resolved",
+      "exitStrategy": "Exit if economic growth slows or if earnings disappoint",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the US stock market is stable",
-        "base": "+6-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If economic growth is modest",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the US stock market rallies",
-        "stopLoss": "-4% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If economic growth accelerates",
+        "stopLoss": "-5% on VTI"
       },
       "adjacentMarkets": [
-        "International stocks"
+        "Bonds"
       ],
       "otherFactors": [
-        "Global economic trends"
+        "Economic data"
       ]
     },
     {
@@ -472,137 +473,137 @@
       "rank": "MED",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "Iran War",
-      "summary": "The Iran war has escalated, with the US and Iran engaging in military conflicts. The situation is volatile, and the outcome is uncertain.",
+      "title": "China Military Coercion",
+      "summary": "China is increasing its military coercion in the region, which could lead to higher tensions and a weaker US dollar.",
       "fresh": true,
-      "freshLabel": "just now",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Invesco DB Oil Fund (DBO)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "iShares MSCI China ETF (MCHI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco PowerShares US Dollar Index ETF (UUP)"
         }
       ],
-      "reasoning": "The escalation of the Iran war has increased the risk of a global economic downturn, which could negatively impact the oil market. However, the conflict has also led to an increase in gold prices, making gold-related investments more attractive.",
+      "reasoning": "China is increasing its military coercion in the region, which could lead to higher tensions and a weaker US dollar, causing the Chinese stock market to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor military developments and diplomatic efforts"
       },
-      "exitStrategy": "Close the position if the conflict is resolved or if the oil market stabilizes",
+      "exitStrategy": "Exit if military tensions ease or if diplomatic efforts succeed",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If military tensions ease",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on DBO"
+        "extendedNote": "If military tensions escalate",
+        "stopLoss": "-10% on MCHI"
       },
       "adjacentMarkets": [
-        "Stock market"
+        "Emerging Markets"
       ],
       "otherFactors": [
-        "OPEC oil production"
+        "Military developments"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Policy",
-      "summary": "The Federal Reserve has announced a new policy, which could impact the US economy. The situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "category": "commod",
+      "catLabel": "Commodities",
+      "title": "Oil Price",
+      "summary": "The oil price is rising due to supply and demand imbalances. This could lead to higher oil prices and a stronger US dollar.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Short-Term Bond ETF (BSV)"
+          "target": "United States Oil Fund, LP (USO)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB Oil Fund (DBO)"
         }
       ],
-      "reasoning": "The new Federal Reserve policy presents a buying opportunity for investors who believe in the long-term potential of the US bond market. However, the situation is uncertain, and the outcome depends on various factors, including government policies and global economic trends.",
+      "reasoning": "The oil price is rising due to supply and demand imbalances. This could lead to higher oil prices and a stronger US dollar, causing the oil ETF to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor oil prices and supply and demand imbalances"
       },
-      "exitStrategy": "Close the position if the bond market stabilizes or if the policy is reversed",
+      "exitStrategy": "Exit if oil prices fall or if supply and demand imbalances ease",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the bond market is stable",
-        "base": "+6-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If oil prices rise modestly",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the bond market rallies",
-        "stopLoss": "-4% on BSV"
+        "extended": "+10%+",
+        "extendedNote": "If oil prices surge",
+        "stopLoss": "-5% on USO"
       },
       "adjacentMarkets": [
-        "Stock market"
+        "Natural Gas"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Supply and demand imbalances"
       ]
     },
     {
       "id": 13,
       "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "US-China Tech Rivalry",
-      "summary": "The US-China tech rivalry has been escalating, with both countries competing for dominance in the tech industry. The situation is uncertain, and the outcome depends on various factors, including government policies and technological advancements.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Economic Growth Rate",
+      "summary": "The US economic growth rate is slowing down, which could lead to lower interest rates and a weaker US dollar.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Alphabet Inc. (GOOGL)"
+          "target": "Invesco PowerShares US Dollar Index ETF (UUP)"
         }
       ],
-      "reasoning": "The US-China tech rivalry presents a buying opportunity for investors who believe in the long-term potential of the tech industry. However, the situation is uncertain, and the outcome depends on various factors, including government policies and technological advancements.",
+      "reasoning": "The US economic growth rate is slowing down, which could lead to lower interest rates and a weaker US dollar, causing the bond ETF to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor economic data and interest rates"
       },
-      "exitStrategy": "Close the position if the tech rivalry is resolved or if the industry recovers",
+      "exitStrategy": "Exit if economic growth accelerates or if interest rates rise",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the tech rivalry is contained",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If economic growth slows down modestly",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the tech industry recovers strongly",
-        "stopLoss": "-8% on SMH"
+        "extendedNote": "If economic growth slows down significantly",
+        "stopLoss": "-10% on AGG"
       },
       "adjacentMarkets": [
-        "AI stocks"
+        "Stocks"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Economic data"
       ]
     }
   ]
