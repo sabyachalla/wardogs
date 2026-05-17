@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T09:07:21Z",
+  "lastUpdated": "2026-05-17T16:04:36Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,9 +13,9 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war is escalating, with the US showing military strength but also facing waning geopolitical power. The conflict is affecting global markets, particularly oil prices.",
+      "summary": "The Iran war shows military strength of the US, but also its waning geopolitical power. The conflict has led to a rise in oil prices and increased tensions in the region. The US has imposed sanctions on Iran, which has affected the country's economy.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "2h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
@@ -30,28 +30,28 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Iran war is causing uncertainty in global markets, leading to a potential increase in oil prices and a decrease in emerging market stocks. The US stock market may benefit from safe-haven flows.",
+      "reasoning": "The Iran war has led to increased volatility in the market, and the US stock market is expected to be affected. The SPDR S&P 500 ETF Trust (SPY) is a good buy as it provides exposure to the US stock market, while the iShares MSCI Emerging Markets ETF (EEM) is a good short as emerging markets are expected to be negatively affected by the conflict.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and emerging market stocks"
+        "note": "Monitor oil prices and US-Iran relations"
       },
-      "exitStrategy": "Exit when oil prices stabilize or emerging market stocks rebound",
+      "exitStrategy": "Exit when oil prices stabilize or US-Iran relations improve",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If oil prices stabilize",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
+        "extendedNote": "If the conflict escalates",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Oil prices",
+        "US-Iran relations"
       ]
     },
     {
@@ -60,44 +60,45 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Interest Rate Hike",
-      "summary": "The Federal Reserve is considering an interest rate hike, which could affect the US economy and stock market.",
+      "summary": "Traders now see the next Fed interest rate move as a hike following an inflation surge. The Federal Reserve is expected to raise interest rates to combat inflation.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Short-Term Bond ETF (BSV)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "An interest rate hike could lead to a decrease in long-term bond prices and an increase in short-term bond prices.",
+      "reasoning": "The Fed interest rate hike is expected to lead to a rise in bond yields, making the iShares 20+ Year Treasury Bond ETF (TLT) a good buy. The SPDR S&P 500 ETF Trust (SPY) is a good short as higher interest rates are expected to negatively affect the stock market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor interest rate decisions"
+        "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Exit when interest rates stabilize",
+      "exitStrategy": "Exit when the Fed pauses or cuts interest rates",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If interest rates stabilize",
+        "conservativeNote": "If the rate hike is modest",
         "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If interest rates rise further",
-        "stopLoss": "-5% on BSV"
+        "extendedNote": "If the rate hike is aggressive",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US Dollar (USD)"
+        "US Dollar (strengthens with higher rates)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation data",
+        "Fed statements"
       ]
     },
     {
@@ -106,11 +107,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks Retreat",
-      "summary": "AI stocks are retreating due to the US-China tech rivalry and delays in Nvidia AI chip exports.",
+      "summary": "Tech and AI stocks have retreated after the US-China summit ended without major tech deals. The lack of progress on tech issues has led to a decline in AI stocks.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -123,27 +124,28 @@
           "target": "Alphabet Inc. (GOOGL)"
         }
       ],
-      "reasoning": "The US-China tech rivalry is causing uncertainty in AI stocks, but Nvidia's strong fundamentals could lead to a rebound.",
+      "reasoning": "The decline in AI stocks presents a buying opportunity for NVIDIA Corporation (NVDA), a leader in AI technology. Alphabet Inc. (GOOGL) is a good short as the company's AI initiatives may be negatively affected by the lack of progress on tech issues.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor US-China trade relations"
+        "viable": "2-4 weeks",
+        "note": "Monitor US-China relations and tech news"
       },
-      "exitStrategy": "Exit when US-China trade relations improve",
+      "exitStrategy": "Exit when US-China relations improve or AI stocks rebound",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If US-China trade relations improve",
-        "base": "+12\u201318%",
+        "conservativeNote": "If the decline is modest",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If Nvidia's fundamentals improve further",
+        "extended": "+20%+",
+        "extendedNote": "If the decline is significant",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Semiconductor stocks"
+        "Semiconductor stocks (related to AI)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China relations",
+        "Tech news"
       ]
     },
     {
@@ -152,44 +154,45 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is growing, with a potential increase in interest rates and a decrease in unemployment.",
+      "summary": "The US economy is expected to continue growing, driven by consumer spending and business investment. The economy is expected to expand at a moderate pace.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 6-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares Barclays 1-3 Year Treasury Bond ETF (SHY)"
         }
       ],
-      "reasoning": "The US economy is growing, with a potential increase in interest rates and a decrease in unemployment, leading to a potential increase in US stocks.",
+      "reasoning": "The US economy is expected to continue growing, making the Vanguard Total Stock Market ETF (VTI) a good buy. The iShares Barclays 1-3 Year Treasury Bond ETF (SHY) is a good short as the economy's growth is expected to lead to higher interest rates.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor interest rate decisions"
+        "viable": "6-12 weeks",
+        "note": "Monitor economic data and interest rates"
       },
-      "exitStrategy": "Exit when interest rates stabilize",
+      "exitStrategy": "Exit when the economy shows signs of slowing or interest rates rise",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If interest rates stabilize",
-        "base": "+8\u201312%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the growth is modest",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy continues to grow",
-        "stopLoss": "-5% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If the growth is strong",
+        "stopLoss": "-5% on VTI"
       },
       "adjacentMarkets": [
-        "US Dollar (USD)"
+        "US Dollar (strengthens with economic growth)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Economic data",
+        "Interest rates"
       ]
     },
     {
@@ -198,11 +201,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Stocks",
-      "summary": "Semiconductor stocks are affected by the US-China tech rivalry and delays in Nvidia AI chip exports.",
+      "summary": "Semiconductor stocks have been affected by the US-China trade tensions and the decline in AI stocks. The sector is expected to be volatile.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -212,76 +215,78 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "target": "Micron Technology, Inc. (MU)"
         }
       ],
-      "reasoning": "The US-China tech rivalry is causing uncertainty in semiconductor stocks, but the sector's strong fundamentals could lead to a rebound.",
+      "reasoning": "The decline in semiconductor stocks presents a buying opportunity for the VanEck Vectors Semiconductor ETF (SMH), which provides exposure to the sector. Micron Technology, Inc. (MU) is a good short as the company's stock has been volatile and may be negatively affected by the decline in AI stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor US-China trade relations"
+        "viable": "2-4 weeks",
+        "note": "Monitor US-China relations and tech news"
       },
-      "exitStrategy": "Exit when US-China trade relations improve",
+      "exitStrategy": "Exit when US-China relations improve or semiconductor stocks rebound",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If US-China trade relations improve",
-        "base": "+12\u201318%",
+        "conservativeNote": "If the decline is modest",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the sector's fundamentals improve further",
+        "extended": "+20%+",
+        "extendedNote": "If the decline is significant",
         "stopLoss": "-10% on SMH"
       },
       "adjacentMarkets": [
-        "AI stocks"
+        "AI stocks (related to semiconductor stocks)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China relations",
+        "Tech news"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "energy",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC oil production is affecting global oil prices, with a potential increase in production leading to a decrease in prices.",
+      "summary": "OPEC has agreed to increase oil production to stabilize the market. The increase in production is expected to lead to a decline in oil prices.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 6-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "United States Oil Fund, LP (USO)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Global Energy ETF (IXC)"
+          "target": "Energy Select Sector SPDR Fund (XLE)"
         }
       ],
-      "reasoning": "An increase in OPEC oil production could lead to a decrease in oil prices, affecting energy stocks.",
+      "reasoning": "The increase in OPEC oil production is expected to lead to a decline in oil prices, making the United States Oil Fund, LP (USO) a good buy. The Energy Select Sector SPDR Fund (XLE) is a good short as the decline in oil prices is expected to negatively affect energy stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor OPEC production decisions"
+        "viable": "6-12 weeks",
+        "note": "Monitor oil prices and OPEC production"
       },
-      "exitStrategy": "Exit when oil prices stabilize",
+      "exitStrategy": "Exit when oil prices stabilize or OPEC production decreases",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+8\u201312%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the decline is modest",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If oil prices decrease further",
+        "extended": "+10%+",
+        "extendedNote": "If the decline is significant",
         "stopLoss": "-5% on USO"
       },
       "adjacentMarkets": [
-        "Energy stocks"
+        "US Dollar (weakens with lower oil prices)"
       ],
       "otherFactors": [
-        "Global demand"
+        "Oil prices",
+        "OPEC production"
       ]
     },
     {
@@ -290,11 +295,11 @@
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "US-China trade relations are improving, with a potential increase in trade and a decrease in tariffs.",
+      "summary": "The US and China have agreed to establish trade and investment councils after the Trump-Xi summit. The move is expected to improve trade relations between the two countries.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -304,43 +309,44 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "Improving US-China trade relations could lead to an increase in Chinese stocks and a decrease in emerging market stocks.",
+      "reasoning": "The improvement in US-China trade relations is expected to lead to a rise in Chinese stocks, making the iShares China Large-Cap ETF (FXI) a good buy. The Invesco DB US Dollar Index Bullish Fund (UUP) is a good short as the US dollar is expected to weaken with improved trade relations.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor US-China trade relations"
+        "viable": "2-4 weeks",
+        "note": "Monitor US-China relations and trade news"
       },
-      "exitStrategy": "Exit when US-China trade relations deteriorate",
+      "exitStrategy": "Exit when US-China relations deteriorate or trade tensions rise",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If US-China trade relations improve",
-        "base": "+12\u201318%",
+        "conservativeNote": "If the improvement is modest",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If trade relations continue to improve",
+        "extended": "+20%+",
+        "extendedNote": "If the improvement is significant",
         "stopLoss": "-10% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging market stocks"
+        "US stocks (related to trade relations)"
       ],
       "otherFactors": [
-        "Tariffs"
+        "US-China relations",
+        "Trade news"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "commod",
+      "category": "commodities",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price is affected by global economic uncertainty, with a potential increase in price due to safe-haven demand.",
+      "summary": "The gold price has been affected by the US-China trade tensions and the decline in AI stocks. The price is expected to be volatile.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 6-12 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -353,27 +359,28 @@
           "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "Global economic uncertainty could lead to an increase in gold prices due to safe-haven demand.",
+      "reasoning": "The decline in gold price presents a buying opportunity for the SPDR Gold Shares ETF (GLD), which provides exposure to gold. The iShares Silver Trust (SLV) is a good short as the price of silver is expected to be negatively affected by the decline in gold price.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor economic uncertainty"
+        "viable": "6-12 weeks",
+        "note": "Monitor gold price and US-China relations"
       },
-      "exitStrategy": "Exit when economic uncertainty decreases",
+      "exitStrategy": "Exit when gold price stabilizes or US-China relations improve",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If economic uncertainty decreases",
-        "base": "+8\u201312%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the decline is modest",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If economic uncertainty increases",
+        "extended": "+10%+",
+        "extendedNote": "If the decline is significant",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Silver"
+        "US Dollar (weakens with higher gold price)"
       ],
       "otherFactors": [
-        "US Dollar (USD)"
+        "Gold price",
+        "US-China relations"
       ]
     },
     {
@@ -382,57 +389,105 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "AI semiconductor stocks are affected by the US-China tech rivalry and delays in Nvidia AI chip exports.",
+      "summary": "AI semiconductor stocks have been affected by the US-China trade tensions and the decline in AI stocks. The sector is expected to be volatile.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices Inc. (AMD)"
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "The US-China tech rivalry is causing uncertainty in AI semiconductor stocks, but Nvidia's strong fundamentals could lead to a rebound.",
+      "reasoning": "The decline in AI semiconductor stocks presents a buying opportunity for the VanEck Vectors Semiconductor ETF (SMH), which provides exposure to the sector. NVIDIA Corporation (NVDA) is a good short as the company's stock has been volatile and may be negatively affected by the decline in AI stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor US-China trade relations"
+        "viable": "2-4 weeks",
+        "note": "Monitor US-China relations and tech news"
       },
-      "exitStrategy": "Exit when US-China trade relations improve",
+      "exitStrategy": "Exit when US-China relations improve or AI semiconductor stocks rebound",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If US-China trade relations improve",
-        "base": "+12\u201318%",
+        "conservativeNote": "If the decline is modest",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If Nvidia's fundamentals improve further",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If the decline is significant",
+        "stopLoss": "-10% on SMH"
       },
       "adjacentMarkets": [
-        "Semiconductor stocks"
+        "AI stocks (related to AI semiconductor stocks)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China relations",
+        "Tech news"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "stock",
+      "category": "stocks",
       "catLabel": "Stocks",
       "title": "US Stocks",
-      "summary": "US stocks are affected by global economic uncertainty, with a potential increase in price due to safe-haven demand.",
+      "summary": "The US stock market is expected to continue growing, driven by consumer spending and business investment. The market is expected to expand at a moderate pace.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 6-12 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
+        }
+      ],
+      "reasoning": "The US stock market is expected to continue growing, making the Vanguard Total Stock Market ETF (VTI) a good buy. The iShares Russell 2000 ETF (IWM) is a good short as the small-cap stocks are expected to be more volatile.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "6-12 weeks",
+        "note": "Monitor economic data and interest rates"
+      },
+      "exitStrategy": "Exit when the economy shows signs of slowing or interest rates rise",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the growth is modest",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the growth is strong",
+        "stopLoss": "-5% on VTI"
+      },
+      "adjacentMarkets": [
+        "US Dollar (strengthens with economic growth)"
+      ],
+      "otherFactors": [
+        "Economic data",
+        "Interest rates"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Iran War",
+      "summary": "The Iran war has led to increased tensions in the region and a rise in oil prices. The conflict is expected to continue, leading to further volatility in the market.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -445,119 +500,75 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "Global economic uncertainty could lead to an increase in US stocks due to safe-haven demand.",
+      "reasoning": "The Iran war has led to increased volatility in the market, and the US stock market is expected to be affected. The SPDR S&P 500 ETF Trust (SPY) is a good buy as it provides exposure to the US stock market, while the iShares MSCI Emerging Markets ETF (EEM) is a good short as emerging markets are expected to be negatively affected by the conflict.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic uncertainty"
+        "note": "Monitor oil prices and US-Iran relations"
       },
-      "exitStrategy": "Exit when economic uncertainty decreases",
+      "exitStrategy": "Exit when oil prices stabilize or US-Iran relations improve",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If economic uncertainty decreases",
-        "base": "+8\u201312%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If economic uncertainty increases",
-        "stopLoss": "-5% on SPY"
+        "extended": "+20%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-10% on SPY"
       },
       "adjacentMarkets": [
-        "Emerging market stocks"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US Dollar (USD)"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Monetary Policy",
-      "summary": "The Federal Reserve is considering an interest rate hike, which could affect the US economy and stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard Short-Term Bond ETF (BSV)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
-        }
-      ],
-      "reasoning": "An interest rate hike could lead to a decrease in long-term bond prices and an increase in short-term bond prices.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor interest rate decisions"
-      },
-      "exitStrategy": "Exit when interest rates stabilize",
-      "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If interest rates stabilize",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If interest rates rise further",
-        "stopLoss": "-5% on BSV"
-      },
-      "adjacentMarkets": [
-        "US Dollar (USD)"
-      ],
-      "otherFactors": [
-        "Inflation rate"
+        "Oil prices",
+        "US-Iran relations"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
-      "category": "commod",
-      "catLabel": "Commodities",
-      "title": "Oil Price",
-      "summary": "The oil price is affected by global demand and supply, with a potential increase in price due to decreased supply.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Monetary Policy",
+      "summary": "The Federal Reserve is expected to continue its monetary policy, with a focus on inflation and economic growth. The policy is expected to lead to a rise in interest rates.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 6-12 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Global Energy ETF (IXC)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A decrease in oil supply could lead to an increase in oil prices, affecting energy stocks.",
+      "reasoning": "The Fed's monetary policy is expected to lead to a rise in interest rates, making the iShares 20+ Year Treasury Bond ETF (TLT) a good buy. The SPDR S&P 500 ETF Trust (SPY) is a good short as higher interest rates are expected to negatively affect the stock market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor oil supply and demand"
+        "viable": "6-12 weeks",
+        "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Exit when oil prices stabilize",
+      "exitStrategy": "Exit when the Fed pauses or cuts interest rates",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+8\u201312%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the rate hike is modest",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If oil prices increase further",
-        "stopLoss": "-5% on USO"
+        "extended": "+10%+",
+        "extendedNote": "If the rate hike is aggressive",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Energy stocks"
+        "US Dollar (strengthens with higher rates)"
       ],
       "otherFactors": [
-        "Global demand"
+        "Inflation data",
+        "Fed statements"
       ]
     }
   ]
