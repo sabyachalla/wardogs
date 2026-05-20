@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T21:57:14Z",
+  "lastUpdated": "2026-05-20T23:19:27Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia Earnings Report",
-      "summary": "Nvidia is set to release its Q1 earnings report, which could significantly impact the stock price. Analysts expect a strong report, but the stock has already risen in anticipation. The report could lead to a further increase in the stock price or a correction if the results are not as expected.",
+      "summary": "Nvidia is set to release its Q1 earnings report, which could significantly impact the AI semiconductor market. Analysts expect a strong report, but the stock has been volatile in recent weeks.",
       "fresh": true,
       "freshLabel": "just now",
       "risk": "HIGH",
@@ -22,35 +22,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "The earnings report could lead to a significant move in the stock price, and the semiconductor industry is highly volatile. A strong report could lead to a further increase in the stock price, while a weak report could lead to a correction.",
+      "reasoning": "Nvidia's earnings report could be a catalyst for the AI semiconductor market, and the VanEck Vectors Semiconductor ETF (SMH) could benefit from a strong report. However, if the report is disappointing, Nvidia's stock could drop significantly.",
       "timeFrame": {
-        "enter": "Before the earnings report",
-        "viable": "Until the end of the week",
-        "note": "Watch for the report's release and the subsequent market reaction"
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Wait for the earnings report to be released"
       },
-      "exitStrategy": "Exit the position if the stock price moves against the expected direction by more than 5%",
+      "exitStrategy": "Exit if Nvidia's stock drops below $200",
       "gains": {
-        "conservative": "+5\u20138%",
+        "conservative": "+8-12%",
         "conservativeNote": "If the report is in line with expectations",
-        "base": "+12\u201318%",
-        "baseNote": "If the report is stronger than expected",
-        "extended": "+25%+",
-        "extendedNote": "If the report is significantly stronger than expected",
-        "stopLoss": "-8% on NVDA"
+        "base": "+15-20%",
+        "baseNote": "If the report is strong",
+        "extended": "+30%+",
+        "extendedNote": "If the report is extremely positive",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "AI Stocks",
+        "Technology Sector"
       ],
       "otherFactors": [
-        "Semiconductor industry trends"
+        "Competition from AMD and Intel"
       ]
     },
     {
@@ -59,44 +60,45 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The conflict between the US and Iran continues to escalate, which could lead to a significant increase in oil prices and a decrease in stock prices. The situation is highly volatile and could lead to a rapid change in market sentiment.",
+      "summary": "The conflict between the US and Iran continues to escalate, with both sides engaging in military actions. This could lead to a significant increase in oil prices and a decrease in global economic growth.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4\u201312 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "S&P 500 Index (SPY)"
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The conflict could lead to a significant increase in oil prices, which could lead to a decrease in stock prices. Gold is often seen as a safe-haven asset during times of conflict.",
+      "reasoning": "The escalation of the conflict between the US and Iran could lead to a decrease in global economic growth, which could negatively impact bond prices. However, the SPDR S&P 500 ETF Trust (SPY) could benefit from a flight to safety.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "Until the conflict is resolved",
-        "note": "Watch for developments in the conflict and the subsequent market reaction"
+        "viable": "4-12 weeks",
+        "note": "Wait for further developments in the conflict"
       },
-      "exitStrategy": "Exit the position if the conflict is resolved or if the market sentiment changes",
+      "exitStrategy": "Exit if the conflict de-escalates",
       "gains": {
-        "conservative": "+2\u20135%",
+        "conservative": "+5-8%",
         "conservativeNote": "If the conflict is contained",
-        "base": "+8\u201312%",
+        "base": "+10-15%",
         "baseNote": "If the conflict escalates",
-        "extended": "+15%+",
-        "extendedNote": "If the conflict leads to a significant increase in oil prices",
-        "stopLoss": "-5% on GLD"
+        "extended": "+20%+",
+        "extendedNote": "If the conflict leads to a significant decrease in global economic growth",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil prices (USO)"
+        "Oil Prices",
+        "Gold Prices"
       ],
       "otherFactors": [
-        "Geopolitical tensions"
+        "US Federal Reserve policy"
       ]
     },
     {
@@ -105,44 +107,45 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Interest Rate Hike",
-      "summary": "The US Federal Reserve is expected to raise interest rates, which could lead to a decrease in stock prices and an increase in bond yields. The decision could have a significant impact on the economy and the markets.",
+      "summary": "The US Federal Reserve is expected to raise interest rates in the near future, which could impact the US economy and the global financial markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4\u201312 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "S&P 500 Index (SPY)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The interest rate hike could lead to a decrease in stock prices and an increase in bond yields. Long-term Treasury bonds are often seen as a safe-haven asset during times of economic uncertainty.",
+      "reasoning": "The US Federal Reserve's interest rate hike could lead to a decrease in long-term bond prices, but the iShares 1-3 Year Credit Bond ETF (CSJ) could benefit from the hike.",
       "timeFrame": {
-        "enter": "Before the interest rate decision",
-        "viable": "Until the end of the week",
-        "note": "Watch for the interest rate decision and the subsequent market reaction"
+        "enter": "Now",
+        "viable": "4-12 weeks",
+        "note": "Wait for the Federal Reserve's decision"
       },
-      "exitStrategy": "Exit the position if the interest rate decision is not as expected or if the market sentiment changes",
+      "exitStrategy": "Exit if the Federal Reserve changes its policy",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the interest rate hike is in line with expectations",
-        "base": "+8\u201312%",
-        "baseNote": "If the interest rate hike is higher than expected",
-        "extended": "+15%+",
-        "extendedNote": "If the interest rate hike leads to a significant decrease in stock prices",
-        "stopLoss": "-5% on TLT"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the hike is in line with expectations",
+        "base": "+10-15%",
+        "baseNote": "If the hike is larger than expected",
+        "extended": "+20%+",
+        "extendedNote": "If the hike leads to a significant decrease in long-term bond prices",
+        "stopLoss": "-8% on CSJ"
       },
       "adjacentMarkets": [
-        "Bond yields (TNX)"
+        "US Dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "Economic growth"
+        "Inflation expectations"
       ]
     },
     {
@@ -151,103 +154,106 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor industry is expected to continue growing, driven by increasing demand for AI-related products and services. The industry is highly competitive, but some companies are well-positioned to benefit from the trend.",
+      "summary": "The AI semiconductor market is expected to continue growing, driven by increasing demand for AI-related products and services.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12\u201326 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "First Trust Indxx Innovative Transaction & Process ETF (LEGR)"
         }
       ],
-      "reasoning": "The AI semiconductor industry is expected to continue growing, driven by increasing demand for AI-related products and services. Some companies are well-positioned to benefit from the trend, but the industry is highly competitive.",
+      "reasoning": "The AI semiconductor market is expected to continue growing, and the Global X Robotics & Artificial Intelligence ETF (BOTZ) could benefit from this trend. However, the First Trust Indxx Innovative Transaction & Process ETF (LEGR) could be a better option for investors looking for a more diversified portfolio.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "Until the end of the quarter",
-        "note": "Watch for developments in the industry and the subsequent market reaction"
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the AI semiconductor market"
       },
-      "exitStrategy": "Exit the position if the industry trends change or if the market sentiment changes",
+      "exitStrategy": "Exit if the AI semiconductor market declines",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the industry trends are in line with expectations",
-        "base": "+5\u20138%",
-        "baseNote": "If the industry trends are stronger than expected",
-        "extended": "+10%+",
-        "extendedNote": "If the industry trends lead to a significant increase in demand for AI-related products and services",
-        "stopLoss": "-3% on SMH"
+        "conservative": "+3-5%",
+        "conservativeNote": "If the market grows slowly",
+        "base": "+8-12%",
+        "baseNote": "If the market grows moderately",
+        "extended": "+15%+",
+        "extendedNote": "If the market grows rapidly",
+        "stopLoss": "-5% on BOTZ"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "Technology Sector",
+        "Semiconductor Stocks"
       ],
       "otherFactors": [
-        "Industry trends"
+        "Competition from other AI-related products and services"
       ]
     },
     {
       "id": 5,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy is expected to continue growing, driven by a strong labor market and increasing consumer spending. However, the economy is facing some challenges, including a trade war with China and a potential interest rate hike.",
+      "summary": "The US economy is expected to continue growing, driven by a strong labor market and increasing consumer spending.",
       "fresh": true,
       "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 12\u201326 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
+          "label": "SHORT",
+          "cls": "short",
           "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The US economy is expected to continue growing, driven by a strong labor market and increasing consumer spending. However, the economy is facing some challenges, including a trade war with China and a potential interest rate hike.",
+      "reasoning": "The US economy is expected to continue growing, and the Vanguard Total Stock Market ETF (VTI) could benefit from this trend. However, the iShares Core U.S. Aggregate Bond ETF (AGG) could decline as interest rates rise.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "Until the end of the quarter",
-        "note": "Watch for developments in the economy and the subsequent market reaction"
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the US economy"
       },
-      "exitStrategy": "Exit the position if the economy trends change or if the market sentiment changes",
+      "exitStrategy": "Exit if the US economy declines",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the economy trends are in line with expectations",
-        "base": "+5\u20138%",
-        "baseNote": "If the economy trends are stronger than expected",
-        "extended": "+10%+",
-        "extendedNote": "If the economy trends lead to a significant increase in consumer spending and business investment",
-        "stopLoss": "-3% on SPY"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the economy grows slowly",
+        "base": "+10-15%",
+        "baseNote": "If the economy grows moderately",
+        "extended": "+20%+",
+        "extendedNote": "If the economy grows rapidly",
+        "stopLoss": "-8% on VTI"
       },
       "adjacentMarkets": [
-        "Bond yields (TNX)"
+        "US Dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "Labor market trends"
+        "Inflation expectations",
+        "Federal Reserve policy"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
+      "category": "trade",
+      "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in a trade war, which could lead to a significant decrease in trade between the two countries. The trade war could have a negative impact on the global economy and the markets.",
+      "summary": "The US and China are engaged in trade negotiations, which could lead to a significant decrease in tariffs and an increase in trade between the two countries.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12\u201326 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -255,45 +261,46 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Invesco PowerShares Golden Dragon China ETF (PGJ)"
         }
       ],
-      "reasoning": "The trade war could lead to a significant decrease in trade between the US and China, which could have a negative impact on the global economy and the markets. However, some companies are well-positioned to benefit from the trend.",
+      "reasoning": "The US and China are engaged in trade negotiations, which could lead to a significant decrease in tariffs and an increase in trade between the two countries. The iShares China Large-Cap ETF (FXI) could benefit from this trend, but the Invesco PowerShares Golden Dragon China ETF (PGJ) could be a better option for investors looking for a more diversified portfolio.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "Until the trade war is resolved",
-        "note": "Watch for developments in the trade war and the subsequent market reaction"
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the trade negotiations"
       },
-      "exitStrategy": "Exit the position if the trade war is resolved or if the market sentiment changes",
+      "exitStrategy": "Exit if the trade negotiations fail",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the trade war is contained",
-        "base": "+5\u20138%",
-        "baseNote": "If the trade war escalates",
-        "extended": "+10%+",
-        "extendedNote": "If the trade war leads to a significant decrease in trade between the US and China",
-        "stopLoss": "-3% on FXI"
+        "conservative": "+3-5%",
+        "conservativeNote": "If the negotiations are successful",
+        "base": "+8-12%",
+        "baseNote": "If the negotiations lead to a significant decrease in tariffs",
+        "extended": "+15%+",
+        "extendedNote": "If the negotiations lead to a significant increase in trade between the two countries",
+        "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging markets (EEM)"
+        "Emerging Markets",
+        "Commodities"
       ],
       "otherFactors": [
-        "Geopolitical tensions"
+        "Competition from other emerging markets"
       ]
     },
     {
       "id": 7,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The price of gold is expected to continue rising, driven by increasing demand for safe-haven assets and a potential decrease in the value of the US dollar. The price of gold is highly volatile and can be affected by a variety of factors, including economic trends and geopolitical events.",
+      "summary": "The price of gold is expected to continue rising, driven by increasing demand for safe-haven assets and a decrease in the value of the US dollar.",
       "fresh": true,
       "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u201312 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -301,124 +308,129 @@
           "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Silver Trust (SLV)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "PowerShares DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The price of gold is expected to continue rising, driven by increasing demand for safe-haven assets and a potential decrease in the value of the US dollar. The price of gold is highly volatile and can be affected by a variety of factors, including economic trends and geopolitical events.",
+      "reasoning": "The price of gold is expected to continue rising, and the SPDR Gold Shares ETF (GLD) could benefit from this trend. However, the PowerShares DB US Dollar Index Bullish Fund (UUP) could decline as the value of the US dollar decreases.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "Until the end of the quarter",
-        "note": "Watch for developments in the gold market and the subsequent market reaction"
+        "viable": "4-12 weeks",
+        "note": "Wait for further developments in the gold market"
       },
-      "exitStrategy": "Exit the position if the gold price trends change or if the market sentiment changes",
+      "exitStrategy": "Exit if the gold price declines",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the gold price trends are in line with expectations",
-        "base": "+5\u20138%",
-        "baseNote": "If the gold price trends are stronger than expected",
-        "extended": "+10%+",
-        "extendedNote": "If the gold price trends lead to a significant increase in demand for safe-haven assets",
-        "stopLoss": "-3% on GLD"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the gold price rises slowly",
+        "base": "+10-15%",
+        "baseNote": "If the gold price rises moderately",
+        "extended": "+20%+",
+        "extendedNote": "If the gold price rises rapidly",
+        "stopLoss": "-8% on GLD"
       },
       "adjacentMarkets": [
-        "Silver price (SI=F)"
+        "US Dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "US dollar trends"
+        "Inflation expectations",
+        "Federal Reserve policy"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "commod",
-      "catLabel": "Commodities",
+      "category": "energy",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC is expected to continue producing oil at high levels, which could lead to a significant decrease in the price of oil. The price of oil is highly volatile and can be affected by a variety of factors, including economic trends and geopolitical events.",
+      "summary": "OPEC is expected to continue producing oil at current levels, which could lead to a stable oil price and a decrease in volatility in the energy market.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12\u201326 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "OPEC is expected to continue producing oil at high levels, which could lead to a significant decrease in the price of oil. The price of oil is highly volatile and can be affected by a variety of factors, including economic trends and geopolitical events.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "Until the end of the quarter",
-        "note": "Watch for developments in the oil market and the subsequent market reaction"
-      },
-      "exitStrategy": "Exit the position if the oil price trends change or if the market sentiment changes",
-      "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the oil price trends are in line with expectations",
-        "base": "+5\u20138%",
-        "baseNote": "If the oil price trends are stronger than expected",
-        "extended": "+10%+",
-        "extendedNote": "If the oil price trends lead to a significant decrease in the price of oil",
-        "stopLoss": "-3% on USO"
-      },
-      "adjacentMarkets": [
-        "Natural gas price (NG=F)"
-      ],
-      "otherFactors": [
-        "Geopolitical tensions"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "LOW",
-      "category": "stocks",
-      "catLabel": "Stocks",
-      "title": "US Stocks",
-      "summary": "The US stock market is expected to continue rising, driven by a strong economy and increasing corporate earnings. However, the market is facing some challenges, including a trade war with China and a potential interest rate hike.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Energy ETF (VDE)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "target": "iShares Global Energy ETF (IXC)"
         }
       ],
-      "reasoning": "The US stock market is expected to continue rising, driven by a strong economy and increasing corporate earnings. However, the market is facing some challenges, including a trade war with China and a potential interest rate hike.",
+      "reasoning": "OPEC is expected to continue producing oil at current levels, which could lead to a stable oil price and a decrease in volatility in the energy market. The Vanguard Energy ETF (VDE) could benefit from this trend, but the iShares Global Energy ETF (IXC) could be a better option for investors looking for a more diversified portfolio.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "Until the end of the quarter",
-        "note": "Watch for developments in the stock market and the subsequent market reaction"
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the energy market"
       },
-      "exitStrategy": "Exit the position if the stock market trends change or if the market sentiment changes",
+      "exitStrategy": "Exit if OPEC changes its production levels",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the stock market trends are in line with expectations",
-        "base": "+5\u20138%",
-        "baseNote": "If the stock market trends are stronger than expected",
-        "extended": "+10%+",
-        "extendedNote": "If the stock market trends lead to a significant increase in corporate earnings and economic growth",
-        "stopLoss": "-3% on SPY"
+        "conservative": "+3-5%",
+        "conservativeNote": "If the oil price remains stable",
+        "base": "+8-12%",
+        "baseNote": "If the oil price rises moderately",
+        "extended": "+15%+",
+        "extendedNote": "If the oil price rises rapidly",
+        "stopLoss": "-5% on VDE"
       },
       "adjacentMarkets": [
-        "Dow Jones Industrial Average (DIA)"
+        "Energy Sector",
+        "Commodities"
       ],
       "otherFactors": [
-        "Economic growth"
+        "Competition from renewable energy sources"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "stock",
+      "catLabel": "Stocks",
+      "title": "US Stocks",
+      "summary": "The US stock market is expected to continue growing, driven by a strong economy and increasing corporate earnings.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 12\u201326 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+        }
+      ],
+      "reasoning": "The US stock market is expected to continue growing, and the SPDR S&P 500 ETF Trust (SPY) could benefit from this trend. However, the iShares Core U.S. Aggregate Bond ETF (AGG) could decline as interest rates rise.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the US stock market"
+      },
+      "exitStrategy": "Exit if the US stock market declines",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If the stock market grows slowly",
+        "base": "+10-15%",
+        "baseNote": "If the stock market grows moderately",
+        "extended": "+20%+",
+        "extendedNote": "If the stock market grows rapidly",
+        "stopLoss": "-8% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Dollar",
+        "Commodities"
+      ],
+      "otherFactors": [
+        "Inflation expectations",
+        "Federal Reserve policy"
       ]
     },
     {
@@ -427,44 +439,140 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Stocks Retreat",
-      "summary": "The AI stock market is expected to continue retreating, driven by a decrease in demand for AI-related products and services. The market is highly volatile and can be affected by a variety of factors, including economic trends and geopolitical events.",
+      "summary": "The AI stock market is expected to continue growing, but at a slower pace than in recent years, driven by increasing competition and decreasing demand for AI-related products and services.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 12\u201326 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "First Trust Indxx Innovative Transaction & Process ETF (LEGR)"
+        }
+      ],
+      "reasoning": "The AI stock market is expected to continue growing, but at a slower pace than in recent years. The Global X Robotics & Artificial Intelligence ETF (BOTZ) could benefit from this trend, but the First Trust Indxx Innovative Transaction & Process ETF (LEGR) could be a better option for investors looking for a more diversified portfolio.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the AI stock market"
+      },
+      "exitStrategy": "Exit if the AI stock market declines",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If the market grows slowly",
+        "base": "+8-12%",
+        "baseNote": "If the market grows moderately",
+        "extended": "+15%+",
+        "extendedNote": "If the market grows rapidly",
+        "stopLoss": "-5% on BOTZ"
+      },
+      "adjacentMarkets": [
+        "Technology Sector",
+        "Semiconductor Stocks"
+      ],
+      "otherFactors": [
+        "Competition from other AI-related products and services"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Economic Growth Outlook",
+      "summary": "The US economic growth outlook is expected to remain positive, driven by a strong labor market and increasing consumer spending.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 12\u201326 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The AI stock market is expected to continue retreating, driven by a decrease in demand for AI-related products and services. The market is highly volatile and can be affected by a variety of factors, including economic trends and geopolitical events.",
+      "reasoning": "The US economic growth outlook is expected to remain positive, and the Vanguard Total Stock Market ETF (VTI) could benefit from this trend. However, the iShares Core U.S. Aggregate Bond ETF (AGG) could decline as interest rates rise.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "Until the end of the quarter",
-        "note": "Watch for developments in the AI stock market and the subsequent market reaction"
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the US economy"
       },
-      "exitStrategy": "Exit the position if the AI stock market trends change or if the market sentiment changes",
+      "exitStrategy": "Exit if the US economy declines",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the AI stock market trends are in line with expectations",
-        "base": "+5\u20138%",
-        "baseNote": "If the AI stock market trends are stronger than expected",
-        "extended": "+10%+",
-        "extendedNote": "If the AI stock market trends lead to a significant decrease in demand for AI-related products and services",
-        "stopLoss": "-3% on SMH"
+        "conservative": "+5-8%",
+        "conservativeNote": "If the economy grows slowly",
+        "base": "+10-15%",
+        "baseNote": "If the economy grows moderately",
+        "extended": "+20%+",
+        "extendedNote": "If the economy grows rapidly",
+        "stopLoss": "-8% on VTI"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "US Dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "Industry trends"
+        "Inflation expectations",
+        "Federal Reserve policy"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "trade",
+      "catLabel": "Trade",
+      "title": "US-China Trade Deal",
+      "summary": "The US and China are expected to reach a trade deal, which could lead to a significant decrease in tariffs and an increase in trade between the two countries.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 12\u201326 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Invesco PowerShares Golden Dragon China ETF (PGJ)"
+        }
+      ],
+      "reasoning": "The US and China are expected to reach a trade deal, which could lead to a significant decrease in tariffs and an increase in trade between the two countries. The iShares China Large-Cap ETF (FXI) could benefit from this trend, but the Invesco PowerShares Golden Dragon China ETF (PGJ) could be a better option for investors looking for a more diversified portfolio.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "12-26 weeks",
+        "note": "Wait for further developments in the trade negotiations"
+      },
+      "exitStrategy": "Exit if the trade deal is not reached",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If the deal is reached",
+        "base": "+8-12%",
+        "baseNote": "If the deal leads to a significant decrease in tariffs",
+        "extended": "+15%+",
+        "extendedNote": "If the deal leads to a significant increase in trade between the two countries",
+        "stopLoss": "-5% on FXI"
+      },
+      "adjacentMarkets": [
+        "Emerging Markets",
+        "Commodities"
+      ],
+      "otherFactors": [
+        "Competition from other emerging markets"
       ]
     }
   ]
