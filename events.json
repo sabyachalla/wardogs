@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T19:20:17Z",
+  "lastUpdated": "2026-05-24T22:03:19Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -22,35 +22,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "iShares Aerospace & Defense ETF (ITA)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Aerospace & Defense ETF (ITA)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The escalating war in Iran is increasing geopolitical instability, which is likely to drive up gold prices as a safe-haven asset. However, the US aerospace and defense sector may be negatively impacted by the waning geopolitical power of the US.",
+      "reasoning": "The escalation of the Iran war will likely lead to increased defense spending and a boost to the aerospace and defense sector. On the other hand, the oil services sector may suffer due to decreased oil production and increased geopolitical tensions.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for ceasefire or de-escalation"
+        "note": "Monitor for a ceasefire or de-escalation"
       },
-      "exitStrategy": "Exit when a ceasefire or de-escalation is announced",
+      "exitStrategy": "Exit when a ceasefire is announced or oil prices stabilize",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the war stabilizes",
-        "base": "+12\u201318%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If the war is contained",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
         "extendedNote": "If the war escalates further",
-        "stopLoss": "-8% on GLD"
+        "stopLoss": "-10% on ITA"
       },
       "adjacentMarkets": [
-        "Oil (price increase)"
+        "Gold (safe haven bid)",
+        "Oil (price volatility)"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US interest rates",
+        "Global economic growth"
       ]
     },
     {
@@ -59,11 +61,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia Earnings Report",
-      "summary": "Nvidia is set to release its earnings report, which is expected to be strong due to the growing demand for AI chips. The company has been investing heavily in AI research and development.",
+      "summary": "Nvidia's earnings report is expected to be strong, driven by demand for AI and gaming chips. The company's GPU business is expected to drive growth.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -71,32 +73,34 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's strong earnings report is expected to drive up its stock price. However, AMD may be negatively impacted as it is a competitor in the AI chip market.",
+      "reasoning": "Nvidia's strong earnings report will likely drive the stock price up. However, investors may also consider rotating into AMD, which has a strong portfolio of AI and gaming chips.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
         "note": "Monitor for earnings report"
       },
-      "exitStrategy": "Exit after the earnings report",
+      "exitStrategy": "Exit after earnings report or when stock price reaches resistance",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the report is neutral",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If earnings meet expectations",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the report is strong",
-        "stopLoss": "-5% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If earnings exceed expectations",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI stocks",
+        "Semiconductor sector"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Global tech demand"
       ]
     },
     {
@@ -105,11 +109,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Interest Rate Hike",
-      "summary": "The US Federal Reserve is expected to keep interest rates steady due to the oil shock, but may hike rates in the future if inflation stays elevated.",
+      "summary": "The US Federal Reserve is expected to keep interest rates steady, but may hike rates in the future due to inflation concerns.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -122,27 +126,29 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The expected interest rate hike is likely to drive up Treasury bond prices and negatively impact the stock market.",
+      "reasoning": "If the Fed hikes interest rates, it will likely lead to a decrease in stock prices and an increase in bond prices. Investors can buy TLT to benefit from the potential rate hike.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for interest rate decision"
+        "note": "Monitor for Fed meeting"
       },
-      "exitStrategy": "Exit after the interest rate decision",
+      "exitStrategy": "Exit after Fed meeting or when interest rates stabilize",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the rate hike is small",
-        "base": "+6\u201310%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If interest rates remain steady",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the rate hike is large",
-        "stopLoss": "-4% on TLT"
+        "extended": "+15%+",
+        "extendedNote": "If interest rates hike",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US dollar (strength)"
+        "US dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation rate",
+        "Global economic growth"
       ]
     },
     {
@@ -151,44 +157,46 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price is expected to increase due to the escalating war in Iran and the expected interest rate hike.",
+      "summary": "The gold price is expected to remain steady, driven by safe-haven demand and central bank buying.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "The escalating war in Iran and the expected interest rate hike are likely to drive up gold prices.",
+      "reasoning": "The gold price is expected to remain steady, driven by safe-haven demand and central bank buying. Investors can buy GLD to benefit from the potential price increase.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for gold price movement"
+        "note": "Monitor for economic data"
       },
-      "exitStrategy": "Exit when the gold price reaches a resistance level",
+      "exitStrategy": "Exit after economic data or when gold price reaches resistance",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the price increase is small",
-        "base": "+4\u20136%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If gold price remains steady",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the price increase is large",
-        "stopLoss": "-3% on GLD"
+        "extended": "+10%+",
+        "extendedNote": "If gold price increases",
+        "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Oil (price increase)"
+        "Silver",
+        "Copper"
       ],
       "otherFactors": [
-        "US dollar (strength)"
+        "US dollar",
+        "Inflation rate"
       ]
     },
     {
@@ -197,11 +205,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "AI semiconductor stocks are expected to increase in value due to the growing demand for AI chips.",
+      "summary": "AI semiconductor stocks are expected to increase in value, driven by demand for AI and machine learning chips.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -209,32 +217,34 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Invesco Dynamic Semiconductors ETF (PSI)"
         }
       ],
-      "reasoning": "The growing demand for AI chips is likely to drive up the value of AI semiconductor stocks.",
+      "reasoning": "AI semiconductor stocks are expected to increase in value, driven by demand for AI and machine learning chips. Investors can buy SMH to benefit from the potential price increase.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for AI-related news"
+        "note": "Monitor for earnings reports"
       },
-      "exitStrategy": "Exit when the AI trend reverses",
+      "exitStrategy": "Exit after earnings reports or when stock price reaches resistance",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the demand increase is small",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If demand for AI chips remains steady",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the demand increase is large",
-        "stopLoss": "-5% on SMH"
+        "extended": "+20%+",
+        "extendedNote": "If demand for AI chips increases",
+        "stopLoss": "-8% on SMH"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI stocks",
+        "Tech sector"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Global tech demand"
       ]
     },
     {
@@ -243,136 +253,142 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economic growth is expected to slow down due to the escalating war in Iran and the expected interest rate hike.",
+      "summary": "The US economy is expected to grow at a moderate pace, driven by consumer spending and business investment.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
         }
       ],
-      "reasoning": "The escalating war in Iran and the expected interest rate hike are likely to slow down the US economic growth.",
+      "reasoning": "The US economy is expected to grow at a moderate pace, driven by consumer spending and business investment. Investors can buy VTI to benefit from the potential growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor for economic indicators"
+        "viable": "2-4 weeks",
+        "note": "Monitor for economic data"
       },
-      "exitStrategy": "Exit when the economic growth reverses",
+      "exitStrategy": "Exit after economic data or when stock price reaches resistance",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the slowdown is small",
-        "base": "+4\u20136%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If economic growth remains steady",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the slowdown is large",
-        "stopLoss": "-3% on AGG"
+        "extended": "+10%+",
+        "extendedNote": "If economic growth increases",
+        "stopLoss": "-5% on VTI"
       },
       "adjacentMarkets": [
-        "US dollar (strength)"
+        "US dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation rate",
+        "Global economic growth"
       ]
     },
     {
       "id": 7,
       "rank": "MED",
-      "category": "geo",
-      "catLabel": "Geopolitics",
+      "category": "trade",
+      "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are expected to improve due to the recent trade talks.",
+      "summary": "The US and China are expected to continue negotiating a trade deal, with potential tariffs and trade restrictions.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "Invesco China Technology ETF (CQQQ)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         }
       ],
-      "reasoning": "The improving US-China trade relations are likely to drive up Chinese stocks and negatively impact the US aerospace and defense sector.",
+      "reasoning": "The US and China are expected to continue negotiating a trade deal, with potential tariffs and trade restrictions. Investors can buy CQQQ to benefit from the potential growth in the Chinese tech sector.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for trade talks"
+        "note": "Monitor for trade negotiations"
       },
-      "exitStrategy": "Exit when the trade relations deteriorate",
+      "exitStrategy": "Exit after trade negotiations or when stock price reaches resistance",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the improvement is small",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If trade deal is reached",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the improvement is large",
-        "stopLoss": "-5% on FXI"
+        "extended": "+20%+",
+        "extendedNote": "If trade deal is not reached",
+        "stopLoss": "-8% on CQQQ"
       },
       "adjacentMarkets": [
-        "US stocks"
+        "US dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Global trade",
+        "Inflation rate"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "commod",
-      "catLabel": "Commodities",
+      "category": "energy",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "The OPEC oil production is expected to increase due to the escalating war in Iran.",
+      "summary": "OPEC is expected to maintain its current oil production levels, with potential changes in the future.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund (USO)"
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Global Energy ETF (IXC)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The escalating war in Iran is likely to drive up oil prices.",
+      "reasoning": "OPEC is expected to maintain its current oil production levels, with potential changes in the future. Investors can buy XOP to benefit from the potential growth in the oil and gas sector.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for oil price movement"
+        "note": "Monitor for OPEC meetings"
       },
-      "exitStrategy": "Exit when the oil price reaches a resistance level",
+      "exitStrategy": "Exit after OPEC meetings or when oil price reaches resistance",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the price increase is small",
-        "base": "+4\u20136%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If oil price remains steady",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the price increase is large",
-        "stopLoss": "-3% on USO"
+        "extended": "+10%+",
+        "extendedNote": "If oil price increases",
+        "stopLoss": "-5% on XOP"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Natural gas",
+        "Coal"
       ],
       "otherFactors": [
-        "US dollar (strength)"
+        "US dollar",
+        "Global energy demand"
       ]
     },
     {
@@ -381,90 +397,94 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Middle East Geopolitical Instability",
-      "summary": "The Middle East geopolitical instability is expected to increase due to the escalating war in Iran.",
+      "summary": "The Middle East is expected to remain a region of geopolitical instability, with potential conflicts and tensions.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "iShares Aerospace & Defense ETF (ITA)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The escalating war in Iran is likely to drive up gold prices and negatively impact emerging markets.",
+      "reasoning": "The Middle East is expected to remain a region of geopolitical instability, with potential conflicts and tensions. Investors can buy ITA to benefit from the potential growth in the aerospace and defense sector.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for geopolitical developments"
+        "note": "Monitor for geopolitical events"
       },
-      "exitStrategy": "Exit when the geopolitical instability decreases",
+      "exitStrategy": "Exit after geopolitical events or when stock price reaches resistance",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the instability is small",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If geopolitical tensions remain steady",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the instability is large",
-        "stopLoss": "-5% on GLD"
+        "extended": "+20%+",
+        "extendedNote": "If geopolitical tensions increase",
+        "stopLoss": "-8% on ITA"
       },
       "adjacentMarkets": [
-        "Oil (price increase)"
+        "Oil",
+        "Natural gas"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US interest rates",
+        "Global economic growth"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
       "category": "stock",
-      "catLabel": "Stocks",
+      "catLabel": "Stock",
       "title": "US Stocks",
-      "summary": "The US stocks are expected to decrease in value due to the escalating war in Iran and the expected interest rate hike.",
+      "summary": "US stocks are expected to remain steady, with potential growth driven by economic data and earnings reports.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The escalating war in Iran and the expected interest rate hike are likely to drive down US stocks.",
+      "reasoning": "US stocks are expected to remain steady, with potential growth driven by economic data and earnings reports. Investors can buy SPY to benefit from the potential growth.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for stock market movement"
+        "note": "Monitor for economic data and earnings reports"
       },
-      "exitStrategy": "Exit when the stock market reverses",
+      "exitStrategy": "Exit after economic data and earnings reports or when stock price reaches resistance",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the decrease is small",
-        "base": "+4\u20136%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If economic growth remains steady",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the decrease is large",
-        "stopLoss": "-3% on AGG"
+        "extended": "+10%+",
+        "extendedNote": "If economic growth increases",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US dollar (strength)"
+        "US dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation rate",
+        "Global economic growth"
       ]
     },
     {
@@ -472,45 +492,47 @@
       "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
-      "title": "AMD Investment in Taiwan",
-      "summary": "AMD is set to invest $10 billion in Taiwan's AI industry, which is expected to drive up the value of AI-related stocks.",
+      "title": "AI Market",
+      "summary": "The AI market is expected to grow, driven by demand for AI and machine learning solutions.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares North American Tech ETF (IGM)"
         }
       ],
-      "reasoning": "The investment by AMD is likely to drive up the value of AI-related stocks.",
+      "reasoning": "The AI market is expected to grow, driven by demand for AI and machine learning solutions. Investors can buy BOTZ to benefit from the potential growth.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for AI-related news"
+        "note": "Monitor for earnings reports"
       },
-      "exitStrategy": "Exit when the AI trend reverses",
+      "exitStrategy": "Exit after earnings reports or when stock price reaches resistance",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the investment is small",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If demand for AI solutions remains steady",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the investment is large",
-        "stopLoss": "-5% on SMH"
+        "extended": "+20%+",
+        "extendedNote": "If demand for AI solutions increases",
+        "stopLoss": "-8% on BOTZ"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "Tech sector",
+        "Semiconductor sector"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US-China trade relations",
+        "Global tech demand"
       ]
     },
     {
@@ -519,11 +541,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate is expected to increase due to the escalating war in Iran and the expected interest rate hike.",
+      "summary": "The US inflation rate is expected to remain steady, with potential changes driven by economic data and monetary policy.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -531,32 +553,34 @@
           "target": "iShares TIPS Bond ETF (TIP)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The escalating war in Iran and the expected interest rate hike are likely to drive up the US inflation rate.",
+      "reasoning": "The US inflation rate is expected to remain steady, with potential changes driven by economic data and monetary policy. Investors can buy TIP to benefit from the potential growth in the bond market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for inflation rate movement"
+        "note": "Monitor for economic data and monetary policy"
       },
-      "exitStrategy": "Exit when the inflation rate reaches a peak",
+      "exitStrategy": "Exit after economic data and monetary policy or when bond price reaches resistance",
       "gains": {
-        "conservative": "+1\u20133%",
-        "conservativeNote": "If the increase is small",
-        "base": "+4\u20136%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If inflation rate remains steady",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the increase is large",
-        "stopLoss": "-3% on TIP"
+        "extended": "+10%+",
+        "extendedNote": "If inflation rate increases",
+        "stopLoss": "-5% on TIP"
       },
       "adjacentMarkets": [
-        "US dollar (strength)"
+        "US dollar",
+        "Commodities"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US interest rates",
+        "Global economic growth"
       ]
     }
   ]
