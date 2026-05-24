@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T07:22:20Z",
+  "lastUpdated": "2026-05-24T09:56:56Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran is escalating, with potential implications for global oil prices and geopolitical stability. The US and its allies are involved in military operations, while Iran is responding with force. The situation is highly volatile and could lead to significant market movements.",
+      "summary": "The Iran war is escalating, with geopolitical instability and strategic rivalries increasing. This could lead to a regional war, affecting global markets and economies.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,35 +22,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Iran war escalation could lead to higher oil prices, which would negatively impact the energy sector. However, the broader market could benefit from safe-haven flows into US assets. A buy signal is generated for the SPDR S&P 500 ETF Trust, while a short signal is generated for the iShares U.S. Oil & Gas Exploration & Production ETF.",
+      "reasoning": "The escalating Iran war could lead to increased gold prices due to safe-haven demand, while emerging markets may decline due to decreased investor appetite for risk.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil price movements and adjust positions accordingly"
+        "note": "Monitor for ceasefire or de-escalation"
       },
-      "exitStrategy": "Exit positions if oil prices stabilize or the conflict de-escalates",
+      "exitStrategy": "Exit when a ceasefire is announced or the conflict de-escalates",
       "gains": {
-        "conservative": "+5\u20138%",
+        "conservative": "+8-12%",
         "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extended": "+30%+",
+        "extendedNote": "If the conflict spreads regionally",
+        "stopLoss": "-10% on GLD"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "Oil price movements"
+        "US interest rates",
+        "OPEC production levels"
       ]
     },
     {
@@ -59,11 +61,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia Earnings Report",
-      "summary": "Nvidia is set to report its quarterly earnings, with investors watching closely for guidance on the company's AI and semiconductor businesses. The report could have significant implications for the tech sector and the broader market.",
+      "summary": "Nvidia's earnings report is expected to be strong, driven by AI chip demand. This could lead to a surge in tech stocks and the broader market.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -73,89 +75,93 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Vanguard Information Technology ETF (VIT)"
         }
       ],
-      "reasoning": "Nvidia's earnings report could provide a catalyst for the tech sector, particularly if the company provides positive guidance on its AI and semiconductor businesses. A buy signal is generated for Nvidia, while a rotate signal is generated for the VanEck Vectors Semiconductor ETF.",
+      "reasoning": "Nvidia's strong earnings report could lead to a surge in tech stocks, particularly those related to AI and semiconductors.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings report and adjust positions accordingly"
+        "note": "Monitor for earnings report and market reaction"
       },
-      "exitStrategy": "Exit positions if the earnings report is disappointing or the tech sector experiences a downturn",
+      "exitStrategy": "Exit when the earnings report is released and the market reacts",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the report is neutral",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the report is in-line with expectations",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the report is positive",
+        "extended": "+20%+",
+        "extendedNote": "If the report exceeds expectations",
         "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech sector"
+        "AI-related stocks",
+        "Semiconductor ETFs"
       ],
       "otherFactors": [
-        "Earnings report guidance"
+        "US-China trade relations",
+        "Global economic growth"
       ]
     },
     {
       "id": 3,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "econ",
       "catLabel": "Economics",
       "title": "US Interest Rate Hike",
-      "summary": "The Federal Reserve is considering an interest rate hike, which could have implications for the US economy and the broader market. The decision will depend on various economic indicators, including inflation and employment data.",
+      "summary": "The US Federal Reserve is considering an interest rate hike, which could affect the broader market and economy.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Short-Term Bond ETF (BSV)"
+          "target": "Financial Select Sector SPDR Fund (XLF)"
         }
       ],
-      "reasoning": "A US interest rate hike could lead to a rotation out of credit bonds and into shorter-term bonds. A rotate signal is generated for the iShares 1-3 Year Credit Bond ETF, while a buy signal is generated for the Vanguard Short-Term Bond ETF.",
+      "reasoning": "An interest rate hike could lead to a decline in long-term Treasury bonds and a surge in financial stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic indicators and adjust positions accordingly"
+        "note": "Monitor for Fed meeting and interest rate decision"
       },
-      "exitStrategy": "Exit positions if the interest rate hike is not implemented or the economy experiences a downturn",
+      "exitStrategy": "Exit when the interest rate decision is announced",
       "gains": {
-        "conservative": "+1\u20132%",
+        "conservative": "+3-5%",
         "conservativeNote": "If the hike is small",
-        "base": "+3\u20135%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
+        "extended": "+10%+",
         "extendedNote": "If the hike is large",
-        "stopLoss": "-2% on CSJ"
+        "stopLoss": "-3% on TLT"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US Dollar (DXY)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Economic indicators"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     },
     {
       "id": 4,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The price of gold is experiencing volatility due to various market and economic factors. The precious metal is often seen as a safe-haven asset during times of uncertainty.",
+      "summary": "Gold prices are expected to remain stable, with some potential for upside due to safe-haven demand.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -168,119 +174,125 @@
           "target": "VanEck Vectors Gold Miners ETF (GDX)"
         }
       ],
-      "reasoning": "The gold price could experience a surge due to safe-haven demand. A buy signal is generated for the SPDR Gold Shares, while a rotate signal is generated for the VanEck Vectors Gold Miners ETF.",
+      "reasoning": "Gold prices could remain stable, with some potential for upside due to safe-haven demand.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor gold price movements and adjust positions accordingly"
+        "viable": "4-8 weeks",
+        "note": "Monitor for economic data and market sentiment"
       },
-      "exitStrategy": "Exit positions if the gold price experiences a downturn or the market becomes less volatile",
+      "exitStrategy": "Exit when the economic data and market sentiment change",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the price increase is small",
-        "base": "+5\u20138%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If the economy remains stable",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the price increase is large",
-        "stopLoss": "-3% on GLD"
+        "extended": "+5%+",
+        "extendedNote": "If the economy declines",
+        "stopLoss": "-2% on GLD"
       },
       "adjacentMarkets": [
-        "Silver price"
+        "Silver (SLV)",
+        "Platinum (PPLT)"
       ],
       "otherFactors": [
-        "Safe-haven demand"
+        "US interest rates",
+        "Inflation expectations"
       ]
     },
     {
       "id": 5,
-      "rank": "HIGH",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor sector is experiencing significant growth due to increasing demand for AI-related products and services. The sector is highly volatile and could experience significant price movements.",
+      "summary": "AI semiconductor stocks are expected to surge, driven by strong demand for AI chips.",
       "fresh": true,
       "freshLabel": "1h ago",
-      "risk": "HIGH",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
-        }
-      ],
-      "reasoning": "The AI semiconductor sector could experience a significant surge due to increasing demand for AI-related products and services. A buy signal is generated for the VanEck Vectors Semiconductor ETF, while a short signal is generated for the iShares PHLX Semiconductor ETF.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor sector trends and adjust positions accordingly"
-      },
-      "exitStrategy": "Exit positions if the sector experiences a downturn or the market becomes less volatile",
-      "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the growth is moderate",
-        "base": "+15\u201320%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the growth is rapid",
-        "stopLoss": "-10% on SMH"
-      },
-      "adjacentMarkets": [
-        "Tech sector"
-      ],
-      "otherFactors": [
-        "AI demand"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "US Economic Growth",
-      "summary": "The US economy is experiencing moderate growth, with various economic indicators showing positive trends. However, there are concerns about the impact of the Iran war and other global events on the economy.",
-      "fresh": true,
-      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "NVIDIA Corporation (NVDA)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The US economy could experience a boost due to moderate growth trends. A buy signal is generated for the Vanguard Total Stock Market ETF, while a rotate signal is generated for the iShares Core U.S. Aggregate Bond ETF.",
+      "reasoning": "AI semiconductor stocks could surge, driven by strong demand for AI chips.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic indicators and adjust positions accordingly"
+        "note": "Monitor for earnings reports and market reaction"
       },
-      "exitStrategy": "Exit positions if the economy experiences a downturn or the market becomes less volatile",
+      "exitStrategy": "Exit when the earnings reports are released and the market reacts",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the growth is slow",
-        "base": "+5\u20138%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the reports are in-line with expectations",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the growth is rapid",
-        "stopLoss": "-3% on VTI"
+        "extended": "+20%+",
+        "extendedNote": "If the reports exceed expectations",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Tech ETFs",
+        "Semiconductor ETFs"
       ],
       "otherFactors": [
-        "Economic indicators"
+        "US-China trade relations",
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 6,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "US Economic Growth",
+      "summary": "US economic growth is expected to remain stable, with some potential for upside due to fiscal policy.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        }
+      ],
+      "reasoning": "US economic growth could remain stable, with some potential for upside due to fiscal policy.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor for economic data and market sentiment"
+      },
+      "exitStrategy": "Exit when the economic data and market sentiment change",
+      "gains": {
+        "conservative": "+2-3%",
+        "conservativeNote": "If the economy remains stable",
+        "base": "+3-5%",
+        "baseNote": "Most likely scenario",
+        "extended": "+5%+",
+        "extendedNote": "If the economy surges",
+        "stopLoss": "-2% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Treasury Bonds (TLT)",
+        "Commodities (DBC)"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Inflation expectations"
       ]
     },
     {
@@ -289,11 +301,11 @@
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in trade negotiations, with various tariffs and trade agreements being discussed. The outcome of these negotiations could have significant implications for the global economy and trade markets.",
+      "summary": "US-China trade relations are expected to remain tense, with some potential for upside due to negotiations.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -303,76 +315,80 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "Invesco PowerShares QQQ ETF (QQQ)"
+          "target": "Invesco China Technology ETF (CQQQ)"
         }
       ],
-      "reasoning": "The US-China trade relations could experience a boost due to positive negotiations. A buy signal is generated for the iShares China Large-Cap ETF, while a rotate signal is generated for the Invesco PowerShares QQQ ETF.",
+      "reasoning": "US-China trade relations could remain tense, with some potential for upside due to negotiations.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations and adjust positions accordingly"
+        "note": "Monitor for trade negotiations and market reaction"
       },
-      "exitStrategy": "Exit positions if the trade negotiations experience a setback or the market becomes less volatile",
+      "exitStrategy": "Exit when the trade negotiations are concluded and the market reacts",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the negotiations are slow",
-        "base": "+5\u20138%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the negotiations are successful",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the negotiations are successful",
+        "extended": "+10%+",
+        "extendedNote": "If the negotiations fail",
         "stopLoss": "-3% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "US Dollar (DXY)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Trade negotiations"
+        "Global economic growth",
+        "Inflation expectations"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "ener",
+      "category": "energy",
       "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC is considering changes to its oil production levels, which could have implications for the global energy market. The decision will depend on various factors, including oil prices and demand.",
+      "summary": "OPEC oil production is expected to remain stable, with some potential for upside due to supply and demand dynamics.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Energy Select Sector SPDR Fund (XLE)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Energy ETF (VDE)"
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "OPEC's oil production decision could lead to a rotation in the energy sector. A rotate signal is generated for the Energy Select Sector SPDR Fund, while a buy signal is generated for the Vanguard Energy ETF.",
+      "reasoning": "OPEC oil production could remain stable, with some potential for upside due to supply and demand dynamics.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor oil prices and adjust positions accordingly"
+        "viable": "4-8 weeks",
+        "note": "Monitor for oil prices and market sentiment"
       },
-      "exitStrategy": "Exit positions if the oil production decision is not implemented or the energy sector experiences a downturn",
+      "exitStrategy": "Exit when the oil prices and market sentiment change",
       "gains": {
-        "conservative": "+1\u20132%",
-        "conservativeNote": "If the production change is small",
-        "base": "+3\u20135%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If the oil prices remain stable",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the production change is large",
-        "stopLoss": "-2% on XLE"
+        "extended": "+5%+",
+        "extendedNote": "If the oil prices surge",
+        "stopLoss": "-2% on XOP"
       },
       "adjacentMarkets": [
-        "Natural gas price"
+        "Natural Gas (UNG)",
+        "Coal (KOL)"
       ],
       "otherFactors": [
-        "Oil prices"
+        "US interest rates",
+        "Inflation expectations"
       ]
     },
     {
@@ -381,11 +397,59 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Middle East Geopolitical Instability",
-      "summary": "The Middle East is experiencing geopolitical instability due to various conflicts and tensions. The region is a critical hub for global energy markets and could experience significant price movements.",
+      "summary": "The Middle East is experiencing increased geopolitical instability, with some potential for upside due to conflict resolution.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI Israel ETF (EIS)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Invesco PowerShares Middle East & Africa ETF (GULF)"
+        }
+      ],
+      "reasoning": "The Middle East is experiencing increased geopolitical instability, with some potential for upside due to conflict resolution.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor for conflict developments and market reaction"
+      },
+      "exitStrategy": "Exit when the conflict is resolved and the market reacts",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict spreads",
+        "stopLoss": "-3% on EIS"
+      },
+      "adjacentMarkets": [
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Inflation expectations"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "stocks",
+      "catLabel": "Stocks",
+      "title": "US Stocks",
+      "summary": "US stocks are expected to remain stable, with some potential for upside due to earnings growth.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -393,78 +457,130 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The Middle East geopolitical instability could lead to a surge in safe-haven assets. A buy signal is generated for the SPDR S&P 500 ETF Trust, while a short signal is generated for the iShares MSCI Emerging Markets ETF.",
+      "reasoning": "US stocks could remain stable, with some potential for upside due to earnings growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor geopolitical developments and adjust positions accordingly"
+        "viable": "4-8 weeks",
+        "note": "Monitor for earnings reports and market sentiment"
       },
-      "exitStrategy": "Exit positions if the instability subsides or the market becomes less volatile",
+      "exitStrategy": "Exit when the earnings reports are released and the market reacts",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the instability is contained",
-        "base": "+5\u20138%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If the earnings reports are in-line with expectations",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the instability escalates",
-        "stopLoss": "-3% on SPY"
+        "extended": "+5%+",
+        "extendedNote": "If the earnings reports exceed expectations",
+        "stopLoss": "-2% on SPY"
       },
       "adjacentMarkets": [
-        "Oil price"
+        "US Treasury Bonds (TLT)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Geopolitical developments"
+        "US interest rates",
+        "Inflation expectations"
       ]
     },
     {
-      "id": 10,
-      "rank": "LOW",
-      "category": "stock",
-      "catLabel": "Stocks",
-      "title": "US Stocks",
-      "summary": "The US stock market is experiencing moderate growth, with various sectors showing positive trends. However, there are concerns about the impact of global events on the market.",
+      "id": 11,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AMD Investment in Taiwan",
+      "summary": "AMD is investing $10 billion in Taiwan's AI industry, which could lead to a surge in AI-related stocks.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "freshLabel": "1h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "The US stock market could experience a boost due to moderate growth trends. A buy signal is generated for the Vanguard Total Stock Market ETF, while a rotate signal is generated for the iShares Core S&P Total U.S. Stock Market ETF.",
+      "reasoning": "AMD's investment in Taiwan's AI industry could lead to a surge in AI-related stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor market trends and adjust positions accordingly"
+        "note": "Monitor for earnings reports and market reaction"
       },
-      "exitStrategy": "Exit positions if the market experiences a downturn or the market becomes less volatile",
+      "exitStrategy": "Exit when the earnings reports are released and the market reacts",
       "gains": {
-        "conservative": "+1\u20132%",
-        "conservativeNote": "If the growth is slow",
-        "base": "+3\u20135%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the reports are in-line with expectations",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the growth is rapid",
-        "stopLoss": "-2% on VTI"
+        "extended": "+20%+",
+        "extendedNote": "If the reports exceed expectations",
+        "stopLoss": "-5% on AMD"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Tech ETFs",
+        "Semiconductor ETFs"
       ],
       "otherFactors": [
-        "Market trends"
+        "US-China trade relations",
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "Fed Interest Rate Decision",
+      "summary": "The Fed is expected to keep interest rates steady, with some potential for upside due to inflation expectations.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Financial Select Sector SPDR Fund (XLF)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Financials ETF (VFISX)"
+        }
+      ],
+      "reasoning": "The Fed is expected to keep interest rates steady, with some potential for upside due to inflation expectations.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor for economic data and market sentiment"
+      },
+      "exitStrategy": "Exit when the economic data and market sentiment change",
+      "gains": {
+        "conservative": "+2-3%",
+        "conservativeNote": "If the economy remains stable",
+        "base": "+3-5%",
+        "baseNote": "Most likely scenario",
+        "extended": "+5%+",
+        "extendedNote": "If the economy surges",
+        "stopLoss": "-2% on XLF"
+      },
+      "adjacentMarkets": [
+        "US Treasury Bonds (TLT)",
+        "Commodities (DBC)"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Inflation expectations"
       ]
     }
   ]
