@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T07:52:05Z",
+  "lastUpdated": "2026-05-26T15:37:23Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war has escalated, leading to increased geopolitical instability in the Middle East. This has resulted in a surge in oil prices and a decline in global stock markets. The US has shown military strength, but its waning geopolitical power is a concern.",
+      "summary": "The ongoing conflict in the Middle East is escalating, with the US and Iran engaging in military actions. This has led to increased tensions in the region and a rise in oil prices. The situation is highly volatile and could lead to further escalation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,35 +22,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Iran war escalation has led to increased oil prices, making oil services ETFs like OIH a potential buy. On the other hand, the decline in global stock markets makes the S&P 500 ETF a potential short.",
+      "reasoning": "The escalation of the conflict in the Middle East is likely to lead to increased volatility in the markets. The rise in oil prices could lead to higher inflation, which could negatively impact the bond market. However, the uncertainty and fear in the market could also lead to a flight to safety, causing the price of the SPDR S&P 500 ETF Trust to rise.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and global stock markets"
+        "note": "Monitor the situation closely and be prepared to exit if the conflict escalates further"
       },
-      "exitStrategy": "Exit when oil prices stabilize or global stock markets rebound",
+      "exitStrategy": "Exit if the conflict escalates further or if the oil prices rise above $100 per barrel",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+15-20%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the war escalates further",
-        "stopLoss": "-10% on OIH"
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil (price increase)"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US-Iran relations",
+        "Oil prices"
       ]
     },
     {
@@ -59,7 +61,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia Earnings Report",
-      "summary": "Nvidia's earnings report has signaled strong AI momentum, leading to a surge in AI-related stocks. The company's CFO has revealed strong GPU demand, making Nvidia a potential buy.",
+      "summary": "Nvidia is set to release its earnings report, which is expected to be strong due to the growing demand for AI-related products. The company's stock price has been rising in anticipation of the report.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -71,124 +73,130 @@
           "target": "Nvidia Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's strong earnings report and GPU demand make it a potential buy. Rotating into the semiconductor ETF SMH can also provide exposure to the AI trend.",
+      "reasoning": "Nvidia's earnings report is expected to be strong, which could lead to a rise in the company's stock price. The growing demand for AI-related products is likely to continue, which could lead to further growth for the company.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor Nvidia's stock price and AI-related news"
+        "note": "Monitor the earnings report and adjust accordingly"
       },
-      "exitStrategy": "Exit when Nvidia's stock price reaches $300 or AI-related news becomes negative",
+      "exitStrategy": "Exit if the earnings report is weaker than expected or if the stock price rises above $250",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If Nvidia's stock price stabilizes",
-        "base": "+10-15%",
+        "conservativeNote": "If the earnings report is in line with expectations",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If AI momentum continues",
+        "extended": "+25%+",
+        "extendedNote": "If the earnings report is stronger than expected",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI-related stocks",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "US interest rates"
+        "AI demand",
+        "Competition from AMD"
       ]
     },
     {
       "id": 3,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Interest Rate Hike",
-      "summary": "The US Federal Reserve is expected to hold interest rates steady due to the oil shock, but may hike rates in the future. This has led to a decline in mortgage rates and an increase in consumer sentiment.",
+      "summary": "The Federal Reserve is set to announce its decision on interest rates, which could have a significant impact on the markets. A rate hike could lead to a rise in the US dollar and a decrease in the stock market.",
       "fresh": true,
       "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "A rate hike could lead to a rise in the US dollar and a decrease in the stock market. The Federal Reserve's decision could have a significant impact on the markets, and it's essential to be prepared for any outcome.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the Federal Reserve's decision and adjust accordingly"
+      },
+      "exitStrategy": "Exit if the Federal Reserve decides not to hike interest rates or if the US dollar rises above 100",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If the Federal Reserve hikes interest rates",
+        "base": "+12-18%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the US dollar rises significantly",
+        "stopLoss": "-8% on UUP"
+      },
+      "adjacentMarkets": [
+        "US dollar",
+        "Stock market"
+      ],
+      "otherFactors": [
+        "Federal Reserve decision",
+        "US economy"
+      ]
+    },
+    {
+      "id": 4,
+      "rank": "LOW",
+      "category": "commod",
+      "catLabel": "Commodities",
+      "title": "Gold Price",
+      "summary": "The price of gold has been rising due to the ongoing conflict in the Middle East and the uncertainty in the markets. The price of gold could continue to rise if the conflict escalates further.",
+      "fresh": true,
+      "freshLabel": "2h ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR Bloomberg Barclays High Yield Bond ETF (JNK)"
+          "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "The expected interest rate hike makes long-term Treasury bonds like TLT a potential buy. On the other hand, high-yield bonds like JNK may decline in value, making them a potential short.",
+      "reasoning": "The price of gold has been rising due to the ongoing conflict in the Middle East and the uncertainty in the markets. The price of gold could continue to rise if the conflict escalates further.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor interest rates and bond yields"
+        "note": "Monitor the price of gold and adjust accordingly"
       },
-      "exitStrategy": "Exit when interest rates rise or bond yields increase",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If interest rates stabilize",
-        "base": "+5-8%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If interest rates rise significantly",
-        "stopLoss": "-5% on TLT"
-      },
-      "adjacentMarkets": [
-        "Mortgage rates"
-      ],
-      "otherFactors": [
-        "US economic growth"
-      ]
-    },
-    {
-      "id": 4,
-      "rank": "MED",
-      "category": "commod",
-      "catLabel": "Commodities",
-      "title": "Gold Price",
-      "summary": "The gold price has surged due to the Iran war escalation and increased geopolitical instability. This makes gold a potential buy as a safe haven asset.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Gold Miners ETF (GDX)"
-        }
-      ],
-      "reasoning": "The surge in gold price makes it a potential buy as a safe haven asset. Rotating into gold miners ETF GDX can also provide exposure to the gold trend.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor gold price and geopolitical news"
-      },
-      "exitStrategy": "Exit when gold price stabilizes or geopolitical tensions ease",
+      "exitStrategy": "Exit if the conflict is contained or if the price of gold rises above $2,000",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If gold price stabilizes",
-        "base": "+10-15%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If geopolitical tensions escalate further",
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates further",
         "stopLoss": "-8% on GLD"
       },
       "adjacentMarkets": [
-        "Silver price"
+        "Silver",
+        "Oil"
       ],
       "otherFactors": [
-        "US dollar index"
+        "Conflict in the Middle East",
+        "Uncertainty in the markets"
       ]
     },
     {
@@ -197,7 +205,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI trend has led to a surge in demand for AI semiconductor stocks. This makes AI semiconductor ETFs like SMH a potential buy.",
+      "summary": "The demand for AI-related products is growing, which could lead to an increase in the price of AI semiconductor stocks. Nvidia and AMD are two of the leading companies in this sector.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -209,32 +217,34 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Nvidia Corporation (NVDA)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "The surge in demand for AI semiconductor stocks makes SMH a potential buy. Rotating into Nvidia NVDA can also provide exposure to the AI trend.",
+      "reasoning": "The demand for AI-related products is growing, which could lead to an increase in the price of AI semiconductor stocks. Nvidia and AMD are two of the leading companies in this sector.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor AI-related news and semiconductor stocks"
+        "note": "Monitor the demand for AI-related products and adjust accordingly"
       },
-      "exitStrategy": "Exit when AI trend slows down or semiconductor stocks decline",
+      "exitStrategy": "Exit if the demand for AI-related products slows down or if the price of AI semiconductor stocks rises above $200",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If AI trend stabilizes",
-        "base": "+10-15%",
+        "conservativeNote": "If the demand for AI-related products is steady",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If AI trend continues",
+        "extended": "+25%+",
+        "extendedNote": "If the demand for AI-related products grows significantly",
         "stopLoss": "-8% on SMH"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI-related stocks",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Demand for AI-related products",
+        "Competition between Nvidia and AMD"
       ]
     },
     {
@@ -243,7 +253,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economic growth has been affected by the Iran war escalation and increased geopolitical instability. This has led to a decline in consumer sentiment and an increase in inflation.",
+      "summary": "The US economy is growing, but the pace of growth is slowing down. The Federal Reserve's decision on interest rates could have a significant impact on the economy.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
@@ -260,27 +270,29 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The decline in US economic growth makes aggregate bond ETFs like AGG a potential buy. On the other hand, the S&P 500 ETF may decline in value, making it a potential short.",
+      "reasoning": "The US economy is growing, but the pace of growth is slowing down. The Federal Reserve's decision on interest rates could have a significant impact on the economy.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US economic growth and inflation"
+        "note": "Monitor the Federal Reserve's decision and adjust accordingly"
       },
-      "exitStrategy": "Exit when US economic growth improves or inflation declines",
+      "exitStrategy": "Exit if the Federal Reserve decides to hike interest rates or if the US economy grows faster than expected",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If US economic growth stabilizes",
-        "base": "+5-8%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the Federal Reserve decides to keep interest rates steady",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If US economic growth declines significantly",
-        "stopLoss": "-5% on AGG"
+        "extended": "+25%+",
+        "extendedNote": "If the US economy grows faster than expected",
+        "stopLoss": "-8% on AGG"
       },
       "adjacentMarkets": [
-        "Mortgage rates"
+        "US dollar",
+        "Stock market"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Federal Reserve decision",
+        "US economy"
       ]
     },
     {
@@ -289,53 +301,55 @@
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations have been affected by the Iran war escalation and increased geopolitical instability. This has led to a decline in trade between the two countries and an increase in tariffs.",
+      "summary": "The trade relations between the US and China are tense, and the ongoing conflict in the Middle East could further escalate the situation. The US has imposed tariffs on Chinese goods, and China has retaliated with its own tariffs.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The decline in US-China trade relations makes the US dollar index ETF UUP a potential buy. On the other hand, the China large-cap ETF FXI may decline in value, making it a potential short.",
+      "reasoning": "The trade relations between the US and China are tense, and the ongoing conflict in the Middle East could further escalate the situation. The US has imposed tariffs on Chinese goods, and China has retaliated with its own tariffs.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US-China trade relations and tariffs"
+        "note": "Monitor the trade relations between the US and China and adjust accordingly"
       },
-      "exitStrategy": "Exit when US-China trade relations improve or tariffs decline",
+      "exitStrategy": "Exit if the trade relations between the US and China improve or if the US dollar rises above 100",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If US-China trade relations stabilize",
-        "base": "+10-15%",
+        "conservativeNote": "If the trade relations between the US and China remain steady",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If US-China trade relations decline significantly",
-        "stopLoss": "-8% on UUP"
+        "extended": "+25%+",
+        "extendedNote": "If the trade relations between the US and China deteriorate further",
+        "stopLoss": "-8% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "US dollar",
+        "Chinese yuan"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Trade relations between the US and China",
+        "Tariffs"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "ener",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "The OPEC oil production has been affected by the Iran war escalation and increased geopolitical instability. This has led to a decline in oil production and an increase in oil prices.",
+      "summary": "OPEC has announced that it will increase oil production to meet the growing demand. The price of oil has been rising due to the ongoing conflict in the Middle East.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
@@ -344,35 +358,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares U.S. Energy ETF (IYE)"
         }
       ],
-      "reasoning": "The decline in OPEC oil production makes oil ETFs like USO a potential buy. On the other hand, the S&P 500 ETF may decline in value, making it a potential short.",
+      "reasoning": "OPEC has announced that it will increase oil production to meet the growing demand. The price of oil has been rising due to the ongoing conflict in the Middle East.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor OPEC oil production and oil prices"
+        "note": "Monitor the price of oil and adjust accordingly"
       },
-      "exitStrategy": "Exit when OPEC oil production increases or oil prices decline",
+      "exitStrategy": "Exit if the price of oil rises above $100 or if OPEC decides to cut production",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If OPEC oil production stabilizes",
-        "base": "+5-8%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the price of oil remains steady",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If OPEC oil production declines significantly",
-        "stopLoss": "-5% on USO"
+        "extended": "+25%+",
+        "extendedNote": "If the price of oil rises significantly",
+        "stopLoss": "-8% on XOP"
       },
       "adjacentMarkets": [
-        "Natural gas prices"
+        "Oil",
+        "Natural gas"
       ],
       "otherFactors": [
-        "US interest rates"
+        "OPEC production",
+        "Conflict in the Middle East"
       ]
     },
     {
@@ -381,53 +397,55 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Middle East Geopolitical Instability",
-      "summary": "The Middle East geopolitical instability has increased due to the Iran war escalation. This has led to a surge in oil prices and a decline in global stock markets.",
+      "summary": "The Middle East is experiencing geopolitical instability due to the ongoing conflict between the US and Iran. The situation is highly volatile and could lead to further escalation.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "iShares MSCI Israel ETF (EIS)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI Turkey ETF (TUR)"
         }
       ],
-      "reasoning": "The surge in oil prices makes oil services ETFs like OIH a potential buy. On the other hand, the decline in global stock markets makes the S&P 500 ETF a potential short.",
+      "reasoning": "The Middle East is experiencing geopolitical instability due to the ongoing conflict between the US and Iran. The situation is highly volatile and could lead to further escalation.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor Middle East geopolitical news and oil prices"
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation in the Middle East and adjust accordingly"
       },
-      "exitStrategy": "Exit when Middle East geopolitical instability declines or oil prices stabilize",
+      "exitStrategy": "Exit if the conflict in the Middle East is contained or if the US dollar rises above 100",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If Middle East geopolitical instability stabilizes",
-        "base": "+10-15%",
+        "conservativeNote": "If the conflict in the Middle East is contained",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If Middle East geopolitical instability escalates further",
-        "stopLoss": "-8% on OIH"
+        "extended": "+25%+",
+        "extendedNote": "If the conflict in the Middle East escalates further",
+        "stopLoss": "-8% on EIS"
       },
       "adjacentMarkets": [
-        "Gold price"
+        "Oil",
+        "US dollar"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Conflict in the Middle East",
+        "US-Iran relations"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "stock",
+      "catLabel": "Stocks",
       "title": "US Stocks",
-      "summary": "The US stocks have been affected by the Iran war escalation and increased geopolitical instability. This has led to a decline in stock prices and an increase in volatility.",
+      "summary": "The US stock market is experiencing volatility due to the ongoing conflict in the Middle East and the uncertainty in the markets. The Federal Reserve's decision on interest rates could have a significant impact on the market.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
@@ -436,35 +454,133 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Invesco QQQ Trust (QQQ)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The decline in US stocks makes the S&P 500 ETF a potential buy. On the other hand, the Nasdaq ETF QQQ may decline in value, making it a potential short.",
+      "reasoning": "The US stock market is experiencing volatility due to the ongoing conflict in the Middle East and the uncertainty in the markets. The Federal Reserve's decision on interest rates could have a significant impact on the market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US stocks and volatility"
+        "note": "Monitor the US stock market and adjust accordingly"
       },
-      "exitStrategy": "Exit when US stocks improve or volatility declines",
+      "exitStrategy": "Exit if the US stock market rises above its previous high or if the Federal Reserve decides to hike interest rates",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If US stocks stabilize",
-        "base": "+5-8%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the US stock market remains steady",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If US stocks decline significantly",
-        "stopLoss": "-5% on SPY"
+        "extended": "+25%+",
+        "extendedNote": "If the US stock market rises significantly",
+        "stopLoss": "-8% on VTI"
       },
       "adjacentMarkets": [
-        "Dow Jones Industrial Average"
+        "US dollar",
+        "Oil"
       ],
       "otherFactors": [
-        "US interest rates"
+        "Federal Reserve decision",
+        "US economy"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI Spending Surge",
+      "summary": "The demand for AI-related products is growing, which could lead to an increase in the price of AI-related stocks. Nvidia and AMD are two of the leading companies in this sector.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares North American Tech ETF (IGM)"
+        }
+      ],
+      "reasoning": "The demand for AI-related products is growing, which could lead to an increase in the price of AI-related stocks. Nvidia and AMD are two of the leading companies in this sector.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the demand for AI-related products and adjust accordingly"
+      },
+      "exitStrategy": "Exit if the demand for AI-related products slows down or if the price of AI-related stocks rises above $200",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If the demand for AI-related products is steady",
+        "base": "+12-18%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the demand for AI-related products grows significantly",
+        "stopLoss": "-8% on BOTZ"
+      },
+      "adjacentMarkets": [
+        "AI-related stocks",
+        "Semiconductor stocks"
+      ],
+      "otherFactors": [
+        "Demand for AI-related products",
+        "Competition between Nvidia and AMD"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Policy",
+      "summary": "The Federal Reserve is set to announce its decision on interest rates, which could have a significant impact on the economy. A rate hike could lead to a rise in the US dollar and a decrease in the stock market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "The Federal Reserve is set to announce its decision on interest rates, which could have a significant impact on the economy. A rate hike could lead to a rise in the US dollar and a decrease in the stock market.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the Federal Reserve's decision and adjust accordingly"
+      },
+      "exitStrategy": "Exit if the Federal Reserve decides to hike interest rates or if the US dollar rises above 100",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If the Federal Reserve decides to keep interest rates steady",
+        "base": "+12-18%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the US dollar rises significantly",
+        "stopLoss": "-8% on CSJ"
+      },
+      "adjacentMarkets": [
+        "US dollar",
+        "Stock market"
+      ],
+      "otherFactors": [
+        "Federal Reserve decision",
+        "US economy"
       ]
     }
   ]
