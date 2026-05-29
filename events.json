@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T03:52:17Z",
+  "lastUpdated": "2026-05-29T07:59:56Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,9 +13,9 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war has escalated, leading to increased geopolitical tensions and potential disruptions to global oil supplies. The US has shown military strength, but its waning geopolitical power is a concern. The conflict may lead to higher oil prices and increased volatility in the market.",
+      "summary": "The Iran war is escalating, with potential implications for global oil prices and geopolitical stability. The US and its allies are considering further military action, while Iran has vowed to retaliate. The conflict is likely to have significant effects on the global economy and financial markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "just now",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
@@ -30,27 +30,29 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Iran war escalation may lead to increased demand for safe-haven assets, such as US stocks, and decreased demand for emerging market assets. The conflict may also lead to higher oil prices, which could negatively impact emerging markets.",
+      "reasoning": "The escalating conflict in Iran is likely to lead to increased volatility in global markets, with potential implications for oil prices, interest rates, and economic growth. Investors should consider buying safe-haven assets such as US Treasury bonds or gold, while shorting emerging market ETFs that may be vulnerable to the conflict.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and geopolitical developments"
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when oil prices stabilize or geopolitical tensions ease",
+      "exitStrategy": "Consider exiting positions if the conflict de-escalates or if the US Federal Reserve announces a rate cut",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If oil prices stabilize",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
         "extendedNote": "If the conflict escalates further",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil (potential supply disruption)"
       ],
       "otherFactors": [
-        "OPEC oil production"
+        "US Federal Reserve policy",
+        "Global economic growth"
       ]
     },
     {
@@ -59,11 +61,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia Earnings Report",
-      "summary": "Nvidia's earnings report has been released, showing strong growth in AI-related revenue. The company has announced plans to spend $150 billion on AI chip production in Taiwan.",
+      "summary": "Nvidia is set to report its quarterly earnings, with investors watching closely for signs of growth in the company's AI and gaming businesses. The company has been a leader in the AI chip market, but faces increasing competition from rivals such as AMD and Google.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -71,32 +73,34 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's strong earnings report and plans for AI chip production may lead to increased demand for the company's stock and the semiconductor sector as a whole.",
+      "reasoning": "Nvidia's earnings report is likely to have significant implications for the company's stock price and the broader tech sector. Investors should consider buying Nvidia shares if the company reports strong growth in its AI and gaming businesses, while shorting rival AMD if it fails to meet expectations.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor Nvidia's stock price and semiconductor sector developments"
+        "note": "Monitor earnings report and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when Nvidia's stock price reaches $500 or the semiconductor sector shows signs of weakness",
+      "exitStrategy": "Consider exiting positions if Nvidia's stock price reaches $500 or if the company announces a major partnership or acquisition",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If Nvidia's stock price stabilizes",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the earnings report is neutral",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the semiconductor sector shows strong growth",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+15%+",
+        "extendedNote": "If the earnings report is strongly positive",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI and gaming stocks",
+        "Semiconductor ETFs"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Competition from AMD and Google",
+        "Global demand for AI and gaming products"
       ]
     },
     {
@@ -105,44 +109,46 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Interest Rate Hike",
-      "summary": "The US Federal Reserve is considering an interest rate hike due to rising inflation and strong economic growth. The decision may impact the US stock market and bond yields.",
+      "summary": "The US Federal Reserve is considering raising interest rates to combat inflation and maintain economic growth. The decision is likely to have significant implications for the US economy and financial markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "An interest rate hike may lead to decreased demand for long-term bonds and increased demand for stocks, as higher interest rates may make borrowing more expensive and decrease the attractiveness of bonds.",
+      "reasoning": "A US interest rate hike is likely to lead to increased volatility in financial markets, with potential implications for bond yields, stock prices, and economic growth. Investors should consider buying long-term Treasury bonds if the Fed raises rates, while shorting the S&P 500 if the hike is seen as negative for the economy.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the Federal Reserve's decision and bond yields"
+        "viable": "4-8 weeks",
+        "note": "Monitor Fed announcements and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when the Federal Reserve announces its decision or bond yields stabilize",
+      "exitStrategy": "Consider exiting positions if the Fed announces a rate cut or if the US economy shows signs of slowing",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the Federal Reserve announces a small rate hike",
-        "base": "+12\u201318%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the rate hike is small",
+        "base": "+6-10%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the Federal Reserve announces a large rate hike",
-        "stopLoss": "-8% on TLT"
+        "extended": "+12%+",
+        "extendedNote": "If the rate hike is large",
+        "stopLoss": "-4% on TLT"
       },
       "adjacentMarkets": [
-        "US dollar"
+        "US dollar (potential strength)",
+        "Commodities (potential weakness)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     },
     {
@@ -151,11 +157,11 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price has been stable due to decreased demand for safe-haven assets. However, the Iran war escalation and potential interest rate hike may lead to increased demand for gold.",
+      "summary": "The price of gold is likely to be affected by the escalating conflict in Iran and the potential for increased demand for safe-haven assets. The metal has been trading in a range in recent weeks, but could break out if the conflict escalates further.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -163,32 +169,34 @@
           "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Gold Miners ETF (GDX)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Silver Trust (SLV)"
         }
       ],
-      "reasoning": "The gold price may increase due to increased demand for safe-haven assets, but the potential interest rate hike may decrease the attractiveness of gold.",
+      "reasoning": "The price of gold is likely to be influenced by the conflict in Iran and the potential for increased demand for safe-haven assets. Investors should consider buying gold if the conflict escalates further, while shorting silver if the metal fails to keep pace with gold.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor gold price and geopolitical developments"
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when gold price reaches $1,800 or the US dollar strengthens",
+      "exitStrategy": "Consider exiting positions if the conflict de-escalates or if the US Federal Reserve announces a rate cut",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If gold price stabilizes",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the gold price increases significantly",
-        "stopLoss": "-5% on GLD"
+        "extended": "+8%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-2% on GLD"
       },
       "adjacentMarkets": [
-        "US dollar"
+        "Silver (potential weakness)",
+        "US dollar (potential strength)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Central bank buying",
+        "Jewelry demand"
       ]
     },
     {
@@ -197,11 +205,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "AI semiconductor stocks have been increasing in value due to strong demand for AI-related products. Nvidia's earnings report and plans for AI chip production may lead to further growth in the sector.",
+      "summary": "The AI semiconductor market is highly competitive, with companies such as Nvidia, AMD, and Google vying for market share. The sector is likely to be influenced by the escalating conflict in Iran and the potential for increased demand for AI and gaming products.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -209,32 +217,34 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
+          "label": "SHORT",
+          "cls": "short",
           "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "The AI semiconductor sector may continue to grow due to strong demand for AI-related products and Nvidia's plans for AI chip production.",
+      "reasoning": "The AI semiconductor market is highly competitive, with potential implications for the broader tech sector. Investors should consider buying semiconductor ETFs if the conflict in Iran leads to increased demand for AI and gaming products, while shorting rival ETFs if the sector fails to keep pace.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor Nvidia's stock price and semiconductor sector developments"
+        "viable": "4-8 weeks",
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when Nvidia's stock price reaches $500 or the semiconductor sector shows signs of weakness",
+      "exitStrategy": "Consider exiting positions if the conflict de-escalates or if the US Federal Reserve announces a rate cut",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If Nvidia's stock price stabilizes",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the semiconductor sector shows strong growth",
-        "stopLoss": "-8% on SMH"
+        "extended": "+15%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-5% on SMH"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI and gaming stocks",
+        "Tech ETFs"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Competition from China",
+        "Global demand for AI and gaming products"
       ]
     },
     {
@@ -243,44 +253,46 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth",
-      "summary": "The US economy has been growing strongly, but the Iran war escalation and potential interest rate hike may lead to decreased economic growth.",
+      "summary": "The US economy is likely to be influenced by the escalating conflict in Iran and the potential for increased demand for safe-haven assets. The economy has been growing steadily in recent quarters, but could slow if the conflict escalates further.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US economy may continue to grow, but the potential interest rate hike and Iran war escalation may lead to decreased economic growth.",
+      "reasoning": "The US economy is likely to be influenced by the conflict in Iran and the potential for increased demand for safe-haven assets. Investors should consider buying US Treasury bonds if the conflict escalates further, while shorting the S&P 500 if the economy slows.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US economic indicators and geopolitical developments"
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when the US economy shows signs of weakness or the Federal Reserve announces its decision",
+      "exitStrategy": "Consider exiting positions if the conflict de-escalates or if the US Federal Reserve announces a rate cut",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the US economy stabilizes",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the US economy continues to grow strongly",
-        "stopLoss": "-5% on SPY"
+        "extended": "+8%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-2% on AGG"
       },
       "adjacentMarkets": [
-        "US dollar"
+        "US dollar (potential strength)",
+        "Commodities (potential weakness)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     },
     {
@@ -289,11 +301,11 @@
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relationship has been tense, with both countries imposing tariffs on each other's goods. The US has announced plans to seek public comment on which Chinese goods qualify for lower tariffs.",
+      "summary": "The US and China are engaged in a trade war, with potential implications for global trade and economic growth. The conflict in Iran could lead to increased tensions between the two countries, with potential implications for trade relations.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -301,78 +313,82 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
+          "label": "SHORT",
+          "cls": "short",
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The US-China trade relationship may improve, leading to increased demand for Chinese stocks and emerging market assets.",
+      "reasoning": "The US and China are engaged in a trade war, with potential implications for global trade and economic growth. Investors should consider buying Chinese stocks if the conflict in Iran leads to increased tensions between the two countries, while shorting emerging market ETFs if the trade war escalates further.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor US-China trade developments"
+        "viable": "4-8 weeks",
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when the US and China announce a trade agreement or the trade relationship deteriorates",
+      "exitStrategy": "Consider exiting positions if the trade war de-escalates or if the US Federal Reserve announces a rate cut",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the US and China announce a small trade agreement",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the US and China announce a comprehensive trade agreement",
-        "stopLoss": "-8% on FXI"
+        "extended": "+15%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Emerging market assets"
+        "US dollar (potential strength)",
+        "Commodities (potential weakness)"
       ],
       "otherFactors": [
-        "Tariff rates"
+        "Global trade growth",
+        "US and Chinese economic growth"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "commod",
-      "catLabel": "Commodities",
+      "category": "ener",
+      "catLabel": "Energy",
       "title": "OPEC Oil Production",
-      "summary": "OPEC has announced plans to increase oil production, which may lead to decreased oil prices. However, the Iran war escalation may lead to increased oil prices.",
+      "summary": "OPEC is likely to be influenced by the escalating conflict in Iran and the potential for increased demand for oil. The cartel has been trying to stabilize the global oil market, but could face challenges if the conflict escalates further.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Global Energy ETF (IXC)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Energy ETF (IYE)"
         }
       ],
-      "reasoning": "The oil price may increase due to the Iran war escalation, but OPEC's plans to increase oil production may lead to decreased oil prices.",
+      "reasoning": "OPEC is likely to be influenced by the conflict in Iran and the potential for increased demand for oil. Investors should consider buying oil and gas ETFs if the conflict escalates further, while shorting energy ETFs if the sector fails to keep pace.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor oil price and geopolitical developments"
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when oil price reaches $70 or the Iran war escalation ends",
+      "exitStrategy": "Consider exiting positions if the conflict de-escalates or if OPEC announces a production cut",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If oil price stabilizes",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the oil price increases significantly",
-        "stopLoss": "-5% on USO"
+        "extended": "+8%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-2% on XOP"
       },
       "adjacentMarkets": [
-        "US dollar"
+        "Natural gas (potential strength)",
+        "Coal (potential weakness)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Global oil demand",
+        "US shale production"
       ]
     },
     {
@@ -381,90 +397,94 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Middle East Geopolitical Instability",
-      "summary": "The Middle East has been experiencing increased geopolitical instability due to the Iran war escalation and other conflicts. This may lead to increased demand for safe-haven assets and decreased demand for emerging market assets.",
+      "summary": "The Middle East is a highly volatile region, with potential implications for global oil prices and geopolitical stability. The conflict in Iran could lead to increased instability in the region, with potential implications for global markets.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Invesco DB Oil Fund (DBO)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares MSCI EAFE ETF (EFA)"
         }
       ],
-      "reasoning": "The Middle East geopolitical instability may lead to increased demand for safe-haven assets, such as US stocks, and decreased demand for emerging market assets.",
+      "reasoning": "The Middle East is a highly volatile region, with potential implications for global oil prices and geopolitical stability. Investors should consider buying oil ETFs if the conflict in Iran leads to increased instability in the region, while shorting international ETFs if the conflict escalates further.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor Middle East geopolitical developments"
+        "viable": "4-8 weeks",
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when the Middle East geopolitical instability decreases or the US stock market shows signs of weakness",
+      "exitStrategy": "Consider exiting positions if the conflict de-escalates or if the US Federal Reserve announces a rate cut",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the Middle East geopolitical instability decreases",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the Middle East geopolitical instability increases",
-        "stopLoss": "-8% on SPY"
+        "extended": "+15%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-5% on DBO"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Natural gas (potential strength)",
+        "Coal (potential weakness)"
       ],
       "otherFactors": [
-        "OPEC oil production"
+        "Global oil demand",
+        "US shale production"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "stock",
+      "catLabel": "Stocks",
       "title": "US Stocks",
-      "summary": "The US stock market has been growing strongly, but the Iran war escalation and potential interest rate hike may lead to decreased economic growth.",
+      "summary": "The US stock market is likely to be influenced by the escalating conflict in Iran and the potential for increased demand for safe-haven assets. The market has been volatile in recent weeks, but could stabilize if the conflict de-escalates.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US stock market may continue to grow, but the potential interest rate hike and Iran war escalation may lead to decreased economic growth.",
+      "reasoning": "The US stock market is likely to be influenced by the conflict in Iran and the potential for increased demand for safe-haven assets. Investors should consider buying US stocks if the conflict de-escalates, while shorting the S&P 500 if the market fails to keep pace.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor US economic indicators and geopolitical developments"
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when the US economy shows signs of weakness or the Federal Reserve announces its decision",
+      "exitStrategy": "Consider exiting positions if the conflict escalates further or if the US Federal Reserve announces a rate hike",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the US economy stabilizes",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the US economy continues to grow strongly",
-        "stopLoss": "-5% on SPY"
+        "extended": "+8%+",
+        "extendedNote": "If the conflict de-escalates",
+        "stopLoss": "-2% on VTI"
       },
       "adjacentMarkets": [
-        "US dollar"
+        "US dollar (potential strength)",
+        "Commodities (potential weakness)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     },
     {
@@ -472,45 +492,47 @@
       "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
-      "title": "AI Stock Market Boom",
-      "summary": "The AI stock market boom has been driven by strong demand for AI-related products and services. Nvidia's earnings report and plans for AI chip production may lead to further growth in the sector.",
+      "title": "AI and Gaming Stocks",
+      "summary": "The AI and gaming sectors are highly competitive, with companies such as Nvidia, AMD, and Google vying for market share. The conflict in Iran could lead to increased demand for AI and gaming products, with potential implications for the broader tech sector.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "VanEck Vectors Video Gaming and eSports ETF (ESPO)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares North American Tech ETF (IGM)"
         }
       ],
-      "reasoning": "The AI stock market boom may continue, driven by strong demand for AI-related products and services, and Nvidia's plans for AI chip production.",
+      "reasoning": "The AI and gaming sectors are highly competitive, with potential implications for the broader tech sector. Investors should consider buying AI and gaming ETFs if the conflict in Iran leads to increased demand for AI and gaming products, while shorting tech ETFs if the sector fails to keep pace.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor Nvidia's stock price and semiconductor sector developments"
+        "viable": "4-8 weeks",
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when Nvidia's stock price reaches $500 or the semiconductor sector shows signs of weakness",
+      "exitStrategy": "Consider exiting positions if the conflict de-escalates or if the US Federal Reserve announces a rate cut",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If Nvidia's stock price stabilizes",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the semiconductor sector shows strong growth",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+15%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-5% on ESPO"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI and gaming stocks",
+        "Tech ETFs"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "Competition from China",
+        "Global demand for AI and gaming products"
       ]
     },
     {
@@ -518,45 +540,47 @@
       "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "Fed Policy",
-      "summary": "The Federal Reserve has been considering an interest rate hike due to rising inflation and strong economic growth. The decision may impact the US stock market and bond yields.",
+      "title": "Global Economic Growth",
+      "summary": "Global economic growth is likely to be influenced by the escalating conflict in Iran and the potential for increased demand for safe-haven assets. The global economy has been growing steadily in recent quarters, but could slow if the conflict escalates further.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI ACWI ETF (ACWI)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision on interest rates may impact the US stock market and bond yields. A rate hike may lead to decreased demand for bonds and increased demand for stocks.",
+      "reasoning": "Global economic growth is likely to be influenced by the conflict in Iran and the potential for increased demand for safe-haven assets. Investors should consider buying global ETFs if the conflict de-escalates, while shorting emerging market ETFs if the global economy slows.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the Federal Reserve's decision and bond yields"
+        "note": "Monitor news headlines and adjust positions accordingly"
       },
-      "exitStrategy": "Exit when the Federal Reserve announces its decision or bond yields stabilize",
+      "exitStrategy": "Consider exiting positions if the conflict escalates further or if the US Federal Reserve announces a rate hike",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the Federal Reserve announces a small rate hike",
-        "base": "+5\u201310%",
+        "conservative": "+1-3%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the Federal Reserve announces a large rate hike",
-        "stopLoss": "-5% on SPY"
+        "extended": "+8%+",
+        "extendedNote": "If the conflict de-escalates",
+        "stopLoss": "-2% on ACWI"
       },
       "adjacentMarkets": [
-        "US dollar"
+        "US dollar (potential strength)",
+        "Commodities (potential weakness)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     }
   ]
