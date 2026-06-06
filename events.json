@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T12:06:11Z",
+  "lastUpdated": "2026-06-06T14:42:33Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran has significant implications for global markets, with potential for further escalation. The US and its allies are involved, and the situation remains volatile. Oil prices and safe-haven assets like gold may be affected.",
+      "summary": "The Iran war is escalating, with potential implications for global markets and economies. The conflict may lead to increased oil prices and decreased economic growth. The US and its allies are involved in the conflict, which may lead to further geopolitical tensions.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,42 +22,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Iran ETF (IRAN)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Invesco Oil & Gas ETF (PSCE)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran has the potential to disrupt global oil supplies, leading to higher prices. This could benefit oil-related ETFs, while safe-haven assets like gold may also see increased demand. The situation is highly volatile, and investors should be prepared for significant price movements.",
+      "reasoning": "The Iran war escalation may lead to increased oil prices, which would benefit oil services companies. On the other hand, emerging markets may be negatively impacted by the conflict, making them a potential short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news and adjust position as needed"
+        "note": "Monitor oil prices and geopolitical developments"
       },
-      "exitStrategy": "Close position if conflict escalates significantly or if oil prices drop below $60",
+      "exitStrategy": "Exit when oil prices stabilize or geopolitical tensions ease",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict remains contained",
-        "base": "+12\u201318%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If oil prices increase by 10%",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If conflict escalates significantly",
-        "stopLoss": "-8% on GLD"
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Dollar Index"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
         "US interest rates",
-        "Global economic growth"
+        "global economic growth"
       ]
     },
     {
@@ -66,7 +60,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Spending",
-      "summary": "Nvidia has announced significant investments in AI research and development, which could lead to increased demand for its products. The company's stock price may benefit from this trend.",
+      "summary": "Nvidia is increasing its AI spending, which may lead to increased demand for its products and services. The company's AI technology is being used in various industries, including gaming, healthcare, and finance.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -75,85 +69,82 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "Nvidia Corporation (NVDA)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From Intel Corporation (INTC) to NVDA"
         }
       ],
-      "reasoning": "Nvidia's investments in AI research and development could lead to increased demand for its products, driving up the stock price. The company's strong position in the AI market makes it a compelling investment opportunity.",
+      "reasoning": "Nvidia's increased AI spending may lead to increased demand for its products and services, making it a potential buy opportunity. Rotating from Intel to Nvidia may also be a good strategy, as Nvidia is a leader in the AI industry.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor earnings reports and industry trends"
+        "note": "Monitor Nvidia's AI developments and industry trends"
       },
-      "exitStrategy": "Close position if Nvidia's stock price drops below $200",
+      "exitStrategy": "Exit when Nvidia's AI growth slows down",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If AI demand remains steady",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If Nvidia's AI revenue increases by 10%",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI demand surges",
+        "extended": "+20%+",
+        "extendedNote": "If Nvidia's AI technology becomes widely adopted",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector",
-        "Semiconductor industry"
+        "AI-related stocks"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global economic growth"
+        "Competition from other AI companies"
       ]
     },
     {
       "id": 3,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economics",
       "title": "US Interest Rate Hike",
-      "summary": "The US Federal Reserve may raise interest rates to combat inflation, which could affect the stock market and economy. Investors should be prepared for potential volatility.",
+      "summary": "The US Federal Reserve may hike interest rates to combat inflation, which may impact the economy and financial markets. The interest rate hike may lead to increased borrowing costs and decreased consumer spending.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 8 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "SHORT",
+          "cls": "short",
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "BUY",
+          "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A potential interest rate hike by the US Federal Reserve could lead to increased volatility in the stock market. Investors may seek safe-haven assets like Treasury bonds, while the stock market may experience a correction.",
+      "reasoning": "The interest rate hike may lead to decreased bond prices, making them a potential short opportunity. On the other hand, the interest rate hike may not significantly impact the stock market, making it a potential buy opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "8 weeks",
-        "note": "Monitor Fed announcements and economic data"
+        "note": "Monitor inflation and interest rate developments"
       },
-      "exitStrategy": "Close position if interest rates remain unchanged",
+      "exitStrategy": "Exit when interest rates stabilize or the economy shows signs of slowing down",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If interest rates remain steady",
-        "base": "+8\u201312%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If interest rates increase by 0.25%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If interest rates rise significantly",
+        "extended": "+10%+",
+        "extendedNote": "If interest rates increase by 0.5% or more",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US Dollar Index",
-        "Commodities"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
         "Inflation rate",
-        "Global economic growth"
+        "unemployment rate"
       ]
     },
     {
@@ -162,7 +153,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Russia-Ukraine Conflict",
-      "summary": "The ongoing conflict between Russia and Ukraine has significant implications for global markets, particularly in the energy sector. Investors should monitor the situation closely.",
+      "summary": "The Russia-Ukraine conflict is ongoing, with potential implications for global markets and economies. The conflict may lead to increased tensions between Russia and the West, which may impact oil prices and global trade.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -171,37 +162,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Russia ETF (RSX)"
+          "target": "iShares MSCI Russia ETF (ERUS)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Ukraine ETF (URTY)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict between Russia and Ukraine has the potential to disrupt global energy supplies, particularly natural gas. Investors may seek to invest in Russian assets, while Ukrainian assets may experience volatility.",
+      "reasoning": "The Russia-Ukraine conflict may lead to increased tensions between Russia and the West, which may impact oil prices and global trade. Buying Russian stocks may be a good opportunity, while shorting emerging markets may be a good hedge.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor news and adjust position as needed"
+        "note": "Monitor conflict developments and global market trends"
       },
-      "exitStrategy": "Close position if conflict escalates significantly or if energy prices drop",
+      "exitStrategy": "Exit when the conflict is resolved or tensions ease",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If conflict remains contained",
-        "base": "+6\u201310%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the conflict is resolved",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If conflict escalates significantly",
-        "stopLoss": "-5% on RSX"
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on ERUS"
       },
       "adjacentMarkets": [
-        "Energy sector",
-        "Emerging markets"
+        "Oil prices"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Global trade",
+        "US-Russia relations"
       ]
     },
     {
@@ -210,7 +200,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The increasing demand for AI-related products has led to a surge in the semiconductor industry, particularly for companies that produce AI-specific chips. Investors may seek to invest in these companies.",
+      "summary": "AI semiconductor stocks are increasing in value, driven by growing demand for AI technology. The stocks may be a good investment opportunity, but also come with risks such as competition and regulatory challenges.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -222,43 +212,41 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From Intel Corporation (INTC) to NVDA"
         }
       ],
-      "reasoning": "The increasing demand for AI-related products has led to a surge in the semiconductor industry, particularly for companies that produce AI-specific chips. Investors may seek to invest in these companies, which could experience significant growth.",
+      "reasoning": "AI semiconductor stocks are increasing in value, making them a potential buy opportunity. Rotating from Intel to Nvidia may also be a good strategy, as Nvidia is a leader in the AI industry.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor earnings reports and industry trends"
+        "note": "Monitor AI developments and industry trends"
       },
-      "exitStrategy": "Close position if AI demand drops significantly",
+      "exitStrategy": "Exit when AI growth slows down",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If AI demand remains steady",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI demand increases by 10%",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI demand surges",
+        "extended": "+20%+",
+        "extendedNote": "If AI technology becomes widely adopted",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector",
-        "Semiconductor industry"
+        "AI-related stocks"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global economic growth"
+        "Competition from other AI companies"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economics",
       "title": "US Economic Growth Outlook",
-      "summary": "The US economy is expected to experience steady growth, driven by a strong labor market and increased consumer spending. Investors should monitor the situation closely.",
+      "summary": "The US economic growth outlook is positive, driven by low unemployment and increased consumer spending. However, the growth may be impacted by factors such as inflation and interest rates.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -270,34 +258,33 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From iShares MSCI Emerging Markets ETF (EEM) to SPY"
         }
       ],
-      "reasoning": "The US economy is expected to experience steady growth, driven by a strong labor market and increased consumer spending. Investors may seek to invest in the stock market, while bond yields may experience volatility.",
+      "reasoning": "The US economic growth outlook is positive, making it a potential buy opportunity. Rotating from emerging markets to the US market may also be a good strategy, as the US market is less volatile.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor economic data and adjust position as needed"
+        "note": "Monitor economic developments and market trends"
       },
-      "exitStrategy": "Close position if economic growth slows significantly",
+      "exitStrategy": "Exit when the economy shows signs of slowing down",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If economic growth remains steady",
-        "base": "+6\u201310%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the economy grows by 2%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If economic growth surges",
+        "extended": "+10%+",
+        "extendedNote": "If the economy grows by 3% or more",
         "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US Dollar Index",
-        "Commodities"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
         "Inflation rate",
-        "Global economic growth"
+        "unemployment rate"
       ]
     },
     {
@@ -306,16 +293,16 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Middle East Conflict Escalation",
-      "summary": "The ongoing conflicts in the Middle East have significant implications for global markets, particularly in the energy sector. Investors should monitor the situation closely.",
+      "summary": "The Middle East conflict is escalating, with potential implications for global markets and economies. The conflict may lead to increased oil prices and decreased economic growth.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
@@ -323,29 +310,28 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The ongoing conflicts in the Middle East have the potential to disrupt global energy supplies, particularly oil. Investors may seek safe-haven assets like gold, while emerging markets may experience volatility.",
+      "reasoning": "The Middle East conflict escalation may lead to increased oil prices, which would benefit oil services companies. On the other hand, emerging markets may be negatively impacted by the conflict, making them a potential short opportunity.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor news and adjust position as needed"
+        "viable": "4-8 weeks",
+        "note": "Monitor conflict developments and global market trends"
       },
-      "exitStrategy": "Close position if conflict escalates significantly or if oil prices drop",
+      "exitStrategy": "Exit when the conflict is resolved or tensions ease",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If conflict remains contained",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If oil prices increase by 10%",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If conflict escalates significantly",
-        "stopLoss": "-5% on GLD"
+        "extended": "+20%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
-        "Energy sector",
-        "Emerging markets"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
         "US interest rates",
-        "Global economic growth"
+        "global economic growth"
       ]
     },
     {
@@ -354,7 +340,7 @@
       "category": "commod",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The price of gold has been steady, driven by a strong US dollar and increased demand for safe-haven assets. Investors should monitor the situation closely.",
+      "summary": "The gold price is increasing, driven by safe haven demand and decreased supply. The price may be a good investment opportunity, but also comes with risks such as competition from other safe haven assets.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -363,37 +349,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares (GLD)"
+          "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Silver Trust (SLV)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From iShares Silver Trust (SLV) to GLD"
         }
       ],
-      "reasoning": "The price of gold has been steady, driven by a strong US dollar and increased demand for safe-haven assets. Investors may seek to invest in gold, while silver prices may experience volatility.",
+      "reasoning": "The gold price is increasing, making it a potential buy opportunity. Rotating from silver to gold may also be a good strategy, as gold is a more stable safe haven asset.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor economic data and adjust position as needed"
+        "note": "Monitor gold price trends and market developments"
       },
-      "exitStrategy": "Close position if gold price drops significantly",
+      "exitStrategy": "Exit when the gold price stabilizes or decreases",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If gold price remains steady",
-        "base": "+6\u201310%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the gold price increases by 5%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If gold price surges",
+        "extended": "+10%+",
+        "extendedNote": "If the gold price increases by 10% or more",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "US Dollar Index",
-        "Commodities"
+        "Silver price"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "Global economic growth"
+        "US dollar index",
+        "inflation rate"
       ]
     },
     {
@@ -402,7 +387,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Chip Stocks",
-      "summary": "The increasing demand for AI-related products has led to a surge in the semiconductor industry, particularly for companies that produce AI-specific chips. Investors may seek to invest in these companies.",
+      "summary": "Chip stocks are increasing in value, driven by growing demand for semiconductors. The stocks may be a good investment opportunity, but also come with risks such as competition and regulatory challenges.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -411,46 +396,44 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From iShares PHLX Semiconductor ETF (SOXX) to SMH"
         }
       ],
-      "reasoning": "The increasing demand for AI-related products has led to a surge in the semiconductor industry, particularly for companies that produce AI-specific chips. Investors may seek to invest in these companies, which could experience significant growth.",
+      "reasoning": "Chip stocks are increasing in value, making them a potential buy opportunity. Rotating from one semiconductor ETF to another may also be a good strategy, as the semiconductor industry is growing.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor earnings reports and industry trends"
+        "note": "Monitor semiconductor trends and industry developments"
       },
-      "exitStrategy": "Close position if AI demand drops significantly",
+      "exitStrategy": "Exit when the semiconductor growth slows down",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If AI demand remains steady",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If semiconductor demand increases by 10%",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI demand surges",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If semiconductor technology becomes widely adopted",
+        "stopLoss": "-8% on SMH"
       },
       "adjacentMarkets": [
-        "Technology sector",
-        "Semiconductor industry"
+        "AI-related stocks"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global economic growth"
+        "Competition from other semiconductor companies"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "trade",
-      "catLabel": "Trade",
+      "category": "econ",
+      "catLabel": "Economics",
       "title": "US-China Trade Relations",
-      "summary": "The ongoing trade tensions between the US and China have significant implications for global markets, particularly in the technology sector. Investors should monitor the situation closely.",
+      "summary": "The US-China trade relations are improving, with potential implications for global markets and economies. The improved relations may lead to increased trade and economic growth.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -462,130 +445,33 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Invesco China Technology ETF (CQQQ)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From iShares MSCI Emerging Markets ETF (EEM) to FXI"
         }
       ],
-      "reasoning": "The ongoing trade tensions between the US and China have the potential to disrupt global supply chains, particularly in the technology sector. Investors may seek to invest in Chinese assets, while technology stocks may experience volatility.",
+      "reasoning": "The US-China trade relations are improving, making it a potential buy opportunity. Rotating from emerging markets to China may also be a good strategy, as China is a major trading partner with the US.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor trade negotiations and adjust position as needed"
+        "note": "Monitor trade developments and market trends"
       },
-      "exitStrategy": "Close position if trade tensions escalate significantly",
+      "exitStrategy": "Exit when the trade relations deteriorate",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If trade tensions remain steady",
-        "base": "+6\u201310%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If trade increases by 5%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If trade tensions ease",
+        "extended": "+10%+",
+        "extendedNote": "If trade increases by 10% or more",
         "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "US Dollar Index",
-        "Commodities"
+        "US stock market"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Recession Fears",
-      "summary": "The US economy is showing signs of slowing down, leading to fears of a potential recession. Investors should monitor the situation closely.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "The US economy is showing signs of slowing down, leading to fears of a potential recession. Investors may seek safe-haven assets like Treasury bonds, while the stock market may experience volatility.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor economic data and adjust position as needed"
-      },
-      "exitStrategy": "Close position if recession fears ease",
-      "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If recession fears remain steady",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If recession fears escalate",
-        "stopLoss": "-5% on TLT"
-      },
-      "adjacentMarkets": [
-        "US Dollar Index",
-        "Commodities"
-      ],
-      "otherFactors": [
-        "Inflation rate",
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Tech Stock Sell-Off",
-      "summary": "The tech sector has experienced a sell-off, driven by concerns over valuation and growth prospects. Investors should monitor the situation closely.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard Information Technology ETF (VIT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "First Trust Dow Jones Internet Index Fund (FDN)"
-        }
-      ],
-      "reasoning": "The tech sector has experienced a sell-off, driven by concerns over valuation and growth prospects. Investors may seek to invest in the tech sector, which could experience a rebound.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor earnings reports and industry trends"
-      },
-      "exitStrategy": "Close position if tech sector rebounds significantly",
-      "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If tech sector remains steady",
-        "base": "+6\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If tech sector surges",
-        "stopLoss": "-5% on VIT"
-      },
-      "adjacentMarkets": [
-        "Technology sector",
-        "Semiconductor industry"
-      ],
-      "otherFactors": [
-        "US-China trade relations",
-        "Global economic growth"
+        "US interest rates",
+        "global economic growth"
       ]
     }
   ]
