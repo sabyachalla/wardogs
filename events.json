@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T14:39:11Z",
+  "lastUpdated": "2026-06-11T18:16:37Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war is escalating, with the US and its allies involved in military operations. This has led to increased tensions in the Middle East and a rise in oil prices.",
+      "summary": "The Iran war has led to increased tensions in the Middle East, with potential for further escalation. This could lead to a rise in oil prices and a decrease in stock markets. The US and its allies are considering further action against Iran.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,36 +22,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The escalation of the Iran war is likely to lead to increased volatility in the markets, with a potential impact on oil prices and the global economy. This could lead to a rise in the S&P 500, as investors seek safe-haven assets.",
+      "reasoning": "The Iran war has the potential to disrupt global oil supplies, leading to higher prices and decreased economic growth. This could lead to a decrease in stock markets and an increase in safe-haven assets such as gold.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and geopolitical developments"
+        "note": "Monitor oil prices and stock market volatility"
       },
-      "exitStrategy": "Exit if oil prices drop below $60/barrel",
+      "exitStrategy": "Exit when oil prices stabilize and stock markets recover",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the war is contained",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If oil prices increase by 10%",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
         "extendedNote": "If the war escalates further",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "Geopolitical developments"
+        "US interest rates",
+        "Global economic growth"
       ]
     },
     {
@@ -60,93 +61,89 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Spending",
-      "summary": "Nvidia has announced a multiyear technology partnership with SK hynix to advance memory for AI factories. This is expected to drive growth in the AI semiconductor market.",
+      "summary": "Nvidia has announced a multiyear partnership with SK hynix to advance memory for AI factories. This could lead to increased demand for Nvidia's AI chips and a rise in its stock price.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Nvidia Corporation (NVDA)"
         }
       ],
-      "reasoning": "The partnership between Nvidia and SK hynix is expected to drive growth in the AI semiconductor market, with Nvidia being a key player in this space.",
+      "reasoning": "The partnership between Nvidia and SK hynix could lead to increased demand for Nvidia's AI chips, driving up its stock price.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor AI semiconductor market developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor Nvidia's stock price and AI chip demand"
       },
-      "exitStrategy": "Exit if Nvidia's stock price drops below $200",
+      "exitStrategy": "Exit when Nvidia's stock price reaches $500",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the partnership is successful",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If Nvidia's stock price increases by 10%",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the AI semiconductor market grows rapidly",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If AI chip demand surges",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI semiconductor market"
+        "AI Semiconductor Stocks",
+        "US Technology Index (XLK)"
       ],
       "otherFactors": [
-        "AI adoption rates",
-        "Competitor activity"
+        "US-China trade relations",
+        "Global AI adoption"
       ]
     },
     {
       "id": 3,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economics",
       "title": "US Interest Rate Hike",
-      "summary": "The US Federal Reserve is expected to raise interest rates in the coming weeks, due to rising inflation and a strong economy.",
+      "summary": "The US Federal Reserve may raise interest rates due to rising inflation and a strong economy. This could lead to a decrease in stock markets and an increase in bond yields.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The expected interest rate hike is likely to lead to a rise in the US dollar and a drop in bond prices, making it a good time to short Treasury bonds.",
+      "reasoning": "A US interest rate hike could lead to a decrease in stock markets and an increase in bond yields, making bonds a more attractive investment.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor inflation and economic data"
+        "viable": "2-4 weeks",
+        "note": "Monitor US interest rates and bond yields"
       },
-      "exitStrategy": "Exit if the interest rate hike is larger than expected",
+      "exitStrategy": "Exit when interest rates stabilize and bond yields decrease",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the interest rate hike is small",
-        "base": "+8\u201312%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If interest rates increase by 0.25%",
+        "base": "+6-10%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the interest rate hike is large",
-        "stopLoss": "-5% on TLT"
+        "extendedNote": "If interest rates increase by 0.5%",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US dollar",
-        "Bond market"
+        "US Dollar Index (UUP)",
+        "US Stock Market (SPY)"
       ],
       "otherFactors": [
-        "Inflation rates",
-        "Economic growth"
+        "US inflation rate",
+        "Global economic growth"
       ]
     },
     {
@@ -155,46 +152,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Russia-Ukraine Conflict",
-      "summary": "The conflict between Russia and Ukraine is ongoing, with a potential impact on the global economy and energy markets.",
+      "summary": "The conflict between Russia and Ukraine continues, with potential for further escalation. This could lead to a rise in oil prices and a decrease in stock markets.",
       "fresh": false,
       "freshLabel": "1w ago",
       "risk": "LOW",
-      "window": "Active now \u2014 16 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares MSCI Russia ETF (ERUS)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The ongoing conflict between Russia and Ukraine is likely to lead to increased volatility in the energy markets, making it a good time to buy oil services stocks.",
+      "reasoning": "The conflict between Russia and Ukraine has the potential to disrupt global oil supplies, leading to higher prices and decreased economic growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "16 weeks",
-        "note": "Monitor conflict developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor oil prices and stock market volatility"
       },
-      "exitStrategy": "Exit if the conflict escalates further",
+      "exitStrategy": "Exit when oil prices stabilize and stock markets recover",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+6\u201310%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If oil prices increase by 5%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
+        "extended": "+10%+",
         "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-5% on OIH"
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Energy markets",
-        "Russian economy"
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "Conflict developments",
-        "Energy prices"
+        "US interest rates",
+        "Global economic growth"
       ]
     },
     {
@@ -203,59 +200,59 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor market is growing rapidly, with companies such as Nvidia and AMD being key players.",
+      "summary": "AI semiconductor stocks such as Nvidia and AMD are expected to rise due to increased demand for AI chips. This could lead to a surge in their stock prices.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Nvidia Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "NVIDIA Corporation (NVDA)"
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The growing demand for AI semiconductors is likely to drive growth in the market, making it a good time to buy semiconductor stocks.",
+      "reasoning": "The demand for AI chips is increasing, driving up the stock prices of AI semiconductor companies such as Nvidia and AMD.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor AI semiconductor market developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor AI chip demand and stock prices"
       },
-      "exitStrategy": "Exit if the AI semiconductor market growth slows down",
+      "exitStrategy": "Exit when AI chip demand slows down and stock prices decrease",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the market growth is slow",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI chip demand increases by 10%",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the market growth is rapid",
-        "stopLoss": "-10% on SMH"
+        "extended": "+25%+",
+        "extendedNote": "If AI chip demand surges",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI market",
-        "Semiconductor market"
+        "US Technology Index (XLK)",
+        "AI Index (AIQ)"
       ],
       "otherFactors": [
-        "AI adoption rates",
-        "Competitor activity"
+        "US-China trade relations",
+        "Global AI adoption"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economics",
       "title": "US Economic Growth Outlook",
-      "summary": "The US economic growth outlook is positive, with a strong labor market and rising consumer spending.",
+      "summary": "The US economic growth outlook is expected to remain strong, with potential for further growth. This could lead to a rise in stock markets and a decrease in bond yields.",
       "fresh": false,
       "freshLabel": "1w ago",
       "risk": "LOW",
-      "window": "Active now \u2014 16 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -263,34 +260,34 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The positive economic growth outlook is likely to lead to a rise in the US stock market, making it a good time to buy stocks.",
+      "reasoning": "A strong US economic growth outlook could lead to a rise in stock markets and a decrease in bond yields, making stocks a more attractive investment.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "16 weeks",
-        "note": "Monitor economic data"
+        "viable": "2-4 weeks",
+        "note": "Monitor US economic growth and stock market volatility"
       },
-      "exitStrategy": "Exit if the economic growth slows down",
+      "exitStrategy": "Exit when US economic growth slows down and stock markets decrease",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the growth is slow",
-        "base": "+6\u201310%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If US economic growth increases by 1%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the growth is rapid",
+        "extended": "+10%+",
+        "extendedNote": "If US economic growth surges",
         "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US stock market",
-        "Bond market"
+        "US Dollar Index (UUP)",
+        "US Stock Market (SPY)"
       ],
       "otherFactors": [
-        "Economic growth rates",
-        "Inflation rates"
+        "US interest rates",
+        "Global economic growth"
       ]
     },
     {
@@ -299,94 +296,89 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Middle East Conflict Escalation",
-      "summary": "The conflict in the Middle East is escalating, with a potential impact on the global economy and energy markets.",
+      "summary": "The conflict in the Middle East is expected to escalate, with potential for further violence. This could lead to a rise in oil prices and a decrease in stock markets.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The escalating conflict in the Middle East is likely to lead to increased volatility in the energy markets, making it a good time to buy oil services stocks.",
+      "reasoning": "The conflict in the Middle East has the potential to disrupt global oil supplies, leading to higher prices and decreased economic growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor conflict developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor oil prices and stock market volatility"
       },
-      "exitStrategy": "Exit if the conflict escalates further",
+      "exitStrategy": "Exit when oil prices stabilize and stock markets recover",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If oil prices increase by 5%",
+        "base": "+6-10%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
+        "extended": "+15%+",
         "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on OIH"
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Energy markets",
-        "Emerging markets"
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "Conflict developments",
-        "Energy prices"
+        "US interest rates",
+        "Global economic growth"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "commod",
+      "category": "commodities",
       "catLabel": "Commodities",
       "title": "Gold Price",
-      "summary": "The gold price is rising, due to increased demand for safe-haven assets.",
+      "summary": "The gold price is expected to rise due to increased demand for safe-haven assets. This could lead to a surge in gold prices.",
       "fresh": false,
-      "freshLabel": "1d ago",
+      "freshLabel": "1w ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Silver Trust (SLV)"
+          "target": "SPDR Gold Shares (GLD)"
         }
       ],
-      "reasoning": "The rising gold price is likely to continue, making it a good time to buy gold.",
+      "reasoning": "The demand for safe-haven assets such as gold is increasing, driving up gold prices.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor gold price developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor gold prices and demand for safe-haven assets"
       },
-      "exitStrategy": "Exit if the gold price drops below $1,500/oz",
+      "exitStrategy": "Exit when gold prices decrease and demand for safe-haven assets slows down",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the demand is slow",
-        "base": "+6\u201310%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If gold prices increase by 5%",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the demand is rapid",
+        "extended": "+10%+",
+        "extendedNote": "If gold prices surge",
         "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Silver market",
-        "US dollar"
+        "US Dollar Index (UUP)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "Demand for safe-haven assets",
-        "US dollar strength"
+        "US interest rates",
+        "Global economic growth"
       ]
     },
     {
@@ -395,94 +387,233 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Chip Stocks",
-      "summary": "The chip market is growing rapidly, with companies such as Nvidia and AMD being key players.",
+      "summary": "Chip stocks such as Intel and AMD are expected to rise due to increased demand for chips. This could lead to a surge in their stock prices.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Intel Corporation (INTC)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "NVIDIA Corporation (NVDA)"
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The growing demand for chips is likely to drive growth in the market, making it a good time to buy chip stocks.",
+      "reasoning": "The demand for chips is increasing, driving up the stock prices of chip companies such as Intel and AMD.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor chip market developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor chip demand and stock prices"
       },
-      "exitStrategy": "Exit if the chip market growth slows down",
+      "exitStrategy": "Exit when chip demand slows down and stock prices decrease",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the market growth is slow",
-        "base": "+12\u201318%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If chip demand increases by 10%",
+        "base": "+6-10%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the market growth is rapid",
-        "stopLoss": "-10% on SMH"
+        "extended": "+15%+",
+        "extendedNote": "If chip demand surges",
+        "stopLoss": "-8% on INTC"
       },
       "adjacentMarkets": [
-        "AI market",
-        "Semiconductor market"
+        "US Technology Index (XLK)",
+        "Semiconductor Index (SOXX)"
       ],
       "otherFactors": [
-        "AI adoption rates",
-        "Competitor activity"
+        "US-China trade relations",
+        "Global chip demand"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economics",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are tense, with a potential impact on the global economy.",
+      "summary": "The US-China trade relations are expected to remain tense, with potential for further tariffs. This could lead to a decrease in stock markets and an increase in bond yields.",
       "fresh": false,
       "freshLabel": "1w ago",
       "risk": "LOW",
-      "window": "Active now \u2014 16 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        }
+      ],
+      "reasoning": "A tense US-China trade relationship could lead to a decrease in stock markets and an increase in bond yields, making bonds a more attractive investment.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor US-China trade relations and stock market volatility"
+      },
+      "exitStrategy": "Exit when US-China trade relations improve and stock markets recover",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If US-China trade relations worsen",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If US-China trade relations deteriorate further",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Dollar Index (UUP)",
+        "US Stock Market (SPY)"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Iran War",
+      "summary": "The Iran war is expected to continue, with potential for further escalation. This could lead to a rise in oil prices and a decrease in stock markets.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The tense US-China trade relations are likely to lead to increased volatility in the markets, making it a good time to buy US stocks.",
+      "reasoning": "The Iran war has the potential to disrupt global oil supplies, leading to higher prices and decreased economic growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "16 weeks",
-        "note": "Monitor trade developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor oil prices and stock market volatility"
       },
-      "exitStrategy": "Exit if the trade relations improve",
+      "exitStrategy": "Exit when oil prices stabilize and stock markets recover",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the trade relations improve",
-        "base": "+6\u201310%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If oil prices increase by 5%",
+        "base": "+6-10%",
         "baseNote": "Most likely scenario",
-        "extended": "+12%+",
-        "extendedNote": "If the trade relations worsen",
-        "stopLoss": "-5% on ITOT"
+        "extended": "+15%+",
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Chinese economy",
-        "US economy"
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "Trade developments",
-        "Economic growth rates"
+        "US interest rates",
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "Federal Reserve Policy",
+      "summary": "The Federal Reserve is expected to maintain its current policy, with potential for future rate hikes. This could lead to a decrease in stock markets and an increase in bond yields.",
+      "fresh": false,
+      "freshLabel": "1w ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        }
+      ],
+      "reasoning": "A Federal Reserve policy that maintains current rates or hikes rates could lead to a decrease in stock markets and an increase in bond yields, making bonds a more attractive investment.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor Federal Reserve policy and stock market volatility"
+      },
+      "exitStrategy": "Exit when Federal Reserve policy changes and stock markets recover",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If Federal Reserve policy remains unchanged",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If Federal Reserve policy becomes more hawkish",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Dollar Index (UUP)",
+        "US Stock Market (SPY)"
+      ],
+      "otherFactors": [
+        "US economic growth",
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI Index",
+      "summary": "The AI Index is expected to rise due to increased demand for AI-related stocks. This could lead to a surge in AI-related stock prices.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Global X Artificial Intelligence & Robotics ETF (BOTZ)"
+        }
+      ],
+      "reasoning": "The demand for AI-related stocks is increasing, driving up the AI Index.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor AI Index and AI-related stock prices"
+      },
+      "exitStrategy": "Exit when AI Index decreases and AI-related stock prices slow down",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If AI Index increases by 5%",
+        "base": "+6-10%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If AI Index surges",
+        "stopLoss": "-8% on BOTZ"
+      },
+      "adjacentMarkets": [
+        "US Technology Index (XLK)",
+        "Nasdaq Composite Index (QQQ)"
+      ],
+      "otherFactors": [
+        "US-China trade relations",
+        "Global AI adoption"
       ]
     }
   ]
