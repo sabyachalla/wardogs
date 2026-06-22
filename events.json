@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T23:17:03Z",
+  "lastUpdated": "2026-06-22T04:27:35Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -12,8 +12,8 @@
       "rank": "HIGH",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "US-Iran Peace Deal",
-      "summary": "The US and Iran have reached a tentative peace deal, which could lead to a decrease in oil prices and a subsequent impact on the global economy. The deal is expected to be finalized in the coming weeks. This development could lead to increased market volatility.",
+      "title": "Iran War Escalation",
+      "summary": "The Iran war is escalating, with multiple countries involved, and the global economy is at risk. The conflict is affecting oil prices and geopolitical relationships. The US, UK, and other countries are involved in the conflict, and the situation is becoming increasingly complex.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,44 +22,46 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Energy ETF (VDE)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "United States Oil Fund (USO)"
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The peace deal between the US and Iran could lead to a decrease in oil prices, which would negatively impact oil-related stocks and positively impact energy-consuming sectors. Investors should consider buying energy ETFs and shorting oil-related stocks.",
+      "reasoning": "The escalating conflict in Iran is likely to lead to increased oil prices and a safe-haven bid for gold. The US and other countries' involvement in the conflict increases the risk of further escalation, making gold a more attractive asset. The oil market is likely to be affected by the conflict, making it a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil price movements"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when oil prices stabilize",
+      "exitStrategy": "Close the position if the conflict de-escalates or if the oil price drops significantly",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If oil prices decrease by 5%",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If oil prices decrease by 10%",
-        "stopLoss": "-8% on USO"
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on GLD"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "OPEC production levels"
+        "US-China trade relations",
+        "Global economic growth"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Micron Earnings",
-      "summary": "Micron's earnings are expected to show a significant increase in profit growth, which could positively impact the stock price. The company's earnings report is scheduled to be released soon.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, but has hinted at a possible rate hike later this year. The decision has been made to combat inflation, which has reached a 3-year high.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -68,43 +70,98 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Micron Technology Inc (MU)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "Micron's earnings report is expected to show a significant increase in profit growth, which could positively impact the stock price. Investors should consider buying the stock before the earnings report.",
+      "reasoning": "The Fed's decision to hold interest rates steady but hint at a possible rate hike later this year is likely to lead to increased demand for long-term Treasury bonds, making TLT a good buy opportunity. The possible rate hike is likely to affect the stock market, making SPY a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings report"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit after earnings report",
+      "exitStrategy": "Close the position if the Fed decides to cut interest rates or if the stock market rallies significantly",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If earnings report is positive",
-        "base": "+10-15%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the Fed decides to hold interest rates steady",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If earnings report is extremely positive",
-        "stopLoss": "-5% on MU"
+        "extended": "+15%+",
+        "extendedNote": "If the Fed decides to raise interest rates",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Nvidia Corporation (NVDA)"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Semiconductor industry trends"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     },
     {
       "id": 3,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Fed Interest Rate Decision",
-      "summary": "The Federal Reserve has held interest rates steady, but hinted at a possible rate hike in the future. This decision could impact the US economy and the stock market.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia AI Spending",
+      "summary": "Nvidia has announced increased spending on AI research and development, which is likely to lead to increased demand for its products and services.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "Nvidia's increased spending on AI research and development is likely to lead to increased demand for its products and services, making NVDA a good buy opportunity. The increased competition in the AI market is likely to affect AMD's sales, making AMD a good short opportunity.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the situation closely and adjust the position as needed"
+      },
+      "exitStrategy": "Close the position if Nvidia's sales decline or if AMD's sales increase significantly",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Nvidia's sales increase moderately",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If Nvidia's sales increase significantly",
+        "stopLoss": "-8% on NVDA"
+      },
+      "adjacentMarkets": [
+        "AI-related stocks (GOOGL, MSFT)",
+        "Semiconductor stocks (INTC, TXN)"
+      ],
+      "otherFactors": [
+        "AI adoption rates",
+        "Competition in the AI market"
+      ]
+    },
+    {
+      "id": 4,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Economic Growth Outlook",
+      "summary": "The US economic growth outlook is positive, with the economy expected to continue growing at a moderate pace.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -117,155 +174,125 @@
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady, but hint at a possible rate hike in the future, could positively impact the stock market and negatively impact the bond market. Investors should consider buying the S&P 500 ETF and shorting the 20-year Treasury bond ETF.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor interest rate movements"
-      },
-      "exitStrategy": "Exit when interest rates change",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If interest rates remain steady",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If interest rates increase",
-        "stopLoss": "-5% on TLT"
-      },
-      "adjacentMarkets": [
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "Inflation rate"
-      ]
-    },
-    {
-      "id": 4,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "CrowdStrike Earnings",
-      "summary": "CrowdStrike's earnings report is expected to show a significant increase in revenue growth, which could positively impact the stock price. The company's earnings report is scheduled to be released soon.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "CrowdStrike Holdings Inc (CRWD)"
-        }
-      ],
-      "reasoning": "CrowdStrike's earnings report is expected to show a significant increase in revenue growth, which could positively impact the stock price. Investors should consider buying the stock before the earnings report.",
+      "reasoning": "The positive US economic growth outlook is likely to lead to increased demand for stocks, making SPY a good buy opportunity. The moderate growth pace is likely to lead to decreased demand for long-term Treasury bonds, making TLT a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings report"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit after earnings report",
+      "exitStrategy": "Close the position if the US economic growth slows down or if the stock market declines significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If earnings report is positive",
-        "base": "+8-12%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the US economic growth slows down",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If earnings report is extremely positive",
-        "stopLoss": "-3% on CRWD"
+        "extended": "+10%+",
+        "extendedNote": "If the US economic growth accelerates",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Palo Alto Networks Inc (PANW)"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Cybersecurity industry trends"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     },
     {
       "id": 5,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Economic Growth Outlook",
-      "summary": "The US economic growth outlook is expected to remain steady, with a possible increase in growth rate. This could positively impact the stock market and the US economy.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Micron Earnings",
+      "summary": "Micron has announced strong earnings, with revenue and profit exceeding expectations.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "Micron Technology, Inc. (MU)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "Western Digital Corporation (WDC)"
         }
       ],
-      "reasoning": "The US economic growth outlook is expected to remain steady, with a possible increase in growth rate. This could positively impact the stock market and negatively impact the bond market. Investors should consider buying the total stock market ETF and shorting the 20-year Treasury bond ETF.",
+      "reasoning": "Micron's strong earnings are likely to lead to increased demand for its products and services, making MU a good buy opportunity. The strong earnings are likely to affect Western Digital's sales, making WDC a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor economic growth rate"
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when economic growth rate changes",
+      "exitStrategy": "Close the position if Micron's sales decline or if Western Digital's sales increase significantly",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If economic growth rate remains steady",
-        "base": "+10-15%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Micron's sales increase moderately",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If economic growth rate increases",
-        "stopLoss": "-5% on TLT"
+        "extended": "+25%+",
+        "extendedNote": "If Micron's sales increase significantly",
+        "stopLoss": "-8% on MU"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Semiconductor stocks (INTC, TXN)",
+        "Technology stocks (AAPL, GOOGL)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Competition in the semiconductor market",
+        "Demand for Micron's products"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Nvidia AI Spending",
-      "summary": "Nvidia's AI spending is expected to increase, which could positively impact the company's stock price. The company's AI technology is expected to be a major driver of growth.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "US-China Trade Relations",
+      "summary": "The US and China are engaged in trade negotiations, with the goal of reaching a new trade agreement.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Nvidia Corporation (NVDA)"
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "Nvidia's AI spending is expected to increase, which could positively impact the company's stock price. The company's AI technology is expected to be a major driver of growth. Investors should consider buying the stock.",
+      "reasoning": "The trade negotiations between the US and China are likely to lead to increased demand for Chinese stocks, making FXI a good buy opportunity. The trade negotiations are likely to affect the US stock market, making SPY a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor AI spending"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when AI spending decreases",
+      "exitStrategy": "Close the position if the trade negotiations fail or if the US stock market rallies significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If AI spending increases",
-        "base": "+8-12%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the trade negotiations fail",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If AI spending increases significantly",
-        "stopLoss": "-3% on NVDA"
+        "extended": "+10%+",
+        "extendedNote": "If the trade negotiations succeed",
+        "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Advanced Micro Devices Inc (AMD)"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "AI industry trends"
+        "Trade tensions",
+        "Global economic growth"
       ]
     },
     {
@@ -273,45 +300,47 @@
       "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "Gold Price",
-      "summary": "The gold price is expected to remain steady, with a possible increase in price. This could positively impact gold-related stocks and negatively impact the US dollar.",
+      "title": "US Recession Fears",
+      "summary": "There are concerns about a potential recession in the US, with some economists predicting a slowdown in economic growth.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The gold price is expected to remain steady, with a possible increase in price. This could positively impact gold-related stocks and negatively impact the US dollar. Investors should consider buying the gold ETF and shorting the US dollar index ETF.",
+      "reasoning": "The concerns about a potential recession in the US are likely to lead to increased demand for long-term Treasury bonds, making TLT a good buy opportunity. The potential recession is likely to affect the stock market, making SPY a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor gold price"
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when gold price changes",
+      "exitStrategy": "Close the position if the recession fears subside or if the stock market rallies significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If gold price remains steady",
-        "base": "+8-12%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the recession fears subside",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If gold price increases",
-        "stopLoss": "-5% on UUP"
+        "extendedNote": "If the recession occurs",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Silver (safe haven bid)"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     },
     {
@@ -320,39 +349,46 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "AI semiconductor stocks are expected to increase in value, driven by the growing demand for AI technology. Investors should consider buying these stocks.",
+      "summary": "AI semiconductor stocks are expected to continue growing, driven by increasing demand for AI-related products and services.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "AI semiconductor stocks are expected to increase in value, driven by the growing demand for AI technology. Investors should consider buying the semiconductor ETF.",
+      "reasoning": "The increasing demand for AI-related products and services is likely to lead to increased demand for AI semiconductor stocks, making NVDA a good buy opportunity. The increasing competition in the AI market is likely to affect AMD's sales, making AMD a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor AI demand"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when AI demand decreases",
+      "exitStrategy": "Close the position if the demand for AI-related products and services declines or if AMD's sales increase significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If AI demand increases",
-        "base": "+8-12%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the demand for AI-related products and services declines",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If AI demand increases significantly",
-        "stopLoss": "-3% on SMH"
+        "extended": "+10%+",
+        "extendedNote": "If the demand for AI-related products and services increases significantly",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Taiwan Semiconductor Manufacturing Company Ltd (TSM)"
+        "Semiconductor stocks (INTC, TXN)",
+        "Technology stocks (AAPL, GOOGL)"
       ],
       "otherFactors": [
-        "AI industry trends"
+        "Competition in the AI market",
+        "Demand for AI-related products and services"
       ]
     },
     {
@@ -360,137 +396,143 @@
       "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are expected to remain tense, with a possible increase in tariffs. This could negatively impact the global economy and the stock market.",
+      "title": "Oil Market Expectations",
+      "summary": "The oil market is expected to continue growing, driven by increasing demand and limited supply.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+          "target": "United States Oil Fund, LP (USO)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The US-China trade relations are expected to remain tense, with a possible increase in tariffs. This could negatively impact the global economy and the stock market. Investors should consider buying the US dollar index ETF and shorting the China ETF.",
+      "reasoning": "The increasing demand and limited supply in the oil market are likely to lead to increased prices, making USO a good buy opportunity. The increasing competition in the oil market is likely to affect the sales of oil and gas exploration and production companies, making IEO a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor trade relations"
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when trade relations improve",
+      "exitStrategy": "Close the position if the oil market declines or if the sales of oil and gas exploration and production companies increase significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If trade relations remain tense",
-        "base": "+8-12%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the oil market declines",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If trade relations deteriorate",
-        "stopLoss": "-5% on MCHI"
+        "extendedNote": "If the oil market increases significantly",
+        "stopLoss": "-5% on USO"
       },
       "adjacentMarkets": [
-        "Euro (EUR/USD)"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Tariff rates"
+        "Global economic growth",
+        "Geopolitical tensions"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Oil Market Expectations",
-      "summary": "The oil market expectations are expected to remain steady, with a possible decrease in price. This could positively impact the global economy and the stock market.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "US-Iran Peace Deal",
+      "summary": "The US and Iran are engaged in peace negotiations, with the goal of reaching a new agreement.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Energy ETF (VDE)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "United States Oil Fund (USO)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The oil market expectations are expected to remain steady, with a possible decrease in price. This could positively impact the global economy and the stock market. Investors should consider buying the energy ETF and shorting the oil fund.",
+      "reasoning": "The peace negotiations between the US and Iran are likely to lead to increased demand for emerging market stocks, making EEM a good buy opportunity. The peace negotiations are likely to affect the US stock market, making SPY a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor oil price"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when oil price changes",
+      "exitStrategy": "Close the position if the peace negotiations fail or if the US stock market rallies significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If oil price remains steady",
-        "base": "+8-12%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the peace negotiations fail",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If oil price decreases",
-        "stopLoss": "-3% on USO"
+        "extended": "+10%+",
+        "extendedNote": "If the peace negotiations succeed",
+        "stopLoss": "-5% on EEM"
       },
       "adjacentMarkets": [
-        "Natural Gas (safe haven bid)"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "OPEC production levels"
+        "Geopolitical tensions",
+        "Global economic growth"
       ]
     },
     {
       "id": 11,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Middle East Conflict Escalation",
-      "summary": "The Middle East conflict escalation is expected to remain high, with a possible increase in violence. This could negatively impact the global economy and the stock market.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "CrowdStrike Earnings",
+      "summary": "CrowdStrike has announced strong earnings, with revenue and profit exceeding expectations.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "CrowdStrike Holdings, Inc. (CRWD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "Palo Alto Networks, Inc. (PANW)"
         }
       ],
-      "reasoning": "The Middle East conflict escalation is expected to remain high, with a possible increase in violence. This could negatively impact the global economy and the stock market. Investors should consider buying the gold ETF and shorting the emerging markets ETF.",
+      "reasoning": "CrowdStrike's strong earnings are likely to lead to increased demand for its products and services, making CRWD a good buy opportunity. The strong earnings are likely to affect Palo Alto Networks' sales, making PANW a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor conflict escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when conflict escalation decreases",
+      "exitStrategy": "Close the position if CrowdStrike's sales decline or if Palo Alto Networks' sales increase significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If conflict escalation remains high",
-        "base": "+8-12%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If CrowdStrike's sales increase moderately",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If conflict escalation increases",
-        "stopLoss": "-5% on EEM"
+        "extended": "+25%+",
+        "extendedNote": "If CrowdStrike's sales increase significantly",
+        "stopLoss": "-8% on CRWD"
       },
       "adjacentMarkets": [
-        "Oil (safe haven bid)"
+        "Cybersecurity stocks (CYBR, FTNT)",
+        "Technology stocks (AAPL, GOOGL)"
       ],
       "otherFactors": [
-        "Geopolitical tensions"
+        "Competition in the cybersecurity market",
+        "Demand for CrowdStrike's products and services"
       ]
     },
     {
@@ -498,45 +540,47 @@
       "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "UAE Exit from OPEC",
-      "summary": "The UAE's exit from OPEC is expected to have a minimal impact on the oil market, with a possible decrease in oil prices. This could positively impact the global economy and the stock market.",
+      "title": "Gold Price",
+      "summary": "The gold price is expected to continue growing, driven by increasing demand and limited supply.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Energy ETF (VDE)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "United States Oil Fund (USO)"
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The UAE's exit from OPEC is expected to have a minimal impact on the oil market, with a possible decrease in oil prices. This could positively impact the global economy and the stock market. Investors should consider buying the energy ETF and shorting the oil fund.",
+      "reasoning": "The increasing demand and limited supply in the gold market are likely to lead to increased prices, making GLD a good buy opportunity. The increasing competition in the oil market is likely to affect the sales of oil and gas exploration and production companies, making IEO a good short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor oil price"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when oil price changes",
+      "exitStrategy": "Close the position if the gold market declines or if the sales of oil and gas exploration and production companies increase significantly",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If oil price remains steady",
-        "base": "+8-12%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the gold market declines",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If oil price decreases",
-        "stopLoss": "-3% on USO"
+        "extended": "+10%+",
+        "extendedNote": "If the gold market increases significantly",
+        "stopLoss": "-5% on GLD"
       },
       "adjacentMarkets": [
-        "Natural Gas (safe haven bid)"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "OPEC production levels"
+        "Inflation expectations",
+        "Global economic growth"
       ]
     }
   ]
