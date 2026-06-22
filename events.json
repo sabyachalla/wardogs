@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T19:31:06Z",
+  "lastUpdated": "2026-06-22T22:04:27Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,11 +13,103 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war is escalating, with the US and its allies involved in military actions. This has led to increased tensions in the Middle East and a rise in oil prices. The conflict is expected to continue, with potential implications for global markets.",
+      "summary": "The Iran war is escalating, with the US and its allies involved in military operations. This has led to increased tensions in the region and a rise in oil prices.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
+        }
+      ],
+      "reasoning": "The escalation of the Iran war is likely to lead to higher oil prices, which will benefit oil services companies. On the other hand, the increased uncertainty and risk will lead to a flight to safety, causing bond prices to rise and yields to fall.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor oil prices and adjust position accordingly"
+      },
+      "exitStrategy": "Close position if oil prices drop below $60 per barrel",
+      "gains": {
+        "conservative": "+8-12%",
+        "conservativeNote": "If oil prices rise to $70 per barrel",
+        "base": "+15-20%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If oil prices rise to $80 per barrel",
+        "stopLoss": "-10% on OIH"
+      },
+      "adjacentMarkets": [
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "US-Iran peace talks"
+      ]
+    },
+    {
+      "id": 2,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia AI Spending",
+      "summary": "Nvidia has announced a significant increase in AI spending, which is expected to drive growth in the company's stock price.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Nvidia Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "Nvidia's increased AI spending is expected to drive growth in the company's stock price, making it a good buy opportunity. On the other hand, AMD's stock price may be negatively affected by Nvidia's increased spending.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor Nvidia's stock price and adjust position accordingly"
+      },
+      "exitStrategy": "Close position if Nvidia's stock price drops below $200",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If Nvidia's stock price rises to $220",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If Nvidia's stock price rises to $250",
+        "stopLoss": "-8% on NVDA"
+      },
+      "adjacentMarkets": [
+        "AI-related stocks"
+      ],
+      "otherFactors": [
+        "AI adoption rates"
+      ]
+    },
+    {
+      "id": 3,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "US Economic Growth Outlook",
+      "summary": "The US economic growth outlook has improved, with expectations of higher GDP growth in the coming quarters.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -27,128 +119,30 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The escalation of the Iran war is expected to lead to increased volatility in global markets, with potential implications for oil prices, inflation, and interest rates. This could lead to a decline in bond prices and an increase in stock prices, particularly in the energy and defense sectors.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor oil prices and geopolitical developments"
-      },
-      "exitStrategy": "Exit if oil prices decline by 10% or if a ceasefire is announced",
-      "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
-      },
-      "adjacentMarkets": [
-        "Oil (WTI)",
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
-      ]
-    },
-    {
-      "id": 2,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Nvidia AI Spending",
-      "summary": "Nvidia has announced a significant increase in AI spending, with potential implications for the company's stock price and the broader tech sector.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
-        }
-      ],
-      "reasoning": "Nvidia's increased AI spending is expected to lead to improved earnings and revenue growth, with potential implications for the company's stock price. This could also lead to increased competition in the tech sector, particularly in the AI and semiconductor spaces.",
+      "reasoning": "The improved US economic growth outlook is expected to drive growth in the stock market, making it a good buy opportunity. On the other hand, the increased growth expectations may lead to higher interest rates, causing bond prices to fall.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor earnings reports and industry developments"
+        "note": "Monitor GDP growth expectations and adjust position accordingly"
       },
-      "exitStrategy": "Exit if Nvidia's stock price declines by 10% or if the company's earnings report is disappointing",
+      "exitStrategy": "Close position if GDP growth expectations drop below 2%",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the spending increase is modest",
-        "base": "+8-12%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If GDP growth expectations rise to 2.5%",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the spending increase is significant",
-        "stopLoss": "-5% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If GDP growth expectations rise to 3%",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Semiconductors (SMH)",
-        "Artificial Intelligence (AI)"
+        "Commodities"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
-      ]
-    },
-    {
-      "id": 3,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "US Economic Growth Outlook",
-      "summary": "The US economic growth outlook is expected to remain strong, with potential implications for interest rates and inflation.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares Core S&P Total US Stock Market ETF (ITOT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
-        }
-      ],
-      "reasoning": "The strong US economic growth outlook is expected to lead to increased interest rates and inflation, with potential implications for the stock and bond markets. This could lead to a decline in bond prices and an increase in stock prices, particularly in the consumer discretionary and technology sectors.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor economic data releases and Federal Reserve policy"
-      },
-      "exitStrategy": "Exit if the US economy enters a recession or if interest rates decline",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the growth outlook is modest",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the growth outlook is strong",
-        "stopLoss": "-4% on ITOT"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
+        "Inflation expectations"
       ]
     },
     {
@@ -157,203 +151,139 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Micron Earnings",
-      "summary": "Micron has announced its earnings report, with potential implications for the company's stock price and the broader tech sector.",
+      "summary": "Micron has announced its earnings, which were in line with expectations. The company's stock price is expected to remain stable.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "LOW",
       "window": "Active now \u2014 1-2 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "Micron Technology, Inc. (MU)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Western Digital Corporation (WDC)"
         }
       ],
-      "reasoning": "Micron's earnings report is expected to be positive, with potential implications for the company's stock price. This could also lead to increased competition in the tech sector, particularly in the semiconductor space.",
+      "reasoning": "Micron's earnings were in line with expectations, and the company's stock price is expected to remain stable. This makes it a good opportunity to rotate into other tech stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "1-2 weeks",
-        "note": "Monitor earnings reports and industry developments"
+        "note": "Monitor Micron's stock price and adjust position accordingly"
       },
-      "exitStrategy": "Exit if Micron's stock price declines by 5% or if the company's earnings report is disappointing",
+      "exitStrategy": "Close position if Micron's stock price drops below $50",
       "gains": {
-        "conservative": "+1-2%",
-        "conservativeNote": "If the earnings report is modest",
-        "base": "+4-6%",
+        "conservative": "+2-5%",
+        "conservativeNote": "If Micron's stock price rises to $55",
+        "base": "+5-10%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the earnings report is strong",
-        "stopLoss": "-2% on MU"
+        "extended": "+15%+",
+        "extendedNote": "If Micron's stock price rises to $60",
+        "stopLoss": "-5% on MU"
       },
       "adjacentMarkets": [
-        "Semiconductors (SMH)",
-        "Technology (XLK)"
+        "Tech stocks"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
+        "Semiconductor demand"
       ]
     },
     {
       "id": 5,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economics",
+      "rank": "MED",
+      "category": "trade",
+      "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in trade negotiations, with potential implications for global markets.",
+      "summary": "The US and China have announced a new trade deal, which is expected to improve trade relations between the two countries.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
+      "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The US and China are engaged in trade negotiations, with potential implications for global markets. A positive outcome could lead to increased trade and economic growth, while a negative outcome could lead to increased tariffs and economic uncertainty.",
+      "reasoning": "The new trade deal is expected to improve trade relations between the US and China, which will benefit Chinese stocks. On the other hand, the improved trade relations may lead to a weaker US dollar.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations and economic data releases"
+        "note": "Monitor US-China trade relations and adjust position accordingly"
       },
-      "exitStrategy": "Exit if a trade deal is announced or if trade tensions escalate",
+      "exitStrategy": "Close position if US-China trade relations deteriorate",
       "gains": {
-        "conservative": "+1-2%",
-        "conservativeNote": "If the trade negotiations are modest",
-        "base": "+4-6%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If US-China trade relations improve",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the trade negotiations are successful",
-        "stopLoss": "-2% on MCHI"
+        "extended": "+20%+",
+        "extendedNote": "If US-China trade relations significantly improve",
+        "stopLoss": "-8% on FXI"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "Gold (safe haven bid)"
+        "Emerging markets"
       ],
       "otherFactors": [
-        "Federal Reserve policy",
-        "Global economic growth"
+        "Global trade growth"
       ]
     },
     {
       "id": 6,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "UAE Exit from OPEC",
-      "summary": "The UAE has announced its exit from OPEC, with potential implications for oil prices and global markets.",
-      "fresh": true,
-      "freshLabel": "1h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "United States Oil Fund, LP (USO)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Global Energy ETF (IXC)"
-        }
-      ],
-      "reasoning": "The UAE's exit from OPEC is expected to lead to increased oil production and potentially lower oil prices. This could have implications for the energy sector and global markets.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor oil prices and OPEC developments"
-      },
-      "exitStrategy": "Exit if oil prices decline by 10% or if OPEC announces a production cut",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the exit is modest",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the exit is significant",
-        "stopLoss": "-4% on USO"
-      },
-      "adjacentMarkets": [
-        "Oil (WTI)",
-        "Natural Gas (NG)"
-      ],
-      "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
-      ]
-    },
-    {
-      "id": 7,
       "rank": "LOW",
       "category": "econ",
       "catLabel": "Economics",
       "title": "Federal Reserve Policy",
-      "summary": "The Federal Reserve has announced its monetary policy decision, with potential implications for interest rates and inflation.",
+      "summary": "The Federal Reserve has announced its latest policy decision, which was in line with expectations. The central bank is expected to keep interest rates stable.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 1-2 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 1-3 Year Treasury Bond ETF (SHY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The Federal Reserve's monetary policy decision is expected to have implications for interest rates and inflation. A dovish decision could lead to lower interest rates and increased economic growth, while a hawkish decision could lead to higher interest rates and reduced economic growth.",
+      "reasoning": "The Federal Reserve's policy decision was in line with expectations, and the central bank is expected to keep interest rates stable. This makes it a good opportunity to rotate into other bond ETFs.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor economic data releases and Federal Reserve policy"
+        "viable": "1-2 weeks",
+        "note": "Monitor Federal Reserve policy and adjust position accordingly"
       },
-      "exitStrategy": "Exit if the Federal Reserve announces a rate cut or if interest rates decline",
+      "exitStrategy": "Close position if interest rates rise",
       "gains": {
-        "conservative": "+1-2%",
-        "conservativeNote": "If the decision is modest",
-        "base": "+4-6%",
+        "conservative": "+2-5%",
+        "conservativeNote": "If interest rates remain stable",
+        "base": "+5-10%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the decision is significant",
-        "stopLoss": "-2% on SHY"
+        "extended": "+15%+",
+        "extendedNote": "If interest rates fall",
+        "stopLoss": "-5% on CSJ"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "Gold (safe haven bid)"
+        "Bond market"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global economic growth"
+        "Inflation expectations"
       ]
     },
     {
-      "id": 8,
+      "id": 7,
       "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "AI semiconductor stocks are expected to continue their growth trend, with potential implications for the tech sector.",
+      "summary": "AI semiconductor stocks have been rising, driven by increasing demand for AI-related products.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -366,90 +296,81 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "AI semiconductor stocks are expected to continue their growth trend, driven by increasing demand for AI and machine learning applications. This could lead to increased earnings and revenue growth for companies in the sector.",
+      "reasoning": "AI semiconductor stocks have been rising, driven by increasing demand for AI-related products. This makes it a good buy opportunity.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor earnings reports and industry developments"
+        "viable": "2-4 weeks",
+        "note": "Monitor AI semiconductor stocks and adjust position accordingly"
       },
-      "exitStrategy": "Exit if the tech sector experiences a downturn or if AI semiconductor stocks decline",
+      "exitStrategy": "Close position if AI semiconductor stocks drop",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the growth trend is modest",
-        "base": "+8-12%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI semiconductor stocks rise",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the growth trend is strong",
-        "stopLoss": "-5% on SMH"
+        "extended": "+20%+",
+        "extendedNote": "If AI semiconductor stocks significantly rise",
+        "stopLoss": "-8% on SMH"
       },
       "adjacentMarkets": [
-        "Technology (XLK)",
-        "Semiconductors (SMH)"
+        "Tech stocks"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
+        "AI adoption rates"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "energy",
+      "catLabel": "Energy",
+      "title": "Oil Market Expectations",
+      "summary": "Oil market expectations have been stable, with prices expected to remain around $60 per barrel.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 1-2 week horizon",
+      "actions": [
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "United States Oil Fund LP (USO)"
+        }
+      ],
+      "reasoning": "Oil market expectations have been stable, with prices expected to remain around $60 per barrel. This makes it a good opportunity to rotate into other energy ETFs.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "1-2 weeks",
+        "note": "Monitor oil prices and adjust position accordingly"
+      },
+      "exitStrategy": "Close position if oil prices drop below $55",
+      "gains": {
+        "conservative": "+2-5%",
+        "conservativeNote": "If oil prices remain stable",
+        "base": "+5-10%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If oil prices rise",
+        "stopLoss": "-5% on USO"
+      },
+      "adjacentMarkets": [
+        "Energy stocks"
+      ],
+      "otherFactors": [
+        "Global demand"
       ]
     },
     {
       "id": 9,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "Oil Market Expectations",
-      "summary": "Oil market expectations are expected to remain stable, with potential implications for energy prices and global markets.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "United States Oil Fund, LP (USO)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Global Energy ETF (IXC)"
-        }
-      ],
-      "reasoning": "Oil market expectations are expected to remain stable, driven by steady demand and supply. This could lead to stable energy prices and reduced volatility in global markets.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor oil prices and energy market developments"
-      },
-      "exitStrategy": "Exit if oil prices decline by 10% or if energy market volatility increases",
-      "gains": {
-        "conservative": "+1-2%",
-        "conservativeNote": "If the expectations are modest",
-        "base": "+4-6%",
-        "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the expectations are strong",
-        "stopLoss": "-2% on USO"
-      },
-      "adjacentMarkets": [
-        "Oil (WTI)",
-        "Natural Gas (NG)"
-      ],
-      "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
-      ]
-    },
-    {
-      "id": 10,
       "rank": "MED",
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "US-Iran Peace Deal",
-      "summary": "A US-Iran peace deal is potentially on the horizon, with implications for global markets and oil prices.",
+      "summary": "The US and Iran have announced a new peace deal, which is expected to improve relations between the two countries.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -459,32 +380,158 @@
         {
           "label": "SHORT",
           "cls": "short",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        }
+      ],
+      "reasoning": "The new peace deal is expected to improve relations between the US and Iran, which will benefit emerging markets. On the other hand, the improved relations may lead to a weaker US dollar.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor US-Iran relations and adjust position accordingly"
+      },
+      "exitStrategy": "Close position if US-Iran relations deteriorate",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If US-Iran relations improve",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If US-Iran relations significantly improve",
+        "stopLoss": "-8% on EEM"
+      },
+      "adjacentMarkets": [
+        "Emerging markets"
+      ],
+      "otherFactors": [
+        "Global trade growth"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has announced its latest interest rate decision, which was in line with expectations.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 1-2 week horizon",
+      "actions": [
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "The Federal Reserve's interest rate decision was in line with expectations, making it a good opportunity to rotate into other bond ETFs.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "1-2 weeks",
+        "note": "Monitor Federal Reserve policy and adjust position accordingly"
+      },
+      "exitStrategy": "Close position if interest rates rise",
+      "gains": {
+        "conservative": "+2-5%",
+        "conservativeNote": "If interest rates remain stable",
+        "base": "+5-10%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If interest rates fall",
+        "stopLoss": "-5% on CSJ"
+      },
+      "adjacentMarkets": [
+        "Bond market"
+      ],
+      "otherFactors": [
+        "Inflation expectations"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia and SK hynix Partnership",
+      "summary": "Nvidia and SK hynix have announced a new partnership, which is expected to drive growth in the AI semiconductor market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A US-Iran peace deal could lead to increased stability in the Middle East, reduced oil prices, and increased economic growth. This could have implications for global markets, particularly in the energy and emerging markets sectors.",
+      "reasoning": "The partnership between Nvidia and SK hynix is expected to drive growth in the AI semiconductor market, making it a good buy opportunity.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor diplomatic developments and oil prices"
+        "viable": "2-4 weeks",
+        "note": "Monitor AI semiconductor stocks and adjust position accordingly"
       },
-      "exitStrategy": "Exit if a peace deal is announced or if oil prices decline",
+      "exitStrategy": "Close position if AI semiconductor stocks drop",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the deal is modest",
-        "base": "+6-10%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI semiconductor stocks rise",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the deal is significant",
-        "stopLoss": "-4% on EEM"
+        "extended": "+20%+",
+        "extendedNote": "If AI semiconductor stocks significantly rise",
+        "stopLoss": "-8% on SMH"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "Emerging Markets (EEM)"
+        "Tech stocks"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve policy"
+        "AI adoption rates"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "energy",
+      "catLabel": "Energy",
+      "title": "Oil Prices",
+      "summary": "Oil prices have been stable, with prices expected to remain around $60 per barrel.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 1-2 week horizon",
+      "actions": [
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "United States Oil Fund LP (USO)"
+        }
+      ],
+      "reasoning": "Oil prices have been stable, making it a good opportunity to rotate into other energy ETFs.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "1-2 weeks",
+        "note": "Monitor oil prices and adjust position accordingly"
+      },
+      "exitStrategy": "Close position if oil prices drop below $55",
+      "gains": {
+        "conservative": "+2-5%",
+        "conservativeNote": "If oil prices remain stable",
+        "base": "+5-10%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If oil prices rise",
+        "stopLoss": "-5% on USO"
+      },
+      "adjacentMarkets": [
+        "Energy stocks"
+      ],
+      "otherFactors": [
+        "Global demand"
       ]
     }
   ]
