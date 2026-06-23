@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T00:11:22Z",
+  "lastUpdated": "2026-06-23T05:03:12Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The conflict in Iran is escalating, with the US and its allies involved. This has significant implications for global markets and economies. The situation is highly volatile and unpredictable.",
+      "summary": "The Iran war is escalating, with the US and its allies involved in military action. This has significant implications for global markets, particularly oil and defense stocks. The situation is highly volatile and unpredictable.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,48 +22,96 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB Oil Fund (DBO)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The escalation of the Iran war will likely lead to increased oil prices, benefiting oil-related investments. On the other hand, emerging markets may suffer due to the increased uncertainty and potential economic downturn.",
+      "reasoning": "The Iran war escalation is likely to lead to increased volatility in global markets, with potential spikes in oil prices and defense stocks. The SPDR S&P 500 ETF Trust (SPY) is a good buy option, while the iShares 20+ Year Treasury Bond ETF (TLT) is a good short option.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor oil prices and defense stocks"
       },
-      "exitStrategy": "Exit the position if the conflict de-escalates or if the oil price drops significantly",
+      "exitStrategy": "Exit when oil prices stabilize or defense stocks peak",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+15-20%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If oil prices stabilize quickly",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-10% on DBO"
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Oil (WTI)",
+        "Defense stocks (ITA)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic efforts"
+        "US-Iran diplomatic relations"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Nvidia AI Spending",
-      "summary": "Nvidia's AI spending is increasing, with the company investing heavily in AI research and development. This is expected to drive growth in the AI semiconductor market.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, with a potential hike later this year. This decision has implications for the US economy and markets, particularly the dollar and bonds.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Invesco PowerShares DB US Dollar Index Bullish Fund (UUP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady is likely to lead to a stronger dollar and lower bond yields. The Invesco PowerShares DB US Dollar Index Bullish Fund (UUP) is a good buy option, while the iShares 1-3 Year Credit Bond ETF (CSJ) is a good short option.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor dollar and bond market reactions"
+      },
+      "exitStrategy": "Exit when the dollar peaks or bond yields stabilize",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the dollar stabilizes quickly",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If the Fed hikes rates aggressively",
+        "stopLoss": "-5% on UUP"
+      },
+      "adjacentMarkets": [
+        "Dollar (USD)",
+        "Bonds (TLT)"
+      ],
+      "otherFactors": [
+        "US economic growth"
+      ]
+    },
+    {
+      "id": 3,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia AI Spending",
+      "summary": "Nvidia's AI spending is increasing, with potential implications for the company's stock price and the broader tech sector. The company's AI chips are in high demand, particularly in the datacenter and cloud markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -71,45 +119,46 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's increased AI spending is expected to drive growth in the company's stock price. Additionally, the AI semiconductor market is expected to benefit from the increased adoption of AI technologies.",
+      "reasoning": "Nvidia's increasing AI spending is likely to lead to higher demand for its AI chips, particularly in the datacenter and cloud markets. The company's stock price is likely to benefit, while AMD's stock price may suffer.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the company's progress and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Monitor Nvidia's AI chip sales"
       },
-      "exitStrategy": "Exit the position if the company's AI spending slows down or if the AI semiconductor market experiences a downturn",
+      "exitStrategy": "Exit when Nvidia's AI chip sales peak or AMD's stock price stabilizes",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the company's AI spending is moderate",
-        "base": "+10-15%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Nvidia's AI chip sales stabilize quickly",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company's AI spending is aggressive",
+        "extended": "+25%+",
+        "extendedNote": "If Nvidia's AI chip sales exceed expectations",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI chips (NVDA)",
+        "Cloud computing (AMZN)"
       ],
       "otherFactors": [
-        "Competition from other AI companies"
+        "Datacenter market trends"
       ]
     },
     {
-      "id": 3,
-      "rank": "MED",
+      "id": 4,
+      "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economics",
+      "catLabel": "Economy",
       "title": "US Economic Growth Outlook",
-      "summary": "The US economic growth outlook is positive, with the Federal Reserve expecting a strong economy. This is expected to drive growth in the stock market.",
+      "summary": "The US economic growth outlook is stable, with potential implications for the stock market and interest rates. The economy is expected to continue growing, albeit at a slower pace.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 12 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -117,45 +166,46 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The positive US economic growth outlook is expected to drive growth in the stock market. The Federal Reserve's expectations of a strong economy are a key factor in this outlook.",
+      "reasoning": "The stable US economic growth outlook is likely to lead to a stable stock market, with potential benefits for the SPDR S&P 500 ETF Trust (SPY). The iShares Russell 2000 ETF (IWM) may underperform due to its higher volatility.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the economy and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor economic growth indicators"
       },
-      "exitStrategy": "Exit the position if the economy experiences a downturn or if the Federal Reserve changes its outlook",
+      "exitStrategy": "Exit when economic growth slows or the stock market peaks",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the economy grows moderately",
-        "base": "+10-15%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If economic growth slows quickly",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the economy grows strongly",
-        "stopLoss": "-8% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If economic growth exceeds expectations",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Stock market (SPY)",
+        "Interest rates (TLT)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "US economic indicators"
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Micron Earnings",
-      "summary": "Micron's earnings are expected to be strong, with the company benefiting from the growing demand for memory chips. This is expected to drive growth in the company's stock price.",
+      "summary": "Micron's earnings are expected to be strong, with potential implications for the company's stock price and the broader tech sector. The company's memory chip sales are expected to drive growth.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -163,137 +213,93 @@
           "target": "Micron Technology, Inc. (MU)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Western Digital Corporation (WDC)"
         }
       ],
-      "reasoning": "Micron's strong earnings are expected to drive growth in the company's stock price. The growing demand for memory chips is a key factor in this outlook.",
+      "reasoning": "Micron's strong earnings are likely to lead to higher demand for its memory chips, particularly in the datacenter and cloud markets. The company's stock price is likely to benefit, while Western Digital's stock price may suffer.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4 weeks",
-        "note": "Monitor the company's earnings and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor Micron's earnings report"
       },
-      "exitStrategy": "Exit the position if the company's earnings are disappointing or if the demand for memory chips slows down",
+      "exitStrategy": "Exit when Micron's earnings report is released or Western Digital's stock price stabilizes",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the company's earnings are moderate",
-        "base": "+10-15%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Micron's earnings report is neutral",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company's earnings are strong",
+        "extended": "+25%+",
+        "extendedNote": "If Micron's earnings report exceeds expectations",
         "stopLoss": "-8% on MU"
       },
       "adjacentMarkets": [
-        "Technology sector"
+        "Memory chips (MU)",
+        "Datacenter market (AMZN)"
       ],
       "otherFactors": [
-        "Competition from other memory chip companies"
-      ]
-    },
-    {
-      "id": 5,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are complex, with the two countries engaged in a trade war. This is expected to have a negative impact on the global economy.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
-      "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares MSCI ACWI ex US ETF (ACWX)"
-        }
-      ],
-      "reasoning": "The US-China trade war is expected to have a negative impact on the global economy. The trade war is likely to lead to a decrease in trade between the two countries, which could have a negative impact on the Chinese economy.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the trade relations and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the trade war is resolved or if the Chinese economy experiences a downturn",
-      "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the trade war is moderate",
-        "base": "+5-10%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the trade war is severe",
-        "stopLoss": "-5% on FXI"
-      },
-      "adjacentMarkets": [
-        "Emerging markets"
-      ],
-      "otherFactors": [
-        "Global economic growth"
+        "Cloud computing trends"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "fin",
-      "catLabel": "Finance",
-      "title": "Federal Reserve Policy",
-      "summary": "The Federal Reserve's policy is expected to be dovish, with the central bank likely to keep interest rates low. This is expected to have a positive impact on the stock market.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US-China Trade Relations",
+      "summary": "The US-China trade relations are stable, with potential implications for the global economy and markets. The trade war is expected to continue, albeit at a slower pace.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI China ETF (MCHI)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Federal Reserve's dovish policy is expected to have a positive impact on the stock market. The low interest rates are likely to lead to an increase in borrowing and spending, which could drive economic growth.",
+      "reasoning": "The stable US-China trade relations are likely to lead to a stable global economy, with potential benefits for the iShares MSCI China ETF (MCHI). The iShares MSCI Emerging Markets ETF (EEM) may underperform due to its higher volatility.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the Federal Reserve's policy and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor trade war developments"
       },
-      "exitStrategy": "Exit the position if the Federal Reserve changes its policy or if the economy experiences a downturn",
+      "exitStrategy": "Exit when trade war escalates or the global economy slows",
       "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the policy is moderate",
-        "base": "+5-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If trade war escalates quickly",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the policy is aggressive",
-        "stopLoss": "-5% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If trade war de-escalates",
+        "stopLoss": "-5% on MCHI"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Global economy (SPY)",
+        "Emerging markets (EEM)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Trade war developments"
       ]
     },
     {
       "id": 7,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor market is growing, with companies such as Nvidia and AMD benefiting from the increased demand for AI-related products. This is expected to drive growth in the stocks of these companies.",
+      "summary": "AI semiconductor stocks are expected to perform well, with potential implications for the tech sector. The demand for AI chips is increasing, particularly in the datacenter and cloud markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -301,137 +307,46 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
+          "label": "SHORT",
+          "cls": "short",
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The growing demand for AI-related products is expected to drive growth in the stocks of companies such as Nvidia and AMD. The AI semiconductor market is a key area of growth for these companies.",
+      "reasoning": "The increasing demand for AI chips is likely to lead to higher demand for AI semiconductor stocks, particularly in the datacenter and cloud markets. NVIDIA's stock price is likely to benefit, while AMD's stock price may suffer.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the companies' progress and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Monitor AI chip sales"
       },
-      "exitStrategy": "Exit the position if the demand for AI-related products slows down or if the companies experience a downturn",
+      "exitStrategy": "Exit when AI chip sales peak or AMD's stock price stabilizes",
       "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the demand is moderate",
-        "base": "+5-10%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If AI chip sales stabilize quickly",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the demand is strong",
-        "stopLoss": "-5% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If AI chip sales exceed expectations",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector"
+        "AI chips (NVDA)",
+        "Cloud computing (AMZN)"
       ],
       "otherFactors": [
-        "Competition from other AI companies"
+        "Datacenter market trends"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economics",
+      "catLabel": "Economy",
       "title": "Oil Market Expectations",
-      "summary": "The oil market is expected to be volatile, with the price of oil potentially increasing due to the conflict in Iran. This is expected to have a negative impact on the global economy.",
+      "summary": "The oil market expectations are stable, with potential implications for the global economy and markets. The oil price is expected to continue to rise, albeit at a slower pace.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Invesco DB Oil Fund (DBO)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "United States Oil Fund, LP (USO)"
-        }
-      ],
-      "reasoning": "The conflict in Iran is expected to drive up the price of oil, which could have a negative impact on the global economy. The oil market is highly volatile, and the price of oil could fluctuate significantly.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the oil market and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the conflict in Iran is resolved or if the oil price drops significantly",
-      "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the oil price increases moderately",
-        "base": "+5-10%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the oil price increases significantly",
-        "stopLoss": "-5% on DBO"
-      },
-      "adjacentMarkets": [
-        "Energy sector"
-      ],
-      "otherFactors": [
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "US-Iran Peace Deal",
-      "summary": "A peace deal between the US and Iran is possible, which could lead to a decrease in tensions in the Middle East. This is expected to have a positive impact on the global economy.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI EAFE ETF (EFA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard FTSE Developed Markets ETF (VEA)"
-        }
-      ],
-      "reasoning": "A peace deal between the US and Iran could lead to a decrease in tensions in the Middle East, which could have a positive impact on the global economy. The deal could also lead to an increase in trade and investment in the region.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the situation and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the peace deal is not reached or if the tensions in the Middle East increase",
-      "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the deal is moderate",
-        "base": "+5-10%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the deal is significant",
-        "stopLoss": "-5% on EFA"
-      },
-      "adjacentMarkets": [
-        "Emerging markets"
-      ],
-      "otherFactors": [
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 10,
-      "rank": "LOW",
-      "category": "fin",
-      "catLabel": "Finance",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve's interest rate decision is expected to be dovish, with the central bank likely to keep interest rates low. This is expected to have a positive impact on the stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -439,124 +354,221 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The Federal Reserve's dovish interest rate decision is expected to have a positive impact on the stock market. The low interest rates are likely to lead to an increase in borrowing and spending, which could drive economic growth.",
+      "reasoning": "The stable oil market expectations are likely to lead to a stable global economy, with potential benefits for the SPDR S&P 500 ETF Trust (SPY). The iShares U.S. Oil & Gas Exploration & Production ETF (IEO) may underperform due to its higher volatility.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the Federal Reserve's decision and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor oil price developments"
       },
-      "exitStrategy": "Exit the position if the Federal Reserve changes its decision or if the economy experiences a downturn",
+      "exitStrategy": "Exit when oil price peaks or the global economy slows",
       "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the decision is moderate",
-        "base": "+5-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If oil price peaks quickly",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the decision is aggressive",
+        "extended": "+10%+",
+        "extendedNote": "If oil price continues to rise",
         "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Global economy (SPY)",
+        "Oil price (USO)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Oil price developments"
       ]
     },
     {
-      "id": 11,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI Chip Market",
-      "summary": "The AI chip market is growing, with companies such as Nvidia and AMD benefiting from the increased demand for AI-related products. This is expected to drive growth in the stocks of these companies.",
+      "id": 9,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "US-Iran Peace Deal",
+      "summary": "The US-Iran peace deal is expected to be signed, with potential implications for the global economy and markets. The deal is likely to lead to a reduction in tensions and an increase in trade.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI EAFE ETF (EFA)"
         }
       ],
-      "reasoning": "The growing demand for AI-related products is expected to drive growth in the stocks of companies such as Nvidia and AMD. The AI chip market is a key area of growth for these companies.",
+      "reasoning": "The US-Iran peace deal is likely to lead to a reduction in tensions and an increase in trade, particularly in the emerging markets. The iShares MSCI Emerging Markets ETF (EEM) is likely to benefit, while the iShares MSCI EAFE ETF (EFA) may underperform.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the companies' progress and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Monitor peace deal developments"
       },
-      "exitStrategy": "Exit the position if the demand for AI-related products slows down or if the companies experience a downturn",
+      "exitStrategy": "Exit when peace deal is signed or tensions escalate",
       "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the demand is moderate",
-        "base": "+5-10%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If peace deal is signed quickly",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the demand is strong",
-        "stopLoss": "-5% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If peace deal leads to significant trade increase",
+        "stopLoss": "-8% on EEM"
       },
       "adjacentMarkets": [
-        "Technology sector"
+        "Emerging markets (EEM)",
+        "Global economy (SPY)"
       ],
       "otherFactors": [
-        "Competition from other AI companies"
+        "Peace deal developments"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Policy",
+      "summary": "The Federal Reserve policy is expected to remain stable, with potential implications for the US economy and markets. The Fed is likely to continue to support the economy through monetary policy.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "The stable Federal Reserve policy is likely to lead to a stable US economy, with potential benefits for the SPDR S&P 500 ETF Trust (SPY). The iShares 1-3 Year Credit Bond ETF (CSJ) may underperform due to its higher volatility.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor Fed policy developments"
+      },
+      "exitStrategy": "Exit when Fed policy changes or the US economy slows",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If Fed policy changes quickly",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If Fed policy continues to support the economy",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US economy (SPY)",
+        "Interest rates (TLT)"
+      ],
+      "otherFactors": [
+        "Fed policy developments"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI Chip Trade",
+      "summary": "The AI chip trade is expected to increase, with potential implications for the tech sector. The demand for AI chips is increasing, particularly in the datacenter and cloud markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+        }
+      ],
+      "reasoning": "The increasing demand for AI chips is likely to lead to higher demand for AI chip stocks, particularly in the datacenter and cloud markets. The VanEck Vectors Semiconductor ETF (SMH) is likely to benefit, while the iShares PHLX Semiconductor ETF (SOXX) may underperform.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor AI chip sales"
+      },
+      "exitStrategy": "Exit when AI chip sales peak or SOXX's stock price stabilizes",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If AI chip sales stabilize quickly",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If AI chip sales exceed expectations",
+        "stopLoss": "-8% on SMH"
+      },
+      "adjacentMarkets": [
+        "AI chips (SMH)",
+        "Cloud computing (AMZN)"
+      ],
+      "otherFactors": [
+        "Datacenter market trends"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economics",
-      "title": "Global Economic Growth",
-      "summary": "The global economic growth is expected to be moderate, with the US and China being the main drivers. This is expected to have a positive impact on the stock market.",
+      "catLabel": "Economy",
+      "title": "US Reciprocal Trade Deals",
+      "summary": "The US reciprocal trade deals are expected to increase, with potential implications for the global economy and markets. The deals are likely to lead to an increase in trade and economic growth.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI USA ETF (EUSA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI EAFE ETF (EFA)"
         }
       ],
-      "reasoning": "The moderate global economic growth is expected to have a positive impact on the stock market. The US and China are the main drivers of the global economy, and their growth is expected to drive the stock market.",
+      "reasoning": "The US reciprocal trade deals are likely to lead to an increase in trade and economic growth, particularly in the US economy. The iShares MSCI USA ETF (EUSA) is likely to benefit, while the iShares MSCI EAFE ETF (EFA) may underperform.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the global economy and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor trade deal developments"
       },
-      "exitStrategy": "Exit the position if the global economy experiences a downturn or if the US and China's growth slows down",
+      "exitStrategy": "Exit when trade deals are signed or economic growth slows",
       "gains": {
-        "conservative": "+2-5%",
-        "conservativeNote": "If the growth is moderate",
-        "base": "+5-10%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If trade deals are signed quickly",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the growth is strong",
-        "stopLoss": "-5% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If trade deals lead to significant economic growth",
+        "stopLoss": "-5% on EUSA"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US economy (EUSA)",
+        "Global economy (SPY)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Trade deal developments"
       ]
     }
   ]
