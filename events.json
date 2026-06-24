@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T11:46:53Z",
+  "lastUpdated": "2026-06-24T14:35:19Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war has escalated, and its impact on global geopolitics is being felt. The US and its allies are taking a strong stance against Iran, while other countries are trying to mediate the situation. The war has the potential to disrupt global oil supplies and impact the economy.",
+      "summary": "The Iran war has led to a significant escalation in geopolitical tensions, with potential implications for global markets. The US and its allies are considering further military action, while Iran has vowed to retaliate. The conflict has already led to a surge in oil prices and a decline in stock markets.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,7 +22,7 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
@@ -30,29 +30,27 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Iran war escalation has the potential to disrupt global oil supplies, which could lead to higher oil prices and impact the economy. This could lead to a flight to safety, with investors seeking refuge in US assets such as the SPDR S&P 500 ETF Trust (SPY). On the other hand, emerging markets could be negatively impacted, making the iShares MSCI Emerging Markets ETF (EEM) a potential short candidate.",
+      "reasoning": "The escalation of the Iran war is likely to lead to further volatility in global markets, with potential implications for oil prices and emerging markets. A buy signal is generated for the VanEck Vectors Oil Services ETF (OIH), while a short signal is generated for the iShares MSCI Emerging Markets ETF (EEM).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor for further escalation or de-escalation"
       },
-      "exitStrategy": "Close the position if the war escalates further and oil prices rise above $100 per barrel",
+      "exitStrategy": "Exit on a 10% gain or a 5% loss",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the war is contained and oil prices remain stable",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario, with the war having a moderate impact on the economy",
+        "conservative": "+8-12%",
+        "conservativeNote": "If conflict is contained",
+        "base": "+15-20%",
+        "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the war escalates further and oil prices rise significantly",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If conflict escalates further",
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)",
-        "Oil (potential supply disruption)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic efforts",
-        "Global economic growth"
+        "US-Iran diplomatic efforts"
       ]
     },
     {
@@ -61,7 +59,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, but has hinted at potential rate hikes later in the year. This decision has been made in an effort to combat inflation, which has been rising in recent months.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, with a potential rate hike later this year. The decision has led to a decline in the US dollar and a surge in stock markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -70,36 +68,35 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady, but hint at potential rate hikes later in the year, could lead to a decrease in bond yields. This could make long-term bonds, such as the iShares 20+ Year Treasury Bond ETF (TLT), more attractive to investors. On the other hand, short-term bonds, such as the iShares 1-3 Year Credit Bond ETF (CSJ), could be negatively impacted by potential rate hikes.",
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady has led to a decline in the US dollar and a surge in stock markets. A buy signal is generated for the SPDR S&P 500 ETF Trust (SPY), while a rotate signal is generated for the iShares 1-3 Year Credit Bond ETF (CSJ).",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the Fed's future decisions and adjust the position as needed"
+        "note": "Monitor for further economic data"
       },
-      "exitStrategy": "Close the position if the Fed raises interest rates",
+      "exitStrategy": "Exit on a 5% gain or a 3% loss",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the Fed's decision has a minimal impact on the economy",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario, with the Fed's decision having a moderate impact on the economy",
-        "extended": "+15%+",
-        "extendedNote": "If the Fed's decision has a significant impact on the economy",
-        "stopLoss": "-4% on TLT"
+        "conservative": "+3-5%",
+        "conservativeNote": "If economy slows",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If economy surges",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Stocks (potential impact on earnings)"
+        "US Treasury bonds"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "Economic growth"
+        "US economic growth"
       ]
     },
     {
@@ -108,7 +105,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia AI Spending",
-      "summary": "Nvidia has announced plans to increase its spending on AI research and development. This move is expected to drive growth in the company's stock price and potentially impact the broader tech sector.",
+      "summary": "Nvidia has announced a significant increase in AI spending, with potential implications for the tech sector. The company has partnered with TSMC to advance semiconductor design and manufacturing.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -125,28 +122,27 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "Nvidia's increased spending on AI research and development is expected to drive growth in the company's stock price. This could make NVIDIA Corporation (NVDA) a potential buy candidate. On the other hand, Advanced Micro Devices, Inc. (AMD) could be negatively impacted by Nvidia's increased spending, making it a potential short candidate.",
+      "reasoning": "Nvidia's increase in AI spending has potential implications for the tech sector. A buy signal is generated for NVIDIA Corporation (NVDA), while a short signal is generated for Advanced Micro Devices, Inc. (AMD).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor Nvidia's progress and adjust the position as needed"
+        "note": "Monitor for further tech sector developments"
       },
-      "exitStrategy": "Close the position if Nvidia's stock price reaches $500",
+      "exitStrategy": "Exit on a 10% gain or a 5% loss",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If Nvidia's spending has a minimal impact on the company's stock price",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario, with Nvidia's spending having a moderate impact on the company's stock price",
-        "extended": "+25%+",
-        "extendedNote": "If Nvidia's spending has a significant impact on the company's stock price",
-        "stopLoss": "-8% on NVDA"
+        "conservativeNote": "If AI adoption slows",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If AI adoption surges",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech sector (potential impact on earnings)"
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "AI adoption rate",
-        "Competitor spending"
+        "AI adoption rates"
       ]
     },
     {
@@ -155,7 +151,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Economic Growth Outlook",
-      "summary": "The US economic growth outlook remains positive, with the economy expected to continue growing at a moderate pace. This outlook is supported by strong job market and consumer spending.",
+      "summary": "The US economic growth outlook has improved, with potential implications for the stock market. The economy is expected to grow at a rate of 2-3% in the next quarter.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -164,36 +160,35 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Russell 2000 ETF (IWM)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The positive US economic growth outlook is expected to support the stock market, making the SPDR S&P 500 ETF Trust (SPY) a potential buy candidate. On the other hand, emerging markets could be negatively impacted by a strong US economy, making the iShares MSCI Emerging Markets ETF (EEM) a potential short candidate.",
+      "reasoning": "The improved US economic growth outlook has potential implications for the stock market. A buy signal is generated for the iShares Russell 2000 ETF (IWM), while a rotate signal is generated for the Vanguard Total Stock Market ETF (VTI).",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the economic growth outlook and adjust the position as needed"
+        "note": "Monitor for further economic data"
       },
-      "exitStrategy": "Close the position if the economic growth outlook changes",
+      "exitStrategy": "Exit on a 5% gain or a 3% loss",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the economic growth outlook has a minimal impact on the stock market",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario, with the economic growth outlook having a moderate impact on the stock market",
-        "extended": "+15%+",
-        "extendedNote": "If the economic growth outlook has a significant impact on the stock market",
-        "stopLoss": "-4% on SPY"
+        "conservative": "+2-3%",
+        "conservativeNote": "If economy slows",
+        "base": "+3-5%",
+        "baseNote": "Most likely scenario",
+        "extended": "+5%+",
+        "extendedNote": "If economy surges",
+        "stopLoss": "-5% on IWM"
       },
       "adjacentMarkets": [
-        "Stocks (potential impact on earnings)"
+        "US Treasury bonds"
       ],
       "otherFactors": [
-        "Job market",
-        "Consumer spending"
+        "US economic growth"
       ]
     },
     {
@@ -202,7 +197,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Micron Earnings",
-      "summary": "Micron has reported strong earnings, driven by demand for its memory chips. This move is expected to drive growth in the company's stock price and potentially impact the broader tech sector.",
+      "summary": "Micron has announced its earnings, with potential implications for the tech sector. The company has reported a significant increase in revenue and profits.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -219,41 +214,40 @@
           "target": "Western Digital Corporation (WDC)"
         }
       ],
-      "reasoning": "Micron's strong earnings are expected to drive growth in the company's stock price, making Micron Technology, Inc. (MU) a potential buy candidate. On the other hand, Western Digital Corporation (WDC) could be negatively impacted by Micron's strong earnings, making it a potential short candidate.",
+      "reasoning": "Micron's earnings have potential implications for the tech sector. A buy signal is generated for Micron Technology, Inc. (MU), while a short signal is generated for Western Digital Corporation (WDC).",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor Micron's progress and adjust the position as needed"
+        "note": "Monitor for further tech sector developments"
       },
-      "exitStrategy": "Close the position if Micron's stock price reaches $50",
+      "exitStrategy": "Exit on a 10% gain or a 5% loss",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If Micron's earnings have a minimal impact on the company's stock price",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario, with Micron's earnings having a moderate impact on the company's stock price",
-        "extended": "+25%+",
-        "extendedNote": "If Micron's earnings have a significant impact on the company's stock price",
-        "stopLoss": "-8% on MU"
+        "conservativeNote": "If tech sector slows",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If tech sector surges",
+        "stopLoss": "-10% on MU"
       },
       "adjacentMarkets": [
-        "Tech sector (potential impact on earnings)"
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "Demand for memory chips",
-        "Competitor earnings"
+        "Tech sector trends"
       ]
     },
     {
       "id": 6,
-      "rank": "MED",
-      "category": "trade",
-      "catLabel": "Trade",
+      "rank": "LOW",
+      "category": "geo",
+      "catLabel": "Geopolitics",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in trade talks, with the US seeking to address issues such as intellectual property theft and trade imbalances. The outcome of these talks is uncertain and could have a significant impact on the global economy.",
+      "summary": "The US-China trade relations have improved, with potential implications for global markets. The two countries have agreed to a trade deal, with tariffs being reduced.",
       "fresh": true,
       "freshLabel": "2d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -261,46 +255,229 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A positive outcome to the US-China trade talks could lead to a boost in the Chinese stock market, making the iShares China Large-Cap ETF (FXI) a potential buy candidate. On the other hand, a negative outcome could lead to a decline in emerging markets, making the iShares MSCI Emerging Markets ETF (EEM) a potential short candidate.",
+      "reasoning": "The improved US-China trade relations have potential implications for global markets. A buy signal is generated for the iShares China Large-Cap ETF (FXI), while a rotate signal is generated for the SPDR S&P 500 ETF Trust (SPY).",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the trade talks and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor for further trade developments"
       },
-      "exitStrategy": "Close the position if a trade deal is reached",
+      "exitStrategy": "Exit on a 5% gain or a 3% loss",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trade talks have a minimal impact on the stock market",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario, with the trade talks having a moderate impact on the stock market",
-        "extended": "+25%+",
-        "extendedNote": "If the trade talks have a significant impact on the stock market",
-        "stopLoss": "-8% on FXI"
+        "conservative": "+2-3%",
+        "conservativeNote": "If trade tensions rise",
+        "base": "+3-5%",
+        "baseNote": "Most likely scenario",
+        "extended": "+5%+",
+        "extendedNote": "If trade deal is successful",
+        "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Stocks (potential impact on earnings)"
+        "Emerging markets"
       ],
       "otherFactors": [
-        "Trade balance",
-        "Intellectual property theft"
+        "Trade tensions"
       ]
     },
     {
       "id": 7,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor market is growing rapidly, driven by demand for AI-powered devices. This trend is expected to continue, with several companies well-positioned to benefit.",
+      "summary": "The AI semiconductor stocks have surged, with potential implications for the tech sector. The stocks have been driven by increased demand for AI chips.",
       "fresh": true,
       "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Intel Corporation (INTC)"
+        }
+      ],
+      "reasoning": "The AI semiconductor stocks have surged, with potential implications for the tech sector. A buy signal is generated for NVIDIA Corporation (NVDA), while a short signal is generated for Intel Corporation (INTC).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor for further tech sector developments"
+      },
+      "exitStrategy": "Exit on a 10% gain or a 5% loss",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI adoption slows",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If AI adoption surges",
+        "stopLoss": "-10% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Semiconductor stocks"
+      ],
+      "otherFactors": [
+        "AI adoption rates"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "energy",
+      "catLabel": "Energy",
+      "title": "Oil Market Expectations",
+      "summary": "The oil market expectations have improved, with potential implications for the energy sector. The oil price has surged due to the Iran war.",
+      "fresh": true,
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Energy Select Sector SPDR Fund (XLE)"
+        }
+      ],
+      "reasoning": "The improved oil market expectations have potential implications for the energy sector. A buy signal is generated for the VanEck Vectors Oil Services ETF (OIH), while a rotate signal is generated for the Energy Select Sector SPDR Fund (XLE).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor for further oil market developments"
+      },
+      "exitStrategy": "Exit on a 5% gain or a 3% loss",
+      "gains": {
+        "conservative": "+2-3%",
+        "conservativeNote": "If oil price falls",
+        "base": "+3-5%",
+        "baseNote": "Most likely scenario",
+        "extended": "+5%+",
+        "extendedNote": "If oil price surges",
+        "stopLoss": "-5% on OIH"
+      },
+      "adjacentMarkets": [
+        "Natural gas"
+      ],
+      "otherFactors": [
+        "Oil price trends"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "geo",
+      "catLabel": "Geopolitics",
+      "title": "US-Iran Peace Deal",
+      "summary": "The US and Iran have agreed to a peace deal, with potential implications for global markets. The deal has led to a decline in oil prices and a surge in stock markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
+        }
+      ],
+      "reasoning": "The US-Iran peace deal has potential implications for global markets. A buy signal is generated for the iShares MSCI Emerging Markets ETF (EEM), while a short signal is generated for the VanEck Vectors Oil Services ETF (OIH).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor for further geopolitical developments"
+      },
+      "exitStrategy": "Exit on a 10% gain or a 5% loss",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If peace deal fails",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If peace deal is successful",
+        "stopLoss": "-10% on EEM"
+      },
+      "adjacentMarkets": [
+        "Emerging markets"
+      ],
+      "otherFactors": [
+        "Geopolitical tensions"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Policy",
+      "summary": "The Federal Reserve has announced its policy, with potential implications for the economy. The Fed has decided to hold interest rates steady, with a potential rate hike later this year.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "The Federal Reserve's policy has potential implications for the economy. A buy signal is generated for the SPDR S&P 500 ETF Trust (SPY), while a rotate signal is generated for the iShares 1-3 Year Credit Bond ETF (CSJ).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor for further economic data"
+      },
+      "exitStrategy": "Exit on a 5% gain or a 3% loss",
+      "gains": {
+        "conservative": "+2-3%",
+        "conservativeNote": "If economy slows",
+        "base": "+3-5%",
+        "baseNote": "Most likely scenario",
+        "extended": "+5%+",
+        "extendedNote": "If economy surges",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds"
+      ],
+      "otherFactors": [
+        "US economic growth"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia AI Chip Partnership",
+      "summary": "Nvidia has announced a partnership with TSMC to advance AI chip design and manufacturing, with potential implications for the tech sector.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -313,263 +490,73 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The growing demand for AI-powered devices is expected to drive growth in the AI semiconductor market, making NVIDIA Corporation (NVDA) a potential buy candidate. On the other hand, Advanced Micro Devices, Inc. (AMD) could be negatively impacted by the trend, making it a potential short candidate.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the trend and adjust the position as needed"
-      },
-      "exitStrategy": "Close the position if the trend reverses",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the trend has a minimal impact on the stock market",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario, with the trend having a moderate impact on the stock market",
-        "extended": "+15%+",
-        "extendedNote": "If the trend has a significant impact on the stock market",
-        "stopLoss": "-4% on NVDA"
-      },
-      "adjacentMarkets": [
-        "Tech sector (potential impact on earnings)"
-      ],
-      "otherFactors": [
-        "Demand for AI-powered devices",
-        "Competitor positioning"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "MED",
-      "category": "energy",
-      "catLabel": "Energy",
-      "title": "Oil Market Expectations",
-      "summary": "The oil market is expected to remain volatile, driven by factors such as global demand and supply disruptions. This trend is expected to continue, with several companies well-positioned to benefit.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares U.S. Energy ETF (IYE)"
-        }
-      ],
-      "reasoning": "The volatile oil market is expected to drive growth in the oil and gas exploration and production sector, making the SPDR S&P Oil & Gas Exploration & Production ETF (XOP) a potential buy candidate. On the other hand, the iShares U.S. Energy ETF (IYE) could be negatively impacted by the trend, making it a potential short candidate.",
+      "reasoning": "Nvidia's partnership with TSMC has potential implications for the tech sector. A buy signal is generated for NVIDIA Corporation (NVDA), while a short signal is generated for Advanced Micro Devices, Inc. (AMD).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the trend and adjust the position as needed"
+        "note": "Monitor for further tech sector developments"
       },
-      "exitStrategy": "Close the position if the oil market stabilizes",
+      "exitStrategy": "Exit on a 10% gain or a 5% loss",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If the trend has a minimal impact on the stock market",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario, with the trend having a moderate impact on the stock market",
-        "extended": "+25%+",
-        "extendedNote": "If the trend has a significant impact on the stock market",
-        "stopLoss": "-8% on XOP"
+        "conservativeNote": "If AI adoption slows",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If AI adoption surges",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Energy sector (potential impact on earnings)"
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "Global demand",
-        "Supply disruptions"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "US-Iran Peace Deal",
-      "summary": "The US and Iran are engaged in diplomatic efforts to reach a peace deal. The outcome of these efforts is uncertain and could have a significant impact on the global economy.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "A positive outcome to the US-Iran diplomatic efforts could lead to a boost in emerging markets, making the iShares MSCI Emerging Markets ETF (EEM) a potential buy candidate. On the other hand, a negative outcome could lead to a decline in the US stock market, making the SPDR S&P 500 ETF Trust (SPY) a potential short candidate.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the diplomatic efforts and adjust the position as needed"
-      },
-      "exitStrategy": "Close the position if a peace deal is reached",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the diplomatic efforts have a minimal impact on the stock market",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario, with the diplomatic efforts having a moderate impact on the stock market",
-        "extended": "+15%+",
-        "extendedNote": "If the diplomatic efforts have a significant impact on the stock market",
-        "stopLoss": "-4% on EEM"
-      },
-      "adjacentMarkets": [
-        "Stocks (potential impact on earnings)"
-      ],
-      "otherFactors": [
-        "Diplomatic efforts",
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 10,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Policy",
-      "summary": "The Federal Reserve is expected to continue its accommodative monetary policy, with the potential for future rate hikes. This trend is expected to continue, with several companies well-positioned to benefit.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
-        }
-      ],
-      "reasoning": "The Federal Reserve's accommodative monetary policy is expected to drive growth in the bond market, making the iShares 20+ Year Treasury Bond ETF (TLT) a potential buy candidate. On the other hand, the iShares 1-3 Year Credit Bond ETF (CSJ) could be negatively impacted by potential rate hikes, making it a potential short candidate.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the Federal Reserve's policy and adjust the position as needed"
-      },
-      "exitStrategy": "Close the position if the Federal Reserve raises interest rates",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the Federal Reserve's policy has a minimal impact on the bond market",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario, with the Federal Reserve's policy having a moderate impact on the bond market",
-        "extended": "+15%+",
-        "extendedNote": "If the Federal Reserve's policy has a significant impact on the bond market",
-        "stopLoss": "-4% on TLT"
-      },
-      "adjacentMarkets": [
-        "Bond market (potential impact on yields)"
-      ],
-      "otherFactors": [
-        "Inflation rate",
-        "Economic growth"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Tech Stocks",
-      "summary": "The tech sector is expected to continue growing, driven by demand for emerging technologies such as AI and cloud computing. This trend is expected to continue, with several companies well-positioned to benefit.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard Information Technology ETF (VIT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares North American Tech ETF (IGM)"
-        }
-      ],
-      "reasoning": "The growing demand for emerging technologies is expected to drive growth in the tech sector, making the Vanguard Information Technology ETF (VIT) a potential buy candidate. On the other hand, the iShares North American Tech ETF (IGM) could be negatively impacted by the trend, making it a potential short candidate.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the trend and adjust the position as needed"
-      },
-      "exitStrategy": "Close the position if the trend reverses",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the trend has a minimal impact on the stock market",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario, with the trend having a moderate impact on the stock market",
-        "extended": "+15%+",
-        "extendedNote": "If the trend has a significant impact on the stock market",
-        "stopLoss": "-4% on VIT"
-      },
-      "adjacentMarkets": [
-        "Tech sector (potential impact on earnings)"
-      ],
-      "otherFactors": [
-        "Demand for emerging technologies",
-        "Competitor positioning"
+        "AI adoption rates"
       ]
     },
     {
       "id": 12,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "energy",
       "catLabel": "Energy",
-      "title": "Oil Prices",
-      "summary": "Oil prices are expected to remain volatile, driven by factors such as global demand and supply disruptions. This trend is expected to continue, with several companies well-positioned to benefit.",
+      "title": "Oil Price Trends",
+      "summary": "The oil price trends have improved, with potential implications for the energy sector. The oil price has surged due to the Iran war.",
       "fresh": true,
       "freshLabel": "2d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares U.S. Energy ETF (IYE)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Energy Select Sector SPDR Fund (XLE)"
         }
       ],
-      "reasoning": "The volatile oil market is expected to drive growth in the oil sector, making the United States Oil Fund LP (USO) a potential buy candidate. On the other hand, the iShares U.S. Energy ETF (IYE) could be negatively impacted by the trend, making it a potential short candidate.",
+      "reasoning": "The improved oil price trends have potential implications for the energy sector. A buy signal is generated for the VanEck Vectors Oil Services ETF (OIH), while a rotate signal is generated for the Energy Select Sector SPDR Fund (XLE).",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the trend and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor for further oil market developments"
       },
-      "exitStrategy": "Close the position if oil prices stabilize",
+      "exitStrategy": "Exit on a 5% gain or a 3% loss",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trend has a minimal impact on the stock market",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario, with the trend having a moderate impact on the stock market",
-        "extended": "+25%+",
-        "extendedNote": "If the trend has a significant impact on the stock market",
-        "stopLoss": "-8% on USO"
+        "conservative": "+2-3%",
+        "conservativeNote": "If oil price falls",
+        "base": "+3-5%",
+        "baseNote": "Most likely scenario",
+        "extended": "+5%+",
+        "extendedNote": "If oil price surges",
+        "stopLoss": "-5% on OIH"
       },
       "adjacentMarkets": [
-        "Energy sector (potential impact on earnings)"
+        "Natural gas"
       ],
       "otherFactors": [
-        "Global demand",
-        "Supply disruptions"
+        "Oil price trends"
       ]
     }
   ]
