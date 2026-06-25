@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T23:06:02Z",
+  "lastUpdated": "2026-06-25T03:46:43Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -10,55 +10,12 @@
     {
       "id": 1,
       "rank": "HIGH",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Qualcomm Stock Soars",
-      "summary": "Qualcomm's stock jumped 15% after the company announced new revenue targets and a partnership with Meta Platforms. The company's primary business has been smartphones, which accounted for two-thirds of the company's product revenue in its most recent quarter.",
-      "fresh": true,
-      "freshLabel": "1h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
-        }
-      ],
-      "reasoning": "The partnership with Meta Platforms and the new revenue targets are expected to drive growth for Qualcomm. The semiconductor industry is also expected to continue growing, driven by increasing demand for AI and 5G technologies.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Keep an eye on earnings reports and industry trends"
-      },
-      "exitStrategy": "Sell if SMH drops below $200",
-      "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the partnership with Meta Platforms is successful",
-        "base": "+15-20%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the semiconductor industry continues to grow rapidly",
-        "stopLoss": "-10% on SMH"
-      },
-      "adjacentMarkets": [
-        "Nvidia (NVDA)",
-        "Advanced Micro Devices (AMD)"
-      ],
-      "otherFactors": [
-        "Industry trends",
-        "Earnings reports"
-      ]
-    },
-    {
-      "id": 2,
-      "rank": "MED",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "US-Iran Conflict",
-      "summary": "The US-Iran conflict is ongoing, with the US requesting $87.6 billion in supplemental spending for the war. The conflict is expected to continue, with potential implications for the global economy and oil markets.",
+      "title": "US-Iran Conflict Escalation",
+      "summary": "The ongoing US-Iran conflict is escalating, with both countries engaging in military actions. This has led to increased tensions in the Middle East and a rise in oil prices. The conflict is expected to continue, with potential implications for global markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
@@ -70,50 +27,49 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict is expected to drive up oil prices and increase volatility in the markets. The SPY ETF is a good hedge against market volatility, while the AGG ETF is a bond ETF that may be negatively impacted by rising interest rates.",
+      "reasoning": "The US-Iran conflict is expected to lead to increased volatility in global markets, with potential implications for oil prices and emerging markets. A buy signal is generated for the SPDR S&P 500 ETF Trust (SPY), while a short signal is generated for the iShares MSCI Emerging Markets ETF (EEM).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Keep an eye on geopolitical developments"
+        "note": "Monitor oil prices and conflict developments"
       },
-      "exitStrategy": "Sell if SPY drops below $400",
+      "exitStrategy": "Exit when oil prices stabilize or conflict de-escalates",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+10-15%",
+        "conservativeNote": "If conflict stabilizes",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-12% on SPY"
+        "extended": "+25%+",
+        "extendedNote": "If conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (USO)",
-        "Gold (GLD)"
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Geopolitical developments",
-        "Economic indicators"
+        "Monitor Federal Reserve interest rate decisions"
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economics",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve held interest rates steady, but hinted at a potential rate hike in the future. The decision is expected to impact the economy and financial markets.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, with potential implications for the US economy and markets. The decision is expected to lead to increased volatility in the bond market.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
@@ -121,436 +77,533 @@
           "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The interest rate decision is expected to drive up stock prices and increase volatility in the bond market. The VTI ETF is a good hedge against market volatility, while the CSJ ETF is a bond ETF that may be negatively impacted by rising interest rates.",
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady is expected to lead to increased volatility in the bond market. A buy signal is generated for the iShares 20+ Year Treasury Bond ETF (TLT), while a short signal is generated for the iShares 1-3 Year Credit Bond ETF (CSJ).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor bond market developments"
+      },
+      "exitStrategy": "Exit when interest rates change or bond market stabilizes",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If bond market stabilizes",
+        "base": "+8-12%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If bond market volatility increases",
+        "stopLoss": "-5% on TLT"
+      },
+      "adjacentMarkets": [
+        "US Dollar Index (DXY)"
+      ],
+      "otherFactors": [
+        "Monitor inflation expectations"
+      ]
+    },
+    {
+      "id": 3,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "NVIDIA AI Semiconductor Stocks",
+      "summary": "NVIDIA has announced a partnership with TSMC to advance semiconductor design and manufacturing. This is expected to lead to increased demand for AI semiconductor stocks.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "The partnership between NVIDIA and TSMC is expected to lead to increased demand for AI semiconductor stocks. A buy signal is generated for NVIDIA Corporation (NVDA), while a rotate signal is generated for Advanced Micro Devices, Inc. (AMD).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Keep an eye on economic indicators"
+        "note": "Monitor AI semiconductor market developments"
       },
-      "exitStrategy": "Sell if VTI drops below $200",
+      "exitStrategy": "Exit when AI semiconductor demand slows",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the economy continues to grow",
-        "base": "+10-15%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If AI demand slows",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the interest rate hike is larger than expected",
-        "stopLoss": "-12% on VTI"
+        "extended": "+25%+",
+        "extendedNote": "If AI demand increases further",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Bond market (TLT)",
-        "Commodities (DBC)"
+        "Taiwan Semiconductor Manufacturing Company (TSM)"
       ],
       "otherFactors": [
-        "Economic indicators",
-        "Inflation expectations"
+        "Monitor AI market trends"
       ]
     },
     {
       "id": 4,
       "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Micron Earnings",
-      "summary": "Micron's quarterly earnings report showed a quadrupling of revenue, driven by soaring prices from a memory crunch. The company's stock price has surged over 700% in the past year.",
+      "category": "oil",
+      "catLabel": "Oil",
+      "title": "Oil Market Expectations",
+      "summary": "Oil prices are expected to remain stable, with potential implications for the energy market.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Micron Technology Inc. (MU)"
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "United States Oil Fund, LP (USO)"
         }
       ],
-      "reasoning": "The strong earnings report and surging stock price make Micron a good buy opportunity. The company's revenue growth is expected to continue, driven by increasing demand for memory and storage products.",
+      "reasoning": "Oil prices are expected to remain stable, with potential implications for the energy market. A buy signal is generated for the SPDR S&P Oil & Gas Exploration & Production ETF (XOP), while a short signal is generated for the United States Oil Fund, LP (USO).",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Keep an eye on industry trends"
+        "viable": "2-4 weeks",
+        "note": "Monitor oil market developments"
       },
-      "exitStrategy": "Sell if MU drops below $80",
+      "exitStrategy": "Exit when oil prices change or energy market stabilizes",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the company's revenue growth continues",
-        "base": "+15-20%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If oil prices stabilize",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the company's stock price continues to surge",
-        "stopLoss": "-10% on MU"
+        "extended": "+10%+",
+        "extendedNote": "If oil prices increase",
+        "stopLoss": "-4% on XOP"
       },
       "adjacentMarkets": [
-        "Nvidia (NVDA)",
-        "Advanced Micro Devices (AMD)"
+        "Natural Gas (NG)"
       ],
       "otherFactors": [
-        "Industry trends",
-        "Earnings reports"
+        "Monitor global demand and supply"
       ]
     },
     {
       "id": 5,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
+      "category": "econ",
+      "catLabel": "Economics",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are ongoing, with the US and China negotiating a new trade deal. The negotiations are expected to impact the global economy and financial markets.",
+      "summary": "The US and China are engaged in trade negotiations, with potential implications for global markets.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "HIGH",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The trade negotiations are expected to drive up the Chinese stock market and increase volatility in the US stock market. The MCHI ETF is a good hedge against market volatility, while the SPY ETF is a broad US stock market ETF that may be negatively impacted by trade tensions.",
+      "reasoning": "The US and China are engaged in trade negotiations, with potential implications for global markets. A buy signal is generated for the iShares China Large-Cap ETF (FXI), while a short signal is generated for the iShares MSCI Emerging Markets ETF (EEM).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Keep an eye on trade negotiations"
+        "note": "Monitor trade negotiations"
       },
-      "exitStrategy": "Sell if MCHI drops below $50",
+      "exitStrategy": "Exit when trade deal is reached or negotiations fail",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If the trade negotiations are successful",
+        "conservativeNote": "If trade deal is reached",
         "base": "+10-15%",
         "baseNote": "Most likely scenario",
         "extended": "+20%+",
-        "extendedNote": "If the trade deal is more comprehensive than expected",
-        "stopLoss": "-12% on MCHI"
+        "extendedNote": "If trade negotiations fail",
+        "stopLoss": "-8% on FXI"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "Commodities (DBC)"
+        "US Dollar Index (DXY)"
       ],
       "otherFactors": [
-        "Trade negotiations",
-        "Economic indicators"
+        "Monitor global economic trends"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI Semiconductor Stocks",
-      "summary": "The AI semiconductor stocks are expected to continue growing, driven by increasing demand for AI and machine learning technologies. The stocks have been surging in recent months, with some companies announcing new partnerships and products.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "US-Iran Peace Deal",
+      "summary": "The US and Iran are engaged in peace negotiations, with potential implications for the Middle East.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Nvidia Corporation (NVDA)"
+          "target": "iShares MSCI Israel ETF (EIS)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Turkey ETF (TUR)"
         }
       ],
-      "reasoning": "The strong growth prospects for AI semiconductor stocks make them a good buy opportunity. The companies are expected to continue innovating and expanding their product offerings, driving revenue growth and stock price appreciation.",
+      "reasoning": "The US and Iran are engaged in peace negotiations, with potential implications for the Middle East. A buy signal is generated for the iShares MSCI Israel ETF (EIS), while a short signal is generated for the iShares MSCI Turkey ETF (TUR).",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Keep an eye on industry trends"
+        "viable": "2-4 weeks",
+        "note": "Monitor peace negotiations"
       },
-      "exitStrategy": "Sell if NVDA drops below $500",
+      "exitStrategy": "Exit when peace deal is reached or negotiations fail",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the company's revenue growth continues",
-        "base": "+15-20%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If peace deal is reached",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the company's stock price continues to surge",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+10%+",
+        "extendedNote": "If peace negotiations fail",
+        "stopLoss": "-4% on EIS"
       },
       "adjacentMarkets": [
-        "Micron Technology Inc. (MU)",
-        "Advanced Micro Devices (AMD)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Industry trends",
-        "Earnings reports"
+        "Monitor Middle East geopolitical trends"
       ]
     },
     {
       "id": 7,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Oil Market Expectations",
-      "summary": "The oil market is expected to continue growing, driven by increasing demand and supply chain disruptions. The prices have been surging in recent months, with some analysts predicting further gains.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "The strong growth prospects for the oil market make it a good buy opportunity. The prices are expected to continue growing, driven by increasing demand and supply chain disruptions. The USO ETF is a good hedge against market volatility, while the SPY ETF is a broad US stock market ETF that may be negatively impacted by high oil prices.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Keep an eye on oil prices"
-      },
-      "exitStrategy": "Sell if USO drops below $10",
-      "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the oil market continues to grow",
-        "base": "+10-15%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the oil prices surge further",
-        "stopLoss": "-12% on USO"
-      },
-      "adjacentMarkets": [
-        "Gasoline (UGA)",
-        "Commodities (DBC)"
-      ],
-      "otherFactors": [
-        "Oil prices",
-        "Economic indicators"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Cerebras Earnings",
-      "summary": "Cerebras's quarterly earnings report showed a major blow to early investors, with the company's stock price dropping below its IPO price. The company is expected to continue growing, driven by increasing demand for AI and machine learning technologies.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Cerebras Systems Inc. (CBRS)"
-        }
-      ],
-      "reasoning": "The strong growth prospects for Cerebras make it a good buy opportunity. The company is expected to continue innovating and expanding its product offerings, driving revenue growth and stock price appreciation.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Keep an eye on industry trends"
-      },
-      "exitStrategy": "Sell if CBRS drops below $10",
-      "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the company's revenue growth continues",
-        "base": "+15-20%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the company's stock price continues to surge",
-        "stopLoss": "-10% on CBRS"
-      },
-      "adjacentMarkets": [
-        "Nvidia Corporation (NVDA)",
-        "Advanced Micro Devices (AMD)"
-      ],
-      "otherFactors": [
-        "Industry trends",
-        "Earnings reports"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US-Iran Peace Deal",
-      "summary": "The US and Iran have reached a tentative peace deal, which is expected to impact the global economy and financial markets. The deal is expected to reduce tensions and increase trade between the two countries.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "The peace deal is expected to drive up emerging market stocks and increase volatility in the US stock market. The EEM ETF is a good hedge against market volatility, while the SPY ETF is a broad US stock market ETF that may be negatively impacted by reduced tensions.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Keep an eye on geopolitical developments"
-      },
-      "exitStrategy": "Sell if EEM drops below $40",
-      "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the peace deal is successful",
-        "base": "+10-15%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the deal leads to increased trade and investment",
-        "stopLoss": "-12% on EEM"
-      },
-      "adjacentMarkets": [
-        "Oil (USO)",
-        "Commodities (DBC)"
-      ],
-      "otherFactors": [
-        "Geopolitical developments",
-        "Economic indicators"
-      ]
-    },
-    {
-      "id": 10,
-      "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Broadcom Unveils Custom Chip for OpenAI",
-      "summary": "Broadcom has unveiled a custom chip for OpenAI, which is expected to drive up the company's stock price. The chip is designed to support OpenAI's future AI models and products.",
+      "summary": "Broadcom has unveiled a custom chip for OpenAI, with potential implications for the AI market.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "Broadcom Inc. (AVGO)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "The custom chip is expected to drive up Broadcom's stock price, driven by increasing demand for AI and machine learning technologies. The company is expected to continue innovating and expanding its product offerings, driving revenue growth and stock price appreciation.",
+      "reasoning": "Broadcom has unveiled a custom chip for OpenAI, with potential implications for the AI market. A buy signal is generated for Broadcom Inc. (AVGO), while a rotate signal is generated for NVIDIA Corporation (NVDA).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Keep an eye on industry trends"
+        "note": "Monitor AI market developments"
       },
-      "exitStrategy": "Sell if AVGO drops below $500",
+      "exitStrategy": "Exit when AI market demand slows",
       "gains": {
         "conservative": "+8-12%",
-        "conservativeNote": "If the company's revenue growth continues",
+        "conservativeNote": "If AI demand slows",
         "base": "+15-20%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the company's stock price continues to surge",
+        "extendedNote": "If AI demand increases further",
         "stopLoss": "-10% on AVGO"
       },
       "adjacentMarkets": [
-        "Nvidia Corporation (NVDA)",
-        "Advanced Micro Devices (AMD)"
+        "Taiwan Semiconductor Manufacturing Company (TSM)"
       ],
       "otherFactors": [
-        "Industry trends",
-        "Earnings reports"
+        "Monitor AI market trends"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, with potential implications for the US economy and markets.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "The Federal Reserve has decided to hold interest rates steady, with potential implications for the US economy and markets. A buy signal is generated for the iShares 20+ Year Treasury Bond ETF (TLT), while a short signal is generated for the iShares 1-3 Year Credit Bond ETF (CSJ).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor bond market developments"
+      },
+      "exitStrategy": "Exit when interest rates change or bond market stabilizes",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If bond market stabilizes",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If bond market volatility increases",
+        "stopLoss": "-4% on TLT"
+      },
+      "adjacentMarkets": [
+        "US Dollar Index (DXY)"
+      ],
+      "otherFactors": [
+        "Monitor inflation expectations"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Micron Earnings",
+      "summary": "Micron has announced its earnings, with potential implications for the tech market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Micron Technology, Inc. (MU)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Western Digital Corporation (WDC)"
+        }
+      ],
+      "reasoning": "Micron has announced its earnings, with potential implications for the tech market. A buy signal is generated for Micron Technology, Inc. (MU), while a rotate signal is generated for Western Digital Corporation (WDC).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor tech market developments"
+      },
+      "exitStrategy": "Exit when tech market demand slows",
+      "gains": {
+        "conservative": "+8-12%",
+        "conservativeNote": "If tech demand slows",
+        "base": "+15-20%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If tech demand increases further",
+        "stopLoss": "-10% on MU"
+      },
+      "adjacentMarkets": [
+        "NVIDIA Corporation (NVDA)"
+      ],
+      "otherFactors": [
+        "Monitor tech market trends"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "oil",
+      "catLabel": "Oil",
+      "title": "Oil Market Expectations",
+      "summary": "Oil prices are expected to remain stable, with potential implications for the energy market.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P Oil & Gas Exploration & Production ETF (XOP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "United States Oil Fund, LP (USO)"
+        }
+      ],
+      "reasoning": "Oil prices are expected to remain stable, with potential implications for the energy market. A buy signal is generated for the SPDR S&P Oil & Gas Exploration & Production ETF (XOP), while a short signal is generated for the United States Oil Fund, LP (USO).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor oil market developments"
+      },
+      "exitStrategy": "Exit when oil prices change or energy market stabilizes",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If oil prices stabilize",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If oil prices increase",
+        "stopLoss": "-4% on XOP"
+      },
+      "adjacentMarkets": [
+        "Natural Gas (NG)"
+      ],
+      "otherFactors": [
+        "Monitor global demand and supply"
       ]
     },
     {
       "id": 11,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Policy",
-      "summary": "The Federal Reserve has held interest rates steady, but hinted at a potential rate hike in the future. The decision is expected to impact the economy and financial markets.",
+      "catLabel": "Economics",
+      "title": "JPMorgan Raises S&P 500 Target",
+      "summary": "JPMorgan has raised its S&P 500 target, with potential implications for the US stock market.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The interest rate decision is expected to drive up stock prices and increase volatility in the bond market. The VTI ETF is a good hedge against market volatility, while the CSJ ETF is a bond ETF that may be negatively impacted by rising interest rates.",
+      "reasoning": "JPMorgan has raised its S&P 500 target, with potential implications for the US stock market. A buy signal is generated for the SPDR S&P 500 ETF Trust (SPY), while a rotate signal is generated for the iShares Russell 2000 ETF (IWM).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Keep an eye on economic indicators"
+        "note": "Monitor US stock market developments"
       },
-      "exitStrategy": "Sell if VTI drops below $200",
+      "exitStrategy": "Exit when US stock market demand slows",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the economy continues to grow",
-        "base": "+10-15%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If US stock demand slows",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the interest rate hike is larger than expected",
-        "stopLoss": "-12% on VTI"
+        "extended": "+25%+",
+        "extendedNote": "If US stock demand increases further",
+        "stopLoss": "-10% on SPY"
       },
       "adjacentMarkets": [
-        "Bond market (TLT)",
-        "Commodities (DBC)"
+        "Dow Jones Industrial Average (DIA)"
       ],
       "otherFactors": [
-        "Economic indicators",
-        "Inflation expectations"
+        "Monitor US economic trends"
       ]
     },
     {
       "id": 12,
       "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Wendy's Stock Surges",
-      "summary": "Wendy's stock has surged over 25% in recent days, driven by a short squeeze and increasing demand for the company's products. The company is expected to continue growing, driven by increasing demand for fast food and convenience products.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East is experiencing geopolitical instability, with potential implications for global markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Wendy's Company (WEN)"
+          "target": "iShares MSCI Israel ETF (EIS)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Turkey ETF (TUR)"
         }
       ],
-      "reasoning": "The strong growth prospects for Wendy's make it a good buy opportunity. The company is expected to continue innovating and expanding its product offerings, driving revenue growth and stock price appreciation.",
+      "reasoning": "The Middle East is experiencing geopolitical instability, with potential implications for global markets. A buy signal is generated for the iShares MSCI Israel ETF (EIS), while a short signal is generated for the iShares MSCI Turkey ETF (TUR).",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor Middle East geopolitical developments"
+      },
+      "exitStrategy": "Exit when Middle East geopolitical instability subsides",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If Middle East geopolitical instability subsides",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If Middle East geopolitical instability increases",
+        "stopLoss": "-4% on EIS"
+      },
+      "adjacentMarkets": [
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "Monitor global geopolitical trends"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "NVIDIA and SK Hynix Expand AI Chip Partnership",
+      "summary": "NVIDIA and SK Hynix have expanded their AI chip partnership, with potential implications for the AI market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "NVIDIA and SK Hynix have expanded their AI chip partnership, with potential implications for the AI market. A buy signal is generated for NVIDIA Corporation (NVDA), while a rotate signal is generated for Advanced Micro Devices, Inc. (AMD).",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Keep an eye on industry trends"
+        "note": "Monitor AI market developments"
       },
-      "exitStrategy": "Sell if WEN drops below $20",
+      "exitStrategy": "Exit when AI market demand slows",
       "gains": {
         "conservative": "+8-12%",
-        "conservativeNote": "If the company's revenue growth continues",
+        "conservativeNote": "If AI demand slows",
         "base": "+15-20%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the company's stock price continues to surge",
-        "stopLoss": "-10% on WEN"
+        "extendedNote": "If AI demand increases further",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "McDonald's Corporation (MCD)",
-        "Restaurant Brands International Inc. (QSR)"
+        "Taiwan Semiconductor Manufacturing Company (TSM)"
       ],
       "otherFactors": [
-        "Industry trends",
-        "Earnings reports"
+        "Monitor AI market trends"
       ]
     }
   ]
