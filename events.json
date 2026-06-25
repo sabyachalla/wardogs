@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T10:44:07Z",
+  "lastUpdated": "2026-06-25T13:21:05Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "US-Iran Conflict Escalation",
-      "summary": "The US-Iran conflict is escalating, with potential for further military action. This could lead to increased volatility in oil prices and the stock market. The situation is being closely monitored by global leaders.",
+      "summary": "The US-Iran conflict is escalating, with potential for further military action. This could lead to increased volatility in the oil market and global instability. The US has shown military strength, but also its waning geopolitical power.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -27,16 +27,16 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict escalation could lead to increased oil prices, which would negatively impact the oil and gas exploration and production sector. On the other hand, the S&P 500 ETF could see a boost due to safe-haven demand.",
+      "reasoning": "The conflict escalation could lead to increased oil prices, which would negatively impact emerging markets. The US stock market, on the other hand, may see a boost due to increased military spending.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
         "note": "Monitor oil prices and conflict developments"
       },
-      "exitStrategy": "Exit if oil prices drop below $60/barrel or if conflict de-escalation is announced",
+      "exitStrategy": "Exit if oil prices drop below $60/barrel or if a ceasefire is announced",
       "gains": {
         "conservative": "+5-8%",
         "conservativeNote": "If conflict is contained",
@@ -47,11 +47,11 @@
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
+        "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "Geopolitical developments"
+        "OPEC production levels"
       ]
     },
     {
@@ -60,7 +60,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, but hints at a potential rate hike later this year. This could impact the stock market and the economy.",
+      "summary": "The Federal Reserve has held interest rates steady, but hinted at a potential rate hike later this year. This could lead to increased volatility in the bond market and impact stock prices.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -69,48 +69,47 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The potential rate hike could lead to increased borrowing costs, which would negatively impact the bond market. On the other hand, the stock market could see a boost due to the Fed's decision to hold rates steady.",
+      "reasoning": "A potential rate hike could lead to increased bond yields, making long-term bonds more attractive. The stock market, on the other hand, may see a decline due to increased borrowing costs.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data and Fed announcements"
+        "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Exit if interest rates are raised or if economic data shows significant weakness",
+      "exitStrategy": "Exit if inflation data comes in below expectations or if the Fed announces a rate cut",
       "gains": {
         "conservative": "+3-5%",
-        "conservativeNote": "If rate hike is mild",
+        "conservativeNote": "If rate hike is small",
         "base": "+8-12%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If rate hike is significant",
-        "stopLoss": "-5% on VTI"
+        "extendedNote": "If rate hike is large",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US Dollar Index (DXY)"
       ],
       "otherFactors": [
-        "Economic data",
-        "Fed announcements"
+        "Inflation data"
       ]
     },
     {
       "id": 3,
-      "rank": "HIGH",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks are expected to see significant growth due to increasing demand for AI technology. This could lead to increased stock prices for NVIDIA and related companies.",
+      "summary": "NVIDIA has announced a partnership with TSMC to advance semiconductor design and manufacturing. This could lead to increased demand for AI-related stocks.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "HIGH",
+      "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
@@ -121,43 +120,42 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "target": "Intel Corporation (INTC)"
         }
       ],
-      "reasoning": "NVIDIA's dominance in the AI semiconductor market could lead to increased stock prices. On the other hand, AMD's competition in the market could lead to decreased stock prices.",
+      "reasoning": "The partnership could lead to increased demand for NVIDIA's AI-related products, driving up the stock price. Intel, on the other hand, may see a decline due to increased competition.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI technology developments and NVIDIA's stock performance"
+        "note": "Monitor AI-related news and earnings reports"
       },
-      "exitStrategy": "Exit if NVIDIA's stock price drops below $200 or if AI technology developments slow down",
+      "exitStrategy": "Exit if AI demand slows down or if competition increases",
       "gains": {
-        "conservative": "+10-15%",
-        "conservativeNote": "If AI demand is moderate",
-        "base": "+20-25%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If partnership is successful",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If AI demand is high",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If AI demand surges",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI technology"
+        "Taiwan Semiconductor Manufacturing Company (TSM)"
       ],
       "otherFactors": [
-        "AI demand",
-        "NVIDIA's competition"
+        "AI demand"
       ]
     },
     {
       "id": 4,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in ongoing trade negotiations, with potential for significant impact on global trade and the stock market.",
+      "summary": "The US has proposed new tariffs on China and the EU over forced labor concerns. This could lead to increased trade tensions and impact global markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
@@ -168,44 +166,43 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Invesco China Technology ETF (CQQQ)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A potential trade deal between the US and China could lead to increased stock prices for Chinese companies. On the other hand, a lack of progress in trade negotiations could lead to decreased stock prices.",
+      "reasoning": "The tariffs could lead to increased trade tensions, negatively impacting the US stock market. The Chinese market, on the other hand, may see a boost due to increased domestic demand.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations and Chinese economic data"
+        "note": "Monitor trade negotiations and tariff announcements"
       },
-      "exitStrategy": "Exit if trade deal is announced or if trade negotiations break down",
+      "exitStrategy": "Exit if trade tensions ease or if tariffs are removed",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If trade deal is mild",
-        "base": "+10-15%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If trade tensions ease",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If trade deal is significant",
-        "stopLoss": "-8% on MCHI"
+        "extended": "+10%+",
+        "extendedNote": "If trade war escalates",
+        "stopLoss": "-5% on MCHI"
       },
       "adjacentMarkets": [
-        "Global trade"
+        "US Dollar Index (DXY)"
       ],
       "otherFactors": [
-        "Trade negotiations",
-        "Chinese economic data"
+        "Trade negotiations"
       ]
     },
     {
       "id": 5,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "Iran War Shows Military Strength of US, but also its Waning Geopolitical Power",
-      "summary": "The Iran war has shown the military strength of the US, but also its waning geopolitical power. This could lead to increased volatility in the Middle East and the stock market.",
+      "title": "The Powder Keg Called The Middle East",
+      "summary": "The Middle East is experiencing increased geopolitical instability, with potential for regional war. This could lead to increased oil prices and global instability.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -218,87 +215,86 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The US's military strength could lead to increased stock prices due to safe-haven demand. On the other hand, the waning geopolitical power of the US could lead to decreased stock prices in emerging markets.",
+      "reasoning": "The instability could lead to increased oil prices, which would negatively impact emerging markets. The US stock market, on the other hand, may see a boost due to increased military spending.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor Middle East developments and US geopolitical influence"
+        "viable": "4-8 weeks",
+        "note": "Monitor oil prices and conflict developments"
       },
-      "exitStrategy": "Exit if US geopolitical influence increases or if Middle East developments stabilize",
+      "exitStrategy": "Exit if oil prices drop below $60/barrel or if a ceasefire is announced",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If US influence is moderate",
-        "base": "+5-8%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If conflict is contained",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If US influence is high",
-        "stopLoss": "-5% on SPY"
+        "extended": "+25%+",
+        "extendedNote": "If conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Middle East"
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US geopolitical influence",
-        "Middle East developments"
+        "OPEC production levels"
       ]
     },
     {
       "id": 6,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision and Its Impact on the Economy",
-      "summary": "The Federal Reserve's interest rate decision will have a significant impact on the economy, with potential for increased borrowing costs and decreased economic growth.",
+      "summary": "The Federal Reserve has held interest rates steady, but hinted at a potential rate hike later this year. This could lead to increased volatility in the bond market and impact stock prices.",
       "fresh": true,
       "freshLabel": "2h ago",
-      "risk": "MED",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The potential rate hike could lead to increased borrowing costs, which would negatively impact the bond market. On the other hand, the stock market could see a boost due to the Fed's decision to hold rates steady.",
+      "reasoning": "A potential rate hike could lead to increased bond yields, making long-term bonds more attractive. The stock market, on the other hand, may see a decline due to increased borrowing costs.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data and Fed announcements"
+        "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Exit if interest rates are raised or if economic data shows significant weakness",
+      "exitStrategy": "Exit if inflation data comes in below expectations or if the Fed announces a rate cut",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If rate hike is mild",
-        "base": "+8-12%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If rate hike is small",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If rate hike is significant",
-        "stopLoss": "-5% on VTI"
+        "extended": "+10%+",
+        "extendedNote": "If rate hike is large",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US Dollar Index (DXY)"
       ],
       "otherFactors": [
-        "Economic data",
-        "Fed announcements"
+        "Inflation data"
       ]
     },
     {
       "id": 7,
-      "rank": "HIGH",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-      "summary": "NVIDIA and TSMC are bringing AI into their fabrication plants to advance semiconductor design and manufacturing. This could lead to significant growth in the AI semiconductor market.",
+      "summary": "NVIDIA has announced a partnership with TSMC to advance semiconductor design and manufacturing. This could lead to increased demand for AI-related stocks.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "HIGH",
+      "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
@@ -309,143 +305,94 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "target": "Intel Corporation (INTC)"
         }
       ],
-      "reasoning": "The integration of AI into fabrication plants could lead to increased efficiency and productivity, resulting in higher stock prices for NVIDIA and related companies.",
+      "reasoning": "The partnership could lead to increased demand for NVIDIA's AI-related products, driving up the stock price. Intel, on the other hand, may see a decline due to increased competition.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI technology developments and NVIDIA's stock performance"
+        "note": "Monitor AI-related news and earnings reports"
       },
-      "exitStrategy": "Exit if NVIDIA's stock price drops below $200 or if AI technology developments slow down",
+      "exitStrategy": "Exit if AI demand slows down or if competition increases",
       "gains": {
-        "conservative": "+10-15%",
-        "conservativeNote": "If AI demand is moderate",
-        "base": "+20-25%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If partnership is successful",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If AI demand is high",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If AI demand surges",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI technology"
+        "Taiwan Semiconductor Manufacturing Company (TSM)"
       ],
       "otherFactors": [
-        "AI demand",
-        "NVIDIA's competition"
+        "AI demand"
       ]
     },
     {
       "id": 8,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "trade",
       "catLabel": "Trade",
       "title": "US Reciprocal Trade Deals Built to Push America's Trade Partners Away from China",
-      "summary": "The US is building reciprocal trade deals to push its trade partners away from China. This could lead to increased trade tensions between the US and China.",
+      "summary": "The US has announced reciprocal trade deals to push America's trade partners away from China. This could lead to increased trade tensions and impact global markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI USA ETF (EUSA)"
+          "target": "iShares MSCI China ETF (MCHI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US's reciprocal trade deals could lead to increased trade tensions with China, resulting in decreased stock prices for Chinese companies.",
+      "reasoning": "The trade deals could lead to increased trade tensions, negatively impacting the US stock market. The Chinese market, on the other hand, may see a boost due to increased domestic demand.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations and Chinese economic data"
+        "note": "Monitor trade negotiations and tariff announcements"
       },
-      "exitStrategy": "Exit if trade deal is announced or if trade negotiations break down",
+      "exitStrategy": "Exit if trade tensions ease or if tariffs are removed",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If trade deal is mild",
-        "base": "+10-15%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If trade tensions ease",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If trade deal is significant",
-        "stopLoss": "-8% on EUSA"
+        "extended": "+10%+",
+        "extendedNote": "If trade war escalates",
+        "stopLoss": "-5% on MCHI"
       },
       "adjacentMarkets": [
-        "Global trade"
+        "US Dollar Index (DXY)"
       ],
       "otherFactors": [
-        "Trade negotiations",
-        "Chinese economic data"
+        "Trade negotiations"
       ]
     },
     {
       "id": 9,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "The Powder Keg Called The Middle East: Geopolitical Instability, Strategic Rivalries, And The Specter Of Regional War",
-      "summary": "The Middle East is a region of geopolitical instability, with strategic rivalries and the specter of regional war. This could lead to increased volatility in the region and the stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The geopolitical instability in the Middle East could lead to increased stock prices due to safe-haven demand. On the other hand, the specter of regional war could lead to decreased stock prices in emerging markets.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor Middle East developments and US geopolitical influence"
-      },
-      "exitStrategy": "Exit if US geopolitical influence increases or if Middle East developments stabilize",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If US influence is moderate",
-        "base": "+5-8%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If US influence is high",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "Middle East"
-      ],
-      "otherFactors": [
-        "US geopolitical influence",
-        "Middle East developments"
-      ]
-    },
-    {
-      "id": 10,
       "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
       "title": "The Structural Limits of the EU's China Policy",
-      "summary": "The EU's China policy has structural limits, which could lead to increased trade tensions between the EU and China.",
+      "summary": "The EU's China policy has structural limits, which could lead to increased trade tensions and impact global markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI Europe ETF (EUSA)"
+          "target": "iShares MSCI Europe ETF (EZU)"
         },
         {
           "label": "SHORT",
@@ -453,133 +400,38 @@
           "target": "iShares MSCI China ETF (MCHI)"
         }
       ],
-      "reasoning": "The EU's China policy could lead to increased trade tensions with China, resulting in decreased stock prices for Chinese companies.",
+      "reasoning": "The structural limits could lead to increased trade tensions, negatively impacting the Chinese market. The European market, on the other hand, may see a boost due to increased domestic demand.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations and Chinese economic data"
+        "viable": "4-8 weeks",
+        "note": "Monitor trade negotiations and tariff announcements"
       },
-      "exitStrategy": "Exit if trade deal is announced or if trade negotiations break down",
+      "exitStrategy": "Exit if trade tensions ease or if tariffs are removed",
       "gains": {
         "conservative": "+5-8%",
-        "conservativeNote": "If trade deal is mild",
-        "base": "+10-15%",
+        "conservativeNote": "If trade tensions ease",
+        "base": "+12-18%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If trade deal is significant",
-        "stopLoss": "-8% on EUSA"
+        "extended": "+25%+",
+        "extendedNote": "If trade war escalates",
+        "stopLoss": "-8% on EZU"
       },
       "adjacentMarkets": [
-        "Global trade"
+        "US Dollar Index (DXY)"
       ],
       "otherFactors": [
-        "Trade negotiations",
-        "Chinese economic data"
+        "Trade negotiations"
       ]
     },
     {
-      "id": 11,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Geopolitical and Military Lessons Drawn from the Russia\u2013Ukraine Conflict",
-      "summary": "The Russia\u2013Ukraine conflict has provided geopolitical and military lessons, which could lead to increased volatility in the region and the stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The geopolitical and military lessons drawn from the conflict could lead to increased stock prices due to safe-haven demand. On the other hand, the specter of regional war could lead to decreased stock prices in emerging markets.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor regional developments and US geopolitical influence"
-      },
-      "exitStrategy": "Exit if US geopolitical influence increases or if regional developments stabilize",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If US influence is moderate",
-        "base": "+5-8%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If US influence is high",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "Region"
-      ],
-      "otherFactors": [
-        "US geopolitical influence",
-        "Regional developments"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "JPMorgan Raises S&P 500 Target to 7,800",
-      "summary": "JPMorgan has raised its S&P 500 target to 7,800, citing strong earnings growth and a positive economic outlook.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
-        }
-      ],
-      "reasoning": "The raised target could lead to increased stock prices due to positive earnings growth and a positive economic outlook.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor economic data and earnings growth"
-      },
-      "exitStrategy": "Exit if economic data shows significant weakness or if earnings growth slows down",
-      "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If earnings growth is moderate",
-        "base": "+10-15%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If earnings growth is strong",
-        "stopLoss": "-8% on SPY"
-      },
-      "adjacentMarkets": [
-        "Economic data"
-      ],
-      "otherFactors": [
-        "Earnings growth",
-        "Economic data"
-      ]
-    },
-    {
-      "id": 13,
+      "id": 10,
       "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
-      "title": "NVIDIA Partner Coherent Expands Texas AI Semiconductor Fab",
-      "summary": "NVIDIA's partner Coherent has expanded its Texas AI semiconductor fabrication plant, which could lead to increased production of AI semiconductors.",
+      "title": "AI Tech Stock Selloff June 2026",
+      "summary": "The AI tech stock selloff in June 2026 could lead to increased volatility in the tech sector.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -591,31 +443,122 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "target": "Intel Corporation (INTC)"
         }
       ],
-      "reasoning": "The expanded fabrication plant could lead to increased production of AI semiconductors, resulting in higher stock prices for NVIDIA and related companies.",
+      "reasoning": "The selloff could lead to increased demand for NVIDIA's AI-related products, driving up the stock price. Intel, on the other hand, may see a decline due to increased competition.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor AI technology developments and NVIDIA's stock performance"
+        "note": "Monitor AI-related news and earnings reports"
       },
-      "exitStrategy": "Exit if NVIDIA's stock price drops below $200 or if AI technology developments slow down",
+      "exitStrategy": "Exit if AI demand slows down or if competition increases",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If AI demand is moderate",
+        "conservative": "+2-3%",
+        "conservativeNote": "If selloff is contained",
         "base": "+5-8%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If AI demand is high",
+        "extendedNote": "If AI demand surges",
         "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "AI technology"
+        "Taiwan Semiconductor Manufacturing Company (TSM)"
       ],
       "otherFactors": [
-        "AI demand",
-        "NVIDIA's competition"
+        "AI demand"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Blockbuster S&P 500 Earnings Will Soon Be Eclipsed",
+      "summary": "The blockbuster S&P 500 earnings will soon be eclipsed, leading to increased volatility in the stock market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The earnings will soon be eclipsed, leading to increased volatility in the stock market. The US stock market may see a boost due to increased earnings, while the emerging markets may see a decline due to decreased earnings.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor earnings reports and economic data"
+      },
+      "exitStrategy": "Exit if earnings reports are better than expected or if economic data improves",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If earnings reports are good",
+        "base": "+12-18%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If earnings reports are excellent",
+        "stopLoss": "-8% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Dollar Index (DXY)"
+      ],
+      "otherFactors": [
+        "Earnings reports"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "LOW",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Tech Stocks Tumble for a Second Day",
+      "summary": "The tech stocks have tumbled for a second day, leading to increased volatility in the tech sector.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Intel Corporation (INTC)"
+        }
+      ],
+      "reasoning": "The tumble could lead to increased demand for NVIDIA's AI-related products, driving up the stock price. Intel, on the other hand, may see a decline due to increased competition.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor AI-related news and earnings reports"
+      },
+      "exitStrategy": "Exit if AI demand slows down or if competition increases",
+      "gains": {
+        "conservative": "+2-3%",
+        "conservativeNote": "If tumble is contained",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If AI demand surges",
+        "stopLoss": "-5% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Taiwan Semiconductor Manufacturing Company (TSM)"
+      ],
+      "otherFactors": [
+        "AI demand"
       ]
     }
   ]
