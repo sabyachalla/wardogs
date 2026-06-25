@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T19:06:19Z",
+  "lastUpdated": "2026-06-25T21:45:09Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -10,56 +10,149 @@
     {
       "id": 1,
       "rank": "HIGH",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "US Inflation Rate Hits 3-Year High",
-      "summary": "The US inflation rate has reached a 3-year high, putting pressure on the Federal Reserve to raise interest rates. This could impact the stock market and economy.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "US-Iran Conflict Escalation",
+      "summary": "The US-Iran conflict is escalating, with potential for further military action. This could lead to increased volatility in global markets, particularly in the energy sector. Geopolitical tensions are rising, and investors should be prepared for potential disruptions.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "S&P 500 (SPY)"
-        },
-        {
           "label": "BUY",
           "cls": "buy",
-          "target": "Inflation-Indexed Bond ETF (TIP)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The high inflation rate could lead to a rate hike, which would negatively impact the stock market. However, inflation-indexed bonds would benefit from the increased inflation.",
+      "reasoning": "The conflict escalation could lead to increased oil prices, which would benefit energy stocks. However, emerging markets could be negatively impacted by the increased uncertainty and volatility.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Watch for Fed interest rate decision"
+        "note": "Monitor news for further escalation"
       },
-      "exitStrategy": "Exit when inflation rate drops below 2%",
+      "exitStrategy": "Exit if conflict de-escalates or oil prices drop",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If inflation rate drops to 2.5%",
+        "conservativeNote": "If conflict remains contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If inflation rate reaches 4%",
+        "extendedNote": "If conflict escalates further",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
+        "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Federal Reserve interest rate decision"
+        "Monitor news for further escalation"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "US-Iran Conflict Escalation",
-      "summary": "The conflict between the US and Iran is escalating, which could impact the global economy and stock market.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, but has hinted at a potential rate hike later this year. This could lead to increased volatility in the bond market and impact the US dollar.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2\u20134 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        }
+      ],
+      "reasoning": "The potential rate hike could lead to increased bond yields, which would benefit long-term bond ETFs. However, a stronger US dollar could negatively impact the dollar index.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor economic data for rate hike signals"
+      },
+      "exitStrategy": "Exit if rate hike is confirmed or bond yields drop",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If rate hike is modest",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If rate hike is aggressive",
+        "stopLoss": "-5% on TLT"
+      },
+      "adjacentMarkets": [
+        "US Dollar Index"
+      ],
+      "otherFactors": [
+        "Monitor economic data for rate hike signals"
+      ]
+    },
+    {
+      "id": 3,
+      "rank": "HIGH",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "NVIDIA AI Semiconductor Stocks",
+      "summary": "NVIDIA's AI semiconductor stocks are experiencing high volatility due to the AI boom. This could lead to increased gains for investors who time their entry correctly.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "HIGH",
+      "window": "Active now \u2014 2\u20134 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "NVIDIA's AI semiconductor stocks are well-positioned to benefit from the AI boom. However, AMD's stocks could be negatively impacted by the increased competition.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor AI-related news for potential catalysts"
+      },
+      "exitStrategy": "Exit if AI boom slows down or NVIDIA's stock drops",
+      "gains": {
+        "conservative": "+10\u201315%",
+        "conservativeNote": "If AI boom continues",
+        "base": "+20\u201325%",
+        "baseNote": "Most likely scenario",
+        "extended": "+30%+",
+        "extendedNote": "If AI boom accelerates",
+        "stopLoss": "-10% on NVDA"
+      },
+      "adjacentMarkets": [
+        "AI-related stocks"
+      ],
+      "otherFactors": [
+        "Monitor AI-related news for potential catalysts"
+      ]
+    },
+    {
+      "id": 4,
+      "rank": "MED",
+      "category": "trade",
+      "catLabel": "Trade",
+      "title": "US-China Trade Relations",
+      "summary": "The US-China trade relations are experiencing increased tensions due to the ongoing trade war. This could lead to increased volatility in the global markets, particularly in the trade-sensitive sectors.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -68,232 +161,141 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Defense ETF (ITA)"
+          "target": "iShares MSCI China ETF (MCHI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Airlines ETF (JETS)"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The escalating conflict could lead to increased defense spending and decreased air travel.",
+      "reasoning": "The increased tensions could lead to a weaker US dollar, which would benefit the Chinese yuan and the MSCI China ETF. However, a stronger US dollar could negatively impact the dollar index.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Watch for conflict escalation"
+        "note": "Monitor trade-related news for potential catalysts"
       },
-      "exitStrategy": "Exit when conflict de-escalates",
-      "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If conflict de-escalates",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If conflict escalates further",
-        "stopLoss": "-5% on ITA"
-      },
-      "adjacentMarkets": [
-        "Oil (geopolitical risk)"
-      ],
-      "otherFactors": [
-        "US foreign policy"
-      ]
-    },
-    {
-      "id": 3,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks are experiencing a surge in demand, which could impact the tech industry.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices (AMD)"
-        }
-      ],
-      "reasoning": "The demand for AI semiconductor stocks could lead to increased revenue for NVIDIA.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Watch for earnings report"
-      },
-      "exitStrategy": "Exit when demand for AI semiconductor stocks decreases",
+      "exitStrategy": "Exit if trade war escalates or US dollar strengthens",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If demand decreases",
-        "base": "+12\u201318%",
+        "conservativeNote": "If trade war remains contained",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If demand increases further",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If trade war escalates",
+        "stopLoss": "-8% on MCHI"
       },
       "adjacentMarkets": [
-        "Tech ETF (XLK)"
+        "US Dollar Index"
       ],
       "otherFactors": [
-        "AI demand"
-      ]
-    },
-    {
-      "id": 4,
-      "rank": "LOW",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "US Reciprocal Trade Deals",
-      "summary": "The US is negotiating reciprocal trade deals with its partners, which could impact the economy.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "US Dollar Index (UUP)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The reciprocal trade deals could lead to a stronger US dollar and decreased emerging market growth.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Watch for trade deal announcements"
-      },
-      "exitStrategy": "Exit when trade deals are finalized",
-      "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade deals are finalized",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade deals are highly favorable",
-        "stopLoss": "-3% on UUP"
-      },
-      "adjacentMarkets": [
-        "Currency markets"
-      ],
-      "otherFactors": [
-        "Trade policy"
+        "Monitor trade-related news for potential catalysts"
       ]
     },
     {
       "id": 5,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "The Powder Keg Called The Middle East",
-      "summary": "The Middle East is experiencing increased geopolitical tensions, which could impact the global economy.",
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Inflation Rate Hits 3-Year High",
+      "summary": "The US inflation rate has hit a 3-year high, which could lead to increased interest rates and impact the bond market.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Oil ETF (USO)"
+          "target": "iShares TIPS Bond ETF (TIP)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Airlines ETF (JETS)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The increased tensions could lead to higher oil prices and decreased air travel.",
+      "reasoning": "The increased inflation rate could lead to increased bond yields, which would benefit TIPS bond ETFs. However, long-term bond ETFs could be negatively impacted by the increased yields.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Watch for conflict escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor economic data for inflation signals"
       },
-      "exitStrategy": "Exit when tensions de-escalate",
+      "exitStrategy": "Exit if inflation rate drops or bond yields decrease",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If tensions de-escalate",
-        "base": "+8\u201312%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If inflation rate remains high",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If tensions escalate further",
-        "stopLoss": "-5% on USO"
+        "extended": "+10%+",
+        "extendedNote": "If inflation rate accelerates",
+        "stopLoss": "-4% on TIP"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "US Treasury Bond Market"
       ],
       "otherFactors": [
-        "Geopolitical risk"
+        "Monitor economic data for inflation signals"
       ]
     },
     {
       "id": 6,
-      "rank": "LOW",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to make an interest rate decision, which could impact the economy.",
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "The Powder Keg Called The Middle East",
+      "summary": "The Middle East is experiencing increased geopolitical tensions, which could lead to increased volatility in the global markets, particularly in the energy sector.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
+      "freshLabel": "2h ago",
+      "risk": "MED",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "US Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "S&P 500 (SPY)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The interest rate decision could lead to decreased economic growth and increased bond yields.",
+      "reasoning": "The increased tensions could lead to increased oil prices, which would benefit energy stocks. However, emerging markets could be negatively impacted by the increased uncertainty and volatility.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Watch for interest rate decision"
+        "note": "Monitor news for further escalation"
       },
-      "exitStrategy": "Exit when interest rate decision is made",
+      "exitStrategy": "Exit if conflict de-escalates or oil prices drop",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If interest rate decision is made",
-        "base": "+5\u20138%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict remains contained",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If interest rate decision is highly favorable",
-        "stopLoss": "-3% on TLT"
+        "extended": "+20%+",
+        "extendedNote": "If conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Currency markets"
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Monetary policy"
+        "Monitor news for further escalation"
       ]
     },
     {
       "id": 7,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Tech Stock Selloff",
-      "summary": "AI tech stocks are experiencing a selloff, which could impact the tech industry.",
+      "summary": "The AI tech stock selloff is experiencing increased volatility due to the AI boom. This could lead to increased gains for investors who time their entry correctly.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -303,260 +305,308 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices (AMD)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The selloff could be a buying opportunity for NVIDIA, which is a leader in the AI tech industry.",
+      "reasoning": "The AI boom could lead to increased gains for AI-related stocks. However, the selloff could be a buying opportunity for investors.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Watch for earnings report"
+        "viable": "2-4 weeks",
+        "note": "Monitor AI-related news for potential catalysts"
       },
-      "exitStrategy": "Exit when AI tech stocks rebound",
+      "exitStrategy": "Exit if AI boom slows down or NVIDIA's stock drops",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If AI tech stocks rebound",
-        "base": "+12\u201318%",
+        "conservative": "+5\u201310%",
+        "conservativeNote": "If AI boom continues",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI tech stocks experience a strong rebound",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If AI boom accelerates",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech ETF (XLK)"
+        "AI-related stocks"
       ],
       "otherFactors": [
-        "AI demand"
+        "Monitor AI-related news for potential catalysts"
       ]
     },
     {
       "id": 8,
-      "rank": "LOW",
-      "category": "eco",
+      "rank": "MED",
+      "category": "econ",
       "catLabel": "Economy",
-      "title": "US-China Trade Relations",
-      "summary": "The US and China are experiencing trade tensions, which could impact the global economy.",
+      "title": "US Reciprocal Trade Deals",
+      "summary": "The US reciprocal trade deals are experiencing increased tensions due to the ongoing trade war. This could lead to increased volatility in the global markets, particularly in the trade-sensitive sectors.",
       "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
+      "freshLabel": "2h ago",
+      "risk": "MED",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "US Dollar Index (UUP)"
+          "target": "iShares MSCI China ETF (MCHI)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Emerging Markets ETF (EEM)"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The trade tensions could lead to a stronger US dollar and decreased emerging market growth.",
+      "reasoning": "The increased tensions could lead to a weaker US dollar, which would benefit the Chinese yuan and the MSCI China ETF. However, a stronger US dollar could negatively impact the dollar index.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Watch for trade deal announcements"
+        "note": "Monitor trade-related news for potential catalysts"
       },
-      "exitStrategy": "Exit when trade deal is finalized",
+      "exitStrategy": "Exit if trade war escalates or US dollar strengthens",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade deal is finalized",
-        "base": "+5\u20138%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If trade war remains contained",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade deal is highly favorable",
-        "stopLoss": "-3% on UUP"
+        "extended": "+20%+",
+        "extendedNote": "If trade war escalates",
+        "stopLoss": "-8% on MCHI"
       },
       "adjacentMarkets": [
-        "Currency markets"
+        "US Dollar Index"
       ],
       "otherFactors": [
-        "Trade policy"
+        "Monitor trade-related news for potential catalysts"
       ]
     },
     {
       "id": 9,
-      "rank": "MED",
+      "rank": "HIGH",
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East is experiencing increased geopolitical instability, which could impact the global economy.",
+      "summary": "The Middle East is experiencing increased geopolitical instability, which could lead to increased volatility in the global markets, particularly in the energy sector.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
+      "freshLabel": "1h ago",
+      "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Oil ETF (USO)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Airlines ETF (JETS)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The instability could lead to higher oil prices and decreased air travel.",
+      "reasoning": "The increased instability could lead to increased oil prices, which would benefit energy stocks. However, emerging markets could be negatively impacted by the increased uncertainty and volatility.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Watch for conflict escalation"
+        "note": "Monitor news for further escalation"
       },
-      "exitStrategy": "Exit when instability decreases",
+      "exitStrategy": "Exit if conflict de-escalates or oil prices drop",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If instability decreases",
-        "base": "+8\u201312%",
+        "conservative": "+10\u201315%",
+        "conservativeNote": "If conflict remains contained",
+        "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If instability increases further",
-        "stopLoss": "-5% on USO"
+        "extended": "+25%+",
+        "extendedNote": "If conflict escalates further",
+        "stopLoss": "-10% on SPY"
       },
       "adjacentMarkets": [
+        "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Geopolitical risk"
+        "Monitor news for further escalation"
       ]
     },
     {
       "id": 10,
-      "rank": "LOW",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Interest Rate Decision and Its Impact on the Economy",
-      "summary": "The Federal Reserve's interest rate decision could impact the economy, which could lead to changes in the stock market.",
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Semiconductor Crash Analysis & Outlook",
+      "summary": "The semiconductor industry is experiencing a crash, which could lead to increased volatility in the tech sector.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "US Treasury Bond ETF (TLT)"
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "S&P 500 (SPY)"
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "The interest rate decision could lead to decreased economic growth and increased bond yields.",
+      "reasoning": "The crash could be a buying opportunity for investors, but the sector is experiencing increased volatility.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Watch for interest rate decision"
+        "viable": "2-4 weeks",
+        "note": "Monitor semiconductor-related news for potential catalysts"
       },
-      "exitStrategy": "Exit when interest rate decision is made",
+      "exitStrategy": "Exit if semiconductor sector recovers or SMH drops",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If interest rate decision is made",
-        "base": "+5\u20138%",
+        "conservative": "+5\u201310%",
+        "conservativeNote": "If semiconductor sector recovers",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If interest rate decision is highly favorable",
-        "stopLoss": "-3% on TLT"
+        "extended": "+20%+",
+        "extendedNote": "If semiconductor sector crashes further",
+        "stopLoss": "-10% on SMH"
       },
       "adjacentMarkets": [
-        "Currency markets"
+        "Tech sector"
       ],
       "otherFactors": [
-        "Monetary policy"
+        "Monitor semiconductor-related news for potential catalysts"
       ]
     },
     {
       "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "NVIDIA and TSMC Bring AI Into Fabs to Advance Semiconductor Design and Manufacturing",
-      "summary": "NVIDIA and TSMC are partnering to bring AI into fabs to advance semiconductor design and manufacturing, which could impact the tech industry.",
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Interest Rate Decision and Its Impact on the Economy",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, but has hinted at a potential rate hike later this year. This could lead to increased volatility in the bond market and impact the US dollar.",
       "fresh": true,
       "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2\u20134 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares TIPS Bond ETF (TIP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        }
+      ],
+      "reasoning": "The potential rate hike could lead to increased bond yields, which would benefit TIPS bond ETFs. However, long-term bond ETFs could be negatively impacted by the increased yields.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor economic data for inflation signals"
+      },
+      "exitStrategy": "Exit if inflation rate drops or bond yields decrease",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If inflation rate remains high",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If inflation rate accelerates",
+        "stopLoss": "-4% on TIP"
+      },
+      "adjacentMarkets": [
+        "US Treasury Bond Market"
+      ],
+      "otherFactors": [
+        "Monitor economic data for inflation signals"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical and Military Lessons Drawn from the Russia\u2013Ukraine Conflict",
+      "summary": "The Russia\u2013Ukraine conflict is providing valuable lessons for geopolitical and military analysts, which could lead to increased volatility in the global markets, particularly in the energy sector.",
+      "fresh": true,
+      "freshLabel": "2h ago",
       "risk": "MED",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices (AMD)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The partnership could lead to increased revenue for NVIDIA and decreased revenue for AMD.",
+      "reasoning": "The conflict could lead to increased oil prices, which would benefit energy stocks. However, emerging markets could be negatively impacted by the increased uncertainty and volatility.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Watch for earnings report"
+        "note": "Monitor news for further escalation"
       },
-      "exitStrategy": "Exit when partnership benefits are realized",
+      "exitStrategy": "Exit if conflict de-escalates or oil prices drop",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If partnership benefits are realized",
-        "base": "+12\u201318%",
+        "conservativeNote": "If conflict remains contained",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If partnership benefits are highly favorable",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Tech ETF (XLK)"
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "AI demand"
+        "Monitor news for further escalation"
       ]
     },
     {
-      "id": 12,
+      "id": 13,
       "rank": "LOW",
-      "category": "eco",
+      "category": "econ",
       "catLabel": "Economy",
-      "title": "US Reciprocal Trade Deals Built to Push America's Trade Partners Away from China",
-      "summary": "The US is negotiating reciprocal trade deals to push its trade partners away from China, which could impact the economy.",
+      "title": "Blockbuster S&P 500 Earnings Will Soon Be Eclipsed",
+      "summary": "The S&P 500 earnings are expected to be blockbuster, but may soon be eclipsed by other factors, which could lead to increased volatility in the stock market.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "US Dollar Index (UUP)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Emerging Markets ETF (EEM)"
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The reciprocal trade deals could lead to a stronger US dollar and decreased emerging market growth.",
+      "reasoning": "The blockbuster earnings could lead to increased gains for the S&P 500, but other factors may soon impact the market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Watch for trade deal announcements"
+        "viable": "2-4 weeks",
+        "note": "Monitor earnings reports for potential catalysts"
       },
-      "exitStrategy": "Exit when trade deals are finalized",
+      "exitStrategy": "Exit if S&P 500 drops or IWM recovers",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade deals are finalized",
-        "base": "+5\u20138%",
+        "conservative": "+2\u20135%",
+        "conservativeNote": "If earnings reports are positive",
+        "base": "+5\u201310%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade deals are highly favorable",
-        "stopLoss": "-3% on UUP"
+        "extended": "+15%+",
+        "extendedNote": "If earnings reports are extremely positive",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Currency markets"
+        "Stock market"
       ],
       "otherFactors": [
-        "Trade policy"
+        "Monitor earnings reports for potential catalysts"
       ]
     }
   ]
