@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T10:54:51Z",
+  "lastUpdated": "2026-06-26T13:13:18Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "US-Iran Conflict Escalation",
-      "summary": "The conflict between the US and Iran continues to escalate, with potential for further military action. This could lead to increased volatility in the oil market and impact global economic stability. The situation remains fluid, with multiple scenarios possible.",
+      "summary": "The US-Iran conflict is escalating, with potential for further military action. This could lead to increased volatility in oil prices and global markets. The conflict is also affecting US-China trade relations.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -30,20 +30,20 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The ongoing conflict between the US and Iran has the potential to disrupt global oil supplies, leading to increased prices and volatility. This could have a negative impact on emerging markets, making the iShares MSCI Emerging Markets ETF (EEM) a potential short target. On the other hand, the SPDR S&P 500 ETF Trust (SPY) could benefit from safe-haven flows, making it a potential buy target.",
+      "reasoning": "The conflict is likely to lead to increased oil prices, which could boost the US stock market. However, emerging markets may be negatively affected due to their dependence on oil imports.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for further escalation"
+        "note": "Monitor oil prices and US-Iran conflict developments"
       },
-      "exitStrategy": "Exit on signs of de-escalation or a significant decline in oil prices",
+      "exitStrategy": "Exit if oil prices drop below $60/barrel or if the US-Iran conflict de-escalates",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict remains contained",
+        "conservativeNote": "If oil prices remain stable",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If oil prices increase by 10-20%",
         "extended": "+25%+",
-        "extendedNote": "If conflict escalates further",
+        "extendedNote": "If the conflict escalates further",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
@@ -51,7 +51,7 @@
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "OPEC production levels"
+        "US-China trade relations"
       ]
     },
     {
@@ -60,7 +60,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has held interest rates steady, but hinted at a potential rate hike later this year. This could impact the US economy and financial markets, particularly the bond market.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, but may hike rates later this year. This could lead to increased volatility in the bond market and affect the US dollar.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -74,30 +74,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR Bloomberg Barclays High Yield Bond ETF (JNK)"
+          "target": "Invesco PowerShares DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady, but hint at a potential rate hike later this year, could lead to increased volatility in the bond market. The iShares 20+ Year Treasury Bond ETF (TLT) could benefit from safe-haven flows, making it a potential buy target. On the other hand, the SPDR Bloomberg Barclays High Yield Bond ETF (JNK) could be negatively impacted by higher interest rates, making it a potential short target.",
+      "reasoning": "The Fed's decision to hold interest rates steady may lead to a decrease in the US dollar and an increase in bond prices.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data for signs of strength"
+        "note": "Monitor inflation data and Fed speeches"
       },
-      "exitStrategy": "Exit on signs of economic weakness or a decline in interest rates",
+      "exitStrategy": "Exit if the Fed hikes interest rates or if inflation data exceeds expectations",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If interest rates remain steady",
+        "conservativeNote": "If interest rates remain stable",
         "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If interest rates decrease",
         "extended": "+15%+",
-        "extendedNote": "If interest rates rise significantly",
+        "extendedNote": "If the Fed cuts interest rates",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US Dollar (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Inflation expectations"
+        "Inflation data",
+        "Fed speeches"
       ]
     },
     {
@@ -106,7 +108,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA has announced a multiyear technology partnership with SK hynix to advance memory for AI factories. This could lead to increased demand for NVIDIA's AI semiconductor products.",
+      "summary": "NVIDIA has announced a partnership with SK hynix to advance memory for AI factories. This could lead to increased demand for NVIDIA's AI semiconductor products.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -123,27 +125,29 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The partnership between NVIDIA and SK hynix could lead to increased demand for NVIDIA's AI semiconductor products, making NVIDIA Corporation (NVDA) a potential buy target. On the other hand, Advanced Micro Devices, Inc. (AMD) could be negatively impacted by increased competition, making it a potential short target.",
+      "reasoning": "The partnership with SK hynix could lead to increased demand for NVIDIA's AI semiconductor products, boosting the stock price.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for further developments"
+        "note": "Monitor NVIDIA's earnings report and AI industry developments"
       },
-      "exitStrategy": "Exit on signs of decreased demand for AI semiconductor products",
+      "exitStrategy": "Exit if NVIDIA's earnings report disappoints or if the AI industry experiences a downturn",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If demand remains steady",
+        "conservativeNote": "If NVIDIA's earnings report meets expectations",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If NVIDIA's earnings report exceeds expectations",
         "extended": "+25%+",
-        "extendedNote": "If demand increases significantly",
-        "stopLoss": "-8% on NVDA"
+        "extendedNote": "If the AI industry experiences a significant boost",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "AI industry",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "AI adoption rates"
+        "NVIDIA's earnings report",
+        "AI industry developments"
       ]
     },
     {
@@ -152,7 +156,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate Hits 3-Year High",
-      "summary": "The US inflation rate has hit a 3-year high, with potential implications for interest rates and the economy.",
+      "summary": "The US inflation rate has hit a 3-year high, which could lead to increased interest rates and affect the US economy.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -166,30 +170,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The increase in the US inflation rate could lead to increased demand for inflation-protected securities, making the iShares TIPS Bond ETF (TIP) a potential buy target. On the other hand, the SPDR Gold Shares ETF (GLD) could be negatively impacted by higher interest rates, making it a potential short target.",
+      "reasoning": "The increased inflation rate could lead to increased interest rates, which could negatively affect the US stock market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data for signs of inflation"
+        "note": "Monitor inflation data and Fed speeches"
       },
-      "exitStrategy": "Exit on signs of decreased inflation or a decline in interest rates",
+      "exitStrategy": "Exit if the Fed hikes interest rates or if inflation data exceeds expectations",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If inflation remains steady",
+        "conservativeNote": "If interest rates remain stable",
         "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If interest rates increase",
         "extended": "+10%+",
-        "extendedNote": "If inflation increases significantly",
+        "extendedNote": "If the Fed aggressively hikes interest rates",
         "stopLoss": "-5% on TIP"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US Dollar (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Monetary policy decisions"
+        "Inflation data",
+        "Fed speeches"
       ]
     },
     {
@@ -198,7 +204,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "The Powder Keg Called The Middle East",
-      "summary": "The Middle East remains a region of high geopolitical instability, with potential for further conflict and disruption to global oil supplies.",
+      "summary": "The Middle East is experiencing increased geopolitical instability, which could lead to increased oil prices and affect global markets.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -207,7 +213,7 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "United States Oil Fund, LP (USO)"
         },
         {
           "label": "SHORT",
@@ -215,28 +221,29 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The ongoing geopolitical instability in the Middle East has the potential to disrupt global oil supplies, leading to increased prices and volatility. This could have a negative impact on emerging markets, making the iShares MSCI Emerging Markets ETF (EEM) a potential short target. On the other hand, the SPDR S&P 500 ETF Trust (SPY) could benefit from safe-haven flows, making it a potential buy target.",
+      "reasoning": "The increased geopolitical instability in the Middle East could lead to increased oil prices, which could boost the US oil fund.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for further developments"
+        "note": "Monitor Middle East developments and oil prices"
       },
-      "exitStrategy": "Exit on signs of decreased instability or a decline in oil prices",
+      "exitStrategy": "Exit if oil prices drop below $60/barrel or if the Middle East experiences a decrease in geopolitical instability",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict remains contained",
+        "conservativeNote": "If oil prices remain stable",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If oil prices increase by 10-20%",
         "extended": "+25%+",
-        "extendedNote": "If conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the Middle East experiences a significant increase in geopolitical instability",
+        "stopLoss": "-10% on USO"
       },
       "adjacentMarkets": [
         "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "OPEC production levels"
+        "Middle East developments",
+        "Oil prices"
       ]
     },
     {
@@ -245,44 +252,46 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Tech Stock Selloff",
-      "summary": "The AI tech sector has experienced a recent selloff, with potential implications for the broader technology sector.",
+      "summary": "The AI tech stock selloff is continuing, with many AI-related stocks experiencing significant declines.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "NVIDIA Corporation (NVDA)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "First Trust Dow Jones Internet Index Fund (FDN)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The recent selloff in the AI tech sector could lead to a buying opportunity in the broader technology sector, making the VanEck Vectors Semiconductor ETF (SMH) a potential buy target. On the other hand, the First Trust Dow Jones Internet Index Fund (FDN) could be negatively impacted by the selloff, making it a potential short target.",
+      "reasoning": "The AI tech stock selloff may have created a buying opportunity for NVIDIA, which is a leader in the AI industry.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor news for further developments"
+        "note": "Monitor NVIDIA's earnings report and AI industry developments"
       },
-      "exitStrategy": "Exit on signs of a rebound in the AI tech sector",
+      "exitStrategy": "Exit if NVIDIA's earnings report disappoints or if the AI industry experiences a downturn",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If sector remains steady",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If sector rebounds significantly",
-        "stopLoss": "-5% on SMH"
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If NVIDIA's earnings report meets expectations",
+        "base": "+8\u201312%",
+        "baseNote": "If NVIDIA's earnings report exceeds expectations",
+        "extended": "+15%+",
+        "extendedNote": "If the AI industry experiences a significant boost",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "AI industry",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "AI adoption rates"
+        "NVIDIA's earnings report",
+        "AI industry developments"
       ]
     },
     {
@@ -291,56 +300,10 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Reciprocal Trade Deals",
-      "summary": "The US has announced plans to pursue reciprocal trade deals with multiple countries, with potential implications for global trade and economic stability.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI USA ETF (EUSA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The pursuit of reciprocal trade deals by the US could lead to increased economic stability and growth, making the iShares MSCI USA ETF (EUSA) a potential buy target. On the other hand, emerging markets could be negatively impacted by the shift in trade policies, making the iShares MSCI Emerging Markets ETF (EEM) a potential short target.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor news for further developments"
-      },
-      "exitStrategy": "Exit on signs of decreased economic stability or a decline in trade tensions",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If trade tensions remain steady",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If trade tensions decrease significantly",
-        "stopLoss": "-8% on EUSA"
-      },
-      "adjacentMarkets": [
-        "US Dollar Index (DXY)"
-      ],
-      "otherFactors": [
-        "Monetary policy decisions"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East remains a region of high geopolitical instability, with potential for further conflict and disruption to global oil supplies.",
+      "summary": "The US is pursuing reciprocal trade deals with several countries, which could lead to increased trade and affect the US economy.",
       "fresh": true,
       "freshLabel": "2d ago",
-      "risk": "LOW",
+      "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
@@ -354,28 +317,77 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The ongoing geopolitical instability in the Middle East has the potential to disrupt global oil supplies, leading to increased prices and volatility. This could have a negative impact on emerging markets, making the iShares MSCI Emerging Markets ETF (EEM) a potential short target. On the other hand, the SPDR S&P 500 ETF Trust (SPY) could benefit from safe-haven flows, making it a potential buy target.",
+      "reasoning": "The US reciprocal trade deals could lead to increased trade and boost the US stock market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for further developments"
+        "note": "Monitor trade developments and US economic data"
       },
-      "exitStrategy": "Exit on signs of decreased instability or a decline in oil prices",
+      "exitStrategy": "Exit if the US trade deficit increases or if the US economy experiences a downturn",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If trade developments are positive",
+        "base": "+12\u201318%",
+        "baseNote": "If trade developments exceed expectations",
+        "extended": "+25%+",
+        "extendedNote": "If the US economy experiences a significant boost",
+        "stopLoss": "-10% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Dollar (DXY)",
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "Trade developments",
+        "US economic data"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East is experiencing increased geopolitical instability, which could lead to increased oil prices and affect global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "United States Oil Fund, LP (USO)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The increased geopolitical instability in the Middle East could lead to increased oil prices, which could boost the US oil fund.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor Middle East developments and oil prices"
+      },
+      "exitStrategy": "Exit if oil prices drop below $60/barrel or if the Middle East experiences a decrease in geopolitical instability",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If conflict remains contained",
+        "conservativeNote": "If oil prices remain stable",
         "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If oil prices increase by 10-20%",
         "extended": "+10%+",
-        "extendedNote": "If conflict escalates further",
-        "stopLoss": "-5% on SPY"
+        "extendedNote": "If the Middle East experiences a significant increase in geopolitical instability",
+        "stopLoss": "-10% on USO"
       },
       "adjacentMarkets": [
         "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "OPEC production levels"
+        "Middle East developments",
+        "Oil prices"
       ]
     },
     {
@@ -384,99 +396,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor sector has experienced a recent crash, with potential implications for the broader technology sector.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "First Trust Dow Jones Internet Index Fund (FDN)"
-        }
-      ],
-      "reasoning": "The recent crash in the semiconductor sector could lead to a buying opportunity in the broader technology sector, making the VanEck Vectors Semiconductor ETF (SMH) a potential buy target. On the other hand, the First Trust Dow Jones Internet Index Fund (FDN) could be negatively impacted by the crash, making it a potential short target.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor news for further developments"
-      },
-      "exitStrategy": "Exit on signs of a rebound in the semiconductor sector",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If sector remains steady",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If sector rebounds significantly",
-        "stopLoss": "-8% on SMH"
-      },
-      "adjacentMarkets": [
-        "Technology sector (XLK)"
-      ],
-      "otherFactors": [
-        "AI adoption rates"
-      ]
-    },
-    {
-      "id": 10,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US-China Trade Relations",
-      "summary": "The US and China have announced plans to pursue trade talks, with potential implications for global trade and economic stability.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI USA ETF (EUSA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The pursuit of trade talks between the US and China could lead to increased economic stability and growth, making the iShares MSCI USA ETF (EUSA) a potential buy target. On the other hand, emerging markets could be negatively impacted by the shift in trade policies, making the iShares MSCI Emerging Markets ETF (EEM) a potential short target.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor news for further developments"
-      },
-      "exitStrategy": "Exit on signs of decreased economic stability or a decline in trade tensions",
-      "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade tensions remain steady",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade tensions decrease significantly",
-        "stopLoss": "-5% on EUSA"
-      },
-      "adjacentMarkets": [
-        "US Dollar Index (DXY)"
-      ],
-      "otherFactors": [
-        "Monetary policy decisions"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "NVIDIA and SK hynix Expand AI Chip Partnership",
-      "summary": "NVIDIA and SK hynix have announced an expansion of their AI chip partnership, with potential implications for the broader technology sector.",
+      "summary": "The semiconductor industry is experiencing a crash, with many semiconductor stocks experiencing significant declines.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -493,27 +413,125 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The expansion of the AI chip partnership between NVIDIA and SK hynix could lead to increased demand for NVIDIA's AI semiconductor products, making NVIDIA Corporation (NVDA) a potential buy target. On the other hand, Advanced Micro Devices, Inc. (AMD) could be negatively impacted by the increased competition, making it a potential short target.",
+      "reasoning": "The semiconductor crash may have created a buying opportunity for NVIDIA, which is a leader in the AI industry.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for further developments"
+        "note": "Monitor NVIDIA's earnings report and AI industry developments"
       },
-      "exitStrategy": "Exit on signs of decreased demand for AI semiconductor products",
+      "exitStrategy": "Exit if NVIDIA's earnings report disappoints or if the AI industry experiences a downturn",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If demand remains steady",
+        "conservativeNote": "If NVIDIA's earnings report meets expectations",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If NVIDIA's earnings report exceeds expectations",
         "extended": "+25%+",
-        "extendedNote": "If demand increases significantly",
-        "stopLoss": "-8% on NVDA"
+        "extendedNote": "If the AI industry experiences a significant boost",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)"
+        "AI industry",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "AI adoption rates"
+        "NVIDIA's earnings report",
+        "AI industry developments"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US-China Trade Relations",
+      "summary": "The US and China are experiencing increased trade tensions, which could lead to increased tariffs and affect the US economy.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The US-China trade tensions could lead to increased tariffs, which could negatively affect the US stock market.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor trade developments and US economic data"
+      },
+      "exitStrategy": "Exit if the US trade deficit increases or if the US economy experiences a downturn",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If trade developments are positive",
+        "base": "+5\u20138%",
+        "baseNote": "If trade developments exceed expectations",
+        "extended": "+10%+",
+        "extendedNote": "If the US economy experiences a significant boost",
+        "stopLoss": "-10% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Dollar (DXY)",
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "Trade developments",
+        "US economic data"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East is experiencing increased geopolitical instability, which could lead to increased oil prices and affect global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "United States Oil Fund, LP (USO)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The increased geopolitical instability in the Middle East could lead to increased oil prices, which could boost the US oil fund.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor Middle East developments and oil prices"
+      },
+      "exitStrategy": "Exit if oil prices drop below $60/barrel or if the Middle East experiences a decrease in geopolitical instability",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If oil prices remain stable",
+        "base": "+12\u201318%",
+        "baseNote": "If oil prices increase by 10-20%",
+        "extended": "+25%+",
+        "extendedNote": "If the Middle East experiences a significant increase in geopolitical instability",
+        "stopLoss": "-10% on USO"
+      },
+      "adjacentMarkets": [
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "Middle East developments",
+        "Oil prices"
       ]
     },
     {
@@ -521,10 +539,10 @@
       "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "Federal Reserve Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has held interest rates steady, with potential implications for the US economy and financial markets.",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, but may hike rates later this year. This could lead to increased volatility in the bond market and affect the US dollar.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "2h ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -536,30 +554,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR Bloomberg Barclays High Yield Bond ETF (JNK)"
+          "target": "Invesco PowerShares DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady could lead to increased demand for long-term bonds, making the iShares 20+ Year Treasury Bond ETF (TLT) a potential buy target. On the other hand, the SPDR Bloomberg Barclays High Yield Bond ETF (JNK) could be negatively impacted by the lack of rate cuts, making it a potential short target.",
+      "reasoning": "The Fed's decision to hold interest rates steady may lead to a decrease in the US dollar and an increase in bond prices.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data for signs of strength"
+        "note": "Monitor inflation data and Fed speeches"
       },
-      "exitStrategy": "Exit on signs of economic weakness or a decline in interest rates",
+      "exitStrategy": "Exit if the Fed hikes interest rates or if inflation data exceeds expectations",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If interest rates remain steady",
+        "conservativeNote": "If interest rates remain stable",
         "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "If interest rates decrease",
         "extended": "+10%+",
-        "extendedNote": "If interest rates rise significantly",
+        "extendedNote": "If the Fed cuts interest rates",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US Dollar (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Inflation expectations"
+        "Inflation data",
+        "Fed speeches"
       ]
     }
   ]
