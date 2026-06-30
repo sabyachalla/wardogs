@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:56:54Z",
+  "lastUpdated": "2026-06-30T22:16:03Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war is escalating, with the US and its allies involved in military operations. This has led to increased tensions in the Middle East and a rise in oil prices. The conflict is expected to continue, with potential implications for global markets.",
+      "summary": "The Iran war is escalating, with four possible scenarios for geopolitics after the war. The US is showing military strength, but also its waning geopolitical power. The Middle East is a powder keg of instability, with strategic rivalries and the specter of regional war.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,36 +22,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares North American Natural Resources ETF (IGE)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "Vanguard FTSE Emerging Markets ETF (VWO)"
         }
       ],
-      "reasoning": "The escalation of the Iran war is likely to lead to increased volatility in global markets, with potential implications for oil prices and the broader economy. A long position in the SPDR S&P 500 ETF Trust (SPY) could provide a hedge against potential losses, while a short position in the iShares MSCI Emerging Markets ETF (EEM) could capitalize on potential declines in emerging markets.",
+      "reasoning": "The Iran war escalation will likely lead to increased oil prices, benefiting natural resources ETFs like IGE. On the other hand, emerging markets ETFs like VWO may suffer due to increased geopolitical instability.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for potential de-escalation"
+        "note": "Monitor oil prices and US-Iran relations"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced",
+      "exitStrategy": "Exit when oil prices stabilize or US-Iran relations improve",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If oil prices increase by 10%",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-10% on IGE"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil prices"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations"
+        "US-Iran relations",
+        "Middle East instability"
       ]
     },
     {
@@ -60,7 +61,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, but has left the door open to future hikes. This decision is expected to have implications for the US economy and financial markets.",
+      "summary": "The Federal Reserve has held interest rates steady, but left the door open to hike. Cleveland Fed President Hammack says AI could fuel inflation, and rate hikes may be necessary.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -69,36 +70,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Bond Market Index Fund (VBTLX)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady is likely to lead to increased demand for bonds, potentially driving up prices. A long position in the Vanguard Total Bond Market Index Fund (VBTLX) could capitalize on this trend, while a short position in the iShares 20+ Year Treasury Bond ETF (TLT) could hedge against potential losses.",
+      "reasoning": "If the Federal Reserve hikes interest rates, long-term Treasury bonds like TLT may benefit, while the S&P 500 ETF like SPY may suffer due to increased borrowing costs.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data for potential rate hikes"
+        "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Close positions if inflation exceeds 3%",
+      "exitStrategy": "Exit when the Fed announces a rate hike or inflation data improves",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If interest rates remain steady",
-        "base": "+6-10%",
+        "conservative": "+4-6%",
+        "conservativeNote": "If the Fed hikes rates by 25bps",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If interest rates are cut",
-        "stopLoss": "-4% on VBTLX"
+        "extendedNote": "If the Fed hikes rates by 50bps or more",
+        "stopLoss": "-6% on TLT"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US Treasury yields",
+        "Dollar index"
       ],
       "otherFactors": [
         "Inflation data",
-        "US economic growth"
+        "Fed statements"
       ]
     },
     {
@@ -107,7 +109,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA has announced a partnership with SK hynix to advance memory for AI factories. This partnership is expected to drive growth in the AI semiconductor market.",
+      "summary": "NVIDIA's AI chip sales in China are stalling, while local chipmakers like Huawei are taking the lead. Etched, a NVIDIA competitor, has hit a $5B valuation and $1B in sales for its AI chip.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -116,35 +118,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "The partnership between NVIDIA and SK hynix is likely to drive growth in the AI semiconductor market, potentially benefiting NVIDIA's stock price. A long position in NVIDIA Corporation (NVDA) could capitalize on this trend, while a short position in Advanced Micro Devices, Inc. (AMD) could hedge against potential losses.",
+      "reasoning": "The semiconductor industry is experiencing a shift, with NVIDIA facing increased competition from local chipmakers in China. The VanEck Vectors Semiconductor ETF like SMH may benefit from this trend, while NVIDIA's stock like NVDA may suffer.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI semiconductor market trends"
+        "note": "Monitor NVIDIA's sales in China and competitor developments"
       },
-      "exitStrategy": "Close positions if the partnership is terminated",
+      "exitStrategy": "Exit when NVIDIA's sales in China improve or competitor developments slow down",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the partnership is successful",
-        "base": "+12-18%",
+        "conservative": "+6-8%",
+        "conservativeNote": "If NVIDIA's sales in China decrease by 10%",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the AI semiconductor market grows rapidly",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If NVIDIA's sales in China decrease by 20% or more",
+        "stopLoss": "-10% on SMH"
       },
       "adjacentMarkets": [
-        "AI-related stocks"
+        "AI-related stocks",
+        "Chinese tech stocks"
       ],
       "otherFactors": [
-        "AI semiconductor market trends"
+        "NVIDIA's sales in China",
+        "Competitor developments"
       ]
     },
     {
@@ -153,7 +157,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate Hits 3-Year High",
-      "summary": "The US inflation rate has hit a 3-year high, driven by increases in food and energy prices. This trend is expected to continue, potentially leading to higher interest rates.",
+      "summary": "The US inflation rate has hit a 3-year high, with the Federal Reserve considering rate hikes to quell high inflation.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -167,31 +171,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The increase in the US inflation rate is likely to lead to higher interest rates, potentially benefiting TIPS bonds. A long position in the iShares TIPS Bond ETF (TIP) could capitalize on this trend, while a short position in the iShares Core US Aggregate Bond ETF (AGG) could hedge against potential losses.",
+      "reasoning": "If the US inflation rate continues to rise, TIPS bonds like TIP may benefit, while the S&P 500 ETF like SPY may suffer due to increased borrowing costs.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data for potential rate hikes"
+        "note": "Monitor inflation data and Fed statements"
       },
-      "exitStrategy": "Close positions if inflation falls below 2%",
+      "exitStrategy": "Exit when the Fed announces a rate hike or inflation data improves",
       "gains": {
         "conservative": "+2-4%",
-        "conservativeNote": "If inflation remains steady",
-        "base": "+6-10%",
+        "conservativeNote": "If the Fed hikes rates by 25bps",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If interest rates are raised",
+        "extended": "+8%+",
+        "extendedNote": "If the Fed hikes rates by 50bps or more",
         "stopLoss": "-4% on TIP"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US Treasury yields",
+        "Dollar index"
       ],
       "otherFactors": [
         "Inflation data",
-        "US economic growth"
+        "Fed statements"
       ]
     },
     {
@@ -200,7 +205,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "The Powder Keg Called The Middle East",
-      "summary": "The Middle East remains a volatile region, with ongoing conflicts and tensions between countries. This instability is expected to continue, potentially leading to increased oil prices and market volatility.",
+      "summary": "The Middle East is a powder keg of instability, with strategic rivalries and the specter of regional war. The Iran war escalation is adding to the tensions.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -209,36 +214,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares North American Natural Resources ETF (IGE)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "Vanguard FTSE Emerging Markets ETF (VWO)"
         }
       ],
-      "reasoning": "The ongoing instability in the Middle East is likely to lead to increased oil prices and market volatility, potentially benefiting a long position in the SPDR S&P 500 ETF Trust (SPY). A short position in the iShares MSCI Emerging Markets ETF (EEM) could hedge against potential losses.",
+      "reasoning": "The Middle East instability will likely lead to increased oil prices, benefiting natural resources ETFs like IGE. On the other hand, emerging markets ETFs like VWO may suffer due to increased geopolitical instability.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for potential de-escalation"
+        "note": "Monitor oil prices and US-Iran relations"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced",
+      "exitStrategy": "Exit when oil prices stabilize or US-Iran relations improve",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "conservative": "+6-8%",
+        "conservativeNote": "If oil prices increase by 10%",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extended": "+20%+",
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-10% on IGE"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil prices"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations"
+        "US-Iran relations",
+        "Middle East instability"
       ]
     },
     {
@@ -247,102 +253,9 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI Tech Stock Selloff",
-      "summary": "AI tech stocks have experienced a recent selloff, driven by concerns over AI spending and earnings. This trend is expected to continue, potentially leading to buying opportunities.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
-        }
-      ],
-      "reasoning": "The recent selloff in AI tech stocks may have created buying opportunities, particularly in NVIDIA Corporation (NVDA). A long position in NVDA could capitalize on potential gains, while a short position in Advanced Micro Devices, Inc. (AMD) could hedge against potential losses.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor AI tech stock trends"
-      },
-      "exitStrategy": "Close positions if AI tech stocks rebound",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If AI tech stocks remain steady",
-        "base": "+6-10%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If AI tech stocks experience a strong rebound",
-        "stopLoss": "-4% on NVDA"
-      },
-      "adjacentMarkets": [
-        "AI-related stocks"
-      ],
-      "otherFactors": [
-        "AI tech stock trends"
-      ]
-    },
-    {
-      "id": 7,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Reciprocal Trade Deals",
-      "summary": "The US has announced reciprocal trade deals with several countries, aimed at reducing trade deficits and promoting American exports. This trend is expected to continue, potentially leading to increased economic growth.",
+      "summary": "AI tech stocks are experiencing a selloff, with NVIDIA's AI chip sales in China stalling and local chipmakers like Huawei taking the lead.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The US reciprocal trade deals are likely to benefit American exports, particularly in the aerospace and defense sector. A long position in the iShares US Aerospace & Defense ETF (ITA) could capitalize on this trend, while a short position in the iShares MSCI Emerging Markets ETF (EEM) could hedge against potential losses.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor trade deal developments"
-      },
-      "exitStrategy": "Close positions if trade deals are renegotiated",
-      "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If trade deals are successful",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If trade deals lead to significant economic growth",
-        "stopLoss": "-8% on ITA"
-      },
-      "adjacentMarkets": [
-        "US Dollar Index (DXY)"
-      ],
-      "otherFactors": [
-        "Trade deal developments",
-        "US economic growth"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor industry has experienced a recent crash, driven by concerns over demand and supply chain issues. This trend is expected to continue, potentially leading to buying opportunities.",
-      "fresh": true,
-      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -354,39 +267,41 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "The recent crash in the semiconductor industry may have created buying opportunities, particularly in the VanEck Vectors Semiconductor ETF (SMH). A long position in SMH could capitalize on potential gains, while a short position in the iShares PHLX Semiconductor ETF (SOXX) could hedge against potential losses.",
+      "reasoning": "The AI tech stock selloff may be overdone, with the VanEck Vectors Semiconductor ETF like SMH potentially benefiting from the trend. On the other hand, NVIDIA's stock like NVDA may continue to suffer.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor semiconductor industry trends"
+        "note": "Monitor NVIDIA's sales in China and competitor developments"
       },
-      "exitStrategy": "Close positions if semiconductor stocks rebound",
+      "exitStrategy": "Exit when NVIDIA's sales in China improve or competitor developments slow down",
       "gains": {
         "conservative": "+2-4%",
-        "conservativeNote": "If semiconductor stocks remain steady",
-        "base": "+6-10%",
+        "conservativeNote": "If NVIDIA's sales in China decrease by 10%",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If semiconductor stocks experience a strong rebound",
+        "extended": "+8%+",
+        "extendedNote": "If NVIDIA's sales in China decrease by 20% or more",
         "stopLoss": "-4% on SMH"
       },
       "adjacentMarkets": [
-        "Technology stocks"
+        "AI-related stocks",
+        "Chinese tech stocks"
       ],
       "otherFactors": [
-        "Semiconductor industry trends"
+        "NVIDIA's sales in China",
+        "Competitor developments"
       ]
     },
     {
-      "id": 9,
+      "id": 7,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East remains a volatile region, with ongoing conflicts and tensions between countries. This instability is expected to continue, potentially leading to increased oil prices and market volatility.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Reciprocal Trade Deals",
+      "summary": "The US is building reciprocal trade deals to push America's trade partners away from China. Mexico is gaining from the US-China trade war, but inefficiencies limit the benefit.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -395,36 +310,133 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI Mexico ETF (EWW)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         }
       ],
-      "reasoning": "The ongoing instability in the Middle East is likely to lead to increased oil prices and market volatility, potentially benefiting a long position in the SPDR S&P 500 ETF Trust (SPY). A short position in the iShares MSCI Emerging Markets ETF (EEM) could hedge against potential losses.",
+      "reasoning": "The US reciprocal trade deals will likely benefit Mexico, with the iShares MSCI Mexico ETF like EWW potentially gaining. On the other hand, the iShares China Large-Cap ETF like FXI may suffer due to increased trade tensions.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor news for potential de-escalation"
+        "note": "Monitor US-China trade relations and Mexico's trade data"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced",
+      "exitStrategy": "Exit when US-China trade relations improve or Mexico's trade data slows down",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "conservative": "+4-6%",
+        "conservativeNote": "If US-China trade tensions increase",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extended": "+15%+",
+        "extendedNote": "If the US imposes more tariffs on China",
+        "stopLoss": "-6% on EWW"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "Gold (safe haven bid)"
+        "US-Mexico trade",
+        "US-China trade"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations"
+        "US-China trade relations",
+        "Mexico's trade data"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Semiconductor Crash Analysis & Outlook",
+      "summary": "The semiconductor industry is experiencing a crash, with NVIDIA's AI chip sales in China stalling and local chipmakers like Huawei taking the lead.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "NVIDIA Corporation (NVDA)"
+        }
+      ],
+      "reasoning": "The semiconductor crash may be overdone, with the VanEck Vectors Semiconductor ETF like SMH potentially benefiting from the trend. On the other hand, NVIDIA's stock like NVDA may continue to suffer.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor NVIDIA's sales in China and competitor developments"
+      },
+      "exitStrategy": "Exit when NVIDIA's sales in China improve or competitor developments slow down",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If NVIDIA's sales in China decrease by 10%",
+        "base": "+4-6%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If NVIDIA's sales in China decrease by 20% or more",
+        "stopLoss": "-4% on SMH"
+      },
+      "adjacentMarkets": [
+        "AI-related stocks",
+        "Chinese tech stocks"
+      ],
+      "otherFactors": [
+        "NVIDIA's sales in China",
+        "Competitor developments"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East is experiencing geopolitical instability, with strategic rivalries and the specter of regional war. The Iran war escalation is adding to the tensions.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares North American Natural Resources ETF (IGE)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Vanguard FTSE Emerging Markets ETF (VWO)"
+        }
+      ],
+      "reasoning": "The Middle East instability will likely lead to increased oil prices, benefiting natural resources ETFs like IGE. On the other hand, emerging markets ETFs like VWO may suffer due to increased geopolitical instability.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor oil prices and US-Iran relations"
+      },
+      "exitStrategy": "Exit when oil prices stabilize or US-Iran relations improve",
+      "gains": {
+        "conservative": "+6-8%",
+        "conservativeNote": "If oil prices increase by 10%",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If the war escalates further",
+        "stopLoss": "-10% on IGE"
+      },
+      "adjacentMarkets": [
+        "Gold (safe haven bid)",
+        "Oil prices"
+      ],
+      "otherFactors": [
+        "US-Iran relations",
+        "Middle East instability"
       ]
     },
     {
@@ -433,45 +445,46 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are engaged in ongoing trade negotiations, with the potential for a trade deal or further tariffs. This trend is expected to continue, potentially leading to increased market volatility.",
+      "summary": "The US and China are experiencing trade tensions, with the US proposing new tariffs on China and the EU over forced labor.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
+          "target": "iShares MSCI Mexico ETF (EWW)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         }
       ],
-      "reasoning": "The ongoing trade negotiations between the US and China are likely to lead to increased market volatility, potentially benefiting a long position in the iShares US Aerospace & Defense ETF (ITA). A short position in the iShares MSCI Emerging Markets ETF (EEM) could hedge against potential losses.",
+      "reasoning": "The US-China trade tensions will likely benefit Mexico, with the iShares MSCI Mexico ETF like EWW potentially gaining. On the other hand, the iShares China Large-Cap ETF like FXI may suffer due to increased trade tensions.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade deal developments"
+        "note": "Monitor US-China trade relations and Mexico's trade data"
       },
-      "exitStrategy": "Close positions if a trade deal is announced",
+      "exitStrategy": "Exit when US-China trade relations improve or Mexico's trade data slows down",
       "gains": {
         "conservative": "+2-4%",
-        "conservativeNote": "If trade negotiations are successful",
-        "base": "+6-10%",
+        "conservativeNote": "If US-China trade tensions increase",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If trade negotiations lead to significant economic growth",
-        "stopLoss": "-4% on ITA"
+        "extended": "+8%+",
+        "extendedNote": "If the US imposes more tariffs on China",
+        "stopLoss": "-4% on EWW"
       },
       "adjacentMarkets": [
-        "US Dollar Index (DXY)"
+        "US-Mexico trade",
+        "US-China trade"
       ],
       "otherFactors": [
-        "Trade deal developments",
-        "US economic growth"
+        "US-China trade relations",
+        "Mexico's trade data"
       ]
     }
   ]
