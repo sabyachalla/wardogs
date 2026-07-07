@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T03:35:33Z",
+  "lastUpdated": "2026-07-07T07:40:56Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,46 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war has escalated, and the US has shown its military strength, but also its waning geopolitical power. The conflict has become a war of military, economy, and geopolitics. The Middle East is a powder keg of geopolitical instability, strategic rivalries, and the specter of regional war.",
+      "summary": "The ongoing conflict between the US and Iran has led to increased tensions in the Middle East, with potential for further escalation. This could lead to a significant impact on global markets, particularly in the energy sector. The situation remains volatile, with multiple scenarios possible.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        },
-        {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The escalation of the Iran war will lead to increased geopolitical instability, which will negatively impact emerging markets. However, the safe-haven bid for gold will increase, making it a good buy.",
+      "reasoning": "The conflict in the Middle East has the potential to disrupt global energy supplies, leading to increased prices and volatility. This could lead to a rally in safe-haven assets, such as the US dollar and gold. However, the situation remains highly uncertain, and multiple scenarios are possible, including a potential escalation of the conflict.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor the situation closely for signs of escalation or de-escalation"
       },
-      "exitStrategy": "Close the position if the conflict de-escalates or if the US and Iran reach a peace agreement",
+      "exitStrategy": "Exit the position if the conflict de-escalates or if the price of oil falls below $50 per barrel",
       "gains": {
         "conservative": "+5\u20138%",
         "conservativeNote": "If the conflict remains contained",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "Most likely scenario, with some disruption to energy supplies",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on EEM"
+        "extendedNote": "If the conflict escalates significantly, leading to a major disruption to global energy supplies",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Treasury Bonds (TLT)"
+        "Gold (safe haven bid)",
+        "Oil (energy supply disruption)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations",
-        "Middle East geopolitical stability"
+        "US Federal Reserve policy",
+        "Global economic trends"
       ]
     },
     {
@@ -60,8 +60,8 @@
       "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has held interest rates steady, but has left the door open to a potential hike later this year. The decision has been influenced by the high core inflation rate.",
+      "title": "US Inflation Rate",
+      "summary": "The US inflation rate has been rising, with the latest data showing a 3-year high. This has led to increased expectations of a potential interest rate hike by the Federal Reserve. The situation remains uncertain, with multiple factors at play.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -70,37 +70,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Short-Term Bond ETF (BSV)"
+          "target": "iShares Core US Treasury Bond ETF (GOVT)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From stocks to bonds"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "VanEck Vectors Inflation-Protected ETF (INFL)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady will lead to a decrease in bond yields, making short-term bonds a good buy. Additionally, rotating from stocks to bonds will provide a safer haven for investors.",
+      "reasoning": "The rising inflation rate in the US has led to increased expectations of a potential interest rate hike by the Federal Reserve. This could lead to a rally in US Treasury bonds, as investors seek safe-haven assets. However, the situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the inflation rate and adjust the position as needed"
+        "note": "Monitor the situation closely for signs of a potential interest rate hike"
       },
-      "exitStrategy": "Close the position if the Federal Reserve raises interest rates",
+      "exitStrategy": "Exit the position if the Federal Reserve decides to keep interest rates steady or if the inflation rate falls",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the inflation rate remains high",
-        "base": "+6\u201310%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the Federal Reserve keeps interest rates steady",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario, with a potential interest rate hike",
         "extended": "+15%+",
-        "extendedNote": "If the Federal Reserve cuts interest rates",
-        "stopLoss": "-4% on BSV"
+        "extendedNote": "If the inflation rate continues to rise, leading to a more aggressive interest rate hike",
+        "stopLoss": "-5% on GOVT"
       },
       "adjacentMarkets": [
-        "US Stocks (SPY)",
-        "US Treasury Bonds (TLT)"
+        "US Dollar (safe haven bid)",
+        "Commodities (inflation hedge)"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "US economic growth"
+        "Global economic trends",
+        "US Federal Reserve policy"
       ]
     },
     {
@@ -109,7 +109,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI chip sales in China have stalled, and local chipmakers like Huawei are taking the lead. However, NVIDIA is still a major player in the AI semiconductor market.",
+      "summary": "NVIDIA's AI semiconductor stocks have been impacted by the US-China trade tensions, with sales in China stalling. However, the company remains a leader in the AI semiconductor market, with potential for future growth.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -123,49 +123,92 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Huawei Technologies Co. Ltd. (HUWEI)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From NVIDIA to other AI semiconductor stocks"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA is still a major player in the AI semiconductor market, and its stock is a good buy. However, Huawei's growth in the Chinese market is a threat to NVIDIA's sales, making it a good short. Rotating from NVIDIA to other AI semiconductor stocks will provide diversification.",
+      "reasoning": "NVIDIA remains a leader in the AI semiconductor market, with potential for future growth. However, the US-China trade tensions have impacted sales in China, leading to a potential buying opportunity. The situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the sales and revenue of NVIDIA and Huawei"
+        "note": "Monitor the situation closely for signs of a potential recovery in sales"
       },
-      "exitStrategy": "Close the position if NVIDIA's sales and revenue increase",
+      "exitStrategy": "Exit the position if the US-China trade tensions escalate or if NVIDIA's sales in China continue to decline",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If NVIDIA's sales remain stable",
+        "conservativeNote": "If the US-China trade tensions remain steady",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "Most likely scenario, with a potential recovery in sales",
         "extended": "+25%+",
-        "extendedNote": "If NVIDIA's sales increase",
+        "extendedNote": "If the US-China trade tensions ease, leading to a significant recovery in sales",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI Semiconductor Stocks (INTC)",
-        "Chinese Tech Stocks (BABA)"
+        "AI-related stocks",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "AI semiconductor market growth",
-        "US-China trade relations"
+        "US-China trade relations",
+        "Global economic trends"
       ]
     },
     {
       "id": 4,
-      "rank": "MED",
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Reciprocal Trade Deals",
+      "summary": "The US has been pursuing reciprocal trade deals with multiple countries, with the goal of reducing trade deficits and increasing exports. The situation remains uncertain, with multiple factors at play.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB Commodity Index Tracking Fund (DBC)"
+        }
+      ],
+      "reasoning": "The US reciprocal trade deals have the potential to reduce trade deficits and increase exports, leading to a positive impact on the US economy. However, the situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely for signs of a potential trade deal"
+      },
+      "exitStrategy": "Exit the position if the trade deal is finalized or if the trade tensions escalate",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the trade deal is finalized",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario, with a potential positive impact on the US economy",
+        "extended": "+10%+",
+        "extendedNote": "If the trade deal leads to a significant increase in exports",
+        "stopLoss": "-3% on ITOT"
+      },
+      "adjacentMarkets": [
+        "US Dollar (trade deal impact)",
+        "Commodities (trade deal impact)"
+      ],
+      "otherFactors": [
+        "Global economic trends",
+        "US trade policy"
+      ]
+    },
+    {
+      "id": 5,
+      "rank": "LOW",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "The Powder Keg Called The Middle East",
-      "summary": "The Middle East is a powder keg of geopolitical instability, strategic rivalries, and the specter of regional war. The Iran war has escalated the situation, and the US, Israel, and other countries are involved.",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East remains a region of high geopolitical instability, with multiple conflicts and tensions ongoing. The situation remains uncertain, with multiple factors at play.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
+      "freshLabel": "1d ago",
+      "risk": "LOW",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
@@ -176,43 +219,43 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "United States Oil Fund, LP (USO)"
         }
       ],
-      "reasoning": "The geopolitical instability in the Middle East will lead to a safe-haven bid for gold, making it a good buy. The emerging markets will be negatively impacted, making them a good short.",
+      "reasoning": "The geopolitical instability in the Middle East has the potential to lead to a safe-haven bid in gold, as investors seek to reduce risk. However, the situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor the situation closely for signs of a potential escalation or de-escalation"
       },
-      "exitStrategy": "Close the position if the conflict de-escalates or if the US and Iran reach a peace agreement",
+      "exitStrategy": "Exit the position if the conflict de-escalates or if the price of gold falls",
       "gains": {
-        "conservative": "+5\u20138%",
+        "conservative": "+2\u20133%",
         "conservativeNote": "If the conflict remains contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on EEM"
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario, with a potential safe-haven bid in gold",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict escalates significantly, leading to a major safe-haven bid in gold",
+        "stopLoss": "-3% on GLD"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Treasury Bonds (TLT)"
+        "Oil (energy supply disruption)",
+        "US Dollar (safe haven bid)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations",
-        "Middle East geopolitical stability"
+        "Global economic trends",
+        "US Federal Reserve policy"
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "US Inflation Rate",
-      "summary": "The US inflation rate has increased, and the Federal Reserve is considering raising interest rates. The core inflation rate is too high, and the Fed may not be done tightening.",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, with a potential for future hikes. The situation remains uncertain, with multiple factors at play.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -222,274 +265,226 @@
           "target": "Vanguard Short-Term Bond ETF (BSV)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From stocks to bonds"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The high inflation rate will lead to a decrease in bond yields, making short-term bonds a good buy. Additionally, rotating from stocks to bonds will provide a safer haven for investors.",
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady has led to a potential buying opportunity in short-term bonds, as investors seek to reduce risk. However, the situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the inflation rate and adjust the position as needed"
+        "note": "Monitor the situation closely for signs of a potential interest rate hike"
       },
-      "exitStrategy": "Close the position if the Federal Reserve raises interest rates",
+      "exitStrategy": "Exit the position if the Federal Reserve decides to hike interest rates or if the price of short-term bonds falls",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the inflation rate remains high",
-        "base": "+6\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the Federal Reserve cuts interest rates",
-        "stopLoss": "-4% on BSV"
+        "conservative": "+1\u20132%",
+        "conservativeNote": "If the Federal Reserve keeps interest rates steady",
+        "base": "+3\u20135%",
+        "baseNote": "Most likely scenario, with a potential rally in short-term bonds",
+        "extended": "+8%+",
+        "extendedNote": "If the Federal Reserve decides to cut interest rates, leading to a significant rally in short-term bonds",
+        "stopLoss": "-2% on BSV"
       },
       "adjacentMarkets": [
-        "US Stocks (SPY)",
-        "US Treasury Bonds (TLT)"
+        "US Dollar (interest rate impact)",
+        "Commodities (interest rate impact)"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "US economic growth"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI Tech Stock Selloff",
-      "summary": "The AI tech stocks have experienced a selloff, and NVIDIA is one of the affected companies. However, the AI semiconductor market is still growing, and NVIDIA is a major player.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From NVIDIA to other AI semiconductor stocks"
-        }
-      ],
-      "reasoning": "The AI tech stock selloff has created a buying opportunity for NVIDIA, and the company is still a major player in the AI semiconductor market. Rotating from NVIDIA to other AI semiconductor stocks will provide diversification.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the sales and revenue of NVIDIA"
-      },
-      "exitStrategy": "Close the position if NVIDIA's sales and revenue increase",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If NVIDIA's sales remain stable",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If NVIDIA's sales increase",
-        "stopLoss": "-8% on NVDA"
-      },
-      "adjacentMarkets": [
-        "AI Semiconductor Stocks (INTC)",
-        "Chinese Tech Stocks (BABA)"
-      ],
-      "otherFactors": [
-        "AI semiconductor market growth",
-        "US-China trade relations"
+        "Global economic trends",
+        "US Federal Reserve policy"
       ]
     },
     {
       "id": 7,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Reciprocal Trade Deals",
-      "summary": "The US is seeking to repair damage from the tariff war with China and is building reciprocal trade deals with other countries. The goal is to push America's trade partners away from China.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From Chinese stocks to US stocks"
-        }
-      ],
-      "reasoning": "The US reciprocal trade deals will lead to an increase in US exports, and the aerospace and defense sector will benefit. Rotating from Chinese stocks to US stocks will provide a safer haven for investors.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the trade deals and adjust the position as needed"
-      },
-      "exitStrategy": "Close the position if the trade deals fail",
-      "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the trade deals are successful",
-        "base": "+6\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the trade deals lead to a significant increase in US exports",
-        "stopLoss": "-4% on ITA"
-      },
-      "adjacentMarkets": [
-        "US Stocks (SPY)",
-        "Chinese Stocks (FXI)"
-      ],
-      "otherFactors": [
-        "US-China trade relations",
-        "Global trade growth"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East is a powder keg of geopolitical instability, strategic rivalries, and the specter of regional war. The Iran war has escalated the situation, and the US, Israel, and other countries are involved.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI Tech Stock Selloff",
+      "summary": "The AI tech stock selloff has led to a potential buying opportunity in AI-related stocks, as investors seek to reduce risk. The situation remains uncertain, with multiple factors at play.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
+      "risk": "LOW",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "ARK Innovation ETF (ARKK)"
         }
       ],
-      "reasoning": "The geopolitical instability in the Middle East will lead to a safe-haven bid for gold, making it a good buy. The emerging markets will be negatively impacted, making them a good short.",
+      "reasoning": "The AI tech stock selloff has led to a potential buying opportunity in AI-related stocks, as investors seek to reduce risk. However, the situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor the situation closely for signs of a potential recovery in AI-related stocks"
       },
-      "exitStrategy": "Close the position if the conflict de-escalates or if the US and Iran reach a peace agreement",
+      "exitStrategy": "Exit the position if the AI tech stock selloff continues or if the price of AI-related stocks falls",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict remains contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on EEM"
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the AI tech stock selloff remains steady",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario, with a potential recovery in AI-related stocks",
+        "extended": "+10%+",
+        "extendedNote": "If the AI tech stock selloff reverses, leading to a significant rally in AI-related stocks",
+        "stopLoss": "-3% on BOTZ"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Treasury Bonds (TLT)"
+        "Tech stocks",
+        "Growth stocks"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations",
-        "Middle East geopolitical stability"
+        "Global economic trends",
+        "US Federal Reserve policy"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US-China Trade Relations",
+      "summary": "The US-China trade relations remain uncertain, with multiple factors at play. The situation remains volatile, with potential for future trade deals or tensions.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco China Technology ETF (CQQQ)"
+        }
+      ],
+      "reasoning": "The US-China trade relations remain uncertain, with multiple factors at play. However, the potential for future trade deals or tensions remains, leading to a potential buying opportunity in China-related stocks.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the situation closely for signs of a potential trade deal or tensions"
+      },
+      "exitStrategy": "Exit the position if the trade deal is finalized or if the trade tensions escalate",
+      "gains": {
+        "conservative": "+1\u20132%",
+        "conservativeNote": "If the trade deal is finalized",
+        "base": "+3\u20135%",
+        "baseNote": "Most likely scenario, with a potential positive impact on China-related stocks",
+        "extended": "+8%+",
+        "extendedNote": "If the trade deal leads to a significant increase in trade between the US and China",
+        "stopLoss": "-2% on FXI"
+      },
+      "adjacentMarkets": [
+        "US Dollar (trade deal impact)",
+        "Commodities (trade deal impact)"
+      ],
+      "otherFactors": [
+        "Global economic trends",
+        "US trade policy"
       ]
     },
     {
       "id": 9,
       "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
+      "category": "econ",
+      "catLabel": "Economy",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor market has experienced a crash, and NVIDIA is one of the affected companies. However, the AI semiconductor market is still growing, and NVIDIA is a major player.",
+      "summary": "The semiconductor crash has led to a potential buying opportunity in semiconductor-related stocks, as investors seek to reduce risk. The situation remains uncertain, with multiple factors at play.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From NVIDIA to other AI semiconductor stocks"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "The semiconductor crash has created a buying opportunity for NVIDIA, and the company is still a major player in the AI semiconductor market. Rotating from NVIDIA to other AI semiconductor stocks will provide diversification.",
+      "reasoning": "The semiconductor crash has led to a potential buying opportunity in semiconductor-related stocks, as investors seek to reduce risk. However, the situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the sales and revenue of NVIDIA"
+        "note": "Monitor the situation closely for signs of a potential recovery in semiconductor-related stocks"
       },
-      "exitStrategy": "Close the position if NVIDIA's sales and revenue increase",
+      "exitStrategy": "Exit the position if the semiconductor crash continues or if the price of semiconductor-related stocks falls",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If NVIDIA's sales remain stable",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If NVIDIA's sales increase",
-        "stopLoss": "-8% on NVDA"
+        "conservative": "+1\u20132%",
+        "conservativeNote": "If the semiconductor crash remains steady",
+        "base": "+3\u20135%",
+        "baseNote": "Most likely scenario, with a potential recovery in semiconductor-related stocks",
+        "extended": "+8%+",
+        "extendedNote": "If the semiconductor crash reverses, leading to a significant rally in semiconductor-related stocks",
+        "stopLoss": "-2% on SMH"
       },
       "adjacentMarkets": [
-        "AI Semiconductor Stocks (INTC)",
-        "Chinese Tech Stocks (BABA)"
+        "Tech stocks",
+        "Growth stocks"
       ],
       "otherFactors": [
-        "AI semiconductor market growth",
-        "US-China trade relations"
+        "Global economic trends",
+        "US Federal Reserve policy"
       ]
     },
     {
       "id": 10,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "US-China Trade Relations",
-      "summary": "The US and China are seeking to repair damage from the tariff war and are building reciprocal trade deals. The goal is to push America's trade partners away from China.",
+      "title": "Rotation Or Correction Ahead In Response To Earnings Season",
+      "summary": "The earnings season has led to a potential rotation or correction in the market, as investors seek to adjust their portfolios. The situation remains uncertain, with multiple factors at play.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
+      "freshLabel": "2h ago",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From Chinese stocks to US stocks"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US-China trade relations will lead to an increase in US exports, and the aerospace and defense sector will benefit. Rotating from Chinese stocks to US stocks will provide a safer haven for investors.",
+      "reasoning": "The earnings season has led to a potential rotation or correction in the market, as investors seek to adjust their portfolios. However, the situation remains uncertain, with multiple factors at play, including the potential impact of the Iran conflict on global energy supplies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the trade deals and adjust the position as needed"
+        "note": "Monitor the situation closely for signs of a potential rotation or correction"
       },
-      "exitStrategy": "Close the position if the trade deals fail",
+      "exitStrategy": "Exit the position if the rotation or correction continues or if the price of the market falls",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the trade deals are successful",
-        "base": "+6\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the trade deals lead to a significant increase in US exports",
-        "stopLoss": "-4% on ITA"
+        "conservative": "+1\u20132%",
+        "conservativeNote": "If the rotation or correction remains steady",
+        "base": "+3\u20135%",
+        "baseNote": "Most likely scenario, with a potential rotation or correction in the market",
+        "extended": "+8%+",
+        "extendedNote": "If the rotation or correction leads to a significant change in market trends",
+        "stopLoss": "-2% on VTI"
       },
       "adjacentMarkets": [
-        "US Stocks (SPY)",
-        "Chinese Stocks (FXI)"
+        "US Dollar (market impact)",
+        "Commodities (market impact)"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global trade growth"
+        "Global economic trends",
+        "US Federal Reserve policy"
       ]
     }
   ]
