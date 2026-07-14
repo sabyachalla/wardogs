@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T14:53:32Z",
+  "lastUpdated": "2026-07-14T18:05:16Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -10,56 +10,58 @@
     {
       "id": 1,
       "rank": "HIGH",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "Fed Rate Hike Expectations",
-      "summary": "The Federal Reserve is expected to raise interest rates due to high inflation. This will impact the economy and stock market. Treasury yields have risen in anticipation of the rate hike.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Iran War Escalation",
+      "summary": "The ongoing conflict in Iran has led to increased tensions in the Middle East, with potential implications for global oil prices and geopolitical stability. The US and its allies are considering further military action, while Iran has vowed to defend its territory. The situation remains highly volatile, with potential for rapid escalation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "BUY",
+          "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The expected rate hike will lead to a decrease in stock prices and an increase in bond prices. Investors should short the S&P 500 and buy long-term Treasury bonds.",
+      "reasoning": "The conflict in Iran has the potential to disrupt global oil supplies, leading to increased prices and volatility in the energy market. This could have a ripple effect on the broader economy, making the SPDR S&P 500 ETF Trust (SPY) a potential buy opportunity. On the other hand, the VanEck Vectors Oil Services ETF (OIH) may be vulnerable to a short sell due to the potential decline in oil prices.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Until the next Fed meeting"
+        "note": "Monitor news developments and adjust position accordingly"
       },
-      "exitStrategy": "Exit when the Fed announces the rate hike",
+      "exitStrategy": "Close position if conflict escalates further or if oil prices surge above $80/bbl",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the rate hike is 25 basis points",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict remains contained",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the rate hike is 50 basis points or more",
+        "extendedNote": "If conflict escalates significantly",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "US Treasury bonds (safe haven bid)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "OPEC production levels",
+        "US-Iran diplomatic efforts"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Iran War Escalation",
-      "summary": "The conflict in Iran is escalating, leading to increased tensions in the Middle East. This will impact oil prices and the stock market.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Inflation Rate",
+      "summary": "The latest inflation data shows a slower-than-expected increase in prices, potentially leading to a decrease in interest rates. This could have a positive impact on the stock market, particularly for sectors sensitive to interest rates.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -68,35 +70,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Real Estate ETF (VGSIX)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "United States Oil Fund (USO)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From bonds to stocks"
         }
       ],
-      "reasoning": "The escalation of the conflict will lead to increased oil prices and a decrease in stock prices. Investors should buy the S&P 500 and short oil.",
+      "reasoning": "The decrease in inflation could lead to lower interest rates, making the Vanguard Real Estate ETF (VGSIX) a potential buy opportunity. Additionally, rotating from bonds to stocks could be a viable strategy, as the decrease in interest rates could lead to increased demand for stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Until the conflict is resolved"
+        "note": "Monitor inflation data and interest rate decisions"
       },
-      "exitStrategy": "Exit when the conflict is resolved",
+      "exitStrategy": "Close position if inflation surges above 3% or if interest rates increase",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+8-12%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If inflation remains low",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-5% on SPY"
+        "extendedNote": "If interest rates decrease significantly",
+        "stopLoss": "-5% on VGSIX"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "US Treasury bonds (interest rate sensitive)"
       ],
       "otherFactors": [
-        "Oil prices"
+        "Federal Reserve interest rate decisions",
+        "US economic growth"
       ]
     },
     {
@@ -105,7 +108,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks are expected to rise due to increased demand for AI technology. This will impact the tech sector and stock market.",
+      "summary": "NVIDIA's AI semiconductor stocks have been performing well, driven by increasing demand for AI-powered technologies. However, the company faces competition from other chipmakers, and the stock price may be volatile.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -122,178 +125,90 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The increased demand for AI technology will lead to a rise in NVIDIA's stock price. Investors should buy NVIDIA and short AMD.",
+      "reasoning": "NVIDIA's AI semiconductor stocks have been performing well, making the company a potential buy opportunity. On the other hand, Advanced Micro Devices, Inc. (AMD) may be vulnerable to a short sell due to increased competition from NVIDIA.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Until the next earnings report"
+        "note": "Monitor company earnings and industry trends"
       },
-      "exitStrategy": "Exit when the earnings report is released",
+      "exitStrategy": "Close position if NVIDIA's stock price surges above $200 or if AMD's stock price declines below $50",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the demand for AI technology is moderate",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If demand for AI-powered technologies remains steady",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the demand for AI technology is high",
+        "extendedNote": "If NVIDIA's stock price surges due to increased demand",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech sector"
+        "Technology sector (XLK)",
+        "Semiconductor sector (SMH)"
       ],
       "otherFactors": [
-        "AI technology demand"
+        "Competition from other chipmakers",
+        "Demand for AI-powered technologies"
       ]
     },
     {
       "id": 4,
       "rank": "LOW",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "US Inflation Rate",
-      "summary": "The US inflation rate is expected to rise due to high demand and low supply. This will impact the economy and stock market.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East remains a volatile region, with ongoing conflicts and tensions between various countries. This could have a negative impact on global oil prices and geopolitical stability.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares TIPS Bond ETF (TIP)"
+          "target": "iShares MSCI EAFE ETF (EFA)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From US stocks to international stocks"
         }
       ],
-      "reasoning": "The rising inflation rate will lead to a decrease in stock prices and an increase in bond prices. Investors should buy TIPS bonds and short the S&P 500.",
+      "reasoning": "The geopolitical instability in the Middle East could have a negative impact on global oil prices, making the iShares MSCI EAFE ETF (EFA) a potential buy opportunity. Additionally, rotating from US stocks to international stocks could be a viable strategy, as the instability in the Middle East could lead to increased demand for international stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Until the next inflation report"
+        "note": "Monitor news developments and adjust position accordingly"
       },
-      "exitStrategy": "Exit when the inflation report is released",
+      "exitStrategy": "Close position if conflict escalates further or if oil prices surge above $80/bbl",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the inflation rate is moderate",
-        "base": "+5-8%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If instability remains contained",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the inflation rate is high",
-        "stopLoss": "-5% on TIP"
+        "extendedNote": "If instability leads to increased demand for international stocks",
+        "stopLoss": "-5% on EFA"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "US Treasury bonds (safe haven bid)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "OPEC production levels",
+        "US-Iran diplomatic efforts"
       ]
     },
     {
       "id": 5,
       "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East is experiencing increased geopolitical instability due to the conflict in Iran. This will impact oil prices and the stock market.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "United States Oil Fund (USO)"
-        }
-      ],
-      "reasoning": "The increased instability will lead to increased oil prices and a decrease in stock prices. Investors should buy the S&P 500 and short oil.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Until the conflict is resolved"
-      },
-      "exitStrategy": "Exit when the conflict is resolved",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "Oil prices"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks are expected to rise due to increased demand for AI technology. This will impact the tech sector and stock market.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US-China Trade Relations",
+      "summary": "The US and China are engaged in ongoing trade negotiations, with potential implications for global trade and economic growth. The outcome of these negotiations could have a significant impact on the stock market, particularly for sectors sensitive to trade.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
-        }
-      ],
-      "reasoning": "The increased demand for AI technology will lead to a rise in AI-powered stocks. Investors should buy NVIDIA and short AMD.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Until the next earnings report"
-      },
-      "exitStrategy": "Exit when the earnings report is released",
-      "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the demand for AI technology is moderate",
-        "base": "+12-18%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the demand for AI technology is high",
-        "stopLoss": "-8% on NVDA"
-      },
-      "adjacentMarkets": [
-        "Tech sector"
-      ],
-      "otherFactors": [
-        "AI technology demand"
-      ]
-    },
-    {
-      "id": 7,
-      "rank": "LOW",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "China Consumer Price Growth",
-      "summary": "China's consumer price growth is expected to rise due to high demand and low supply. This will impact the economy and stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -303,89 +218,189 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Invesco PowerShares DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The rising consumer price growth will lead to a decrease in stock prices and an increase in Chinese stocks. Investors should buy Chinese stocks and short the S&P 500.",
+      "reasoning": "The US and China are engaged in ongoing trade negotiations, making the iShares China Large-Cap ETF (FXI) a potential buy opportunity. On the other hand, the Invesco PowerShares DB US Dollar Index Bullish Fund (UUP) may be vulnerable to a short sell due to potential weakness in the US dollar.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Until the next inflation report"
+        "viable": "4-8 weeks",
+        "note": "Monitor trade negotiations and adjust position accordingly"
       },
-      "exitStrategy": "Exit when the inflation report is released",
+      "exitStrategy": "Close position if trade negotiations fail or if US dollar surges above 100",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the inflation rate is moderate",
-        "base": "+5-8%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If trade negotiations remain ongoing",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the inflation rate is high",
+        "extended": "+15%+",
+        "extendedNote": "If trade negotiations lead to increased trade between US and China",
         "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "US dollar (currency)",
+        "Chinese yuan (currency)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Trade negotiations",
+        "US economic growth"
       ]
     },
     {
-      "id": 8,
-      "rank": "MED",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to raise interest rates due to high inflation. This will impact the economy and stock market.",
+      "id": 6,
+      "rank": "LOW",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI-Powered Stocks",
+      "summary": "AI-powered stocks have been performing well, driven by increasing demand for AI-powered technologies. However, the stock price may be volatile due to competition from other tech companies.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Microsoft Corporation (MSFT)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From non-AI powered stocks to AI-powered stocks"
+        }
+      ],
+      "reasoning": "AI-powered stocks have been performing well, making Microsoft Corporation (MSFT) a potential buy opportunity. Additionally, rotating from non-AI powered stocks to AI-powered stocks could be a viable strategy, as the demand for AI-powered technologies continues to grow.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor company earnings and industry trends"
+      },
+      "exitStrategy": "Close position if AI-powered stocks decline due to increased competition",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If demand for AI-powered technologies remains steady",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If demand for AI-powered technologies surges",
+        "stopLoss": "-5% on MSFT"
+      },
+      "adjacentMarkets": [
+        "Technology sector (XLK)",
+        "Cloud computing sector (SKYY)"
+      ],
+      "otherFactors": [
+        "Competition from other tech companies",
+        "Demand for AI-powered technologies"
+      ]
+    },
+    {
+      "id": 7,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "China Consumer Price Growth",
+      "summary": "China's consumer price growth has been increasing, driven by a growing economy and increasing demand for goods and services. This could have a positive impact on the stock market, particularly for sectors sensitive to consumer spending.",
+      "fresh": true,
+      "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "iShares MSCI China ETF (MCHI)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From US stocks to Chinese stocks"
         }
       ],
-      "reasoning": "The expected rate hike will lead to a decrease in stock prices and an increase in bond prices. Investors should short the S&P 500 and buy long-term Treasury bonds.",
+      "reasoning": "China's consumer price growth has been increasing, making the iShares MSCI China ETF (MCHI) a potential buy opportunity. Additionally, rotating from US stocks to Chinese stocks could be a viable strategy, as the growing economy and increasing demand for goods and services in China could lead to increased demand for Chinese stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Until the next Fed meeting"
+        "note": "Monitor consumer price growth and adjust position accordingly"
       },
-      "exitStrategy": "Exit when the Fed announces the rate hike",
+      "exitStrategy": "Close position if consumer price growth declines or if Chinese stocks decline due to economic slowdown",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the rate hike is 25 basis points",
-        "base": "+12-18%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If consumer price growth remains steady",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the rate hike is 50 basis points or more",
-        "stopLoss": "-8% on SPY"
+        "extended": "+15%+",
+        "extendedNote": "If consumer price growth surges due to increased demand",
+        "stopLoss": "-5% on MCHI"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Chinese yuan (currency)",
+        "US dollar (currency)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Chinese economic growth",
+        "Consumer spending"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to keep interest rates steady, citing a strong economy and low unemployment. However, the decision could have a negative impact on the stock market, particularly for sectors sensitive to interest rates.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From bonds to stocks"
+        }
+      ],
+      "reasoning": "The Federal Reserve's decision to keep interest rates steady could have a positive impact on the stock market, making the Vanguard Total Stock Market ETF (VTI) a potential buy opportunity. Additionally, rotating from bonds to stocks could be a viable strategy, as the low interest rates could lead to increased demand for stocks.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor interest rate decisions and adjust position accordingly"
+      },
+      "exitStrategy": "Close position if interest rates increase or if stock market declines due to economic slowdown",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If interest rates remain steady",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If interest rates decrease due to economic slowdown",
+        "stopLoss": "-5% on VTI"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds (interest rate sensitive)",
+        "US dollar (currency)"
+      ],
+      "otherFactors": [
+        "Federal Reserve interest rate decisions",
+        "US economic growth"
       ]
     },
     {
       "id": 9,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor industry is experiencing a crash due to oversupply and low demand. This will impact the tech sector and stock market.",
+      "summary": "The semiconductor industry has been experiencing a downturn, driven by decreased demand and increased competition. However, the industry is expected to recover, driven by increasing demand for AI-powered technologies and 5G networks.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -393,78 +408,82 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From non-semiconductor stocks to semiconductor stocks"
         }
       ],
-      "reasoning": "The crash in the semiconductor industry will lead to a decrease in stock prices. Investors should buy the semiconductor ETF and short AMD.",
+      "reasoning": "The semiconductor industry is expected to recover, making the VanEck Vectors Semiconductor ETF (SMH) a potential buy opportunity. Additionally, rotating from non-semiconductor stocks to semiconductor stocks could be a viable strategy, as the increasing demand for AI-powered technologies and 5G networks could lead to increased demand for semiconductor stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Until the next earnings report"
+        "viable": "4-8 weeks",
+        "note": "Monitor industry trends and adjust position accordingly"
       },
-      "exitStrategy": "Exit when the earnings report is released",
+      "exitStrategy": "Close position if semiconductor industry declines due to decreased demand or if competition increases",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the demand for semiconductors is moderate",
-        "base": "+5-8%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If industry recovery remains steady",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the demand for semiconductors is high",
+        "extended": "+15%+",
+        "extendedNote": "If industry recovery surges due to increased demand",
         "stopLoss": "-5% on SMH"
       },
       "adjacentMarkets": [
-        "Tech sector"
+        "Technology sector (XLK)",
+        "Cloud computing sector (SKYY)"
       ],
       "otherFactors": [
-        "Semiconductor demand"
+        "Competition from other tech companies",
+        "Demand for AI-powered technologies and 5G networks"
       ]
     },
     {
       "id": 10,
-      "rank": "MED",
-      "category": "intl",
-      "catLabel": "International",
-      "title": "US-China Trade Relations",
-      "summary": "The US and China are experiencing increased trade tensions due to tariffs and trade disputes. This will impact the economy and stock market.",
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Stock Market Today",
+      "summary": "The US stock market has been experiencing a bull run, driven by a strong economy and low unemployment. However, the market may be due for a correction, particularly if interest rates increase or if economic growth slows down.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From non-US stocks to US stocks"
         }
       ],
-      "reasoning": "The increased trade tensions will lead to a decrease in stock prices and an increase in Chinese stocks. Investors should buy Chinese stocks and short the S&P 500.",
+      "reasoning": "The US stock market has been experiencing a bull run, making the SPDR S&P 500 ETF Trust (SPY) a potential buy opportunity. Additionally, rotating from non-US stocks to US stocks could be a viable strategy, as the strong economy and low unemployment could lead to increased demand for US stocks.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Until the next trade negotiation"
+        "viable": "2-4 weeks",
+        "note": "Monitor market trends and adjust position accordingly"
       },
-      "exitStrategy": "Exit when the trade negotiation is concluded",
+      "exitStrategy": "Close position if stock market declines due to economic slowdown or if interest rates increase",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trade tensions are moderate",
-        "base": "+12-18%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If market remains steady",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the trade tensions escalate further",
-        "stopLoss": "-8% on FXI"
+        "extended": "+10%+",
+        "extendedNote": "If market surges due to increased demand",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "US Treasury bonds (interest rate sensitive)",
+        "US dollar (currency)"
       ],
       "otherFactors": [
-        "Trade tensions"
+        "Federal Reserve interest rate decisions",
+        "US economic growth"
       ]
     }
   ]
