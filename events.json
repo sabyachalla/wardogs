@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T21:59:10Z",
+  "lastUpdated": "2026-07-15T02:36:10Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,54 +13,55 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war has led to increased tensions in the Middle East, with potential implications for global oil prices and geopolitical stability. The conflict has also raised questions about the limits of US power and the role of other nations in the region. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
+      "summary": "The Iran war has revealed the limits of US power and the rising geopolitical instability in the Middle East. The conflict has also shown the military strength of the US, but its waning geopolitical influence. The situation is expected to continue, with potential escalation in the region.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The Iran war has created a high level of uncertainty in the markets, with potential implications for oil prices, geopolitical stability, and the global economy. As the situation continues to unfold, investors should be prepared for potential volatility in the markets. A long position in the SPDR S&P 500 ETF Trust (SPY) could provide a hedge against potential losses, while a short position in the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) could capitalize on potential declines in oil prices.",
+      "reasoning": "The escalation of the Iran war will likely lead to increased volatility in the markets, with emerging markets being particularly affected. The price of gold is expected to rise as a safe-haven asset.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor developments in the Middle East and adjust positions accordingly"
+        "note": "Monitor the situation in the Middle East and adjust the position accordingly"
       },
-      "exitStrategy": "Close positions if the conflict escalates further or if oil prices decline significantly",
+      "exitStrategy": "Close the position if the conflict de-escalates or if the price of gold reaches $2,000/oz",
       "gains": {
-        "conservative": "+5-8%",
+        "conservative": "+5\u20138%",
         "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
         "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "stopLoss": "-8% on EEM"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "Geopolitical stability"
+        "US-China trade relations",
+        "Federal Reserve interest rate decision"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Inflation Rate",
-      "summary": "The US inflation rate has slowed down in recent months, with potential implications for interest rates and the economy. The Federal Reserve has stated that it has no tolerance for high inflation, but the recent data suggests that inflation may be under control. As the situation continues to unfold, investors should be prepared for potential changes in monetary policy.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "NVIDIA AI Semiconductor Stocks",
+      "summary": "NVIDIA's AI semiconductor stocks have been rising due to the increasing demand for AI-powered technologies. The company's partnership with TSMC to advance semiconductor design and manufacturing has also contributed to the growth.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -69,48 +70,193 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "NVIDIA Corporation (NVDA)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "From stocks to bonds"
+          "target": "Micron Technology, Inc. (MU)"
         }
       ],
-      "reasoning": "The slowdown in US inflation has created a more favorable environment for bonds, with potential implications for interest rates and the economy. A long position in the iShares 20+ Year Treasury Bond ETF (TLT) could provide a hedge against potential losses, while rotating from stocks to bonds could capitalize on potential declines in interest rates.",
+      "reasoning": "The demand for AI-powered technologies is expected to continue, driving the growth of NVIDIA's AI semiconductor stocks. The rotation into Micron Technology may provide a more stable return.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor developments in the economy and adjust positions accordingly"
+        "note": "Monitor the earnings reports and adjust the position accordingly"
       },
-      "exitStrategy": "Close positions if inflation rises significantly or if interest rates decline",
+      "exitStrategy": "Close the position if the demand for AI-powered technologies slows down",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If inflation remains under control",
-        "base": "+8-12%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the demand is stable",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If interest rates decline significantly",
-        "stopLoss": "-5% on TLT"
+        "extendedNote": "If the demand increases further",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Interest rates"
+        "AMD (AMD)",
+        "Intel Corporation (INTC)"
       ],
       "otherFactors": [
-        "Monetary policy",
-        "Economic growth"
+        "US-China trade relations",
+        "Global semiconductor market trends"
       ]
     },
     {
       "id": 3,
       "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA has been a leader in the AI semiconductor market, with potential implications for the tech industry and the economy. The company has been investing heavily in AI research and development, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "US Inflation Rate",
+      "summary": "The US inflation rate has slowed down, with the June CPI cooling more than expected. This has led to expectations that the Federal Reserve may skip the July rate hike.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "The slowing down of the US inflation rate may lead to a decrease in interest rates, making bonds more attractive. The short position in the S&P 500 may provide a hedge against potential market volatility.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the Federal Reserve's interest rate decision and adjust the position accordingly"
+      },
+      "exitStrategy": "Close the position if the Federal Reserve raises interest rates",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the inflation rate remains stable",
+        "base": "+6\u201310%",
+        "baseNote": "Most likely scenario",
+        "extended": "+12%+",
+        "extendedNote": "If the inflation rate decreases further",
+        "stopLoss": "-4% on AGG"
+      },
+      "adjacentMarkets": [
+        "US Treasury Bonds (TLT)",
+        "Gold (GC=F)"
+      ],
+      "otherFactors": [
+        "Federal Reserve interest rate decision",
+        "US economic growth"
+      ]
+    },
+    {
+      "id": 4,
+      "rank": "LOW",
+      "category": "geo",
+      "catLabel": "Geopolitics",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East region is experiencing increased geopolitical instability due to the Iran war and other conflicts. This has led to a rise in oil prices and increased volatility in the markets.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares MSCI EAFE ETF (EFA)"
+        }
+      ],
+      "reasoning": "The geopolitical instability in the Middle East may lead to increased volatility in the markets, but the US stock market is expected to remain stable. The rotation into international stocks may provide a more diversified return.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the situation in the Middle East and adjust the position accordingly"
+      },
+      "exitStrategy": "Close the position if the conflict escalates further",
+      "gains": {
+        "conservative": "+1\u20133%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+4\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the conflict de-escalates",
+        "stopLoss": "-3% on SPY"
+      },
+      "adjacentMarkets": [
+        "Oil (WTI)",
+        "US Treasury Bonds (TLT)"
+      ],
+      "otherFactors": [
+        "US-China trade relations",
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 5,
+      "rank": "MED",
+      "category": "trade",
+      "catLabel": "Trade",
+      "title": "US-China Trade Relations",
+      "summary": "The US-China trade relations have been affected by the ongoing trade war, with both countries imposing tariffs on each other's goods. The situation is expected to continue, with potential escalation in the trade tensions.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "The US-China trade war may lead to decreased trade between the two countries, affecting the Chinese economy. The short position in the Chinese stock market may provide a hedge against potential losses.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the trade negotiations and adjust the position accordingly"
+      },
+      "exitStrategy": "Close the position if the trade war escalates further",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the trade war is contained",
+        "base": "+6\u201310%",
+        "baseNote": "Most likely scenario",
+        "extended": "+12%+",
+        "extendedNote": "If the trade war de-escalates",
+        "stopLoss": "-4% on FXI"
+      },
+      "adjacentMarkets": [
+        "US Treasury Bonds (TLT)",
+        "Gold (GC=F)"
+      ],
+      "otherFactors": [
+        "Global trade trends",
+        "US economic growth"
+      ]
+    },
+    {
+      "id": 6,
+      "rank": "LOW",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI-Powered Stocks",
+      "summary": "The demand for AI-powered technologies is increasing, driving the growth of AI-powered stocks. The trend is expected to continue, with potential opportunities for investors.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
@@ -119,93 +265,47 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "NVIDIA has been a leader in the AI semiconductor market, with potential implications for the tech industry and the economy. A long position in NVIDIA Corporation (NVDA) could provide a hedge against potential losses, while a short position in Advanced Micro Devices, Inc. (AMD) could capitalize on potential declines in the stock price.",
+      "reasoning": "The demand for AI-powered technologies is expected to continue, driving the growth of AI-powered stocks. The rotation into Microsoft may provide a more stable return.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor developments in the tech industry and adjust positions accordingly"
+        "note": "Monitor the earnings reports and adjust the position accordingly"
       },
-      "exitStrategy": "Close positions if NVIDIA's stock price declines significantly or if the company's AI research and development efforts are unsuccessful",
+      "exitStrategy": "Close the position if the demand for AI-powered technologies slows down",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If NVIDIA's AI research and development efforts are successful",
-        "base": "+15-20%",
+        "conservative": "+1\u20133%",
+        "conservativeNote": "If the demand is stable",
+        "base": "+4\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If NVIDIA's stock price increases significantly",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+10%+",
+        "extendedNote": "If the demand increases further",
+        "stopLoss": "-3% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech industry"
+        "AMD (AMD)",
+        "Intel Corporation (INTC)"
       ],
       "otherFactors": [
-        "AI research and development",
-        "Competition in the semiconductor market"
+        "Global semiconductor market trends",
+        "US economic growth"
       ]
     },
     {
-      "id": 4,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East has been experiencing geopolitical instability, with potential implications for global oil prices and geopolitical stability. The situation has been ongoing for several years, with potential implications for the global economy. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI EAFE ETF (EFA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From US stocks to international stocks"
-        }
-      ],
-      "reasoning": "The geopolitical instability in the Middle East has created a more favorable environment for international stocks, with potential implications for global oil prices and geopolitical stability. A long position in the iShares MSCI EAFE ETF (EFA) could provide a hedge against potential losses, while rotating from US stocks to international stocks could capitalize on potential declines in the US stock market.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor developments in the Middle East and adjust positions accordingly"
-      },
-      "exitStrategy": "Close positions if the situation in the Middle East stabilizes or if global oil prices decline significantly",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the situation in the Middle East stabilizes",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If global oil prices increase significantly",
-        "stopLoss": "-5% on EFA"
-      },
-      "adjacentMarkets": [
-        "Oil prices"
-      ],
-      "otherFactors": [
-        "Geopolitical stability",
-        "Global economy"
-      ]
-    },
-    {
-      "id": 5,
+      "id": 7,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
-      "title": "US-China Trade Relations",
-      "summary": "The US and China have been experiencing trade tensions, with potential implications for the global economy. The situation has been ongoing for several years, with potential implications for trade policies and the global economy. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
+      "catLabel": "Economics",
+      "title": "China Consumer Price Growth",
+      "summary": "China's consumer price growth has been increasing, driven by the country's economic growth and rising demand for goods and services. The trend is expected to continue, with potential implications for investors.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -218,229 +318,138 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The trade tensions between the US and China have created a more favorable environment for Chinese stocks, with potential implications for the global economy. A long position in the iShares China Large-Cap ETF (FXI) could provide a hedge against potential losses, while a short position in the SPDR S&P 500 ETF Trust (SPY) could capitalize on potential declines in the US stock market.",
+      "reasoning": "China's consumer price growth may lead to increased demand for Chinese stocks, driving up their prices. The short position in the US stock market may provide a hedge against potential losses.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor developments in US-China trade relations and adjust positions accordingly"
+        "viable": "2-4 weeks",
+        "note": "Monitor the Chinese economic growth and adjust the position accordingly"
       },
-      "exitStrategy": "Close positions if the trade tensions between the US and China ease or if the global economy declines significantly",
+      "exitStrategy": "Close the position if the Chinese economy slows down",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the trade tensions between the US and China ease",
-        "base": "+12-18%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the Chinese economy is stable",
+        "base": "+6\u201310%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the global economy declines significantly",
-        "stopLoss": "-10% on FXI"
+        "extended": "+12%+",
+        "extendedNote": "If the Chinese economy grows further",
+        "stopLoss": "-4% on FXI"
       },
       "adjacentMarkets": [
-        "Global economy"
+        "US Treasury Bonds (TLT)",
+        "Gold (GC=F)"
       ],
       "otherFactors": [
-        "Trade policies",
-        "Geopolitical stability"
+        "Global trade trends",
+        "US economic growth"
       ]
     },
     {
-      "id": 6,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks have been experiencing growth, with potential implications for the tech industry and the economy. The growth has been driven by advancements in AI research and development, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
+      "id": 8,
+      "rank": "LOW",
+      "category": "fin",
+      "catLabel": "Finance",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to keep interest rates unchanged, citing the need to support the US economy. The decision has led to a decrease in the value of the US dollar and an increase in the prices of gold and other precious metals.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Microsoft Corporation (MSFT)"
+          "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "From non-AI stocks to AI-powered stocks"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The growth in AI-powered stocks has created a more favorable environment for Microsoft Corporation (MSFT), with potential implications for the tech industry and the economy. A long position in Microsoft Corporation (MSFT) could provide a hedge against potential losses, while rotating from non-AI stocks to AI-powered stocks could capitalize on potential declines in non-AI stocks.",
+      "reasoning": "The Federal Reserve's decision to keep interest rates unchanged may lead to increased demand for gold and other precious metals, driving up their prices. The rotation into bonds may provide a more stable return.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor developments in AI research and development and adjust positions accordingly"
+        "note": "Monitor the Federal Reserve's interest rate decision and adjust the position accordingly"
       },
-      "exitStrategy": "Close positions if the growth in AI-powered stocks slows down or if the tech industry declines significantly",
+      "exitStrategy": "Close the position if the Federal Reserve raises interest rates",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the growth in AI-powered stocks slows down",
-        "base": "+15-20%",
+        "conservative": "+1\u20133%",
+        "conservativeNote": "If the interest rates remain stable",
+        "base": "+4\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the tech industry grows significantly",
-        "stopLoss": "-10% on MSFT"
+        "extended": "+10%+",
+        "extendedNote": "If the interest rates decrease further",
+        "stopLoss": "-3% on GLD"
       },
       "adjacentMarkets": [
-        "Tech industry"
+        "US Treasury Bonds (TLT)",
+        "Oil (WTI)"
       ],
       "otherFactors": [
-        "AI research and development",
-        "Competition in the tech industry"
-      ]
-    },
-    {
-      "id": 7,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "China Consumer Price Growth",
-      "summary": "China's consumer price growth has been experiencing growth, with potential implications for the global economy. The growth has been driven by increases in food and energy prices, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From US stocks to Chinese stocks"
-        }
-      ],
-      "reasoning": "The growth in China's consumer price growth has created a more favorable environment for Chinese stocks, with potential implications for the global economy. A long position in the iShares MSCI China ETF (MCHI) could provide a hedge against potential losses, while rotating from US stocks to Chinese stocks could capitalize on potential declines in the US stock market.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor developments in China's consumer price growth and adjust positions accordingly"
-      },
-      "exitStrategy": "Close positions if China's consumer price growth slows down or if the global economy declines significantly",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If China's consumer price growth slows down",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the global economy grows significantly",
-        "stopLoss": "-5% on MCHI"
-      },
-      "adjacentMarkets": [
-        "Global economy"
-      ],
-      "otherFactors": [
-        "Food and energy prices",
-        "Geopolitical stability"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has been considering interest rate decisions, with potential implications for the economy. The decisions have been driven by inflation and employment data, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 1-3 Year Treasury Bond ETF (SHY)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From stocks to bonds"
-        }
-      ],
-      "reasoning": "The Federal Reserve's interest rate decisions have created a more favorable environment for bonds, with potential implications for the economy. A long position in the iShares 1-3 Year Treasury Bond ETF (SHY) could provide a hedge against potential losses, while rotating from stocks to bonds could capitalize on potential declines in interest rates.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor developments in the Federal Reserve's interest rate decisions and adjust positions accordingly"
-      },
-      "exitStrategy": "Close positions if the Federal Reserve's interest rate decisions are more dovish than expected or if the economy declines significantly",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the Federal Reserve's interest rate decisions are more dovish than expected",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows significantly",
-        "stopLoss": "-5% on SHY"
-      },
-      "adjacentMarkets": [
-        "Interest rates"
-      ],
-      "otherFactors": [
-        "Inflation",
-        "Employment data"
+        "US economic growth",
+        "Global trade trends"
       ]
     },
     {
       "id": 9,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor industry has been experiencing a crash, with potential implications for the tech industry and the economy. The crash has been driven by oversupply and declining demand, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
+      "summary": "The semiconductor industry has experienced a crash, driven by the US-China trade war and the COVID-19 pandemic. The trend is expected to continue, with potential implications for investors.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
+      "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From non-semiconductor stocks to semiconductor stocks"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Intel Corporation (INTC)"
         }
       ],
-      "reasoning": "The crash in the semiconductor industry has created a more favorable environment for semiconductor stocks, with potential implications for the tech industry and the economy. A long position in the VanEck Vectors Semiconductor ETF (SMH) could provide a hedge against potential losses, while rotating from non-semiconductor stocks to semiconductor stocks could capitalize on potential declines in non-semiconductor stocks.",
+      "reasoning": "The semiconductor industry may experience a rebound, driven by the increasing demand for AI-powered technologies. The short position in Intel may provide a hedge against potential losses.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor developments in the semiconductor industry and adjust positions accordingly"
+        "note": "Monitor the earnings reports and adjust the position accordingly"
       },
-      "exitStrategy": "Close positions if the crash in the semiconductor industry worsens or if the tech industry declines significantly",
+      "exitStrategy": "Close the position if the demand for semiconductors slows down",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the crash in the semiconductor industry worsens",
-        "base": "+8-12%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the demand is stable",
+        "base": "+6\u201310%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the tech industry grows significantly",
-        "stopLoss": "-5% on SMH"
+        "extended": "+12%+",
+        "extendedNote": "If the demand increases further",
+        "stopLoss": "-4% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech industry"
+        "AMD (AMD)",
+        "Microsoft Corporation (MSFT)"
       ],
       "otherFactors": [
-        "Oversupply",
-        "Declining demand"
+        "Global semiconductor market trends",
+        "US economic growth"
       ]
     },
     {
       "id": 10,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
+      "rank": "LOW",
+      "category": "fin",
+      "catLabel": "Finance",
       "title": "US Stock Market Today",
-      "summary": "The US stock market has been experiencing volatility, with potential implications for the economy. The volatility has been driven by trade tensions and interest rate decisions, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
+      "summary": "The US stock market has experienced a rally, driven by the increasing demand for stocks and the positive earnings reports. The trend is expected to continue, with potential implications for investors.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -450,125 +459,32 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "From non-US stocks to US stocks"
+          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The volatility in the US stock market has created a more favorable environment for US stocks, with potential implications for the economy. A long position in the SPDR S&P 500 ETF Trust (SPY) could provide a hedge against potential losses, while rotating from non-US stocks to US stocks could capitalize on potential declines in non-US stocks.",
+      "reasoning": "The US stock market may continue to experience a rally, driven by the increasing demand for stocks and the positive earnings reports. The rotation into small-cap stocks may provide a more stable return.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor developments in the US stock market and adjust positions accordingly"
+        "viable": "4-8 weeks",
+        "note": "Monitor the earnings reports and adjust the position accordingly"
       },
-      "exitStrategy": "Close positions if the volatility in the US stock market worsens or if the economy declines significantly",
+      "exitStrategy": "Close the position if the US stock market experiences a downturn",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the volatility in the US stock market worsens",
-        "base": "+12-18%",
+        "conservative": "+1\u20133%",
+        "conservativeNote": "If the market is stable",
+        "base": "+4\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the economy grows significantly",
-        "stopLoss": "-10% on SPY"
+        "extended": "+10%+",
+        "extendedNote": "If the market continues to rally",
+        "stopLoss": "-3% on SPY"
       },
       "adjacentMarkets": [
-        "Economy"
+        "US Treasury Bonds (TLT)",
+        "Oil (WTI)"
       ],
       "otherFactors": [
-        "Trade tensions",
-        "Interest rate decisions"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI Semiconductor Investment Boom",
-      "summary": "The AI semiconductor industry has been experiencing a boom, with potential implications for the tech industry and the economy. The boom has been driven by advancements in AI research and development, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From non-AI semiconductor stocks to AI semiconductor stocks"
-        }
-      ],
-      "reasoning": "The boom in the AI semiconductor industry has created a more favorable environment for AI semiconductor stocks, with potential implications for the tech industry and the economy. A long position in NVIDIA Corporation (NVDA) could provide a hedge against potential losses, while rotating from non-AI semiconductor stocks to AI semiconductor stocks could capitalize on potential declines in non-AI semiconductor stocks.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor developments in the AI semiconductor industry and adjust positions accordingly"
-      },
-      "exitStrategy": "Close positions if the boom in the AI semiconductor industry slows down or if the tech industry declines significantly",
-      "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the boom in the AI semiconductor industry slows down",
-        "base": "+15-20%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the tech industry grows significantly",
-        "stopLoss": "-10% on NVDA"
-      },
-      "adjacentMarkets": [
-        "Tech industry"
-      ],
-      "otherFactors": [
-        "AI research and development",
-        "Competition in the semiconductor market"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Federal Funds Rate History",
-      "summary": "The federal funds rate has been experiencing changes, with potential implications for the economy. The changes have been driven by inflation and employment data, with potential implications for future growth. As the situation continues to unfold, investors should be prepared for potential volatility in the markets.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 1-3 Year Treasury Bond ETF (SHY)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From stocks to bonds"
-        }
-      ],
-      "reasoning": "The changes in the federal funds rate have created a more favorable environment for bonds, with potential implications for the economy. A long position in the iShares 1-3 Year Treasury Bond ETF (SHY) could provide a hedge against potential losses, while rotating from stocks to bonds could capitalize on potential declines in interest rates.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor developments in the federal funds rate and adjust positions accordingly"
-      },
-      "exitStrategy": "Close positions if the federal funds rate changes are more dovish than expected or if the economy declines significantly",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the federal funds rate changes are more dovish than expected",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows significantly",
-        "stopLoss": "-5% on SHY"
-      },
-      "adjacentMarkets": [
-        "Interest rates"
-      ],
-      "otherFactors": [
-        "Inflation",
-        "Employment data"
+        "US economic growth",
+        "Global trade trends"
       ]
     }
   ]
