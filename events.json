@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T03:28:35Z",
+  "lastUpdated": "2026-07-16T06:20:29Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,44 +13,44 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran has led to increased tensions in the Middle East, with potential implications for global oil prices and geopolitical stability. The US and its allies are involved in the conflict, which could lead to further escalation. The situation is being closely monitored by investors and policymakers.",
+      "summary": "The Iran war has revealed the limits of US power and the rising geopolitical instability in the Middle East. The conflict has also shown the military strength of the US, but its waning geopolitical power. The situation is expected to continue, with potential for further escalation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
           "label": "SHORT",
           "cls": "short",
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Invesco DB Oil Fund (DBO)"
         }
       ],
-      "reasoning": "The conflict in Iran has the potential to disrupt global oil supplies, leading to increased prices and volatility in the market. This could have a positive impact on the SPDR S&P 500 ETF Trust (SPY), which has a high weighting in energy stocks. On the other hand, the iShares MSCI Emerging Markets ETF (EEM) may be negatively impacted by the conflict, as emerging markets are often more vulnerable to geopolitical instability.",
+      "reasoning": "The ongoing conflict in Iran is expected to lead to increased volatility in the market, particularly in emerging markets and oil prices. A short position in EEM and a long position in DBO could potentially benefit from this situation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor for any signs of de-escalation"
       },
-      "exitStrategy": "Close the position if the conflict is resolved or if the oil price stabilizes",
+      "exitStrategy": "Close positions if a ceasefire is announced or if oil prices drop below $60",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict stabilizes",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on EEM"
       },
       "adjacentMarkets": [
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Oil price movements"
+        "US-China trade relations"
       ]
     },
     {
@@ -59,7 +59,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks have been performing well, driven by the growing demand for AI and machine learning technologies. The company's recent partnerships and investments in the field are expected to further boost its growth.",
+      "summary": "NVIDIA's AI semiconductor stocks have been performing well, with the company investing in AI cable startups and partnering with TSMC to advance semiconductor design and manufacturing.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -76,91 +76,91 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         }
       ],
-      "reasoning": "NVIDIA's strong position in the AI semiconductor market, combined with its recent partnerships and investments, make it an attractive investment opportunity. The VanEck Vectors Semiconductor ETF (SMH) provides a diversified exposure to the semiconductor industry, which could benefit from the growing demand for AI and machine learning technologies.",
+      "reasoning": "NVIDIA's strong position in the AI semiconductor market and its recent partnerships and investments make it an attractive buy. Rotating into SMH could also provide exposure to the broader semiconductor market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the company's earnings and industry trends"
+        "note": "Monitor for any changes in NVIDIA's market position"
       },
-      "exitStrategy": "Close the position if the company's earnings disappoint or if the industry trends reverse",
+      "exitStrategy": "Close positions if NVIDIA's stock price drops below $200",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the company's earnings meet expectations",
-        "base": "+8-12%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the company's earnings exceed expectations",
+        "extendedNote": "If NVIDIA's AI semiconductor business continues to grow",
         "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector"
+        "AI-powered stocks"
       ],
       "otherFactors": [
-        "Industry trends and competition"
+        "US-China trade relations"
       ]
     },
     {
       "id": 3,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economics",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate has been stable, with the latest data showing a slight decrease in inflation. The Federal Reserve is expected to maintain its current monetary policy stance, which could support the economy.",
+      "summary": "The US inflation rate has slowed down, with the latest data showing a decrease in inflation. This has led to expectations that the Fed will skip the July rate hike.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
+      "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+          "target": "iShares TIPS Bond ETF (TIP)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The stable inflation rate and the Federal Reserve's expected monetary policy stance make it an attractive time to invest in bonds, which could provide a relatively safe and stable return. The Vanguard Total Stock Market ETF (VTI) provides a diversified exposure to the US stock market, which could benefit from the supportive monetary policy.",
+      "reasoning": "The decrease in inflation has led to expectations of a more dovish Fed, which could lead to a decrease in interest rates. Buying TIP and shorting SPY could potentially benefit from this situation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the inflation data and the Federal Reserve's actions"
+        "note": "Monitor for any changes in the Fed's monetary policy"
       },
-      "exitStrategy": "Close the position if the inflation rate increases or if the Federal Reserve changes its monetary policy stance",
+      "exitStrategy": "Close positions if the Fed raises interest rates",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the inflation rate remains stable",
-        "base": "+4-6%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+6\u201310%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the Federal Reserve maintains its current monetary policy stance",
-        "stopLoss": "-3% on AGG"
+        "extended": "+12%+",
+        "extendedNote": "If the Fed cuts interest rates",
+        "stopLoss": "-4% on TIP"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Treasury yields"
       ],
       "otherFactors": [
-        "Monetary policy and inflation expectations"
+        "US-China trade relations"
       ]
     },
     {
       "id": 4,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East region has been experiencing increased geopolitical instability, with conflicts and tensions between various countries. This could have implications for global oil prices and stability.",
+      "summary": "The Middle East region is experiencing geopolitical instability, with the Iran war and other conflicts contributing to the uncertainty.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
+      "freshLabel": "2d ago",
+      "risk": "LOW",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "Invesco DB Oil Fund (DBO)"
         },
         {
           "label": "SHORT",
@@ -168,275 +168,275 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The geopolitical instability in the Middle East could lead to increased demand for safe-haven assets, such as gold. The SPDR Gold Shares ETF (GLD) provides a direct exposure to gold prices. On the other hand, the iShares MSCI Emerging Markets ETF (EEM) may be negatively impacted by the instability, as emerging markets are often more vulnerable to geopolitical risks.",
+      "reasoning": "The geopolitical instability in the Middle East could lead to increased volatility in oil prices and emerging markets. Buying DBO and shorting EEM could potentially benefit from this situation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor for any signs of de-escalation"
       },
-      "exitStrategy": "Close the position if the instability is resolved or if the oil price stabilizes",
+      "exitStrategy": "Close positions if a ceasefire is announced or if oil prices drop below $60",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the instability is contained",
-        "base": "+8-12%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict stabilizes",
+        "base": "+6\u201310%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the instability escalates",
-        "stopLoss": "-5% on GLD"
+        "extended": "+12%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-4% on DBO"
       },
       "adjacentMarkets": [
-        "Oil market"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Geopolitical developments and oil price movements"
+        "US-China trade relations"
       ]
     },
     {
       "id": 5,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China have been engaged in trade negotiations, with the goal of resolving their trade differences. A positive outcome could have implications for global trade and economic growth.",
+      "summary": "The US and China are seeking to repair damage from the tariff war, with China vowing to pursue US tariff cuts and decrying 'malicious' trade acts.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "LOW",
+      "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "Vanguard FTSE Emerging Markets ETF (VWO)"
+          "target": "Invesco QQQ ETF (QQQ)"
         }
       ],
-      "reasoning": "A positive outcome in the US-China trade negotiations could lead to increased trade and economic growth between the two countries. The iShares MSCI China ETF (MCHI) provides a direct exposure to the Chinese market, which could benefit from improved trade relations. The Vanguard FTSE Emerging Markets ETF (VWO) provides a diversified exposure to emerging markets, which could also benefit from improved global trade.",
+      "reasoning": "The improving US-China trade relations could lead to increased trade and investment between the two countries. Buying FXI and rotating into QQQ could potentially benefit from this situation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the trade negotiations and their outcome"
+        "note": "Monitor for any changes in US-China trade relations"
       },
-      "exitStrategy": "Close the position if the trade negotiations fail or if the outcome is negative",
+      "exitStrategy": "Close positions if the US and China impose new tariffs",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the trade negotiations are successful",
-        "base": "+4-6%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the trade relations improve significantly",
-        "stopLoss": "-3% on MCHI"
+        "extended": "+15%+",
+        "extendedNote": "If the US and China reach a trade deal",
+        "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
         "Emerging markets"
       ],
       "otherFactors": [
-        "Trade negotiations and economic growth"
+        "Global economic growth"
       ]
     },
     {
       "id": 6,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks have been performing well, driven by the growing demand for AI and machine learning technologies. Companies such as NVIDIA and Alphabet are leading the charge in this field.",
+      "summary": "AI-powered stocks have been performing well, with NVIDIA's AI semiconductor business leading the way.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Alphabet Inc. (GOOGL)"
-        }
-      ],
-      "reasoning": "The growing demand for AI and machine learning technologies makes it an attractive time to invest in AI-powered stocks. NVIDIA and Alphabet are leaders in this field, and their stocks could benefit from the growing demand.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the company's earnings and industry trends"
-      },
-      "exitStrategy": "Close the position if the company's earnings disappoint or if the industry trends reverse",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the company's earnings meet expectations",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the company's earnings exceed expectations",
-        "stopLoss": "-5% on NVDA"
-      },
-      "adjacentMarkets": [
-        "Technology sector"
-      ],
-      "otherFactors": [
-        "Industry trends and competition"
-      ]
-    },
-    {
-      "id": 7,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "China Consumer Price Growth",
-      "summary": "China's consumer price growth has been stable, with the latest data showing a slight increase in prices. The Chinese government is expected to maintain its current economic policies, which could support the economy.",
-      "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard FTSE Emerging Markets ETF (VWO)"
-        }
-      ],
-      "reasoning": "The stable consumer price growth and the Chinese government's expected economic policies make it an attractive time to invest in the Chinese market. The iShares MSCI China ETF (MCHI) provides a direct exposure to the Chinese market, which could benefit from the supportive economic policies.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the economic data and the government's policies"
-      },
-      "exitStrategy": "Close the position if the consumer price growth increases or if the government's policies change",
-      "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the consumer price growth remains stable",
-        "base": "+4-6%",
-        "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the government's policies support the economy",
-        "stopLoss": "-3% on MCHI"
-      },
-      "adjacentMarkets": [
-        "Emerging markets"
-      ],
-      "otherFactors": [
-        "Economic growth and government policies"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "MED",
-      "category": "fin",
-      "catLabel": "Finance",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to maintain its current interest rate policy, which could support the economy. A change in the interest rate could have implications for the stock and bond markets.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
-        }
-      ],
-      "reasoning": "The Federal Reserve's expected interest rate policy makes it an attractive time to invest in bonds, which could provide a relatively safe and stable return. The Vanguard Total Stock Market ETF (VTI) provides a diversified exposure to the US stock market, which could benefit from the supportive monetary policy.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the Federal Reserve's actions and the interest rate"
-      },
-      "exitStrategy": "Close the position if the interest rate changes or if the Federal Reserve's policy changes",
-      "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the interest rate remains stable",
-        "base": "+4-6%",
-        "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the Federal Reserve maintains its current policy",
-        "stopLoss": "-3% on AGG"
-      },
-      "adjacentMarkets": [
-        "Bond market"
-      ],
-      "otherFactors": [
-        "Monetary policy and interest rate expectations"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor industry has been experiencing a downturn, with many companies facing challenges. However, some companies are well-positioned to benefit from the growing demand for AI and machine learning technologies.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
-        }
-      ],
-      "reasoning": "The growing demand for AI and machine learning technologies makes it an attractive time to invest in semiconductor stocks. NVIDIA is a leader in this field, and its stock could benefit from the growing demand. The VanEck Vectors Semiconductor ETF (SMH) provides a diversified exposure to the semiconductor industry, which could benefit from the growing demand for AI and machine learning technologies.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the company's earnings and industry trends"
-      },
-      "exitStrategy": "Close the position if the company's earnings disappoint or if the industry trends reverse",
-      "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the company's earnings meet expectations",
-        "base": "+4-6%",
-        "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the company's earnings exceed expectations",
-        "stopLoss": "-3% on NVDA"
-      },
-      "adjacentMarkets": [
-        "Technology sector"
-      ],
-      "otherFactors": [
-        "Industry trends and competition"
-      ]
-    },
-    {
-      "id": 10,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel is facing strategic challenges, including the threat from Iran and the Palestinian issue. The country's military and diplomatic efforts are expected to continue, which could have implications for the region.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
+          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "First Trust Indxx Innovative Transaction & Process ETF (LEGR)"
+        }
+      ],
+      "reasoning": "The growth of AI-powered stocks could continue, with BOTZ and LEGR providing exposure to the sector. Buying BOTZ and rotating into LEGR could potentially benefit from this situation.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor for any changes in the AI sector"
+      },
+      "exitStrategy": "Close positions if the AI sector experiences a downturn",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+6\u201310%",
+        "baseNote": "Most likely scenario",
+        "extended": "+12%+",
+        "extendedNote": "If the AI sector continues to grow",
+        "stopLoss": "-4% on BOTZ"
+      },
+      "adjacentMarkets": [
+        "Semiconductors"
+      ],
+      "otherFactors": [
+        "US-China trade relations"
+      ]
+    },
+    {
+      "id": 7,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "China Consumer Price Growth",
+      "summary": "China's consumer price growth has been steady, with the latest data showing a slight increase in inflation.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Consumer ETF (FXCO)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI China ETF (MCHI)"
+        }
+      ],
+      "reasoning": "The steady consumer price growth in China could lead to increased consumer spending and economic growth. Buying FXCO and shorting MCHI could potentially benefit from this situation.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor for any changes in China's consumer price growth"
+      },
+      "exitStrategy": "Close positions if China's consumer price growth slows down",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If China's consumer price growth accelerates",
+        "stopLoss": "-5% on FXCO"
+      },
+      "adjacentMarkets": [
+        "Emerging markets"
+      ],
+      "otherFactors": [
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "fin",
+      "catLabel": "Finance",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve is expected to make an interest rate decision, with the market expecting a rate cut.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "The expected rate cut could lead to increased demand for Treasury bonds and decreased demand for stocks. Buying TLT and shorting SPY could potentially benefit from this situation.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor for any changes in the Fed's monetary policy"
+      },
+      "exitStrategy": "Close positions if the Fed raises interest rates",
+      "gains": {
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+6\u201310%",
+        "baseNote": "Most likely scenario",
+        "extended": "+12%+",
+        "extendedNote": "If the Fed cuts interest rates",
+        "stopLoss": "-4% on TLT"
+      },
+      "adjacentMarkets": [
+        "Mortgage rates"
+      ],
+      "otherFactors": [
+        "US economic growth"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Semiconductor Crash Analysis & Outlook",
+      "summary": "The semiconductor sector has experienced a crash, with many stocks experiencing significant declines.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "First Trust Indxx Innovative Transaction & Process ETF (LEGR)"
+        }
+      ],
+      "reasoning": "The crash in the semiconductor sector could be a buying opportunity, with SMH and LEGR providing exposure to the sector. Buying SMH and rotating into LEGR could potentially benefit from this situation.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor for any changes in the semiconductor sector"
+      },
+      "exitStrategy": "Close positions if the semiconductor sector experiences a downturn",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If the semiconductor sector recovers",
+        "stopLoss": "-5% on SMH"
+      },
+      "adjacentMarkets": [
+        "Technology stocks"
+      ],
+      "otherFactors": [
+        "US-China trade relations"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Israel\u2019s Strategic Problem",
+      "summary": "Israel is facing a strategic problem, with the country's military and geopolitical position being challenged.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI Israel ETF (EIS)"
         },
         {
           "label": "SHORT",
@@ -444,27 +444,27 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The strategic challenges facing Israel could lead to increased tensions in the region, which could have implications for global oil prices and stability. The SPDR S&P 500 ETF Trust (SPY) provides a diversified exposure to the US stock market, which could benefit from the supportive monetary policy. On the other hand, the iShares MSCI Emerging Markets ETF (EEM) may be negatively impacted by the instability, as emerging markets are often more vulnerable to geopolitical risks.",
+      "reasoning": "The strategic problem facing Israel could lead to increased tensions and volatility in the region. Buying EIS and shorting EEM could potentially benefit from this situation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor for any changes in the Middle East geopolitical situation"
       },
-      "exitStrategy": "Close the position if the situation is resolved or if the oil price stabilizes",
+      "exitStrategy": "Close positions if the situation in the Middle East stabilizes",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the situation is contained",
-        "base": "+8-12%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the market stabilizes",
+        "base": "+6\u201310%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the situation escalates",
-        "stopLoss": "-5% on SPY"
+        "extended": "+12%+",
+        "extendedNote": "If the situation in the Middle East escalates",
+        "stopLoss": "-4% on EIS"
       },
       "adjacentMarkets": [
-        "Oil market"
+        "Middle East stocks"
       ],
       "otherFactors": [
-        "Geopolitical developments and oil price movements"
+        "US-China trade relations"
       ]
     }
   ]
