@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T20:57:48Z",
+  "lastUpdated": "2026-07-18T00:00:26Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,44 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran has led to increased tensions in the Middle East, with potential implications for global oil prices and geopolitical stability. The US and its allies are considering further military action, while Iran has vowed to retaliate against any aggression. The situation remains highly volatile, with significant potential for escalation.",
+      "summary": "The Iran war has shown the military strength of the US, but also its waning geopolitical power. The conflict has revealed the limits of US power and has significant implications for the Middle East. The situation remains volatile, with potential for further escalation.",
       "fresh": true,
-      "freshLabel": "just now",
+      "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "iShares North American Tech ETF (IGM)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The conflict in Iran has the potential to disrupt global oil supplies, leading to higher prices and increased volatility in the energy sector. The VanEck Vectors Oil Services ETF (OIH) is likely to benefit from this trend, while the iShares MSCI Emerging Markets ETF (EEM) may be negatively impacted by the increased uncertainty and risk in the region.",
+      "reasoning": "The Iran war has disrupted global oil supplies, leading to increased volatility in the energy market. The US technology sector, particularly companies involved in AI and cybersecurity, may benefit from increased defense spending.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
         "note": "Monitor for signs of escalation or de-escalation"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced or if oil prices drop below $60/bbl",
+      "exitStrategy": "Exit if a ceasefire is announced or if the US withdraws from the conflict",
       "gains": {
         "conservative": "+8-12%",
-        "conservativeNote": "If the conflict is contained",
+        "conservativeNote": "If the conflict remains contained",
         "base": "+15-20%",
         "baseNote": "If the conflict escalates",
         "extended": "+25%+",
-        "extendedNote": "If the conflict spreads to other countries in the region",
-        "stopLoss": "-10% on OIH"
+        "extendedNote": "If the conflict spreads to other countries",
+        "stopLoss": "-10% on IGM"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil (energy volatility)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic efforts"
+        "US-China trade relations",
+        "Middle East geopolitics"
       ]
     },
     {
@@ -59,16 +61,16 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The latest inflation data has shown a moderate increase in prices, with the core CPI rising 0.3% in the past month. The Federal Reserve is closely monitoring the situation, with some officials suggesting that a rate hike may be necessary to prevent overheating.",
+      "summary": "The US inflation rate has been rising, with some Fed officials calling for higher interest rates to combat inflation. However, others argue that the economy is strong enough to withstand higher rates.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares TIPS Bond ETF (TIP)"
+          "target": "Vanguard Short-Term Bond ETF (BSV)"
         },
         {
           "label": "SHORT",
@@ -76,27 +78,29 @@
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The moderate increase in inflation suggests that the economy is growing, but not overheating. The iShares TIPS Bond ETF (TIP) is likely to benefit from this trend, as it provides a hedge against inflation. The iShares 20+ Year Treasury Bond ETF (TLT) may be negatively impacted by the potential for higher interest rates.",
+      "reasoning": "Higher interest rates may lead to a stronger US dollar, which could impact foreign investments and trade. Short-term bonds may be less affected by interest rate changes than long-term bonds.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for signs of further inflationary pressures"
+        "note": "Monitor for Fed rate decisions"
       },
-      "exitStrategy": "Close positions if the inflation rate drops below 2% or if the Federal Reserve cuts interest rates",
+      "exitStrategy": "Exit if the Fed raises interest rates or if inflation expectations decrease",
       "gains": {
         "conservative": "+3-5%",
-        "conservativeNote": "If inflation remains moderate",
+        "conservativeNote": "If interest rates remain steady",
         "base": "+6-8%",
-        "baseNote": "If inflation accelerates",
+        "baseNote": "If interest rates rise",
         "extended": "+10%+",
-        "extendedNote": "If the Federal Reserve raises interest rates",
-        "stopLoss": "-5% on TIP"
+        "extendedNote": "If inflation expectations increase",
+        "stopLoss": "-5% on BSV"
       },
       "adjacentMarkets": [
-        "Commodities (inflation hedge)"
+        "US Treasury bonds",
+        "Dollar index"
       ],
       "otherFactors": [
-        "Federal Reserve monetary policy"
+        "Fed policy",
+        "US economic growth"
       ]
     },
     {
@@ -105,9 +109,9 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA has announced a significant breakthrough in AI semiconductor technology, with potential applications in a wide range of industries. The company's stock has risen sharply in response, but some analysts are warning of a potential bubble.",
+      "summary": "NVIDIA has been leading the charge in AI semiconductor development, with its stocks performing well in recent months. However, the company faces increasing competition from other tech giants.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
@@ -119,30 +123,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "target": "Advanced Micro Devices Inc. (AMD)"
         }
       ],
-      "reasoning": "The breakthrough in AI semiconductor technology has significant potential for growth, and NVIDIA is well-positioned to benefit from this trend. The company's stock has risen sharply, but some analysts are warning of a potential bubble. The Advanced Micro Devices, Inc. (AMD) may be negatively impacted by NVIDIA's dominance in the AI semiconductor market.",
+      "reasoning": "NVIDIA's dominance in the AI semiconductor market may continue to drive its stock price higher. However, increasing competition from other companies may impact its market share.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for signs of further growth in the AI semiconductor market"
+        "note": "Monitor for earnings reports and industry developments"
       },
-      "exitStrategy": "Close positions if NVIDIA's stock drops below $200 or if the company announces a significant setback in its AI semiconductor development",
+      "exitStrategy": "Exit if NVIDIA's market share decreases or if the company faces significant competition",
       "gains": {
-        "conservative": "+10-12%",
-        "conservativeNote": "If the AI semiconductor market grows moderately",
+        "conservative": "+8-12%",
+        "conservativeNote": "If NVIDIA maintains its market share",
         "base": "+15-20%",
-        "baseNote": "If the AI semiconductor market grows rapidly",
+        "baseNote": "If NVIDIA increases its market share",
         "extended": "+25%+",
-        "extendedNote": "If NVIDIA's dominance in the AI semiconductor market is cemented",
+        "extendedNote": "If NVIDIA announces significant partnerships or innovations",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (growth potential)"
+        "AI-related stocks",
+        "Semiconductor industry"
       ],
       "otherFactors": [
-        "Competition from other AI semiconductor companies"
+        "Competition from other tech giants",
+        "AI adoption rates"
       ]
     },
     {
@@ -151,11 +157,11 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Geopolitical Instability in the Middle East",
-      "summary": "The ongoing conflict in the Middle East has led to increased tensions between various countries in the region, with potential implications for global oil prices and geopolitical stability. The situation remains highly volatile, with significant potential for escalation.",
+      "summary": "The Middle East remains a volatile region, with ongoing conflicts and tensions between countries. The situation may impact global oil supplies and trade.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -165,30 +171,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI EAFE ETF (EFA)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in the Middle East has the potential to disrupt global oil supplies, leading to higher prices and increased volatility in the energy sector. The SPDR S&P 500 ETF Trust (SPY) is likely to benefit from this trend, while the iShares MSCI EAFE ETF (EFA) may be negatively impacted by the increased uncertainty and risk in the region.",
+      "reasoning": "The US stock market may be less affected by Middle East instability than emerging markets. A diversified portfolio like the S&P 500 may provide a safer investment option.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor for signs of escalation or de-escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor for developments in the region"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced or if oil prices drop below $60/bbl",
+      "exitStrategy": "Exit if the situation in the Middle East stabilizes or if emerging markets show signs of recovery",
       "gains": {
         "conservative": "+2-4%",
-        "conservativeNote": "If the conflict is contained",
+        "conservativeNote": "If the situation remains stable",
         "base": "+5-8%",
-        "baseNote": "If the conflict escalates",
+        "baseNote": "If the situation escalates",
         "extended": "+10%+",
-        "extendedNote": "If the conflict spreads to other countries in the region",
+        "extendedNote": "If the situation spreads to other regions",
         "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Oil prices",
+        "Emerging markets"
       ],
       "otherFactors": [
-        "US-Iran diplomatic efforts"
+        "US foreign policy",
+        "Global economic growth"
       ]
     },
     {
@@ -197,9 +205,9 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has announced its decision to keep interest rates unchanged, citing moderate economic growth and low inflation. However, some analysts are warning of a potential rate hike in the near future.",
+      "summary": "The Federal Reserve is expected to make an interest rate decision soon, which may impact the US economy and financial markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -214,27 +222,29 @@
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to keep interest rates unchanged suggests that the economy is growing moderately, but not overheating. The iShares 1-3 Year Credit Bond ETF (CSJ) is likely to benefit from this trend, as it provides a hedge against interest rate risk. The iShares 20+ Year Treasury Bond ETF (TLT) may be negatively impacted by the potential for higher interest rates.",
+      "reasoning": "A rate hike may lead to a stronger US dollar and higher short-term interest rates, making short-term credit bonds more attractive. Long-term bonds may be more affected by interest rate changes.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for signs of further economic growth"
+        "note": "Monitor for Fed rate decisions"
       },
-      "exitStrategy": "Close positions if the Federal Reserve raises interest rates or if the economy slows down",
+      "exitStrategy": "Exit if the Fed raises interest rates or if inflation expectations decrease",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the economy grows moderately",
-        "base": "+5-8%",
-        "baseNote": "If the economy grows rapidly",
+        "conservative": "+3-5%",
+        "conservativeNote": "If interest rates remain steady",
+        "base": "+6-8%",
+        "baseNote": "If interest rates rise",
         "extended": "+10%+",
-        "extendedNote": "If the Federal Reserve raises interest rates",
+        "extendedNote": "If inflation expectations increase",
         "stopLoss": "-5% on CSJ"
       },
       "adjacentMarkets": [
-        "Commodities (inflation hedge)"
+        "US Treasury bonds",
+        "Dollar index"
       ],
       "otherFactors": [
-        "Federal Reserve monetary policy"
+        "Fed policy",
+        "US economic growth"
       ]
     },
     {
@@ -243,7 +253,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "The growth of AI technology has led to significant gains in the stock market, with many companies benefiting from the trend. However, some analysts are warning of a potential bubble.",
+      "summary": "AI-powered stocks have been performing well in recent months, driven by increasing adoption of AI technology. However, the sector faces increasing competition and regulatory scrutiny.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -257,30 +267,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "International Business Machines Corporation (IBM)"
+          "target": "Alphabet Inc. (GOOGL)"
         }
       ],
-      "reasoning": "The growth of AI technology has significant potential for growth, and many companies are benefiting from this trend. Microsoft Corporation (MSFT) is well-positioned to benefit from this trend, while International Business Machines Corporation (IBM) may be negatively impacted by the competition from other AI-powered companies.",
+      "reasoning": "Microsoft's AI-powered products and services may continue to drive its stock price higher. However, increasing competition from other tech giants may impact its market share.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for signs of further growth in the AI sector"
+        "note": "Monitor for earnings reports and industry developments"
       },
-      "exitStrategy": "Close positions if the AI sector experiences a significant downturn or if Microsoft's stock drops below $200",
+      "exitStrategy": "Exit if Microsoft's market share decreases or if the company faces significant competition",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the AI sector grows moderately",
-        "base": "+10-15%",
-        "baseNote": "If the AI sector grows rapidly",
-        "extended": "+20%+",
-        "extendedNote": "If Microsoft's dominance in the AI sector is cemented",
+        "conservative": "+8-12%",
+        "conservativeNote": "If Microsoft maintains its market share",
+        "base": "+15-20%",
+        "baseNote": "If Microsoft increases its market share",
+        "extended": "+25%+",
+        "extendedNote": "If Microsoft announces significant partnerships or innovations",
         "stopLoss": "-10% on MSFT"
       },
       "adjacentMarkets": [
-        "Technology sector (growth potential)"
+        "AI-related stocks",
+        "Cloud computing"
       ],
       "otherFactors": [
-        "Competition from other AI-powered companies"
+        "Competition from other tech giants",
+        "AI adoption rates"
       ]
     },
     {
@@ -289,11 +301,11 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Israel\u2019s Strategic Problem",
-      "summary": "The ongoing conflict in the Middle East has led to increased tensions between Israel and its neighbors, with potential implications for global oil prices and geopolitical stability. The situation remains highly volatile, with significant potential for escalation.",
+      "summary": "Israel faces significant strategic challenges, including ongoing conflicts with neighboring countries and the impact of the Iran war on the region.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -306,27 +318,29 @@
           "target": "iShares MSCI Turkey ETF (TUR)"
         }
       ],
-      "reasoning": "The conflict in the Middle East has the potential to disrupt global oil supplies, leading to higher prices and increased volatility in the energy sector. The iShares MSCI Israel ETF (EIS) is likely to benefit from this trend, while the iShares MSCI Turkey ETF (TUR) may be negatively impacted by the increased uncertainty and risk in the region.",
+      "reasoning": "The Israeli stock market may be less affected by regional instability than the Turkish market. A diversified portfolio of Israeli stocks may provide a safer investment option.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor for signs of escalation or de-escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor for developments in the region"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced or if oil prices drop below $60/bbl",
+      "exitStrategy": "Exit if the situation in the region stabilizes or if the Turkish market shows signs of recovery",
       "gains": {
         "conservative": "+2-4%",
-        "conservativeNote": "If the conflict is contained",
+        "conservativeNote": "If the situation remains stable",
         "base": "+5-8%",
-        "baseNote": "If the conflict escalates",
+        "baseNote": "If the situation escalates",
         "extended": "+10%+",
-        "extendedNote": "If the conflict spreads to other countries in the region",
+        "extendedNote": "If the situation spreads to other regions",
         "stopLoss": "-5% on EIS"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Middle East stocks",
+        "Emerging markets"
       ],
       "otherFactors": [
-        "US-Iran diplomatic efforts"
+        "US foreign policy",
+        "Global economic growth"
       ]
     },
     {
@@ -335,11 +349,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The ongoing trade tensions between the US and China have led to significant volatility in the markets, with potential implications for global trade and economic growth. The situation remains highly uncertain, with significant potential for escalation.",
+      "summary": "The US and China are seeking to repair damage from the tariff war, which has impacted global trade and economic growth.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -352,27 +366,29 @@
           "target": "iShares US Aerospace & Defense ETF (ITA)"
         }
       ],
-      "reasoning": "The trade tensions between the US and China have the potential to disrupt global trade, leading to higher prices and increased volatility in the markets. The iShares China Large-Cap ETF (FXI) is likely to benefit from this trend, while the iShares US Aerospace & Defense ETF (ITA) may be negatively impacted by the increased uncertainty and risk in the region.",
+      "reasoning": "Improved trade relations may lead to increased trade and economic growth between the US and China. The Chinese stock market may benefit from improved relations, while the US aerospace and defense sector may be less affected.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor for signs of escalation or de-escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor for trade developments"
       },
-      "exitStrategy": "Close positions if a trade deal is announced or if the trade tensions ease",
+      "exitStrategy": "Exit if trade relations deteriorate or if the US imposes new tariffs",
       "gains": {
         "conservative": "+3-5%",
-        "conservativeNote": "If the trade tensions ease",
-        "base": "+6-10%",
-        "baseNote": "If the trade tensions escalate",
-        "extended": "+15%+",
-        "extendedNote": "If the trade war spreads to other countries",
-        "stopLoss": "-10% on FXI"
+        "conservativeNote": "If trade relations remain stable",
+        "base": "+6-8%",
+        "baseNote": "If trade relations improve",
+        "extended": "+10%+",
+        "extendedNote": "If the US and China announce significant trade agreements",
+        "stopLoss": "-5% on FXI"
       },
       "adjacentMarkets": [
-        "Commodities (trade war hedge)"
+        "US stocks",
+        "Emerging markets"
       ],
       "otherFactors": [
-        "US-China diplomatic efforts"
+        "Global economic growth",
+        "Trade policy"
       ]
     },
     {
@@ -381,11 +397,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "China\u2019s Imports from Africa",
-      "summary": "China's imports from Africa have increased significantly in recent years, with potential implications for global trade and economic growth. The situation remains highly uncertain, with significant potential for growth.",
+      "summary": "China's imports from Africa have surged after Beijing expanded its zero-tariff policy, which may impact global trade and economic growth.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -398,27 +414,29 @@
           "target": "iShares MSCI Brazil ETF (EWZ)"
         }
       ],
-      "reasoning": "China's imports from Africa have the potential to disrupt global trade, leading to higher prices and increased volatility in the markets. The iShares MSCI South Africa ETF (EZA) is likely to benefit from this trend, while the iShares MSCI Brazil ETF (EWZ) may be negatively impacted by the increased uncertainty and risk in the region.",
+      "reasoning": "The South African stock market may benefit from increased trade with China, while the Brazilian market may be less affected. A diversified portfolio of South African stocks may provide a safer investment option.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor for signs of growth in China's imports from Africa"
+        "viable": "2-4 weeks",
+        "note": "Monitor for trade developments"
       },
-      "exitStrategy": "Close positions if China's imports from Africa slow down or if the trade tensions ease",
+      "exitStrategy": "Exit if trade relations between China and Africa deteriorate or if the Brazilian market shows signs of recovery",
       "gains": {
         "conservative": "+2-4%",
-        "conservativeNote": "If the trade grows moderately",
+        "conservativeNote": "If trade relations remain stable",
         "base": "+5-8%",
-        "baseNote": "If the trade grows rapidly",
+        "baseNote": "If trade relations improve",
         "extended": "+10%+",
-        "extendedNote": "If the trade becomes a significant contributor to global economic growth",
+        "extendedNote": "If China announces significant investments in Africa",
         "stopLoss": "-5% on EZA"
       },
       "adjacentMarkets": [
-        "Commodities (trade war hedge)"
+        "Emerging markets",
+        "Commodities"
       ],
       "otherFactors": [
-        "China's economic growth"
+        "Global economic growth",
+        "Trade policy"
       ]
     },
     {
@@ -427,7 +445,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor industry has experienced a significant downturn in recent years, with potential implications for global technology and economic growth. The situation remains highly uncertain, with significant potential for growth.",
+      "summary": "The semiconductor industry has been experiencing a downturn, with many companies facing significant challenges. However, some companies may be well-positioned for a recovery.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -436,35 +454,181 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Taiwan Semiconductor Manufacturing Company Ltd. (TSM)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "target": "Micron Technology Inc. (MU)"
         }
       ],
-      "reasoning": "The semiconductor industry has the potential to recover from the downturn, leading to higher prices and increased volatility in the markets. The VanEck Vectors Semiconductor ETF (SMH) is likely to benefit from this trend, while the iShares PHLX Semiconductor ETF (SOXX) may be negatively impacted by the increased uncertainty and risk in the region.",
+      "reasoning": "TSMC may be well-positioned for a recovery in the semiconductor industry, given its strong position in the market and its ability to adapt to changing technology trends. Micron Technology may face significant challenges due to its exposure to the downturn in the industry.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for signs of growth in the semiconductor industry"
+        "note": "Monitor for industry developments"
       },
-      "exitStrategy": "Close positions if the semiconductor industry experiences a significant downturn or if the trade tensions ease",
+      "exitStrategy": "Exit if the semiconductor industry shows signs of recovery or if TSMC's market share decreases",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the industry grows moderately",
-        "base": "+10-15%",
-        "baseNote": "If the industry grows rapidly",
-        "extended": "+20%+",
-        "extendedNote": "If the industry becomes a significant contributor to global economic growth",
-        "stopLoss": "-10% on SMH"
+        "conservative": "+8-12%",
+        "conservativeNote": "If the industry remains stable",
+        "base": "+15-20%",
+        "baseNote": "If the industry recovers",
+        "extended": "+25%+",
+        "extendedNote": "If TSMC announces significant partnerships or innovations",
+        "stopLoss": "-10% on TSM"
       },
       "adjacentMarkets": [
-        "Technology sector (growth potential)"
+        "Technology stocks",
+        "Semiconductor industry"
       ],
       "otherFactors": [
-        "Competition from other semiconductor companies"
+        "Industry trends",
+        "Company-specific developments"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "China Exports Surge",
+      "summary": "China's exports have surged, driven by a boom in AI and a rush to beat tariffs. This may impact global trade and economic growth.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares US Retail ETF (XRT)"
+        }
+      ],
+      "reasoning": "The Chinese stock market may benefit from increased exports, while the US retail sector may be less affected. A diversified portfolio of Chinese stocks may provide a safer investment option.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor for trade developments"
+      },
+      "exitStrategy": "Exit if trade relations between China and the US deteriorate or if the US retail sector shows signs of recovery",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If trade relations remain stable",
+        "base": "+5-8%",
+        "baseNote": "If trade relations improve",
+        "extended": "+10%+",
+        "extendedNote": "If China announces significant investments in the US",
+        "stopLoss": "-5% on FXI"
+      },
+      "adjacentMarkets": [
+        "Emerging markets",
+        "US stocks"
+      ],
+      "otherFactors": [
+        "Global economic growth",
+        "Trade policy"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Dell Technologies vs. NVIDIA",
+      "summary": "Dell Technologies and NVIDIA are competing in the AI semiconductor market, with both companies facing significant challenges and opportunities.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Dell Technologies Inc. (DELL)"
+        }
+      ],
+      "reasoning": "NVIDIA may be well-positioned for growth in the AI semiconductor market, given its strong position in the market and its ability to adapt to changing technology trends. Dell Technologies may face significant challenges due to its exposure to the downturn in the PC market.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor for industry developments"
+      },
+      "exitStrategy": "Exit if NVIDIA's market share decreases or if Dell Technologies shows signs of recovery",
+      "gains": {
+        "conservative": "+8-12%",
+        "conservativeNote": "If the industry remains stable",
+        "base": "+15-20%",
+        "baseNote": "If the industry recovers",
+        "extended": "+25%+",
+        "extendedNote": "If NVIDIA announces significant partnerships or innovations",
+        "stopLoss": "-10% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Technology stocks",
+        "Semiconductor industry"
+      ],
+      "otherFactors": [
+        "Industry trends",
+        "Company-specific developments"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Rate-Hike Voices Swell",
+      "summary": "Fed rate-hike voices have swelled, with some officials calling for higher interest rates to combat inflation. This may impact the US economy and financial markets.",
+      "fresh": true,
+      "freshLabel": "1h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Vanguard Short-Term Bond ETF (BSV)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        }
+      ],
+      "reasoning": "A rate hike may lead to a stronger US dollar and higher short-term interest rates, making short-term bonds more attractive. Long-term bonds may be more affected by interest rate changes.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor for Fed rate decisions"
+      },
+      "exitStrategy": "Exit if the Fed raises interest rates or if inflation expectations decrease",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If interest rates remain steady",
+        "base": "+6-8%",
+        "baseNote": "If interest rates rise",
+        "extended": "+10%+",
+        "extendedNote": "If inflation expectations increase",
+        "stopLoss": "-5% on BSV"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds",
+        "Dollar index"
+      ],
+      "otherFactors": [
+        "Fed policy",
+        "US economic growth"
       ]
     }
   ]
