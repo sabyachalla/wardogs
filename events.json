@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T15:47:44Z",
+  "lastUpdated": "2026-07-22T19:23:08Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,45 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The conflict between the US and Iran is escalating, with potential for further military action. This could lead to increased volatility in the oil market and global instability. The situation is being closely monitored by investors and policymakers.",
+      "summary": "The conflict between the US and Iran is escalating, with potential for further military action. This could lead to increased volatility in global markets, particularly in the energy sector. Geopolitical instability in the Middle East is a major concern.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
           "label": "SHORT",
           "cls": "short",
           "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The escalation of the conflict could lead to a surge in oil prices, which would negatively impact the oil and gas exploration and production sector. On the other hand, the broader market could see a flight to safety, with investors seeking refuge in large-cap stocks.",
+      "reasoning": "The escalation of the Iran war could lead to a spike in oil prices, negatively impacting the energy sector. However, gold is often seen as a safe-haven asset during times of geopolitical uncertainty, making it a potential buy.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Monitor for ceasefire or de-escalation"
+        "viable": "4-8 weeks",
+        "note": "Monitor news for further escalation"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced or if the conflict de-escalates",
+      "exitStrategy": "Exit if oil prices stabilize or if a peaceful resolution is reached",
       "gains": {
         "conservative": "+5\u20138%",
         "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the conflict spreads to other countries",
+        "stopLoss": "-8% on IEO"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Energy sector (XLE)",
+        "Emerging markets (EEM)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "Geopolitical instability"
+        "OPEC production levels",
+        "US diplomatic efforts"
       ]
     },
     {
@@ -60,44 +61,45 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate is expected to remain high, with potential for further interest rate hikes. This could impact the broader market and specific sectors such as real estate and consumer staples.",
+      "summary": "The US inflation rate is expected to remain high, potentially leading to interest rate hikes. This could impact the stock market, particularly the technology sector. The Federal Reserve's decision on interest rates will be closely watched.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard Real Estate ETF (VGSIX)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From growth stocks to value stocks, e.g. iShares Russell 1000 Value ETF (IWD)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Consumer Staples Select Sector SPDR Fund (XLP)"
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares TIPS Bond ETF (TIP)"
         }
       ],
-      "reasoning": "High inflation could lead to higher interest rates, which would negatively impact the real estate sector. On the other hand, consumer staples could see a decline in demand due to decreased consumer spending power.",
+      "reasoning": "High inflation and potential interest rate hikes could negatively impact growth stocks, making value stocks a more attractive option. TIPS bonds are also a good hedge against inflation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for inflation data releases"
+        "note": "Monitor inflation data and Fed decisions"
       },
-      "exitStrategy": "Close positions if inflation data shows a significant decline",
+      "exitStrategy": "Exit if inflation rate decreases or if interest rates are cut",
       "gains": {
         "conservative": "+3\u20135%",
         "conservativeNote": "If inflation remains stable",
         "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If inflation surges",
-        "stopLoss": "-5% on VGSIX"
+        "extendedNote": "If interest rates are hiked aggressively",
+        "stopLoss": "-5% on IWD"
       },
       "adjacentMarkets": [
-        "Treasury yields"
+        "Bond market (AGG)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Interest rates",
+        "Labor market data",
         "Consumer spending"
       ]
     },
@@ -107,11 +109,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks are expected to see significant growth due to increasing demand for AI-powered technologies. This could lead to a surge in the stock price and related ETFs.",
+      "summary": "NVIDIA's AI semiconductor stocks are expected to continue growing, driven by increasing demand for AI and machine learning. The company's recent announcements and partnerships have boosted investor confidence.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -124,28 +126,29 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         }
       ],
-      "reasoning": "The increasing demand for AI-powered technologies could lead to a significant surge in NVIDIA's stock price and related ETFs. This is a high-growth area with potential for long-term gains.",
+      "reasoning": "NVIDIA's strong position in the AI semiconductor market and its recent announcements make it an attractive buy. The semiconductor ETF also provides exposure to the broader industry.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Monitor for earnings reports and industry trends"
+        "viable": "4-8 weeks",
+        "note": "Monitor industry trends and company announcements"
       },
-      "exitStrategy": "Close positions if the stock price surges above $200",
+      "exitStrategy": "Exit if the industry experiences a downturn or if NVIDIA's competitors gain traction",
       "gains": {
         "conservative": "+8\u201312%",
-        "conservativeNote": "If demand remains stable",
+        "conservativeNote": "If the industry grows steadily",
         "base": "+15\u201320%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If demand surges",
+        "extended": "+25%+",
+        "extendedNote": "If NVIDIA's AI technology gains significant traction",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-powered stocks"
+        "Technology sector (XLK)",
+        "Gaming industry (ESPO)"
       ],
       "otherFactors": [
-        "AI adoption",
-        "Semiconductor industry trends"
+        "Competitor announcements",
+        "Regulatory environment"
       ]
     },
     {
@@ -154,7 +157,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel's strategic problem is ongoing, with potential for further conflict in the region. This could lead to increased volatility in the oil market and global instability.",
+      "summary": "Israel's strategic problem is ongoing, with potential for further conflict in the region. However, the impact on global markets is expected to be limited.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -168,31 +171,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "Turkish Lira (TRY)"
         }
       ],
-      "reasoning": "The ongoing conflict in the region could lead to increased volatility in the oil market and global instability. However, Israel's strategic problem is a long-term issue with potential for periodic flare-ups.",
+      "reasoning": "Israel's strategic problem is a long-term issue, but the impact on its economy and markets is expected to be limited. The Turkish Lira, on the other hand, may be negatively impacted by regional instability.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for ceasefire or de-escalation"
+        "note": "Monitor regional developments"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced or if the conflict de-escalates",
+      "exitStrategy": "Exit if the conflict escalates or if a peaceful resolution is reached",
       "gains": {
-        "conservative": "+2\u20134%",
+        "conservative": "+2\u20133%",
         "conservativeNote": "If the conflict remains contained",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the conflict escalates",
+        "extendedNote": "If the conflict spreads to other countries",
         "stopLoss": "-5% on EIS"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Middle East markets (GULF)",
+        "Emerging markets (EEM)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "Geopolitical instability"
+        "Regional diplomatic efforts",
+        "Oil prices"
       ]
     },
     {
@@ -201,45 +205,46 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are ongoing, with potential for further tariffs and trade restrictions. This could impact the broader market and specific sectors such as technology and manufacturing.",
+      "summary": "US-China trade relations are ongoing, with potential for further tariffs and trade restrictions. This could impact global trade and economic growth.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Invesco QQQ Trust (QQQ)"
-        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares US Aerospace & Defense ETF (ITA)"
         }
       ],
-      "reasoning": "The ongoing trade tensions between the US and China could lead to increased volatility in the market and specific sectors such as technology and manufacturing. However, the broader market could see a decline due to decreased consumer spending power.",
+      "reasoning": "US-China trade tensions could negatively impact Chinese markets, while the US aerospace and defense industry may benefit from increased government spending.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Monitor for trade data releases and tariff announcements"
+        "viable": "4-8 weeks",
+        "note": "Monitor trade negotiations and tariffs"
       },
-      "exitStrategy": "Close positions if a trade deal is announced or if tariffs are reduced",
+      "exitStrategy": "Exit if a trade deal is reached or if tensions ease",
       "gains": {
-        "conservative": "+3\u20135%",
+        "conservative": "+5\u20138%",
         "conservativeNote": "If trade tensions remain stable",
-        "base": "+8\u201312%",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
+        "extended": "+20%+",
         "extendedNote": "If trade tensions escalate",
-        "stopLoss": "-5% on QQQ"
+        "stopLoss": "-8% on FXI"
       },
       "adjacentMarkets": [
-        "Treasury yields"
+        "Emerging markets (EEM)",
+        "Global trade (GTI)"
       ],
       "otherFactors": [
-        "Interest rates",
-        "Consumer spending"
+        "Tariff announcements",
+        "Trade negotiations"
       ]
     },
     {
@@ -248,7 +253,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor crash is ongoing, with potential for further declines in the sector. This could lead to increased volatility in the market and specific sectors such as technology.",
+      "summary": "The semiconductor industry is experiencing a downturn, but the outlook is improving. The industry is expected to recover in the long term, driven by increasing demand for AI and 5G technology.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -260,33 +265,34 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "From growth stocks to value stocks, e.g. iShares Russell 1000 Value ETF (IWD)"
         }
       ],
-      "reasoning": "The ongoing decline in the semiconductor sector could lead to increased volatility in the market and specific sectors such as technology. However, the sector is expected to recover in the long term due to increasing demand for AI-powered technologies.",
+      "reasoning": "The semiconductor industry is expected to recover in the long term, making it a good buy. Rotating from growth stocks to value stocks can also provide a more stable portfolio.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for earnings reports and industry trends"
+        "note": "Monitor industry trends and company announcements"
       },
-      "exitStrategy": "Close positions if the sector shows signs of recovery",
+      "exitStrategy": "Exit if the industry experiences a downturn or if the outlook worsens",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the sector remains stable",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the industry grows steadily",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the sector recovers",
+        "extendedNote": "If the industry experiences a strong recovery",
         "stopLoss": "-5% on SMH"
       },
       "adjacentMarkets": [
-        "AI-powered stocks"
+        "Technology sector (XLK)",
+        "Gaming industry (ESPO)"
       ],
       "otherFactors": [
-        "AI adoption",
-        "Semiconductor industry trends"
+        "Industry trends",
+        "Company announcements"
       ]
     },
     {
@@ -295,9 +301,9 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to make an interest rate decision, which could impact the broader market and specific sectors such as real estate and consumer staples.",
+      "summary": "The Federal Reserve's interest rate decision is expected to have a significant impact on the economy and markets. A rate hike could lead to a stronger US dollar and higher bond yields.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
@@ -309,49 +315,50 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares US Real Estate ETF (IYR)"
         }
       ],
-      "reasoning": "The interest rate decision could lead to increased volatility in the market and specific sectors such as real estate and consumer staples. However, the broader market could see a decline due to decreased consumer spending power.",
+      "reasoning": "A rate hike could lead to higher bond yields, making long-term Treasury bonds a good buy. The real estate industry, on the other hand, may be negatively impacted by higher interest rates.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for interest rate decision and economic data releases"
+        "note": "Monitor Fed decisions and economic data"
       },
-      "exitStrategy": "Close positions if the interest rate decision is announced and the market reacts",
+      "exitStrategy": "Exit if interest rates are cut or if the economy experiences a downturn",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If the interest rate decision is expected",
+        "conservativeNote": "If interest rates remain stable",
         "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the interest rate decision is unexpected",
+        "extendedNote": "If interest rates are hiked aggressively",
         "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "Treasury yields"
+        "Bond market (AGG)",
+        "US dollar (UUP)"
       ],
       "otherFactors": [
-        "Interest rates",
-        "Consumer spending"
+        "Economic data",
+        "Fed decisions"
       ]
     },
     {
       "id": 8,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Geopolitical Instability in the Middle East",
-      "summary": "The geopolitical instability in the Middle East is ongoing, with potential for further conflict in the region. This could lead to increased volatility in the oil market and global instability.",
+      "summary": "Geopolitical instability in the Middle East is ongoing, with potential for further conflict and unrest. This could lead to increased volatility in global markets, particularly in the energy sector.",
       "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "SPDR Gold Shares ETF (GLD)"
         },
         {
           "label": "SHORT",
@@ -359,41 +366,42 @@
           "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
         }
       ],
-      "reasoning": "The ongoing conflict in the region could lead to increased volatility in the oil market and global instability. However, the broader market could see a decline due to decreased consumer spending power.",
+      "reasoning": "Geopolitical instability in the Middle East could lead to increased demand for safe-haven assets like gold. The energy sector, on the other hand, may be negatively impacted by conflict and unrest.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor for ceasefire or de-escalation"
+        "viable": "4-8 weeks",
+        "note": "Monitor regional developments"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced or if the conflict de-escalates",
+      "exitStrategy": "Exit if the conflict escalates or if a peaceful resolution is reached",
       "gains": {
-        "conservative": "+2\u20134%",
+        "conservative": "+5\u20138%",
         "conservativeNote": "If the conflict remains contained",
-        "base": "+5\u20138%",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-5% on SPY"
+        "extended": "+20%+",
+        "extendedNote": "If the conflict spreads to other countries",
+        "stopLoss": "-8% on GLD"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Energy sector (XLE)",
+        "Emerging markets (EEM)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "Geopolitical instability"
+        "Regional diplomatic efforts",
+        "Oil prices"
       ]
     },
     {
       "id": 9,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "The AI-powered stocks are expected to see significant growth due to increasing demand for AI-powered technologies. This could lead to a surge in the stock price and related ETFs.",
+      "summary": "AI-powered stocks are expected to continue growing, driven by increasing demand for AI and machine learning. The technology sector is expected to benefit from this trend.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -403,78 +411,224 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "The increasing demand for AI-powered technologies could lead to a significant surge in AI-powered stocks and related ETFs. This is a high-growth area with potential for long-term gains.",
+      "reasoning": "AI-powered stocks are expected to continue growing, making them a good buy. The technology sector is also expected to benefit from this trend.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Monitor for earnings reports and industry trends"
+        "viable": "2-4 weeks",
+        "note": "Monitor industry trends and company announcements"
       },
-      "exitStrategy": "Close positions if the stock price surges above $200",
+      "exitStrategy": "Exit if the industry experiences a downturn or if the outlook worsens",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If demand remains stable",
-        "base": "+15\u201320%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the industry grows steadily",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If demand surges",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+10%+",
+        "extendedNote": "If the industry experiences a strong recovery",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-powered stocks"
+        "Technology sector (XLK)",
+        "Gaming industry (ESPO)"
       ],
       "otherFactors": [
-        "AI adoption",
-        "Semiconductor industry trends"
+        "Industry trends",
+        "Company announcements"
       ]
     },
     {
       "id": 10,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "econ",
       "catLabel": "Economy",
       "title": "China\u2019s Imports from Africa",
-      "summary": "China's imports from Africa are expected to increase, which could lead to increased trade and economic cooperation between the two regions.",
+      "summary": "China's imports from Africa are expected to continue growing, driven by increasing demand for commodities and raw materials. This could lead to increased trade and economic cooperation between China and Africa.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI South Africa ETF (EZA)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Africa Index ETF (AFK)"
+        }
+      ],
+      "reasoning": "China's growing imports from Africa could lead to increased economic cooperation and trade between the two regions. South Africa and other African countries may benefit from this trend.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor trade data and economic developments"
+      },
+      "exitStrategy": "Exit if trade tensions rise or if economic growth slows",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If trade growth remains stable",
+        "base": "+10\u201315%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If trade cooperation increases significantly",
+        "stopLoss": "-8% on EZA"
+      },
+      "adjacentMarkets": [
+        "Emerging markets (EEM)",
+        "Commodities (DBC)"
+      ],
+      "otherFactors": [
+        "Trade data",
+        "Economic developments"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "LOW",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia-Led AI Supercycle",
+      "summary": "The Nvidia-led AI supercycle is expected to continue, driven by increasing demand for AI and machine learning. The technology sector is expected to benefit from this trend.",
+      "fresh": true,
+      "freshLabel": "1d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "The Nvidia-led AI supercycle is expected to continue, making Nvidia and other AI-related stocks a good buy.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor industry trends and company announcements"
+      },
+      "exitStrategy": "Exit if the industry experiences a downturn or if the outlook worsens",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the industry grows steadily",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the industry experiences a strong recovery",
+        "stopLoss": "-5% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Technology sector (XLK)",
+        "Gaming industry (ESPO)"
+      ],
+      "otherFactors": [
+        "Industry trends",
+        "Company announcements"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Monetary Tightening",
+      "summary": "The Fed's monetary tightening is expected to continue, driven by increasing inflation and economic growth. This could lead to higher interest rates and a stronger US dollar.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares US Real Estate ETF (IYR)"
         }
       ],
-      "reasoning": "The increasing trade and economic cooperation between China and Africa could lead to increased growth in the emerging markets sector. However, the broader market could see a decline due to decreased consumer spending power.",
+      "reasoning": "The Fed's monetary tightening could lead to higher bond yields, making long-term Treasury bonds a good buy. The real estate industry, on the other hand, may be negatively impacted by higher interest rates.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor Fed decisions and economic data"
+      },
+      "exitStrategy": "Exit if interest rates are cut or if the economy experiences a downturn",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If interest rates remain stable",
+        "base": "+10\u201315%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If interest rates are hiked aggressively",
+        "stopLoss": "-8% on TLT"
+      },
+      "adjacentMarkets": [
+        "Bond market (AGG)",
+        "US dollar (UUP)"
+      ],
+      "otherFactors": [
+        "Economic data",
+        "Fed decisions"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "LOW",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI Hardware Stocks",
+      "summary": "AI hardware stocks are expected to continue growing, driven by increasing demand for AI and machine learning. The technology sector is expected to benefit from this trend.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "AI hardware stocks are expected to continue growing, making Nvidia and other AI-related stocks a good buy.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor for trade data releases and economic indicators"
+        "note": "Monitor industry trends and company announcements"
       },
-      "exitStrategy": "Close positions if the trade data releases show a significant increase in imports",
+      "exitStrategy": "Exit if the industry experiences a downturn or if the outlook worsens",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If trade remains stable",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the industry grows steadily",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If trade increases significantly",
-        "stopLoss": "-5% on EEM"
+        "extendedNote": "If the industry experiences a strong recovery",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "Technology sector (XLK)",
+        "Gaming industry (ESPO)"
       ],
       "otherFactors": [
-        "Trade data",
-        "Economic indicators"
+        "Industry trends",
+        "Company announcements"
       ]
     }
   ]
