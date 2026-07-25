@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T09:49:25Z",
+  "lastUpdated": "2026-07-25T13:37:27Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -10,49 +10,47 @@
     {
       "id": 1,
       "rank": "HIGH",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Iran Conflict Escalation",
-      "summary": "The Iran conflict is escalating, with the US and its allies involved. This could lead to a significant increase in oil prices and market volatility.",
+      "category": "eco",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve is expected to make a decision on interest rates, which could impact the economy and markets. Experts predict a potential rate hike due to high inflation. The decision will be closely watched by investors and could lead to significant market movements.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "just now",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The conflict in Iran is likely to disrupt oil supplies, leading to higher prices. This could lead to increased demand for oil services, benefiting the VanEck Vectors Oil Services ETF (OIH). On the other hand, the uncertainty and volatility caused by the conflict could lead to a flight to safety, causing bond prices to rise and yields to fall, making it a good time to short the iShares U.S. Treasury Bond ETF (GOVT).",
+      "reasoning": "The Federal Reserve's decision on interest rates will have a significant impact on the economy and markets. A rate hike could lead to increased borrowing costs and reduced consumer spending, while a rate cut could stimulate economic growth. Investors should be prepared for potential market volatility and adjust their portfolios accordingly.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Interest rate decision"
       },
-      "exitStrategy": "Close the position if the conflict is resolved or if oil prices drop significantly",
+      "exitStrategy": "Exit when interest rate decision is announced",
       "gains": {
-        "conservative": "+10-15%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+20-25%",
-        "baseNote": "If the conflict escalates",
-        "extended": "+30%+",
-        "extendedNote": "If the conflict leads to a significant disruption in oil supplies",
-        "stopLoss": "-10% on OIH"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If rate hike is moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If rate hike is significant",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)",
-        "Currencies (USD, EUR)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Federal Reserve interest rate decisions"
+        "Inflation rate"
       ]
     },
     {
@@ -61,11 +59,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks are expected to rise due to increasing demand for AI technology.",
+      "summary": "NVIDIA's AI semiconductor stocks have been performing well due to increasing demand for AI technology. The company has partnered with SK Group to develop AI semiconductors, which could lead to further growth.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -78,42 +76,86 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's AI semiconductor stocks are expected to rise due to increasing demand for AI technology. The company's recent partnerships and innovations are likely to drive growth.",
+      "reasoning": "NVIDIA's AI semiconductor stocks have been performing well due to increasing demand for AI technology. The company's partnership with SK Group could lead to further growth and increased demand for NVIDIA's products.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the company's earnings and product releases"
+        "viable": "4-8 weeks",
+        "note": "Earnings report"
       },
-      "exitStrategy": "Close the position if the stock price reaches $250",
+      "exitStrategy": "Exit when earnings report is announced",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the demand for AI technology is steady",
-        "base": "+10-12%",
-        "baseNote": "If the demand for AI technology increases",
-        "extended": "+15%+",
-        "extendedNote": "If the company's partnerships and innovations lead to significant growth",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If demand is moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If demand is high",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)",
-        "Semiconductor sector (SOXX)"
+        "Technology sector"
       ],
       "otherFactors": [
-        "US-China trade relations",
-        "Global economic growth"
+        "Competition from AMD"
       ]
     },
     {
       "id": 3,
+      "rank": "HIGH",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Iran Conflict Escalation",
+      "summary": "The conflict in Iran has escalated, leading to increased tensions in the region. The situation could lead to significant market volatility and impact oil prices.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "HIGH",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares (GLD)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "United States Oil Fund, LP (USO)"
+        }
+      ],
+      "reasoning": "The conflict in Iran has escalated, leading to increased tensions in the region. The situation could lead to significant market volatility and impact oil prices. Investors should be prepared for potential market movements and adjust their portfolios accordingly.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Conflict escalation"
+      },
+      "exitStrategy": "Exit when conflict is resolved",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict is contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If conflict escalates",
+        "stopLoss": "-8% on GLD"
+      },
+      "adjacentMarkets": [
+        "Oil prices"
+      ],
+      "otherFactors": [
+        "Geopolitical tensions"
+      ]
+    },
+    {
+      "id": 4,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economics",
+      "category": "eco",
+      "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate is expected to rise due to increasing wages and prices.",
+      "summary": "The US inflation rate has been increasing, leading to concerns about the economy. The Federal Reserve may raise interest rates to combat inflation, which could impact the markets.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -121,47 +163,45 @@
           "target": "iShares TIPS Bond ETF (TIP)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Short-Term Bond ETF (BSV)"
         }
       ],
-      "reasoning": "The US inflation rate is expected to rise due to increasing wages and prices. This could lead to higher interest rates, making it a good time to buy TIPS bonds and short aggregate bonds.",
+      "reasoning": "The US inflation rate has been increasing, leading to concerns about the economy. The Federal Reserve may raise interest rates to combat inflation, which could impact the markets. Investors should be prepared for potential market movements and adjust their portfolios accordingly.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the inflation rate and interest rate decisions"
+        "viable": "4-8 weeks",
+        "note": "Inflation report"
       },
-      "exitStrategy": "Close the position if the inflation rate drops significantly",
+      "exitStrategy": "Exit when inflation report is announced",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the inflation rate is steady",
-        "base": "+6-8%",
-        "baseNote": "If the inflation rate increases",
-        "extended": "+10%+",
-        "extendedNote": "If the interest rates rise significantly",
-        "stopLoss": "-5% on TIP"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If inflation is moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If inflation is high",
+        "stopLoss": "-8% on TIP"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (GOVT)",
-        "Commodities (DBC)"
+        "Bond market"
       ],
       "otherFactors": [
-        "Federal Reserve interest rate decisions",
-        "Global economic growth"
+        "Federal Reserve policy"
       ]
     },
     {
-      "id": 4,
-      "rank": "LOW",
+      "id": 5,
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Alphabet and Tesla Earnings",
-      "summary": "Alphabet and Tesla are expected to release their earnings reports, which could impact their stock prices.",
+      "summary": "Alphabet and Tesla are set to report their earnings, which could impact the technology sector. The reports could lead to significant market movements and impact investor sentiment.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -169,95 +209,91 @@
           "target": "Alphabet Inc. (GOOGL)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "Tesla, Inc. (TSLA)"
         }
       ],
-      "reasoning": "Alphabet and Tesla are expected to release their earnings reports, which could impact their stock prices. Alphabet's earnings are expected to be strong, while Tesla's earnings are expected to be weak.",
+      "reasoning": "Alphabet and Tesla are set to report their earnings, which could impact the technology sector. The reports could lead to significant market movements and impact investor sentiment. Investors should be prepared for potential market volatility and adjust their portfolios accordingly.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor the earnings reports and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Earnings report"
       },
-      "exitStrategy": "Close the position after the earnings reports are released",
+      "exitStrategy": "Exit when earnings report is announced",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the earnings reports are as expected",
-        "base": "+5-6%",
-        "baseNote": "If the earnings reports are better than expected",
-        "extended": "+8%+",
-        "extendedNote": "If the earnings reports are significantly better than expected",
-        "stopLoss": "-3% on GOOGL"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If earnings are moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If earnings are strong",
+        "stopLoss": "-8% on GOOGL"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)",
-        "Nasdaq Composite (QQQ)"
+        "Technology sector"
       ],
       "otherFactors": [
-        "US economic growth",
-        "Global technology trends"
-      ]
-    },
-    {
-      "id": 5,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel's strategic problem is expected to impact its relationships with neighboring countries and the US.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI Israel ETF (EIS)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Turkey ETF (TUR)"
-        }
-      ],
-      "reasoning": "Israel's strategic problem is expected to impact its relationships with neighboring countries and the US. This could lead to increased tensions and volatility in the region.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
-      },
-      "exitStrategy": "Close the position if the situation is resolved",
-      "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If the situation is contained",
-        "base": "+8-10%",
-        "baseNote": "If the situation escalates",
-        "extended": "+12%+",
-        "extendedNote": "If the situation leads to a significant conflict",
-        "stopLoss": "-6% on EIS"
-      },
-      "adjacentMarkets": [
-        "Middle East region (GULF)",
-        "US-Israel relations"
-      ],
-      "otherFactors": [
-        "US foreign policy",
-        "Global geopolitical trends"
+        "Competition in the sector"
       ]
     },
     {
       "id": 6,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "US-China Trade Relations",
-      "summary": "The US and China are expected to continue negotiating a trade deal, which could impact global trade and economic growth.",
+      "rank": "HIGH",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Israel\u2019s Strategic Problem",
+      "summary": "Israel is facing a strategic problem due to the conflict in the region. The situation could lead to significant market volatility and impact oil prices.",
       "fresh": true,
       "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "risk": "HIGH",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Israel ETF (ISRA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "United States Oil Fund, LP (USO)"
+        }
+      ],
+      "reasoning": "Israel is facing a strategic problem due to the conflict in the region. The situation could lead to significant market volatility and impact oil prices. Investors should be prepared for potential market movements and adjust their portfolios accordingly.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Conflict escalation"
+      },
+      "exitStrategy": "Exit when conflict is resolved",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict is contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If conflict escalates",
+        "stopLoss": "-8% on ISRA"
+      },
+      "adjacentMarkets": [
+        "Oil prices"
+      ],
+      "otherFactors": [
+        "Geopolitical tensions"
+      ]
+    },
+    {
+      "id": 7,
+      "rank": "MED",
+      "category": "eco",
+      "catLabel": "Economy",
+      "title": "US-China Trade Relations",
+      "summary": "The US and China are engaged in trade negotiations, which could impact the global economy. The outcome of the negotiations could lead to significant market movements and impact investor sentiment.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -265,47 +301,45 @@
           "target": "iShares China Large-Cap ETF (FXI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US and China are expected to continue negotiating a trade deal, which could impact global trade and economic growth. A deal could lead to increased trade and investment between the two countries.",
+      "reasoning": "The US and China are engaged in trade negotiations, which could impact the global economy. The outcome of the negotiations could lead to significant market movements and impact investor sentiment. Investors should be prepared for potential market volatility and adjust their portfolios accordingly.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor the negotiations and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Trade agreement"
       },
-      "exitStrategy": "Close the position if a deal is reached",
+      "exitStrategy": "Exit when trade agreement is announced",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the negotiations are successful",
-        "base": "+5-6%",
-        "baseNote": "If the deal is reached",
-        "extended": "+8%+",
-        "extendedNote": "If the deal leads to significant economic growth",
-        "stopLoss": "-3% on FXI"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If trade agreement is moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If trade agreement is strong",
+        "stopLoss": "-8% on FXI"
       },
       "adjacentMarkets": [
-        "Global trade (ACWI)",
-        "Emerging markets (EEM)"
+        "Global economy"
       ],
       "otherFactors": [
-        "Global economic growth",
-        "US foreign policy"
+        "Trade tensions"
       ]
     },
     {
-      "id": 7,
+      "id": 8,
       "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor industry is expected to experience a crash, which could impact the global technology sector.",
+      "summary": "The semiconductor industry has experienced a crash, which could impact the technology sector. The outlook for the industry could lead to significant market movements and impact investor sentiment.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -313,178 +347,216 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares PHLX Semiconductor ETF (SOXX)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The semiconductor industry is expected to experience a crash, which could impact the global technology sector. However, some companies may be more resilient than others.",
+      "reasoning": "The semiconductor industry has experienced a crash, which could impact the technology sector. The outlook for the industry could lead to significant market movements and impact investor sentiment. Investors should be prepared for potential market volatility and adjust their portfolios accordingly.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the industry trends and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Industry outlook"
       },
-      "exitStrategy": "Close the position if the industry recovers",
+      "exitStrategy": "Exit when industry outlook is announced",
       "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If the industry is resilient",
-        "base": "+8-10%",
-        "baseNote": "If the industry experiences a significant crash",
-        "extended": "+12%+",
-        "extendedNote": "If the industry leads to a significant shift in the technology sector",
-        "stopLoss": "-6% on SMH"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If industry outlook is moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If industry outlook is strong",
+        "stopLoss": "-8% on SMH"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)",
-        "Nasdaq Composite (QQQ)"
+        "Technology sector"
       ],
       "otherFactors": [
-        "Global economic growth",
-        "US-China trade relations"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East region is expected to experience geopolitical instability, which could impact global energy prices and economic growth.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 Energy ETF (XLE)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The Middle East region is expected to experience geopolitical instability, which could impact global energy prices and economic growth. This could lead to increased demand for energy and decreased demand for emerging markets.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
-      },
-      "exitStrategy": "Close the position if the situation is resolved",
-      "gains": {
-        "conservative": "+4-6%",
-        "conservativeNote": "If the situation is contained",
-        "base": "+8-10%",
-        "baseNote": "If the situation escalates",
-        "extended": "+12%+",
-        "extendedNote": "If the situation leads to a significant conflict",
-        "stopLoss": "-6% on XLE"
-      },
-      "adjacentMarkets": [
-        "Energy sector (XLE)",
-        "Emerging markets (EEM)"
-      ],
-      "otherFactors": [
-        "Global economic growth",
-        "US foreign policy"
+        "Competition in the sector"
       ]
     },
     {
       "id": 9,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks are expected to rise due to increasing demand for AI technology.",
+      "rank": "HIGH",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East is experiencing geopolitical instability, which could lead to significant market volatility and impact oil prices. The situation could lead to increased tensions and conflict in the region.",
       "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "freshLabel": "2h ago",
+      "risk": "HIGH",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares North American Tech ETF (IGM)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "United States Oil Fund, LP (USO)"
         }
       ],
-      "reasoning": "AI-powered stocks are expected to rise due to increasing demand for AI technology. This could lead to increased growth and innovation in the technology sector.",
+      "reasoning": "The Middle East is experiencing geopolitical instability, which could lead to significant market volatility and impact oil prices. The situation could lead to increased tensions and conflict in the region. Investors should be prepared for potential market movements and adjust their portfolios accordingly.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor the demand for AI technology and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Conflict escalation"
       },
-      "exitStrategy": "Close the position if the demand for AI technology decreases",
+      "exitStrategy": "Exit when conflict is resolved",
       "gains": {
-        "conservative": "+2-3%",
-        "conservativeNote": "If the demand for AI technology is steady",
-        "base": "+5-6%",
-        "baseNote": "If the demand for AI technology increases",
-        "extended": "+8%+",
-        "extendedNote": "If the demand for AI technology leads to significant growth",
-        "stopLoss": "-3% on BOTZ"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict is contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If conflict escalates",
+        "stopLoss": "-8% on GLD"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)",
-        "Nasdaq Composite (QQQ)"
+        "Oil prices"
       ],
       "otherFactors": [
-        "Global economic growth",
-        "US-China trade relations"
+        "Geopolitical tensions"
       ]
     },
     {
       "id": 10,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to make an interest rate decision, which could impact global economic growth and financial markets.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "AI-Powered Stocks",
+      "summary": "AI-powered stocks have been performing well due to increasing demand for AI technology. The trend could lead to significant market movements and impact investor sentiment.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Alphabet Inc. (GOOGL)"
+        }
+      ],
+      "reasoning": "AI-powered stocks have been performing well due to increasing demand for AI technology. The trend could lead to significant market movements and impact investor sentiment. Investors should be prepared for potential market volatility and adjust their portfolios accordingly.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Earnings report"
+      },
+      "exitStrategy": "Exit when earnings report is announced",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If demand is moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If demand is high",
+        "stopLoss": "-8% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Technology sector"
+      ],
+      "otherFactors": [
+        "Competition in the sector"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "MED",
+      "category": "eco",
+      "catLabel": "Economy",
+      "title": "Federal Reserve Interest Rate Policy",
+      "summary": "The Federal Reserve's interest rate policy could impact the economy and markets. The policy could lead to significant market movements and impact investor sentiment.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "The Federal Reserve's interest rate policy could impact the economy and markets. The policy could lead to significant market movements and impact investor sentiment. Investors should be prepared for potential market volatility and adjust their portfolios accordingly.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Interest rate decision"
+      },
+      "exitStrategy": "Exit when interest rate decision is announced",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If interest rate is moderate",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If interest rate is significant",
+        "stopLoss": "-8% on TLT"
+      },
+      "adjacentMarkets": [
+        "Bond market"
+      ],
+      "otherFactors": [
+        "Federal Reserve policy"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "HIGH",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Geopolitical Instability in the Middle East",
+      "summary": "The Middle East is experiencing geopolitical instability, which could lead to significant market volatility and impact oil prices. The situation could lead to increased tensions and conflict in the region.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "HIGH",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares (GLD)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "United States Oil Fund, LP (USO)"
         }
       ],
-      "reasoning": "The Federal Reserve is expected to make an interest rate decision, which could impact global economic growth and financial markets. A rate hike could lead to increased demand for short-term credit bonds and decreased demand for long-term treasury bonds.",
+      "reasoning": "The Middle East is experiencing geopolitical instability, which could lead to significant market volatility and impact oil prices. The situation could lead to increased tensions and conflict in the region. Investors should be prepared for potential market movements and adjust their portfolios accordingly.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the interest rate decision and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Conflict escalation"
       },
-      "exitStrategy": "Close the position if the interest rate decision is made",
+      "exitStrategy": "Exit when conflict is resolved",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the interest rate decision is as expected",
-        "base": "+6-8%",
-        "baseNote": "If the interest rate decision is unexpected",
-        "extended": "+10%+",
-        "extendedNote": "If the interest rate decision leads to significant economic growth",
-        "stopLoss": "-5% on CSJ"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict is contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If conflict escalates",
+        "stopLoss": "-8% on GLD"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (GOVT)",
-        "Global economic growth"
+        "Oil prices"
       ],
       "otherFactors": [
-        "Global economic growth",
-        "US foreign policy"
+        "Geopolitical tensions"
       ]
     }
   ]
