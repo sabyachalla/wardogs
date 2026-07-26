@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T06:08:28Z",
+  "lastUpdated": "2026-07-26T09:12:57Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,44 +13,46 @@
       "category": "eco",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to make a decision on interest rates, which could impact the economy and stock market. Experts predict a potential rate hike due to high inflation. The decision will be made in the upcoming meeting.",
+      "summary": "The Federal Reserve is set to make its interest rate decision, which could significantly impact the economy. Experts predict a potential rate hike due to high inflation. This decision will influence the stock market and currency exchange rates.",
       "fresh": true,
       "freshLabel": "just now",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "BUY",
+          "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
+          "label": "SHORT",
+          "cls": "short",
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision on interest rates will have a significant impact on the economy and stock market. A rate hike could lead to a decrease in stock prices, while a decrease in interest rates could lead to an increase in stock prices.",
+      "reasoning": "The Federal Reserve's decision will have a significant impact on the economy, and a potential rate hike could lead to increased volatility in the stock market. Buying the SPDR S&P 500 ETF Trust (SPY) could provide a hedge against potential losses, while shorting the iShares 20+ Year Treasury Bond ETF (TLT) could capitalize on potential bond market declines.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Interest rate decision"
+        "note": "Monitor economic indicators and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when interest rates are announced",
+      "exitStrategy": "Exit positions when the Federal Reserve announces its next interest rate decision",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If interest rates remain unchanged",
+        "conservativeNote": "If the Federal Reserve decides to hold interest rates steady",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "Most likely scenario, with a moderate interest rate hike",
         "extended": "+25%+",
-        "extendedNote": "If interest rates are increased",
+        "extendedNote": "If the Federal Reserve decides to aggressively raise interest rates",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil (inflation hedge)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation rate",
+        "GDP growth"
       ]
     },
     {
@@ -59,11 +61,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA has announced a $1.5 billion chip packaging deal, which could boost its stock price. The company is also partnering with SK Group on a $950 billion AI semiconductor pact.",
+      "summary": "NVIDIA's recent partnership with SK Group and its $1.5 billion chip packaging deal with Amkor have increased expectations for the company's AI semiconductor stocks. This could lead to significant growth in the tech sector.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -71,32 +73,34 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's recent announcements could lead to an increase in its stock price. The company's partnership with SK Group and its chip packaging deal could give it a competitive edge in the AI semiconductor market.",
+      "reasoning": "NVIDIA's recent partnerships and deals have increased expectations for the company's AI semiconductor stocks. Buying NVIDIA Corporation (NVDA) could provide exposure to this growth, while rotating into Advanced Micro Devices, Inc. (AMD) could diversify the portfolio and capitalize on potential gains in the tech sector.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Earnings report"
+        "viable": "2-4 weeks",
+        "note": "Monitor tech sector performance and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when earnings report is released",
+      "exitStrategy": "Exit positions when NVIDIA announces its next quarterly earnings",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If earnings report is neutral",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If earnings report is positive",
-        "stopLoss": "-8% on NVDA"
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the tech sector experiences moderate growth",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario, with significant growth in the tech sector",
+        "extended": "+18%+",
+        "extendedNote": "If NVIDIA's AI semiconductor stocks experience exceptional growth",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Taiwan Semiconductor Manufacturing Company (TSM)"
+        "Taiwan Semiconductor Manufacturing Company (TSM)",
+        "Micron Technology, Inc. (MU)"
       ],
       "otherFactors": [
-        "AI adoption rate"
+        "Tech sector performance",
+        "AI adoption rates"
       ]
     },
     {
@@ -105,44 +109,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran Conflict Escalation",
-      "summary": "The conflict in Iran is escalating, which could lead to a decrease in oil prices and an increase in gold prices. The US and its allies are involved in the conflict, which could lead to a wider geopolitical crisis.",
+      "summary": "The conflict in Iran has escalated, leading to increased tensions in the Middle East. This could lead to significant volatility in the oil market and impact global economies.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "HIGH",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "United States Oil Fund, LP (USO)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran could lead to a decrease in oil prices and an increase in gold prices. The US and its allies are involved in the conflict, which could lead to a wider geopolitical crisis.",
+      "reasoning": "The conflict in Iran has increased tensions in the Middle East, leading to potential volatility in the oil market. Buying the SPDR S&P 500 ETF Trust (SPY) could provide a hedge against potential losses, while shorting the iShares MSCI Emerging Markets ETF (EEM) could capitalize on potential declines in emerging markets.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Conflict escalation"
+        "note": "Monitor conflict developments and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when conflict is resolved",
+      "exitStrategy": "Exit positions when the conflict in Iran is resolved or tensions ease",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict is contained",
+        "conservativeNote": "If the conflict is resolved quickly",
         "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
+        "baseNote": "Most likely scenario, with moderate escalation",
         "extended": "+25%+",
-        "extendedNote": "If conflict escalates",
-        "stopLoss": "-8% on GLD"
+        "extendedNote": "If the conflict escalates significantly",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (safe haven bid)"
+        "Oil (inflation hedge)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Geopolitical tensions"
+        "Conflict resolution",
+        "Oil market volatility"
       ]
     },
     {
@@ -151,11 +157,11 @@
       "category": "eco",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate is expected to increase, which could lead to a decrease in stock prices and an increase in bond prices. The Federal Reserve is watching the inflation rate closely and may increase interest rates to combat it.",
+      "summary": "The US inflation rate has increased, leading to concerns about the economy. This could impact the stock market and currency exchange rates.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -163,32 +169,34 @@
           "target": "iShares TIPS Bond ETF (TIP)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Vanguard Short-Term Inflation-Protected Securities Index Fund (VTIP)"
         }
       ],
-      "reasoning": "The US inflation rate is expected to increase, which could lead to a decrease in stock prices and an increase in bond prices. The Federal Reserve is watching the inflation rate closely and may increase interest rates to combat it.",
+      "reasoning": "The US inflation rate has increased, leading to concerns about the economy. Buying the iShares TIPS Bond ETF (TIP) could provide a hedge against inflation, while rotating into the Vanguard Short-Term Inflation-Protected Securities Index Fund (VTIP) could diversify the portfolio and capitalize on potential gains in the bond market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Inflation report"
+        "viable": "2-4 weeks",
+        "note": "Monitor inflation rate and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when inflation report is released",
+      "exitStrategy": "Exit positions when the US inflation rate stabilizes or declines",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If inflation report is neutral",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If inflation report is positive",
-        "stopLoss": "-8% on TIP"
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the inflation rate stabilizes",
+        "base": "+6\u201310%",
+        "baseNote": "Most likely scenario, with moderate inflation",
+        "extended": "+15%+",
+        "extendedNote": "If the inflation rate increases significantly",
+        "stopLoss": "-4% on TIP"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (safe haven bid)"
+        "Gold (inflation hedge)",
+        "Oil (inflation hedge)"
       ],
       "otherFactors": [
-        "Federal Reserve policy"
+        "Inflation rate",
+        "Economic growth"
       ]
     },
     {
@@ -197,11 +205,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Alphabet and Tesla Earnings",
-      "summary": "Alphabet and Tesla are expected to release their earnings reports, which could impact their stock prices. The reports could be positive or negative, depending on the companies' performance.",
+      "summary": "Alphabet and Tesla are set to announce their quarterly earnings, which could significantly impact the tech sector. This could lead to volatility in the stock market.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -214,27 +222,29 @@
           "target": "Tesla, Inc. (TSLA)"
         }
       ],
-      "reasoning": "Alphabet and Tesla's earnings reports could impact their stock prices. The reports could be positive or negative, depending on the companies' performance.",
+      "reasoning": "Alphabet and Tesla's quarterly earnings could significantly impact the tech sector. Buying Alphabet Inc. (GOOGL) could provide exposure to potential growth, while shorting Tesla, Inc. (TSLA) could capitalize on potential declines in the stock price.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Earnings report"
+        "viable": "2-4 weeks",
+        "note": "Monitor earnings announcements and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when earnings report is released",
+      "exitStrategy": "Exit positions when Alphabet and Tesla announce their next quarterly earnings",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If earnings report is neutral",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If earnings report is positive",
-        "stopLoss": "-8% on GOOGL"
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the tech sector experiences moderate growth",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario, with significant growth in the tech sector",
+        "extended": "+18%+",
+        "extendedNote": "If Alphabet and Tesla's earnings exceed expectations",
+        "stopLoss": "-5% on GOOGL"
       },
       "adjacentMarkets": [
-        "NVIDIA Corporation (NVDA)"
+        "Facebook, Inc. (FB)",
+        "Apple Inc. (AAPL)"
       ],
       "otherFactors": [
-        "Tech sector performance"
+        "Tech sector performance",
+        "Earnings expectations"
       ]
     },
     {
@@ -243,44 +253,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel is facing a strategic problem due to the conflict in the Middle East. The country's military is involved in the conflict, which could lead to a wider geopolitical crisis.",
+      "summary": "Israel's strategic problem has increased tensions in the Middle East, leading to potential volatility in the oil market. This could impact global economies.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Israel ETF (ISRA)"
+          "target": "iShares MSCI Israel ETF (EIS)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Israel ETF (EIS)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "VanEck Vectors Israel ETF (ISRA)"
         }
       ],
-      "reasoning": "Israel's strategic problem could lead to a decrease in its stock prices. The country's military is involved in the conflict, which could lead to a wider geopolitical crisis.",
+      "reasoning": "Israel's strategic problem has increased tensions in the Middle East, leading to potential volatility in the oil market. Buying the iShares MSCI Israel ETF (EIS) could provide exposure to potential growth, while rotating into the VanEck Vectors Israel ETF (ISRA) could diversify the portfolio and capitalize on potential gains in the Israeli market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Conflict escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor conflict developments and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when conflict is resolved",
+      "exitStrategy": "Exit positions when the conflict in the Middle East is resolved or tensions ease",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If conflict is contained",
-        "base": "+5\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If conflict escalates",
-        "stopLoss": "-5% on ISRA"
+        "conservative": "+1\u20133%",
+        "conservativeNote": "If the conflict is resolved quickly",
+        "base": "+4\u20138%",
+        "baseNote": "Most likely scenario, with moderate escalation",
+        "extended": "+12%+",
+        "extendedNote": "If the conflict escalates significantly",
+        "stopLoss": "-3% on EIS"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (safe haven bid)"
+        "Oil (inflation hedge)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Geopolitical tensions"
+        "Conflict resolution",
+        "Oil market volatility"
       ]
     },
     {
@@ -289,16 +301,16 @@
       "category": "trade",
       "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are involved in a trade dispute, which could lead to a decrease in trade between the two countries. The dispute could also lead to a wider trade war.",
+      "summary": "The US and China have imposed new tariffs on each other, leading to increased tensions in the trade war. This could impact global economies and lead to volatility in the stock market.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares China Large-Cap ETF (FXI)"
+          "target": "iShares MSCI China ETF (MCHI)"
         },
         {
           "label": "SHORT",
@@ -306,27 +318,29 @@
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US and China's trade dispute could lead to a decrease in trade between the two countries. The dispute could also lead to a wider trade war.",
+      "reasoning": "The US and China's trade war has increased tensions, leading to potential volatility in the stock market. Buying the iShares MSCI China ETF (MCHI) could provide exposure to potential growth, while shorting the SPDR S&P 500 ETF Trust (SPY) could capitalize on potential declines in the US market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Trade talks"
+        "viable": "2-4 weeks",
+        "note": "Monitor trade developments and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when trade talks are concluded",
+      "exitStrategy": "Exit positions when the US and China reach a trade agreement or tensions ease",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If trade talks are successful",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If trade war escalates",
-        "stopLoss": "-8% on FXI"
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the trade war stabilizes",
+        "base": "+6\u201310%",
+        "baseNote": "Most likely scenario, with moderate escalation",
+        "extended": "+15%+",
+        "extendedNote": "If the trade war escalates significantly",
+        "stopLoss": "-4% on MCHI"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (safe haven bid)"
+        "Oil (inflation hedge)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Trade policy"
+        "Trade agreement",
+        "Economic growth"
       ]
     },
     {
@@ -335,11 +349,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Semiconductor Crash Analysis & Outlook",
-      "summary": "The semiconductor industry is experiencing a crash, which could lead to a decrease in stock prices. The industry is facing a downturn due to oversupply and decreased demand.",
+      "summary": "The semiconductor industry has experienced a crash, leading to potential declines in the tech sector. This could impact the stock market and lead to volatility.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -347,32 +361,34 @@
           "target": "VanEck Vectors Semiconductor ETF (SMH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "The semiconductor industry's crash could lead to a decrease in stock prices. The industry is facing a downturn due to oversupply and decreased demand.",
+      "reasoning": "The semiconductor industry has experienced a crash, leading to potential declines in the tech sector. Buying the VanEck Vectors Semiconductor ETF (SMH) could provide exposure to potential growth, while rotating into the iShares PHLX Semiconductor ETF (SOXX) could diversify the portfolio and capitalize on potential gains in the semiconductor sector.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Industry outlook"
+        "viable": "2-4 weeks",
+        "note": "Monitor semiconductor industry performance and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when industry outlook improves",
+      "exitStrategy": "Exit positions when the semiconductor industry recovers or stabilizes",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If industry outlook improves",
-        "base": "+5\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If industry downturn worsens",
-        "stopLoss": "-5% on SMH"
+        "conservative": "+1\u20133%",
+        "conservativeNote": "If the semiconductor industry stabilizes",
+        "base": "+4\u20138%",
+        "baseNote": "Most likely scenario, with moderate recovery",
+        "extended": "+12%+",
+        "extendedNote": "If the semiconductor industry experiences significant growth",
+        "stopLoss": "-3% on SMH"
       },
       "adjacentMarkets": [
-        "NVIDIA Corporation (NVDA)"
+        "Tech sector",
+        "Oil (inflation hedge)"
       ],
       "otherFactors": [
-        "Tech sector performance"
+        "Semiconductor industry performance",
+        "Tech sector growth"
       ]
     },
     {
@@ -381,44 +397,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East is experiencing geopolitical instability, which could lead to a wider conflict. The instability could also lead to a decrease in oil prices and an increase in gold prices.",
+      "summary": "The Middle East has experienced increased geopolitical instability, leading to potential volatility in the oil market. This could impact global economies and lead to volatility in the stock market.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "United States Oil Fund, LP (USO)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The Middle East's geopolitical instability could lead to a wider conflict. The instability could also lead to a decrease in oil prices and an increase in gold prices.",
+      "reasoning": "The Middle East has experienced increased geopolitical instability, leading to potential volatility in the oil market. Buying the iShares MSCI Emerging Markets ETF (EEM) could provide exposure to potential growth, while shorting the SPDR S&P 500 ETF Trust (SPY) could capitalize on potential declines in the US market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Conflict escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor conflict developments and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when conflict is resolved",
+      "exitStrategy": "Exit positions when the conflict in the Middle East is resolved or tensions ease",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If conflict escalates",
-        "stopLoss": "-8% on GLD"
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the conflict is resolved quickly",
+        "base": "+6\u201310%",
+        "baseNote": "Most likely scenario, with moderate escalation",
+        "extended": "+15%+",
+        "extendedNote": "If the conflict escalates significantly",
+        "stopLoss": "-4% on EEM"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (safe haven bid)"
+        "Oil (inflation hedge)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Geopolitical tensions"
+        "Conflict resolution",
+        "Oil market volatility"
       ]
     },
     {
@@ -427,11 +445,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks are expected to increase in value due to the growing demand for AI technology. The stocks could be positively impacted by the growth of the AI industry.",
+      "summary": "AI-powered stocks have experienced significant growth, leading to potential gains in the tech sector. This could impact the stock market and lead to volatility.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "1h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -439,170 +457,34 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "AI-powered stocks are expected to increase in value due to the growing demand for AI technology. The stocks could be positively impacted by the growth of the AI industry.",
+      "reasoning": "AI-powered stocks have experienced significant growth, leading to potential gains in the tech sector. Buying NVIDIA Corporation (NVDA) could provide exposure to potential growth, while rotating into Microsoft Corporation (MSFT) could diversify the portfolio and capitalize on potential gains in the tech sector.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Earnings report"
+        "viable": "2-4 weeks",
+        "note": "Monitor AI-powered stock performance and adjust strategy accordingly"
       },
-      "exitStrategy": "Exit when earnings report is released",
+      "exitStrategy": "Exit positions when AI-powered stocks experience significant declines or stabilize",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If earnings report is neutral",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If earnings report is positive",
-        "stopLoss": "-8% on NVDA"
-      },
-      "adjacentMarkets": [
-        "Taiwan Semiconductor Manufacturing Company (TSM)"
-      ],
-      "otherFactors": [
-        "AI adoption rate"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "LOW",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "US Stock Market Today",
-      "summary": "The US stock market is experiencing a downturn due to various economic factors. The market could be impacted by the Federal Reserve's interest rate decision and the ongoing trade dispute between the US and China.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Russell 2000 ETF (IWM)"
-        }
-      ],
-      "reasoning": "The US stock market's downturn could be impacted by the Federal Reserve's interest rate decision and the ongoing trade dispute between the US and China.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Economic indicators"
-      },
-      "exitStrategy": "Exit when economic indicators improve",
-      "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If economic indicators improve",
-        "base": "+5\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If economic downturn worsens",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds (safe haven bid)"
-      ],
-      "otherFactors": [
-        "Federal Reserve policy"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "MED",
-      "category": "trade",
-      "catLabel": "Trade",
-      "title": "New US Tariffs",
-      "summary": "The US has imposed new tariffs on various countries, which could lead to a trade war. The tariffs could impact the stock market and the economy.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "The new US tariffs could lead to a trade war, which could impact the stock market and the economy.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Trade talks"
-      },
-      "exitStrategy": "Exit when trade talks are concluded",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If trade talks are successful",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If trade war escalates",
-        "stopLoss": "-8% on ITA"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds (safe haven bid)"
-      ],
-      "otherFactors": [
-        "Trade policy"
-      ]
-    },
-    {
-      "id": 13,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Korea-US Tech Giants Ink $950B Semiconductor-AI Pact",
-      "summary": "Korea and US tech giants have signed a $950 billion semiconductor-AI pact, which could lead to an increase in the value of AI-powered stocks. The pact could also lead to an increase in the adoption of AI technology.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
-        }
-      ],
-      "reasoning": "The Korea-US tech giants' pact could lead to an increase in the value of AI-powered stocks and an increase in the adoption of AI technology.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Earnings report"
-      },
-      "exitStrategy": "Exit when earnings report is released",
-      "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If earnings report is neutral",
-        "base": "+5\u201310%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If earnings report is positive",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the tech sector experiences moderate growth",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario, with significant growth in the tech sector",
+        "extended": "+18%+",
+        "extendedNote": "If AI-powered stocks experience exceptional growth",
         "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Taiwan Semiconductor Manufacturing Company (TSM)"
+        "Tech sector",
+        "Oil (inflation hedge)"
       ],
       "otherFactors": [
-        "AI adoption rate"
+        "AI adoption rates",
+        "Tech sector growth"
       ]
     }
   ]
