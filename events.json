@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T19:35:29Z",
+  "lastUpdated": "2026-07-27T23:03:20Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,46 +13,45 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran Conflict Escalation",
-      "summary": "The Iran war has shown the military strength of the US, but also its waning geopolitical power. The conflict has become a war of military, economy, and geopolitics. The Middle East is a powder keg of geopolitical instability, strategic rivalries, and the specter of regional war.",
+      "summary": "The Iran war has sparked a geopolitical crisis, with the US, UK, and Israel involved. The conflict is expected to impact global oil prices and markets. The situation is highly volatile, with multiple scenarios possible.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
           "label": "SHORT",
           "cls": "short",
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        },
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The conflict in Iran has the potential to escalate and spread to other countries in the Middle East, leading to a significant increase in oil prices and a decrease in emerging market stocks. Gold is a safe-haven asset that tends to perform well in times of geopolitical uncertainty.",
+      "reasoning": "The conflict in Iran is likely to lead to increased volatility in global markets. The US and its allies may impose sanctions, which could impact emerging markets. A buy signal is generated for the SPDR S&P 500 ETF Trust, while a short signal is generated for the iShares MSCI Emerging Markets ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor oil prices and geopolitical developments"
       },
-      "exitStrategy": "Close the position if the conflict de-escalates or if the US and Iran reach a peace agreement",
+      "exitStrategy": "Exit if oil prices drop below $60 or if a ceasefire is announced",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict remains contained",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates and spreads to other countries",
-        "stopLoss": "-8% on EEM"
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Treasury Bonds (TLT)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations",
-        "Middle East geopolitical stability"
+        "Oil prices",
+        "US-Iran relations"
       ]
     },
     {
@@ -61,11 +60,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is likely to hold interest rates steady, but an interest rate hike is not off the table. The Fed's new chairman faces his biggest test yet, and the decision will have a significant impact on the US economy and financial markets.",
+      "summary": "The Federal Reserve is expected to hold interest rates steady, but an interest rate hike is not off the table. The decision will impact the US economy and markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -75,32 +74,31 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "If the Fed holds interest rates steady, it will be a positive sign for the US economy and financial markets. However, if the Fed raises interest rates, it will be a negative sign for the economy and markets. Bonds tend to perform well in a low-interest-rate environment, while stocks tend to perform poorly in a high-interest-rate environment.",
+      "reasoning": "A hold on interest rates is expected, but a hike is possible. This could lead to increased volatility in bond markets. A buy signal is generated for the Vanguard Total Bond Market Index Fund, while a short signal is generated for the iShares 20+ Year Treasury Bond ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the Fed's decision and adjust the position as needed"
+        "note": "Monitor inflation data and economic indicators"
       },
-      "exitStrategy": "Close the position if the Fed raises interest rates or if the US economy shows signs of slowing down",
+      "exitStrategy": "Exit if interest rates are hiked or if inflation data surprises",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If the Fed holds interest rates steady",
+        "conservativeNote": "If interest rates are held steady",
         "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the Fed cuts interest rates",
-        "stopLoss": "-5% on SPY"
+        "extendedNote": "If interest rates are hiked",
+        "stopLoss": "-5% on VBTLX"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)",
-        "Dollar Index (DX)"
+        "US Dollar Index"
       ],
       "otherFactors": [
-        "US economic growth",
-        "Inflation rate"
+        "Inflation data",
+        "Economic indicators"
       ]
     },
     {
@@ -109,11 +107,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA has partnered with Silvaco to advance AI-powered semiconductor digital twins. The partnership has the potential to revolutionize the semiconductor industry and drive growth for NVIDIA and other AI-powered stocks.",
+      "summary": "NVIDIA has partnered with Silvaco to advance AI-powered semiconductor digital twins. This could lead to increased demand for NVIDIA's AI chips.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -121,34 +119,33 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The partnership between NVIDIA and Silvaco has the potential to drive growth for NVIDIA and other AI-powered stocks. The semiconductor industry is a key driver of the technology sector, and AI-powered stocks tend to perform well in a growth-oriented market.",
+      "reasoning": "The partnership between NVIDIA and Silvaco could lead to increased demand for NVIDIA's AI chips. A buy signal is generated for NVIDIA Corporation, while a short signal is generated for Advanced Micro Devices, Inc.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the partnership's progress and adjust the position as needed"
+        "note": "Monitor AI chip demand and NVIDIA's earnings"
       },
-      "exitStrategy": "Close the position if the partnership fails to deliver or if the semiconductor industry experiences a downturn",
+      "exitStrategy": "Exit if NVIDIA's earnings disappoint or if AI chip demand slows",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the partnership drives moderate growth",
-        "base": "+15\u201320%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If AI chip demand increases",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the partnership drives significant growth",
-        "stopLoss": "-10% on NVDA"
+        "extendedNote": "If NVIDIA's earnings surprise",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)",
-        "Growth stocks (QQQ)"
+        "Technology sector"
       ],
       "otherFactors": [
-        "Semiconductor industry trends",
-        "AI adoption rate"
+        "AI chip demand",
+        "NVIDIA's earnings"
       ]
     },
     {
@@ -157,11 +154,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate has been steady, but there are concerns about a potential increase in inflation due to the ongoing conflict in the Middle East and the US-China trade war.",
-      "fresh": false,
-      "freshLabel": "1w ago",
+      "summary": "The US inflation rate is expected to remain steady, but a surprise increase could impact markets.",
+      "fresh": true,
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -171,32 +168,31 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "If the US inflation rate increases, it will be a negative sign for the US economy and financial markets. TIPS bonds tend to perform well in an inflationary environment, while stocks tend to perform poorly.",
+      "reasoning": "A steady inflation rate is expected, but a surprise increase could lead to increased volatility in bond markets. A buy signal is generated for the iShares TIPS Bond ETF, while a short signal is generated for the iShares Core US Aggregate Bond ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the inflation rate and adjust the position as needed"
+        "note": "Monitor inflation data and economic indicators"
       },
-      "exitStrategy": "Close the position if the inflation rate decreases or if the US economy shows signs of slowing down",
+      "exitStrategy": "Exit if inflation data surprises or if interest rates are hiked",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If the inflation rate remains steady",
+        "conservativeNote": "If inflation rate remains steady",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the inflation rate increases significantly",
-        "stopLoss": "-5% on TIP"
+        "extendedNote": "If inflation rate surprises",
+        "stopLoss": "-3% on TIP"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)",
-        "Dollar Index (DX)"
+        "US Dollar Index"
       ],
       "otherFactors": [
-        "US economic growth",
-        "Monetary policy"
+        "Inflation data",
+        "Economic indicators"
       ]
     },
     {
@@ -205,59 +201,58 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Geopolitical Instability in the Middle East",
-      "summary": "The Middle East is a powder keg of geopolitical instability, strategic rivalries, and the specter of regional war. The conflict in Iran has the potential to escalate and spread to other countries in the region.",
+      "summary": "The Middle East is experiencing increased geopolitical instability, with multiple conflicts and tensions rising. This could lead to increased volatility in oil prices and markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
         {
           "label": "SHORT",
           "cls": "short",
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        },
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The conflict in the Middle East has the potential to escalate and spread to other countries in the region, leading to a significant increase in oil prices and a decrease in emerging market stocks. Gold is a safe-haven asset that tends to perform well in times of geopolitical uncertainty.",
+      "reasoning": "The increased geopolitical instability in the Middle East could lead to increased volatility in oil prices and markets. A buy signal is generated for the SPDR S&P 500 ETF Trust, while a short signal is generated for the iShares MSCI Emerging Markets ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor oil prices and geopolitical developments"
       },
-      "exitStrategy": "Close the position if the conflict de-escalates or if the US and Iran reach a peace agreement",
+      "exitStrategy": "Exit if oil prices drop below $60 or if a ceasefire is announced",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict remains contained",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates and spreads to other countries",
-        "stopLoss": "-8% on EEM"
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Treasury Bonds (TLT)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations",
-        "Middle East geopolitical stability"
+        "Oil prices",
+        "US-Iran relations"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "trade",
+      "catLabel": "Trade",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are seeking to repair damage from the tariff war that sent trade into a freefall. The two countries are working to reach a trade agreement, but there are concerns about the potential for further escalation.",
-      "fresh": false,
-      "freshLabel": "1w ago",
+      "summary": "The US and China are seeking to repair damage from the tariff war, but tensions remain high. This could lead to increased volatility in trade-related markets.",
+      "fresh": true,
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -267,32 +262,31 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares US Aerospace & Defense ETF (ITA)"
         }
       ],
-      "reasoning": "If the US and China reach a trade agreement, it will be a positive sign for the global economy and financial markets. Chinese stocks tend to perform well in a growth-oriented market, while US stocks tend to perform poorly in a trade war.",
+      "reasoning": "The US and China are seeking to repair damage from the tariff war, but tensions remain high. A buy signal is generated for the iShares China Large-Cap ETF, while a short signal is generated for the iShares US Aerospace & Defense ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the trade talks and adjust the position as needed"
+        "note": "Monitor trade developments and economic indicators"
       },
-      "exitStrategy": "Close the position if the trade talks break down or if the US and China impose further tariffs",
+      "exitStrategy": "Exit if trade tensions escalate or if economic indicators disappoint",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If the trade talks remain ongoing",
+        "conservativeNote": "If trade tensions remain steady",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the US and China reach a trade agreement",
-        "stopLoss": "-5% on FXI"
+        "extendedNote": "If trade tensions ease",
+        "stopLoss": "-3% on FXI"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)",
-        "Dollar Index (DX)"
+        "US Dollar Index"
       ],
       "otherFactors": [
-        "US economic growth",
-        "Global trade trends"
+        "Trade developments",
+        "Economic indicators"
       ]
     },
     {
@@ -301,11 +295,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks have been performing well due to the growing demand for artificial intelligence and machine learning. NVIDIA and other AI-powered stocks have been leading the charge.",
+      "summary": "AI-powered stocks are experiencing increased demand, with NVIDIA and other companies leading the charge. This could lead to increased volatility in technology markets.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -313,82 +307,80 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "AI-powered stocks have been performing well due to the growing demand for artificial intelligence and machine learning. NVIDIA and other AI-powered stocks have been leading the charge, and the trend is expected to continue.",
+      "reasoning": "AI-powered stocks are experiencing increased demand, with NVIDIA and other companies leading the charge. A buy signal is generated for NVIDIA Corporation, while a short signal is generated for Advanced Micro Devices, Inc.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the trend and adjust the position as needed"
+        "note": "Monitor AI chip demand and NVIDIA's earnings"
       },
-      "exitStrategy": "Close the position if the trend reverses or if the AI-powered stocks experience a downturn",
+      "exitStrategy": "Exit if NVIDIA's earnings disappoint or if AI chip demand slows",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15\u201320%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If AI chip demand increases",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-10% on NVDA"
+        "extendedNote": "If NVIDIA's earnings surprise",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector (XLK)",
-        "Growth stocks (QQQ)"
+        "Technology sector"
       ],
       "otherFactors": [
-        "AI adoption rate",
-        "Semiconductor industry trends"
+        "AI chip demand",
+        "NVIDIA's earnings"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
+      "category": "trade",
+      "catLabel": "Trade",
       "title": "US Tariff Announcements",
-      "summary": "The US has been imposing tariffs on various countries, including China, in an effort to protect its trade interests. The tariffs have had a significant impact on the global economy and financial markets.",
-      "fresh": false,
-      "freshLabel": "1w ago",
+      "summary": "The US is expected to announce new tariffs, which could lead to increased volatility in trade-related markets.",
+      "fresh": true,
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "iShares US Aerospace & Defense ETF (ITA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares China Large-Cap ETF (FXI)"
         }
       ],
-      "reasoning": "The US tariffs have had a negative impact on the global economy and financial markets. If the US imposes further tariffs, it will be a negative sign for the US economy and financial markets. Bonds tend to perform well in a low-growth environment, while stocks tend to perform poorly.",
+      "reasoning": "The US is expected to announce new tariffs, which could lead to increased volatility in trade-related markets. A buy signal is generated for the iShares US Aerospace & Defense ETF, while a short signal is generated for the iShares China Large-Cap ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the tariff announcements and adjust the position as needed"
+        "note": "Monitor trade developments and economic indicators"
       },
-      "exitStrategy": "Close the position if the US removes the tariffs or if the global economy shows signs of recovering",
+      "exitStrategy": "Exit if trade tensions escalate or if economic indicators disappoint",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If the tariffs remain in place",
+        "conservativeNote": "If trade tensions remain steady",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the US imposes further tariffs",
-        "stopLoss": "-5% on SPY"
+        "extendedNote": "If trade tensions ease",
+        "stopLoss": "-3% on ITA"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)",
-        "Dollar Index (DX)"
+        "US Dollar Index"
       ],
       "otherFactors": [
-        "US economic growth",
-        "Global trade trends"
+        "Trade developments",
+        "Economic indicators"
       ]
     },
     {
@@ -397,16 +389,16 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel is facing a strategic problem due to the conflict in the Middle East and the growing threat from Iran. The country is seeking to protect its interests and maintain its security.",
+      "summary": "Israel is facing a strategic problem, with multiple threats and challenges rising. This could lead to increased volatility in Middle Eastern markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
@@ -414,29 +406,28 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in the Middle East and the growing threat from Iran have created a strategic problem for Israel. The country is seeking to protect its interests and maintain its security, which may lead to an increase in gold prices and a decrease in emerging market stocks.",
+      "reasoning": "Israel is facing a strategic problem, with multiple threats and challenges rising. A buy signal is generated for the SPDR S&P 500 ETF Trust, while a short signal is generated for the iShares MSCI Emerging Markets ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor oil prices and geopolitical developments"
       },
-      "exitStrategy": "Close the position if the conflict de-escalates or if Israel reaches a peace agreement with its neighbors",
+      "exitStrategy": "Exit if oil prices drop below $60 or if a ceasefire is announced",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict remains contained",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates and spreads to other countries",
-        "stopLoss": "-8% on EEM"
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Oil (WTI)",
-        "US Treasury Bonds (TLT)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-Iran diplomatic relations",
-        "Middle East geopolitical stability"
+        "Oil prices",
+        "US-Iran relations"
       ]
     },
     {
@@ -445,11 +436,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve\u2019s New Chairman Faces His Biggest Test Yet",
-      "summary": "The Federal Reserve's new chairman is facing his biggest test yet as he navigates the US economy and financial markets. The chairman's decisions will have a significant impact on the US economy and financial markets.",
-      "fresh": false,
-      "freshLabel": "1w ago",
+      "summary": "The Federal Reserve's new chairman is facing his biggest test yet, with the US economy and markets hanging in the balance. This could lead to increased volatility in financial markets.",
+      "fresh": true,
+      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -459,32 +450,31 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Federal Reserve's new chairman is facing his biggest test yet as he navigates the US economy and financial markets. The chairman's decisions will have a significant impact on the US economy and financial markets. Bonds tend to perform well in a low-interest-rate environment, while stocks tend to perform poorly.",
+      "reasoning": "The Federal Reserve's new chairman is facing his biggest test yet, with the US economy and markets hanging in the balance. A buy signal is generated for the Vanguard Total Bond Market Index Fund, while a short signal is generated for the iShares 20+ Year Treasury Bond ETF.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the chairman's decisions and adjust the position as needed"
+        "note": "Monitor inflation data and economic indicators"
       },
-      "exitStrategy": "Close the position if the chairman's decisions lead to a significant increase in interest rates or if the US economy shows signs of slowing down",
+      "exitStrategy": "Exit if interest rates are hiked or if inflation data surprises",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If the chairman's decisions are neutral",
+        "conservativeNote": "If interest rates are held steady",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the chairman's decisions lead to a decrease in interest rates",
-        "stopLoss": "-5% on SPY"
+        "extendedNote": "If interest rates are hiked",
+        "stopLoss": "-3% on VBTLX"
       },
       "adjacentMarkets": [
-        "US Treasury Bonds (TLT)",
-        "Dollar Index (DX)"
+        "US Dollar Index"
       ],
       "otherFactors": [
-        "US economic growth",
-        "Monetary policy"
+        "Inflation data",
+        "Economic indicators"
       ]
     }
   ]
