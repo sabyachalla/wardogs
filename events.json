@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T14:10:14Z",
+  "lastUpdated": "2026-07-28T18:15:22Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran Conflict Escalation",
-      "summary": "The Iran war has shown the military strength of the US, but also its waning geopolitical power. The conflict has led to a rise in tensions in the Middle East, with potential implications for global oil prices and trade.",
+      "summary": "The Iran conflict is escalating, with the US and its allies involved. This could lead to increased volatility in the oil market and potentially impact global economic stability.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -30,20 +30,20 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran has led to increased volatility in global markets, with potential implications for oil prices and trade. A rise in tensions could lead to a flight to safety, benefiting US stocks, while emerging markets may be negatively impacted.",
+      "reasoning": "The conflict in Iran has the potential to disrupt global oil supplies, leading to increased prices and volatility. This could have a negative impact on emerging markets, making them a potential short opportunity. On the other hand, the US market may be more resilient, making it a potential buy opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor oil prices and trade developments"
+        "note": "Monitor oil prices and conflict developments"
       },
-      "exitStrategy": "Exit if oil prices stabilize or trade tensions ease",
+      "exitStrategy": "Exit if oil prices drop below $60 or if the conflict de-escalates",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict is contained",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If conflict escalates",
+        "extendedNote": "If the conflict escalates and oil prices surge",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
@@ -51,16 +51,17 @@
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US interest rates",
+        "Global economic stability"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economic",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is likely to hold interest rates steady, but an interest rate hike is not off the table. The decision will have implications for the US economy and global markets.",
+      "summary": "The Federal Reserve is expected to hold interest rates steady, but there is a chance of a rate hike. This could impact the US economy and markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -69,35 +70,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Bond Market ETF (BND)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A hold on interest rates could lead to a rally in bonds, while a hike could lead to a sell-off. The decision will have implications for the US economy and global markets.",
+      "reasoning": "If the Federal Reserve holds interest rates steady, it could lead to a decrease in bond yields, making long-term bonds a potential buy opportunity. On the other hand, if the Fed raises interest rates, it could lead to a decrease in stock prices, making them a potential short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation and economic data"
+        "note": "Monitor Fed announcements and economic data"
       },
-      "exitStrategy": "Exit if interest rates are hiked or economic data improves",
+      "exitStrategy": "Exit if interest rates are cut or if the economy shows signs of slowing",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If rates are held steady",
+        "conservativeNote": "If interest rates are held steady",
         "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If rates are cut",
-        "stopLoss": "-5% on BND"
+        "extendedNote": "If interest rates are raised and the economy slows",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US Dollar (DXY)"
+        "US Treasury bonds",
+        "Dollar index"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation rates",
+        "US economic growth"
       ]
     },
     {
@@ -106,7 +109,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks have been impacted by the chip sell-off, but the company's partnership with Silvaco could lead to advancements in AI-powered semiconductor design.",
+      "summary": "NVIDIA's AI semiconductor stocks have been volatile due to the US-China trade tensions and the global chip shortage.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -123,36 +126,38 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The partnership between NVIDIA and Silvaco could lead to advancements in AI-powered semiconductor design, benefiting NVIDIA's stock. The chip sell-off has created a buying opportunity for NVIDIA.",
+      "reasoning": "NVIDIA's AI semiconductor stocks have the potential to benefit from the growing demand for AI and machine learning technologies. However, the US-China trade tensions and the global chip shortage pose a risk to the company's supply chain and sales.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI and semiconductor trends"
+        "note": "Monitor trade tensions and chip supply"
       },
-      "exitStrategy": "Exit if AI trends slow or semiconductor competition increases",
+      "exitStrategy": "Exit if trade tensions ease or if the chip shortage is resolved",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If AI trends continue",
+        "conservativeNote": "If trade tensions ease",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If NVIDIA's partnership with Silvaco leads to significant advancements",
+        "extendedNote": "If the chip shortage worsens and NVIDIA benefits",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-Powered Stocks"
+        "US tech stocks",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "Semiconductor trends"
+        "US-China trade relations",
+        "Global chip supply"
       ]
     },
     {
       "id": 4,
       "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economic",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate has been steady, but the Federal Reserve's interest rate decision could impact inflation expectations.",
+      "summary": "The US inflation rate has been steady, but there are concerns about potential inflationary pressures due to the growing economy and labor market.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -166,30 +171,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "A rise in inflation expectations could lead to a rally in TIPS bonds, while a decrease could lead to a sell-off. The Federal Reserve's interest rate decision will have implications for inflation expectations.",
+      "reasoning": "If the US inflation rate increases, it could lead to a decrease in the value of gold and other precious metals, making them a potential short opportunity. On the other hand, Treasury Inflation-Protected Securities (TIPS) could benefit from inflation, making them a potential buy opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data"
+        "note": "Monitor inflation data and economic growth"
       },
-      "exitStrategy": "Exit if inflation expectations change",
+      "exitStrategy": "Exit if inflation rates decrease or if the economy slows",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If inflation expectations remain steady",
+        "conservativeNote": "If inflation rates remain steady",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If inflation expectations rise",
+        "extendedNote": "If inflation rates increase and TIPS benefit",
         "stopLoss": "-5% on TIP"
       },
       "adjacentMarkets": [
-        "US Dollar (DXY)"
+        "US Treasury bonds",
+        "Dollar index"
       ],
       "otherFactors": [
-        "Federal Reserve's interest rate decision"
+        "US economic growth",
+        "Labor market conditions"
       ]
     },
     {
@@ -198,11 +205,59 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Geopolitical Instability in the Middle East",
-      "summary": "The conflict in Iran has led to increased tensions in the Middle East, with potential implications for global oil prices and trade.",
+      "summary": "The Middle East region has been experiencing increased geopolitical instability due to the conflict in Iran and other regional tensions.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI EAFE ETF (EFA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The geopolitical instability in the Middle East could lead to a decrease in investor confidence in emerging markets, making them a potential short opportunity. On the other hand, developed markets in Europe and Asia may be more resilient, making them a potential buy opportunity.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor regional tensions and conflict developments"
+      },
+      "exitStrategy": "Exit if the conflict de-escalates or if regional tensions ease",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates and emerging markets are negatively impacted",
+        "stopLoss": "-10% on EFA"
+      },
+      "adjacentMarkets": [
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic stability"
+      ]
+    },
+    {
+      "id": 6,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economic",
+      "title": "US-China Trade Relations",
+      "summary": "The US-China trade relations have been tense due to the ongoing trade war and tariffs imposed by both countries.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -212,77 +267,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The conflict in Iran has led to increased volatility in global markets, with potential implications for oil prices and trade. A rise in tensions could lead to a flight to safety, benefiting US stocks, while emerging markets may be negatively impacted.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor oil prices and trade developments"
-      },
-      "exitStrategy": "Exit if oil prices stabilize or trade tensions ease",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If conflict escalates",
-        "stopLoss": "-8% on SPY"
-      },
-      "adjacentMarkets": [
-        "Oil (WTI)",
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "US-China trade relations"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "LOW",
-      "category": "trade",
-      "catLabel": "Trade",
-      "title": "US-China Trade Relations",
-      "summary": "The US and China have been engaged in a trade war, with potential implications for global trade and economic growth.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares Core S&P Total US Stock Market ETF (ITOT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
           "target": "iShares MSCI China ETF (MCHI)"
         }
       ],
-      "reasoning": "A resolution to the trade war could lead to a rally in US stocks, while a escalation could lead to a sell-off. The trade war has created uncertainty for global trade and economic growth.",
+      "reasoning": "If the US-China trade relations improve, it could lead to an increase in investor confidence in the US market, making it a potential buy opportunity. On the other hand, the Chinese market may be negatively impacted by the trade war, making it a potential short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade developments"
+        "note": "Monitor trade developments and economic data"
       },
-      "exitStrategy": "Exit if trade war is resolved or escalates",
+      "exitStrategy": "Exit if trade tensions ease or if the US economy slows",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If trade war is resolved",
+        "conservativeNote": "If trade tensions remain steady",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If trade war escalates",
-        "stopLoss": "-5% on ITOT"
+        "extendedNote": "If trade tensions increase and the US market benefits",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US Dollar (DXY)"
+        "US Treasury bonds",
+        "Dollar index"
       ],
       "otherFactors": [
-        "Global economic growth"
+        "US economic growth",
+        "Chinese economic growth"
       ]
     },
     {
@@ -291,7 +301,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks have been impacted by the chip sell-off, but the trend towards AI adoption continues to grow.",
+      "summary": "AI-powered stocks have been gaining traction due to the growing demand for artificial intelligence and machine learning technologies.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -308,86 +318,42 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The trend towards AI adoption continues to grow, benefiting AI-powered stocks. The chip sell-off has created a buying opportunity for NVIDIA.",
+      "reasoning": "AI-powered stocks have the potential to benefit from the growing demand for AI and machine learning technologies. NVIDIA is a leader in the field and may benefit from the trend.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI trends"
+        "note": "Monitor AI trends and industry developments"
       },
-      "exitStrategy": "Exit if AI trends slow or semiconductor competition increases",
+      "exitStrategy": "Exit if AI trends slow or if NVIDIA faces increased competition",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If AI trends continue",
+        "conservativeNote": "If AI trends remain steady",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If NVIDIA's partnership with Silvaco leads to significant advancements",
+        "extendedNote": "If AI trends accelerate and NVIDIA benefits",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Semiconductor Stocks"
+        "US tech stocks",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "AI adoption trends"
+        "US-China trade relations",
+        "Global tech trends"
       ]
     },
     {
       "id": 8,
       "rank": "LOW",
-      "category": "trade",
-      "catLabel": "Trade",
+      "category": "econ",
+      "catLabel": "Economic",
       "title": "US Tariff Announcements",
-      "summary": "The US has announced tariffs on Chinese goods, with potential implications for global trade and economic growth.",
+      "summary": "The US has been imposing tariffs on various countries, including China, which has led to a trade war and economic tensions.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares Core S&P Total US Stock Market ETF (ITOT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI China ETF (MCHI)"
-        }
-      ],
-      "reasoning": "A resolution to the trade war could lead to a rally in US stocks, while a escalation could lead to a sell-off. The trade war has created uncertainty for global trade and economic growth.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor trade developments"
-      },
-      "exitStrategy": "Exit if trade war is resolved or escalates",
-      "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade war is resolved",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade war escalates",
-        "stopLoss": "-5% on ITOT"
-      },
-      "adjacentMarkets": [
-        "US Dollar (DXY)"
-      ],
-      "otherFactors": [
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel's strategic problem has been impacted by the conflict in Iran, with potential implications for regional stability.",
-      "fresh": true,
-      "freshLabel": "1h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -400,37 +366,86 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran has led to increased volatility in global markets, with potential implications for regional stability. A rise in tensions could lead to a flight to safety, benefiting US stocks, while emerging markets may be negatively impacted.",
+      "reasoning": "If the US tariff announcements lead to a trade war, it could negatively impact emerging markets, making them a potential short opportunity. On the other hand, the US market may be more resilient, making it a potential buy opportunity.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor trade developments and economic data"
+      },
+      "exitStrategy": "Exit if trade tensions ease or if the US economy slows",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If trade tensions remain steady",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If trade tensions increase and the US market benefits",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds",
+        "Dollar index"
+      ],
+      "otherFactors": [
+        "US economic growth",
+        "Global trade trends"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Israel\u2019s Strategic Problem",
+      "summary": "Israel is facing a strategic problem due to the conflict in the Middle East and the rise of Iran as a regional power.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI Israel ETF (EIS)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Turkey ETF (TUR)"
+        }
+      ],
+      "reasoning": "Israel is a key player in the Middle East and its strategic problem could lead to increased tensions in the region. The Israeli market may be more resilient than the Turkish market, making it a potential buy opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor regional stability"
+        "note": "Monitor regional tensions and conflict developments"
       },
-      "exitStrategy": "Exit if regional stability improves or tensions ease",
+      "exitStrategy": "Exit if the conflict de-escalates or if regional tensions ease",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict is contained",
+        "conservativeNote": "If the conflict is contained",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If conflict escalates",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the conflict escalates and Israel benefits",
+        "stopLoss": "-10% on EIS"
       },
       "adjacentMarkets": [
         "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-China trade relations"
+        "US interest rates",
+        "Global economic stability"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economic",
       "title": "Federal Reserve\u2019s New Chairman Faces His Biggest Test Yet",
-      "summary": "The Federal Reserve's new chairman faces his biggest test yet, with potential implications for the US economy and global markets.",
+      "summary": "The Federal Reserve's new chairman is facing his biggest test yet as he navigates the US economy and monetary policy.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -439,35 +454,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Bond Market ETF (BND)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A hold on interest rates could lead to a rally in bonds, while a hike could lead to a sell-off. The Federal Reserve's interest rate decision will have implications for the US economy and global markets.",
+      "reasoning": "The Federal Reserve's new chairman may face challenges in navigating the US economy and monetary policy. If he is successful, it could lead to a decrease in bond yields, making long-term bonds a potential buy opportunity. On the other hand, if he fails, it could lead to a decrease in stock prices, making them a potential short opportunity.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation and economic data"
+        "note": "Monitor Fed announcements and economic data"
       },
-      "exitStrategy": "Exit if interest rates are hiked or economic data improves",
+      "exitStrategy": "Exit if interest rates are cut or if the economy shows signs of slowing",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If rates are held steady",
+        "conservativeNote": "If interest rates remain steady",
         "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If rates are cut",
-        "stopLoss": "-5% on BND"
+        "extendedNote": "If interest rates are raised and the economy slows",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "US Dollar (DXY)"
+        "US Treasury bonds",
+        "Dollar index"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "Inflation rates",
+        "US economic growth"
       ]
     }
   ]
