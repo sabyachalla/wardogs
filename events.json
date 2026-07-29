@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T03:28:09Z",
+  "lastUpdated": "2026-07-29T06:32:08Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "eco",
       "catLabel": "Economy",
       "title": "Fed Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to hold interest rates steady, but inflation fears may lead to a hawkish tone. This could impact the US economy and markets.",
+      "summary": "The Federal Reserve is expected to hold interest rates steady, but a hawkish tone could impact markets. Investors are bracing for a potential interest rate hike, which could lead to increased volatility.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,36 +22,40 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Invesco PowerShares High Yield Equity Dividend Achievers ETF (PEY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "ProShares Short S&P500 (SH)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "The Fed's decision will have a significant impact on the US economy and markets. A hawkish tone could lead to a sell-off in bonds and a rally in stocks.",
+      "reasoning": "The Fed's decision will have a significant impact on the market, and a hawkish tone could lead to increased volatility. Buying high-yield dividend stocks and shorting the S&P 500 could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Watch for inflation data and Fed speeches"
+        "note": "Interest rate decision"
       },
-      "exitStrategy": "Exit if the Fed raises interest rates or inflation exceeds 3%",
+      "exitStrategy": "Exit when the Fed announces a rate hike or cut",
       "gains": {
-        "conservative": "+5-8%",
+        "conservative": "+5\u20138%",
         "conservativeNote": "If the Fed holds rates steady",
-        "base": "+12-18%",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the Fed adopts a hawkish tone",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the Fed raises rates",
+        "stopLoss": "-8% on PEY"
       },
       "adjacentMarkets": [
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Inflation data",
-        "Fed speeches"
+        "Inflation rate"
       ]
     },
     {
@@ -60,11 +64,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's partnership with Silvaco and TSMC is expected to advance AI-powered semiconductor design and manufacturing. This could lead to a rally in AI-related stocks.",
+      "summary": "NVIDIA's partnership with Silvaco to advance AI-powered semiconductor design and manufacturing could lead to increased demand for AI chips.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -72,51 +76,50 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's partnerships and advancements in AI-powered semiconductor design and manufacturing could lead to a rally in AI-related stocks.",
+      "reasoning": "NVIDIA's partnership with Silvaco could lead to increased demand for AI chips, making NVIDIA a good buy. Shorting AMD could also be profitable as it competes with NVIDIA in the AI chip market.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Watch for earnings reports and industry trends"
+        "viable": "4-8 weeks",
+        "note": "NVIDIA's earnings report"
       },
-      "exitStrategy": "Exit if NVIDIA's stock price exceeds $500 or the semiconductor industry experiences a downturn",
+      "exitStrategy": "Exit when NVIDIA's earnings report is released",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If NVIDIA's partnerships yield positive results",
-        "base": "+15-20%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If NVIDIA's earnings report is neutral",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If the AI semiconductor industry experiences a significant rally",
-        "stopLoss": "-10% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If NVIDIA's earnings report is positive",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AMD (competitor)"
+        "AI-powered stocks"
       ],
       "otherFactors": [
-        "Earnings reports",
-        "Industry trends"
+        "AI adoption rate"
       ]
     },
     {
       "id": 3,
-      "rank": "HIGH",
+      "rank": "MED",
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran Conflict Escalation",
-      "summary": "The conflict between the US and Iran is escalating, which could lead to a significant impact on global markets and economies.",
+      "summary": "The conflict between the US and Iran could lead to increased volatility in the market, especially in the energy sector.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "HIGH",
-      "window": "Active now \u2014 2-4 week horizon",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "SPDR S&P 500 Energy ETF (XLE)"
         },
         {
           "label": "SHORT",
@@ -124,41 +127,40 @@
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The escalating conflict between the US and Iran could lead to a safe-haven bid for gold and a sell-off in emerging markets.",
+      "reasoning": "The conflict between the US and Iran could lead to increased volatility in the energy sector, making energy stocks a good buy. Shorting emerging markets could also be profitable as they are often affected by geopolitical tensions.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Watch for diplomatic developments and military actions"
+        "viable": "4-8 weeks",
+        "note": "Conflict escalation"
       },
-      "exitStrategy": "Exit if a ceasefire is announced or the conflict de-escalates",
+      "exitStrategy": "Exit when the conflict is resolved",
       "gains": {
-        "conservative": "+10-15%",
-        "conservativeNote": "If the conflict escalates further",
-        "base": "+20-25%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+35%+",
-        "extendedNote": "If the conflict leads to a significant global economic downturn",
-        "stopLoss": "-12% on GLD"
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates",
+        "stopLoss": "-8% on XLE"
       },
       "adjacentMarkets": [
-        "Oil (energy prices)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Diplomatic developments",
-        "Military actions"
+        "Oil prices"
       ]
     },
     {
       "id": 4,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "eco",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate is expected to rise, which could impact the economy and markets.",
+      "summary": "The US inflation rate could impact the market, especially if it exceeds expectations.",
       "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -171,28 +173,27 @@
           "target": "iShares Core US Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "A rising inflation rate could lead to a rally in TIPS bonds and a sell-off in aggregate bonds.",
+      "reasoning": "The US inflation rate could impact the market, especially if it exceeds expectations. Buying TIPS bonds and shorting aggregate bonds could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Watch for inflation data and Fed speeches"
+        "viable": "4-8 weeks",
+        "note": "Inflation rate announcement"
       },
-      "exitStrategy": "Exit if the inflation rate exceeds 3% or the Fed raises interest rates",
+      "exitStrategy": "Exit when the inflation rate is announced",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the inflation rate rises moderately",
-        "base": "+10-12%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the inflation rate is in line with expectations",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
-        "extended": "+18%+",
-        "extendedNote": "If the inflation rate rises significantly",
-        "stopLoss": "-8% on TIP"
+        "extended": "+10%+",
+        "extendedNote": "If the inflation rate exceeds expectations",
+        "stopLoss": "-4% on TIP"
       },
       "adjacentMarkets": [
-        "Commodities (inflation hedge)"
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Inflation data",
-        "Fed speeches"
+        "Monetary policy"
       ]
     },
     {
@@ -201,45 +202,44 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks are expected to rally due to advancements in AI technology and increasing demand.",
+      "summary": "AI-powered stocks could be impacted by the increasing adoption of AI technology.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Global X Robotics & Artificial Intelligence ETF (BOTZ)"
+          "target": "Microsoft Corporation (MSFT)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "First Trust Dow Jones Internet Index Fund (FDN)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Alphabet Inc. (GOOGL)"
         }
       ],
-      "reasoning": "AI-powered stocks are expected to rally due to advancements in AI technology and increasing demand.",
+      "reasoning": "AI-powered stocks could be impacted by the increasing adoption of AI technology. Buying Microsoft and shorting Alphabet could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Watch for earnings reports and industry trends"
+        "viable": "4-8 weeks",
+        "note": "AI adoption rate"
       },
-      "exitStrategy": "Exit if AI-powered stocks experience a significant downturn or the technology industry experiences a decline",
+      "exitStrategy": "Exit when the AI adoption rate slows down",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If AI-powered stocks rally moderately",
-        "base": "+15-20%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the AI adoption rate is steady",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If AI-powered stocks experience a significant rally",
-        "stopLoss": "-10% on BOTZ"
+        "extendedNote": "If the AI adoption rate accelerates",
+        "stopLoss": "-8% on MSFT"
       },
       "adjacentMarkets": [
-        "Cloud computing (related industry)"
+        "NVIDIA AI Semiconductor Stocks"
       ],
       "otherFactors": [
-        "Earnings reports",
-        "Industry trends"
+        "AI regulation"
       ]
     },
     {
@@ -248,11 +248,11 @@
       "category": "eco",
       "catLabel": "Economy",
       "title": "US Tariff Announcements",
-      "summary": "The US is expected to announce new tariffs, which could impact global trade and economies.",
+      "summary": "US tariff announcements could impact the market, especially if they are unexpected.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -262,31 +262,30 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares MSCI Japan ETF (EWJ)"
         }
       ],
-      "reasoning": "The US tariff announcements could lead to a rally in Chinese stocks and a sell-off in emerging markets.",
+      "reasoning": "US tariff announcements could impact the market, especially if they are unexpected. Buying Chinese stocks and shorting Japanese stocks could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Watch for trade developments and diplomatic negotiations"
+        "viable": "4-8 weeks",
+        "note": "Tariff announcement"
       },
-      "exitStrategy": "Exit if a trade deal is announced or the tariffs are removed",
+      "exitStrategy": "Exit when the tariff announcement is made",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the tariffs have a moderate impact",
-        "base": "+5-8%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the tariff announcement is expected",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the tariffs have a significant impact",
-        "stopLoss": "-5% on MCHI"
+        "extendedNote": "If the tariff announcement is unexpected",
+        "stopLoss": "-4% on MCHI"
       },
       "adjacentMarkets": [
-        "US dollar (currency impact)"
+        "US-China trade relations"
       ],
       "otherFactors": [
-        "Trade developments",
-        "Diplomatic negotiations"
+        "Trade policy"
       ]
     },
     {
@@ -295,45 +294,44 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "SpaceX and Blue Origin",
-      "summary": "SpaceX and Blue Origin are expected to make significant advancements in space technology, which could lead to a rally in space-related stocks.",
+      "summary": "SpaceX and Blue Origin could be impacted by the increasing competition in the space industry.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Virgin Galactic Holdings Inc (SPCE)"
+          "target": "Virgin Galactic Holdings, Inc. (SPCE)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Boeing Company (BA)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Lockheed Martin Corporation (LMT)"
         }
       ],
-      "reasoning": "SpaceX and Blue Origin's advancements in space technology could lead to a rally in space-related stocks.",
+      "reasoning": "SpaceX and Blue Origin could be impacted by the increasing competition in the space industry. Buying Virgin Galactic and shorting Lockheed Martin could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Watch for space industry developments and earnings reports"
+        "viable": "4-8 weeks",
+        "note": "Space industry competition"
       },
-      "exitStrategy": "Exit if SpaceX and Blue Origin experience a significant downturn or the space industry experiences a decline",
+      "exitStrategy": "Exit when the space industry competition slows down",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If space-related stocks rally moderately",
-        "base": "+15-20%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the space industry competition is steady",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If space-related stocks experience a significant rally",
-        "stopLoss": "-10% on SPCE"
+        "extendedNote": "If the space industry competition accelerates",
+        "stopLoss": "-8% on SPCE"
       },
       "adjacentMarkets": [
-        "Aerospace (related industry)"
+        "Defense stocks"
       ],
       "otherFactors": [
-        "Earnings reports",
-        "Industry trends"
+        "Space industry regulation"
       ]
     },
     {
@@ -342,16 +340,16 @@
       "category": "eco",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve is expected to hold interest rates steady, but inflation fears may lead to a hawkish tone.",
+      "summary": "The Federal Reserve's interest rate decision could impact the market, especially if it is unexpected.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         },
         {
           "label": "SHORT",
@@ -359,28 +357,27 @@
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision will have a significant impact on the US economy and markets. A hawkish tone could lead to a sell-off in bonds and a rally in stocks.",
+      "reasoning": "The Federal Reserve's interest rate decision could impact the market, especially if it is unexpected. Buying short-term credit bonds and shorting long-term treasury bonds could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Watch for inflation data and Fed speeches"
+        "viable": "4-8 weeks",
+        "note": "Interest rate decision"
       },
-      "exitStrategy": "Exit if the Federal Reserve raises interest rates or inflation exceeds 3%",
+      "exitStrategy": "Exit when the interest rate decision is made",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the Federal Reserve holds rates steady",
-        "base": "+5-8%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If the interest rate decision is expected",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the Federal Reserve adopts a hawkish tone",
-        "stopLoss": "-5% on SPY"
+        "extendedNote": "If the interest rate decision is unexpected",
+        "stopLoss": "-4% on CSJ"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Monetary policy"
       ],
       "otherFactors": [
-        "Inflation data",
-        "Fed speeches"
+        "Inflation rate"
       ]
     },
     {
@@ -389,45 +386,44 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Apple iPhone Lease Option",
-      "summary": "Apple's new iPhone lease option is expected to increase sales and revenue, which could lead to a rally in Apple's stock.",
+      "summary": "Apple's iPhone lease option could impact the market, especially if it is successful.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Apple Inc (AAPL)"
+          "target": "Apple Inc. (AAPL)"
         },
         {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "Microsoft Corporation (MSFT)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Samsung Electronics Co., Ltd. (SSNLF)"
         }
       ],
-      "reasoning": "Apple's new iPhone lease option is expected to increase sales and revenue, which could lead to a rally in Apple's stock.",
+      "reasoning": "Apple's iPhone lease option could impact the market, especially if it is successful. Buying Apple and shorting Samsung could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Watch for earnings reports and industry trends"
+        "viable": "4-8 weeks",
+        "note": "iPhone lease option success"
       },
-      "exitStrategy": "Exit if Apple's stock price exceeds $200 or the technology industry experiences a downturn",
+      "exitStrategy": "Exit when the iPhone lease option is no longer successful",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If Apple's sales and revenue increase moderately",
-        "base": "+10-12%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the iPhone lease option is moderately successful",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If Apple's sales and revenue increase significantly",
+        "extended": "+25%+",
+        "extendedNote": "If the iPhone lease option is very successful",
         "stopLoss": "-8% on AAPL"
       },
       "adjacentMarkets": [
-        "Technology (related industry)"
+        "Technology stocks"
       ],
       "otherFactors": [
-        "Earnings reports",
-        "Industry trends"
+        "Consumer electronics demand"
       ]
     },
     {
@@ -436,11 +432,11 @@
       "category": "eco",
       "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The US and China are expected to continue trade negotiations, which could lead to a rally in stocks and a decline in tariffs.",
+      "summary": "US-China trade relations could impact the market, especially if there are any significant developments.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -450,125 +446,30 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares MSCI Japan ETF (EWJ)"
         }
       ],
-      "reasoning": "The US and China's trade negotiations could lead to a rally in Chinese stocks and a decline in tariffs.",
+      "reasoning": "US-China trade relations could impact the market, especially if there are any significant developments. Buying Chinese stocks and shorting Japanese stocks could be profitable strategies.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Watch for trade developments and diplomatic negotiations"
+        "viable": "4-8 weeks",
+        "note": "Trade relations development"
       },
-      "exitStrategy": "Exit if a trade deal is announced or the tariffs are removed",
+      "exitStrategy": "Exit when there is a significant development in trade relations",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the trade negotiations yield positive results",
-        "base": "+5-8%",
+        "conservative": "+2\u20134%",
+        "conservativeNote": "If trade relations remain steady",
+        "base": "+5\u20138%",
         "baseNote": "Most likely scenario",
         "extended": "+10%+",
-        "extendedNote": "If the trade negotiations lead to a significant rally",
-        "stopLoss": "-5% on MCHI"
+        "extendedNote": "If there is a significant development in trade relations",
+        "stopLoss": "-4% on MCHI"
       },
       "adjacentMarkets": [
-        "US dollar (currency impact)"
+        "US tariffs"
       ],
       "otherFactors": [
-        "Trade developments",
-        "Diplomatic negotiations"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Silvaco and NVIDIA Partnership",
-      "summary": "Silvaco and NVIDIA's partnership is expected to advance AI-powered semiconductor design and manufacturing, which could lead to a rally in AI-related stocks.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4-6 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
-        }
-      ],
-      "reasoning": "Silvaco and NVIDIA's partnership is expected to advance AI-powered semiconductor design and manufacturing, which could lead to a rally in AI-related stocks.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-6 weeks",
-        "note": "Watch for earnings reports and industry trends"
-      },
-      "exitStrategy": "Exit if NVIDIA's stock price exceeds $500 or the semiconductor industry experiences a downturn",
-      "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the partnership yields positive results",
-        "base": "+15-20%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the partnership leads to a significant rally",
-        "stopLoss": "-10% on NVDA"
-      },
-      "adjacentMarkets": [
-        "AMD (competitor)"
-      ],
-      "otherFactors": [
-        "Earnings reports",
-        "Industry trends"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "LOW",
-      "category": "eco",
-      "catLabel": "Economy",
-      "title": "China's Export Growth",
-      "summary": "China's export growth is expected to rise, which could lead to a rally in Chinese stocks and a decline in tariffs.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "China's export growth is expected to rise, which could lead to a rally in Chinese stocks and a decline in tariffs.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Watch for trade developments and economic data"
-      },
-      "exitStrategy": "Exit if China's export growth slows down or the tariffs are increased",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If China's export growth rises moderately",
-        "base": "+5-8%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If China's export growth rises significantly",
-        "stopLoss": "-5% on MCHI"
-      },
-      "adjacentMarkets": [
-        "US dollar (currency impact)"
-      ],
-      "otherFactors": [
-        "Trade developments",
-        "Economic data"
+        "Trade policy"
       ]
     }
   ]
