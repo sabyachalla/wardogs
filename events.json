@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T02:56:16Z",
+  "lastUpdated": "2026-08-01T05:59:54Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran Conflict Escalation",
-      "summary": "The Iran conflict is escalating, with the US and its allies imposing sanctions and conducting military operations. This has led to a significant increase in oil prices and volatility in the market. The conflict is expected to continue, with potential for further escalation.",
+      "summary": "The Iran conflict is escalating, with the US and Iran engaging in military actions. This has led to increased tensions in the Middle East and a rise in oil prices. The conflict is expected to continue, with potential for further escalation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,36 +22,35 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The conflict in Iran is expected to lead to higher oil prices, which will have a significant impact on the global economy. The SPDR S&P 500 ETF Trust (SPY) is a good buy as it will benefit from the increased oil prices, while the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) is a good short as it will be negatively impacted by the conflict.",
+      "reasoning": "The Iran conflict is expected to lead to higher oil prices, which will benefit oil services companies. On the other hand, emerging markets are likely to be negatively impacted by the conflict.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
         "note": "Monitor oil prices and conflict escalation"
       },
-      "exitStrategy": "Exit when oil prices stabilize or conflict de-escalates",
+      "exitStrategy": "Exit when oil prices peak or conflict de-escalates",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict stabilizes",
-        "base": "+12\u201318%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If conflict is contained",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
         "extendedNote": "If conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "US-Iran relations"
+        "US-China trade relations"
       ]
     },
     {
@@ -60,45 +59,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, despite high inflation. This decision has led to a significant increase in bond yields and a decrease in stock prices.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, despite inflation concerns. This decision is expected to impact the US economy and financial markets.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady has led to a significant increase in bond yields, making the iShares 20+ Year Treasury Bond ETF (TLT) a good buy. The SPDR S&P 500 ETF Trust (SPY) is a good short as it will be negatively impacted by the higher bond yields.",
+      "reasoning": "The Fed's decision to hold interest rates steady is expected to boost the stock market, while bonds may be negatively impacted.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor bond yields and inflation"
+        "note": "Monitor inflation and economic data"
       },
-      "exitStrategy": "Exit when bond yields stabilize or inflation decreases",
+      "exitStrategy": "Exit when interest rates rise or economy slows",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If bond yields stabilize",
-        "base": "+8\u201312%",
+        "conservative": "+3-5%",
+        "conservativeNote": "If economy slows",
+        "base": "+5-8%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If bond yields increase further",
-        "stopLoss": "-5% on TLT"
+        "extended": "+10%+",
+        "extendedNote": "If economy surprises to the upside",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (inflation hedge)"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Inflation",
-        "Bond yields"
+        "US-China trade relations"
       ]
     },
     {
@@ -107,11 +105,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks have been experiencing significant volatility due to the ongoing chip shortage and increasing demand for AI-powered devices.",
+      "summary": "NVIDIA's AI semiconductor stocks are experiencing a surge in demand, driven by the growth of artificial intelligence and machine learning.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -124,28 +122,27 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's AI semiconductor stocks are expected to benefit from the increasing demand for AI-powered devices, making NVIDIA Corporation (NVDA) a good buy. Advanced Micro Devices, Inc. (AMD) is a good short as it will be negatively impacted by the ongoing chip shortage.",
+      "reasoning": "NVIDIA's AI semiconductor stocks are expected to benefit from the growth of AI and machine learning, while AMD may be negatively impacted by competition.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor chip shortage and AI demand"
+        "note": "Monitor AI and machine learning trends"
       },
-      "exitStrategy": "Exit when chip shortage resolves or AI demand decreases",
+      "exitStrategy": "Exit when AI and machine learning growth slows",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If chip shortage resolves",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI growth slows",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI demand increases further",
-        "stopLoss": "-8% on NVDA"
+        "extended": "+20%+",
+        "extendedNote": "If AI growth accelerates",
+        "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Taiwan Semiconductor Manufacturing Company Limited (TSM)"
+        "AI and machine learning stocks"
       ],
       "otherFactors": [
-        "Chip shortage",
-        "AI demand"
+        "US-China trade relations"
       ]
     },
     {
@@ -154,11 +151,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate has been increasing, driven by higher oil prices and a strong labor market.",
+      "summary": "The US inflation rate is expected to remain steady, despite concerns about inflationary pressures.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -168,31 +165,30 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The increasing US inflation rate makes the iShares TIPS Bond ETF (TIP) a good buy as it will benefit from the higher inflation. The SPDR S&P 500 ETF Trust (SPY) is a good short as it will be negatively impacted by the higher inflation.",
+      "reasoning": "The US inflation rate is expected to remain steady, which will benefit TIPS bonds, while aggregate bonds may be negatively impacted.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation and oil prices"
+        "note": "Monitor inflation data"
       },
-      "exitStrategy": "Exit when inflation decreases or oil prices stabilize",
+      "exitStrategy": "Exit when inflation rises or falls",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If inflation decreases",
-        "base": "+5\u20138%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If inflation remains steady",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If inflation increases further",
+        "extended": "+5%+",
+        "extendedNote": "If inflation rises",
         "stopLoss": "-3% on TIP"
       },
       "adjacentMarkets": [
-        "Gold (inflation hedge)"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Inflation",
-        "Oil prices"
+        "US-China trade relations"
       ]
     },
     {
@@ -201,11 +197,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks have been experiencing significant growth due to the increasing demand for AI-powered devices and services.",
+      "summary": "AI-powered stocks are experiencing a surge in demand, driven by the growth of artificial intelligence and machine learning.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -215,31 +211,30 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "International Business Machines Corporation (IBM)"
+          "target": "IBM Corporation (IBM)"
         }
       ],
-      "reasoning": "AI-powered stocks are expected to benefit from the increasing demand for AI-powered devices and services, making Microsoft Corporation (MSFT) a good buy. International Business Machines Corporation (IBM) is a good short as it will be negatively impacted by the increasing competition in the AI market.",
+      "reasoning": "AI-powered stocks are expected to benefit from the growth of AI and machine learning, while IBM may be negatively impacted by competition.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI demand and competition"
+        "note": "Monitor AI and machine learning trends"
       },
-      "exitStrategy": "Exit when AI demand decreases or competition increases",
+      "exitStrategy": "Exit when AI and machine learning growth slows",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If AI demand decreases",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI growth slows",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI demand increases further",
-        "stopLoss": "-8% on MSFT"
+        "extended": "+20%+",
+        "extendedNote": "If AI growth accelerates",
+        "stopLoss": "-10% on MSFT"
       },
       "adjacentMarkets": [
-        "Alphabet Inc. (GOOGL)"
+        "AI and machine learning stocks"
       ],
       "otherFactors": [
-        "AI demand",
-        "Competition"
+        "US-China trade relations"
       ]
     },
     {
@@ -248,45 +243,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Tariff Announcements",
-      "summary": "The US has announced new tariffs on Chinese goods, leading to a significant increase in trade tensions between the two countries.",
+      "summary": "The US is expected to announce new tariffs on Chinese goods, which may impact the US economy and financial markets.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI China ETF (MCHI)"
         }
       ],
-      "reasoning": "The US tariff announcements make the iShares MSCI China ETF (MCHI) a good buy as it will benefit from the potential trade deal between the US and China. The SPDR S&P 500 ETF Trust (SPY) is a good short as it will be negatively impacted by the increasing trade tensions.",
+      "reasoning": "The US tariff announcements are expected to benefit the US dollar, while Chinese stocks may be negatively impacted.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade tensions and tariff announcements"
+        "note": "Monitor tariff announcements"
       },
-      "exitStrategy": "Exit when trade tensions decrease or tariffs are removed",
+      "exitStrategy": "Exit when tariffs are implemented or cancelled",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade tensions decrease",
-        "base": "+5\u20138%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If tariffs are implemented",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade deal is reached",
-        "stopLoss": "-3% on MCHI"
+        "extended": "+5%+",
+        "extendedNote": "If tariffs lead to trade war",
+        "stopLoss": "-3% on UUP"
       },
       "adjacentMarkets": [
-        "iShares MSCI Emerging Markets ETF (EEM)"
+        "US-China trade relations"
       ],
       "otherFactors": [
-        "Trade tensions",
-        "Tariffs"
+        "US economy"
       ]
     },
     {
@@ -295,45 +289,44 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Chip Stocks",
-      "summary": "Chip stocks have been experiencing significant volatility due to the ongoing chip shortage and increasing demand for AI-powered devices.",
+      "summary": "Chip stocks are experiencing a surge in demand, driven by the growth of artificial intelligence and machine learning.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Taiwan Semiconductor Manufacturing Company Limited (TSM)"
+          "target": "Intel Corporation (INTC)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Intel Corporation (INTC)"
+          "target": "Texas Instruments Incorporated (TXN)"
         }
       ],
-      "reasoning": "Chip stocks are expected to benefit from the increasing demand for AI-powered devices, making Taiwan Semiconductor Manufacturing Company Limited (TSM) a good buy. Intel Corporation (INTC) is a good short as it will be negatively impacted by the ongoing chip shortage.",
+      "reasoning": "Chip stocks are expected to benefit from the growth of AI and machine learning, while Texas Instruments may be negatively impacted by competition.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor chip shortage and AI demand"
+        "note": "Monitor AI and machine learning trends"
       },
-      "exitStrategy": "Exit when chip shortage resolves or AI demand decreases",
+      "exitStrategy": "Exit when AI and machine learning growth slows",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If chip shortage resolves",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If AI growth slows",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI demand increases further",
-        "stopLoss": "-8% on TSM"
+        "extended": "+20%+",
+        "extendedNote": "If AI growth accelerates",
+        "stopLoss": "-10% on INTC"
       },
       "adjacentMarkets": [
-        "NVIDIA Corporation (NVDA)"
+        "AI and machine learning stocks"
       ],
       "otherFactors": [
-        "Chip shortage",
-        "AI demand"
+        "US-China trade relations"
       ]
     },
     {
@@ -342,45 +335,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, despite high inflation.",
+      "summary": "The Federal Reserve is expected to make an interest rate decision, which may impact the US economy and financial markets.",
       "fresh": true,
-      "freshLabel": "2h ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady makes the iShares 20+ Year Treasury Bond ETF (TLT) a good buy as it will benefit from the higher bond yields. The SPDR S&P 500 ETF Trust (SPY) is a good short as it will be negatively impacted by the higher bond yields.",
+      "reasoning": "The Federal Reserve's interest rate decision is expected to impact the stock market and bonds.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor bond yields and inflation"
+        "note": "Monitor interest rate decision"
       },
-      "exitStrategy": "Exit when bond yields stabilize or inflation decreases",
+      "exitStrategy": "Exit when interest rates rise or fall",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If bond yields stabilize",
-        "base": "+5\u20138%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If interest rates remain steady",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If bond yields increase further",
-        "stopLoss": "-3% on TLT"
+        "extended": "+5%+",
+        "extendedNote": "If interest rates rise or fall",
+        "stopLoss": "-3% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (inflation hedge)"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Inflation",
-        "Bond yields"
+        "US economy"
       ]
     },
     {
@@ -389,16 +381,16 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "SpaceX and Blue Origin",
-      "summary": "SpaceX and Blue Origin have been experiencing significant growth due to the increasing demand for space exploration and satellite services.",
+      "summary": "SpaceX and Blue Origin are experiencing a surge in demand, driven by the growth of the space industry.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Virgin Galactic Holdings, Inc. (SPCE)"
+          "target": "The Boeing Company (BA)"
         },
         {
           "label": "SHORT",
@@ -406,28 +398,27 @@
           "target": "Lockheed Martin Corporation (LMT)"
         }
       ],
-      "reasoning": "SpaceX and Blue Origin are expected to benefit from the increasing demand for space exploration and satellite services, making Virgin Galactic Holdings, Inc. (SPCE) a good buy. Lockheed Martin Corporation (LMT) is a good short as it will be negatively impacted by the increasing competition in the space industry.",
+      "reasoning": "SpaceX and Blue Origin are expected to benefit from the growth of the space industry, while Lockheed Martin may be negatively impacted by competition.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor space industry trends and competition"
+        "note": "Monitor space industry trends"
       },
-      "exitStrategy": "Exit when space industry trends decrease or competition increases",
+      "exitStrategy": "Exit when space industry growth slows",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If space industry trends decrease",
-        "base": "+12\u201318%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If space industry growth slows",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If space industry trends increase further",
-        "stopLoss": "-8% on SPCE"
+        "extended": "+20%+",
+        "extendedNote": "If space industry growth accelerates",
+        "stopLoss": "-10% on BA"
       },
       "adjacentMarkets": [
-        "Boeing Company (BA)"
+        "Space industry stocks"
       ],
       "otherFactors": [
-        "Space industry trends",
-        "Competition"
+        "US-China trade relations"
       ]
     },
     {
@@ -436,45 +427,44 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US-China Trade Relations",
-      "summary": "The US and China have been experiencing significant trade tensions due to the ongoing trade war.",
+      "summary": "The US and China are engaged in trade negotiations, which may impact the US economy and financial markets.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI China ETF (MCHI)"
         }
       ],
-      "reasoning": "The US-China trade relations make the iShares MSCI China ETF (MCHI) a good buy as it will benefit from the potential trade deal between the US and China. The SPDR S&P 500 ETF Trust (SPY) is a good short as it will be negatively impacted by the increasing trade tensions.",
+      "reasoning": "The US-China trade relations are expected to impact the US dollar and Chinese stocks.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade tensions and tariff announcements"
+        "note": "Monitor trade negotiations"
       },
-      "exitStrategy": "Exit when trade tensions decrease or tariffs are removed",
+      "exitStrategy": "Exit when trade deal is reached or cancelled",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade tensions decrease",
-        "base": "+5\u20138%",
+        "conservative": "+2-3%",
+        "conservativeNote": "If trade deal is reached",
+        "base": "+3-5%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade deal is reached",
-        "stopLoss": "-3% on MCHI"
+        "extended": "+5%+",
+        "extendedNote": "If trade war escalates",
+        "stopLoss": "-3% on UUP"
       },
       "adjacentMarkets": [
-        "iShares MSCI Emerging Markets ETF (EEM)"
+        "US Treasury yields"
       ],
       "otherFactors": [
-        "Trade tensions",
-        "Tariffs"
+        "US economy"
       ]
     }
   ]
