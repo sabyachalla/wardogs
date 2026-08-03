@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T18:51:51Z",
+  "lastUpdated": "2026-08-03T22:10:27Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,11 +13,59 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran Conflict Escalation",
-      "summary": "The Iran war has shown the military strength of the US, but also its waning geopolitical power. The conflict is expected to continue, with potential implications for global oil prices and regional stability.",
+      "summary": "The conflict in Iran continues to escalate, with geopolitical implications for the Middle East and global markets. The US and its allies are involved, and the situation is highly volatile. Oil prices are likely to be affected, and the global economy may feel the impact.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The conflict in Iran is likely to disrupt oil supplies, driving up prices and benefiting oil services companies. Emerging markets, on the other hand, may be negatively impacted by the global economic uncertainty.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the situation closely and adjust as needed"
+      },
+      "exitStrategy": "Exit when the conflict is resolved or the market becomes oversold",
+      "gains": {
+        "conservative": "+8-12%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+15-20%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-10% on OIH"
+      },
+      "adjacentMarkets": [
+        "Gold (safe haven bid)",
+        "US Treasuries (flight to safety)"
+      ],
+      "otherFactors": [
+        "US-China trade relations",
+        "Global economic growth"
+      ]
+    },
+    {
+      "id": 2,
+      "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Fed Holds Interest Rates Steady",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing elevated inflation and a strong labor market. The decision is likely to impact the US economy and financial markets.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -27,78 +75,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
-        }
-      ],
-      "reasoning": "The conflict in Iran is expected to lead to increased volatility in the oil market, which could have a ripple effect on the global economy. The US stock market may experience a downturn due to the uncertainty and potential disruption to global trade.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor oil prices and regional stability"
-      },
-      "exitStrategy": "Exit when oil prices stabilize or the conflict de-escalates",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates",
-        "stopLoss": "-8% on SPY"
-      },
-      "adjacentMarkets": [
-        "Gold (safe haven bid)"
-      ],
-      "otherFactors": [
-        "Oil prices",
-        "Regional stability"
-      ]
-    },
-    {
-      "id": 2,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has held interest rates steady, citing elevated inflation. The decision has implications for the US economy and stock market.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
           "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady is expected to lead to a short-term increase in stock prices, as investors react to the news. However, the elevated inflation may lead to a decrease in bond prices.",
+      "reasoning": "The Fed's decision to hold interest rates steady is likely to boost the US stock market, as it indicates a strong economy. Long-term Treasury bonds, on the other hand, may be negatively impacted by the elevated inflation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation and economic data"
+        "note": "Monitor the market reaction and adjust as needed"
       },
-      "exitStrategy": "Exit when inflation data is released or the economy shows signs of slowing",
+      "exitStrategy": "Exit when the market becomes overbought or the Fed changes its stance",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the economy remains stable",
-        "base": "+8\u201312%",
+        "conservative": "+4-6%",
+        "conservativeNote": "If the market reacts positively",
+        "base": "+8-12%",
         "baseNote": "Most likely scenario",
         "extended": "+15%+",
-        "extendedNote": "If the economy experiences a surge",
-        "stopLoss": "-5% on VTI"
+        "extendedNote": "If the economy continues to grow strongly",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US Dollar (currency market)",
+        "Commodities (inflation hedge)"
       ],
       "otherFactors": [
-        "Inflation data",
-        "Economic growth"
+        "US inflation rate",
+        "Global economic growth"
       ]
     },
     {
@@ -107,11 +109,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks are expected to experience increased demand due to the growing need for AI technology.",
+      "summary": "NVIDIA's AI semiconductor stocks are gaining attention, driven by the growing demand for artificial intelligence and machine learning. The company's partnership with Silvaco is expected to elevate semiconductor design.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -121,31 +123,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
+          "target": "Micron Technology, Inc. (MU)"
         }
       ],
-      "reasoning": "The growing demand for AI technology is expected to lead to an increase in NVIDIA's stock price, as the company is a leader in the AI semiconductor market.",
+      "reasoning": "NVIDIA's AI semiconductor stocks are likely to benefit from the growing demand for AI and machine learning. Micron Technology, on the other hand, may be negatively impacted by the competition in the semiconductor market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI technology trends"
+        "note": "Monitor the market reaction and adjust as needed"
       },
-      "exitStrategy": "Exit when AI technology trends slow down or NVIDIA's stock price reaches a resistance level",
+      "exitStrategy": "Exit when the market becomes overbought or the competition increases",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If AI technology trends remain stable",
-        "base": "+12\u201318%",
+        "conservative": "+6-8%",
+        "conservativeNote": "If the demand for AI grows",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI technology trends experience a surge",
+        "extended": "+20%+",
+        "extendedNote": "If NVIDIA's partnership with Silvaco is successful",
         "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI technology"
+        "AI-powered stocks",
+        "Semiconductor ETFs"
       ],
       "otherFactors": [
-        "AI technology trends",
-        "Competitor performance"
+        "US-China trade relations",
+        "Global tech trends"
       ]
     },
     {
@@ -154,45 +157,46 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate is expected to remain elevated, with implications for the US economy and stock market.",
+      "summary": "The US inflation rate is being closely watched, as it may impact the Federal Reserve's interest rate decisions. A high inflation rate could lead to higher interest rates, while a low inflation rate could lead to lower interest rates.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
+          "target": "iShares TIPS Bond ETF (TIP)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The elevated inflation rate is expected to lead to a decrease in bond prices and an increase in gold prices, as investors seek safe-haven assets.",
+      "reasoning": "A high inflation rate is likely to benefit TIPS bonds, which are designed to protect against inflation. Aggregate bonds, on the other hand, may be negatively impacted by the higher inflation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor inflation data"
+        "note": "Monitor the inflation rate and adjust as needed"
       },
-      "exitStrategy": "Exit when inflation data is released or the economy shows signs of slowing",
+      "exitStrategy": "Exit when the inflation rate changes or the market becomes overbought",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If inflation remains stable",
-        "base": "+5\u20138%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the inflation rate remains stable",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If inflation surges",
-        "stopLoss": "-5% on GLD"
+        "extended": "+8%+",
+        "extendedNote": "If the inflation rate increases",
+        "stopLoss": "-3% on TIP"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Commodities (inflation hedge)",
+        "US Dollar (currency market)"
       ],
       "otherFactors": [
-        "Inflation data",
-        "Economic growth"
+        "US economic growth",
+        "Global inflation trends"
       ]
     },
     {
@@ -201,45 +205,46 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks are expected to experience increased demand due to the growing need for AI technology.",
+      "summary": "AI-powered stocks are gaining attention, driven by the growing demand for artificial intelligence and machine learning. Companies like NVIDIA and Alphabet are leading the charge.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Microsoft Corporation (MSFT)"
+          "target": "Alphabet Inc. (GOOGL)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "International Business Machines Corporation (IBM)"
+          "target": "Microsoft Corporation (MSFT)"
         }
       ],
-      "reasoning": "The growing demand for AI technology is expected to lead to an increase in AI-powered stocks, as companies invest in AI research and development.",
+      "reasoning": "AI-powered stocks are likely to benefit from the growing demand for AI and machine learning. Alphabet, with its strong AI capabilities, is well-positioned to benefit. Microsoft, on the other hand, may be negatively impacted by the competition in the tech market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor AI technology trends"
+        "note": "Monitor the market reaction and adjust as needed"
       },
-      "exitStrategy": "Exit when AI technology trends slow down or AI-powered stocks reach a resistance level",
+      "exitStrategy": "Exit when the market becomes overbought or the competition increases",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If AI technology trends remain stable",
-        "base": "+12\u201318%",
+        "conservative": "+6-8%",
+        "conservativeNote": "If the demand for AI grows",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If AI technology trends experience a surge",
-        "stopLoss": "-8% on MSFT"
+        "extended": "+20%+",
+        "extendedNote": "If Alphabet's AI capabilities lead to significant growth",
+        "stopLoss": "-8% on GOOGL"
       },
       "adjacentMarkets": [
-        "AI technology"
+        "Tech ETFs",
+        "Semiconductor stocks"
       ],
       "otherFactors": [
-        "AI technology trends",
-        "Competitor performance"
+        "US-China trade relations",
+        "Global tech trends"
       ]
     },
     {
@@ -248,45 +253,46 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Tariff Announcements",
-      "summary": "The US tariff announcements are expected to have implications for the US economy and stock market.",
+      "summary": "The US tariff announcements are being closely watched, as they may impact global trade and the US economy. A high tariff rate could lead to a trade war, while a low tariff rate could lead to increased trade.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+          "target": "iShares US Aerospace & Defense ETF (ITA)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares US Consumer Goods ETF (IYK)"
         }
       ],
-      "reasoning": "The US tariff announcements are expected to lead to a decrease in emerging market stocks and an increase in the US dollar, as investors seek safe-haven assets.",
+      "reasoning": "A high tariff rate is likely to benefit the US aerospace and defense industry, which is less dependent on international trade. Consumer goods, on the other hand, may be negatively impacted by the higher tariffs.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor tariff announcements"
+        "note": "Monitor the tariff announcements and adjust as needed"
       },
-      "exitStrategy": "Exit when tariff announcements are released or the economy shows signs of slowing",
+      "exitStrategy": "Exit when the tariff rate changes or the market becomes overbought",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If tariff announcements remain stable",
-        "base": "+5\u20138%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the tariff rate remains stable",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If tariff announcements surge",
-        "stopLoss": "-5% on UUP"
+        "extended": "+8%+",
+        "extendedNote": "If the tariff rate increases",
+        "stopLoss": "-3% on ITA"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "US Dollar (currency market)",
+        "Commodities (trade war hedge)"
       ],
       "otherFactors": [
-        "Tariff announcements",
-        "Economic growth"
+        "US economic growth",
+        "Global trade trends"
       ]
     },
     {
@@ -295,11 +301,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Chip Stocks",
-      "summary": "Chip stocks are expected to experience increased demand due to the growing need for semiconductor technology.",
+      "summary": "Chip stocks are gaining attention, driven by the growing demand for semiconductors and the US-China trade tensions. Companies like NVIDIA and Micron are leading the charge.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -309,31 +315,32 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Texas Instruments Incorporated (TXN)"
+          "target": "iShares PHLX Semiconductor ETF (SOXX)"
         }
       ],
-      "reasoning": "The growing demand for semiconductor technology is expected to lead to an increase in chip stocks, as companies invest in research and development.",
+      "reasoning": "Chip stocks are likely to benefit from the growing demand for semiconductors and the US-China trade tensions. The VanEck Vectors Semiconductor ETF is a diversified play on the semiconductor industry, while the iShares PHLX Semiconductor ETF is more concentrated on US-based companies.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor semiconductor trends"
+        "note": "Monitor the market reaction and adjust as needed"
       },
-      "exitStrategy": "Exit when semiconductor trends slow down or chip stocks reach a resistance level",
+      "exitStrategy": "Exit when the market becomes overbought or the competition increases",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If semiconductor trends remain stable",
-        "base": "+12\u201318%",
+        "conservative": "+6-8%",
+        "conservativeNote": "If the demand for semiconductors grows",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If semiconductor trends experience a surge",
+        "extended": "+20%+",
+        "extendedNote": "If the US-China trade tensions escalate",
         "stopLoss": "-8% on SMH"
       },
       "adjacentMarkets": [
-        "Semiconductor technology"
+        "Tech ETFs",
+        "AI-powered stocks"
       ],
       "otherFactors": [
-        "Semiconductor trends",
-        "Competitor performance"
+        "US-China trade relations",
+        "Global tech trends"
       ]
     },
     {
@@ -342,105 +349,11 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve interest rate decision is expected to have implications for the US economy and stock market.",
+      "summary": "The Federal Reserve's interest rate decision is being closely watched, as it may impact the US economy and financial markets. A high interest rate could lead to a strong US dollar, while a low interest rate could lead to a weak US dollar.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
-        }
-      ],
-      "reasoning": "The Federal Reserve interest rate decision is expected to lead to a decrease in long-term bond prices and an increase in short-term bond prices, as investors react to the news.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor interest rate decisions"
-      },
-      "exitStrategy": "Exit when interest rate decisions are released or the economy shows signs of slowing",
-      "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If interest rate decisions remain stable",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If interest rate decisions surge",
-        "stopLoss": "-5% on CSJ"
-      },
-      "adjacentMarkets": [
-        "Bond market"
-      ],
-      "otherFactors": [
-        "Interest rate decisions",
-        "Economic growth"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "SpaceX and Blue Origin",
-      "summary": "SpaceX and Blue Origin are expected to experience increased demand due to the growing need for space technology.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "The Boeing Company (BA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Lockheed Martin Corporation (LMT)"
-        }
-      ],
-      "reasoning": "The growing demand for space technology is expected to lead to an increase in SpaceX and Blue Origin, as companies invest in research and development.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor space technology trends"
-      },
-      "exitStrategy": "Exit when space technology trends slow down or SpaceX and Blue Origin reach a resistance level",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If space technology trends remain stable",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If space technology trends experience a surge",
-        "stopLoss": "-8% on BA"
-      },
-      "adjacentMarkets": [
-        "Space technology"
-      ],
-      "otherFactors": [
-        "Space technology trends",
-        "Competitor performance"
-      ]
-    },
-    {
-      "id": 10,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US-China Trade Relations",
-      "summary": "The US-China trade relations are expected to have implications for the US economy and stock market.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -450,31 +363,128 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "Invesco DB US Dollar Index Bearish Fund (UDN)"
         }
       ],
-      "reasoning": "The US-China trade relations are expected to lead to a decrease in emerging market stocks and an increase in the US dollar, as investors seek safe-haven assets.",
+      "reasoning": "A high interest rate is likely to benefit the US dollar, which is a safe-haven currency. The Invesco DB US Dollar Index Bullish Fund is a play on a strong US dollar, while the Invesco DB US Dollar Index Bearish Fund is a play on a weak US dollar.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade relations"
+        "note": "Monitor the interest rate decision and adjust as needed"
       },
-      "exitStrategy": "Exit when trade relations are released or the economy shows signs of slowing",
+      "exitStrategy": "Exit when the interest rate changes or the market becomes overbought",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If trade relations remain stable",
-        "base": "+5\u20138%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the interest rate remains stable",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If trade relations surge",
-        "stopLoss": "-5% on UUP"
+        "extended": "+8%+",
+        "extendedNote": "If the interest rate increases",
+        "stopLoss": "-3% on UUP"
       },
       "adjacentMarkets": [
-        "Emerging markets"
+        "US Treasury bonds",
+        "Commodities (inflation hedge)"
       ],
       "otherFactors": [
-        "Trade relations",
-        "Economic growth"
+        "US economic growth",
+        "Global interest rates"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "SpaceX and Blue Origin",
+      "summary": "SpaceX and Blue Origin are gaining attention, driven by the growing demand for space exploration and the private space industry. Companies like SpaceX and Blue Origin are leading the charge.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Virgin Galactic Holdings, Inc. (SPCE)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Lockheed Martin Corporation (LMT)"
+        }
+      ],
+      "reasoning": "SpaceX and Blue Origin are likely to benefit from the growing demand for space exploration and the private space industry. Virgin Galactic is a play on the commercial space industry, while Lockheed Martin is a play on the traditional aerospace industry.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the market reaction and adjust as needed"
+      },
+      "exitStrategy": "Exit when the market becomes overbought or the competition increases",
+      "gains": {
+        "conservative": "+6-8%",
+        "conservativeNote": "If the demand for space exploration grows",
+        "base": "+10-15%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If SpaceX and Blue Origin achieve significant milestones",
+        "stopLoss": "-8% on SPCE"
+      },
+      "adjacentMarkets": [
+        "Aerospace ETFs",
+        "Defense stocks"
+      ],
+      "otherFactors": [
+        "US government funding",
+        "Global space industry trends"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US-China Trade Relations",
+      "summary": "The US-China trade relations are being closely watched, as they may impact global trade and the US economy. A positive trade deal could lead to increased trade, while a negative trade deal could lead to a trade war.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares China Large-Cap ETF (FXI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares US Consumer Goods ETF (IYK)"
+        }
+      ],
+      "reasoning": "A positive trade deal is likely to benefit Chinese stocks, which are heavily dependent on international trade. The iShares China Large-Cap ETF is a play on the Chinese economy, while the iShares US Consumer Goods ETF is a play on the US consumer goods industry.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the trade negotiations and adjust as needed"
+      },
+      "exitStrategy": "Exit when the trade deal is signed or the market becomes overbought",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If the trade deal is signed",
+        "base": "+4-6%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If the trade deal is highly favorable to China",
+        "stopLoss": "-3% on FXI"
+      },
+      "adjacentMarkets": [
+        "US Dollar (currency market)",
+        "Commodities (trade war hedge)"
+      ],
+      "otherFactors": [
+        "US economic growth",
+        "Global trade trends"
       ]
     }
   ]
