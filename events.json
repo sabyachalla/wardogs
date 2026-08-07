@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T05:41:05Z",
+  "lastUpdated": "2026-08-07T07:18:05Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The conflict in Iran continues to escalate, with geopolitical implications for the Middle East and global markets. The US and its allies are involved, and the situation remains volatile. Oil prices are affected, and the stock market is reacting to the uncertainty.",
+      "summary": "The conflict between the US and Iran continues to escalate, with both sides suffering losses. The situation remains volatile, with the potential for further escalation high. Oil prices have risen as a result, and the global economy is beginning to feel the effects.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,45 +22,46 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
         }
       ],
-      "reasoning": "The Iran war escalation is a high-risk event that can impact global markets, particularly oil prices and the stock market. The situation is volatile, and investors should be prepared for potential price swings. Buying the SPDR S&P 500 ETF Trust (SPY) can provide a hedge against the uncertainty, while shorting the iShares U.S. Oil & Gas Exploration & Production ETF (IEO) can profit from potential declines in oil prices.",
+      "reasoning": "The ongoing conflict between the US and Iran has the potential to disrupt global oil supplies, leading to higher prices. This could have a positive impact on oil services companies, making the VanEck Vectors Oil Services ETF (OIH) a potential buy. On the other hand, the uncertainty and volatility caused by the conflict could lead to a decrease in bond yields, making the iShares U.S. Treasury Bond ETF (GOVT) a potential short.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust the position as needed"
+        "note": "Monitor the situation closely and be prepared to exit if the conflict escalates further"
       },
-      "exitStrategy": "Exit the position if the conflict de-escalates or if the oil prices stabilize",
+      "exitStrategy": "Exit if the conflict escalates further or if oil prices drop significantly",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12-18%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If the conflict remains contained",
+        "base": "+15-20%",
         "baseNote": "If the conflict escalates further",
         "extended": "+25%+",
-        "extendedNote": "If the conflict spreads to other regions",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If the conflict leads to a significant disruption in global oil supplies",
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil prices"
       ],
       "otherFactors": [
-        "Oil prices",
-        "US-Iran relations"
+        "US-Iran relations",
+        "Global economic trends"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economic",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, citing elevated inflation. The decision has implications for the US economy and the stock market.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing elevated inflation and a strong labor market. The decision has been met with a mixed reaction from the markets, with some investors relieved and others disappointed.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -69,48 +70,49 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "From bonds to stocks"
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady can lead to a boost in the stock market, as lower interest rates can increase borrowing and spending. Buying the Vanguard Total Stock Market ETF (VTI) can provide exposure to the US stock market, while rotating from bonds to stocks can take advantage of the potential rally.",
+      "reasoning": "The Federal Reserve's decision to hold interest rates steady is a positive sign for the economy, and could lead to an increase in stock prices. The SPDR S&P 500 ETF Trust (SPY) is a good way to gain exposure to the broader market. On the other hand, the decision could lead to a decrease in bond yields, making the iShares Core U.S. Aggregate Bond ETF (AGG) a potential rotate.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the inflation data and adjust the position as needed"
+        "note": "Monitor the markets closely and be prepared to exit if the economy shows signs of slowing down"
       },
-      "exitStrategy": "Exit the position if the inflation data shows signs of decreasing",
+      "exitStrategy": "Exit if the economy shows signs of slowing down or if interest rates rise",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the economy grows slowly",
+        "conservative": "+4-6%",
+        "conservativeNote": "If the economy remains strong",
         "base": "+8-12%",
-        "baseNote": "If the economy grows moderately",
+        "baseNote": "If the markets react positively to the decision",
         "extended": "+15%+",
-        "extendedNote": "If the economy grows rapidly",
-        "stopLoss": "-5% on VTI"
+        "extendedNote": "If the decision leads to a significant increase in stock prices",
+        "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "Bonds (potential sell-off)"
+        "Bond yields",
+        "Stock prices"
       ],
       "otherFactors": [
-        "Inflation data",
-        "US economic growth"
+        "Inflation rates",
+        "Labor market trends"
       ]
     },
     {
       "id": 3,
-      "rank": "HIGH",
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA has announced a partnership with SK Hynix to advance memory for AI factories. The partnership has implications for the semiconductor industry and the stock market.",
+      "summary": "NVIDIA has announced a new partnership with SK hynix to advance memory for AI factories. The partnership is expected to lead to significant growth in the AI semiconductor market.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "HIGH",
+      "risk": "MED",
       "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
@@ -124,40 +126,41 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The partnership between NVIDIA and SK Hynix can lead to a boost in the semiconductor industry, particularly for NVIDIA. Buying NVIDIA Corporation (NVDA) can provide exposure to the company's growth potential, while shorting Advanced Micro Devices, Inc. (AMD) can profit from potential declines in the stock price.",
+      "reasoning": "The partnership between NVIDIA and SK hynix is a positive sign for the AI semiconductor market, and could lead to significant growth for NVIDIA. The NVIDIA Corporation (NVDA) is a good way to gain exposure to the company. On the other hand, the partnership could lead to a decrease in market share for Advanced Micro Devices, Inc. (AMD), making it a potential short.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the partnership's progress and adjust the position as needed"
+        "note": "Monitor the markets closely and be prepared to exit if the partnership does not lead to significant growth"
       },
-      "exitStrategy": "Exit the position if the partnership faces significant challenges",
+      "exitStrategy": "Exit if the partnership does not lead to significant growth or if the AI semiconductor market declines",
       "gains": {
-        "conservative": "+10-15%",
-        "conservativeNote": "If the partnership shows moderate success",
-        "base": "+20-25%",
-        "baseNote": "If the partnership shows significant success",
-        "extended": "+30%+",
-        "extendedNote": "If the partnership leads to a breakthrough in AI technology",
-        "stopLoss": "-10% on NVDA"
+        "conservative": "+6-8%",
+        "conservativeNote": "If the partnership leads to moderate growth",
+        "base": "+10-15%",
+        "baseNote": "If the partnership leads to significant growth",
+        "extended": "+20%+",
+        "extendedNote": "If the partnership leads to a dominant position in the AI semiconductor market",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Semiconductor industry (potential rally)"
+        "AI semiconductor market",
+        "Technology stocks"
       ],
       "otherFactors": [
-        "AI technology advancements",
-        "Partnership progress"
+        "Partnership success",
+        "Market trends"
       ]
     },
     {
       "id": 4,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "econ",
-      "catLabel": "Economy",
+      "catLabel": "Economic",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate has been elevated, with implications for the economy and the stock market.",
+      "summary": "The US inflation rate has remained steady, with a slight increase in prices. The Federal Reserve is monitoring the situation closely, and may raise interest rates if inflation continues to rise.",
       "fresh": true,
       "freshLabel": "2d ago",
-      "risk": "MED",
+      "risk": "LOW",
       "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
@@ -168,31 +171,32 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "From stocks to bonds"
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The elevated US inflation rate can lead to a decrease in the purchasing power of consumers, which can impact the stock market. Buying the iShares TIPS Bond ETF (TIP) can provide a hedge against inflation, while rotating from stocks to bonds can take advantage of the potential rally in the bond market.",
+      "reasoning": "The steady inflation rate is a positive sign for the economy, and could lead to an increase in bond prices. The iShares TIPS Bond ETF (TIP) is a good way to gain exposure to inflation-protected bonds. On the other hand, the increase in prices could lead to a decrease in gold prices, making the SPDR Gold Shares ETF (GLD) a potential rotate.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the inflation data and adjust the position as needed"
+        "note": "Monitor the inflation rate closely and be prepared to exit if it rises significantly"
       },
-      "exitStrategy": "Exit the position if the inflation data shows signs of decreasing",
+      "exitStrategy": "Exit if the inflation rate rises significantly or if interest rates are raised",
       "gains": {
         "conservative": "+2-4%",
-        "conservativeNote": "If the inflation rate remains elevated",
-        "base": "+6-10%",
-        "baseNote": "If the inflation rate decreases",
-        "extended": "+12%+",
-        "extendedNote": "If the inflation rate decreases significantly",
-        "stopLoss": "-5% on TIP"
+        "conservativeNote": "If the inflation rate remains steady",
+        "base": "+4-6%",
+        "baseNote": "If the inflation rate rises moderately",
+        "extended": "+8%+",
+        "extendedNote": "If the inflation rate rises significantly",
+        "stopLoss": "-3% on TIP"
       },
       "adjacentMarkets": [
-        "Bonds (potential rally)"
+        "Bond yields",
+        "Gold prices"
       ],
       "otherFactors": [
-        "Inflation data",
-        "US economic growth"
+        "Inflation rate",
+        "Interest rates"
       ]
     },
     {
@@ -201,11 +205,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks have been gaining traction, with implications for the technology industry and the stock market.",
+      "summary": "AI-powered stocks have been performing well, with many companies announcing significant advancements in AI technology. The trend is expected to continue, with AI-powered stocks potentially leading the market.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -218,75 +222,77 @@
           "target": "International Business Machines Corporation (IBM)"
         }
       ],
-      "reasoning": "AI-powered stocks have been gaining traction, with companies like Microsoft Corporation (MSFT) leading the charge. Buying MSFT can provide exposure to the company's growth potential, while shorting International Business Machines Corporation (IBM) can profit from potential declines in the stock price.",
+      "reasoning": "The advancements in AI technology are a positive sign for AI-powered stocks, and could lead to significant growth. The Microsoft Corporation (MSFT) is a good way to gain exposure to the company. On the other hand, the trend could lead to a decrease in market share for International Business Machines Corporation (IBM), making it a potential short.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the AI-powered stocks' performance and adjust the position as needed"
+        "viable": "4-8 weeks",
+        "note": "Monitor the markets closely and be prepared to exit if the trend reverses"
       },
-      "exitStrategy": "Exit the position if the AI-powered stocks face significant challenges",
+      "exitStrategy": "Exit if the trend reverses or if AI-powered stocks decline",
       "gains": {
-        "conservative": "+5-10%",
-        "conservativeNote": "If the AI-powered stocks show moderate growth",
-        "base": "+15-20%",
-        "baseNote": "If the AI-powered stocks show significant growth",
-        "extended": "+25%+",
-        "extendedNote": "If the AI-powered stocks lead to a breakthrough in AI technology",
-        "stopLoss": "-10% on MSFT"
+        "conservative": "+6-8%",
+        "conservativeNote": "If the trend continues moderately",
+        "base": "+10-15%",
+        "baseNote": "If the trend continues significantly",
+        "extended": "+20%+",
+        "extendedNote": "If the trend leads to a dominant position in the market",
+        "stopLoss": "-8% on MSFT"
       },
       "adjacentMarkets": [
-        "Technology industry (potential rally)"
+        "AI-powered stocks",
+        "Technology stocks"
       ],
       "otherFactors": [
-        "AI technology advancements",
-        "Company performance"
+        "Trend continuation",
+        "Market trends"
       ]
     },
     {
       "id": 6,
       "rank": "LOW",
-      "category": "trade",
-      "catLabel": "Trade",
+      "category": "econ",
+      "catLabel": "Economic",
       "title": "US Tariff Announcements",
-      "summary": "The US has announced tariffs on certain goods, with implications for the trade industry and the stock market.",
+      "summary": "The US has announced new tariffs on certain goods, leading to a mixed reaction from the markets. The tariffs are expected to have a moderate impact on the economy.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares US Aerospace & Defense ETF (ITA)"
+          "target": "iShares Core S&P Total U.S. Stock Market ETF (ITOT)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "From imports to domestic production"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The US tariff announcements can lead to a decrease in imports and an increase in domestic production. Buying the iShares US Aerospace & Defense ETF (ITA) can provide exposure to the US defense industry, while rotating from imports to domestic production can take advantage of the potential rally in the domestic market.",
+      "reasoning": "The tariffs are expected to have a moderate impact on the economy, and could lead to an increase in stock prices. The iShares Core S&P Total U.S. Stock Market ETF (ITOT) is a good way to gain exposure to the broader market. On the other hand, the tariffs could lead to a decrease in the value of the US dollar, making the Invesco DB US Dollar Index Bullish Fund (UUP) a potential rotate.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor the tariff announcements and adjust the position as needed"
+        "viable": "2-4 weeks",
+        "note": "Monitor the markets closely and be prepared to exit if the tariffs have a significant impact"
       },
-      "exitStrategy": "Exit the position if the tariffs are removed or reduced",
+      "exitStrategy": "Exit if the tariffs have a significant impact or if the economy declines",
       "gains": {
-        "conservative": "+1-3%",
+        "conservative": "+2-4%",
         "conservativeNote": "If the tariffs have a moderate impact",
-        "base": "+5-10%",
+        "base": "+4-6%",
         "baseNote": "If the tariffs have a significant impact",
-        "extended": "+15%+",
-        "extendedNote": "If the tariffs lead to a trade war",
-        "stopLoss": "-5% on ITA"
+        "extended": "+8%+",
+        "extendedNote": "If the tariffs lead to a significant increase in stock prices",
+        "stopLoss": "-3% on ITOT"
       },
       "adjacentMarkets": [
-        "Domestic production (potential rally)"
+        "Stock prices",
+        "US dollar value"
       ],
       "otherFactors": [
-        "Tariff announcements",
-        "Trade industry performance"
+        "Tariff impact",
+        "Economic trends"
       ]
     },
     {
@@ -295,293 +301,11 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Chip Stocks",
-      "summary": "Chip stocks have been gaining traction, with implications for the technology industry and the stock market.",
+      "summary": "Chip stocks have been performing well, with many companies announcing significant advancements in chip technology. The trend is expected to continue, with chip stocks potentially leading the market.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Texas Instruments Incorporated (TXN)"
-        }
-      ],
-      "reasoning": "Chip stocks have been gaining traction, with companies like VanEck Vectors Semiconductor ETF (SMH) leading the charge. Buying SMH can provide exposure to the semiconductor industry, while shorting Texas Instruments Incorporated (TXN) can profit from potential declines in the stock price.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the chip stocks' performance and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the chip stocks face significant challenges",
-      "gains": {
-        "conservative": "+5-10%",
-        "conservativeNote": "If the chip stocks show moderate growth",
-        "base": "+15-20%",
-        "baseNote": "If the chip stocks show significant growth",
-        "extended": "+25%+",
-        "extendedNote": "If the chip stocks lead to a breakthrough in technology",
-        "stopLoss": "-10% on SMH"
-      },
-      "adjacentMarkets": [
-        "Technology industry (potential rally)"
-      ],
-      "otherFactors": [
-        "Chip stocks performance",
-        "Company performance"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, with implications for the US economy and the stock market.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From long-term bonds to short-term bonds"
-        }
-      ],
-      "reasoning": "The Federal Reserve's decision to hold interest rates steady can lead to a decrease in long-term bond yields and an increase in short-term bond yields. Buying the iShares 1-3 Year Credit Bond ETF (CSJ) can provide exposure to the short-term bond market, while rotating from long-term bonds to short-term bonds can take advantage of the potential rally in the short-term bond market.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor the interest rate decision and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the interest rates change",
-      "gains": {
-        "conservative": "+1-3%",
-        "conservativeNote": "If the interest rates remain steady",
-        "base": "+5-10%",
-        "baseNote": "If the interest rates change",
-        "extended": "+15%+",
-        "extendedNote": "If the interest rates change significantly",
-        "stopLoss": "-5% on CSJ"
-      },
-      "adjacentMarkets": [
-        "Short-term bond market (potential rally)"
-      ],
-      "otherFactors": [
-        "Interest rate decision",
-        "US economic growth"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "SpaceX and Blue Origin",
-      "summary": "SpaceX and Blue Origin have been making progress in the space industry, with implications for the technology industry and the stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "The Boeing Company (BA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Lockheed Martin Corporation (LMT)"
-        }
-      ],
-      "reasoning": "SpaceX and Blue Origin have been making progress in the space industry, with companies like The Boeing Company (BA) leading the charge. Buying BA can provide exposure to the space industry, while shorting Lockheed Martin Corporation (LMT) can profit from potential declines in the stock price.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the space industry's performance and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the space industry faces significant challenges",
-      "gains": {
-        "conservative": "+5-10%",
-        "conservativeNote": "If the space industry shows moderate growth",
-        "base": "+15-20%",
-        "baseNote": "If the space industry shows significant growth",
-        "extended": "+25%+",
-        "extendedNote": "If the space industry leads to a breakthrough in technology",
-        "stopLoss": "-10% on BA"
-      },
-      "adjacentMarkets": [
-        "Space industry (potential rally)"
-      ],
-      "otherFactors": [
-        "Space industry performance",
-        "Company performance"
-      ]
-    },
-    {
-      "id": 10,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel's strategic problem has been ongoing, with implications for the Middle East and global markets.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI Israel ETF (EIS)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From Middle East stocks to Israeli stocks"
-        }
-      ],
-      "reasoning": "Israel's strategic problem has been ongoing, with implications for the Middle East and global markets. Buying the iShares MSCI Israel ETF (EIS) can provide exposure to the Israeli stock market, while rotating from Middle East stocks to Israeli stocks can take advantage of the potential rally in the Israeli market.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor the situation and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the situation resolves",
-      "gains": {
-        "conservative": "+1-3%",
-        "conservativeNote": "If the situation remains stable",
-        "base": "+5-10%",
-        "baseNote": "If the situation escalates",
-        "extended": "+15%+",
-        "extendedNote": "If the situation leads to a conflict",
-        "stopLoss": "-5% on EIS"
-      },
-      "adjacentMarkets": [
-        "Middle East (potential volatility)"
-      ],
-      "otherFactors": [
-        "Middle East politics",
-        "Global markets"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Siemens Advances Self-Verifying Agentic AI Workflows",
-      "summary": "Siemens has announced advancements in self-verifying agentic AI workflows, with implications for the technology industry and the stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Siemens AG (SIEGY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "General Electric Company (GE)"
-        }
-      ],
-      "reasoning": "Siemens' advancements in self-verifying agentic AI workflows can lead to a boost in the company's stock price. Buying Siemens AG (SIEGY) can provide exposure to the company's growth potential, while shorting General Electric Company (GE) can profit from potential declines in the stock price.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the company's performance and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the company faces significant challenges",
-      "gains": {
-        "conservative": "+5-10%",
-        "conservativeNote": "If the company shows moderate growth",
-        "base": "+15-20%",
-        "baseNote": "If the company shows significant growth",
-        "extended": "+25%+",
-        "extendedNote": "If the company leads to a breakthrough in technology",
-        "stopLoss": "-10% on SIEGY"
-      },
-      "adjacentMarkets": [
-        "Technology industry (potential rally)"
-      ],
-      "otherFactors": [
-        "Company performance",
-        "Technology advancements"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Stock Market Hits Record High",
-      "summary": "The US stock market has hit a record high, with implications for the economy and the stock market.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 1-2 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Vanguard 500 Index Fund (VFIAX)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "From bonds to stocks"
-        }
-      ],
-      "reasoning": "The US stock market hitting a record high can lead to a decrease in bond yields and an increase in stock prices. Buying the Vanguard 500 Index Fund (VFIAX) can provide exposure to the US stock market, while rotating from bonds to stocks can take advantage of the potential rally in the stock market.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "1-2 weeks",
-        "note": "Monitor the stock market's performance and adjust the position as needed"
-      },
-      "exitStrategy": "Exit the position if the stock market faces significant challenges",
-      "gains": {
-        "conservative": "+1-3%",
-        "conservativeNote": "If the stock market remains stable",
-        "base": "+5-10%",
-        "baseNote": "If the stock market shows moderate growth",
-        "extended": "+15%+",
-        "extendedNote": "If the stock market leads to a breakthrough in the economy",
-        "stopLoss": "-5% on VFIAX"
-      },
-      "adjacentMarkets": [
-        "Stock market (potential rally)"
-      ],
-      "otherFactors": [
-        "Stock market performance",
-        "Economic growth"
-      ]
-    },
-    {
-      "id": 13,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "NVIDIA and Silvaco Partner to Elevate Semiconductor Design",
-      "summary": "NVIDIA and Silvaco have partnered to elevate semiconductor design, with implications for the technology industry and the stock market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
@@ -594,28 +318,173 @@
           "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The partnership between NVIDIA and Silvaco can lead to a boost in the semiconductor industry, particularly for NVIDIA. Buying NVIDIA Corporation (NVDA) can provide exposure to the company's growth potential, while shorting Advanced Micro Devices, Inc. (AMD) can profit from potential declines in the stock price.",
+      "reasoning": "The advancements in chip technology are a positive sign for chip stocks, and could lead to significant growth. The NVIDIA Corporation (NVDA) is a good way to gain exposure to the company. On the other hand, the trend could lead to a decrease in market share for Advanced Micro Devices, Inc. (AMD), making it a potential short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the markets closely and be prepared to exit if the trend reverses"
+      },
+      "exitStrategy": "Exit if the trend reverses or if chip stocks decline",
+      "gains": {
+        "conservative": "+6-8%",
+        "conservativeNote": "If the trend continues moderately",
+        "base": "+10-15%",
+        "baseNote": "If the trend continues significantly",
+        "extended": "+20%+",
+        "extendedNote": "If the trend leads to a dominant position in the market",
+        "stopLoss": "-8% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Chip stocks",
+        "Technology stocks"
+      ],
+      "otherFactors": [
+        "Trend continuation",
+        "Market trends"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economic",
+      "title": "Federal Reserve Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing elevated inflation and a strong labor market. The decision has been met with a mixed reaction from the markets, with some investors relieved and others disappointed.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+        }
+      ],
+      "reasoning": "The decision to hold interest rates steady is a positive sign for the economy, and could lead to an increase in stock prices. The SPDR S&P 500 ETF Trust (SPY) is a good way to gain exposure to the broader market. On the other hand, the decision could lead to a decrease in bond yields, making the iShares Core U.S. Aggregate Bond ETF (AGG) a potential rotate.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the partnership's progress and adjust the position as needed"
+        "note": "Monitor the markets closely and be prepared to exit if the economy shows signs of slowing down"
       },
-      "exitStrategy": "Exit the position if the partnership faces significant challenges",
+      "exitStrategy": "Exit if the economy shows signs of slowing down or if interest rates rise",
       "gains": {
-        "conservative": "+5-10%",
-        "conservativeNote": "If the partnership shows moderate success",
-        "base": "+15-20%",
-        "baseNote": "If the partnership shows significant success",
-        "extended": "+25%+",
-        "extendedNote": "If the partnership leads to a breakthrough in semiconductor design",
-        "stopLoss": "-10% on NVDA"
+        "conservative": "+2-4%",
+        "conservativeNote": "If the economy remains strong",
+        "base": "+4-6%",
+        "baseNote": "If the markets react positively to the decision",
+        "extended": "+8%+",
+        "extendedNote": "If the decision leads to a significant increase in stock prices",
+        "stopLoss": "-3% on SPY"
       },
       "adjacentMarkets": [
-        "Semiconductor industry (potential rally)"
+        "Stock prices",
+        "Bond yields"
       ],
       "otherFactors": [
-        "Partnership progress",
-        "Semiconductor industry performance"
+        "Interest rates",
+        "Economic trends"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "SpaceX and Blue Origin",
+      "summary": "SpaceX and Blue Origin have been making significant advancements in space technology, with both companies announcing new projects and partnerships. The trend is expected to continue, with space technology potentially leading the market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Virgin Galactic Holdings, Inc. (SPCE)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Lockheed Martin Corporation (LMT)"
+        }
+      ],
+      "reasoning": "The advancements in space technology are a positive sign for space stocks, and could lead to significant growth. The Virgin Galactic Holdings, Inc. (SPCE) is a good way to gain exposure to the company. On the other hand, the trend could lead to a decrease in market share for Lockheed Martin Corporation (LMT), making it a potential short.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the markets closely and be prepared to exit if the trend reverses"
+      },
+      "exitStrategy": "Exit if the trend reverses or if space stocks decline",
+      "gains": {
+        "conservative": "+6-8%",
+        "conservativeNote": "If the trend continues moderately",
+        "base": "+10-15%",
+        "baseNote": "If the trend continues significantly",
+        "extended": "+20%+",
+        "extendedNote": "If the trend leads to a dominant position in the market",
+        "stopLoss": "-8% on SPCE"
+      },
+      "adjacentMarkets": [
+        "Space stocks",
+        "Technology stocks"
+      ],
+      "otherFactors": [
+        "Trend continuation",
+        "Market trends"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "LOW",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Israel\u2019s Strategic Problem",
+      "summary": "Israel is facing a strategic problem, with the country's military and political leaders working to address the issue. The situation is complex, and the outcome is uncertain.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI Israel ETF (EIS)"
+        },
+        {
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "The situation in Israel is complex, and the outcome is uncertain. However, the iShares MSCI Israel ETF (EIS) could be a good way to gain exposure to the country's economy. On the other hand, the situation could lead to a decrease in global stock prices, making the SPDR S&P 500 ETF Trust (SPY) a potential rotate.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and be prepared to exit if the situation escalates"
+      },
+      "exitStrategy": "Exit if the situation escalates or if the economy declines",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+4-6%",
+        "baseNote": "If the situation improves",
+        "extended": "+8%+",
+        "extendedNote": "If the situation leads to a significant increase in stock prices",
+        "stopLoss": "-3% on EIS"
+      },
+      "adjacentMarkets": [
+        "Israeli stocks",
+        "Global stock prices"
+      ],
+      "otherFactors": [
+        "Situation stability",
+        "Economic trends"
       ]
     }
   ]
