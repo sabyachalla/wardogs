@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T13:50:41Z",
+  "lastUpdated": "2026-08-09T16:36:51Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,46 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The ongoing conflict between the US and Iran continues to escalate, with potential for further military action. This could lead to increased volatility in the oil market and global stocks. The situation remains highly unpredictable.",
+      "summary": "The ongoing conflict between the US and Iran continues to escalate, with potential for further military action. This could lead to increased volatility in global markets, particularly in the energy sector. The situation remains highly fluid and sensitive to new developments.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
-        },
-        {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB Oil Fund (DBO)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The escalation of the Iran war could lead to supply chain disruptions and increased oil prices, making oil-related ETFs more volatile. A short position in IEO could be beneficial if the conflict worsens, while a long position in DBO could provide a hedge against potential oil price increases.",
+      "reasoning": "The escalation of the Iran war could lead to a spike in oil prices, benefiting energy stocks. However, the broader market may suffer due to increased uncertainty and geopolitical risk. A short position in oil services ETF could be profitable if the conflict leads to a decrease in oil demand.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
         "note": "Monitor news for further escalation or de-escalation"
       },
-      "exitStrategy": "Close positions if a ceasefire is announced or if oil prices stabilize",
+      "exitStrategy": "Close position if oil prices drop below $50/bbl or if a ceasefire is announced",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the conflict stabilizes",
-        "base": "+15-20%",
-        "baseNote": "If the conflict escalates further",
-        "extended": "+30%+",
-        "extendedNote": "If the conflict spreads to other countries",
-        "stopLoss": "-10% on IEO"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict remains contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If conflict spreads to other regions",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
         "Gold (safe haven bid)",
-        "USD/IRR currency pair"
+        "Treasury bonds (flight to safety)"
       ],
       "otherFactors": [
         "OPEC production levels",
-        "US military involvement"
+        "US diplomatic efforts"
       ]
     },
     {
@@ -61,7 +61,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Fed Holds Interest Rates Steady",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, citing concerns about inflation and economic growth. This decision could impact the US stock market and bond yields.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing a strong labor market and low inflation. This decision may lead to increased investment in the stock market, particularly in growth-oriented sectors.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -70,37 +70,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "Vanguard Growth ETF (VUG)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "From bonds to stocks"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady could lead to increased investor confidence and a potential rally in the US stock market. A long position in SPY could be beneficial, while rotating out of long-term bonds (TLT) could be a good strategy to avoid potential losses.",
+      "reasoning": "The Fed's decision to hold interest rates steady may lead to increased investment in growth-oriented sectors, such as technology and healthcare. A rotation from bonds to stocks could be profitable in this environment.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data and Fed speeches"
+        "note": "Monitor economic data for signs of slowing growth"
       },
-      "exitStrategy": "Close positions if the Fed changes its stance on interest rates",
+      "exitStrategy": "Close position if interest rates rise or economic growth slows",
       "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the economy grows slowly",
-        "base": "+6-10%",
-        "baseNote": "If the economy grows moderately",
-        "extended": "+12%+",
-        "extendedNote": "If the economy grows rapidly",
-        "stopLoss": "-5% on SPY"
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If growth accelerates",
+        "stopLoss": "-5% on VUG"
       },
       "adjacentMarkets": [
-        "US Treasury yields",
-        "USD currency index"
+        "Bond market (interest rates)",
+        "Commodities (inflation)"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "GDP growth"
+        "Labor market data",
+        "Inflation expectations"
       ]
     },
     {
@@ -109,7 +109,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Semiconductor Stocks",
-      "summary": "NVIDIA's AI semiconductor stocks have been gaining traction, driven by increasing demand for AI-powered technologies. This trend is expected to continue, with potential for further growth.",
+      "summary": "NVIDIA's AI semiconductor stocks have been performing well, driven by strong demand for AI-related products. This trend is expected to continue, with potential for further growth in the sector.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -121,34 +121,34 @@
           "target": "NVIDIA Corporation (NVDA)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The growing demand for AI-powered technologies is expected to drive the growth of NVIDIA's AI semiconductor stocks. A long position in NVDA or SMH could be beneficial, as these stocks are likely to benefit from this trend.",
+      "reasoning": "NVIDIA's strong position in the AI semiconductor market may lead to continued growth, while AMD's weaker position may result in underperformance. A short position in AMD could be profitable if NVIDIA's dominance continues.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor industry trends and earnings reports"
+        "note": "Monitor industry trends and competitor performance"
       },
-      "exitStrategy": "Close positions if the demand for AI-powered technologies slows down",
+      "exitStrategy": "Close position if NVIDIA's market share declines or AMD's products gain traction",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15-20%",
-        "baseNote": "If the trend accelerates",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the trend becomes a long-term phenomenon",
-        "stopLoss": "-10% on NVDA"
+        "extendedNote": "If AI demand surges",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "AI-powered stocks",
-        "Tech sector ETFs"
+        "AI-related stocks",
+        "Semiconductor industry"
       ],
       "otherFactors": [
         "Competitor performance",
-        "Regulatory environment"
+        "Industry trends"
       ]
     },
     {
@@ -157,7 +157,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Rate",
-      "summary": "The US inflation rate has been stable, with a potential for slight increases in the coming months. This could impact the US stock market and bond yields.",
+      "summary": "The US inflation rate remains low, with the latest data showing a slight increase. This may lead to a decrease in interest rates, benefiting the stock market.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -166,37 +166,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares TIPS Bond ETF (TIP)"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "From stocks to bonds"
         }
       ],
-      "reasoning": "A stable inflation rate could lead to increased investor confidence and a potential rally in the US stock market. A long position in TIP could be beneficial, while rotating out of aggregate bonds (AGG) could be a good strategy to avoid potential losses.",
+      "reasoning": "The low inflation rate may lead to a decrease in interest rates, benefiting bond investors. A rotation from stocks to bonds could be profitable in this environment.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data and inflation reports"
+        "note": "Monitor inflation data for signs of increase"
       },
-      "exitStrategy": "Close positions if the inflation rate increases significantly",
+      "exitStrategy": "Close position if inflation rises or interest rates increase",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the inflation rate remains stable",
-        "base": "+4-6%",
-        "baseNote": "If the inflation rate increases slightly",
-        "extended": "+8%+",
-        "extendedNote": "If the inflation rate increases significantly",
-        "stopLoss": "-5% on TIP"
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If inflation remains low",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If interest rates decline",
+        "stopLoss": "-3% on AGG"
       },
       "adjacentMarkets": [
-        "US Treasury yields",
-        "USD currency index"
+        "Interest rates",
+        "Commodities"
       ],
       "otherFactors": [
-        "GDP growth",
-        "Labor market conditions"
+        "Labor market data",
+        "Economic growth"
       ]
     },
     {
@@ -205,7 +205,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "AI-Powered Stocks",
-      "summary": "AI-powered stocks have been gaining traction, driven by increasing demand for AI-powered technologies. This trend is expected to continue, with potential for further growth.",
+      "summary": "AI-powered stocks have been performing well, driven by strong demand for AI-related products. This trend is expected to continue, with potential for further growth in the sector.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -217,34 +217,34 @@
           "target": "Microsoft Corporation (MSFT)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Alphabet Inc. (GOOGL)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "International Business Machines Corporation (IBM)"
         }
       ],
-      "reasoning": "The growing demand for AI-powered technologies is expected to drive the growth of AI-powered stocks. A long position in MSFT or GOOGL could be beneficial, as these stocks are likely to benefit from this trend.",
+      "reasoning": "AI-powered stocks, such as Microsoft, may continue to grow due to strong demand for AI-related products. A short position in IBM, which has been struggling to adapt to the AI trend, could be profitable.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor industry trends and earnings reports"
+        "note": "Monitor industry trends and competitor performance"
       },
-      "exitStrategy": "Close positions if the demand for AI-powered technologies slows down",
+      "exitStrategy": "Close position if AI demand slows or IBM's products gain traction",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15-20%",
-        "baseNote": "If the trend accelerates",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the trend becomes a long-term phenomenon",
-        "stopLoss": "-10% on MSFT"
+        "extendedNote": "If AI demand surges",
+        "stopLoss": "-8% on MSFT"
       },
       "adjacentMarkets": [
-        "Tech sector ETFs",
-        "AI-powered ETFs"
+        "AI-related stocks",
+        "Technology sector"
       ],
       "otherFactors": [
         "Competitor performance",
-        "Regulatory environment"
+        "Industry trends"
       ]
     },
     {
@@ -253,7 +253,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Tariff Announcements",
-      "summary": "The US has announced new tariffs on certain goods, which could impact the US stock market and global trade. This trend is expected to continue, with potential for further announcements.",
+      "summary": "The US has announced new tariffs on certain goods, which may lead to increased prices and decreased demand. This could negatively impact the stock market, particularly in sectors related to international trade.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -262,37 +262,37 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI China ETF (MCHI)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB Agriculture Fund (DBA)"
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The announcement of new tariffs could lead to decreased investor confidence and a potential decline in the US stock market. A short position in MCHI could be beneficial, while a long position in DBA could provide a hedge against potential losses.",
+      "reasoning": "The new tariffs may lead to increased prices and decreased demand, negatively impacting the stock market. A short position in the S&P 500 could be profitable, while a long position in the US Dollar Index could benefit from a potential flight to safety.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor trade negotiations and tariff announcements"
+        "note": "Monitor trade negotiations and economic data"
       },
-      "exitStrategy": "Close positions if the tariffs are removed or reduced",
+      "exitStrategy": "Close position if tariffs are removed or trade negotiations improve",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the tariffs have a limited impact",
-        "base": "+4-6%",
-        "baseNote": "If the tariffs have a moderate impact",
-        "extended": "+8%+",
-        "extendedNote": "If the tariffs have a significant impact",
-        "stopLoss": "-5% on MCHI"
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If tariffs have a limited impact",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If tariffs lead to a trade war",
+        "stopLoss": "-3% on UUP"
       },
       "adjacentMarkets": [
-        "US Treasury yields",
-        "USD currency index"
+        "International trade",
+        "Commodities"
       ],
       "otherFactors": [
         "Trade negotiations",
-        "Global economic growth"
+        "Economic growth"
       ]
     },
     {
@@ -301,7 +301,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Chip Stocks",
-      "summary": "Chip stocks have been gaining traction, driven by increasing demand for semiconductors. This trend is expected to continue, with potential for further growth.",
+      "summary": "Chip stocks have been performing well, driven by strong demand for semiconductors. This trend is expected to continue, with potential for further growth in the sector.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -310,37 +310,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Intel Corporation (INTC)"
         },
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Intel Corporation (INTC)"
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Texas Instruments Incorporated (TXN)"
         }
       ],
-      "reasoning": "The growing demand for semiconductors is expected to drive the growth of chip stocks. A long position in SMH or INTC could be beneficial, as these stocks are likely to benefit from this trend.",
+      "reasoning": "Chip stocks, such as Intel, may continue to grow due to strong demand for semiconductors. A short position in Texas Instruments, which has been struggling to adapt to the changing market, could be profitable.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor industry trends and earnings reports"
+        "note": "Monitor industry trends and competitor performance"
       },
-      "exitStrategy": "Close positions if the demand for semiconductors slows down",
+      "exitStrategy": "Close position if demand for semiconductors slows or Texas Instruments' products gain traction",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15-20%",
-        "baseNote": "If the trend accelerates",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the trend becomes a long-term phenomenon",
-        "stopLoss": "-10% on SMH"
+        "extendedNote": "If demand for semiconductors surges",
+        "stopLoss": "-8% on INTC"
       },
       "adjacentMarkets": [
-        "Tech sector ETFs",
-        "Semiconductor ETFs"
+        "Semiconductor industry",
+        "Technology sector"
       ],
       "otherFactors": [
         "Competitor performance",
-        "Regulatory environment"
+        "Industry trends"
       ]
     },
     {
@@ -349,7 +349,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "Federal Reserve Interest Rate Decision",
-      "summary": "The Federal Reserve has decided to hold interest rates steady, citing concerns about inflation and economic growth. This decision could impact the US stock market and bond yields.",
+      "summary": "The Federal Reserve has decided to hold interest rates steady, citing a strong labor market and low inflation. This decision may lead to increased investment in the stock market, particularly in growth-oriented sectors.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "LOW",
@@ -358,37 +358,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "target": "Vanguard Growth ETF (VUG)"
         },
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "From bonds to stocks"
         }
       ],
-      "reasoning": "The Fed's decision to hold interest rates steady could lead to increased investor confidence and a potential rally in the US stock market. A long position in CSJ could be beneficial, while rotating out of aggregate bonds (AGG) could be a good strategy to avoid potential losses.",
+      "reasoning": "The Fed's decision to hold interest rates steady may lead to increased investment in growth-oriented sectors, such as technology and healthcare. A rotation from bonds to stocks could be profitable in this environment.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data and Fed speeches"
+        "note": "Monitor economic data for signs of slowing growth"
       },
-      "exitStrategy": "Close positions if the Fed changes its stance on interest rates",
+      "exitStrategy": "Close position if interest rates rise or economic growth slows",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the economy grows slowly",
-        "base": "+4-6%",
-        "baseNote": "If the economy grows moderately",
-        "extended": "+8%+",
-        "extendedNote": "If the economy grows rapidly",
-        "stopLoss": "-5% on CSJ"
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If growth accelerates",
+        "stopLoss": "-5% on VUG"
       },
       "adjacentMarkets": [
-        "US Treasury yields",
-        "USD currency index"
+        "Bond market",
+        "Commodities"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "GDP growth"
+        "Labor market data",
+        "Inflation expectations"
       ]
     },
     {
@@ -397,7 +397,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Israel\u2019s Strategic Problem",
-      "summary": "Israel's strategic problem is becoming increasingly complex, with potential for further conflict in the region. This trend is expected to continue, with potential for further escalation.",
+      "summary": "Israel's strategic problem remains a concern, with potential for further conflict in the region. This could lead to increased volatility in global markets, particularly in the energy sector.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -406,37 +406,37 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares MSCI Israel ETF (EIS)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "VanEck Vectors Israel ETF (ISRA)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         }
       ],
-      "reasoning": "The increasing complexity of Israel's strategic problem could lead to decreased investor confidence and a potential decline in the Israeli stock market. A long position in EIS could be beneficial, while a short position in ISRA could provide a hedge against potential losses.",
+      "reasoning": "The ongoing conflict in the region may lead to a spike in oil prices, benefiting energy stocks. However, the broader market may suffer due to increased uncertainty and geopolitical risk. A short position in oil services ETF could be profitable if the conflict leads to a decrease in oil demand.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor regional developments and conflict reports"
+        "note": "Monitor news for further escalation or de-escalation"
       },
-      "exitStrategy": "Close positions if the conflict escalates or de-escalates",
+      "exitStrategy": "Close position if conflict resolves or oil prices drop below $50/bbl",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the conflict stabilizes",
-        "base": "+10-15%",
-        "baseNote": "If the conflict escalates",
-        "extended": "+20%+",
-        "extendedNote": "If the conflict becomes a long-term phenomenon",
-        "stopLoss": "-10% on EIS"
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict remains contained",
+        "base": "+12\u201318%",
+        "baseNote": "Most likely scenario",
+        "extended": "+25%+",
+        "extendedNote": "If conflict spreads to other regions",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Middle East ETFs",
-        "Defense sector ETFs"
+        "Gold (safe haven bid)",
+        "Treasury bonds (flight to safety)"
       ],
       "otherFactors": [
-        "Regional stability",
-        "Global geopolitical trends"
+        "OPEC production levels",
+        "US diplomatic efforts"
       ]
     },
     {
@@ -445,7 +445,7 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Stock Market",
-      "summary": "The US stock market has been experiencing a rally, driven by strong earnings reports and a stable economy. This trend is expected to continue, with potential for further growth.",
+      "summary": "The US stock market has been performing well, driven by strong economic growth and low interest rates. This trend is expected to continue, with potential for further growth in the market.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -459,32 +459,32 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "target": "From bonds to stocks"
         }
       ],
-      "reasoning": "The strong earnings reports and stable economy could lead to increased investor confidence and a potential rally in the US stock market. A long position in SPY could be beneficial, while rotating out of small-cap stocks (IWM) could be a good strategy to avoid potential losses.",
+      "reasoning": "The strong economic growth and low interest rates may lead to increased investment in the stock market, particularly in growth-oriented sectors. A rotation from bonds to stocks could be profitable in this environment.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor economic data and earnings reports"
+        "note": "Monitor economic data for signs of slowing growth"
       },
-      "exitStrategy": "Close positions if the economy slows down or if earnings reports disappoint",
+      "exitStrategy": "Close position if interest rates rise or economic growth slows",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the economy grows slowly",
-        "base": "+4-6%",
-        "baseNote": "If the economy grows moderately",
-        "extended": "+8%+",
-        "extendedNote": "If the economy grows rapidly",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If growth remains steady",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If growth accelerates",
         "stopLoss": "-5% on SPY"
       },
       "adjacentMarkets": [
-        "US Treasury yields",
-        "USD currency index"
+        "Bond market",
+        "Commodities"
       ],
       "otherFactors": [
-        "Inflation rate",
-        "GDP growth"
+        "Labor market data",
+        "Inflation expectations"
       ]
     }
   ]
