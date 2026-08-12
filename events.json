@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T23:41:04Z",
+  "lastUpdated": "2026-08-12T04:48:38Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -12,8 +12,8 @@
       "rank": "HIGH",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "Iran War Escalation",
-      "summary": "The ongoing conflict in Iran is escalating, with multiple countries involved. The US has shown its military strength, but its geopolitical power is waning. This situation has the potential to impact global markets and economies.",
+      "title": "US-Iran Tensions Escalate",
+      "summary": "The US and Iran are engaged in a heated standoff, with the US demanding reparations and Iran refusing to back down. This has led to a significant increase in oil prices, with US oil rising above $83 a barrel. The situation is highly volatile and could lead to further escalation.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,90 +22,331 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
         }
       ],
-      "reasoning": "The Iran war escalation has the potential to disrupt global oil supplies, leading to increased prices and inflation. This could negatively impact emerging markets, making them a short opportunity. On the other hand, the US stock market, represented by the SPDR S&P 500 ETF Trust, may benefit from the increased military spending and safe-haven demand.",
+      "reasoning": "The escalation of tensions between the US and Iran has led to a significant increase in oil prices, making oil services stocks more attractive. On the other hand, the uncertainty and volatility in the market make it a good time to short government bonds.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation and adjust as necessary"
+        "note": "Monitor the situation closely and be prepared to exit if tensions ease"
       },
-      "exitStrategy": "Exit when the conflict is resolved or when the market becomes oversold",
+      "exitStrategy": "Exit if oil prices drop below $75 a barrel or if tensions ease significantly",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+12\u201318%",
+        "conservative": "+8-12%",
+        "conservativeNote": "If tensions ease slightly",
+        "base": "+15-20%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extended": "+30%+",
+        "extendedNote": "If tensions escalate further",
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Oil prices"
+        "US interest rates"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Interest Rates",
-      "summary": "The US Federal Reserve has decided to keep interest rates steady, despite high inflation. This decision has the potential to impact the US economy and markets.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "CoreWeave AI Momentum",
+      "summary": "CoreWeave's stock has soared as the company's earnings show major AI momentum. The company's revenue has doubled, and its CEO is cheering 'an important inflection point'.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Vanguard Total Bond Market Index Fund (VBTLX)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "CoreWeave (CRWE)"
         }
       ],
-      "reasoning": "The decision to keep interest rates steady may lead to increased bond prices, making them a buy opportunity. On the other hand, the long-term Treasury bond market may be negatively impacted, making it a short opportunity.",
+      "reasoning": "CoreWeave's strong earnings and AI momentum make it an attractive buy. The company's stock has already soared, but it still has room for growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
+        "viable": "4-8 weeks",
+        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
       },
-      "exitStrategy": "Exit when the interest rates are adjusted or when the market becomes oversold",
+      "exitStrategy": "Exit if the stock price drops below $50 or if the company's momentum slows",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the economy grows slowly",
-        "base": "+8\u201312%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the momentum slows slightly",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows rapidly",
-        "stopLoss": "-5% on VBTLX"
+        "extended": "+20%+",
+        "extendedNote": "If the company's momentum continues",
+        "stopLoss": "-8% on CRWE"
       },
       "adjacentMarkets": [
-        "US Stock Market"
+        "NVIDIA (NVDA)"
       ],
       "otherFactors": [
-        "Inflation rate"
+        "AI demand"
       ]
     },
     {
       "id": 3,
       "rank": "MED",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Labor Market Weakness",
+      "summary": "The US labor market has shown weakness, with employers cutting 23,000 jobs in July. This has led to concerns about the overall health of the economy.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        }
+      ],
+      "reasoning": "The weakness in the US labor market is a concern for the overall economy, making it a good time to short the S&P 500.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the labor market closely and be prepared to exit if it shows signs of improvement"
+      },
+      "exitStrategy": "Exit if the labor market shows signs of improvement or if the economy shows resilience",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If the labor market shows slight improvement",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the labor market continues to weaken",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds (TLT)"
+      ],
+      "otherFactors": [
+        "US interest rates"
+      ]
+    },
+    {
+      "id": 4,
+      "rank": "LOW",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Lumentum Sales More Than Double",
+      "summary": "Lumentum's sales have more than doubled, driven by strong demand for AI-related products. However, the company's stock has been flat after hours.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Lumentum Holdings Inc. (LITE)"
+        }
+      ],
+      "reasoning": "Lumentum's strong sales and AI momentum make it an attractive buy, despite the flat stock price after hours.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
+      },
+      "exitStrategy": "Exit if the stock price drops below $50 or if the company's momentum slows",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If the momentum slows slightly",
+        "base": "+4-6%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If the company's momentum continues",
+        "stopLoss": "-4% on LITE"
+      },
+      "adjacentMarkets": [
+        "NVIDIA (NVDA)"
+      ],
+      "otherFactors": [
+        "AI demand"
+      ]
+    },
+    {
+      "id": 5,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Japan Intervention Fails to Halt Yen Slide",
+      "summary": "The Japanese yen has erased about half of the gains from an unprecedented US-Japan intervention less than two weeks ago. This has led to concerns about the effectiveness of the intervention.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Invesco CurrencyShares Japanese Yen Trust (FXY)"
+        }
+      ],
+      "reasoning": "The failure of the US-Japan intervention to halt the yen slide makes it a good time to buy the yen, as it may continue to weaken.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the yen's movement and be prepared to exit if it shows signs of strengthening"
+      },
+      "exitStrategy": "Exit if the yen shows signs of strengthening or if the intervention is successful",
+      "gains": {
+        "conservative": "+3-5%",
+        "conservativeNote": "If the yen shows slight strengthening",
+        "base": "+5-8%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the yen continues to weaken",
+        "stopLoss": "-5% on FXY"
+      },
+      "adjacentMarkets": [
+        "US dollar (UUP)"
+      ],
+      "otherFactors": [
+        "US interest rates"
+      ]
+    },
+    {
+      "id": 6,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Home Sales Fall",
+      "summary": "US home sales have fallen, with sales of existing homes dropping by 1.7% in July. This has led to concerns about the overall health of the housing market.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "SPDR S&P Homebuilders ETF (XHB)"
+        }
+      ],
+      "reasoning": "The weakness in the US housing market makes it a good time to short homebuilder stocks, as they may continue to decline.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the housing market closely and be prepared to exit if it shows signs of improvement"
+      },
+      "exitStrategy": "Exit if the housing market shows signs of improvement or if homebuilder stocks show resilience",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If the housing market shows slight improvement",
+        "base": "+4-6%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If the housing market continues to weaken",
+        "stopLoss": "-4% on XHB"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds (TLT)"
+      ],
+      "otherFactors": [
+        "US interest rates"
+      ]
+    },
+    {
+      "id": 7,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Super Micro Earnings Report",
+      "summary": "Super Micro's earnings report has brought more good news, with the company's stock climbing. The company has impressed Wall Street with its improved profitability trajectory.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Super Micro Computer, Inc. (SMCI)"
+        }
+      ],
+      "reasoning": "Super Micro's strong earnings report and improved profitability trajectory make it an attractive buy.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
+      },
+      "exitStrategy": "Exit if the stock price drops below $50 or if the company's momentum slows",
+      "gains": {
+        "conservative": "+5-8%",
+        "conservativeNote": "If the momentum slows slightly",
+        "base": "+8-12%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If the company's momentum continues",
+        "stopLoss": "-8% on SMCI"
+      },
+      "adjacentMarkets": [
+        "NVIDIA (NVDA)"
+      ],
+      "otherFactors": [
+        "AI demand"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Inflation Report",
+      "summary": "The US inflation report is set to be released, with expectations of higher inflation. This has led to concerns about the overall health of the economy.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 4\u20138 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares TIPS Bond ETF (TIP)"
+        }
+      ],
+      "reasoning": "The expected higher inflation makes it a good time to buy TIPS bonds, as they are designed to protect against inflation.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "4-8 weeks",
+        "note": "Monitor the inflation report and be prepared to exit if inflation shows signs of easing"
+      },
+      "exitStrategy": "Exit if inflation shows signs of easing or if the economy shows resilience",
+      "gains": {
+        "conservative": "+2-4%",
+        "conservativeNote": "If inflation shows slight easing",
+        "base": "+4-6%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If inflation continues to rise",
+        "stopLoss": "-4% on TIP"
+      },
+      "adjacentMarkets": [
+        "US Treasury bonds (TLT)"
+      ],
+      "otherFactors": [
+        "US interest rates"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Boom",
-      "summary": "NVIDIA's AI technology is booming, with the company's revenue increasing significantly. This trend has the potential to impact the tech industry and related markets.",
+      "summary": "NVIDIA's AI boom continues, with the company's CEO pitching GPUs as long-term collateral to unlock $500 billion in funding. However, there are concerns about the depreciation of the chips.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
@@ -115,310 +356,29 @@
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's AI technology is leading the industry, and the company's revenue is increasing significantly. This trend may continue, making NVIDIA a buy opportunity. On the other hand, AMD may be negatively impacted, making it a short opportunity.",
+      "reasoning": "NVIDIA's AI boom and the potential for $500 billion in funding make it an attractive buy, despite concerns about chip depreciation.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation and adjust as necessary"
+        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
       },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
+      "exitStrategy": "Exit if the stock price drops below $200 or if the company's momentum slows",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15\u201320%",
+        "conservative": "+5-8%",
+        "conservativeNote": "If the momentum slows slightly",
+        "base": "+10-15%",
         "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If the trend accelerates",
+        "extended": "+20%+",
+        "extendedNote": "If the company's momentum continues",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "Tech Industry"
+        "AMD (AMD)"
       ],
       "otherFactors": [
-        "AI adoption rate"
-      ]
-    },
-    {
-      "id": 4,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Israel's Strategic Problem",
-      "summary": "Israel is facing a strategic problem due to the ongoing conflict in the Middle East. This situation has the potential to impact the region and global markets.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares MSCI Israel ETF (EIS)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "VanEck Vectors Israel ETF (ISRA)"
-        }
-      ],
-      "reasoning": "The ongoing conflict in the Middle East may lead to increased demand for Israeli defense products, making the iShares MSCI Israel ETF a buy opportunity. On the other hand, the VanEck Vectors Israel ETF may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the conflict is resolved or when the market becomes oversold",
-      "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-5% on EIS"
-      },
-      "adjacentMarkets": [
-        "Middle East"
-      ],
-      "otherFactors": [
-        "Conflict escalation"
-      ]
-    },
-    {
-      "id": 5,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Labor Market",
-      "summary": "The US labor market is strong, with low unemployment rates and increasing wages. This trend has the potential to impact the US economy and markets.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Russell 2000 ETF (IWM)"
-        }
-      ],
-      "reasoning": "The strong US labor market may lead to increased consumer spending, making the SPDR S&P 500 ETF Trust a buy opportunity. On the other hand, the iShares Russell 2000 ETF may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
-      "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If the economy grows slowly",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the economy grows rapidly",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "US Stock Market"
-      ],
-      "otherFactors": [
-        "Inflation rate"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "CoreWeave AI Infrastructure",
-      "summary": "CoreWeave is a company that provides AI infrastructure solutions. The company's technology has the potential to impact the tech industry and related markets.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "CoreWeave Inc. (Private Company)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "NVIDIA Corporation (NVDA)"
-        }
-      ],
-      "reasoning": "CoreWeave's AI infrastructure solutions may lead to increased demand for the company's products, making it a buy opportunity. On the other hand, NVIDIA may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
-      "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the trend continues",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-5% on CoreWeave Inc."
-      },
-      "adjacentMarkets": [
-        "Tech Industry"
-      ],
-      "otherFactors": [
-        "AI adoption rate"
-      ]
-    },
-    {
-      "id": 7,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Inflation Rate",
-      "summary": "The US inflation rate is high, with increasing prices for goods and services. This trend has the potential to impact the US economy and markets.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares TIPS Bond ETF (TIP)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
-        }
-      ],
-      "reasoning": "The high US inflation rate may lead to increased demand for inflation-protected bonds, making the iShares TIPS Bond ETF a buy opportunity. On the other hand, the iShares Core US Aggregate Bond ETF may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
-      "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the inflation rate decreases",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the inflation rate increases",
-        "stopLoss": "-5% on TIP"
-      },
-      "adjacentMarkets": [
-        "US Bond Market"
-      ],
-      "otherFactors": [
-        "Federal Reserve policy"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Middle East Geopolitical Instability",
-      "summary": "The Middle East is experiencing geopolitical instability, with ongoing conflicts and tensions. This situation has the potential to impact the region and global markets.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR Gold Shares ETF (GLD)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI Emerging Markets ETF (EEM)"
-        }
-      ],
-      "reasoning": "The geopolitical instability in the Middle East may lead to increased demand for safe-haven assets, making the SPDR Gold Shares ETF a buy opportunity. On the other hand, the iShares MSCI Emerging Markets ETF may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the conflict is resolved or when the market becomes oversold",
-      "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the conflict is contained",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-5% on GLD"
-      },
-      "adjacentMarkets": [
-        "Middle East"
-      ],
-      "otherFactors": [
-        "Conflict escalation"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Riot Platforms AI Infrastructure",
-      "summary": "Riot Platforms is a company that provides AI infrastructure solutions. The company's technology has the potential to impact the tech industry and related markets.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Riot Platforms Inc. (RIOT)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "NVIDIA Corporation (NVDA)"
-        }
-      ],
-      "reasoning": "Riot Platforms' AI infrastructure solutions may lead to increased demand for the company's products, making it a buy opportunity. On the other hand, NVIDIA may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the trend continues",
-        "base": "+10\u201315%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-10% on RIOT"
-      },
-      "adjacentMarkets": [
-        "Tech Industry"
-      ],
-      "otherFactors": [
-        "AI adoption rate"
+        "AI demand"
       ]
     },
     {
@@ -426,183 +386,40 @@
       "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
-      "title": "US Home Sales",
-      "summary": "The US home sales market is experiencing a slowdown, with decreasing sales and prices. This trend has the potential to impact the US economy and markets.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares US Home Construction ETF (ITB)"
-        }
-      ],
-      "reasoning": "The slowdown in the US home sales market may lead to decreased demand for home construction products, making the iShares US Home Construction ETF a short opportunity. On the other hand, the SPDR S&P 500 ETF Trust may be a buy opportunity due to its diversified portfolio.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
-      "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the trend continues",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "US Stock Market"
-      ],
-      "otherFactors": [
-        "Interest rates"
-      ]
-    },
-    {
-      "id": 11,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "CME AI Compute Futures",
-      "summary": "CME is launching AI compute futures, which may impact the tech industry and related markets.",
+      "title": "US Labor Market Weakness",
+      "summary": "The US labor market has shown weakness, with employers cutting 23,000 jobs in July. This has led to concerns about the overall health of the economy.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "CME Group Inc. (CME)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "NVIDIA Corporation (NVDA)"
-        }
-      ],
-      "reasoning": "The launch of CME AI compute futures may lead to increased demand for CME's products, making it a buy opportunity. On the other hand, NVIDIA may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the trend continues",
-        "base": "+10\u201315%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-10% on CME"
-      },
-      "adjacentMarkets": [
-        "Tech Industry"
-      ],
-      "otherFactors": [
-        "AI adoption rate"
-      ]
-    },
-    {
-      "id": 12,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "Social Security",
-      "summary": "The US Social Security system is facing challenges, with decreasing funding and increasing costs. This trend has the potential to impact the US economy and markets.",
-      "fresh": true,
-      "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 2\u20134 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares US Treasury Bond ETF (GOVT)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The challenges facing the US Social Security system may lead to decreased demand for US Treasury bonds, making the iShares US Treasury Bond ETF a short opportunity. On the other hand, the SPDR S&P 500 ETF Trust may be a buy opportunity due to its diversified portfolio.",
+      "reasoning": "The weakness in the US labor market makes it a good time to short the total stock market, as it may continue to decline.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
+        "viable": "4-8 weeks",
+        "note": "Monitor the labor market closely and be prepared to exit if it shows signs of improvement"
       },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
+      "exitStrategy": "Exit if the labor market shows signs of improvement or if the economy shows resilience",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If the trend continues",
-        "base": "+5\u20138%",
+        "conservative": "+2-4%",
+        "conservativeNote": "If the labor market shows slight improvement",
+        "base": "+4-6%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-5% on SPY"
+        "extended": "+8%+",
+        "extendedNote": "If the labor market continues to weaken",
+        "stopLoss": "-4% on VTI"
       },
       "adjacentMarkets": [
-        "US Stock Market"
+        "US Treasury bonds (TLT)"
       ],
       "otherFactors": [
-        "Interest rates"
-      ]
-    },
-    {
-      "id": 13,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Unitree IPO",
-      "summary": "Unitree is planning an initial public offering (IPO), which may impact the tech industry and related markets.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2\u20134 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Unitree Robotics (Private Company)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "NVIDIA Corporation (NVDA)"
-        }
-      ],
-      "reasoning": "The Unitree IPO may lead to increased demand for the company's products, making it a buy opportunity. On the other hand, NVIDIA may be negatively impacted, making it a short opportunity.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the situation and adjust as necessary"
-      },
-      "exitStrategy": "Exit when the trend reverses or when the market becomes oversold",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the trend continues",
-        "base": "+10\u201315%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the trend accelerates",
-        "stopLoss": "-10% on Unitree Robotics"
-      },
-      "adjacentMarkets": [
-        "Tech Industry"
-      ],
-      "otherFactors": [
-        "AI adoption rate"
+        "US interest rates"
       ]
     }
   ]
