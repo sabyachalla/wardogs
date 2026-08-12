@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T04:48:38Z",
+  "lastUpdated": "2026-08-12T06:15:37Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -12,8 +12,8 @@
       "rank": "HIGH",
       "category": "milgeo",
       "catLabel": "Military-Geo",
-      "title": "US-Iran Tensions Escalate",
-      "summary": "The US and Iran are engaged in a heated standoff, with the US demanding reparations and Iran refusing to back down. This has led to a significant increase in oil prices, with US oil rising above $83 a barrel. The situation is highly volatile and could lead to further escalation.",
+      "title": "Iran War Escalation",
+      "summary": "The Iran war shows the military strength of the US, but also its waning geopolitical power. The conflict has significant implications for global markets and economies. The war has led to increased tensions in the Middle East and has the potential to disrupt global oil supplies.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,404 +22,613 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The escalation of tensions between the US and Iran has led to a significant increase in oil prices, making oil services stocks more attractive. On the other hand, the uncertainty and volatility in the market make it a good time to short government bonds.",
+      "reasoning": "The Iran war has significant implications for global markets and economies. The conflict has led to increased tensions in the Middle East and has the potential to disrupt global oil supplies. This could lead to increased volatility in the markets, making it a high-risk, high-reward trade.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and be prepared to exit if tensions ease"
+        "note": "Monitor the situation closely and adjust the trade as needed"
       },
-      "exitStrategy": "Exit if oil prices drop below $75 a barrel or if tensions ease significantly",
+      "exitStrategy": "Close the trade if the conflict escalates further or if there is a significant change in the global economic outlook",
       "gains": {
-        "conservative": "+8-12%",
-        "conservativeNote": "If tensions ease slightly",
-        "base": "+15-20%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+30%+",
-        "extendedNote": "If tensions escalate further",
-        "stopLoss": "-10% on OIH"
+        "extended": "+25%+",
+        "extendedNote": "If the conflict escalates further",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)"
+        "Gold (safe haven bid)",
+        "Oil (supply disruption)"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US interest rates",
+        "Global economic outlook"
       ]
     },
     {
       "id": 2,
       "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "CoreWeave AI Momentum",
-      "summary": "CoreWeave's stock has soared as the company's earnings show major AI momentum. The company's revenue has doubled, and its CEO is cheering 'an important inflection point'.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Interest Rates",
+      "summary": "The US Federal Reserve has held interest rates steady despite high inflation. The decision has significant implications for the US economy and global markets. The Fed's new philosophy could lead to interest rate volatility.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "CoreWeave (CRWE)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
         }
       ],
-      "reasoning": "CoreWeave's strong earnings and AI momentum make it an attractive buy. The company's stock has already soared, but it still has room for growth.",
+      "reasoning": "The US Federal Reserve's decision to hold interest rates steady despite high inflation has significant implications for the US economy and global markets. The Fed's new philosophy could lead to interest rate volatility, making it a medium-risk trade.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
       },
-      "exitStrategy": "Exit if the stock price drops below $50 or if the company's momentum slows",
+      "exitStrategy": "Close the trade if there is a significant change in the US economic outlook or if interest rates move significantly",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the momentum slows slightly",
-        "base": "+10-15%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If interest rates remain steady",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company's momentum continues",
-        "stopLoss": "-8% on CRWE"
+        "extended": "+15%+",
+        "extendedNote": "If interest rates move significantly",
+        "stopLoss": "-5% on TLT"
       },
       "adjacentMarkets": [
-        "NVIDIA (NVDA)"
+        "US stocks",
+        "Global bonds"
       ],
       "otherFactors": [
-        "AI demand"
+        "US economic outlook",
+        "Global interest rates"
       ]
     },
     {
       "id": 3,
-      "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Labor Market Weakness",
-      "summary": "The US labor market has shown weakness, with employers cutting 23,000 jobs in July. This has led to concerns about the overall health of the economy.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        }
-      ],
-      "reasoning": "The weakness in the US labor market is a concern for the overall economy, making it a good time to short the S&P 500.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the labor market closely and be prepared to exit if it shows signs of improvement"
-      },
-      "exitStrategy": "Exit if the labor market shows signs of improvement or if the economy shows resilience",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the labor market shows slight improvement",
-        "base": "+5-8%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the labor market continues to weaken",
-        "stopLoss": "-5% on SPY"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds (TLT)"
-      ],
-      "otherFactors": [
-        "US interest rates"
-      ]
-    },
-    {
-      "id": 4,
-      "rank": "LOW",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Lumentum Sales More Than Double",
-      "summary": "Lumentum's sales have more than doubled, driven by strong demand for AI-related products. However, the company's stock has been flat after hours.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Lumentum Holdings Inc. (LITE)"
-        }
-      ],
-      "reasoning": "Lumentum's strong sales and AI momentum make it an attractive buy, despite the flat stock price after hours.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
-      },
-      "exitStrategy": "Exit if the stock price drops below $50 or if the company's momentum slows",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the momentum slows slightly",
-        "base": "+4-6%",
-        "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the company's momentum continues",
-        "stopLoss": "-4% on LITE"
-      },
-      "adjacentMarkets": [
-        "NVIDIA (NVDA)"
-      ],
-      "otherFactors": [
-        "AI demand"
-      ]
-    },
-    {
-      "id": 5,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Japan Intervention Fails to Halt Yen Slide",
-      "summary": "The Japanese yen has erased about half of the gains from an unprecedented US-Japan intervention less than two weeks ago. This has led to concerns about the effectiveness of the intervention.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Invesco CurrencyShares Japanese Yen Trust (FXY)"
-        }
-      ],
-      "reasoning": "The failure of the US-Japan intervention to halt the yen slide makes it a good time to buy the yen, as it may continue to weaken.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the yen's movement and be prepared to exit if it shows signs of strengthening"
-      },
-      "exitStrategy": "Exit if the yen shows signs of strengthening or if the intervention is successful",
-      "gains": {
-        "conservative": "+3-5%",
-        "conservativeNote": "If the yen shows slight strengthening",
-        "base": "+5-8%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the yen continues to weaken",
-        "stopLoss": "-5% on FXY"
-      },
-      "adjacentMarkets": [
-        "US dollar (UUP)"
-      ],
-      "otherFactors": [
-        "US interest rates"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Home Sales Fall",
-      "summary": "US home sales have fallen, with sales of existing homes dropping by 1.7% in July. This has led to concerns about the overall health of the housing market.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P Homebuilders ETF (XHB)"
-        }
-      ],
-      "reasoning": "The weakness in the US housing market makes it a good time to short homebuilder stocks, as they may continue to decline.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the housing market closely and be prepared to exit if it shows signs of improvement"
-      },
-      "exitStrategy": "Exit if the housing market shows signs of improvement or if homebuilder stocks show resilience",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the housing market shows slight improvement",
-        "base": "+4-6%",
-        "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the housing market continues to weaken",
-        "stopLoss": "-4% on XHB"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds (TLT)"
-      ],
-      "otherFactors": [
-        "US interest rates"
-      ]
-    },
-    {
-      "id": 7,
-      "rank": "MED",
-      "category": "tech",
-      "catLabel": "Technology",
-      "title": "Super Micro Earnings Report",
-      "summary": "Super Micro's earnings report has brought more good news, with the company's stock climbing. The company has impressed Wall Street with its improved profitability trajectory.",
-      "fresh": true,
-      "freshLabel": "2h ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "Super Micro Computer, Inc. (SMCI)"
-        }
-      ],
-      "reasoning": "Super Micro's strong earnings report and improved profitability trajectory make it an attractive buy.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
-      },
-      "exitStrategy": "Exit if the stock price drops below $50 or if the company's momentum slows",
-      "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the momentum slows slightly",
-        "base": "+8-12%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the company's momentum continues",
-        "stopLoss": "-8% on SMCI"
-      },
-      "adjacentMarkets": [
-        "NVIDIA (NVDA)"
-      ],
-      "otherFactors": [
-        "AI demand"
-      ]
-    },
-    {
-      "id": 8,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Inflation Report",
-      "summary": "The US inflation report is set to be released, with expectations of higher inflation. This has led to concerns about the overall health of the economy.",
-      "fresh": true,
-      "freshLabel": "1d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
-      "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares TIPS Bond ETF (TIP)"
-        }
-      ],
-      "reasoning": "The expected higher inflation makes it a good time to buy TIPS bonds, as they are designed to protect against inflation.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the inflation report and be prepared to exit if inflation shows signs of easing"
-      },
-      "exitStrategy": "Exit if inflation shows signs of easing or if the economy shows resilience",
-      "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If inflation shows slight easing",
-        "base": "+4-6%",
-        "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If inflation continues to rise",
-        "stopLoss": "-4% on TIP"
-      },
-      "adjacentMarkets": [
-        "US Treasury bonds (TLT)"
-      ],
-      "otherFactors": [
-        "US interest rates"
-      ]
-    },
-    {
-      "id": 9,
-      "rank": "MED",
+      "rank": "HIGH",
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Boom",
-      "summary": "NVIDIA's AI boom continues, with the company's CEO pitching GPUs as long-term collateral to unlock $500 billion in funding. However, there are concerns about the depreciation of the chips.",
+      "summary": "NVIDIA's AI financing plan has triggered a tech stock sell-off, with the semiconductor index falling 3%. The company's AI boom has significant implications for the tech industry and global markets.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "risk": "HIGH",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's AI boom and the potential for $500 billion in funding make it an attractive buy, despite concerns about chip depreciation.",
+      "reasoning": "NVIDIA's AI financing plan has triggered a tech stock sell-off, with the semiconductor index falling 3%. The company's AI boom has significant implications for the tech industry and global markets, making it a high-risk, high-reward trade.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the company's progress and be prepared to exit if the momentum slows"
+        "note": "Monitor the situation closely and adjust the trade as needed"
       },
-      "exitStrategy": "Exit if the stock price drops below $200 or if the company's momentum slows",
+      "exitStrategy": "Close the trade if the tech stock sell-off continues or if there is a significant change in the global economic outlook",
       "gains": {
-        "conservative": "+5-8%",
-        "conservativeNote": "If the momentum slows slightly",
-        "base": "+10-15%",
+        "conservative": "+10\u201315%",
+        "conservativeNote": "If the tech stock sell-off continues",
+        "base": "+20\u201325%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company's momentum continues",
+        "extended": "+30%+",
+        "extendedNote": "If the AI boom continues",
         "stopLoss": "-10% on NVDA"
       },
       "adjacentMarkets": [
-        "AMD (AMD)"
+        "Tech stocks",
+        "Semiconductors"
       ],
       "otherFactors": [
-        "AI demand"
+        "US interest rates",
+        "Global economic outlook"
       ]
     },
     {
-      "id": 10,
+      "id": 4,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Israel's Strategic Problem",
+      "summary": "Israel's strategic problem has significant implications for the Middle East and global markets. The country's military strength and geopolitical power are being tested.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI Israel ETF (EIS)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Turkey ETF (TUR)"
+        }
+      ],
+      "reasoning": "Israel's strategic problem has significant implications for the Middle East and global markets. The country's military strength and geopolitical power are being tested, making it a medium-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if there is a significant change in the Middle East or if Israel's strategic problem is resolved",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+10\u201315%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If the situation escalates",
+        "stopLoss": "-8% on EIS"
+      },
+      "adjacentMarkets": [
+        "Middle East stocks",
+        "Oil"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 5,
       "rank": "LOW",
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Labor Market Weakness",
-      "summary": "The US labor market has shown weakness, with employers cutting 23,000 jobs in July. This has led to concerns about the overall health of the economy.",
+      "summary": "The US labor market is showing signs of weakness, with poorer Americans struggling to make ends meet. The situation has significant implications for the US economy and global markets.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4\u20138 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares U.S. Consumer Staples ETF (IYK)"
+        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "Vanguard Total Stock Market ETF (VTI)"
+          "target": "iShares U.S. Consumer Discretionary ETF (IYC)"
         }
       ],
-      "reasoning": "The weakness in the US labor market makes it a good time to short the total stock market, as it may continue to decline.",
+      "reasoning": "The US labor market is showing signs of weakness, with poorer Americans struggling to make ends meet. The situation has significant implications for the US economy and global markets, making it a low-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the US labor market shows signs of improvement or if there is a significant change in the US economic outlook",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the situation worsens",
+        "stopLoss": "-5% on IYK"
+      },
+      "adjacentMarkets": [
+        "US stocks",
+        "Consumer goods"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 6,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Nvidia vs. Navitas Semiconductor",
+      "summary": "Nvidia and Navitas Semiconductor are competing in the AI chip market. The competition has significant implications for the tech industry and global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Navitas Semiconductor Corporation (NVTS)"
+        }
+      ],
+      "reasoning": "Nvidia and Navitas Semiconductor are competing in the AI chip market. The competition has significant implications for the tech industry and global markets, making it a medium-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the competition between Nvidia and Navitas Semiconductor heats up or if there is a significant change in the tech industry",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the competition remains stable",
+        "base": "+10\u201315%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If the competition heats up",
+        "stopLoss": "-8% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Tech stocks",
+        "Semiconductors"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 7,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Inflation Report",
+      "summary": "The US inflation report has significant implications for the US economy and global markets. The report shows that inflation is the biggest problem facing the US economy.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares TIPS Bond ETF (TIP)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "The US inflation report has significant implications for the US economy and global markets. The report shows that inflation is the biggest problem facing the US economy, making it a low-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the US inflation report shows signs of improvement or if there is a significant change in the US economic outlook",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the situation worsens",
+        "stopLoss": "-5% on TIP"
+      },
+      "adjacentMarkets": [
+        "US bonds",
+        "Inflation-indexed bonds"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 8,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Siemens Advances Self-Verifying Agentic AI Workflows",
+      "summary": "Siemens has advanced self-verifying agentic AI workflows for semiconductor and PCB design. The development has significant implications for the tech industry and global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Siemens AG (SIEGY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "ASML Holding N.V. (ASML)"
+        }
+      ],
+      "reasoning": "Siemens has advanced self-verifying agentic AI workflows for semiconductor and PCB design. The development has significant implications for the tech industry and global markets, making it a medium-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the development leads to significant improvements in the tech industry or if there is a significant change in the global economic outlook",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the development leads to moderate improvements",
+        "base": "+10\u201315%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If the development leads to significant improvements",
+        "stopLoss": "-8% on SIEGY"
+      },
+      "adjacentMarkets": [
+        "Tech stocks",
+        "Semiconductors"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 9,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Stock Market Could Ride Earnings Strength to More Gains",
+      "summary": "The US stock market could ride earnings strength to more gains after the S&P 500 hits a record high. The situation has significant implications for the US economy and global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        }
+      ],
+      "reasoning": "The US stock market could ride earnings strength to more gains after the S&P 500 hits a record high. The situation has significant implications for the US economy and global markets, making it a low-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the US stock market shows signs of improvement or if there is a significant change in the US economic outlook",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the situation improves",
+        "stopLoss": "-5% on SPY"
+      },
+      "adjacentMarkets": [
+        "US stocks",
+        "Global stocks"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 10,
+      "rank": "MED",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "The Powder Keg Called The Middle East",
+      "summary": "The Middle East is a powder keg of geopolitical instability, strategic rivalries, and the specter of regional war. The situation has significant implications for global markets and economies.",
+      "fresh": true,
+      "freshLabel": "2d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 4-8 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares MSCI Israel ETF (EIS)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI Turkey ETF (TUR)"
+        }
+      ],
+      "reasoning": "The Middle East is a powder keg of geopolitical instability, strategic rivalries, and the specter of regional war. The situation has significant implications for global markets and economies, making it a medium-risk trade.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the labor market closely and be prepared to exit if it shows signs of improvement"
+        "note": "Monitor the situation closely and adjust the trade as needed"
       },
-      "exitStrategy": "Exit if the labor market shows signs of improvement or if the economy shows resilience",
+      "exitStrategy": "Close the trade if the situation in the Middle East improves or if there is a significant change in the global economic outlook",
       "gains": {
-        "conservative": "+2-4%",
-        "conservativeNote": "If the labor market shows slight improvement",
-        "base": "+4-6%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+10\u201315%",
         "baseNote": "Most likely scenario",
-        "extended": "+8%+",
-        "extendedNote": "If the labor market continues to weaken",
-        "stopLoss": "-4% on VTI"
+        "extended": "+20%+",
+        "extendedNote": "If the situation escalates",
+        "stopLoss": "-8% on EIS"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)"
+        "Middle East stocks",
+        "Oil"
       ],
       "otherFactors": [
-        "US interest rates"
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Labor Market Weakness",
+      "summary": "The US labor market is showing signs of weakness, with poorer Americans struggling to make ends meet. The situation has significant implications for the US economy and global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "iShares U.S. Consumer Staples ETF (IYK)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares U.S. Consumer Discretionary ETF (IYC)"
+        }
+      ],
+      "reasoning": "The US labor market is showing signs of weakness, with poorer Americans struggling to make ends meet. The situation has significant implications for the US economy and global markets, making it a low-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the US labor market shows signs of improvement or if there is a significant change in the US economic outlook",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the situation worsens",
+        "stopLoss": "-5% on IYK"
+      },
+      "adjacentMarkets": [
+        "US stocks",
+        "Consumer goods"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "NVIDIA's $50 Billion AI Financing Plan",
+      "summary": "NVIDIA's $50 billion AI financing plan has triggered a tech stock sell-off, with the semiconductor index falling 3%. The plan has significant implications for the tech industry and global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
+        }
+      ],
+      "reasoning": "NVIDIA's $50 billion AI financing plan has triggered a tech stock sell-off, with the semiconductor index falling 3%. The plan has significant implications for the tech industry and global markets, making it a medium-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the tech stock sell-off continues or if there is a significant change in the global economic outlook",
+      "gains": {
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If the tech stock sell-off continues",
+        "base": "+10\u201315%",
+        "baseNote": "Most likely scenario",
+        "extended": "+20%+",
+        "extendedNote": "If the plan leads to significant improvements in the tech industry",
+        "stopLoss": "-8% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Tech stocks",
+        "Semiconductors"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
+      ]
+    },
+    {
+      "id": 13,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "Gold Advances as Traders Watch US Inflation for Rate-Hike Clues",
+      "summary": "Gold has advanced as traders watch US inflation for rate-hike clues. The situation has significant implications for the US economy and global markets.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2-4 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+        }
+      ],
+      "reasoning": "Gold has advanced as traders watch US inflation for rate-hike clues. The situation has significant implications for the US economy and global markets, making it a low-risk trade.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor the situation closely and adjust the trade as needed"
+      },
+      "exitStrategy": "Close the trade if the US inflation report shows signs of improvement or if there is a significant change in the US economic outlook",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If the situation remains stable",
+        "base": "+5\u20138%",
+        "baseNote": "Most likely scenario",
+        "extended": "+10%+",
+        "extendedNote": "If the situation worsens",
+        "stopLoss": "-5% on GLD"
+      },
+      "adjacentMarkets": [
+        "US bonds",
+        "Inflation-indexed bonds"
+      ],
+      "otherFactors": [
+        "US interest rates",
+        "Global economic outlook"
       ]
     }
   ]
