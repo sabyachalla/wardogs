@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T14:58:59Z",
+  "lastUpdated": "2026-08-13T17:57:31Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,46 +13,46 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The conflict between the US and Iran is escalating, with potential for further military action. This could lead to increased volatility in the oil market and global stocks. The situation is being closely watched by investors and policymakers.",
+      "summary": "The conflict in Iran continues to escalate, with potential for further geopolitical instability in the Middle East. This could lead to increased volatility in oil prices and global markets. The US and its allies are considering further military action, which could have significant implications for the region.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
       "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
           "label": "SHORT",
           "cls": "short",
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
+        },
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "SPDR Gold Shares ETF (GLD)"
         }
       ],
-      "reasoning": "The escalation of the conflict could lead to a flight to safety, benefiting US stocks, while emerging markets may be negatively impacted. The oil market may also see increased volatility, which could impact energy-related stocks.",
+      "reasoning": "The escalation of the conflict in Iran could lead to increased volatility in global markets, particularly in emerging markets. A short position in EEM could be beneficial, while a long position in gold (GLD) could provide a safe haven.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely and adjust positions as needed"
+        "note": "Monitor for further escalation or de-escalation"
       },
-      "exitStrategy": "Close positions if the conflict de-escalates or if the oil market stabilizes",
+      "exitStrategy": "Exit if conflict de-escalates or if oil prices stabilize",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict is contained",
+        "conservativeNote": "If conflict stabilizes",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "extendedNote": "If conflict escalates further",
+        "stopLoss": "-8% on EEM"
       },
       "adjacentMarkets": [
         "Oil (WTI)",
-        "Gold (safe haven bid)"
+        "US Treasury Bonds (TLT)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "US military action",
+        "Oil price volatility"
       ]
     },
     {
@@ -61,46 +61,40 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Boom",
-      "summary": "NVIDIA's AI-related revenue is expected to continue growing, driven by increasing demand for AI-powered products and services. This could lead to increased investor interest in the stock.",
+      "summary": "NVIDIA's AI business continues to grow, with the company announcing new partnerships and products. This could lead to increased demand for NVIDIA's chips and stock.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         }
       ],
-      "reasoning": "NVIDIA's strong position in the AI market and growing revenue could lead to increased investor interest, driving up the stock price. The semiconductor ETF could also benefit from the trend.",
+      "reasoning": "NVIDIA's AI business is growing rapidly, and the company's new partnerships and products could lead to increased demand for its chips and stock.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the company's earnings and revenue growth"
+        "viable": "2-4 weeks",
+        "note": "Monitor for earnings report"
       },
-      "exitStrategy": "Close positions if the company's revenue growth slows or if the AI trend reverses",
+      "exitStrategy": "Exit if earnings report disappoints",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If the trend continues",
-        "base": "+15\u201320%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If earnings report meets expectations",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the company's revenue growth accelerates",
-        "stopLoss": "-10% on NVDA"
+        "extendedNote": "If earnings report exceeds expectations",
+        "stopLoss": "-8% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology stocks",
-        "Semiconductor stocks"
+        "AI-related stocks (GOOGL, AMZN)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Earnings report",
+        "Competition from AMD"
       ]
     },
     {
@@ -109,46 +103,41 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Interest Rates",
-      "summary": "The US Federal Reserve is expected to keep interest rates steady, but the market is watching for any signs of a rate hike. This could impact the US dollar and bond markets.",
+      "summary": "The US Federal Reserve is considering raising interest rates to combat inflation. This could lead to increased volatility in the bond market and impact the US economy.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
-        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "US Dollar Index (DX=F)"
+          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
         }
       ],
-      "reasoning": "If the Fed keeps interest rates steady, the bond market may benefit, while a rate hike could strengthen the US dollar. The opposite could happen if the Fed surprises with a rate cut.",
+      "reasoning": "The US Federal Reserve's consideration of raising interest rates could lead to increased volatility in the bond market, making a short position in TLT potentially beneficial.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor the Fed's statements and economic data"
+        "viable": "2-4 weeks",
+        "note": "Monitor for Fed decision"
       },
-      "exitStrategy": "Close positions if the Fed's policy changes or if the market's expectations shift",
+      "exitStrategy": "Exit if Fed decides not to raise rates",
       "gains": {
-        "conservative": "+4\u20138%",
-        "conservativeNote": "If the Fed keeps rates steady",
-        "base": "+10\u201315%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Fed raises rates as expected",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the Fed surprises with a rate cut",
-        "stopLoss": "-6% on TLT"
+        "extended": "+25%+",
+        "extendedNote": "If Fed raises rates more than expected",
+        "stopLoss": "-8% on TLT"
       },
       "adjacentMarkets": [
-        "US stocks",
-        "Commodities"
+        "US Dollar (USD)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "Global economic growth",
-        "Inflation expectations"
+        "Fed decision",
+        "Inflation data"
       ]
     },
     {
@@ -157,46 +146,40 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Israel's Strategic Problem",
-      "summary": "Israel is facing strategic challenges in the region, including the conflict with Iran and the Palestinian issue. This could lead to increased tensions and volatility in the Middle East.",
+      "summary": "Israel is facing strategic challenges in the Middle East, including the conflict in Iran and the rise of Hamas. This could lead to increased tensions in the region and impact global markets.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "VanEck Vectors Israel ETF (ISRA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares MSCI EAFE ETF (EFA)"
         }
       ],
-      "reasoning": "Israel's strategic challenges could lead to increased investor interest in the country's stocks, while the EAFE ETF could benefit from the trend in international stocks.",
+      "reasoning": "Despite the strategic challenges facing Israel, the country's economy and stock market have been resilient. A long position in ISRA could be beneficial, particularly if the conflict in Iran is resolved.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the situation in the Middle East"
+        "viable": "4-8 weeks",
+        "note": "Monitor for developments in the region"
       },
-      "exitStrategy": "Close positions if the situation in the Middle East stabilizes or if the Israeli economy shows signs of weakness",
+      "exitStrategy": "Exit if conflict escalates further",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the situation stabilizes",
-        "base": "+5\u201310%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflict stabilizes",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the situation escalates",
-        "stopLoss": "-4% on ISRA"
+        "extended": "+25%+",
+        "extendedNote": "If conflict is resolved",
+        "stopLoss": "-8% on ISRA"
       },
       "adjacentMarkets": [
-        "Middle East stocks",
-        "Emerging markets"
+        "Middle East stocks (UAE, Qatar)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Conflict in Iran",
+        "Hamas"
       ]
     },
     {
@@ -205,46 +188,41 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Labor Market Weakness",
-      "summary": "The US labor market is showing signs of weakness, with slowing job growth and increasing unemployment claims. This could impact the US economy and stocks.",
+      "summary": "The US labor market is showing signs of weakness, with slower job growth and increasing unemployment claims. This could lead to a slowdown in the US economy and impact global markets.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
-        {
-          "label": "BUY",
-          "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "A weak labor market could lead to a slowdown in the US economy, benefiting large-cap stocks, while small-cap stocks may be negatively impacted.",
+      "reasoning": "The weakness in the US labor market could lead to a slowdown in the US economy, making a short position in SPY potentially beneficial.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor the labor market data and economic indicators"
+        "viable": "2-4 weeks",
+        "note": "Monitor for jobs report"
       },
-      "exitStrategy": "Close positions if the labor market shows signs of improvement or if the US economy strengthens",
+      "exitStrategy": "Exit if jobs report exceeds expectations",
       "gains": {
-        "conservative": "+4\u20138%",
-        "conservativeNote": "If the labor market stabilizes",
-        "base": "+10\u201315%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If jobs report meets expectations",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the US economy slows down",
-        "stopLoss": "-6% on SPY"
+        "extended": "+25%+",
+        "extendedNote": "If jobs report disappoints",
+        "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "US stocks",
-        "Bond market"
+        "US Treasury Bonds (TLT)",
+        "Gold (GLD)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Inflation expectations"
+        "Jobs report",
+        "Economic data"
       ]
     },
     {
@@ -253,46 +231,40 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Nvidia vs. Navitas Semiconductor",
-      "summary": "NVIDIA and Navitas Semiconductor are competing in the AI chip market, with NVIDIA's strong position and Navitas' innovative technology. This could lead to increased investor interest in the stocks.",
+      "summary": "NVIDIA and Navitas Semiconductor are competing in the AI chip market. NVIDIA's dominance could be challenged by Navitas' new products and partnerships.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "NVIDIA Corporation (NVDA)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
           "target": "Navitas Semiconductor Corporation (NVTS)"
         }
       ],
-      "reasoning": "NVIDIA's strong position in the AI market and Navitas' innovative technology could lead to increased investor interest in the stocks, benefiting the companies.",
+      "reasoning": "Navitas Semiconductor's new products and partnerships could challenge NVIDIA's dominance in the AI chip market, making a long position in NVTS potentially beneficial.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the companies' earnings and revenue growth"
+        "viable": "2-4 weeks",
+        "note": "Monitor for earnings report"
       },
-      "exitStrategy": "Close positions if the companies' revenue growth slows or if the AI trend reverses",
+      "exitStrategy": "Exit if earnings report disappoints",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the trend continues",
-        "base": "+5\u201310%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If earnings report meets expectations",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the companies' revenue growth accelerates",
-        "stopLoss": "-4% on NVDA"
+        "extended": "+25%+",
+        "extendedNote": "If earnings report exceeds expectations",
+        "stopLoss": "-8% on NVTS"
       },
       "adjacentMarkets": [
-        "Technology stocks",
-        "Semiconductor stocks"
+        "AI-related stocks (GOOGL, AMZN)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Earnings report",
+        "Competition from NVIDIA"
       ]
     },
     {
@@ -301,46 +273,41 @@
       "category": "econ",
       "catLabel": "Economy",
       "title": "US Inflation Report",
-      "summary": "The US inflation report is expected to show a slowdown in inflation, which could impact the US economy and stocks. This could lead to increased investor interest in the bond market.",
+      "summary": "The US inflation report showed a slowdown in inflation, with the CPI increasing by 2.5% year-over-year. This could lead to a decrease in interest rates and impact the US economy.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares TIPS Bond ETF (TIP)"
-        },
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Core US Aggregate Bond ETF (AGG)"
         }
       ],
-      "reasoning": "A slowdown in inflation could lead to increased investor interest in the bond market, benefiting TIPS bonds, while stocks may be negatively impacted.",
+      "reasoning": "The slowdown in inflation could lead to a decrease in interest rates, making a long position in AGG potentially beneficial.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor the inflation data and economic indicators"
+        "viable": "2-4 weeks",
+        "note": "Monitor for Fed decision"
       },
-      "exitStrategy": "Close positions if the inflation data shows an increase or if the US economy strengthens",
+      "exitStrategy": "Exit if Fed decides to raise rates",
       "gains": {
-        "conservative": "+4\u20138%",
-        "conservativeNote": "If the inflation data shows a slowdown",
-        "base": "+10\u201315%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If Fed keeps rates steady",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the US economy slows down",
-        "stopLoss": "-6% on TIP"
+        "extended": "+25%+",
+        "extendedNote": "If Fed cuts rates",
+        "stopLoss": "-8% on AGG"
       },
       "adjacentMarkets": [
-        "US stocks",
-        "Bond market"
+        "US Treasury Bonds (TLT)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Fed decision",
+        "Inflation data"
       ]
     },
     {
@@ -349,142 +316,126 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Siemens Advances Self-Verifying Agentic AI Workflows",
-      "summary": "Siemens is advancing self-verifying agentic AI workflows for semiconductor and PCB design, which could lead to increased efficiency and innovation in the industry. This could benefit the company's stock.",
+      "summary": "Siemens has announced advancements in self-verifying agentic AI workflows, which could lead to increased efficiency and productivity in various industries.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "Siemens AG (SIEGY)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
         }
       ],
-      "reasoning": "Siemens' advancement in AI workflows could lead to increased efficiency and innovation in the industry, benefiting the company's stock and the semiconductor ETF.",
+      "reasoning": "Siemens' advancements in self-verifying agentic AI workflows could lead to increased efficiency and productivity in various industries, making a long position in SIEGY potentially beneficial.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the company's earnings and revenue growth"
+        "viable": "2-4 weeks",
+        "note": "Monitor for earnings report"
       },
-      "exitStrategy": "Close positions if the company's revenue growth slows or if the AI trend reverses",
+      "exitStrategy": "Exit if earnings report disappoints",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the trend continues",
-        "base": "+5\u201310%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If earnings report meets expectations",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the company's revenue growth accelerates",
-        "stopLoss": "-4% on SIEGY"
+        "extended": "+25%+",
+        "extendedNote": "If earnings report exceeds expectations",
+        "stopLoss": "-8% on SIEGY"
       },
       "adjacentMarkets": [
-        "Technology stocks",
-        "Semiconductor stocks"
+        "Industrial stocks (GE, CAT)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Earnings report",
+        "Competition from other industrial companies"
       ]
     },
     {
       "id": 9,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economy",
-      "title": "US Stock Market Could Ride Earnings Strength to More Gains",
-      "summary": "The US stock market is expected to continue its upward trend, driven by strong earnings growth and a stable economy. This could lead to increased investor interest in the market.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "The Powder Keg Called The Middle East",
+      "summary": "The Middle East is a region of high geopolitical tension, with various conflicts and rivalries. This could lead to increased volatility in global markets and impact the price of oil.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 4-8 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares Russell 2000 ETF (IWM)"
         }
       ],
-      "reasoning": "The strong earnings growth and stable economy could lead to increased investor interest in the US stock market, benefiting the S&P 500 ETF and the Russell 2000 ETF.",
+      "reasoning": "Despite the geopolitical tensions in the Middle East, the US stock market has been resilient. A long position in SPY could be beneficial, particularly if the conflicts in the region are resolved.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the earnings data and economic indicators"
+        "viable": "4-8 weeks",
+        "note": "Monitor for developments in the region"
       },
-      "exitStrategy": "Close positions if the earnings data shows a slowdown or if the US economy weakens",
+      "exitStrategy": "Exit if conflicts escalate further",
       "gains": {
-        "conservative": "+5\u201310%",
-        "conservativeNote": "If the trend continues",
-        "base": "+10\u201315%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If conflicts stabilize",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the US economy strengthens",
+        "extended": "+25%+",
+        "extendedNote": "If conflicts are resolved",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
-        "US stocks",
-        "Bond market"
+        "Oil (WTI)",
+        "Emerging markets (EEM)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Conflicts in the region",
+        "Oil price volatility"
       ]
     },
     {
       "id": 10,
       "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "The Powder Keg Called The Middle East",
-      "summary": "The Middle East is a region of high geopolitical risk, with ongoing conflicts and tensions between countries. This could lead to increased volatility in the oil market and global stocks.",
+      "category": "econ",
+      "catLabel": "Economy",
+      "title": "US Stock Market Could Ride Earnings Strength to More Gains",
+      "summary": "The US stock market has been driven by strong earnings reports, which could continue to support the market and lead to further gains.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 12 week horizon",
+      "window": "Active now \u2014 2-4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Oil Services ETF (OIH)"
-        },
-        {
-          "label": "ROTATE",
-          "cls": "rotate",
-          "target": "iShares MSCI EAFE ETF (EFA)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
         }
       ],
-      "reasoning": "The high geopolitical risk in the Middle East could lead to increased volatility in the oil market, benefiting the oil services ETF, while the EAFE ETF could benefit from the trend in international stocks.",
+      "reasoning": "The strong earnings reports could continue to support the US stock market, making a long position in VTI potentially beneficial.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "12 weeks",
-        "note": "Monitor the situation in the Middle East"
+        "viable": "2-4 weeks",
+        "note": "Monitor for earnings reports"
       },
-      "exitStrategy": "Close positions if the situation in the Middle East stabilizes or if the oil market shows signs of weakness",
+      "exitStrategy": "Exit if earnings reports disappoint",
       "gains": {
-        "conservative": "+2\u20135%",
-        "conservativeNote": "If the situation stabilizes",
-        "base": "+5\u201310%",
+        "conservative": "+5\u20138%",
+        "conservativeNote": "If earnings reports meet expectations",
+        "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If the situation escalates",
-        "stopLoss": "-4% on OIH"
+        "extended": "+25%+",
+        "extendedNote": "If earnings reports exceed expectations",
+        "stopLoss": "-8% on VTI"
       },
       "adjacentMarkets": [
-        "Oil market",
-        "Middle East stocks"
+        "US Treasury Bonds (TLT)",
+        "Commodities (DBC)"
       ],
       "otherFactors": [
-        "US interest rates",
-        "Global economic growth"
+        "Earnings reports",
+        "Economic data"
       ]
     }
   ]
