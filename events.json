@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T22:22:59Z",
+  "lastUpdated": "2026-08-16T01:23:12Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The conflict in Iran continues to escalate, with the US and its allies involved. This has significant implications for global oil prices and the stock market. The situation is highly volatile, with the potential for further escalation or de-escalation.",
+      "summary": "The conflict in Iran is escalating, with potential for further geopolitical instability in the Middle East. This could lead to increased volatility in oil prices and global markets.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -27,31 +27,31 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares U.S. Oil & Gas Exploration & Production ETF (IEO)"
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Iran war escalation has the potential to disrupt global oil supplies, leading to higher prices. This could have a negative impact on the stock market, particularly on oil-related stocks. However, the SPDR S&P 500 ETF Trust (SPY) could benefit from safe-haven flows.",
+      "reasoning": "The escalation of the Iran war could lead to increased oil prices, which would negatively impact emerging markets and positively impact the US stock market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the situation closely for signs of de-escalation"
+        "note": "Monitor oil prices and geopolitical developments"
       },
-      "exitStrategy": "Exit the position if the conflict de-escalates or if oil prices stabilize",
+      "exitStrategy": "Exit if oil prices drop below $50/bbl",
       "gains": {
         "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict stabilizes",
+        "conservativeNote": "If oil prices increase by 10%",
         "base": "+12\u201318%",
         "baseNote": "Most likely scenario",
         "extended": "+25%+",
-        "extendedNote": "If the conflict escalates further",
+        "extendedNote": "If the conflict spreads to other countries",
         "stopLoss": "-8% on SPY"
       },
       "adjacentMarkets": [
+        "Oil (WTI)",
         "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Oil prices",
-        "US-Iran relations"
+        "US-Iran diplomatic relations"
       ]
     },
     {
@@ -60,376 +60,515 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Demand",
-      "summary": "NVIDIA's AI demand continues to drive the stock higher, with the company's GPUs being used in a variety of applications. The trend is expected to continue, with the potential for further growth.",
+      "summary": "NVIDIA's AI demand is increasing, driven by the growth of cloud computing and artificial intelligence. This could lead to increased revenue and profitability for the company.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's AI demand is driving the stock higher, with the company's GPUs being used in a variety of applications. The trend is expected to continue, with the potential for further growth.",
+      "reasoning": "NVIDIA's strong position in the AI market and increasing demand for its products could lead to increased revenue and profitability.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the stock's momentum closely"
+        "note": "Monitor earnings reports and industry trends"
       },
-      "exitStrategy": "Exit the position if the stock's momentum slows",
+      "exitStrategy": "Exit if NVDA's stock price drops below $200",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the trend continues",
-        "base": "+10\u201315%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If NVDA's revenue increases by 5%",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company reports strong earnings",
+        "extended": "+15%+",
+        "extendedNote": "If NVDA's market share increases",
         "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Technology sector"
+        "Cloud Computing (MSFT)",
+        "Artificial Intelligence (GOOGL)"
       ],
       "otherFactors": [
-        "AI trends",
-        "GPU demand"
+        "Competition from AMD and Intel"
       ]
     },
     {
       "id": 3,
-      "rank": "MED",
+      "rank": "LOW",
       "category": "econ",
       "catLabel": "Economics",
       "title": "US Inflation Report",
-      "summary": "The US inflation report showed a slight decrease in inflation, which could lead to a decrease in interest rates. This has significant implications for the stock market and the economy.",
+      "summary": "The US inflation report showed a decrease in inflation, which could lead to a decrease in interest rates. This could positively impact the stock market and negatively impact the US dollar.",
       "fresh": true,
       "freshLabel": "1d ago",
-      "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "risk": "LOW",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The decrease in inflation could lead to a decrease in interest rates, which would make bonds more attractive. The iShares Core U.S. Aggregate Bond ETF (AGG) could benefit from this trend.",
+      "reasoning": "A decrease in inflation could lead to a decrease in interest rates, which would positively impact the stock market and negatively impact the US dollar.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the Fed's interest rate decisions closely"
+        "note": "Monitor interest rate decisions and economic indicators"
       },
-      "exitStrategy": "Exit the position if interest rates rise",
+      "exitStrategy": "Exit if the US dollar index increases by 2%",
       "gains": {
-        "conservative": "+3\u20135%",
-        "conservativeNote": "If interest rates decrease",
-        "base": "+5\u20138%",
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If interest rates decrease by 0.25%",
+        "base": "+4\u20136%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the economy enters a recession",
-        "stopLoss": "-3% on AGG"
+        "extended": "+8%+",
+        "extendedNote": "If the US economy enters a recession",
+        "stopLoss": "-3% on VTI"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "US Treasury Bonds (TLT)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Interest rates",
-        "Economic growth"
+        "Federal Reserve monetary policy"
       ]
     },
     {
       "id": 4,
-      "rank": "LOW",
+      "rank": "MED",
       "category": "trade",
       "catLabel": "Trade",
       "title": "Trump Tariffs on China",
-      "summary": "The Trump tariffs on China continue to have a significant impact on the global economy. The situation is highly uncertain, with the potential for further escalation or de-escalation.",
+      "summary": "The Trump administration has imposed tariffs on Chinese goods, which could lead to a trade war between the two countries. This could negatively impact global trade and economic growth.",
       "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
-        {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares China Large-Cap ETF (FXI)"
-        }
-      ],
-      "reasoning": "The Trump tariffs on China continue to have a negative impact on the Chinese economy. The iShares China Large-Cap ETF (FXI) could be affected by this trend.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the trade negotiations closely"
-      },
-      "exitStrategy": "Exit the position if the trade negotiations improve",
-      "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the trade negotiations stabilize",
-        "base": "+5\u20138%",
-        "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the trade war escalates further",
-        "stopLoss": "-5% on FXI"
-      },
-      "adjacentMarkets": [
-        "Emerging markets"
-      ],
-      "otherFactors": [
-        "Trade negotiations",
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 5,
-      "rank": "MED",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Israel Strategic Problem",
-      "summary": "Israel's strategic problem continues to be a significant concern, with the potential for further conflict in the region. The situation is highly uncertain, with the potential for further escalation or de-escalation.",
-      "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "VanEck Vectors Israel ETF (ISRA)"
-        }
-      ],
-      "reasoning": "Israel's strategic problem continues to be a significant concern, with the potential for further conflict in the region. The VanEck Vectors Israel ETF (ISRA) could benefit from safe-haven flows.",
-      "timeFrame": {
-        "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the situation closely for signs of de-escalation"
-      },
-      "exitStrategy": "Exit the position if the conflict de-escalates",
-      "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the conflict stabilizes",
-        "base": "+10\u201315%",
-        "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-8% on ISRA"
-      },
-      "adjacentMarkets": [
-        "Middle East"
-      ],
-      "otherFactors": [
-        "Conflict in the region",
-        "Global economic growth"
-      ]
-    },
-    {
-      "id": 6,
-      "rank": "LOW",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "US Labor Market Weakness",
-      "summary": "The US labor market weakness continues to be a concern, with the potential for further economic slowdown. The situation is highly uncertain, with the potential for further escalation or de-escalation.",
-      "fresh": true,
-      "freshLabel": "2d ago",
-      "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
-      "actions": [
+          "target": "iShares MSCI China ETF (MCHI)"
+        },
         {
           "label": "SHORT",
           "cls": "short",
           "target": "SPDR S&P 500 ETF Trust (SPY)"
         }
       ],
-      "reasoning": "The US labor market weakness continues to be a concern, with the potential for further economic slowdown. The SPDR S&P 500 ETF Trust (SPY) could be affected by this trend.",
+      "reasoning": "The tariffs could lead to a decrease in Chinese exports and a decrease in global economic growth, which would negatively impact the US stock market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor the labor market closely"
+        "note": "Monitor trade negotiations and economic indicators"
       },
-      "exitStrategy": "Exit the position if the labor market improves",
+      "exitStrategy": "Exit if the US and China reach a trade agreement",
       "gains": {
-        "conservative": "+2\u20133%",
-        "conservativeNote": "If the labor market stabilizes",
-        "base": "+5\u20138%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the tariffs are removed",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the economy enters a recession",
-        "stopLoss": "-5% on SPY"
+        "extended": "+15%+",
+        "extendedNote": "If the trade war escalates",
+        "stopLoss": "-5% on MCHI"
       },
       "adjacentMarkets": [
-        "US economy"
+        "US Treasury Bonds (TLT)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Economic growth",
-        "Labor market trends"
+        "US-China trade negotiations"
       ]
     },
     {
-      "id": 7,
+      "id": 5,
+      "rank": "LOW",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Israel Strategic Problem",
+      "summary": "Israel is facing strategic problems due to the escalation of the Iran war, which could lead to increased tensions in the Middle East. This could negatively impact global oil prices and economic growth.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2\u20134 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI EAFE ETF (EFA)"
+        }
+      ],
+      "reasoning": "The escalation of the Iran war could lead to increased oil prices, which would positively impact the oil services sector and negatively impact the global economy.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor oil prices and geopolitical developments"
+      },
+      "exitStrategy": "Exit if oil prices drop below $50/bbl",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If oil prices increase by 5%",
+        "base": "+4\u20136%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If the conflict spreads to other countries",
+        "stopLoss": "-3% on OIH"
+      },
+      "adjacentMarkets": [
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "US-Iran diplomatic relations"
+      ]
+    },
+    {
+      "id": 6,
       "rank": "MED",
       "category": "tech",
       "catLabel": "Technology",
       "title": "Siemens AI Workflows",
-      "summary": "Siemens' AI workflows continue to drive innovation in the technology sector. The trend is expected to continue, with the potential for further growth.",
+      "summary": "Siemens is advancing its AI workflows for semiconductor and PCB design, which could lead to increased efficiency and productivity in the industry. This could positively impact the stock price of Siemens and other companies in the industry.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
           "target": "Siemens AG (SIEGY)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "ASML Holding NV (ASML)"
         }
       ],
-      "reasoning": "Siemens' AI workflows continue to drive innovation in the technology sector. The trend is expected to continue, with the potential for further growth.",
+      "reasoning": "The advancement of AI workflows could lead to increased efficiency and productivity in the industry, which would positively impact the stock price of Siemens and other companies in the industry.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the company's progress closely"
+        "note": "Monitor industry trends and earnings reports"
       },
-      "exitStrategy": "Exit the position if the company's progress slows",
+      "exitStrategy": "Exit if the stock price of Siemens drops below $50",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the trend continues",
-        "base": "+10\u201315%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the industry trends positively",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company reports strong earnings",
+        "extended": "+15%+",
+        "extendedNote": "If the company's market share increases",
         "stopLoss": "-5% on SIEGY"
       },
       "adjacentMarkets": [
-        "Technology sector"
+        "Semiconductors (SMH)",
+        "Artificial Intelligence (GOOGL)"
       ],
       "otherFactors": [
-        "AI trends",
-        "Innovation"
+        "Competition from other companies in the industry"
+      ]
+    },
+    {
+      "id": 7,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "Fed Interest Rate Decision",
+      "summary": "The Federal Reserve has decided to keep interest rates unchanged, which could lead to a decrease in the US dollar and an increase in the stock market. This could positively impact the economy and negatively impact the US dollar.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2\u20134 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        }
+      ],
+      "reasoning": "The decision to keep interest rates unchanged could lead to a decrease in the US dollar and an increase in the stock market, which would positively impact the economy and negatively impact the US dollar.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor interest rate decisions and economic indicators"
+      },
+      "exitStrategy": "Exit if the US dollar index increases by 2%",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If interest rates decrease by 0.25%",
+        "base": "+4\u20136%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If the US economy enters a recession",
+        "stopLoss": "-3% on VTI"
+      },
+      "adjacentMarkets": [
+        "US Treasury Bonds (TLT)",
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "Federal Reserve monetary policy"
       ]
     },
     {
       "id": 8,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "Fed Interest Rate Decision",
-      "summary": "The Fed's interest rate decision continues to have a significant impact on the global economy. The situation is highly uncertain, with the potential for further escalation or de-escalation.",
+      "category": "milgeo",
+      "catLabel": "Military-Geo",
+      "title": "Strait of Hormuz Tensions",
+      "summary": "The Strait of Hormuz is experiencing increased tensions due to the escalation of the Iran war, which could lead to a disruption in oil supplies and an increase in oil prices. This could negatively impact global economic growth and positively impact the oil services sector.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 4\u20138 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares 1-3 Year Credit Bond ETF (CSJ)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "iShares MSCI EAFE ETF (EFA)"
         }
       ],
-      "reasoning": "The Fed's interest rate decision continues to have a significant impact on the global economy. The iShares 1-3 Year Credit Bond ETF (CSJ) could benefit from the trend.",
+      "reasoning": "The escalation of the Iran war could lead to a disruption in oil supplies and an increase in oil prices, which would positively impact the oil services sector and negatively impact global economic growth.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "2-4 weeks",
-        "note": "Monitor the Fed's interest rate decisions closely"
+        "viable": "4-8 weeks",
+        "note": "Monitor oil prices and geopolitical developments"
       },
-      "exitStrategy": "Exit the position if interest rates rise",
+      "exitStrategy": "Exit if oil prices drop below $50/bbl",
       "gains": {
         "conservative": "+3\u20135%",
-        "conservativeNote": "If interest rates decrease",
-        "base": "+5\u20138%",
+        "conservativeNote": "If oil prices increase by 5%",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the economy enters a recession",
-        "stopLoss": "-3% on CSJ"
+        "extended": "+15%+",
+        "extendedNote": "If the conflict spreads to other countries",
+        "stopLoss": "-5% on OIH"
       },
       "adjacentMarkets": [
-        "Bond market"
+        "Oil (WTI)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Interest rates",
-        "Economic growth"
+        "US-Iran diplomatic relations"
       ]
     },
     {
       "id": 9,
       "rank": "LOW",
-      "category": "milgeo",
-      "catLabel": "Military-Geo",
-      "title": "Strait of Hormuz Tensions",
-      "summary": "The Strait of Hormuz tensions continue to be a concern, with the potential for further conflict in the region. The situation is highly uncertain, with the potential for further escalation or de-escalation.",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "US Stock Market Earnings",
+      "summary": "The US stock market is experiencing strong earnings growth, which could lead to an increase in the stock market and a decrease in the US dollar. This could positively impact the economy and negatively impact the US dollar.",
       "fresh": true,
-      "freshLabel": "2d ago",
+      "freshLabel": "1d ago",
       "risk": "LOW",
-      "window": "Active now \u2014 4-8 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
         }
       ],
-      "reasoning": "The Strait of Hormuz tensions continue to be a concern, with the potential for further conflict in the region. The United States Oil Fund LP (USO) could benefit from safe-haven flows.",
+      "reasoning": "The strong earnings growth could lead to an increase in the stock market and a decrease in the US dollar, which would positively impact the economy and negatively impact the US dollar.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "4-8 weeks",
-        "note": "Monitor the situation closely for signs of de-escalation"
+        "viable": "2-4 weeks",
+        "note": "Monitor earnings reports and economic indicators"
       },
-      "exitStrategy": "Exit the position if the conflict de-escalates",
+      "exitStrategy": "Exit if the US dollar index increases by 2%",
       "gains": {
         "conservative": "+2\u20133%",
-        "conservativeNote": "If the conflict stabilizes",
-        "base": "+5\u20138%",
+        "conservativeNote": "If earnings growth continues",
+        "base": "+4\u20136%",
         "baseNote": "Most likely scenario",
-        "extended": "+10%+",
-        "extendedNote": "If the conflict escalates further",
-        "stopLoss": "-5% on USO"
+        "extended": "+8%+",
+        "extendedNote": "If the US economy enters a recession",
+        "stopLoss": "-3% on VTI"
       },
       "adjacentMarkets": [
-        "Oil market"
+        "US Treasury Bonds (TLT)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "Conflict in the region",
-        "Global economic growth"
+        "Federal Reserve monetary policy"
       ]
     },
     {
       "id": 10,
       "rank": "MED",
-      "category": "econ",
-      "catLabel": "Economics",
-      "title": "US Stock Market Earnings",
-      "summary": "The US stock market earnings continue to be a significant driver of the market's performance. The trend is expected to continue, with the potential for further growth.",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "NVIDIA and TSMC AI Partnership",
+      "summary": "NVIDIA and TSMC are partnering to advance AI technology, which could lead to increased demand for NVIDIA's products and a positive impact on the company's stock price.",
       "fresh": true,
-      "freshLabel": "1d ago",
+      "freshLabel": "2h ago",
       "risk": "MED",
-      "window": "Active now \u2014 2-4 week horizon",
+      "window": "Active now \u2014 2\u20134 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "The US stock market earnings continue to be a significant driver of the market's performance. The trend is expected to continue, with the potential for further growth.",
+      "reasoning": "The partnership between NVIDIA and TSMC could lead to increased demand for NVIDIA's products and a positive impact on the company's stock price.",
       "timeFrame": {
         "enter": "Now",
         "viable": "2-4 weeks",
-        "note": "Monitor the earnings season closely"
+        "note": "Monitor industry trends and earnings reports"
       },
-      "exitStrategy": "Exit the position if the earnings season disappoints",
+      "exitStrategy": "Exit if the stock price of NVIDIA drops below $200",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If the trend continues",
-        "base": "+10\u201315%",
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the partnership is successful",
+        "base": "+8\u201312%",
         "baseNote": "Most likely scenario",
-        "extended": "+20%+",
-        "extendedNote": "If the company reports strong earnings",
-        "stopLoss": "-5% on SPY"
+        "extended": "+15%+",
+        "extendedNote": "If the company's market share increases",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "US economy"
+        "Artificial Intelligence (GOOGL)",
+        "Semiconductors (SMH)"
       ],
       "otherFactors": [
-        "Earnings season",
-        "Economic growth"
+        "Competition from AMD and Intel"
+      ]
+    },
+    {
+      "id": 11,
+      "rank": "LOW",
+      "category": "econ",
+      "catLabel": "Economics",
+      "title": "US Labor Market Weakness",
+      "summary": "The US labor market is experiencing weakness, which could lead to a decrease in interest rates and a positive impact on the stock market. This could negatively impact the US dollar and positively impact the economy.",
+      "fresh": true,
+      "freshLabel": "1d ago",
+      "risk": "LOW",
+      "window": "Active now \u2014 2\u20134 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "Vanguard Total Stock Market ETF (VTI)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+        }
+      ],
+      "reasoning": "The weakness in the labor market could lead to a decrease in interest rates and a positive impact on the stock market, which would negatively impact the US dollar and positively impact the economy.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor labor market reports and economic indicators"
+      },
+      "exitStrategy": "Exit if the US dollar index increases by 2%",
+      "gains": {
+        "conservative": "+2\u20133%",
+        "conservativeNote": "If interest rates decrease by 0.25%",
+        "base": "+4\u20136%",
+        "baseNote": "Most likely scenario",
+        "extended": "+8%+",
+        "extendedNote": "If the US economy enters a recession",
+        "stopLoss": "-3% on VTI"
+      },
+      "adjacentMarkets": [
+        "US Treasury Bonds (TLT)",
+        "Gold (safe haven bid)"
+      ],
+      "otherFactors": [
+        "Federal Reserve monetary policy"
+      ]
+    },
+    {
+      "id": 12,
+      "rank": "MED",
+      "category": "tech",
+      "catLabel": "Technology",
+      "title": "Trump Restricted China's Access to AI Chips",
+      "summary": "The Trump administration has restricted China's access to AI chips, which could lead to an increase in demand for US-based AI companies and a positive impact on their stock prices.",
+      "fresh": true,
+      "freshLabel": "2h ago",
+      "risk": "MED",
+      "window": "Active now \u2014 2\u20134 week horizon",
+      "actions": [
+        {
+          "label": "BUY",
+          "cls": "buy",
+          "target": "NVIDIA Corporation (NVDA)"
+        },
+        {
+          "label": "SHORT",
+          "cls": "short",
+          "target": "Alibaba Group Holding Limited (BABA)"
+        }
+      ],
+      "reasoning": "The restriction on China's access to AI chips could lead to an increase in demand for US-based AI companies and a positive impact on their stock prices.",
+      "timeFrame": {
+        "enter": "Now",
+        "viable": "2-4 weeks",
+        "note": "Monitor industry trends and earnings reports"
+      },
+      "exitStrategy": "Exit if the stock price of NVIDIA drops below $200",
+      "gains": {
+        "conservative": "+3\u20135%",
+        "conservativeNote": "If the restriction is successful",
+        "base": "+8\u201312%",
+        "baseNote": "Most likely scenario",
+        "extended": "+15%+",
+        "extendedNote": "If the company's market share increases",
+        "stopLoss": "-5% on NVDA"
+      },
+      "adjacentMarkets": [
+        "Artificial Intelligence (GOOGL)",
+        "Semiconductors (SMH)"
+      ],
+      "otherFactors": [
+        "Competition from AMD and Intel"
       ]
     }
   ]
