@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T19:21:24Z",
+  "lastUpdated": "2026-08-16T22:21:55Z",
   "scanSources": [
     "Reuters",
     "Yahoo Finance",
@@ -13,7 +13,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Iran War Escalation",
-      "summary": "The Iran war is escalating, with the US and its allies involved in military actions. This has significant implications for global markets and economies. The conflict is expected to impact oil prices and global trade.",
+      "summary": "The conflict in Iran continues to escalate, with the US and its allies involved. The situation is highly volatile and could lead to a significant increase in oil prices. The US has shown military strength, but its geopolitical power is waning.",
       "fresh": true,
       "freshLabel": "1h ago",
       "risk": "HIGH",
@@ -22,37 +22,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "iShares U.S. Treasury Bond ETF (GOVT)"
         }
       ],
-      "reasoning": "The Iran war escalation is expected to lead to increased market volatility, with potential impacts on oil prices and global trade. This could lead to a short-term decline in the US stock market, but also potential gains in safe-haven assets like gold and bonds.",
+      "reasoning": "The escalation of the conflict in Iran could lead to a disruption in oil supplies, causing prices to rise. This would benefit oil services companies, making OIH a good buy. On the other hand, the uncertainty and volatility could lead to a flight to safety, making GOVT a good short.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4-8 weeks",
-        "note": "Monitor for escalation or de-escalation of conflict"
+        "note": "Monitor the situation closely and adjust the position as needed"
       },
-      "exitStrategy": "Exit when conflict de-escalates or when oil prices stabilize",
+      "exitStrategy": "Exit the position if the conflict de-escalates or if oil prices drop significantly",
       "gains": {
-        "conservative": "+5\u20138%",
-        "conservativeNote": "If conflict is contained",
-        "base": "+12\u201318%",
-        "baseNote": "Most likely scenario",
-        "extended": "+25%+",
-        "extendedNote": "If conflict escalates further",
-        "stopLoss": "-8% on SPY"
+        "conservative": "+10-15%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+20-25%",
+        "baseNote": "If the conflict escalates and oil prices rise",
+        "extended": "+30%+",
+        "extendedNote": "If the conflict spreads to other countries in the region",
+        "stopLoss": "-10% on OIH"
       },
       "adjacentMarkets": [
         "Gold (safe haven bid)",
-        "Oil (price volatility)"
+        "US Dollar Index (DXY)"
       ],
       "otherFactors": [
-        "US Federal Reserve policy",
-        "Global economic growth"
+        "Monitor the actions of other countries in the region, such as Saudi Arabia and Israel"
       ]
     },
     {
@@ -61,7 +60,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA AI Demand",
-      "summary": "NVIDIA's AI demand is increasing, driven by growth in data centers and cloud computing. This trend is expected to continue, with potential implications for the tech sector and related stocks.",
+      "summary": "NVIDIA's AI demand is increasing, driven by the growth of cloud computing and artificial intelligence. The company's GPUs are being used in a variety of applications, including data centers and autonomous vehicles.",
       "fresh": true,
       "freshLabel": "2h ago",
       "risk": "MED",
@@ -75,80 +74,78 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Advanced Micro Devices, Inc. (AMD)"
         }
       ],
-      "reasoning": "NVIDIA's AI demand is expected to drive growth in the company's stock price, as well as the broader tech sector. This trend is expected to continue, with potential implications for related stocks and ETFs.",
+      "reasoning": "NVIDIA's strong position in the AI market and its growing demand make it a good buy. However, the stock has already risen significantly, so it may be prudent to rotate into AMD, which is also well-positioned in the AI market but has more upside potential.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor for earnings reports and industry trends"
+        "note": "Monitor the company's earnings and revenue growth"
       },
-      "exitStrategy": "Exit when AI demand slows or when valuations become overstretched",
+      "exitStrategy": "Exit the position if the company's earnings or revenue growth disappoint",
       "gains": {
-        "conservative": "+8\u201312%",
-        "conservativeNote": "If demand growth is moderate",
-        "base": "+15\u201320%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+5-10%",
+        "conservativeNote": "If the company's earnings are in line with expectations",
+        "base": "+15-20%",
+        "baseNote": "If the company's earnings and revenue growth exceed expectations",
         "extended": "+25%+",
-        "extendedNote": "If demand growth is strong",
-        "stopLoss": "-10% on NVDA"
+        "extendedNote": "If the company's AI demand continues to grow rapidly",
+        "stopLoss": "-5% on NVDA"
       },
       "adjacentMarkets": [
-        "Cloud computing (AMZN, MSFT)",
-        "Data center stocks (DFT, QTS)"
+        "Cloud Computing (CLOUD)",
+        "Artificial Intelligence (AI)"
       ],
       "otherFactors": [
-        "US-China trade tensions",
-        "Global economic growth"
+        "Monitor the company's competition, such as AMD and Intel"
       ]
     },
     {
       "id": 3,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economics",
+      "catLabel": "Economy",
       "title": "US Inflation Report",
-      "summary": "The US inflation report is expected to show moderate growth, with potential implications for interest rates and the US economy. This could impact the US stock market and related assets.",
+      "summary": "The US inflation report showed a moderate increase in prices, with the core CPI rising 2.3% year-over-year. The report was in line with expectations, and the Fed is likely to keep interest rates steady.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "iShares Core US Aggregate Bond ETF (AGG)"
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "ProShares UltraPro Short 20+ Year Treasury (TTT)"
         }
       ],
-      "reasoning": "The US inflation report is expected to show moderate growth, which could lead to increased interest rates and a stronger US dollar. This could impact the US stock market and related assets, with potential implications for bonds and other fixed-income assets.",
+      "reasoning": "The moderate increase in inflation and the Fed's decision to keep interest rates steady make AGG a good buy. The bond market is likely to be stable, and the ETF will provide a steady income stream. On the other hand, TTT is a good short, as the long-term bond market is likely to be volatile.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor for interest rate decisions and economic growth"
+        "viable": "4 weeks",
+        "note": "Monitor the Fed's interest rate decisions and the inflation report"
       },
-      "exitStrategy": "Exit when inflation growth slows or when interest rates stabilize",
+      "exitStrategy": "Exit the position if the inflation report shows a significant increase in prices or if the Fed raises interest rates",
       "gains": {
-        "conservative": "+4\u20138%",
-        "conservativeNote": "If inflation growth is moderate",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If inflation growth is strong",
-        "stopLoss": "-6% on AGG"
+        "conservative": "+2-5%",
+        "conservativeNote": "If the inflation report is in line with expectations",
+        "base": "+5-10%",
+        "baseNote": "If the inflation report shows a moderate increase in prices",
+        "extended": "+10%+",
+        "extendedNote": "If the inflation report shows a significant increase in prices",
+        "stopLoss": "-2% on AGG"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "US dollar (UUP)"
+        "US Dollar Index (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US Federal Reserve policy",
-        "Global economic growth"
+        "Monitor the Fed's interest rate decisions and the inflation report"
       ]
     },
     {
@@ -157,7 +154,7 @@
       "category": "trade",
       "catLabel": "Trade",
       "title": "Trump Tariffs on China",
-      "summary": "The Trump tariffs on China are expected to continue, with potential implications for global trade and the US economy. This could impact the US stock market and related assets.",
+      "summary": "The US has imposed tariffs on China, and the trade war between the two countries continues. The tariffs have had a significant impact on the global economy, and the situation is being closely monitored.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -166,37 +163,36 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "Invesco DB US Dollar Index Bullish Fund (UUP)"
+          "target": "iShares MSCI China ETF (MCHI)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
+          "label": "ROTATE",
+          "cls": "rotate",
           "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Trump tariffs on China are expected to continue, which could lead to increased trade tensions and a stronger US dollar. This could impact the US stock market and related assets, with potential implications for emerging markets and trade-related assets.",
+      "reasoning": "The trade war between the US and China has had a significant impact on the Chinese economy, and the country's stocks have been affected. However, the situation is being closely monitored, and the tariffs may be lifted or reduced, making MCHI a good buy. Rotating into EEM may also be a good strategy, as the ETF provides exposure to a broader range of emerging markets.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor for trade negotiations and economic growth"
+        "note": "Monitor the trade negotiations between the US and China"
       },
-      "exitStrategy": "Exit when trade tensions ease or when US dollar stabilizes",
+      "exitStrategy": "Exit the position if the trade war escalates or if the tariffs are increased",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If trade tensions are moderate",
-        "base": "+4\u20138%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+2-5%",
+        "conservativeNote": "If the trade war is contained",
+        "base": "+5-10%",
+        "baseNote": "If the trade war is resolved or the tariffs are reduced",
         "extended": "+10%+",
-        "extendedNote": "If trade tensions are strong",
-        "stopLoss": "-4% on UUP"
+        "extendedNote": "If the trade war is resolved and the Chinese economy grows rapidly",
+        "stopLoss": "-2% on MCHI"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "Emerging markets (EEM)"
+        "US Dollar Index (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US-China trade negotiations",
-        "Global economic growth"
+        "Monitor the trade negotiations between the US and China"
       ]
     },
     {
@@ -205,46 +201,45 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Israel Strategic Problem",
-      "summary": "Israel's strategic problem is expected to continue, with potential implications for the Middle East and global markets. This could impact the US stock market and related assets.",
+      "summary": "Israel is facing a strategic problem due to the conflict in the Middle East. The country is surrounded by hostile nations, and its military is on high alert.",
       "fresh": true,
       "freshLabel": "1d ago",
       "risk": "MED",
-      "window": "Active now \u2014 8 week horizon",
+      "window": "Active now \u2014 4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares MSCI Israel ETF (EIS)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares MSCI EAFE ETF (EFA)"
+          "target": "VanEck Vectors Israel ETF (ISRA)"
         }
       ],
-      "reasoning": "Israel's strategic problem is expected to continue, which could lead to increased tensions in the Middle East and potential implications for global markets. This could impact the US stock market and related assets, with potential implications for international stocks and assets.",
+      "reasoning": "The conflict in the Middle East and Israel's strategic problem make EIS a good buy. The ETF provides exposure to the Israeli economy, which is likely to be resilient in the face of the conflict. On the other hand, ISRA is a good short, as the ETF is more volatile and may be affected by the conflict.",
       "timeFrame": {
         "enter": "Now",
-        "viable": "8 weeks",
-        "note": "Monitor for geopolitical developments and economic growth"
+        "viable": "4 weeks",
+        "note": "Monitor the conflict in the Middle East and Israel's military actions"
       },
-      "exitStrategy": "Exit when tensions ease or when economic growth stabilizes",
+      "exitStrategy": "Exit the position if the conflict escalates or if Israel's military is involved in a major operation",
       "gains": {
-        "conservative": "+4\u20138%",
-        "conservativeNote": "If tensions are moderate",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+5-10%",
+        "conservativeNote": "If the conflict is contained",
+        "base": "+10-15%",
+        "baseNote": "If the conflict is resolved or Israel's military is successful",
         "extended": "+15%+",
-        "extendedNote": "If tensions are strong",
-        "stopLoss": "-6% on SPY"
+        "extendedNote": "If the conflict is resolved and Israel's economy grows rapidly",
+        "stopLoss": "-5% on EIS"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)",
-        "Oil (price volatility)"
+        "US Dollar Index (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US Federal Reserve policy",
-        "Global economic growth"
+        "Monitor the conflict in the Middle East and Israel's military actions"
       ]
     },
     {
@@ -253,7 +248,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "Siemens AI Workflows",
-      "summary": "Siemens' AI workflows are expected to continue, with potential implications for the tech sector and related stocks. This could impact the US stock market and related assets.",
+      "summary": "Siemens is advancing self-verifying agentic AI workflows for semiconductor and PCB design. The company's technology is likely to have a significant impact on the industry.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -267,80 +262,78 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "NVIDIA Corporation (NVDA)"
         }
       ],
-      "reasoning": "Siemens' AI workflows are expected to continue, which could lead to increased growth in the company's stock price and the broader tech sector. This could impact the US stock market and related assets, with potential implications for related stocks and ETFs.",
+      "reasoning": "Siemens' advancement in AI workflows makes SIEGY a good buy. The company's technology is likely to have a significant impact on the industry, and the stock may rise as a result. Rotating into NVDA may also be a good strategy, as the company is a leader in the AI market.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor for earnings reports and industry trends"
+        "note": "Monitor the company's progress in AI workflows"
       },
-      "exitStrategy": "Exit when AI demand slows or when valuations become overstretched",
+      "exitStrategy": "Exit the position if the company's progress in AI workflows is slow or if the industry is affected by a major downturn",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If demand growth is moderate",
-        "base": "+4\u20138%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+2-5%",
+        "conservativeNote": "If the company's progress in AI workflows is steady",
+        "base": "+5-10%",
+        "baseNote": "If the company's progress in AI workflows is rapid",
         "extended": "+10%+",
-        "extendedNote": "If demand growth is strong",
-        "stopLoss": "-4% on SIEGY"
+        "extendedNote": "If the company's AI workflows have a significant impact on the industry",
+        "stopLoss": "-2% on SIEGY"
       },
       "adjacentMarkets": [
-        "Cloud computing (AMZN, MSFT)",
-        "Data center stocks (DFT, QTS)"
+        "Cloud Computing (CLOUD)",
+        "Artificial Intelligence (AI)"
       ],
       "otherFactors": [
-        "US-China trade tensions",
-        "Global economic growth"
+        "Monitor the company's progress in AI workflows"
       ]
     },
     {
       "id": 7,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economics",
+      "catLabel": "Economy",
       "title": "Fed Interest Rate Decision",
-      "summary": "The Fed interest rate decision is expected to be announced, with potential implications for the US economy and stock market. This could impact the US stock market and related assets.",
+      "summary": "The Fed has decided to keep interest rates steady, citing a strong economy and low inflation. The decision was expected, and the market has reacted positively.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4 week horizon",
       "actions": [
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "SPDR S&P 500 ETF Trust (SPY)"
+          "target": "iShares Core U.S. Aggregate Bond ETF (AGG)"
         },
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares 20+ Year Treasury Bond ETF (TLT)"
+          "target": "ProShares UltraPro Short 20+ Year Treasury (TTT)"
         }
       ],
-      "reasoning": "The Fed interest rate decision is expected to be announced, which could lead to increased market volatility and potential implications for the US stock market and related assets. This could impact the US economy and global markets, with potential implications for bonds and other fixed-income assets.",
+      "reasoning": "The Fed's decision to keep interest rates steady makes AGG a good buy. The bond market is likely to be stable, and the ETF will provide a steady income stream. On the other hand, TTT is a good short, as the long-term bond market is likely to be volatile.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4 weeks",
-        "note": "Monitor for interest rate decisions and economic growth"
+        "note": "Monitor the Fed's interest rate decisions and the inflation report"
       },
-      "exitStrategy": "Exit when interest rates stabilize or when economic growth slows",
+      "exitStrategy": "Exit the position if the inflation report shows a significant increase in prices or if the Fed raises interest rates",
       "gains": {
-        "conservative": "+4\u20138%",
-        "conservativeNote": "If interest rates are moderate",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If interest rates are strong",
-        "stopLoss": "-6% on SPY"
+        "conservative": "+2-5%",
+        "conservativeNote": "If the inflation report is in line with expectations",
+        "base": "+5-10%",
+        "baseNote": "If the inflation report shows a moderate increase in prices",
+        "extended": "+10%+",
+        "extendedNote": "If the inflation report shows a significant increase in prices",
+        "stopLoss": "-2% on AGG"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "US dollar (UUP)"
+        "US Dollar Index (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US Federal Reserve policy",
-        "Global economic growth"
+        "Monitor the Fed's interest rate decisions and the inflation report"
       ]
     },
     {
@@ -349,7 +342,7 @@
       "category": "milgeo",
       "catLabel": "Military-Geo",
       "title": "Strait of Hormuz Tensions",
-      "summary": "The Strait of Hormuz tensions are expected to continue, with potential implications for global oil prices and markets. This could impact the US stock market and related assets.",
+      "summary": "The Strait of Hormuz is a critical waterway for oil exports, and tensions in the region are high. The US and its allies are monitoring the situation closely.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -358,48 +351,47 @@
         {
           "label": "BUY",
           "cls": "buy",
-          "target": "United States Oil Fund LP (USO)"
+          "target": "VanEck Vectors Oil Services ETF (OIH)"
         },
         {
-          "label": "SHORT",
-          "cls": "short",
-          "target": "iShares MSCI EAFE ETF (EFA)"
+          "label": "ROTATE",
+          "cls": "rotate",
+          "target": "iShares MSCI Emerging Markets ETF (EEM)"
         }
       ],
-      "reasoning": "The Strait of Hormuz tensions are expected to continue, which could lead to increased oil prices and potential implications for global markets. This could impact the US stock market and related assets, with potential implications for international stocks and assets.",
+      "reasoning": "The tensions in the Strait of Hormuz make OIH a good buy. The ETF provides exposure to the oil services industry, which is likely to be affected by the tensions. Rotating into EEM may also be a good strategy, as the ETF provides exposure to a broader range of emerging markets.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor for geopolitical developments and economic growth"
+        "note": "Monitor the tensions in the Strait of Hormuz"
       },
-      "exitStrategy": "Exit when tensions ease or when oil prices stabilize",
+      "exitStrategy": "Exit the position if the tensions in the Strait of Hormuz are resolved or if the oil market is affected by a major downturn",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If tensions are moderate",
-        "base": "+4\u20138%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+2-5%",
+        "conservativeNote": "If the tensions in the Strait of Hormuz are contained",
+        "base": "+5-10%",
+        "baseNote": "If the tensions in the Strait of Hormuz are resolved or if the oil market is stable",
         "extended": "+10%+",
-        "extendedNote": "If tensions are strong",
-        "stopLoss": "-4% on USO"
+        "extendedNote": "If the tensions in the Strait of Hormuz escalate or if the oil market is affected by a major disruption",
+        "stopLoss": "-2% on OIH"
       },
       "adjacentMarkets": [
-        "Gold (safe haven bid)",
-        "Oil (price volatility)"
+        "US Dollar Index (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US Federal Reserve policy",
-        "Global economic growth"
+        "Monitor the tensions in the Strait of Hormuz"
       ]
     },
     {
       "id": 9,
       "rank": "MED",
       "category": "econ",
-      "catLabel": "Economics",
+      "catLabel": "Economy",
       "title": "US Stock Market Earnings",
-      "summary": "The US stock market earnings are expected to be announced, with potential implications for the US economy and stock market. This could impact the US stock market and related assets.",
+      "summary": "The US stock market is experiencing a strong earnings season, with many companies reporting better-than-expected results. The market is reacting positively to the news.",
       "fresh": true,
-      "freshLabel": "1h ago",
+      "freshLabel": "1d ago",
       "risk": "MED",
       "window": "Active now \u2014 4 week horizon",
       "actions": [
@@ -411,32 +403,31 @@
         {
           "label": "SHORT",
           "cls": "short",
-          "target": "iShares Russell 2000 ETF (IWM)"
+          "target": "ProShares Short S&P 500 (SH)"
         }
       ],
-      "reasoning": "The US stock market earnings are expected to be announced, which could lead to increased market volatility and potential implications for the US stock market and related assets. This could impact the US economy and global markets, with potential implications for bonds and other fixed-income assets.",
+      "reasoning": "The strong earnings season makes SPY a good buy. The ETF provides exposure to the S&P 500, which is likely to be affected by the earnings news. On the other hand, SH is a good short, as the ETF is a inverse ETF that tracks the S&P 500.",
       "timeFrame": {
         "enter": "Now",
         "viable": "4 weeks",
-        "note": "Monitor for earnings reports and economic growth"
+        "note": "Monitor the earnings season and the market's reaction"
       },
-      "exitStrategy": "Exit when earnings season ends or when economic growth slows",
+      "exitStrategy": "Exit the position if the earnings season is disappointing or if the market is affected by a major downturn",
       "gains": {
-        "conservative": "+4\u20138%",
-        "conservativeNote": "If earnings growth is moderate",
-        "base": "+8\u201312%",
-        "baseNote": "Most likely scenario",
-        "extended": "+15%+",
-        "extendedNote": "If earnings growth is strong",
-        "stopLoss": "-6% on SPY"
+        "conservative": "+2-5%",
+        "conservativeNote": "If the earnings season is in line with expectations",
+        "base": "+5-10%",
+        "baseNote": "If the earnings season is better than expected",
+        "extended": "+10%+",
+        "extendedNote": "If the earnings season is exceptionally strong",
+        "stopLoss": "-2% on SPY"
       },
       "adjacentMarkets": [
-        "US Treasury bonds (TLT)",
-        "US dollar (UUP)"
+        "US Dollar Index (DXY)",
+        "Gold (safe haven bid)"
       ],
       "otherFactors": [
-        "US Federal Reserve policy",
-        "Global economic growth"
+        "Monitor the earnings season and the market's reaction"
       ]
     },
     {
@@ -445,7 +436,7 @@
       "category": "tech",
       "catLabel": "Technology",
       "title": "NVIDIA and TSMC AI Partnership",
-      "summary": "The NVIDIA and TSMC AI partnership is expected to continue, with potential implications for the tech sector and related stocks. This could impact the US stock market and related assets.",
+      "summary": "NVIDIA and TSMC are partnering to advance semiconductor design and manufacturing. The partnership is likely to have a significant impact on the industry.",
       "fresh": true,
       "freshLabel": "2d ago",
       "risk": "LOW",
@@ -459,32 +450,31 @@
         {
           "label": "ROTATE",
           "cls": "rotate",
-          "target": "VanEck Vectors Semiconductor ETF (SMH)"
+          "target": "Taiwan Semiconductor Manufacturing Company Limited (TSM)"
         }
       ],
-      "reasoning": "The NVIDIA and TSMC AI partnership is expected to continue, which could lead to increased growth in the company's stock price and the broader tech sector. This could impact the US stock market and related assets, with potential implications for related stocks and ETFs.",
+      "reasoning": "The partnership between NVIDIA and TSMC makes NVDA a good buy. The company's technology is likely to have a significant impact on the industry, and the stock may rise as a result. Rotating into TSM may also be a good strategy, as the company is a leader in the semiconductor industry.",
       "timeFrame": {
         "enter": "Now",
         "viable": "12 weeks",
-        "note": "Monitor for earnings reports and industry trends"
+        "note": "Monitor the partnership between NVIDIA and TSMC"
       },
-      "exitStrategy": "Exit when AI demand slows or when valuations become overstretched",
+      "exitStrategy": "Exit the position if the partnership between NVIDIA and TSMC is unsuccessful or if the industry is affected by a major downturn",
       "gains": {
-        "conservative": "+2\u20134%",
-        "conservativeNote": "If demand growth is moderate",
-        "base": "+4\u20138%",
-        "baseNote": "Most likely scenario",
+        "conservative": "+2-5%",
+        "conservativeNote": "If the partnership between NVIDIA and TSMC is steady",
+        "base": "+5-10%",
+        "baseNote": "If the partnership between NVIDIA and TSMC is successful",
         "extended": "+10%+",
-        "extendedNote": "If demand growth is strong",
-        "stopLoss": "-4% on NVDA"
+        "extendedNote": "If the partnership between NVIDIA and TSMC has a significant impact on the industry",
+        "stopLoss": "-2% on NVDA"
       },
       "adjacentMarkets": [
-        "Cloud computing (AMZN, MSFT)",
-        "Data center stocks (DFT, QTS)"
+        "Cloud Computing (CLOUD)",
+        "Artificial Intelligence (AI)"
       ],
       "otherFactors": [
-        "US-China trade tensions",
-        "Global economic growth"
+        "Monitor the partnership between NVIDIA and TSMC"
       ]
     }
   ]
